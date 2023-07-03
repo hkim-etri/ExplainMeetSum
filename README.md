@@ -1,8 +1,6 @@
-# Usage
-- Install xlsxwriter
-- Download QMSum dataset(https://github.com/Yale-LILY/QMSum)
 
-- Put QMSum dataset files to ./data/ folder
-- run extract_linking_info_from_xlsx.py or get_data_and_make_xlsx_format.py by changing environments and python files 
+We have been undergoing our internal procedures to finalize the necessary preparations for this release. 
 
+I am pleased to inform you that we expect to be ready to make the repository public in August.
 
+Thank you for your patience and understanding throughout this process.
