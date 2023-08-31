@@ -1,6 +1,6 @@
 # ExplainMeetSum
 
-This is code for the ACL 2023 paper [ExplainMeetSum: A Dataset for Explainable Meeting Summarization Aligned with Human Intent](https://aclanthology.org/2023.acl-long.731.pdf)
+This is code for the ACL 2023 paper [ExplainMeetSum: A Dataset for Explainable Meeting Summarization Aligned with Human Intent](https://aclanthology.org/2023.acl-long.731.pdf).
 
 ## Table of Contents
 
@@ -29,8 +29,8 @@ conda activate explainmeetsum
 
 **ExplainMeetSum** dataset is augmented version of [QMSUM](https://github.com/Yale-LILY/QMSum), by newly annotating **evidence sentences** that faithfully "explain" a summary.
 
-> Note: covid_1.json in QMSum is excluded \
-> $\to$ There's some problems found to be used as dataset
+> Note: covid_1.json in QMSum is excluded. \
+> $\to$ There are some problems found to be used as dataset.
 
 ### Folder Structure
 ```
@@ -68,11 +68,11 @@ python data/convert.py \
 ```
 
 ### Dataset Format
-You can find format of each dataset in [here](data/README.md)
+You can find format of each dataset in [here](data/README.md).
 
 #### TLDR;
 ##### ExplainMeetSum
-ExplainMeetSum data is extended-version of QMSum dataset. To annotate evidence sentence by sentence, we had to split sentences as correctly as we can. Below are our methods how to split sentences
+ExplainMeetSum data is extended-version of QMSum dataset. To annotate evidence sentence by sentence, we had to split sentences as correctly as we can. Below are our methods how to split sentences.
 
 1. meeting transcripts
     * Committee: use `nltk.sent_tokenize()`
@@ -95,7 +95,7 @@ extractor based on **human-aligned extractive oracles**.
 
 ![](img/model_structure.png)
 
-An overall architecture of the proposed Multi-DYLE for the case of $M$ = 2
+The figure shows an overall architecture of the proposed Multi-DYLE for the case of $M$ = 2.
 
 ### Dependency
 Install dependencies via:
@@ -111,7 +111,7 @@ pip install nltk==3.6.2 pyrouge==0.1.3 transformers==4.8.1 rouge==1.0.0 datasets
 
 ### Training
 First download the checkpoint of DYLE's `best-generator.ckpt` from [Google Drive](https://drive.google.com/drive/folders/1Zz97kORSWvK6VU1leCyOFQnlijJRI8HG).\
-Place the ckpt file under `MultiDyle/dyle/`
+Place the ckpt file under `MultiDyle/dyle/`.
 
 ```
 sh train_multi_dyle.sh
@@ -142,7 +142,7 @@ Dataset named ExplainMeetSum is extended-version of QMSum([https://github.com/Ya
 Model named Multi-DYLE is extended-version of DYLE([https://github.com/Yale-LILY/DYLE](https://github.com/Yale-LILY/DYLE)) for "[DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization](https://arxiv.org/pdf/2110.08168.pdf)," which distributed under MIT License Copyright (c) 2021 Yale-LILY.
 
 ## Citation
-If you extend or use our work, please cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf)
+If you extend or use our work, please cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf).
 
 ```bibtex
 @inproceedings{kim-etal-2023-explainmeetsum,
