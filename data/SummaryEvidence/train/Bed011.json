@@ -1,0 +1,1676 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The main focus of the meeting was firstly on the structure of the belief-net, its decision nodes and the parameters that influence them, and secondly, on the design of the data collection tasks.",
+            "For the latter, there are already 30 subjects lined up and more are expected to be recruited off campus.",
+            "It was agreed that making subjects select from categories of tasks, such as \"big place\", \"service\", etc. could provide a better range of data.",
+            "The duration of each dialogue will probably be no more than 10 minutes.",
+            "On the other hand, the organisation of the intermediate nodes of the belief-net and their properties is almost complete, although no conditional probabilities have been inserted yet.",
+            "These nodes represent decisions that will function as parameters to action calls in the system.",
+            "Their values will either be inferred from the user-system interaction, or -as a last resort- requested directly from the user.",
+            "Finally, as to the semantic and syntactic constructions, work will start with more general and brief descriptions, before moving to exhaustive analysis of at least a subset.",
+            "Similarly, the construction parser that is to be built within a year is expected to be relatively basic, yet robust.",
+            "As the data collection is ready to start, it was agreed that for the first ten subjects the interaction with the system/instructor will be along the lines of a basic response system.",
+            "Tasks will be divided in categories (\"tour\", \"attend\" etc) and subjects are going to be asked to choose no more than one task out of each category .",
+            "This first run will probably take a couple of weeks, but the first results (audio files and selected highlights) will be discussed shortly, in order to decide whether more detail (complex spatial relationships, temporal planning etc) should be included in the design or particular constructions be elicited.",
+            "Regarding the completion of the belief-net, the remaining details, mainly the properties of the ontology and discourse nodes, should be added.",
+            "After building in the conditional probability tables, a working prototype of the net will be ready.",
+            "Finally, the initial work on constructions should focus on a general overview of the dialogues with brief descriptions.",
+            "Further analysis will follow from there in a top-down fashion.",
+            "Although there is an effort to include some of the key features of the belief-net in the design of the data gathering, not all of them can be built in.",
+            "The tasks that the subjects will have to carry out will be categorised in ways that will indicate EVA intentions, however, this approach may limit the variety of possible constructions used within a single category of entities.",
+            "On the other hand, generating more diverse dialogues may have an adverse effect from a speech recognition perspective.",
+            "A minor problem has arisen with the laboratory where recordings are supposed to take place, but this is currently being sorted out.",
+            "As regards the completion of the belief-net, no work has been done on the CPT's yet.",
+            "Finally, it was noted that although a general overview of the pertinent constructions is attainable, no more than ten of them can be analysed in detail with the summer months.",
+            "A detailed diagram of the EVA belief-net was presented and some of the intermediate nodes and their properties were discussed in depth.",
+            "Some of the key features and properties are: \"Go-there\", which is binary, and defined by the user, situation, ontology and discourse models; \"timing\" (current/next tour); \"reason\" (business, sight-seeing, socialising); \"transport\"; \"length of tour\"; \"costs\"; \"entity\" (open, accessible) etc.",
+            "The data collection that will provide relevant dialogues is moving along, with thirty subjects already lined up.",
+            "They will be given a reading task, which will include some german proper names, and a series of tasks from the tourist domain to choose from.",
+            "In order to get directions, they will then communicate with a computer system and a human operator, using a sketchy map as an aid.",
+            "A different set of data are already available from the SmartKom system and similar sources.",
+            "A preliminary study using this data has shown that a large number of syntactic and semantic constructions can be derived from a small sample."
+        ],
+        "answer_sentence_index": [
+            "Bed011.s.1",
+            "Bed011.s.2",
+            "Bed011.s.3",
+            "Bed011.s.4",
+            "Bed011.s.5",
+            "Bed011.s.6",
+            "Bed011.s.7",
+            "Bed011.s.8",
+            "Bed011.s.9",
+            "Bed011.s.10",
+            "Bed011.s.11",
+            "Bed011.s.12",
+            "Bed011.s.13",
+            "Bed011.s.14",
+            "Bed011.s.15",
+            "Bed011.s.16",
+            "Bed011.s.17",
+            "Bed011.s.18",
+            "Bed011.s.19",
+            "Bed011.s.20",
+            "Bed011.s.21",
+            "Bed011.s.22",
+            "Bed011.s.23",
+            "Bed011.s.24",
+            "Bed011.s.25",
+            "Bed011.s.26",
+            "Bed011.s.27",
+            "Bed011.s.28",
+            "Bed011.s.29"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And here are the uh {disfmarker} tasks to be implemented via our data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So What we 're gonna do today is two related things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "Uh one of them is to work on the semantics of the belief - net which is going to be the main inference engine for thi the system uh making decisions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "And decisions are going to turn out to be parameter choices for calls on other modules ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 9,
+                    "speaker": "Professor D",
+                    "content": "Then we need to figure out what influences its choices"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 61,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And Fey has some thirty subjects lined up ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 239,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "We don't have enough ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 240,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "But it seems like since we {disfmarker} since we are getting towards uh subject {disfmarker} uh fifty subjects"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 244,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Well , um , these are all f people off campus s from campus so far ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And then they gonna have to f um um choose from one of these tasks , which are listed here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "so if {disfmarker} if it 's one service , one luxury item , you know , one big - ish place , and so forth and so on , um {disfmarker} then my guess is that {disfmarker} that the data is going to be easier to handle ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 174,
+                    "sent_index": 1,
+                    "speaker": "Undergrad E",
+                    "content": "I 'm not sure how long it 's actually going to take ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 177,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It 's actually like five minutes dialogue ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I b My guess is it 's gonna be ten ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Commented and {disfmarker} what they 're about and sort of {disfmarker} the properties we may um give them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 27,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "and it 's not all that many , and it 's perfectly feasible technically to build belief - nets that will do that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 9,
+                    "speaker": "Grad C",
+                    "content": "And um now all w that 's left to do then is the CPG 's , the conditional probabilities , for the likelihood of a person having enough money , actually wanting to go a place if it costs , you know this or that ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "And decisions are going to turn out to be parameter choices for calls on other modules ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 402,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And that we can actually infer them to a significant de degree , or we ask ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "and we 're gonna start thinking a about {disfmarker} uh {disfmarker} what constructions we want to elicit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 487,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Uh , and {disfmarker} Though for us , constructions are primarily semantic ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 490,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I mean from my point of view I 'm {disfmarker} I 'm trying to care about the syntax , so you know {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 554,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Um sometime , I have to talk to some subset of the people in this group , at least about um what sort of constructions I 'm looking for ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 558,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Um , so there 's a variety of sort of different sorts of constructions"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 568,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "but uh , but you know obviously we need to get sort of a general view of what things look like ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "and whatever we specify for the so - called \" Keith node \" , or the discourse , what comes from the {disfmarker} um {disfmarker} parser , construction parser , um will contribute to the D and the ontology to the sub - O node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 539,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "We are expecting Johno to build a parser ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 544,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Uh {disfmarker} He 's g he 's hoping to do this for his masters ' thesis s by a year from now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Well , the hope is that the parser itself is , uh , pretty robust ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "And we sort of get the idea what people do when they s think they speak to a machine and what people say when they think they speak to a human , or know , or assume they speak to a human ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "That 's the data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And they 're {disfmarker} r ready uh {disfmarker} to roll ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Yeah , but I think this is part of the instructor 's job ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Maybe {disfmarker} I suggest we make some fine tuning of these , get {disfmarker} sort of {disfmarker} run through ten or so subjects"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Um But anyway {disfmarker} yeah , so I think {disfmarker} it 's a good idea to start with the sort of relatively straight forward res just response system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And then they gonna have to f um um choose from one of these tasks , which are listed here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 0,
+                    "speaker": "Undergrad E",
+                    "content": "That w maybe one thing we should do is go through this list and sort of select things that are categories and then o offer only one member of that category ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 229,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "all of these d do have this kind of \" tour \" um {disfmarker} aspect about the way you would go to them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 229,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "And uh , the movie theater is probably also uh {disfmarker} e is a \" attend \" et cetera ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 233,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "and then , what one would expect is that {disfmarker} that the sentence types would {disfmarker} uh their responses would tend to be grouped according to the kind of activity , you would expect ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 120,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "And a I w think the data would be nicer if we get temporal references ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Maybe {disfmarker} I suggest we make some fine tuning of these , get {disfmarker} sort of {disfmarker} run through ten or so subjects"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 139,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "and see whether we wanna make it more complex or not , depending on what {disfmarker} what sort of results we 're getting ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Undergrad E",
+                    "content": "How long will it be ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 160,
+                    "sent_index": 0,
+                    "speaker": "Undergrad E",
+                    "content": "Um {disfmarker} I {disfmarker} I would say maybe two weeks ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 161,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Let 's plan next Monday , OK , to have a review of what we have so far ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 162,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "This means audio , but {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 165,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "but it would be great if you could , um , not transcribe it all , but pick out uh , some stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "and we 're gonna start thinking a about {disfmarker} uh {disfmarker} what constructions we want to elicit ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So maybe that should be another {vocalsound} property in there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "Uh Robert and Eva and Bhaskara are gonna actually {disfmarker} build a belief - net that {disfmarker} that , um , has CPT 's and , you know , tries to infer this from various kinds of information ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 529,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "see this {disfmarker} this {disfmarker} this {disfmarker} uh {disfmarker} ontology node is probably something that I will try to expand ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 529,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And hopefully you can sort of also try to find out , you know , sooner or later in the course of the summer what we can expect to get from the discourse that might , you know {disfmarker} or the {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "and , you know , if we {disfmarker} if we do , and we probably will , actually try to uh build a prototype , uh"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "probably we could get by with the prototype only handling a few of them anyway ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "Uh Robert and Eva and Bhaskara are gonna actually {disfmarker} build a belief - net that {disfmarker} that , um , has CPT 's and , you know , tries to infer this from various kinds of information ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "and we 're gonna start thinking a about {disfmarker} uh {disfmarker} what constructions we want to elicit ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 484,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "D Do you mean {disfmarker} Do you mean eliciting particular constructions ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 484,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Or do you mean like what kinds of things we want to get people talking about ? Semantically speaking , eh ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 487,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Both ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 568,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "but uh , but you know obviously we need to get sort of a general view of what things look like ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 568,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "but uh , but you know obviously we need to get sort of a general view of what things look like ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 569,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "sort of like Nancy did in some of the er these papers where you do enough of them so you can go from top to bottom {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "we get to the uh {disfmarker} uh belief - net just focusing on {disfmarker} on the g Go - there node ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 75,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So I came up with a couple of additional nodes here where um"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So , and this actually turned out to be pretty key , because having specified sort of these {disfmarker} uh {disfmarker} this {disfmarker} this {disfmarker} intermediate level Um and sort of noticing that everything that happens here {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And for now uh the {disfmarker} the question is \" How much of these decisions do we want to build in explicitly into our data collection ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "probably we could get by with the prototype only handling a few of them anyway ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "And analogously for example , here we have our EVA um {disfmarker} intention ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 0,
+                    "speaker": "Undergrad E",
+                    "content": "That w maybe one thing we should do is go through this list and sort of select things that are categories and then o offer only one member of that category ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "This is limiting the choices , but yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "But um I {disfmarker} I think this approach will very well work ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 558,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Um , so there 's a variety of sort of different sorts of constructions"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 17,
+                    "speaker": "Professor D",
+                    "content": "Uh record dialogues more or less ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 18,
+                    "speaker": "Professor D",
+                    "content": "And {disfmarker} depending on what Fey sort of provokes them to say , we 'll get information on different things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um we 're still l looking for a room on the sixth floor because they stole away that conference room . Um {disfmarker} behind our backs ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "David and {disfmarker} and Jane and {disfmarker} and Lila are working on that as we speak ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "Uh Robert and Eva and Bhaskara are gonna actually {disfmarker} build a belief - net that {disfmarker} that , um , has CPT 's and , you know , tries to infer this from various kinds of information ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 483,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "and we 're gonna start thinking a about {disfmarker} uh {disfmarker} what constructions we want to elicit ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 554,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I mean , you know obviously like just again , looking at this one uh thing , you know , I saw y things from {disfmarker} sort of as general as argument structure constructions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 566,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "And I {disfmarker} I me it would it would be completely out of the question to really do more than , say , like , oh I don't know , ten , over the summer ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "And analogously for example , here we have our EVA um {disfmarker} intention ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 27,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So the uh {disfmarker} uh {disfmarker} on the left are decision nodes , and discreet values ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "we get to the uh {disfmarker} uh belief - net just focusing on {disfmarker} on the g Go - there node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "uh {disfmarker} Analogously this would be sort of the reason node and the timing node and so forth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "um {disfmarker} I can now sort of draw straight lines from these to here , meaning it g of course goes where the sub - S {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So maybe that should be another {vocalsound} property in there ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And what w what happened is that um design - wise I 'd sort of n noticed that we can {disfmarker} we still get a lot of errors from a lot of points to one of these sub Go - there User Go - there Situation nodes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So , and this actually turned out to be pretty key , because having specified sort of these {disfmarker} uh {disfmarker} this {disfmarker} this {disfmarker} intermediate level Um and sort of noticing that everything that happens here {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "everything that comes from situation , everything that comes from user goes with the sub - U ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "and whatever we specify for the so - called \" Keith node \" , or the discourse , what comes from the {disfmarker} um {disfmarker} parser , construction parser , um will contribute to the D and the ontology to the sub - O node ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 255,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Okay , in terms of decision nodes ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 255,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I mean , Go - there is {disfmarker} is a yes or no ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 260,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "um , timing was um {disfmarker} I have these three ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 260,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "Now , later on the same tour , sometimes on the next tour ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 311,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Um , the reason why {disfmarker} why do we go there in the first place"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 311,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "IE uh {disfmarker} it 's either uh {disfmarker} for sightseeing , for meeting people , for running errands , or doing business ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 356,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "wants to drive there , walk there , or use some other form of transportation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 389,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "OK , \" Length \" is um , you wanna get this over with as fast as possible ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 416,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "\" Costs \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "And . if I care about it being open , accessible or not , I don't think there 's any middle ground there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 469,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So \" object \" becomes \" entity \" ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And here are the uh {disfmarker} tasks to be implemented via our data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 17,
+                    "speaker": "Professor D",
+                    "content": "Uh record dialogues more or less ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 61,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And Fey has some thirty subjects lined up ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And they 're {disfmarker} r ready uh {disfmarker} to roll ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Then {disfmarker} then they will read uh {disfmarker} a task where lots of German words are sort of thrown in between ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} and they have to read isolated proper names"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And um {disfmarker} And then they gonna have to f um um choose from one of these tasks , which are listed here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Six different things they sort of think they would do if they were in Heidelberg or traveling someplace {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Very sketchy , simplified map ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And they can take notes on that map ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And then they call this computer system that works perfectly , and understands everything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 56,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "So if you ask \" How do I get to the castle \" then a m s several seconds later it 'll come out of here \" In order to get to the castle you do {disfmarker} \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And Fey comes on the phone as a human operator ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Dialogues . SmartKom {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 525,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Some data I collected in a couple weeks for training recognizers and email way back when ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 487,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Uh , and {disfmarker} Though for us , constructions are primarily semantic ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 490,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I mean from my point of view I 'm {disfmarker} I 'm trying to care about the syntax , so you know {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 594,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Um , we could also sor sort of have the analogen of o our sample sentences ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the focus of the meeting?.",
+                "tokenized_answer": [
+                    "The main focus of the meeting was firstly on the structure of the belief-net, its decision nodes and the parameters that influence them, and secondly, on the design of the data collection tasks.",
+                    "For the latter, there are already 30 subjects lined up and more are expected to be recruited off campus.",
+                    "Finally, as to the semantic and syntactic constructions, work will start with more general and brief descriptions, before moving to exhaustive analysis of at least a subset.",
+                    "Similarly, the construction parser that is to be built within a year is expected to be relatively basic, yet robust."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And here are the uh {disfmarker} tasks to be implemented via our data collection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "So What we 're gonna do today is two related things ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "Uh one of them is to work on the semantics of the belief - net which is going to be the main inference engine for thi the system uh making decisions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 5,
+                            "speaker": "Professor D",
+                            "content": "And decisions are going to turn out to be parameter choices for calls on other modules ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 9,
+                            "speaker": "Professor D",
+                            "content": "Then we need to figure out what influences its choices"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 15,
+                            "speaker": "Professor D",
+                            "content": "And we 're also , sort of uh in the same process , going to work with Fey on what there should be in the dialogues ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And Fey has some thirty subjects lined up ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 239,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "We don't have enough ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 240,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "But it seems like since we {disfmarker} since we are getting towards uh subject {disfmarker} uh fifty subjects"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 244,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , um , these are all f people off campus s from campus so far ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 483,
+                            "sent_index": 5,
+                            "speaker": "Professor D",
+                            "content": "and we 're gonna start thinking a about {disfmarker} uh {disfmarker} what constructions we want to elicit ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 487,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Uh , and {disfmarker} Though for us , constructions are primarily semantic ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 490,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I mean from my point of view I 'm {disfmarker} I 'm trying to care about the syntax , so you know {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 554,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Um sometime , I have to talk to some subset of the people in this group , at least about um what sort of constructions I 'm looking for ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 558,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Um , so there 's a variety of sort of different sorts of constructions"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 568,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "but uh , but you know obviously we need to get sort of a general view of what things look like ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "and whatever we specify for the so - called \" Keith node \" , or the discourse , what comes from the {disfmarker} um {disfmarker} parser , construction parser , um will contribute to the D and the ontology to the sub - O node ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "We are expecting Johno to build a parser ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 544,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Uh {disfmarker} He 's g he 's hoping to do this for his masters ' thesis s by a year from now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , the hope is that the parser itself is , uh , pretty robust ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was the proposed structure of the belief net.",
+                "tokenized_answer": [
+                    "The team discussed that the organisation of the intermediate nodes of the belief-net and their properties is almost complete, although no conditional probabilities have been inserted yet.",
+                    "These nodes represent decisions that will function as parameters to action calls in the system.",
+                    "Their values will either be inferred from the user-system interaction, or -as a last resort- requested directly from the user."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Commented and {disfmarker} what they 're about and sort of {disfmarker} the properties we may um give them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 27,
+                            "sent_index": 5,
+                            "speaker": "Professor D",
+                            "content": "and it 's not all that many , and it 's perfectly feasible technically to build belief - nets that will do that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 9,
+                            "speaker": "Grad C",
+                            "content": "And um now all w that 's left to do then is the CPG 's , the conditional probabilities , for the likelihood of a person having enough money , actually wanting to go a place if it costs , you know this or that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So what I 've tried to do here is list all the decision nodes that we have identified on this {pause} side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 5,
+                            "speaker": "Professor D",
+                            "content": "And decisions are going to turn out to be parameter choices for calls on other modules ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 402,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And that we can actually infer them to a significant de degree , or we ask ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What are the key features of the intermediate nodes?",
+                "tokenized_answer": [
+                    "A detailed diagram of the EVA belief-net was presented and some of the intermediate nodes and their properties were discussed in depth.",
+                    "Some of the key features and properties are: \"Go-there\", which is binary, and defined by the user, situation, ontology and discourse models; \"timing\" (current/next tour); \"reason\" (business, sight-seeing, socialising); \"transport\"; \"length of tour\"; \"costs\"; \"entity\" (open, accessible) etc."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "And analogously for example , here we have our EVA um {disfmarker} intention ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 27,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "So the uh {disfmarker} uh {disfmarker} on the left are decision nodes , and discreet values ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "we get to the uh {disfmarker} uh belief - net just focusing on {disfmarker} on the g Go - there node ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "uh {disfmarker} Analogously this would be sort of the reason node and the timing node and so forth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And what w what happened is that um design - wise I 'd sort of n noticed that we can {disfmarker} we still get a lot of errors from a lot of points to one of these sub Go - there User Go - there Situation nodes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "So I came up with a couple of additional nodes here where um"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "um {disfmarker} I can now sort of draw straight lines from these to here , meaning it g of course goes where the sub - S {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 306,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So maybe that should be another {vocalsound} property in there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And what w what happened is that um design - wise I 'd sort of n noticed that we can {disfmarker} we still get a lot of errors from a lot of points to one of these sub Go - there User Go - there Situation nodes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So , and this actually turned out to be pretty key , because having specified sort of these {disfmarker} uh {disfmarker} this {disfmarker} this {disfmarker} intermediate level Um and sort of noticing that everything that happens here {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "everything that comes from situation , everything that comes from user goes with the sub - U ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "and whatever we specify for the so - called \" Keith node \" , or the discourse , what comes from the {disfmarker} um {disfmarker} parser , construction parser , um will contribute to the D and the ontology to the sub - O node ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 255,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Okay , in terms of decision nodes ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 255,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "I mean , Go - there is {disfmarker} is a yes or no ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 260,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "um , timing was um {disfmarker} I have these three ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 260,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "Now , later on the same tour , sometimes on the next tour ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 311,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Um , the reason why {disfmarker} why do we go there in the first place"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 311,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "IE uh {disfmarker} it 's either uh {disfmarker} for sightseeing , for meeting people , for running errands , or doing business ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 352,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Um , \" mode \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 356,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "wants to drive there , walk there , or use some other form of transportation ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 389,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "OK , \" Length \" is um , you wanna get this over with as fast as possible ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "\" Costs \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 466,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Um {disfmarker} \" Object information \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 466,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "And . if I care about it being open , accessible or not , I don't think there 's any middle ground there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 469,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "So \" object \" becomes \" entity \" ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about the data collection participants?",
+                "tokenized_answer": [
+                    "There are already 30 subjects lined up and more are expected to be recruited off campus.",
+                    "It was agreed that making subjects select from categories of tasks, such as \"big place\", \"service\", etc. could provide a better range of data.",
+                    "The duration of each dialogue will probably be no more than 10 minutes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And Fey has some thirty subjects lined up ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 239,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "We don't have enough ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 240,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "But it seems like since we {disfmarker} since we are getting towards uh subject {disfmarker} uh fifty subjects"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 244,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , um , these are all f people off campus s from campus so far ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And then they gonna have to f um um choose from one of these tasks , which are listed here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 7,
+                            "speaker": "Professor D",
+                            "content": "so if {disfmarker} if it 's one service , one luxury item , you know , one big - ish place , and so forth and so on , um {disfmarker} then my guess is that {disfmarker} that the data is going to be easier to handle ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 174,
+                            "sent_index": 1,
+                            "speaker": "Undergrad E",
+                            "content": "I 'm not sure how long it 's actually going to take ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 177,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "It 's actually like five minutes dialogue ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 178,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I b My guess is it 's gonna be ten ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is the routine for data collection?",
+                "tokenized_answer": [
+                    "The data collection that will provide relevant dialogues is moving along, with thirty subjects already lined up.",
+                    "They will be given a reading task, which will include some german proper names, and a series of tasks from the tourist domain to choose from.",
+                    "In order to get directions, they will then communicate with a computer system and a human operator, using a sketchy map as an aid.",
+                    "A different set of data are already available from the SmartKom system and similar sources."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And here are the uh {disfmarker} tasks to be implemented via our data collection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 17,
+                            "speaker": "Professor D",
+                            "content": "Uh record dialogues more or less ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And Fey has some thirty subjects lined up ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And they 're {disfmarker} r ready uh {disfmarker} to roll ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Then {disfmarker} then they will read uh {disfmarker} a task where lots of German words are sort of thrown in between ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} and they have to read isolated proper names"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And um {disfmarker} And then they gonna have to f um um choose from one of these tasks , which are listed here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "Six different things they sort of think they would do if they were in Heidelberg or traveling someplace {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Very sketchy , simplified map ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And they can take notes on that map ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "And then they call this computer system that works perfectly , and understands everything ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "So if you ask \" How do I get to the castle \" then a m s several seconds later it 'll come out of here \" In order to get to the castle you do {disfmarker} \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And Fey comes on the phone as a human operator ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 514,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Dialogues . SmartKom {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 525,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Some data I collected in a couple weeks for training recognizers and email way back when ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

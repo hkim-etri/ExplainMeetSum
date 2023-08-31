@@ -1,0 +1,1888 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group discussed research aims and corresponding concerns for future data collection.",
+            "It was agreed that a substantial amount of meeting data is required from different domains, and comprising several speakers, to perform the types of discourse and acoustic analyses desired.",
+            "Ongoing efforts by speaker mn005 to automatically  detect regions of speaker overlap were considered.",
+            "It was suggested that speaker mn005 focus on a small set of acoustic parameters, e.g. energy and harmonics-related features, to distinguish regions of overlap from those containing the speech of just one speaker.",
+            "Disk space issues were discussed.",
+            "And, finally, the problem of speaker anonymization was explored.",
+            "Recordings must be of existing meetings that are conducted in English.",
+            "Participants should ideally consist of professors and doctoral students, but no undergraduate students, who are willing to record their meetings at ICSI.",
+            "The Meeting Recorder corpus should comprise data from a large number of speakers representing different domains.",
+            "Attempts should also be made to optimize the speaker population for generating good language models.",
+            "Speaker me011 will pursue volunteers from the Haas Business School to record their weekly meetings at ICSI.",
+            "A tentative decision was made to offer participants a recorded version of their meeting on a cd rom once the transcript screening phase is complete for that meeting.",
+            "Non-native speakers with a low proficiency in English are problematic for language modelling.",
+            "The prospect of creating another recording setup requires the elimination certain more complicated dimensions of the existing setup, e.g. the use of close-talking and far-field microphones.",
+            "Speaker anonymization poses problems for the transcription proccess, and also discourse analysis, as it makes it more difficult to track who is speaking and to whom a particular utterance is being addressed.",
+            "As the current version of transcriptions does not include speaker identification labels, no multiple speaker transcription conventions are in use.",
+            "Research aims and corresponding concerns for future data collection were discussed.",
+            "A student researcher will be working with speaker fe016 to investigate different strategies for automatically summarizing meetings, and identifying discussional 'hotspots'.",
+            "Efforts by speaker mn005 are ongoing to detect regions of speaker overlap in the signal.",
+            "A total of 230 regions of overlapping speech have been manually transcribed for a subset of meeting data.",
+            "Supervised clustering and neural networks are being considered as means for classifying overlap.",
+            "It was suggested that speaker mn005 focus on a small set of acoustic parameters, e.g. energy and harmonics-related features, to use the mixed signal to distinguish regions of overlap from those containing the speech of just one speaker.",
+            "Future work may also involve focussing on additional signals, and using a Markov model to analyze acoustic parameters over larger time frames.",
+            "Beam-forming was suggested as an alternate method of detecting overlapping speech.",
+            "Efforts are ongoing to select an optimal method for anonymizing speakers.",
+            "More disk space is gradually being made available for the storage of new Meeting Recorder data."
+        ],
+        "answer_sentence_index": [
+            "Bmr006.s.1",
+            "Bmr006.s.2",
+            "Bmr006.s.3",
+            "Bmr006.s.4",
+            "Bmr006.s.5",
+            "Bmr006.s.6",
+            "Bmr006.s.7",
+            "Bmr006.s.8",
+            "Bmr006.s.9",
+            "Bmr006.s.10",
+            "Bmr006.s.11",
+            "Bmr006.s.12",
+            "Bmr006.s.13",
+            "Bmr006.s.14",
+            "Bmr006.s.15",
+            "Bmr006.s.16",
+            "Bmr006.s.17",
+            "Bmr006.s.18",
+            "Bmr006.s.19",
+            "Bmr006.s.20",
+            "Bmr006.s.21",
+            "Bmr006.s.22",
+            "Bmr006.s.23",
+            "Bmr006.s.24",
+            "Bmr006.s.25",
+            "Bmr006.s.26"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "Um , so , uh , let 's see , we were having a discussion the other day , maybe we should bring that up , about uh , the nature of the data that we are collecting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "And in that uh , regard , I thought we definitely w will need {disfmarker} it 'd b it 'd be nice for us to have a bunch of data from a few different domains , or a few different kinds of meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I mean , it {disfmarker} it {disfmarker} I think that if we 're aiming at {disfmarker} at uh , groups of graduate students and professors and so forth who are talking about things together , and it 's from the Berkeley campus , probably most of it will be OK ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 711,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I {disfmarker} eh the {disfmarker} the Meeting Recorder project , for me , has eh , two {vocalsound} eh , w has eh several parts , several p {vocalsound} objective"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 715,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "But eh eh I {disfmarker} I understand that you {disfmarker} your objective is {pause} to eh classify , to know that eh that zone {pause} not is only {comment} a new zone in the {disfmarker} in the file , that eh you have eh , but you have to {disfmarker} to {disfmarker} to know that this is overlap zone ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "And in that uh , regard , I thought we definitely w will need {disfmarker} it 'd b it 'd be nice for us to have a bunch of data from a few different domains , or a few different kinds of meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I 'd like to have many different speakers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "but if we only get one or two from each group , that still could be useful acoustically just because we 'd have close and distant microphones with different people ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 60,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah , I definitely agree with that ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 473,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It 's a real problem , {comment} a frequently problem {comment} uh , because you have overlapping zones eh , eh , eh , all the time ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 493,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I plan {disfmarker} I plan , but eh , eh , the idea {vocalsound} is the {disfmarker} is the following ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 493,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Now , {vocalsound} eh , I need ehm , {vocalsound} to detect eh all the overlapping zones exactly ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 533,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "eh . And {vocalsound} I {disfmarker} I 'd prefer {disfmarker} I would prefer , the to {disfmarker} to have , eh , this labeled automatically ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 497,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "for that , because my {disfmarker} my idea is to {disfmarker} to study the nnn {disfmarker} the {disfmarker} {vocalsound} the set of parameters eh , what , eh , are more m more discriminant to eh , classify ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "what is the , eh , the property of the different feat eh feature , eh , to classify eh speech and overlapping eh speech ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 808,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Well , that {disfmarker} that {disfmarker} that 's another reason why very simple features , things like energy , and things {disfmarker} things like harmonicity , and {vocalsound} residual energy are uh , yeah are {disfmarker} are better to use than very complex ones because they 'll be more reliable ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "and {vocalsound} then um , I guess another topic would be {vocalsound} where are we in the whole disk resources {pause} question"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "I mean , so we 're gonna get more disk space ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "W w we are getting more space ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 421,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "We are getting , uh , another disk rack and {disfmarker} and four thirty - six gigabyte disks ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1096,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "the question becomes what symbol are you gonna put in there for everybody 's name ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1096,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "and whether you 're gonna put it in the text where he says \" Hey Roger \" or are we gonna put that person 's anonymized name in instead ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1097,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "No , because then that would give you a mapping , and you don't wanna have a mapping ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1098,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "OK , so first decision is , we 're gonna anonymize the same name for the speaker identifier and also in the text whenever the speaker 's name is mentioned ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "And {disfmarker} and I think if it 's a pre - existing meeting and it 's held in English , {comment} I {disfmarker} I think it 's probably OK if a few of the people don't have uh , g particularly good English skills ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 8,
+                    "speaker": "Professor D",
+                    "content": "I mean , we really wanna have a substantial amount recorded this way ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So I was {disfmarker} I was thinking more in terms of talking to professors uh , and {disfmarker} and {disfmarker} and uh , senior uh , uh , d and uh , doctoral students who are leading projects and offering to them that they have their {disfmarker} hold their meeting down here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I mean , it {disfmarker} it {disfmarker} I think that if we 're aiming at {disfmarker} at uh , groups of graduate students and professors and so forth who are talking about things together , and it 's from the Berkeley campus , probably most of it will be OK ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "And my point in m in my note to Liz was I think that undergrads are an iff iffy population ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 183,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But I {disfmarker} I {disfmarker} I think you need , uh , another portable thing a another portable equipment to {disfmarker} to do , eh , more e easier the recording process , eh , out from ICSI ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "And in that uh , regard , I thought we definitely w will need {disfmarker} it 'd b it 'd be nice for us to have a bunch of data from a few different domains , or a few different kinds of meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I 'd like to have many different speakers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 443,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "well , it 's wherever the Meeting Recorder currently is ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "and if you just post randomly to undergrads I think you 'd get such a mixed bag that it would be hard to know how much conversation you 'd have at all . And {disfmarker} and the English you 'd have {disfmarker} The language models would be really hard to build"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "the idea is , if they have a meeting room and they can guarantee that the equipment will be safe and so forth , and if one of us is up there once a week to record the meeting or something {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 183,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But I {disfmarker} I {disfmarker} I think you need , uh , another portable thing a another portable equipment to {disfmarker} to do , eh , more e easier the recording process , eh , out from ICSI ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 277,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Um , I had a {disfmarker} I spoke with some people up at Haas Business School who volunteered ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 279,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Should I pursue that ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 280,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Oh , definitely , yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 302,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "The o the o the other {disfmarker} The other thing is , uh , that we {disfmarker} we talked about is give to them {disfmarker} uh , burn an extra CD - ROM ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 351,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "So , after the transcript screening phase ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "No , it 's more a matter of uh , proficiency ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 113,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "If you have people who are using English as a {disfmarker} as an interlanguage because they {disfmarker} they don't {disfmarker} uh , they can't speak in their native languages and {disfmarker} but their interlanguage isn't really a match to any existing , uh , language model ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "Uh , i We realized in discussion that the other thing is , what about this business of distant and close microphones ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 247,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Uh but I {disfmarker} I think that the uh {vocalsound} i We can't really underestimate the difficulty {disfmarker} shouldn't really u underestimate the difficulty of getting a setup like this up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 251,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "If you 're talking about something simple , where you throw away a lot of these dimensions , then you can do that right away ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1098,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "OK , so first decision is , we 're gonna anonymize the same name for the speaker identifier and also in the text whenever the speaker 's name is mentioned ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1103,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "Then , uh , it seems to me that {disfmarker} Well , maybe I {disfmarker} uh it seems to me that if you change the name , the transcript 's gonna disagree with the audio , and you won't be able to use that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1108,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "OK , well , but then there 's this issue of if we 're gonna use this for a discourse type of thing , then {disfmarker} and , you know , Liz was mentioning stuff in a previous meeting about gaze direction and who 's {disfmarker} who 's the addressee and all , then to have \" Roger \" be the thing in the utterance and then actually have the speaker identifier who was \" Roger \" be \" Frank \" , that 's going to be really confusing and make it pretty much useless for discourse analysis ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1157,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I mean , so so {disfmarker} how is that information gonna get labeled anyway ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1170,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Well , the current one they don't do speaker identity ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1172,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and so in their current conventions there are no multiple speaker conventions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1173,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So it may just be one long transcript of a bunch of words ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "Um , so , uh , let 's see , we were having a discussion the other day , maybe we should bring that up , about uh , the nature of the data that we are collecting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "And in that uh , regard , I thought we definitely w will need {disfmarker} it 'd b it 'd be nice for us to have a bunch of data from a few different domains , or a few different kinds of meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 711,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I {disfmarker} eh the {disfmarker} the Meeting Recorder project , for me , has eh , two {vocalsound} eh , w has eh several parts , several p {vocalsound} objective"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "um , and was thinking of this mostly just so that we could do research on this data um , since we 'll have a new {disfmarker} this new student di does wanna work with us ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "So . Then I was um , talking to Morgan about some {pause} new proposed work in this area , sort of a separate issue from what the student would be working on where I was thinking of doing some kind of summarization of meetings or trying to find cues in both the utterances and in the utterance patterns ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 6,
+                    "speaker": "PhD F",
+                    "content": "sort of raw cues from the interaction that can be measured from the signals and from the diff different microphones that point to sort of hot spots in the meeting , or things where stuff is going on that might be important for someone who didn't attend to {pause} listen to ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 493,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I plan {disfmarker} I plan , but eh , eh , the idea {vocalsound} is the {disfmarker} is the following ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 493,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Now , {vocalsound} eh , I need ehm , {vocalsound} to detect eh all the overlapping zones exactly ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 478,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Eh , by a moment I have , eh , nnn , the , eh , {pause} n I {disfmarker} I did a mark of all the overlapped zones in the meeting recording ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 510,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "So {disfmarker} so you intend to hand - mark those and exclude them ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "but eh , I {disfmarker} I have marked enough speech on over and all the overlapping zones ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "I have , eh , {pause} two hundred and thirty , more or less , overlapping zones , and is similar to {disfmarker} to this information ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 581,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "So , this is {disfmarker} this is {disfmarker} a subset ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "The idea is {pause} to eh {disfmarker} to use {disfmarker} eh , I 'm not sure to {disfmarker} eh yet , but eh my idea is to use a {disfmarker} a cluster {pause} {vocalsound} eh algorithm or , nnn , a person strong in neural net algorithm to eh {disfmarker} to eh study"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "what is the , eh , the property of the different feat eh feature , eh , to classify eh speech and overlapping eh speech ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 644,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Supervised clustering ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 656,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "A another possibility it to use eh a netw netw a neural network ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 497,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "for that , because my {disfmarker} my idea is to {disfmarker} to study the nnn {disfmarker} the {disfmarker} {vocalsound} the set of parameters eh , what , eh , are more m more discriminant to eh , classify ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "what is the , eh , the property of the different feat eh feature , eh , to classify eh speech and overlapping eh speech ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 787,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And so , if you can get {disfmarker} @ @ {comment} Uh again , my prescription would be that you would , with a mixed signal , you would take a collection of possible uh , features {vocalsound} look at them , look at how these different classes that you 've marked , separate themselves , {comment} {vocalsound} and then collect , uh in pairs , {vocalsound} and then collect ten of them or something , and then proceed {vocalsound} with a bigger classifier ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 808,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Well , that {disfmarker} that {disfmarker} that 's another reason why very simple features , things like energy , and things {disfmarker} things like harmonicity , and {vocalsound} residual energy are uh , yeah are {disfmarker} are better to use than very complex ones because they 'll be more reliable ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 695,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "So if you 're just looking at a frame and a time , you don't know anything about , you know , the structure of it over time , and so you may wanna build @ @ {disfmarker} build a Markov model of some sort uh , or {disfmarker} or else have features that really are based on um on {disfmarker} on some bigger chunk of time ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 715,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "You can find the {disfmarker} nnn , the {disfmarker} the acoustic change ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 789,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And then if you can get that to work well , then you go to the other signal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 902,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "You take the signal from the two microphones and you cros and you cross - correlate them with different lags ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 816,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "because can't you , couldn't you like use beam - forming or something to detect speaker overlaps ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 839,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "That 's {pause} a good thing to consider ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1068,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Um and then also anonymity , how we want to anonymize the data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1083,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "And I think the anonymization , if y if you want to proceed with that now , I just think that that 's {disfmarker} that 's a discussion which also n really deserves a lo a {disfmarker} you know , more that just a minute ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1098,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "OK , so first decision is , we 're gonna anonymize the same name for the speaker identifier and also in the text whenever the speaker 's name is mentioned ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "W w we are getting more space ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 439,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "So , so , uh , we have space on the current disk right now , where Meeting Recorder is ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the overall discussion of the meeting?",
+                "tokenized_answer": [
+                    "In this meeting, the speakers addressed issues that related to their meeting annotation progress.",
+                    "They talked about the types and variability of the future meetings.",
+                    "This led to them speaking about how to use their recording equipment if they got groups outside of their own departments to record meetings.",
+                    "Additionally, they discussed how to handle the storage of meetings on disk.",
+                    "They eventually address how to handle speech overlap and speaker anonymity, which were two crucial issues."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 30,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "um , but I 'd rather try to get more regular meetings of types that we know about , and hear , then sort of a mish - mosh of a bunch of one {disfmarker} one - time {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Yeah , just because it would be very hard to process the data in all senses ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "both to get the , um {disfmarker} to figure out what type of meeting it is and to do any kind of higher level work on it , like well , I was talking to Morgan about"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "things like summarization , or what 's this meeting about ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "I mean it 's very different if you have a group that 's just giving a report on what they did that week , versus coming to a decision and so forth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "So . Then I was um , talking to Morgan about some {pause} new proposed work in this area , sort of a separate issue from what the student would be working on where I was thinking of doing some kind of summarization of meetings or trying to find cues in both the utterances and in the utterance patterns ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 5,
+                            "speaker": "PhD F",
+                            "content": "like in numbers of overlaps and amount of speech ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 6,
+                            "speaker": "PhD F",
+                            "content": "sort of raw cues from the interaction that can be measured from the signals and from the diff different microphones that point to sort of hot spots in the meeting , or things where stuff is going on that might be important for someone who didn't attend to {pause} listen to ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 8,
+                            "speaker": "PhD F",
+                            "content": "So this {disfmarker} this meeting is one of them ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 9,
+                            "speaker": "PhD F",
+                            "content": "although I 'm not sure I can participate if I {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 10,
+                            "speaker": "PhD F",
+                            "content": "You know , I would feel very strange being part of a meeting that you were then analysing later for things like summarization ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 30,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "But , um , Jane and Adam brought up a lot of good points that just posting a note to Berkeley people to have them come down here has some problems in that you m you need to make sure that the speakers are who you want and that the meeting type is what you want , and so forth ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 30,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "um , but I 'd rather try to get more regular meetings of types that we know about , and hear , then sort of a mish - mosh of a bunch of one {disfmarker} one - time {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 7,
+                            "speaker": "PhD F",
+                            "content": "And in that uh , regard , I thought we definitely w will need {disfmarker} it 'd b it 'd be nice for us to have a bunch of data from a few different domains , or a few different kinds of meetings ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 48,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "So , in general , I was thinking more data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "I 'd like to have lots of different people ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "So , um I think I would also very much like us to have a fair amount of really random scattered meetings , of somebody coming down from campus , and {disfmarker} and uh ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I mean , sure , if we can get more from them , fine ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "but if we only get one or two from each group , that still could be useful acoustically just because we 'd have close and distant microphones with different people ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 60,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Yeah , I definitely agree with that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 155,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Well , Morgan , you were mentioning that Mari may not use the k equipment from IBM if they found something else , cuz there 's a {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 156,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "They 're {disfmarker} they 're {disfmarker} yeah , they 're d they 're uh {disfmarker} assessing whether they should do that or y do something else , hopefully over the next few weeks ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Cuz I mean , one remote possibility is that if we st if we inherited that equipment , if she weren't using it , could we set up a room in the linguistics department ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And {disfmarker} and I mean , there {disfmarker} there may be a lot more {disfmarker} or {disfmarker} or in psych , or in comp wherever , in another building where we could um , record people there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I think we 'd need a real motivated partner to do that ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 158,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "We 'd need to find someone on campus who was interested in this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 159,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "I mean it 's a remote possibility , then um , you know , one of us could you know , go up there and record the meeting or something rather than bring all of them down here ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So it 's just a just a thought if they end up not using the {disfmarker} the hardware ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 162,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , the other thing {disfmarker} Yeah , I mean the other thing that I was hoping to do in the first place was to turn it into some kind of portable thing so you could wheel it around ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , I know that space is really scarce on {disfmarker} at least in CS ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "You know , to {disfmarker} to actually find a room that we could use regularly might actually be very difficult ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "and {vocalsound} then um , I guess another topic would be {vocalsound} where are we in the whole disk resources {pause} question"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 370,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "So I uh did a bunch of archiving , and still doing a bunch of archiving ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 370,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "I {disfmarker} I 'm in the midst of doing the P - files from uh , {vocalsound} Broadcast News ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 373,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Where did you copy it to ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 374,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "It 's Abbott , so it just {disfmarker} But it 's {disfmarker} it 's a lot of data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 375,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Sk - It 's copying from one place on Abbott to another place on Abbott ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 376,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Tape ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 380,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I did an archive ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 385,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "So that will give us ten gigabytes of free space ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 392,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "And so one That {disfmarker} that will be done , like , in about two hours ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 392,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "And so uh , {vocalsound} at that point we 'll be able to record five more meetings ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "I mean , so we 're gonna get more disk space ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 418,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "And so they {disfmarker} they were two gigabytes per file and we had six of them or something ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 421,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "W w we are getting more space ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 421,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "We are getting , uh , another disk rack and {disfmarker} and four thirty - six gigabyte disks ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1083,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "And I think the anonymization , if y if you want to proceed with that now , I just think that that 's {disfmarker} that 's a discussion which also n really deserves a lo a {disfmarker} you know , more that just a minute ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1096,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Now , in terms of like the transcript ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1096,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "the question becomes what symbol are you gonna put in there for everybody 's name ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1097,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "No , because then that would give you a mapping , and you don't wanna have a mapping ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1098,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "OK , so first decision is , we 're gonna anonymize the same name for the speaker identifier and also in the text whenever the speaker 's name is mentioned ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1100,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "No ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1100,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Because that would give you a mapping between the speaker 's real name and the tag we 're using , and we don't want {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1103,
+                            "sent_index": 2,
+                            "speaker": "Postdoc E",
+                            "content": "Then , uh , it seems to me that {disfmarker} Well , maybe I {disfmarker} uh it seems to me that if you change the name , the transcript 's gonna disagree with the audio , and you won't be able to use that ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1107,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Because if we made the {disfmarker} the transcript be the tag that we 're using for Roger , someone who had the transcript and the audio would then have a mapping between the anonymized name and the real name , and we wanna avoid that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1108,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "OK , well , but then there 's this issue of if we 're gonna use this for a discourse type of thing , then {disfmarker} and , you know , Liz was mentioning stuff in a previous meeting about gaze direction and who 's {disfmarker} who 's the addressee and all , then to have \" Roger \" be the thing in the utterance and then actually have the speaker identifier who was \" Roger \" be \" Frank \" , that 's going to be really confusing and make it pretty much useless for discourse analysis ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1110,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Now , if you want to , you know , I mean , in some cases , I {disfmarker} I {disfmarker} I know that Susan Ervin - Tripp in some of hers , uh , actually did do uh , um , a filter of the s signal where the person 's name was mentioned , except"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1111,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Yeah Yeah , once you get to the publication you can certainly do that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1134,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Yeah , and {disfmarker} and {disfmarker} you know , even more i i uh , immediate than that just being able to , uh {disfmarker} Well , it just seems like to track {disfmarker} track from one utterance to the next utterance who 's speaking and who 's speaking to whom , cuz that can be important ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1136,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "S i You know , \" You raised the point , So - and - so \" , it 's be kind of nice to be able to know who \" you \" was ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1149,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "You 're right , this is going to require more thought ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What were some of the ideas proposed about future meeting recordings?",
+                "tokenized_answer": [
+                    "PhD F wanted the group to record different meetings with the same group to help in tasks such as summarization, the Professor D however, wanted random meeting participants to have diversity that would be instrumental in acoustical research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "But basically , for anything where you 're trying to get a summarization of some kind of meeting {disfmarker} {comment} {pause} meaning out of the meeting , um , it would be too hard to have fifty different kinds of meetings where we didn't really have a good grasp on what does it mean to summarize ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 40,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "but {disfmarker} rather we should have different meetings by the same group but hopefully that have different summaries ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 40,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And then we need a couple that {disfmarker} of {disfmarker} {pause} We don't wanna just have one group"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 40,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "because that might be specific to that particular group , but @ @ three or four different kinds ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 48,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "So , in general , I was thinking more data"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 48,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "but also data where we hold some parameters constant or fairly similar ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "like a meeting about of people doing a certain kind of work where at least half the participants each time are the same ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 52,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Now , let {disfmarker} l l let me just give you the other side to that"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 52,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "cuz I ca because I {disfmarker} I don't disagree with that ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Uh , for other kinds of research , particularly the acoustic oriented research , I actually feel the opposite need ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "I 'd like to have lots of different people ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "So , um I think I would also very much like us to have a fair amount of really random scattered meetings , of somebody coming down from campus , and {disfmarker} and uh ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "but if we only get one or two from each group , that still could be useful acoustically just because we 'd have close and distant microphones with different people ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said on getting fluent English speakers?",
+                "tokenized_answer": [
+                    "Postdoc E was championing the need to get proficient English speakers so as to allow for a stable language model.",
+                    "This did not mean limiting the type of accents that the speakers had but rather ensuring the speakers could proficiently follow the English grammar when they expressed themselves."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 65,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Can I {disfmarker} can I say about that {disfmarker} that the {disfmarker} the issues that I think Adam and I raised were more a matter of advertising so that you get more native speakers ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 65,
+                            "sent_index": 2,
+                            "speaker": "Postdoc E",
+                            "content": "an And in particular , my suggestion was to advertise to linguistics grad students because there you 'd have so people who 'd have proficiency enough in English that {disfmarker} that uh , it would be useful for {disfmarker} for purposes {disfmarker} You know ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "But you know , I think I 've been {disfmarker} I 've I {disfmarker} I 've gathered data from undergrads at {disfmarker} on campus"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "and if you just post randomly to undergrads I think you 'd get such a mixed bag that it would be hard to know how much conversation you 'd have at all . And {disfmarker} and the English you 'd have {disfmarker} The language models would be really hard to build"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 70,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "I think there should be a meeting that has some goal and point cuz I {disfmarker} I think that 's what we 're investigating ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 78,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So I was {disfmarker} I was thinking more in terms of talking to professors uh , and {disfmarker} and {disfmarker} and uh , senior uh , uh , d and uh , doctoral students who are leading projects and offering to them that they have their {disfmarker} hold their meeting down here ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 83,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "I think that for some time now , going back through BeRP I think that we have had speakers that we 've worked with who had non - native accents and I th I think that {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Oh , oh . I 'm not saying accents ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "u The accent 's not the problem ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "No , it 's more a matter of uh , proficiency ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 86,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "e e just simply fluency ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 88,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "I mean , I deal with people on {disfmarker} on campus who {disfmarker} I think sometimes people , undergraduates um in computer science uh , have language skills that make , you know {disfmarker} that their {disfmarker} their fluency and writing skills are not so strong ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 89,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "You 're not talking about foreign language at all ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "but you know , it 's like when you get into the graduate level , uh , no problem ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "I 'm just saying fluency ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 102,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , I think that , um {disfmarker} I think that the only thing we should say in the advertisement is that the meeting should be held in English ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 102,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "And {disfmarker} and I think if it 's a pre - existing meeting and it 's held in English , {comment} I {disfmarker} I think it 's probably OK if a few of the people don't have uh , g particularly good English skills ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the options that were discussed on the location of the recording equipment?",
+                "tokenized_answer": [
+                    "One proposed solution was to set up another room in the linguistics department.",
+                    "This needed a dedicated partner and safety of the equipment for it to work.",
+                    "Professor D talked about making the equipment portable allowing it to be transported from meeting to meeting."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 155,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Well , Morgan , you were mentioning that Mari may not use the k equipment from IBM if they found something else , cuz there 's a {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 156,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "They 're {disfmarker} they 're {disfmarker} yeah , they 're d they 're uh {disfmarker} assessing whether they should do that or y do something else , hopefully over the next few weeks ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Cuz I mean , one remote possibility is that if we st if we inherited that equipment , if she weren't using it , could we set up a room in the linguistics department ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 157,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And {disfmarker} and I mean , there {disfmarker} there may be a lot more {disfmarker} or {disfmarker} or in psych , or in comp wherever , in another building where we could um , record people there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I think we 'd need a real motivated partner to do that ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 158,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "We 'd need to find someone on campus who was interested in this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 159,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "I mean it 's a remote possibility , then um , you know , one of us could you know , go up there and record the meeting or something rather than bring all of them down here ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So it 's just a just a thought if they end up not using the {disfmarker} the hardware ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , the other thing {disfmarker} Yeah , I mean the other thing that I was hoping to do in the first place was to turn it into some kind of portable thing so you could wheel it around ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , I know that space is really scarce on {disfmarker} at least in CS ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "You know , to {disfmarker} to actually find a room that we could use regularly might actually be very difficult ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the group say on portable equipment?",
+                "tokenized_answer": [
+                    "The group wanted to introduce portable equipment so as to get more meetings from different groups.",
+                    "However, this was challenged by the complexity of setting up the recording equipment."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , the other thing {disfmarker} Yeah , I mean the other thing that I was hoping to do in the first place was to turn it into some kind of portable thing so you could wheel it around ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , I know that space is really scarce on {disfmarker} at least in CS ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "You know , to {disfmarker} to actually find a room that we could use regularly might actually be very difficult ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "the idea is , if they have a meeting room and they can guarantee that the equipment will be safe and so forth , and if one of us is up there once a week to record the meeting or something {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Yeah , I think it would be interesting because then we could regularly get another meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 180,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "another type of meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 183,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "But I {disfmarker} I {disfmarker} I think you need , uh , another portable thing a another portable equipment to {disfmarker} to do , eh , more e easier the recording process , eh , out from ICSI ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 190,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Eh , if you {disfmarker} you want to {disfmarker} to record , eh , a seminar or a class , eh , in the university , you {disfmarker} you need {disfmarker} {vocalsound} It - it would be eh eh very difficult to {disfmarker} to put , {vocalsound} eh , a lot of , eh , head phones eh in different people when you have to {disfmarker} to record only with , eh , this kind of , eh , d device ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 192,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "I think if we {disfmarker} if we wanna just record with the tabletop microphones , that 's easy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 194,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "That 's very easy ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 7,
+                            "speaker": "Professor D",
+                            "content": "Uh , i We realized in discussion that the other thing is , what about this business of distant and close microphones ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 10,
+                            "speaker": "Professor D",
+                            "content": "But {pause} what about {disfmarker} For th for these issues of summarization , a lot of these higher level things you don't really need the distant microphone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 200,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "And you don't really need the close microphone , you mean ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 203,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Yea - yeah yeah , you actually don't really even need any fancy microphone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 205,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "You d You don't ne it doesn't {disfmarker} you just need some microphone , somewhere ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 207,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "You can use found data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 226,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "And other people need to do that for themselves , uh , h or at least discuss it so that we can find some optimal {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 229,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "But I think that {disfmarker} I 'm raising that cuz I think it 's relevant exactly for this idea up there that if you think about , \" Well , gee , we have this really complicated setup to do , \" well maybe you don't ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 234,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I mean , we {disfmarker} we could have a fairly {disfmarker} We could just get a DAT machine and {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were Grad B\u2019s updates on meeting disk storage?",
+                "tokenized_answer": [
+                    "Grad B said that archiving of the data by creating a clone had been done, though it took eleven hours.",
+                    "However, Grad B commented that accessing the data would be much faster.",
+                    "This archiving had freed ten gigabytes of free space.",
+                    "Additionally, two copies would be made: one offisite, another onsite."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 370,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "We are slowly slowly getting to the point where we have uh enough sp room to record meetings ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 370,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "So I uh did a bunch of archiving , and still doing a bunch of archiving ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 370,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "and it took eleven hours {comment} {vocalsound} to do {disfmarker} to uh copy it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 372,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "And it 'll take another eleven to do the clone ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 389,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Yeah , the archiving m {pause} program does take a long time ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 394,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "One thing {disfmarker} The good news about that {disfmarker} that is that once {disfmarker} once it 's archived , it 's pretty quick to get back ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 380,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I did an archive ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 383,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "So I 'm archiving it , and then I 'm gonna delete the files ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 385,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "So that will give us ten gigabytes of free space ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 400,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , especially because I 'm generating a clone , also ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 405,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Generating a clone ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Two copies ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 410,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "One offsite , one onsite ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were other ways to get more space?",
+                "tokenized_answer": [
+                    "Professor D said they would be getting another disk rack that would bring in four thirty-six gigabyte disks, increasing the space.",
+                    "Additionally, the directories of Aurora data, Carmen\u2019s Data and SPINE were likely to be moved."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 421,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "W w we are getting more space ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 421,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "We are getting , uh , another disk rack and {disfmarker} and four thirty - six gigabyte disks ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 421,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "Uh {pause} so {pause} uh {pause} but that 's not gonna happen instantaneously ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Hmm . I 've been looking at the , uh , Aurora data and , um , first {disfmarker} first look at it , there were basically three directories on there that could be moved ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "One was called Aurora , one was Spanish , which was Carmen 's Spanish stuff , and the other one was , um , SPINE ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 437,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And so , um , I wrote to Dan and he was very concerned that the SPINE stuff was moving to a non - backed - up disk ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 437,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "So , um , I realized that well , probably not all of that should be moved , just {pause} the {pause} CD - ROM type data , the {disfmarker} {pause} the static data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 437,
+                            "sent_index": 5,
+                            "speaker": "PhD A",
+                            "content": "And then Carmen 's stuff , I realized that when I had copied all of her stuff to XA , I had copied stuff there that was dynamic data ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

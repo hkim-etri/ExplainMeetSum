@@ -1,0 +1,1919 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "Topics discussed by the Berkeley Meeting Recorder group included a potential collaboration with another ICSI member regarding the analysis of inference structures, efforts by speaker mn005 to detect speaker overlap, the current status on recordings and transcriptions, and future efforts to collect meeting data.",
+            "In addition to weekly meetings by the BMR group, efforts are in progress to record meetings by other ICSI research groups, as well as routine discussions by non-ICSI members.",
+            "The group will resume its discussion of speaker anonymization in a subsequent meeting.",
+            "To save time, speaker mn005 will only mark the sample of transcribed data for regions of overlapping speech, as opposed to marking all acoustic events.",
+            "The digits extraction task will be delegated to whomever is working on acoustics for the Meeting Recorder project.",
+            "The group will inquire with other ICSI researchers and colleagues at the University of Washington about collecting additional meeting data.",
+            "Echo cancellation experiments will be performed on Meeting Recorder digits data.",
+            "Use of pronouns (e.g. he, she, you) during meetings is potentially problematic for indexing referents and analysing speech understanding.",
+            "Sensitivity issues involved in mentioning individuals by name were also discussed.",
+            "Data obtained via the close-talking microphone channels don't match meeting content yielded via the far-field microphones.",
+            "The collection of meeting data from non-Meeting Recorder participants is likely to be more infrequent.",
+            "A cursory review of a subset of Meeting Recorder data is in progress to determine whether it is suitable material for a collaboration with another ICSI researcher interested in analyzing inference structures.",
+            "Efforts by speaker mn005 are in progress to detect overlapping speech.",
+            "For a single transcribed meeting, speaker mn005 reported approximately 300 cases of overlap.",
+            "Future work will involve manually deriving time marks from sections of overlapping speech for the same meeting, and then experimenting with different measures, e.g. energy increase, to determine a set of acoustically salient features for identifying speaker overlap.",
+            "Approximately 12-13 hours of Meeting Recorder data have been collected, roughly 45 minutes of which have been transcribed.",
+            "Additional meetings by other ICSI research groups will be recorded.",
+            "A suggestion was made that multi-channel data also be collected in cooperation with local media broadcasters, and that such events might be recorded live from ICSI.",
+            "The group aims to collect over 100 hours of Meeting Recorder data in total.",
+            "Speaker consent forms are being revised.",
+            "It was suggested that subjects should sign a new consent form after 10 recording sessions."
+        ],
+        "answer_sentence_index": [
+            "Bmr005.s.1",
+            "Bmr005.s.2",
+            "Bmr005.s.3",
+            "Bmr005.s.4",
+            "Bmr005.s.5",
+            "Bmr005.s.6",
+            "Bmr005.s.7",
+            "Bmr005.s.8",
+            "Bmr005.s.9",
+            "Bmr005.s.10",
+            "Bmr005.s.11",
+            "Bmr005.s.12",
+            "Bmr005.s.13",
+            "Bmr005.s.14",
+            "Bmr005.s.15",
+            "Bmr005.s.16",
+            "Bmr005.s.17",
+            "Bmr005.s.18",
+            "Bmr005.s.19",
+            "Bmr005.s.20",
+            "Bmr005.s.21"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "Uh , we {disfmarker} I think the things that we talk about in this meeting uh tend to be a mixture of uh procedural uh mundane things and uh research points"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "uh and one of the things I know that also came up uh is some discussions that {disfmarker} that uh {disfmarker} that uh Jane had with Lokendra"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "but anyway some {disfmarker} some potential collaboration there about {disfmarker} about the {disfmarker} about the {disfmarker} working with these data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "Um , so , uh , he was interested in the question of {disfmarker} you know , relating to his {disfmarker} to the research he presented recently , um of inference structures ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 11,
+                    "speaker": "Postdoc B",
+                    "content": "So , I looked through the transcript that we have so far , {comment} and um , fou identified a couple different types of things of that type"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "and um uh I thought that if we were going to project into the future when we had a lot of data , uh and um such things might be useful for that in or before we invested too much uh effort into that he should uh , with Jane 's help , look into some of the data that we 're {disfmarker} already have"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "to {disfmarker} to find a {disfmarker} a good solution to detect eh , the overlapping zone in eh speech recorded ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 520,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "See , this is where we really need the Meeting Recorder query stuff to be working ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 632,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "They 're {disfmarker} They meet on Tuesdays . We 're gonna start recording them next week ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 632,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "so , you know , {vocalsound} Adam 's sort of struggling with trying to get things to be less buggy , and come up quicker when they do crash and stuff {disfmarker} things like that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 823,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "if anyone knows of one more m or two more wee meetings per week that happen at ICSI , um that we could record , I think it would be worth it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 825,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "Uh . And there 's a lot of different meetings at UW"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 148,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "So I think it 's really {disfmarker} really kind of adaptive and wise to not mention names any more than we have to"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 160,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "Well , we t we t we talked about this during the anon anonymization ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 166,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "So , we need to talk about this later ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 210,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I {disfmarker} I {disfmarker} I {disfmarker} I t I t I talk eh about eh acoustic events in general ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 442,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Do not mark any other events ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 451,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "On - only to mark {disfmarker} only to mark overlapping zone , but {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 452,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Yeah , and my question is , if you did that , if you followed my suggestion , would it take much less time ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 455,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah sure ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 648,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "We don't have to hand - transcribe the digits because we 're reading them and I have those ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 651,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "And so I have some scripts that let you very quickly extract the sections of each utterance ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 651,
+                    "sent_index": 2,
+                    "speaker": "Grad G",
+                    "content": "Um , if I did that , is someone gonna be working on it ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 654,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Yeah , whoever we have working on the acoustics for the Meeting Recorder are gonna start with that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 733,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "hopefully they will collect more at UW also"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 770,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "You {disfmarker} you could {disfmarker} you could maybe hold some additional meetings , if you wanted ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 823,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "if anyone knows of one more m or two more wee meetings per week that happen at ICSI , um that we could record , I think it would be worth it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 663,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "So if we got someone interested in that , I think it would be great for Meeting Recorder ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 673,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "So that 's something I 'd like somebody to do at some point , just take these digits , take the far - field mike signal , and the close uh mike signal , and apply really good echo cancellation ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 82,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {disfmarker} So who is \" he \" in this context ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah , there 's a lot of pronoun {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Yeah . Actually to make it worse , {comment} uh , Morgan uses \" you \" and \" you \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So this is {disfmarker} this is {disfmarker} this is {disfmarker} gonna be a big , big problem if you want to later do uh , you know , indexing , or speech understanding of any sort ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 146,
+                    "sent_index": 9,
+                    "speaker": "Postdoc B",
+                    "content": "Then the issue of {disfmarker} of being able to trace Joe , because we know he 's well - known in this field , and all this and {disfmarker} and tie it to the speaker , whose name was just mentioned a moment ago , can be sensitive ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 148,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "So I think it 's really {disfmarker} really kind of adaptive and wise to not mention names any more than we have to"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 320,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "The {disfmarker} the {disfmarker} the far - field ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 322,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "and {disfmarker} and uh , in the close - talking mikes you couldn't hear the overlap , and in the distant mike you could ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 663,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "So if we got someone interested in that , I think it would be great for Meeting Recorder ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 829,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "One of the things that I think is a little {disfmarker} a little bit of a limitation , there is a think when the people are not involved uh in our work , we probably can't do it every week ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "and um then the other thing would be it might be nice to have a preliminary discussion of some of the other uh research uh areas that uh we 're thinking about doing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "uh and one of the things I know that also came up uh is some discussions that {disfmarker} that uh {disfmarker} that uh Jane had with Lokendra"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "but anyway some {disfmarker} some potential collaboration there about {disfmarker} about the {disfmarker} about the {disfmarker} working with these data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "Um , so , uh , he was interested in the question of {disfmarker} you know , relating to his {disfmarker} to the research he presented recently , um of inference structures ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "and um uh I thought that if we were going to project into the future when we had a lot of data , uh and um such things might be useful for that in or before we invested too much uh effort into that he should uh , with Jane 's help , look into some of the data that we 're {disfmarker} already have"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 520,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "See , this is where we really need the Meeting Recorder query stuff to be working ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "to {disfmarker} to find a {disfmarker} a good solution to detect eh , the overlapping zone in eh speech recorded ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "But eh , {vocalsound} tsk , {comment} {vocalsound} ehhh {comment} In that way {comment} I {disfmarker} {vocalsound} I {disfmarker} {vocalsound} I begin to {disfmarker} to study and to analyze the ehn {disfmarker} the recorded speech eh the different session"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 223,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Overlapping speech ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "And eh so eh I was eh {disfmarker} I am transcribing the {disfmarker} the first session"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 216,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "How many overlaps were there uh in it ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 217,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Eh almost eh three hundred eh in one session"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 451,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "On - only to mark {disfmarker} only to mark overlapping zone , but {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 478,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So the idea was that what he was going to be doing was experimenting with different measures"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 478,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "such as the increase in energy , such as the energy in the LPC residuals , such as {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 482,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "But when you start going past that and trying to do better , it 's not obvious what combination of features is gonna give you the {disfmarker} you know , the right detector ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 482,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "And so the i the idea of the manual marking was to say \" OK this , i you know , it 's {disfmarker} it 's really here \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 520,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "See , this is where we really need the Meeting Recorder query stuff to be working ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Right so there 's this {disfmarker} this {disfmarker} There 's this forty - five minute piece that Jane transcribed ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 617,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "H how many total have we recorded now , altogether ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 619,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "About twelve {pause} by now . Twelve or thirteen ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 630,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "uh , we 've started having a morning meeting , today uh i starting a w a week or two ago , on the uh front - end issues ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 632,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "and we 're gonna start recording them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 823,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "if anyone knows of one more m or two more wee meetings per week that happen at ICSI , um that we could record , I think it would be worth it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 718,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "But um , it did occur to me that we could go to friends in broadcast media and say \" hey you have this panel show , {pause} or this {disfmarker} you know , this discussion show , and um can you record multi - channel ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 724,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "the other thing that occurred to me after we had that discussion , in fact , is that it 's even possible , since of course , many radio shows are not live , {comment} uh that we could invite them to have like some of their {disfmarker} {comment} record some of their shows here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 765,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "It 'll just look like ICSI 's collected a lot more audio data ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 654,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Yeah , whoever we have working on the acoustics for the Meeting Recorder are gonna start with that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 705,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "So , I th I think that if we are able to keep that up for a few months , we are gonna have more like a hundred hours ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 733,
+                    "sent_index": 8,
+                    "speaker": "Professor E",
+                    "content": "But yeah I think that it 's not unreasonable to aim at getting , you know , significantly in excess of a hundred hours ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 733,
+                    "sent_index": 9,
+                    "speaker": "Professor E",
+                    "content": "I mean , that was sort of our goal ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 692,
+                    "sent_index": 26,
+                    "speaker": "Professor E",
+                    "content": "Uh . Let 's see . I guess you {disfmarker} you actually already said this thing about the uh {disfmarker} about the consent forms ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "The a apparently {disfmarker} I mean , we 're gonna do a revised form , of course ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 692,
+                    "sent_index": 26,
+                    "speaker": "Professor E",
+                    "content": "Uh . Let 's see . I guess you {disfmarker} you actually already said this thing about the uh {disfmarker} about the consent forms ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "The a apparently {disfmarker} I mean , we 're gonna do a revised form , of course ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 2,
+                    "speaker": "Postdoc B",
+                    "content": "but once a person has signed it once , then that 's valid for a certain number of meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 5,
+                    "speaker": "Postdoc B",
+                    "content": "So I think from a s practical standpoint , maybe we could have them do it once every ten meetings , or something ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What were the main discussion points of the meeting?",
+                "tokenized_answer": [
+                    "The group discussed topics including a potential collaboration with another ICSI member regarding the analysis of inference structures, efforts by speaker mn005 to detect speaker overlap, the current status of recordings and transcriptions, and future efforts to collect meeting data.",
+                    "In addition to weekly meetings by the BMR group, efforts are in progress to record meetings by other ICSI research groups, as well as routine discussions by non-ICSI members."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 23,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "Um , so I {disfmarker} I do have a {disfmarker} a an agenda suggestion ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 7,
+                            "speaker": "Professor E",
+                            "content": "Um , so um the one th one thing I know that we have on that is uh we had talked a {disfmarker} a couple weeks before um uh about the uh {disfmarker} the stuff you were doing with {disfmarker} with uh um uh l l attempting to locate events ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "and um then the other thing would be it might be nice to have a preliminary discussion of some of the other uh research uh areas that uh we 're thinking about doing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "maybe you have some discussion of some of the p the plausible things to look at now that we 're starting to get data ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "uh and one of the things I know that also came up uh is some discussions that {disfmarker} that uh {disfmarker} that uh Jane had with Lokendra"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "uh about some {disfmarker} some {disfmarker} some um uh work about"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 6,
+                            "speaker": "Professor E",
+                            "content": "but anyway some {disfmarker} some potential collaboration there about {disfmarker} about the {disfmarker} about the {disfmarker} working with these data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "Um , so , uh , he was interested in the question of {disfmarker} you know , relating to his {disfmarker} to the research he presented recently , um of inference structures ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 1,
+                            "speaker": "Postdoc B",
+                            "content": "and uh , the need to build in , um , this {disfmarker} this sort of uh mechanism for understanding of language ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 7,
+                            "speaker": "Postdoc B",
+                            "content": "where you have to draw the inference that , OK , there 's this time sequence ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 42,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Well , I {disfmarker} I should maybe interject to say this started off with a discussion that I had with him ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "and um uh I thought that if we were going to project into the future when we had a lot of data , uh and um such things might be useful for that in or before we invested too much uh effort into that he should uh , with Jane 's help , look into some of the data that we 're {disfmarker} already have"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 60,
+                            "sent_index": 1,
+                            "speaker": "Postdoc B",
+                            "content": "He 's interested in these {disfmarker} these knowledge structures ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "inferences that you draw {pause} i from {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "I mean , he certainly could use text ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "but we were in fact looking to see if there {disfmarker} is there {disfmarker} is there something in common between our interest in meetings and his interest in {disfmarker} in {disfmarker} in this stuff ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "I {disfmarker} I remind that me {disfmarker} my first objective eh , in the project is to {disfmarker} to study difference parameters"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "to {disfmarker} to find a {disfmarker} a good solution to detect eh , the overlapping zone in eh speech recorded ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "But eh , {vocalsound} tsk , {comment} {vocalsound} ehhh {comment} In that way {comment} I {disfmarker} {vocalsound} I {disfmarker} {vocalsound} I begin to {disfmarker} to study and to analyze the ehn {disfmarker} the recorded speech eh the different session"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "to {disfmarker} to find and to locate and to mark eh the {disfmarker} the different overlapping zone ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 604,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Right so there 's this {disfmarker} this {disfmarker} There 's this forty - five minute piece that Jane transcribed ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "That piece was then uh sent to IBM so they could transcribe so we have some comparison point ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 610,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "t ten {disfmarker} It 's like ten meetings or something ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 615,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "Well , I haven't sent them yet because I was having this problem with the {pause} missing files ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 625,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "but there 's at least one meeting recorded of uh the uh uh natural language guys ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 630,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "uh , we 've started having a morning meeting , today uh i starting a w a week or two ago , on the uh front - end issues ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 630,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "and we 're recording those ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 630,
+                            "sent_index": 5,
+                            "speaker": "Professor E",
+                            "content": "uh there 's a network services and applications group here who 's agreed to have their meetings recorded ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 702,
+                            "sent_index": 9,
+                            "speaker": "PhD C",
+                            "content": "and you can always think of , also for political reasons , if ICSI collected you know , two hundred hours , that looks different than forty hours , even if we don't transcribe it ourselves ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 705,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "So , I th I think that if we are able to keep that up for a few months , we are gonna have more like a hundred hours ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Then , having the data is very valuable ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "cuz I think it 's um politically better for us to say we have this many hours of audio data , especially with the ITR , if we put in a proposal on it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 765,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "It 'll just look like ICSI 's collected a lot more audio data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "but there 's {disfmarker} there are research questions you can answer without the transcriptions , or at least that you can start to answer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 766,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "It seems like you could hold some meetings ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 770,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "You {disfmarker} you could {disfmarker} you could maybe hold some additional meetings , if you wanted ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 823,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "if anyone knows of one more m or two more wee meetings per week that happen at ICSI , um that we could record , I think it would be worth it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 825,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Yeah . Well , we should also check with Mari again , because they {disfmarker} because they were really intending , you know , maybe just didn't happen , but they were really intending to be duplicating this in some level ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 825,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "So then that would double {pause} what we had ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 825,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "Uh . And there 's a lot of different meetings at UW"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 828,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Is the uh , notion of recording any of Chuck 's meetings dead in the water ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 828,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "or is that still a possibility ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 829,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Uh , {vocalsound} they seem to have some problems with it . We can {disfmarker} we can talk about that later ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 829,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "Um , but , again , Jerry is {disfmarker} Jerry 's open {disfmarker}"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was agreed upon on sample transcripts?",
+                "tokenized_answer": [
+                    "To save time, speaker mn005 will only mark the sample of transcribed data for regions of overlapping speech, as opposed to marking all acoustic events.",
+                    "The digits extraction task will be delegated to whomever is working on acoustics for the Meeting Recorder project."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 463,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "There 's {disfmarker} there 's uh continual noise uh from fans and so forth ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 463,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "and there is uh more impulsive noise from uh taps and so forth"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 465,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "and it 's a g worthwhile thing to study ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "but obviously it takes a lot of time to mark all of these things ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 467,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Whereas th i I would think that uh you {disfmarker} we can study more or less as a distinct phenomenon the overlapping of people talking ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 469,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "If it 's three hundred uh {disfmarker} i i it sounds like you probably only have fifty or sixty or seventy events right now that are really {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 473,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Now , why do you need to mark speaker overlap by hand if you can infer it from the relative energy in the {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 474,
+                            "sent_index": 1,
+                            "speaker": "Grad G",
+                            "content": "That 's what I was gonna bring up ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 475,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "I mean , you shouldn't need to do this p completely by hand ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 516,
+                            "sent_index": 4,
+                            "speaker": "Grad G",
+                            "content": "I don't {disfmarker} what I 'm working on {disfmarker} was working on {disfmarker} was getting it to a form where we can import it into the user interface that we have , {pause} into Transcriber ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 520,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "See , this is where we really need the Meeting Recorder query stuff to be working ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 524,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "So , I think it was partly that , you know , give somebody a chance to actually look at the data and see what these are like , partly that we have e some ground truth to compare against , you know , when {disfmarker} when he {disfmarker} he gets his thing going ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 527,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Well , it 's definitely good to have somebody look at it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 648,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "We don't have to hand - transcribe the digits because we 're reading them and I have those ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 651,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "And so I have some scripts that let you very quickly extract the sections of each utterance ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 651,
+                            "sent_index": 2,
+                            "speaker": "Grad G",
+                            "content": "Um , if I did that , is someone gonna be working on it ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 654,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Yeah , whoever we have working on the acoustics for the Meeting Recorder are gonna start with that ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 656,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I was {disfmarker} these meetings {disfmarker} I 'm sure someone thought of this , but these {disfmarker} this uh reading of the numbers would be extremely helpful to do um adaptation ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 663,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "So if we got someone interested in that , I think it would be great for Meeting Recorder ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 690,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "So um , uh anyway that 's {disfmarker} that 's kind of a reasonable thing that I 'd like to have somebody try {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 690,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "somebody look {disfmarker} And {disfmarker} and the digits would be a reasonable thing to do that with ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said on speech overlap?",
+                "tokenized_answer": [
+                    "Efforts by speaker mn005 are in progress to detect overlapping speech.",
+                    "For a single transcribed meeting, speaker mn005 reported approximately 300 cases of overlap.",
+                    "Future work will involve manually deriving time marks from sections of overlapping speech for the same meeting, and then experimenting with different measures, e.g. energy increase, to determine a set of acoustically salient features for identifying speaker overlap."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 9,
+                            "speaker": "Professor E",
+                            "content": "but I think , you know , what we had meant by \" events \" I guess was uh points of overlap between speakers ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 10,
+                            "speaker": "Professor E",
+                            "content": "But I th I gather from our discussion a little earlier today that you also mean uh interruptions with something else"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 25,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "like some other noise ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "I {disfmarker} I remind that me {disfmarker} my first objective eh , in the project is to {disfmarker} to study difference parameters"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "to {disfmarker} to find a {disfmarker} a good solution to detect eh , the overlapping zone in eh speech recorded ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "But eh , {vocalsound} tsk , {comment} {vocalsound} ehhh {comment} In that way {comment} I {disfmarker} {vocalsound} I {disfmarker} {vocalsound} I begin to {disfmarker} to study and to analyze the ehn {disfmarker} the recorded speech eh the different session"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "to {disfmarker} to find and to locate and to mark eh the {disfmarker} the different overlapping zone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 200,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Eh , {vocalsound} I {disfmarker} I {disfmarker} I do I don't need to {disfmarker} to {disfmarker} to mmm {vocalsound} {disfmarker} to m to label the {disfmarker} the different acoustic ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 200,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "but I prefer because eh I would like to {disfmarker} to study if eh , I {disfmarker} I will find eh , eh , a good eh parameters eh to detect overlapping"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 200,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "I would like to {disfmarker} to {disfmarker} to test these parameters eh with the {disfmarker} another eh , eh acoustic events ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 200,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "to nnn {disfmarker} {vocalsound} to eh {disfmarker} to find what is the ehm {disfmarker} the false {disfmarker} eh , the false eh hypothesis eh , nnn , which eh are produced when we use the {disfmarker} the ehm {disfmarker} this eh parameter {disfmarker} eh I mean pitch eh , eh , difference eh , feature {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 213,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "but eh my {disfmarker} my objective eh will be eh to study eh overlapping zone ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 215,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Eh ? {comment} n Eh in twelve minutes I found eh , eh one thousand acoustic events ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 216,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "No no , how many of them were the overlaps of speech , though ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 217,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Eh almost eh three hundred eh in one session"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 219,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "in five {disfmarker} eh in forty - five minutes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Three hundred overlapping speech {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 221,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Alm - Three hundred overlapping zone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 223,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Overlapping speech ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 224,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "With the overlapping zone , overlapping speech {disfmarker} speech what eh different duration ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 227,
+                            "sent_index": 1,
+                            "speaker": "Postdoc B",
+                            "content": "So if you had an overlap involving three people , how many times was that counted ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 228,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Eh , um I would like to consider eh one people with difference noise eh in the background ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 229,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "No no , but I think what she 's asking is {pause} if at some particular for some particular stretch you had three people talking , instead of two , did you call that one event ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 230,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "I consider one event eh for th for that eh for all the zone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 230,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "This {disfmarker} th I {disfmarker} I {disfmarker} I con I consider {disfmarker} I consider eh an acoustic event , the overlapping zone , the period where three speaker or eh {disfmarker} are talking together ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 268,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "That 's a lot of overlap ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 270,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "So again , that 's {disfmarker} that 's three {disfmarker} three hundred in forty - five minutes that are {disfmarker} that are speakers , just speakers ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 271,
+                            "sent_index": 1,
+                            "speaker": "Grad G",
+                            "content": "for forty - five minutes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 275,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "So that 's about eight per minute ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I expect you to find more overlaps than {disfmarker} than Jane"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 434,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "because you 're looking at it at a much more detailed level ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 438,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "how {disfmarker} how would it affect your time if you only marked speaker overlaps ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 448,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "It took you a long time {pause} to mark twelve minutes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 450,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Now , my suggestion was for the other thirty - three {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 451,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "On - only to mark {disfmarker} only to mark overlapping zone , but {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 452,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Yeah , and my question is , if you did that , if you followed my suggestion , would it take much less time ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 455,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Yeah sure ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 478,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "So the idea was that what he was going to be doing was experimenting with different measures"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 478,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "such as the increase in energy , such as the energy in the LPC residuals , such as {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 478,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "I mean there 's a bunch of things {disfmarker} I mean , increased energy is - is sort of an obvious one ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 479,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "In the far - field mike ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 482,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "I mean , you could {disfmarker} you could do the dumbest thing and get {disfmarker} get it ninety percent of the time ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "But when you start going past that and trying to do better , it 's not obvious what combination of features is gonna give you the {disfmarker} you know , the right detector ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 482,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "So the idea is to have some ground truth first ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "And so the i the idea of the manual marking was to say \" OK this , i you know , it 's {disfmarker} it 's really here \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 491,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "s But so it 's a bootstrapping thing and the thing is ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 493,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "the idea was , i we i i we thought it would be useful for him to look at the data anyway ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 493,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "and {disfmarker} and then whatever he could mark would be helpful ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What\u2019s the current status of recordings and transcriptions?",
+                "tokenized_answer": [
+                    "Approximately 12-13 hours of Meeting Recorder data have been collected, roughly 45 minutes of which have been transcribed.",
+                    "Additional meetings by other ICSI research groups will be recorded.",
+                    "A suggestion was made that multi-channel data also be collected in cooperation with local media broadcasters, and that such events might be recorded live from ICSI."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Right so there 's this {disfmarker} this {disfmarker} There 's this forty - five minute piece that Jane transcribed ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 617,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "H how many total have we recorded now , altogether ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 618,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "We 're saying about {pause} twelve hours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 619,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "About twelve {pause} by now . Twelve or thirteen ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 694,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "Um , back on the data thing ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 694,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "so there 's this sort of one hour , ten hour , a hundred hour sort of thing that {disfmarker} that we have ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 694,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "We have {disfmarker} we have an hour uh that {disfmarker} that is transcribed ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 694,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "we have {disfmarker} we have twelve hours that 's recorded but not transcribed ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 625,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "but there 's at least one meeting recorded of uh the uh uh natural language guys ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 627,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Do they meet every week ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 630,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Uh , they do ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 630,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "uh , we 've started having a morning meeting , today uh i starting a w a week or two ago , on the uh front - end issues ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 630,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "and we 're recording those ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 630,
+                            "sent_index": 5,
+                            "speaker": "Professor E",
+                            "content": "uh there 's a network services and applications group here who 's agreed to have their meetings recorded ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 632,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "and we 're gonna start recording them ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 632,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "They 're {disfmarker} They meet on Tuesdays . We 're gonna start recording them next week ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 632,
+                            "sent_index": 9,
+                            "speaker": "Professor E",
+                            "content": "i if we 're {disfmarker} if we collect fifty or sixty hours , the meeting meetings it will probably be , you know , twenty or thirty percent of it ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 633,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "So there 's probably {disfmarker} there 's three to four a week ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 702,
+                            "sent_index": 9,
+                            "speaker": "PhD C",
+                            "content": "and you can always think of , also for political reasons , if ICSI collected you know , two hundred hours , that looks different than forty hours , even if we don't transcribe it ourselves ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 718,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Yeah . So {disfmarker} Yeah . So I {disfmarker} I {disfmarker} uh , I {disfmarker} I 'd mentioned to Adam , and {disfmarker} that was another thing I was gonna talk {disfmarker} uh , mention to them before {disfmarker} {comment} that uh there 's uh {disfmarker} It {disfmarker} it oc it occurred to me that we might be able to get some additional data by talking to uh acquaintances in local broadcast media ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 718,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "Because , you know , we had talked before about the problem about using found data , {comment} that {disfmarker} that uh it 's just set up however they have it set up"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 718,
+                            "sent_index": 6,
+                            "speaker": "Professor E",
+                            "content": "But um , it did occur to me that we could go to friends in broadcast media and say \" hey you have this panel show , {pause} or this {disfmarker} you know , this discussion show , and um can you record multi - channel ? \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 718,
+                            "sent_index": 7,
+                            "speaker": "Professor E",
+                            "content": "And uh they may be willing to record it uh with {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 724,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "the other thing that occurred to me after we had that discussion , in fact , is that it 's even possible , since of course , many radio shows are not live , {comment} uh that we could invite them to have like some of their {disfmarker} {comment} record some of their shows here ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 726,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Well {disfmarker} Or {disfmarker} The thing is , they 're not as averse to wearing one of these head - mount"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Then , having the data is very valuable ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "cuz I think it 's um politically better for us to say we have this many hours of audio data , especially with the ITR , if we put in a proposal on it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 765,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "It 'll just look like ICSI 's collected a lot more audio data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 765,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "Um , whether it 's transcribed or not um , is another issue ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 853,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "And I {disfmarker} I d I do think that maybe we can get somewhere with the {disfmarker} with the radio ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 855,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Uh i I have better contacts in radio than in television , but {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 856,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "You could get a lot of lively discussions from those radio ones ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the future of data collection?",
+                "tokenized_answer": [
+                    "The group aims to collect over 100 hours of Meeting Recorder data in total.",
+                    "Speaker consent forms are being revised.",
+                    "It was suggested that subjects should sign a new consent form after 10 recording sessions."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 694,
+                            "sent_index": 5,
+                            "speaker": "Professor E",
+                            "content": "and at the rate we 're going , uh by the end of the semester we 'll have , I don't know , forty or fifty or something , if we {disfmarker} if this really"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 694,
+                            "sent_index": 7,
+                            "speaker": "Professor E",
+                            "content": "Well , do we have that much ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 695,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "It 's three to four per week ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 698,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "uh eight weeks , uh is {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 700,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Eight weeks times three hours is twenty - four , so that 's {disfmarker} Yeah , so like thirty {disfmarker} thirty hours ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 705,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "So , I th I think that if we are able to keep that up for a few months , we are gonna have more like a hundred hours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 733,
+                            "sent_index": 8,
+                            "speaker": "Professor E",
+                            "content": "But yeah I think that it 's not unreasonable to aim at getting , you know , significantly in excess of a hundred hours ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 733,
+                            "sent_index": 9,
+                            "speaker": "Professor E",
+                            "content": "I mean , that was sort of our goal ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 733,
+                            "sent_index": 10,
+                            "speaker": "Professor E",
+                            "content": "The thing was , I was hoping that we could {disfmarker} @ @ in the {disfmarker} under this controlled situation we could at least collect , you know , thirty to fifty hours ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 733,
+                            "sent_index": 11,
+                            "speaker": "Professor E",
+                            "content": "And at the rate we 're going we 'll get pretty close to that I think this semester ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 692,
+                            "sent_index": 25,
+                            "speaker": "Professor E",
+                            "content": "So , um , let me just say a couple things that I was {disfmarker} I was gonna bring up ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 692,
+                            "sent_index": 26,
+                            "speaker": "Professor E",
+                            "content": "Uh . Let 's see . I guess you {disfmarker} you actually already said this thing about the uh {disfmarker} about the consent forms ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 692,
+                            "sent_index": 27,
+                            "speaker": "Professor E",
+                            "content": "which was that we now don't have to {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "The a apparently {disfmarker} I mean , we 're gonna do a revised form , of course ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 693,
+                            "sent_index": 2,
+                            "speaker": "Postdoc B",
+                            "content": "but once a person has signed it once , then that 's valid for a certain number of meetings ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 693,
+                            "sent_index": 3,
+                            "speaker": "Postdoc B",
+                            "content": "She wanted me to actually estimate how many meetings and put that on the consent form ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 693,
+                            "sent_index": 5,
+                            "speaker": "Postdoc B",
+                            "content": "So I think from a s practical standpoint , maybe we could have them do it once every ten meetings , or something ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 693,
+                            "sent_index": 2,
+                            "speaker": "Postdoc B",
+                            "content": "but once a person has signed it once , then that 's valid for a certain number of meetings ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 3,
+                            "speaker": "Postdoc B",
+                            "content": "She wanted me to actually estimate how many meetings and put that on the consent form ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 693,
+                            "sent_index": 4,
+                            "speaker": "Postdoc B",
+                            "content": "I told her that would be a little bit difficult to say ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 5,
+                            "speaker": "Postdoc B",
+                            "content": "So I think from a s practical standpoint , maybe we could have them do it once every ten meetings , or something ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

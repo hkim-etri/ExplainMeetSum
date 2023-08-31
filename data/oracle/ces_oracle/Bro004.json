@@ -1,0 +1,366 @@
+{
+    "transcripts_id": "Bro004",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 45,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um . We 've trained uh several neural networks on {disfmarker}"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "Mmm , so there 's our result tables here , for the tandem approach ,"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "and um , actually what we {disfmarker} we @ @ observed is that if the network is trained on the task data it works pretty well ."
+                },
+                {
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "so if the network is trained on the task data um {pause} tandem works pretty well ."
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "From what I saw from the earlier results , uh I guess last week , {pause} was that um , {pause} if you {pause} trained on one language and tested on another , say , that {pause} the results were {disfmarker} were relatively poor ."
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We {disfmarker} No , we did four {disfmarker} four kind of {disfmarker} of testing , actually ."
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And then when we jump to the multilingual data it 's uh it become worse"
+                },
+                {
+                    "turn_index": 542,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So I think , you know , we need to {pause} choose the {disfmarker} choose the experiments carefully ,"
+                },
+                {
+                    "turn_index": 143,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "If we call that \" one \" , {pause} then what you 're saying is {pause} that the word error rate {pause} for the same language but using {pause} uh different training data than you 're testing on , say TIMIT and so forth , {pause} it 's one point one ."
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The only difference it 's {disfmarker} is that it 's multilingual {disfmarker}"
+                },
+                {
+                    "turn_index": 177,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Um . The English data {disfmarker} {pause} No , the multilingual databases are two times the {pause} broad English {pause} data ."
+                },
+                {
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "or {disfmarker} I mean . {pause} You have the same number of parameters in the neural net ,"
+                },
+                {
+                    "turn_index": 685,
+                    "sent_index": 16,
+                    "speaker": "Professor B",
+                    "content": "um , I wonder if having twice as many parameters would help ."
+                },
+                {
+                    "turn_index": 244,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So the only {pause} task that 's similar to this is the training on two languages ,"
+                },
+                {
+                    "turn_index": 245,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean , you haven't {disfmarker} you haven't done all your tests on multiple languages ."
+                },
+                {
+                    "turn_index": 685,
+                    "sent_index": 13,
+                    "speaker": "Professor B",
+                    "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                },
+                {
+                    "turn_index": 689,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "How are we doing on the {pause} resources ?"
+                },
+                {
+                    "turn_index": 704,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah , {pause} we 're gonna get a replacement {pause} server that 'll be a faster server , {pause} actually ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 14,
+                    "speaker": "Professor B",
+                    "content": "once we get it populated , {pause} that 'll be a nice machine ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 17,
+                    "speaker": "Professor B",
+                    "content": "Uh so it 'll be a pr pretty fast Linux machine ."
+                },
+                {
+                    "turn_index": 719,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "I is it um {pause} mostly um the neural network trainings that are {pause} um slowing us down or the HTK runs that are slowing us down ?"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about the effect of training on different languages",
+            "oracle_info": [
+                {
+                    "turn_index": 301,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so I think what I 'm {disfmarker} what I saw in your smaller chart that I was thinking of was {disfmarker} was {pause} there were some numbers I saw , I think , that included these multiple languages"
+                },
+                {
+                    "turn_index": 303,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "and the {disfmarker} and the result was quite poor ."
+                },
+                {
+                    "turn_index": 226,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , it 's {disfmarker} it sounds {disfmarker} {pause} I mean , we have to be careful ,"
+                },
+                {
+                    "turn_index": 226,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "cuz we haven't gotten a good result yet ."
+                },
+                {
+                    "turn_index": 228,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And comparing different bad results can be {pause} tricky ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD D explain about the multilingual model?",
+            "oracle_info": [
+                {
+                    "turn_index": 295,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Then you have {pause} uh MF , {pause} MS and ME"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "which are for French , Spanish and English ."
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "Actually I {disfmarker} {pause} I uh forgot to say that {pause} the multilingual net are trained {pause} on {pause} uh {pause} features without the s derivatives"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "uh but with {pause} increased frame numbers ."
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 9,
+                    "speaker": "PhD D",
+                    "content": "And we can {disfmarker} we can see on the first line of the table that it {disfmarker} it {disfmarker} {pause} it 's slightly {disfmarker} slightly worse when we don't use"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 10,
+                    "speaker": "PhD D",
+                    "content": "delta but it 's not {disfmarker} {pause} not that much ."
+                },
+                {
+                    "turn_index": 303,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "What I {disfmarker} {pause} we hadn't seen yet was that if you added in the English , it 's still poor ."
+                }
+            ]
+        },
+        {
+            "query": "What did the Professor think about the use of English?",
+            "oracle_info": [
+                {
+                    "turn_index": 218,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "because {pause} it {disfmarker} it seems like what it 's saying is not so much that you got hurt {pause} uh because {pause} you {pause} uh didn't have so much representation of English ,"
+                },
+                {
+                    "turn_index": 218,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "because in the other case you don't get hurt any more ,"
+                },
+                {
+                    "turn_index": 232,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "I think we got some earlier results {pause} in which you trained on one language and tested on another"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on managing the complexity of the model",
+            "oracle_info": [
+                {
+                    "turn_index": 194,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "you haven't increased the size of the neural net ,"
+                },
+                {
+                    "turn_index": 486,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Um . And {pause} we think that {pause} with this approach perhaps {pause} we could reduce the number of outputs of the neural network ."
+                },
+                {
+                    "turn_index": 486,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um , So , get simpler networks ,"
+                },
+                {
+                    "turn_index": 501,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's one net with {pause} um {pause} twenty - seven outputs"
+                },
+                {
+                    "turn_index": 514,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But you think if you include that {pause} plus the other features ,"
+                },
+                {
+                    "turn_index": 658,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "When they removed the silence frames , did they insert some kind of a marker so that the recognizer knows it 's {disfmarker} {pause} knows when it 's time to back trace or something ?"
+                },
+                {
+                    "turn_index": 687,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , just have a bigger hidden layer ."
+                },
+                {
+                    "turn_index": 687,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I doubt it would {pause} help by forty per cent ."
+                },
+                {
+                    "turn_index": 685,
+                    "sent_index": 13,
+                    "speaker": "Professor B",
+                    "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about IBM computers?",
+            "oracle_info": [
+                {
+                    "turn_index": 685,
+                    "sent_index": 12,
+                    "speaker": "Professor B",
+                    "content": "One of the things I wonder about , {pause} coming back to the first results you talked about , is {disfmarker} is {pause} how much , {pause} uh {pause} things could be helped {pause} by more parameters ."
+                },
+                {
+                    "turn_index": 685,
+                    "sent_index": 13,
+                    "speaker": "Professor B",
+                    "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "uh IBM was donating five ,"
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "So instead of having eight processors that were eight hundred megahertz , we ended up with two {pause} that are five hundred and fifty megahertz ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "We had originally hoped we were getting eight hundred megahertz processors ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about delays?",
+            "oracle_info": [
+                {
+                    "turn_index": 647,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It does introduce delays"
+                },
+                {
+                    "turn_index": 658,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "When they removed the silence frames , did they insert some kind of a marker so that the recognizer knows it 's {disfmarker} {pause} knows when it 's time to back trace or something ?"
+                },
+                {
+                    "turn_index": 657,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "and nobody wants {disfmarker} {pause} has {disfmarker} has approached improving them ."
+                },
+                {
+                    "turn_index": 657,
+                    "sent_index": 9,
+                    "speaker": "Professor B",
+                    "content": "So {pause} it 's possible that a lot of the problems {pause} with so many insertions and so forth would go away if they were better word models {pause} to begin with ."
+                }
+            ]
+        }
+    ]
+}

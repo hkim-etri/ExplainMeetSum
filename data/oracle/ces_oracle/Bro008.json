@@ -1,0 +1,270 @@
+{
+    "transcripts_id": "Bro008",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "I think s that , uh , there were some other very good results that we 're gonna wanna compare to ."
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 8,
+                    "speaker": "Professor D",
+                    "content": "but I mean , it sounds like , uh , one way or another , the methods that we 're doing can reduce the error rate from {disfmarker} from mel ceptrum {pause} down by , you know {pause} a fourth of them to , uh , a half of them ."
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "But , um , for the development set , our best result was a little bit short of fifty percent ."
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "where these numbers are the , uh , relative , uh , reduction in , uh , word error rate ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 24,
+                    "speaker": "Professor D",
+                    "content": "So , uh , I 'm interested in hearing {disfmarker} hearing your thoughts about {pause} where you think we should go from this ."
+                },
+                {
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "We were just talking about , um , {vocalsound} some , uh , some work that we 're interested in ."
+                },
+                {
+                    "turn_index": 190,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So , there 's a lot of things to work with ."
+                },
+                {
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "And I don't know how far , or if you guys even had a chance to try that , but {pause} that would be some it 'd be interesting to me ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 21,
+                    "speaker": "Professor D",
+                    "content": "I mean , you 're done in the sense that , um , you may be able to get some new features from Sunil , and we 'll re - run it ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 22,
+                    "speaker": "Professor D",
+                    "content": "Uh , but other than that , you 're {disfmarker} you 're basically done ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the performance of the deployed model",
+            "oracle_info": [
+                {
+                    "turn_index": 26,
+                    "sent_index": 8,
+                    "speaker": "Professor D",
+                    "content": "but I mean , it sounds like , uh , one way or another , the methods that we 're doing can reduce the error rate from {disfmarker} from mel ceptrum {pause} down by , you know {pause} a fourth of them to , uh , a half of them ."
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 9,
+                    "speaker": "Professor D",
+                    "content": "Somewhere in there , depending on the {pause} exact case ."
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "that 's p that 's not that uncommon ."
+                },
+                {
+                    "turn_index": 59,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "But the only caveat to that is that everybody 's being real conscious of how much memory and how much CPU they 're using"
+                }
+            ]
+        },
+        {
+            "query": "What was the range of errors in the models?",
+            "oracle_info": [
+                {
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And here the {disfmarker} the worst system {pause} still reduced the error rate by thirty - three percent , or something , in development set ."
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So {disfmarker} so , you know , sort of everybody is doing things between , well , roughly a third of the errors , and half the errors being eliminated , {vocalsound} uh , and varying on different test sets and so forth ."
+                },
+                {
+                    "turn_index": 37,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "In Aurora one there were {disfmarker} there were systems that ba basically didn't improve things ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "but they e em one was called the French Telecom Alcatel System the other was called the Alcatel French Telecom System , {vocalsound} uh , which is the biggest difference , I think ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "Uh , and {disfmarker} and , uh , they both did very well ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the Professor think about Danish and German models?",
+            "oracle_info": [
+                {
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "You know most of the time , even {disfmarker} I mean even though it 's true that the overall number for Danish {disfmarker} we didn't improve it"
+                },
+                {
+                    "turn_index": 10,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Looks like out of the six cases , between the different kinds of , uh , matching conditions {pause} out of the six cases , there 's basically , um , a couple where it stays about the same ,"
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "And it looks like the overall result as they are now , even without , you know , any {disfmarker} any bugs being fixed is that , uh , on the {disfmarker} the other tasks , we had this average of , uh , forty uh {disfmarker} nine percent , or so , improvement ."
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "And here we have somewhat better than that than the Danish , and somewhat worse than that on the German ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize discussion on the pragmatic overview of the project",
+            "oracle_info": [
+                {
+                    "turn_index": 172,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "Does a any you have any thoughts about what else {vocalsound} y you 're thinking that you didn't get to that you would like to do if you had more time ?"
+                },
+                {
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "I don't know exactly s to think what we can improve ."
+                },
+                {
+                    "turn_index": 196,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "and then , of course , try to {disfmarker} well , {vocalsound} kind of debug what was wrong , eh , when we do Aurora test on the MSG {pause} particularly , and on the multi - band ."
+                },
+                {
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "actually {disfmarker} actually the well - matched condition {pause} is {pause} still quite di still quite difficult ."
+                },
+                {
+                    "turn_index": 168,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "is that even , say on the development set stuff that we saw , the , uh , the numbers that , uh , that Alcatel was getting when choosing out the best single numbers , {vocalsound} it was just {disfmarker} you know , it wasn't good enough for {disfmarker} for {pause} a {disfmarker} a {disfmarker} for a real system ."
+                },
+                {
+                    "turn_index": 192,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "uh {pause} This is what 's nice about the Aurora data and the data here , is that {disfmarker} is that it 's sort of a realistic room situation {pause} uh , acoustics {disfmarker} acoustic situation , both terms in noise and reflections , and so on"
+                },
+                {
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "And I don't know how far , or if you guys even had a chance to try that , but {pause} that would be some it 'd be interesting to me ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the pragmatic overview of the project?",
+            "oracle_info": [
+                {
+                    "turn_index": 170,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "So , uh , we still have stuff to do ."
+                },
+                {
+                    "turn_index": 172,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "Does a any you have any thoughts about what else {vocalsound} y you 're thinking that you didn't get to that you would like to do if you had more time ?"
+                },
+                {
+                    "turn_index": 196,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "and then , of course , try to {disfmarker} well , {vocalsound} kind of debug what was wrong , eh , when we do Aurora test on the MSG {pause} particularly , and on the multi - band ."
+                },
+                {
+                    "turn_index": 190,
+                    "sent_index": 17,
+                    "speaker": "Professor D",
+                    "content": "And then we {vocalsound} {disfmarker} we , uh {disfmarker} uh , made a simulation of the {disfmarker} of the room acoustics there and {disfmarker} and applied it to other things ,"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD C and the professor discuss about multiple languages?",
+            "oracle_info": [
+                {
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Uh , now , I 'm interested in , um , uh {pause} looking at the experiments where you use , um {pause} uh , data from multiple languages to train the neural net ."
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Also , uh , {vocalsound} I mean , there was just the whole notion of having multiple nets that were trained on different data ."
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "Well , i in fact , uh , m in those experiments it wasn't so much combining multiple nets , it was a single net that had different"
+                },
+                {
+                    "turn_index": 222,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So , first thing is would it be better if they were multiple nets , for some reason ?"
+                }
+            ]
+        }
+    ]
+}

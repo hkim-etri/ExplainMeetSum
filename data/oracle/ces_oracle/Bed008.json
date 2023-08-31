@@ -1,0 +1,438 @@
+{
+    "transcripts_id": "Bed008",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "OK so let 's start with the uh belief - nets , the general influence stuff"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "so who is the user ?"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "Everything that has user comes from the user model"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "everything that has situation comes from the situation model - A ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 7,
+                    "speaker": "Grad E",
+                    "content": "We should be be clear ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "User thrift ."
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "so what we {disfmarker} we {disfmarker} what we talked about is three separate endpoint decisions ,"
+                },
+                {
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well some of those are subsumed by approach ."
+                },
+                {
+                    "turn_index": 214,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so the idea would be that you might wanna merge those three"
+                },
+                {
+                    "turn_index": 273,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "it can either em do s do sell things , fix things , service things , exhibit things , it can be a landmark at the same time as doing these things ,"
+                },
+                {
+                    "turn_index": 370,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "uh so if there 's some general notion of for example the uh relation to the time to do this to the amount of time the guy has or something like that is {disfmarker} is the uh compatibility with his current state ,"
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Sure , but other {disfmarker} I thought though the node we 're creating right now is user compatibility to the current action ,"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we have the user model , the situation model here ,"
+                },
+                {
+                    "turn_index": 444,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "Much the same way as we didn't {disfmarker} we don't have the ontology here ."
+                },
+                {
+                    "turn_index": 13,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "so but du we should sort of have all of the uh basic design of what influences what done before we decide exactly how to compute it ."
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we actually get just probabilities ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about value for user and situation models.",
+            "oracle_info": [
+                {
+                    "turn_index": 45,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "so who is the user ?"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "Everything that has user comes from the user model"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "everything that has situation comes from the situation model - A ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 7,
+                    "speaker": "Grad E",
+                    "content": "We should be be clear ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 11,
+                    "speaker": "Grad E",
+                    "content": "You sort of have to a write the values this can take ."
+                },
+                {
+                    "turn_index": 47,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "for example if it 's a running budget so what are the discrete values of a running budget ?"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Um the finance is sort of here thought of as {disfmarker} as the financial policy a person carries out in his life ,"
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "OK , I can think of uh people being cheap , average , or spendy or we can even have a {disfmarker} a finer scale moderately cheap ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the group members think of the value of user budget when discussing value for user and situation models?",
+            "oracle_info": [
+                {
+                    "turn_index": 45,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "Everything that has user comes from the user model"
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 11,
+                    "speaker": "Grad E",
+                    "content": "You sort of have to a write the values this can take ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "OK , I can think of uh people being cheap , average , or spendy or we can even have a {disfmarker} a finer scale moderately cheap ,"
+                },
+                {
+                    "turn_index": 81,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "but here um I wasn't sure what to write in ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Um the finance is sort of here thought of as {disfmarker} as the financial policy a person carries out in his life ,"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "User thrift ."
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Thrift , that 's good ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about Go-there decision.",
+            "oracle_info": [
+                {
+                    "turn_index": 435,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "go there or not I think is a good one ."
+                },
+                {
+                    "turn_index": 444,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "and I guess why don't we just stick a discourse thing up there to be as a placeholder for"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "Much the same way as we didn't {disfmarker} we don't have the ontology here ."
+                },
+                {
+                    "turn_index": 450,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well the ontology we sort of said we would pull these various kinds of properties from the ontology like exhibiting , selling , and so forth ."
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 'll have the EVA values"
+                },
+                {
+                    "turn_index": 460,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "For Go - there , probably is true and false , let 's say ."
+                },
+                {
+                    "turn_index": 470,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , but that doesn't change the fact that you 're {disfmarker} you want these two values ."
+                },
+                {
+                    "turn_index": 504,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah . So {disfmarker} so now the other thing that Bhaskara eh pointed out is what this says is that uh there sh should be a link ,"
+                },
+                {
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Maybe we could um have intermediate node that just the Endpoint and the Go - there S node sort of fed into ?"
+                },
+                {
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Well the Go - there , actually the Endpoint node could feed {disfmarker} feed into the Go - there S"
+                },
+                {
+                    "turn_index": 520,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and again we 'll have to do layout at some point ,"
+                },
+                {
+                    "turn_index": 520,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Uh really important in {disfmarker} in the belief worl net world not to have loops"
+                }
+            ]
+        },
+        {
+            "query": "What did Grad E say when discussing Go-there decision?",
+            "oracle_info": [
+                {
+                    "turn_index": 444,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "we don't have the discourse model here yet ."
+                },
+                {
+                    "turn_index": 460,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "For Go - there , probably is true and false , let 's say ."
+                },
+                {
+                    "turn_index": 461,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "so people say how do I get to the castle"
+                },
+                {
+                    "turn_index": 461,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "and this usually means they wanna go there ."
+                },
+                {
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "however people also sometimes say how do I get there"
+                },
+                {
+                    "turn_index": 465,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "without wanting to go there ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about probability computation.",
+            "oracle_info": [
+                {
+                    "turn_index": 669,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "which is what are the uh influences A ,"
+                },
+                {
+                    "turn_index": 669,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "and B how do they get combined mathematically ,"
+                },
+                {
+                    "turn_index": 672,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "OK , so why don't you tell us a little bit about decision nodes and what {disfmarker} what the choices might be for these ?"
+                },
+                {
+                    "turn_index": 678,
+                    "sent_index": 13,
+                    "speaker": "Grad D",
+                    "content": "we wanna view each of these as experts"
+                },
+                {
+                    "turn_index": 678,
+                    "sent_index": 16,
+                    "speaker": "Grad D",
+                    "content": "and create you know , um sorta weighted combination ."
+                },
+                {
+                    "turn_index": 683,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "That 's the way belief - nets are defined ,"
+                },
+                {
+                    "turn_index": 727,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "So the way this is handled is by what 's called a mixture of experts ,"
+                }
+            ]
+        },
+        {
+            "query": "What did Grad D say about mixture of experts when discussing probability computation?",
+            "oracle_info": [
+                {
+                    "turn_index": 727,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "whereas it might be the case that um in certain situations one of the experts is more uh reliable and in certain situations the other expert is more reliable ."
+                },
+                {
+                    "turn_index": 727,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "So the way this is handled is by what 's called a mixture of experts ,"
+                },
+                {
+                    "turn_index": 727,
+                    "sent_index": 17,
+                    "speaker": "Grad D",
+                    "content": "and what it does is it decides which of the experts is to be trusted in this particular situation ."
+                },
+                {
+                    "turn_index": 732,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So H passes a vector on to the next node ?"
+                },
+                {
+                    "turn_index": 733,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "It could ."
+                }
+            ]
+        }
+    ]
+}

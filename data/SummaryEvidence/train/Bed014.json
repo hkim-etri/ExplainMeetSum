@@ -1,0 +1,1165 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "Minor technical issues,such as format conversions for XML and JavaBayes and the full translation of the SmartKom generation module in English, are currently being resolved.",
+            "The voice synthesiser will also be replaced by better technology.",
+            "An important research issue to be investigated is how the concept of mental spaces and probabilistic relational models can be integrated into the belief-net.",
+            "Mental space interdependencies are based on relatively clean rules, since people seem to manage them easily.",
+            "A step towards this goal is the construction formalism being put together.",
+            "This module will eventually have to include ways to simulate questions, do emphasis and focus.",
+            "The constructions could be built assuming either conventional or conversational implicature.",
+            "At this stage both routes need to be examined.",
+            "The formalism will also serve as a starting point for the definition of construal mechanisms.",
+            "Similarly, issues like time plans and discourse stacks are dependent on how the ontology and discourse history are going to be structured and linked.",
+            "One suggestion was to use the spreading activation as a paradigm for activating nodes in the belief-net.",
+            "Finally, using type constraints in the construction analysis should work, as long as they are complex enough not to generate too many parses.",
+            "It is necessary to ask the JavaBayes programmer whether he already has XML conversion programs.",
+            "For the SmartKom generation module, all the syntax-to-prosody rules are going to be re-written for English.",
+            "Additionally, OGI can offer a range of synthesiser voices to choose from.",
+            "The focus of the next meeting, whose time was rescheduled, will be the discussion of the revised construction formalism.",
+            "The presentation will unify the existing ideas and help identify the areas in need of further work, such as how it can deal with time and tense use and how they affect inferences in belief-nets.",
+            "The ambiguity in a \"where is X?\" construction can be coded in the formalism as a semantic feature or pushed forward to the belief-net where pragmatic features will disambiguate it: in terms of system design, both options need to be investigated at this stage.",
+            "As the translation of the german SmartKom into English moves on, the generation rules may prove difficult to tackle for someone without experience in functional programming, as they are written in LISP.",
+            "As far as the construction analysis is concerned, the two problems that will need to be solved are to identify the couplings between constructions in different mental spaces and to define how inferences will work in the belief-net from a technical point of view.",
+            "Additionally, in the example \"Where is X?\" construction, the ambiguity (Location or Path) could be coded either in the semantics of the construction or as if determined by context.",
+            "The former could mean creating a different construction for every slight pragmatic variation.",
+            "On the other hand, some of the belief-net probabilities could be instantiated in the lexicon.",
+            "Specifying which approach to take when linking the ontology and the discourse history has also proven not to be straightforward.",
+            "Finally, it is still undecided where construal comes in, which would help delimit the constructions as well.",
+            "Several technical matters are being resolved: a conversion program is being written for data to be translated between XML and the Java Embedded-Bayes notation; the language generation templates are now available for the english version of the SmartKom system; SmartKom now works on three different machines at ICSI.",
+            "On the other hand, future collaboration on belief-nets has already been agreed with another research group.",
+            "The construction analysis and formalism are also progressing.",
+            "Several issues that have been dealt with were mentioned during the meeting: indefinite pronouns and wh-questions, noun-phrase structure, etc.",
+            "This analysis is being done with the help of a linguist, who often provides different perspectives to methods and terminology."
+        ],
+        "answer_sentence_index": [
+            "Bed014.s.1",
+            "Bed014.s.2",
+            "Bed014.s.3",
+            "Bed014.s.4",
+            "Bed014.s.5",
+            "Bed014.s.6",
+            "Bed014.s.7",
+            "Bed014.s.8",
+            "Bed014.s.9",
+            "Bed014.s.10",
+            "Bed014.s.11",
+            "Bed014.s.12",
+            "Bed014.s.13",
+            "Bed014.s.14",
+            "Bed014.s.15",
+            "Bed014.s.16",
+            "Bed014.s.17",
+            "Bed014.s.18",
+            "Bed014.s.19",
+            "Bed014.s.20",
+            "Bed014.s.21",
+            "Bed014.s.22",
+            "Bed014.s.23",
+            "Bed014.s.24",
+            "Bed014.s.25",
+            "Bed014.s.26",
+            "Bed014.s.27",
+            "Bed014.s.28",
+            "Bed014.s.29",
+            "Bed014.s.30"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and Eva is using the Xalan style sheet processor to convert the XML that 's output by the Java Bayes for the {disfmarker} into the , uh , E Bayes input ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And Fey has foolheartedly agreed to rewrite uh , the German concept uh syntax - to - prosody rules {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Oh . Rewrite the German ones into English ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 94,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Anyway , it {disfmarker} We 'll sort this out ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Are we gonna {disfmarker} Can we change the voice of the {disfmarker} of the thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "the {disfmarker} the synthesizer ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh , w Which is {comment} mental spaces and uh {disfmarker} and - or {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 183,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "But the other part of it is the way they connect to these , uh , probabilistic relational models ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 183,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "but then there 's this problem of the belief - net people have only done a moderately good job of dealing with temporal belief - nets ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh , w Which is {comment} mental spaces and uh {disfmarker} and - or {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "is that people do manage to do this"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "so there probably are some , uh , relatively clean rules ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , I know , I th I I think that is gonna be sort of the key to this wh to th the big project of the summer of {disfmarker} of getting the constructions right"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So the idea is on Monday at two we 'll {disfmarker} we 'll see an intermediate version of the formalism for the constructions ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 697,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "which is the issue of , um , how do you simulate questions ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 725,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "We didn't {disfmarker} we never did figure out how we were gonna do emphasis in {disfmarker} in uh , the semspec ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 776,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Uh , no , all the focus stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , I know , I th I I think that is gonna be sort of the key to this wh to th the big project of the summer of {disfmarker} of getting the constructions right"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Well the question is basically , is this conventional or conversational implicature ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 21,
+                    "speaker": "Professor C",
+                    "content": "and my suggestion is that we start digging into them both , uh , in a way we that , you know , th"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "uh , this is {disfmarker} this is , speaking of hard problems , {comment} this is a very good time um , to start trying to make explicit where construal comes in"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 450,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Right . So . {vocalsound} Right . So thing {disfmarker} That 's part of why we want the formalism ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "Now what could imagine {disfmarker} to , you know , have a list for each construction of things that one should look up in the discourse history , yeah ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 11,
+                    "speaker": "Grad E",
+                    "content": "The ontology will tell us that castles have opening hours ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 19,
+                    "speaker": "Grad E",
+                    "content": "But Keith suggested that a {disfmarker} a much cleaner way would be {disfmarker} is , you know , to keep track of the discourse in such a way that you {disfmarker} if you know that something like that ha has been mentioned before , this just a continues to add up ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 185,
+                    "sent_index": 15,
+                    "speaker": "Professor C",
+                    "content": "and then we have this inference problem of exactly technically how does the belief - net work"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 19,
+                    "speaker": "Grad E",
+                    "content": "But Keith suggested that a {disfmarker} a much cleaner way would be {disfmarker} is , you know , to keep track of the discourse in such a way that you {disfmarker} if you know that something like that ha has been mentioned before , this just a continues to add up ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "priming a spreading activation"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 337,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "I mean , cuz it would {disfmarker} the {disfmarker} the thread would know what nodes {pause} like , needed to be activated ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 874,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Which {pause} uh , so far , in terms of like putting up all the constraints as , you know , pushing them into type constraints , the {disfmarker} when I 've , you know , propo then proposed it to linguists who haven't yet given me {disfmarker} you know , we haven't yet thought of a reason that that wouldn't work ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 874,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "Right ? As long as we allow our type constraints to be reasonably {pause} complex ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 881,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "The original bad idea of purely context - free grammars died because {pause} there were just vastly too many parses ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and Eva is using the Xalan style sheet processor to convert the XML that 's output by the Java Bayes for the {disfmarker} into the , uh , E Bayes input ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Actually , maybe I could try , like , emailing the guy"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "and see if he has any something already ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And Fey has foolheartedly agreed to rewrite uh , the German concept uh syntax - to - prosody rules {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Oh . Rewrite the German ones into English ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 103,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "It is {disfmarker} Uh , we have the choice between the , uh , usual Festival voices ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "the {disfmarker} the synthesizer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 111,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "OGI has , uh , crafted a couple of diphone type voices that are really nice"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 207,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Anyway , uh , that we were {disfmarker} that we 're gonna try to get a uh , first cut at the revised formalism by the end of next week ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So the idea is on Monday at two we 'll {disfmarker} we 'll see an intermediate version of the formalism for the constructions ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "so it should be feasible to set them up in such a way that if you 've got the past tense and the present tense and each of those is a separate {pause} uh , belief structure that they do their inferences with just the couplings that are appropriate ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 15,
+                    "speaker": "Professor C",
+                    "content": "and then we have this inference problem of exactly technically how does the belief - net work"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh , just trying to write up essentially what {disfmarker} what you guys have worked out so that everybody has something to look at ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 779,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Yeah . Well , if {disfmarker} if {disfmarker} I mean , i part of {disfmarker} of what the exercise is , t by the end of next week , is to say what are the things that we just don't have answers for yet ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 15,
+                    "speaker": "Professor C",
+                    "content": "and then we have this inference problem of exactly technically how does the belief - net work"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "The question is whether the construction is semantic or like ambiguous between asking for location and asking for path ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 282,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "If we encounter a phrase such as \" where is X ? \" , should that set this to true and this to true ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 294,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Or have every construction list all the possible pragmatic implications of the same one ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 318,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "W we know for sure that we have to be able to do both ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So the idea is on Monday at two we 'll {disfmarker} we 'll see an intermediate version of the formalism for the constructions ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Oh . Rewrite the German ones into English ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "What {pause} language is that {pause} written"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "That 's the LISP - type scheme ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 89,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well , I guess if you 're not used to functional programming , Scheme can be completely incomprehensible ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "which I already told the SmartKom people we aren't gonna use because they 're really bad ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 183,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So {pause} there 's all the problems that the linguists know about , about mental spaces , and the cognitive linguists know about ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "one of the things I w would like to do over the next , uh , month , it may take more , {comment} is to st understand to what extent we can not only figure out the constructions for them for multiple worlds"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 10,
+                    "speaker": "Professor C",
+                    "content": "But that 's g that 's , as far as I can tell , it 's {disfmarker} it 's putting together two real hard problems ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 11,
+                    "speaker": "Professor C",
+                    "content": "One is the linguistic part of what are the couplings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 12,
+                    "speaker": "Professor C",
+                    "content": "and {disfmarker} and when you have a certain , uh , construction , that implies certain couplings and other couplings ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 15,
+                    "speaker": "Professor C",
+                    "content": "and then we have this inference problem of exactly technically how does the belief - net work"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 151,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Where the \" where is \" construction is ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "The question is whether the construction is semantic or like ambiguous between asking for location and asking for path ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 282,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "If we encounter a phrase such as \" where is X ? \" , should that set this to true and this to true ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 287,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So I a I I th I agree with you that , um , it 's a disaster to try to make separate constructions for every uh , pragmatic reading ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 406,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "so you could just as well tag the lexical construction with the fact that it 's a uh , you know , thirty percent increase in probability of entering ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 322,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "And she would like to {vocalsound} apply the {pause} ontology that is , um {vocalsound} being crafted at EML ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "Now what could imagine {disfmarker} to , you know , have a list for each construction of things that one should look up in the discourse history , yeah ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 345,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "It 's {disfmarker} In some ways it 's not as good"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "uh , this is {disfmarker} this is , speaking of hard problems , {comment} this is a very good time um , to start trying to make explicit where construal comes in"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "and {disfmarker} you know , where c where the construction per - se ends {pause} and where construal comes in ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "The {disfmarker} uh , Java {disfmarker} the embedded Bayes {pause} wants to take input {disfmarker} uh , uh , a Bayes - net {disfmarker} in {disfmarker} in some Java notation"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and Eva is using the Xalan style sheet processor to convert the XML that 's output by the Java Bayes for the {disfmarker} into the , uh , E Bayes input ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "But that 's some sort of conversion program ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 62,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "The generation templates are done ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Into English ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "And it 's probably also absolutely uninteresting for all of you to , um learn that as of twenty minutes ago , David and I , per accident , uh managed to get the whole SmartKom system running on the {disfmarker} uh , ICSI Linux machines with the ICSI NT machines"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "thereby increasing the number of running SmartKom systems in this house from {pause} one on my laptop to three ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "so I also had a nice email correspondence with Daphne Kohler , who said yes indeed she would love to work with us on the , um , {disfmarker} you know , using these structured belief - nets and stuff"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "and then we 'll figure out a way for you {disfmarker} uh {disfmarker} you to get seriously connected with , um their group ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So the idea is on Monday at two we 'll {disfmarker} we 'll see an intermediate version of the formalism for the constructions ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 669,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , if you have time after this I 'll show you the noun phrase thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 741,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "since we have this idea about the indefinite pronoun thing and all that , you know , I ca can try and , um run with that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 752,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "the idea of sort of saying that you treat {disfmarker} from the simulation point of view or whatever {disfmarker} you treat , uh , WH constructions similarly to uh , indefinite pronouns"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 804,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "but different perspec"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 828,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But {pause} if he g if he turns {disfmarker} is {disfmarker} is really gonna turn around and help t to write this version that does {pause} connect with as many as possible of the {pause} other linguists in the world um {comment} then {disfmarker} then it becomes important to {pause} use terminology that doesn't make it hard {disfmarker}"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What were the resolutions in the meeting?",
+                "tokenized_answer": [
+                    "Several technical matters are being resolved: a conversion program is being written for data to be translated between XML and the Java Embedded-Bayes notation; the language generation templates are now available for the english version of the SmartKom system; SmartKom now works on three different machines at ICSI.",
+                    "On the other hand, future collaboration on belief-nets has already been agreed with another research group.",
+                    "The construction analysis and formalism are also progressing.",
+                    "Several issues that have been dealt with were mentioned during the meeting: indefinite pronouns and wh-questions, noun-phrase structure, etc.",
+                    "This analysis is being done with the help of a linguist, who often provides different perspectives to methods and terminology."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "The {disfmarker} uh , Java {disfmarker} the embedded Bayes {pause} wants to take input {disfmarker} uh , uh , a Bayes - net {disfmarker} in {disfmarker} in some Java notation"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "and Eva is using the Xalan style sheet processor to convert the XML that 's output by the Java Bayes for the {disfmarker} into the , uh , E Bayes input ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "But that 's some sort of conversion program ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "The generation templates are done ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 83,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Into English ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "And it 's probably also absolutely uninteresting for all of you to , um learn that as of twenty minutes ago , David and I , per accident , uh managed to get the whole SmartKom system running on the {disfmarker} uh , ICSI Linux machines with the ICSI NT machines"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "thereby increasing the number of running SmartKom systems in this house from {pause} one on my laptop to three ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "so I also had a nice email correspondence with Daphne Kohler , who said yes indeed she would love to work with us on the , um , {disfmarker} you know , using these structured belief - nets and stuff"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 9,
+                            "speaker": "Professor C",
+                            "content": "and then we 'll figure out a way for you {disfmarker} uh {disfmarker} you to get seriously connected with , um their group ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 671,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So the idea is on Monday at two we 'll {disfmarker} we 'll see an intermediate version of the formalism for the constructions ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 188,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "various issues of how come a plural noun gets to quote \" count as a noun phrase \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 669,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Um , if you have time after this I 'll show you the noun phrase thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 741,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "since we have this idea about the indefinite pronoun thing and all that , you know , I ca can try and , um run with that ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 752,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "the idea of sort of saying that you treat {disfmarker} from the simulation point of view or whatever {disfmarker} you treat , uh , WH constructions similarly to uh , indefinite pronouns"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 752,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "because {pause} lots of languages , um , have WH questions with an indefinite pronoun in situ or whatever ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 804,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "but different perspec"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 828,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "But {pause} if he g if he turns {disfmarker} is {disfmarker} is really gonna turn around and help t to write this version that does {pause} connect with as many as possible of the {pause} other linguists in the world um {comment} then {disfmarker} then it becomes important to {pause} use terminology that doesn't make it hard {disfmarker}"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Language generation",
+                "tokenized_answer": [
+                    "For the SmartKom generation module, all the syntax-to-prosody rules are going to be re-written for English.",
+                    "Additionally, OGI can offer a range of synthesiser voices to choose from."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And Fey has foolheartedly agreed to rewrite uh , the German concept uh syntax - to - prosody rules {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Oh . Rewrite the German ones into English ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 103,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "It is {disfmarker} Uh , we have the choice between the , uh , usual Festival voices ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 107,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "the {disfmarker} the synthesizer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 111,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "OGI has , uh , crafted a couple of diphone type voices that are really nice"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the difficulties that were encountered by the language generation?",
+                "tokenized_answer": [
+                    "As the translation of the german SmartKom into English moves on, the generation rules may prove difficult to tackle for someone without experience in functional programming, as they are written in LISP."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Oh . Rewrite the German ones into English ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What {pause} language is that {pause} written"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "That 's the LISP - type scheme ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well , I guess if you 're not used to functional programming , Scheme can be completely incomprehensible ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 103,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "which I already told the SmartKom people we aren't gonna use because they 're really bad ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the problems associated with mental spaces?",
+                "tokenized_answer": [
+                    "The Bayes-net is going to be the focus of the presentation.",
+                    "In order to complete a functioning prototype of the belief-net, it was decided to start expanding the Ontology and Discourse nodes by working with a simple construction, like \"where is X?\".",
+                    "A robust analysis of such a basic utterance will indicate what the limits of the information derived from the construction are, as well as ways to design the whole module and fit other constructions in."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 343,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "This is {disfmarker} this is essentially the Bayes - net equivalent of the spreading activation ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 15,
+                            "speaker": "Professor C",
+                            "content": "and then we have this inference problem of exactly technically how does the belief - net work"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 18,
+                            "speaker": "Grad E",
+                            "content": "for each e entity . We look it up check whether any of these were mentioned and then activate the corresponding nodes on the discourse side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 8,
+                            "speaker": "Grad E",
+                            "content": "I think it 's also something that people have not done before , is um , sort of abuse an ontology for these kinds of , uh , inferences , on"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 697,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Someday we also have to {disfmarker} we should probably talk about the other side of the \" where is X \" construction ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 405,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What {disfmarker} uh , what 's the argument for putting it in the construction ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 11,
+                            "speaker": "Grad E",
+                            "content": "I have the , uh {disfmarker} If we wanted to have that function in the dialogue hi dialogue module of SmartKom , I have the written consent of Jan to put it in there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 520,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "but th the draft of the p proposal on the constructions is {disfmarker} is going to tell us a lot about {pause} what {pause} we think needs to be done by construal ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said of the \"where is X\" construction?",
+                "tokenized_answer": [
+                    "Additionally, in the example \"Where is X?\" construction, the ambiguity (Location or Path) could be coded either in the semantics of the construction or as if determined by context.",
+                    "The former could mean creating a different construction for every slight pragmatic variation, and the latter, some of the belief-net probabilities could be instantiated in the lexicon."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Where the \" where is \" construction is ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Where is X ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 270,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "The question is whether the construction is semantic or like ambiguous between asking for location and asking for path ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 282,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "If we encounter a phrase such as \" where is X ? \" , should that set this to true and this to true ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 287,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So I a I I th I agree with you that , um , it 's a disaster to try to make separate constructions for every uh , pragmatic reading ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 406,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "so you could just as well tag the lexical construction with the fact that it 's a uh , you know , thirty percent increase in probability of entering ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

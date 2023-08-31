@@ -1,0 +1,260 @@
+{
+    "transcripts_id": "Bed009",
+    "general_query_list": [
+        {
+            "query": "What was discussed in the meeting?",
+            "oracle_info": [
+                {
+                    "turn_index": 127,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "um {disfmarker} so far I 've thought of it as sort of adding it onto the modeler knowledge module ."
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "We talked about this several times that {disfmarker} that {disfmarker} the {disfmarker} the input end is gonna need a fair amount of feedback from the planning end ."
+                },
+                {
+                    "turn_index": 535,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "So we talked about the fact that There 're going to be a certain number of decisions That you want the knowledge modeler to make , that will be then fed to the function module , that does uh , route planning ."
+                },
+                {
+                    "turn_index": 28,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "and then that can be sort of developed uh as needed when we get {disfmarker} enter the tourism domain ."
+                },
+                {
+                    "turn_index": 180,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "We probably won't do this early on , because the current focus is more on the decision making and stuff like that ."
+                },
+                {
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "All through Friday would be fine ."
+                },
+                {
+                    "turn_index": 63,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "so anyt we 'll find a time later in the week to uh get together and talk about {pause} your understanding of what SmartKom plans are ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize what was said on SmartKom architecture",
+            "oracle_info": [
+                {
+                    "turn_index": 185,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "And they 're currently um Agreeing or {disfmarker} or in the process of agreeing on an X M L - ification of um something like a state - transition network of how dialogues would proceed ."
+                },
+                {
+                    "turn_index": 292,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Would there be any chance of getting the terminology changed so that the dialogue planner was called a \" dialogue planner \" ?"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It oughta be called a {disfmarker} a dialogue manager ."
+                },
+                {
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "no he 's completely gonna rewrite everything . In Java ."
+                },
+                {
+                    "turn_index": 327,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "No , that 's gonna be phased out ."
+                },
+                {
+                    "turn_index": 350,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "in that case the dialogue manager is sort of event driven ."
+                },
+                {
+                    "turn_index": 352,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and this {disfmarker} one of these planning modules comes along and says \" hey , right now we need to ask a question \" ."
+                },
+                {
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So that forces the dialogue manager to change state ."
+                }
+            ]
+        },
+        {
+            "query": "What were the modules for the SmartKom. ",
+            "oracle_info": [
+                {
+                    "turn_index": 361,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And {disfmarker} and the {disfmarker} the underlying idea of course is that there is something like kernel modules with kernel functionality that you can plug uh certain applications like tourist information or um the home scenario with uh controlling a VCR and so on ."
+                },
+                {
+                    "turn_index": 361,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "That 's an additional reason to have this well - defined interface"
+                },
+                {
+                    "turn_index": 361,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "and keep these things like uh tourist information external ."
+                },
+                {
+                    "turn_index": 386,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "um it 's to {disfmarker} to integrate and syntactic analysis ."
+                },
+                {
+                    "turn_index": 442,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing ."
+                }
+            ]
+        },
+        {
+            "query": "What problems were reported due to SmartKom modules interaction?",
+            "oracle_info": [
+                {
+                    "turn_index": 227,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "you know th the functional module that {disfmarker} that interacts with {disfmarker} with where the tourism g stuff is going {comment} probably is too restrictive ."
+                },
+                {
+                    "turn_index": 232,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "um is based on slots that have to be filled"
+                },
+                {
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "and I 'm not sure if {disfmarker} if complex slots of that type are really um being taken into consideration ."
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Yeah I think just the {disfmarker} the spatial planner and the route planner"
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "I showed you once the interac action between them among them in the deep map system"
+                },
+                {
+                    "turn_index": 310,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I don't know how many pages"
+                },
+                {
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Yeah , uh the problem is th that it has to be very fast"
+                },
+                {
+                    "turn_index": 406,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And they also have to be very robust . cuz of um speech recognition errors"
+                },
+                {
+                    "turn_index": 513,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Some extensions uh have to be made . For {disfmarker} for a English version"
+                }
+            ]
+        },
+        {
+            "query": "What was said about the parser interface?",
+            "oracle_info": [
+                {
+                    "turn_index": 28,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "and some lines of code were already written today"
+                },
+                {
+                    "turn_index": 28,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and almost tested"
+                },
+                {
+                    "turn_index": 28,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "and just gonna say we have um again the recognizer to parser thing where we 're working on"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Either we do a syllable concatenating um grammar for the English generation which is sort of starting from scratch and doing it the easy way ,"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "or we simply adopt the ah um more in - depth um style that is implemented in the German system"
+                },
+                {
+                    "turn_index": 89,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "well for one thing we 're also using this room to collect data ."
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "no not meeting data but sort of {disfmarker} sort ah our version of a wizard experiment such"
+                },
+                {
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and so it 's a {disfmarker} sort of a computer call system that gives you tourist information"
+                },
+                {
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "and we 're setting it up so that we can {disfmarker} we hope to implant certain intentions in people ."
+                }
+            ]
+        }
+    ]
+}

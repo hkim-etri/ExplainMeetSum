@@ -1,0 +1,1214 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder Group discussed the progress of several of their members.",
+            "The progress being made on the group's main project, a speech recogniser for the cellular industry was reported.",
+            "The group also touched upon matters that had broader implications for the work, such as the work of other groups on the same project.",
+            "There were also some progress reports from group members working on other projects.",
+            "No one from the group attended a recent video conference about their main project, but they need to find out what was discussed in it.",
+            "Until they do, they will continue on, assuming nothing major has been changed.",
+            "Need to discuss any new investigation with partners to make sure work is not repeated.",
+            "There was a recent video conference meeting discussing the cellular project, but no one from the group attended and so do not know if it has any implications for their work, if any important decisions were made.",
+            "This includes decisions on the desired latency for the system, since the group is currently at the limit.",
+            "Spectral subtraction, which the group is currently investigating as a method of dealing with noise, may add to the delay time, but also it is hard to do with non-linear noise.",
+            "Speakers mn007 and fn002 have been working on the groups main project, looking for bugs in the system, and trying to improve latency.",
+            "The group's work currently has the highest latency on the project, and they are looking for ways to cut the delays.",
+            "These include replacing FIR filters with IIR, and investigating spectral subtraction methods which do not require taking the future into account.",
+            "Speaker me006 has put together a proposal to extend work on a multiband system using low-level detectors, and applying it to recognition.",
+            "Speaker me026 has been looking at method for recognition using far mics, trying to deal with reverberation and echo-cancellation."
+        ],
+        "answer_sentence_index": [
+            "Bro010.s.1",
+            "Bro010.s.2",
+            "Bro010.s.3",
+            "Bro010.s.4",
+            "Bro010.s.5",
+            "Bro010.s.6",
+            "Bro010.s.7",
+            "Bro010.s.8",
+            "Bro010.s.9",
+            "Bro010.s.10",
+            "Bro010.s.11",
+            "Bro010.s.12",
+            "Bro010.s.13",
+            "Bro010.s.14",
+            "Bro010.s.15"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 20,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So what are you doing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Uh , well , we 've {disfmarker} a little bit worked on trying to see , uh , what were the bugs and the problem with the latencies ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So when you say \" we \" , is that something Sunil is doing"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 27,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Uh , us ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So we took the filters {disfmarker} the FIR filters {vocalsound} and we {comment} designed , uh , IIR filters that have the same frequency response ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 464,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "the {disfmarker} the nasty old standard recognizer with {vocalsound} mel {disfmarker} mel filter bank at the front , and H M Ms , and {disfmarker} and so forth ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 464,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "And , um , it didn't do nearly as well ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 464,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "especially in {disfmarker} in noise ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 464,
+                    "sent_index": 10,
+                    "speaker": "Professor C",
+                    "content": "I mean , this use of a very smooth , uh , spectral envelope is something that , you know , has evolved as being generally a good thing for speech recognition"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 466,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "if you were doing something say for a {disfmarker} a , uh {disfmarker} a {disfmarker} a Vocoder , you wouldn't use the same kind of features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 11,
+                    "speaker": "Professor C",
+                    "content": "Nonetheless , it was one that was interesting because , uh , this is what we are actually using for speech recognition ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "You {disfmarker} you had a discussion with Sunil about this though ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "No ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Yeah , you should talk with him ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "uh , cuz they could be doing the same thing and {disfmarker} or something ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 224,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "uh , one thing that would be no {disfmarker} good to find out about from this conference call is that what they were talking about , what they 're proposing doing , was having a third party , um , run a good VAD , and {disfmarker} and determine boundaries ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 226,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "And then given those boundaries , then have everybody do the recognition ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 228,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "uh , I guess they argued about that yesterday"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 404,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "Uh , maybe we can talk about a couple other things briefly ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 404,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "So you 're coming up with your quals proposal ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Um , but I 'm , uh , looking into extending the work done by Larry Saul and John Allen and uh Mazin Rahim ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 537,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "we 're interested in , um , methods for far mike speech recognition ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 537,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "um , {pause} mainly , uh , methods that deal with the reverberation {pause} in the far mike signal ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Do you have news from the conference talk ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yesterday morning on video conference ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , nobody 's told me anything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Oh , this was the , uh , talk where they were supposed to try to decide {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "To {disfmarker} to decide what to do ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , that would have been a good thing to find out before this meeting ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Oh , this was the , uh , talk where they were supposed to try to decide {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 18,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "I mean , let 's {disfmarker} let 's assume for right now that we 're just kind of plugging on ahead ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "because even if they tell us that , uh , the rules are different , uh , we 're still interested in doing what we 're doing ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "You {disfmarker} you had a discussion with Sunil about this though ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "No ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , I mean , because the {disfmarker} the {disfmarker} the {disfmarker} the whole problem that happened before was coordination ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So {disfmarker} so you need to discuss with him what we 're doing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "uh , cuz they could be doing the same thing and {disfmarker} or something ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Do you have news from the conference talk ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yesterday morning on video conference ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "No , nobody 's told me anything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Oh , this was the , uh , talk where they were supposed to try to decide {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "To {disfmarker} to decide what to do ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "No , I have no {disfmarker} I have no idea ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "What 's the allowable ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 87,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Two - fifty ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh , well the people who had very low latency want it to be low {disfmarker} uh , very {disfmarker} {vocalsound} very very narrow , uh , latency bound ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And the people who have longer latency don't ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 96,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Unfortunately we 're the main ones with long latency ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 99,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "and basically the best proposal had something like thirty or forty milliseconds of latency ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Also we were thinking to {disfmarker} to , uh , apply the eh , spectral subtraction from Ericsson"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Well , there 's a lot of different ways of computing the noise spectrum ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 298,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "it seems like this kind of thing could add to the latency ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 312,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "but what does {disfmarker} what {disfmarker} what {disfmarker} what does Alcatel do ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 314,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "And {disfmarker} and France Telecom ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 315,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "They just look in the past ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 315,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "I guess it works because the noise are , uh pret uh , almost stationary"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "but I think that spectral subtraction is rarely {disfmarker} is {disfmarker} is not gonna work really well for {disfmarker} for non - stationary noise ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 20,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So what are you doing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Uh , well , we 've {disfmarker} a little bit worked on trying to see , uh , what were the bugs and the problem with the latencies ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 23,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "We took {disfmarker} first we took the LDA filters"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 23,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "and , {vocalsound} uh , we designed new filters ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Well , similar , but that have shorter delays ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "What was the total we ended up with through the whole system ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Three hundred and thirty ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "What 's the allowable ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 87,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Two - fifty ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 96,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Unfortunately we 're the main ones with long latency ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 12,
+                    "speaker": "Professor C",
+                    "content": "To get down to forty or fifty milliseconds we 'd have to throw out most of what we 're doing ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So we took the filters {disfmarker} the FIR filters {vocalsound} and we {comment} designed , uh , IIR filters that have the same frequency response ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 32,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Well , similar , but that have shorter delays ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Also we were thinking to {disfmarker} to , uh , apply the eh , spectral subtraction from Ericsson"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 175,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and to {disfmarker} to change the contextual KLT for LDA ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Well , there 's a lot of different ways of computing the noise spectrum ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 298,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "I mean , depending on where the window was that you used to calculate {pause} the signal - to - noise ratio ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 300,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Cuz if you don't look into the future ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 404,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "So you 're coming up with your quals proposal ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Um , but I 'm , uh , looking into extending the work done by Larry Saul and John Allen and uh Mazin Rahim ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "Um , they {disfmarker} they have a system that 's , uh , a multi - band , um , system"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 407,
+                    "sent_index": 8,
+                    "speaker": "Grad E",
+                    "content": "they 're {disfmarker} they 're taking sub - band features and , um , training up a detector that detects for , um , these phonetic features"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 408,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "What are {disfmarker} what are some of the low level detectors that they use ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 409,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And these are all {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 434,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "so that 's just {disfmarker} that 's just one detector ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 434,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "So you can imagine building many of these detectors on different features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 436,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and then you keep working your way up until you {disfmarker} you build a full recognizer ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 537,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "we 're interested in , um , methods for far mike speech recognition ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 537,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "um , {pause} mainly , uh , methods that deal with the reverberation {pause} in the far mike signal ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 537,
+                    "sent_index": 9,
+                    "speaker": "Grad F",
+                    "content": "And so we 're interested in , um , comparing the performance of {pause} um , a robust approach like MSG with these , um , speech enhancement or de - reverber de - reverberation approaches ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 553,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "There 's also this , uh , um , uh , echo cancellation stuff that we 've sort of been chasing ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting was about various approaches that the team could pursue for further research.",
+                    "The team initially discussed the delay between the frequency bands which was causing problems in the model deployment.",
+                    "They then discussed how spectral subtraction could help various tasks.",
+                    "The meeting ended with more ideas on improving the model, like directionality of voice and looking at smaller units of sound in recordings."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "So what are you doing ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "Uh , well , we 've {disfmarker} a little bit worked on trying to see , uh , what were the bugs and the problem with the latencies ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So we took the filters {disfmarker} the FIR filters {vocalsound} and we {comment} designed , uh , IIR filters that have the same frequency response ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 37,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "You {disfmarker} you had a discussion with Sunil about this though ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "Yeah , you should talk with him ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 4,
+                            "speaker": "PhD B",
+                            "content": "And the low frequency band has sixty - four milliseconds of delay ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 5,
+                            "speaker": "PhD B",
+                            "content": "and the high frequency band filter has something like eleven milliseconds compared to the two hundred milliseconds of the IIR filters ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 321,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Yeah , y I mean , you 're talking about non - stationary noise"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 321,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "but I think that spectral subtraction is rarely {disfmarker} is {disfmarker} is not gonna work really well for {disfmarker} for non - stationary noise ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 329,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "So {disfmarker} so I think that {disfmarker} that what {disfmarker} what is {disfmarker} wh what 's more common is that you 're going to be helped with r slowly varying or stationary noise ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 331,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "That 's what spectral subtraction will help with , practically speaking ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 436,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "and then you keep working your way up until you {disfmarker} you build a full recognizer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 444,
+                            "sent_index": 5,
+                            "speaker": "Professor C",
+                            "content": "um , this issue of where the targets come from ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "So in our case when we 've been training it multi - band things , the way we get the targets for the individual bands is , uh , that we get the phonetic label {disfmarker} for the sound there"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 446,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "What this is saying is , OK , that 's maybe what our ultimate goal is {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 446,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "or not ultimate but penultimate {vocalsound} goal is getting these {disfmarker} these small sound units ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about FIR filters and dealing with additive noise",
+                "tokenized_answer": [
+                    "The team was looking at existing models and thinking about the various bugs that they had to deal with.",
+                    "The frequency differences in the FIR filters was one.",
+                    "Another thing they wanted to look into was handling additive noise, which they had not dealt with explicitly."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "Uh , well , we 've {disfmarker} a little bit worked on trying to see , uh , what were the bugs and the problem with the latencies ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 23,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "We took {disfmarker} first we took the LDA filters"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So we took the filters {disfmarker} the FIR filters {vocalsound} and we {comment} designed , uh , IIR filters that have the same frequency response ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So they had two filters ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "one for the low frequency bands"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 106,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "So , w th w this was a test that largely had additive noise"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 106,
+                            "sent_index": 7,
+                            "speaker": "Professor C",
+                            "content": "and we did {disfmarker} we adde did absolutely nothing explicitly to handle ad additive noise ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team think about the length of silence before declaring an utterance?",
+                "tokenized_answer": [
+                    "The team thought that around 250 milliseconds was a good heuristic to detect the end of the utterance.",
+                    "The utterance recognition also had some processing time attached, increasing the delay."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 115,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And I {disfmarker} I can't remember now off the top of my head how many frames of silence we had to detect before we would declare it to be the end of an utterance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 117,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "I would say it was probably around the order of two hundred and fifty milliseconds ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 126,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "so you had a {disfmarker} a quarter second delay before , uh , plus some little processing time ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the latency?",
+                "tokenized_answer": [
+                    "The professor said that people adamantly insist on going in with a brain damaged system, overlooking straight forward solutions.",
+                    "He thought that the lag should not be too long for the task."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 106,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "so , uh , everything that we did in in a way it was {disfmarker} it was just adamantly insisting on going in with a brain damaged system ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 106,
+                            "sent_index": 5,
+                            "speaker": "Professor C",
+                            "content": "And then someone else does something that 's straight forward ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 106,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "So , w th w this was a test that largely had additive noise"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 106,
+                            "sent_index": 7,
+                            "speaker": "Professor C",
+                            "content": "and we did {disfmarker} we adde did absolutely nothing explicitly to handle ad additive noise ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 11,
+                            "speaker": "Professor C",
+                            "content": "but clearly the way that we 're operating for this other stuff does involved some latency to {disfmarker} to get rid of most of that latency ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 108,
+                            "sent_index": 12,
+                            "speaker": "Professor C",
+                            "content": "To get down to forty or fifty milliseconds we 'd have to throw out most of what we 're doing ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about dealing with smaller features of recordings",
+                "tokenized_answer": [
+                    "The team discussed how sonorance detection could constitute a low-level feature that their models detected.",
+                    "In one of the models, low level detectors are looking for specific sonorance features which are more robust than typical full-band Gaussian mixtures."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 19,
+                            "speaker": "Grad E",
+                            "content": "Uh , so if {disfmarker} if this detector detects um , the presence of {disfmarker} of sonorance in any of the sub - bands , then the detect uh , the OR gate at the top says , \" OK , well this frame has evidence of sonorance . \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 408,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "What are {disfmarker} what are some of the low level detectors that they use ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 409,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "Well , the low level detectors are logistic regressions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "and use EM to come up with your training targets for a {disfmarker} for the {disfmarker} the low - level detectors ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and h he shows that using this {disfmarker} this method to detect sonorance is it 's very robust compared to , um {disfmarker} {vocalsound} to typical , uh , full - band Gaussian mixtures um estimations of {disfmarker} of sonorance ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about detecting smaller units of sound?",
+                "tokenized_answer": [
+                    "The professor told the group that the current neural network had a sigmoid with a weighted sum as a low level detector.",
+                    "It trained using gradient descent.",
+                    "He suggested they delve into this further on Friday."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 410,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So that , by the way , basically is a {disfmarker} is one of the units in our {disfmarker} in our {disfmarker} our neural network ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 412,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "It 's a sig it 's a sigmoid ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 414,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "uh , with weighted sum at the input ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "which you train by gradient {pause} descent ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "uh , for people listening to narrow band stuff . That 's Friday 's talk , by the way ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grade E think about sonorance?",
+                "tokenized_answer": [
+                    "Grad E started the discussion on sonorance and informed the team of the model by Saul, Allen, and Rahim.",
+                    "The model detects phonetic features using independent tests.",
+                    "He explained that several detectors trained on different features were more robust than a full-band of Gaussian mixtures."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "Um , but I 'm , uh , looking into extending the work done by Larry Saul and John Allen and uh Mazin Rahim ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 9,
+                            "speaker": "Grad E",
+                            "content": "for example , um , he presents um , uh , a detector to detect sonorance ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 8,
+                            "speaker": "Grad E",
+                            "content": "they 're {disfmarker} they 're taking sub - band features and , um , training up a detector that detects for , um , these phonetic features"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 12,
+                            "speaker": "Grad E",
+                            "content": "So , uh , on each sub - band you have several independent tests ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and h he shows that using this {disfmarker} this method to detect sonorance is it 's very robust compared to , um {disfmarker} {vocalsound} to typical , uh , full - band Gaussian mixtures um estimations of {disfmarker} of sonorance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 434,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "So you can imagine building many of these detectors on different features ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

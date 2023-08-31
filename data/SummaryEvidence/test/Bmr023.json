@@ -1,0 +1,1563 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkley Meeting Recorder project is well underway, and this meeting discusses the progress and ongoing issues.",
+            "A pressing concern for the group is the DARPA meeting in July, which is only a short time away, and for which they would like to have some progress.",
+            "Specifically, the group would like to have transcripts available, which would mean resolving legal issues for data use and on the basis of feedback from IBM get more transcription underway.",
+            "Additionally they would also like to have the question answering mock-up and transcriber interface ready for then.",
+            "PLP results for the front-end look good, with the group also reporting progress in segmentation: Thilo's segmenter will now be used and ways of improving performance investigated;",
+            "The classifier segmentation is progressing well, especially in the use of prosody for identifying interruption.",
+            "Work on the front end continues, with improvements of 3-5% being made.",
+            "The group discussed how the digits should be recorded in the meeting.",
+            "In the end they decided to record these in unison for all of the meeting participants as a whole.",
+            "To improve the performance of Thilo's automatic segmenter, this is going to be retrained and adapted to run with Thilo's posteriors and speaker background models.",
+            "Regarding transcription, no new transcribers will be employed until situation regarding IBM is clarified.",
+            "Legal issues surrounding the approval and signing off of transcripts by participants has proved to be very complicated, and so will be sorted out off line by those involved by July.",
+            "After finding discrepancies with the CMU researchers, the ICSI group have decided to tune the size of their Gaussian system.",
+            "After raising the difficulty of checking for bugs in their generation of tandem features, they decide to check with Stephane who has more experience of these procedures.",
+            "For the DARPA meeting in July, the group propose that they should have the question answering mock-up and transcriber interface ready for then, and also have data available.",
+            "Unfortunately, there are legal issues regarding the approval of transcripts.",
+            "Additionally, the group would like to have their data transcriptions in \"production mode\" by then.",
+            "However the group do not want to hire more transcribers until IBM confirms in the next 2-3 weeks the acceptability of the data.",
+            "Segmentation for the recogniser has been done by hand which the group consider \"cheating\", instead now they want to use Thilo's automatic segmenter.",
+            "The classifier segmentation work is going well, but needs more data to improve results since non-native speaker data cannot be used.",
+            "For the front-end, so far the group have been using a high number of Gaussians per cluster (64) rather than the ten per cluster used by researchers at CMU, therefore they need to tune their Gaussian system to the feature vector.",
+            "The group  observed that it would be difficult to check for bugs in the generation of tandem features for the SRI system.",
+            "Experimentation is taking place using different front-ends with the SRI recogniser.",
+            "This is not yet complete, but PLP results are improving to match those of MFCC, with vocal tract length normalisation working \"beautifully\" on a training set of 24 hours, and giving overall improvement of between 3 and 5%.",
+            "Thilo's automatic segmenter is now working, and although it has low precision, this is mediated by the high recall.",
+            "The group will send IBM another sample file to check that the beep problems are fixed, and this should take 2-3 weeks.",
+            "Progress on transcriptions has been made on 5 \"set one\" meetings, and two more transcribers set on.",
+            "Pre-segmentation has proved useful.",
+            "Meeting Recorder data of the 62 hours of meetings already analysed has been organised into a spreadsheet with the aim to make this available over the WWW.",
+            "Classifier segmentation is expected to give better results from more data: currently \"cheating\" using word features for forced alignment, but looking to use other data such as \"spurts\".",
+            "Prosodaic features looking promising for identifying interruptions.",
+            "Generally the ICSI data offers better pitch features and vowel voicing than the Switchboard corpus due to the use of close talking mikes rather than telephone handsets."
+        ],
+        "answer_sentence_index": [
+            "Bmr023.s.1",
+            "Bmr023.s.2",
+            "Bmr023.s.3",
+            "Bmr023.s.4",
+            "Bmr023.s.5",
+            "Bmr023.s.6",
+            "Bmr023.s.7",
+            "Bmr023.s.8",
+            "Bmr023.s.9",
+            "Bmr023.s.10",
+            "Bmr023.s.11",
+            "Bmr023.s.12",
+            "Bmr023.s.13",
+            "Bmr023.s.14",
+            "Bmr023.s.15",
+            "Bmr023.s.16",
+            "Bmr023.s.17",
+            "Bmr023.s.18",
+            "Bmr023.s.19",
+            "Bmr023.s.20",
+            "Bmr023.s.21",
+            "Bmr023.s.22",
+            "Bmr023.s.23",
+            "Bmr023.s.24",
+            "Bmr023.s.25",
+            "Bmr023.s.26",
+            "Bmr023.s.27",
+            "Bmr023.s.28",
+            "Bmr023.s.29",
+            "Bmr023.s.30",
+            "Bmr023.s.31",
+            "Bmr023.s.32"
+        ],
+        "evidence": [
+            [],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "And when we get that back we 'll see if that sort of fixes the problem we had with , uh , too many beeps in the last transcription ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "OK . Do w do {disfmarker} what {disfmarker} Do you have any idea of the turn - around on {disfmarker} on those steps you just said ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh . Our s our {disfmarker} On our side ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , that 's just the I B M side ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Our side is quick ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "e e u u {comment} The reason I 'm asking is because , uh , Jane and I have just been talking , and she 's just been doing . {vocalsound} Uh , e a , you know , further hiring of transcribers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 295,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "given that we 've been {disfmarker} we 've given a couple public talks about it already , spaced by months and months , I think it 'd be pretty bad if we continued to say none of this is available ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 297,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Right . So we can s we {disfmarker} we wanna be able to say \" here is a subset that is available right now \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and that 's has been through the legal issues and so forth ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "I know that we were gonna do something with the transcriber interface is one thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 5,
+                    "speaker": "Professor F",
+                    "content": "but I thought there was a second thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well , we were gonna do a mock - up , like , question answering or something , I thought ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Y y you guys were doing a bunch of experiments with different front - ends and then with {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 84,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "We 're improving ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Now the {disfmarker} the {disfmarker} You saw the note that the PLP now is getting basically the same as the MFCC ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 89,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah . Actually it looks like it 's getting better ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "um , it looks like the vocal tract length normalization is working beautifully , actually ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 413,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "finding sentence boundaries , finding disfluency boundaries ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "and then I had done some work on finding from the foreground speech whether or not someone was likely to interrupt ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "so where {disfmarker} you know , if I 'm talking now and someone {disfmarker} and {disfmarker} and Andreas is about to interrupt me , is he gonna choose a certain place in my speech , either prosodically or word - based ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "the model {disfmarker} the tree classifier was trying to find general locations that were applicable to different speakers ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 415,
+                    "sent_index": 5,
+                    "speaker": "PhD G",
+                    "content": "The {disfmarker} but the main limitation now is I {disfmarker} because we 're only looking at things that happen every {vocalsound} ten words or every twenty words , we need more {disfmarker} more data and more data per speaker ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 417,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And so the classifier learns more about Morgan than it does about sort of the average person ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 469,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But the PLP features work {disfmarker} um , uh , you know , continue to improve the ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 489,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , but if you add them all up you have , uh , almost five percent difference now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 556,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "And I think I agree with you that if we fixed lots of different things and they would all add up , we would probably have a {disfmarker} a {disfmarker} a competitive system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 556,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But I think not that much of it is due to the front - end per se ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 716,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Did people wanna do the digits"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 718,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "or , um , do them together ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 720,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "I mean , are we trying to do them {nonvocalsound} in synchrony ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 720,
+                    "sent_index": 4,
+                    "speaker": "PhD G",
+                    "content": "That might be fun ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 723,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "but we could {disfmarker} we could just , uh , uh , see if we find a rhythm ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Oh , but if we were a singing group , we would wanna decide ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 728,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Be harmony ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "We should {disfmarker} we should consider doing some extra things , like , um , you know , retraining or adapting the {disfmarker} {vocalsound} the models for background noise to the {disfmarker} to this environment , for instance ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And , yeah , using Thilo 's , you know , posteriors or some kind of {disfmarker} or {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "OK . Do w do {disfmarker} what {disfmarker} Do you have any idea of the turn - around on {disfmarker} on those steps you just said ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh . Our s our {disfmarker} On our side ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The last one seemed like it took a couple of weeks ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , that 's just the I B M side ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Our side is quick ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "e e u u {comment} The reason I 'm asking is because , uh , Jane and I have just been talking , and she 's just been doing . {vocalsound} Uh , e a , you know , further hiring of transcribers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "And so we don't sort of really know exactly what they 'll be doing , how long they 'll be doing it , and so forth ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "because right now she has no choice but to operate in the mode that we already have working ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 297,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Right . So we can s we {disfmarker} we wanna be able to say \" here is a subset that is available right now \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and that 's has been through the legal issues and so forth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And they don't have to approve , you know , th an edited version , they can just give their approval to whatever version"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "Unfortunately , uh , in {disfmarker} in the sign thing that they signed , it says \" transcripts \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "\" You 'll be {disfmarker} you 'll be provided the transcripts when they 're available . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 362,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "so let {disfmarker} let me just suggest that {disfmarker} {vocalsound} uh , off - line that , uh , the people involved figure it out and take care of it before it 's July ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 453,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "you know , Chuck and I talked and the {pause} @ @ {comment} next thing to do is probably to tune the {disfmarker} um , the size of the Gaussian system , um , @ @ {comment} to {disfmarker} to this {disfmarker} to this feature vector , which we haven't done at all ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And , {vocalsound} for instance , uh , Dan {disfmarker} @ @ {comment} Dan just sent me a message saying that CMU used , um , {vocalsound} something like ten Gaussians per cluster {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 455,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "You know , each {disfmarker} each mixture has ten {pause} Gaussians"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 456,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Hmm . We 're using sixty - four ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 459,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "so that 's {vocalsound} obviously a big difference"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 604,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But there the main point is that , um , you know , it took us a while but we have the procedure for coupling the two systems {vocalsound} debugged now"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "and {disfmarker} I mean , there 's still conceivably some bug somewhere in the way we 're feeding the tandem features {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "uh , either generating them or feeding them to this {disfmarker} to the {vocalsound} SRI system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 608,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "And I 'm wondering how we can {disfmarker} how we can debug that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 636,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So , there 's {disfmarker} there is {disfmarker} there is room for bugs that we might not have discovered ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 640,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Yeah . {vocalsound} I {disfmarker} I would actually double check with Stephane at this point ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 642,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean , he and Dan are the ones who are at this point most experienced with the tandem"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "I know that we were gonna do something with the transcriber interface is one thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well , we were gonna do a mock - up , like , question answering or something , I thought ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 297,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Right . So we can s we {disfmarker} we wanna be able to say \" here is a subset that is available right now \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and that 's has been through the legal issues and so forth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And they don't have to approve , you know , th an edited version , they can just give their approval to whatever version"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 185,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "And when we get that back we 'll see if that sort of fixes the problem we had with , uh , too many beeps in the last transcription ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 207,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I {disfmarker} I don't know yet how long that 'll take ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "OK . Do w do {disfmarker} what {disfmarker} Do you have any idea of the turn - around on {disfmarker} on those steps you just said ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh . Our s our {disfmarker} On our side ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The last one seemed like it took a couple of weeks ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Um , maybe even three ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 194,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , that 's just the I B M side ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Our side is quick ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "e e u u {comment} The reason I 'm asking is because , uh , Jane and I have just been talking , and she 's just been doing . {vocalsound} Uh , e a , you know , further hiring of transcribers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "And so we don't sort of really know exactly what they 'll be doing , how long they 'll be doing it , and so forth ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "because right now she has no choice but to operate in the mode that we already have working ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 105,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But one issue actually that just came up in discussion with Liz and {disfmarker} and Don was , um , as far as meeting recognition is concerned , um , we would really like to , uh , move , uh , to , uh , doing the recognition on automatic segmentations ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Because in all our previous experiments , we had the {disfmarker} uh , you know , we were essentially cheating by having the , um , you know , the h the hand - segmentations as the basis of the recognition ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 369,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "I mean , it 's {disfmarker} I guess one thing we 're learning is that the amount {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "because we couldn't use the non - native {disfmarker} all non - native meetings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "and {vocalsound} it 's , well , probably below threshold on enough data for us for the things we 're looking at"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 4,
+                    "speaker": "PhD G",
+                    "content": "because the {vocalsound} prosodic features are {pause} very noisy and so you {disfmarker} you need a lot of data in order to model them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 7,
+                    "speaker": "PhD G",
+                    "content": "But we did find that some of the features that , I gue Jane would know about , that are expressing sort of the {vocalsound} distance of , um , {vocalsound} boundaries from peaks in the utterance and {vocalsound} some {pause} local , um , range {disfmarker} pitch range effects , like how close people are to their floor , are showing up in these classifiers ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 453,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "you know , Chuck and I talked and the {pause} @ @ {comment} next thing to do is probably to tune the {disfmarker} um , the size of the Gaussian system , um , @ @ {comment} to {disfmarker} to this {disfmarker} to this feature vector , which we haven't done at all ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 453,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "We just used the same {vocalsound} configuration as we used for the {disfmarker} {vocalsound} for the standard system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And , {vocalsound} for instance , uh , Dan {disfmarker} @ @ {comment} Dan just sent me a message saying that CMU used , um , {vocalsound} something like ten Gaussians per cluster {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "You know , each {disfmarker} each mixture has ten {pause} Gaussians"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 456,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Hmm . We 're using sixty - four ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But there the main point is that , um , you know , it took us a while but we have the procedure for coupling the two systems {vocalsound} debugged now"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "and {disfmarker} I mean , there 's still conceivably some bug somewhere in the way we 're feeding the tandem features {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "uh , either generating them or feeding them to this {disfmarker} to the {vocalsound} SRI system ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Is there stuff that 's happened about , um , uh , the {pause} SRI recognizer et cetera ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Y y you guys were doing a bunch of experiments with different front - ends and then with {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Now the {disfmarker} the {disfmarker} You saw the note that the PLP now is getting basically the same as the MFCC ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 89,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah . Actually it looks like it 's getting better ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Um , it seems {disfmarker} It looks l I haven't {disfmarker} The {disfmarker} It 's {disfmarker} The experiment is still not complete ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "um , it looks like the vocal tract length normalization is working beautifully , actually ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 463,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So {disfmarker} so , we have {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 463,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "The turn - around time on the training when we train only the {disfmarker} a male system with , uh , you know , our small training set , is {vocalsound} less than twenty - four hours ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 489,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , but if you add them all up you have , uh , almost five percent difference now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 491,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah . And now we have another percent with the V T"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "That 's three point three ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And even {disfmarker} The good thing is that since you , um , have high recall , {comment} even if you have low precision cuz you 're over - generating , that 's good"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So , um , we {disfmarker} We 're gonna send them one more sample meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "And when we get that back we 'll see if that sort of fixes the problem we had with , uh , too many beeps in the last transcription ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "OK . Do w do {disfmarker} what {disfmarker} Do you have any idea of the turn - around on {disfmarker} on those steps you just said ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh . Our s our {disfmarker} On our side ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Including IBM 's ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The last one seemed like it took a couple of weeks ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Um , maybe even three ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 194,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , that 's just the I B M side ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 215,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "OK . So , um , we {disfmarker} {vocalsound} Uh , the transcribers have continued to work past what I 'm calling \" set one \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 215,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "but , uh , they 've gotten five meetings done in that set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 215,
+                    "sent_index": 6,
+                    "speaker": "Postdoc A",
+                    "content": "I hired two transcribers today . I 'm thinking of hiring another one ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 241,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "The {disfmarker} the {disfmarker} the pre - segmentations are so much {disfmarker} are s so extremely helpful ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 286,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "For all the Meeting Recorder data ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 286,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "So I went through all of the data that we have collected so far , and have"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 286,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "been putting it into , uh , a spreadsheet {vocalsound} with start time , the date , the old meeting name , the new meeting name , the number of speakers , the duration of the meeting , comments , you know , what its transcription status is , all that kind of stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 286,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "And so , the idea is that we can take this and then export it as HTML and put it on the Meeting Recorder web page"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 286,
+                    "sent_index": 8,
+                    "speaker": "PhD D",
+                    "content": "so we can keep people updated about what 's going on ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "but {vocalsound} so far , um , {vocalsound} as of Monday , the fourteenth , um , we 've had a total number of meeting sixty - two hours of meetings that we have collected ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "and I 'm gonna have on here the total amount that 's been transcribed so far ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 6,
+                    "speaker": "PhD G",
+                    "content": "and we 're hoping that maybe with , {vocalsound} I don't know , double or triple the data {disfmarker} with twenty meetings or so , that we would start to get better results ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 369,
+                    "sent_index": 7,
+                    "speaker": "PhD G",
+                    "content": "But we did find that some of the features that , I gue Jane would know about , that are expressing sort of the {vocalsound} distance of , um , {vocalsound} boundaries from peaks in the utterance and {vocalsound} some {pause} local , um , range {disfmarker} pitch range effects , like how close people are to their floor , are showing up in these classifiers ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 8,
+                    "speaker": "PhD G",
+                    "content": "which are also being given some word features that are cheating , cuz they 're true words ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 9,
+                    "speaker": "PhD G",
+                    "content": "Um , so these are based on forced alignment ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 373,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Yeah . Sometimes {pause} positions in sentences obviously , or in spurts , was helpful ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 373,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I don't know if that 's cheating , too ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 376,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "spurts is not cheating except that of course you know the real words ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "and then I had done some work on finding from the foreground speech whether or not someone was likely to interrupt ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "so where {disfmarker} you know , if I 'm talking now and someone {disfmarker} and {disfmarker} and Andreas is about to interrupt me , is he gonna choose a certain place in my speech , either prosodically or word - based ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "And there the prosodic features actually showed up"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 8,
+                    "speaker": "PhD G",
+                    "content": "The other thing that was interesting to me is that the pitch features are better than in Switchboard ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 9,
+                    "speaker": "PhD G",
+                    "content": "And I think that really is from the close - talking mikes ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 10,
+                    "speaker": "PhD G",
+                    "content": "cuz the pitch processing that was done has much cleaner behavior than {disfmarker} than the Switchboard telephone bandwidth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "and we had the an annoying sort of telephone handset movement problem that I think may also affect it ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the general discussion of the meeting?",
+                "tokenized_answer": [
+                    "A pressing concern for the group is the DARPA meeting in July, which is only a short time away, and for which they would like to have some progress.",
+                    "PLP results for the front-end look good, with the group also reporting progress in segmentation: Thilo's segmenter will now be used and ways of improving performance investigated; The classifier segmentation is progressing well, especially in the use of prosody for identifying interruption.",
+                    "Work on the front end continues, with improvements of 3-5% being made."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "Y y you guys were doing a bunch of experiments with different front - ends and then with {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "We 're improving ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Now the {disfmarker} the {disfmarker} You saw the note that the PLP now is getting basically the same as the MFCC ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah . Actually it looks like it 's getting better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "um , it looks like the vocal tract length normalization is working beautifully , actually ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 95,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "w using the warp factors that we computed for the SRI system and just applying them to the {vocalsound} ICSI front - end ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 107,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Because in all our previous experiments , we had the {disfmarker} uh , you know , we were essentially cheating by having the , um , you know , the h the hand - segmentations as the basis of the recognition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 413,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "finding sentence boundaries , finding disfluency boundaries ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "and then I had done some work on finding from the foreground speech whether or not someone was likely to interrupt ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 2,
+                            "speaker": "PhD G",
+                            "content": "so where {disfmarker} you know , if I 'm talking now and someone {disfmarker} and {disfmarker} and Andreas is about to interrupt me , is he gonna choose a certain place in my speech , either prosodically or word - based ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 3,
+                            "speaker": "PhD G",
+                            "content": "And there the prosodic features actually showed up"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 415,
+                            "sent_index": 2,
+                            "speaker": "PhD G",
+                            "content": "the model {disfmarker} the tree classifier was trying to find general locations that were applicable to different speakers ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 415,
+                            "sent_index": 5,
+                            "speaker": "PhD G",
+                            "content": "The {disfmarker} but the main limitation now is I {disfmarker} because we 're only looking at things that happen every {vocalsound} ten words or every twenty words , we need more {disfmarker} more data and more data per speaker ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 417,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "And so the classifier learns more about Morgan than it does about sort of the average person ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 469,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "But the PLP features work {disfmarker} um , uh , you know , continue to improve the ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 471,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "As I said before , the {disfmarker} uh using Dan 's , uh , uh , vocal tract normalization option works very well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 489,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Well , but if you add them all up you have , uh , almost five percent difference now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 556,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "And I think I agree with you that if we fixed lots of different things and they would all add up , we would probably have a {disfmarker} a {disfmarker} a competitive system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 556,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "But I think not that much of it is due to the front - end per se ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was decided on DARPA?",
+                "tokenized_answer": [
+                    "A pressing concern for the group is the DARPA meeting in July, which is only a short time away, and for which they would like to have some progress."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said on transcripts?",
+                "tokenized_answer": [
+                    "For the DARPA meeting in July, the group proposed that they should have the question answering mock-up and transcriber interface ready for then, and also have data available."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 4,
+                            "speaker": "Professor F",
+                            "content": "I know that we were gonna do something with the transcriber interface is one thing ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "Well , we were gonna do a mock - up , like , question answering or something , I thought ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the status of transcription?",
+                "tokenized_answer": [
+                    "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    []
+                ]
+            },
+            {
+                "query": "What change has occurred to the segmenter?",
+                "tokenized_answer": [
+                    "Segmentation for the recogniser has been done by hand which the group consider \"cheating\", instead now they want to use Thilo's automatic segmenter."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 105,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "But one issue actually that just came up in discussion with Liz and {disfmarker} and Don was , um , as far as meeting recognition is concerned , um , we would really like to , uh , move , uh , to , uh , doing the recognition on automatic segmentations ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 107,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Because in all our previous experiments , we had the {disfmarker} uh , you know , we were essentially cheating by having the , um , you know , the h the hand - segmentations as the basis of the recognition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is the status of the segmenter",
+                "tokenized_answer": [
+                    "The classifier segmentation work is going well, but needs more data to improve results since non-native speaker data cannot be used."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 369,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I mean , it 's {disfmarker} I guess one thing we 're learning is that the amount {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 2,
+                            "speaker": "PhD G",
+                            "content": "because we couldn't use the non - native {disfmarker} all non - native meetings"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 3,
+                            "speaker": "PhD G",
+                            "content": "and {vocalsound} it 's , well , probably below threshold on enough data for us for the things we 're looking at"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 4,
+                            "speaker": "PhD G",
+                            "content": "because the {vocalsound} prosodic features are {pause} very noisy and so you {disfmarker} you need a lot of data in order to model them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 7,
+                            "speaker": "PhD G",
+                            "content": "But we did find that some of the features that , I gue Jane would know about , that are expressing sort of the {vocalsound} distance of , um , {vocalsound} boundaries from peaks in the utterance and {vocalsound} some {pause} local , um , range {disfmarker} pitch range effects , like how close people are to their floor , are showing up in these classifiers ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What change has occurred to the segmenter?",
+                "tokenized_answer": [
+                    "To improve the performance of Thilo's automatic segmenter, this is going to be retrained and adapted to run with Thilo's posteriors and speaker background models."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 134,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We should {disfmarker} we should consider doing some extra things , like , um , you know , retraining or adapting the {disfmarker} {vocalsound} the models for background noise to the {disfmarker} to this environment , for instance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "And , yeah , using Thilo 's , you know , posteriors or some kind of {disfmarker} or {disfmarker}"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

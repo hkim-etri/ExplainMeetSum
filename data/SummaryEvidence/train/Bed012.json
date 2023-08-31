@@ -1,0 +1,1157 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The focus of the meeting was on a presentation of the work done already on the building of the Bayes-net.",
+            "The input layer deriving information from things like the user and situation models, feeds into a set of decision nodes, such as the Enter/View/Approach (EVA) endpoint.",
+            "In any particular situation, most of the outputs will not be relevant to the given context.",
+            "Therefore, they will either have to be pruned a posteriori, or only a subset of the possible decision nodes will be computed in each occasion.",
+            "The latter option could could follow a binary search-tree approach and it could also be better in computational terms.",
+            "In any case, on what basis the \"winner\" output is chosen is not clear.",
+            "One suggestion was discussed: the particular constructions used can determine the pertinent decision (output) nodes.",
+            "The complete prototype of the Bayes-net will be presented in the next meeting.",
+            "After that, it will be possible to define interfaces and a dummy construction parser, in order to test and link modules together.",
+            "The suggestion that the most appropriate decision node of the belief-net in each situation could be chosen as a function of what construction was used, was deemed unsuitable at this stage.",
+            "There are many interdependencies between the output nodes that this approach could not take into account.",
+            "The rest of the values for the Bayes-net nodes will be built in within the week.",
+            "The finished prototype will be presented during the next meeting.",
+            "Any set of inputs will provide either the whole range of output values of the Bayes-net or an a priori selection of those outputs.",
+            "In both cases, what is needed is a way to single out the appropriate outputs for any given context.",
+            "For example, in the case of a \"where is\" question, whether the prevalent output should be \"Go-there\" or \"Info-on\" or even a third option has to be computed somehow.",
+            "In any case, there are many input values that have not been entered in the Bayes-net at this stage.",
+            "Furthermore, no inputs for the Ontology and Discourse can be built in yet, as they involve research that will be carried out in the future.",
+            "Finally, there has been a problem with adding probabilities in a net created with the Hugin software, but this should be overcome very shortly.",
+            "The presented Bayes-net takes inputs from the Situation, User, Discourse and Ontology models.",
+            "There are several values (elements) defined in each of these models.",
+            "The inputs are fed into the belief-net, which, in turn, outputs the posterior probabilities for the values of all the decision nodes.",
+            "These comprise \"Go-there\", \"EVA\", \"Info-on\", \"Location\", \"Timing\", etc.",
+            "At this stage, all the decision nodes are evenly weighted: regardless of the context, each output is trusted equally.",
+            "Input and output node structure was presented in XML, as this is the format that will be used for the system.",
+            "A large number of the value probabilities have already been set."
+        ],
+        "answer_sentence_index": [
+            "Bed012.s.1",
+            "Bed012.s.2",
+            "Bed012.s.3",
+            "Bed012.s.4",
+            "Bed012.s.5",
+            "Bed012.s.6",
+            "Bed012.s.7",
+            "Bed012.s.8",
+            "Bed012.s.9",
+            "Bed012.s.10",
+            "Bed012.s.11",
+            "Bed012.s.12",
+            "Bed012.s.13",
+            "Bed012.s.14",
+            "Bed012.s.15",
+            "Bed012.s.16",
+            "Bed012.s.17",
+            "Bed012.s.18",
+            "Bed012.s.19",
+            "Bed012.s.20",
+            "Bed012.s.21",
+            "Bed012.s.22",
+            "Bed012.s.23",
+            "Bed012.s.24",
+            "Bed012.s.25",
+            "Bed012.s.26"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 8,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "Um , so we thought that , {vocalsound} We can write up uh , an element ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "and {disfmarker} for each of the situation nodes that we observed in the Bayes - net ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , yeah . I just don't know if this is th l what the {disfmarker} Does {disfmarker} This is what Java Bayes takes ? as a Bayes - net spec ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 16,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "No , because I mean if we {disfmarker} I mean we 're sure gonna interface to {disfmarker} We 're gonna get an XML document from somewhere ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "So this is just , again , a an XML schemata which defines a set of possible , uh , permissible XML structures ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "which we view as input into the Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "That put it into the format that the Bayes n or Java Bayes or whatever wants ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "And some {disfmarker} some things will always be sort of too {disfmarker} not significant enough ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 234,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Like , if you 're asked a Where - Is question , you may not even look {disfmarker} like , ask for the posterior probability of the , uh , EVA node ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 234,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 249,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I mean , maybe it does make a difference in terms of performance , computational time ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 255,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So basically , you 'd have a decision tree {pause} query , {pause} Go - there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 255,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And just basically do a binary search through the {disfmarker} ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 256,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "I mean , it w"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 74,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 74,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "And some {disfmarker} some things will always be sort of too {disfmarker} not significant enough ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 75,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Or i or i it 'll be tight ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 75,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "You won't {disfmarker} it 'll be hard to decide ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 79,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "you could say , \" Well , there {disfmarker} Here 's the Where - Is construction . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 79,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And for the Where - Is construction , we know we need to l look at this node , that merges these three things together"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "And , um , finish up this Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 355,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Wait . So you 're saying , next Tuesday , is it the whole group meeting ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 356,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "The whole group ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 356,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "And we present our results ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 373,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "OK . Because then , once we have it sort of up and running , then we can start you know , defining the interfaces"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 373,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and then hook it up to some fake construction parser"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 184,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Are we going to make a node for every question ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 188,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Every construction ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I don't {disfmarker} Not necessarily , I would think ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "I mean , it 's not based on constructions ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 195,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "We 'll have , uh , like , many , many nodes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 195,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "So we have to , like {disfmarker} So that it 's no longer possible to just look at the nodes themselves and figure out what the person is trying to say ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Because there are interdependencies ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "sometime {pause} this week {pause} again"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 283,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "and finish up the , uh , values of this ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "OK , then . Let 's meet {disfmarker} meet again next Tuesday ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "And , um , finish up this Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 356,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "And we present our results ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 40,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "As , if I understand it correctly , it always gives you all the posterior probabilities for all the values of all decision nodes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 234,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and the question is what to do with it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "And now we need an expert system or belief - net or something that interprets that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 244,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well , eventually , you still have to pick out which ones you look at ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "So the person said , um , \" Where is X ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "we want to know , um , is {disfmarker} Does he want info ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 64,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "or know the location ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "Or does he want to go there ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "We should con be able to conclude from that that {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Let 's not forget we 're gonna get some very strong {pause} input from {pause} these sub dis from these discourse things ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , I know , but the Bayes - net would be able to {disfmarker} The weights on the {disfmarker} on the nodes in the Bayes - net would be able to do all that ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 379,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Yeah , I can worry about the ontology interface"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 379,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and you can {disfmarker} Keith can worry about the discourse ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 379,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "I mean , this is pretty {disfmarker} Um , I mean , I {disfmarker} I {disfmarker} I hope everybody uh knows that these are just going to be uh dummy values ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "S so {disfmarker} so if the endpoint {disfmarker} if the Go - there is Yes and No , then Go - there - discourse will just be fifty - fifty ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 259,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Also , I 'm somewhat boggled by that Hugin software ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I can't figure out how to get the probabilities into it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 264,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Well , hopefully it 's {pause} fixable ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 9,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So is {disfmarker} This is {disfmarker} A situation are {disfmarker} is all the things which can be happening right now ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 9,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Or , what is the situation type ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Based on the k what the question was , so what the discourse , the ontology , the situation and the user model gave us , we came up with these values for these decisions ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , the Go - there , the Info - on , and the Location ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "\" Uh , go there , Timing , now . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I guess they are evenly weighted ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 151,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "The different decision nodes , you mean ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , the Go - there , the Info - on , and the Location ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "If we trusted the Go - there node more th much more than we trusted the other ones , then we would conclude , even in this situation , that he wanted to go there ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "y Why are you specifying it in XML ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 12,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Um . Just because it forces us to be specific about the values {pause} here ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "And , also , I mean , this is a {disfmarker} what the input is going to be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Look at that Struct in the {disfmarker} the output ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well i well , it 's an XML Structure that 's being res returned ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 283,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "So we have , uh {disfmarker} Believe it or not , we have all the bottom ones here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 313,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "So , we have to come up with values for this , and this , this , this , and so forth ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What\u2019s the summary of the meeting?",
+                "tokenized_answer": [
+                    "The focus of the meeting was on a presentation of the work done already on the building of the Bayes-net.",
+                    "The complete prototype of the Bayes-net will be presented in the next meeting.",
+                    "After that, it will be possible to define interfaces and a dummy construction parser, in order to test and link modules together."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 8,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "Um , so we thought that , {vocalsound} We can write up uh , an element ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "and {disfmarker} for each of the situation nodes that we observed in the Bayes - net ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Well , yeah . I just don't know if this is th l what the {disfmarker} Does {disfmarker} This is what Java Bayes takes ? as a Bayes - net spec ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 16,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "No , because I mean if we {disfmarker} I mean we 're sure gonna interface to {disfmarker} We 're gonna get an XML document from somewhere ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "which we view as input into the Bayes - net ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "That put it into the format that the Bayes n or Java Bayes or whatever wants ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 349,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "OK , then . Let 's meet {disfmarker} meet again next Tuesday ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 349,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "And , um , finish up this Bayes - net ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 356,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "And we present our results ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 373,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "OK . Because then , once we have it sort of up and running , then we can start you know , defining the interfaces"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 373,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "and then hook it up to some fake construction parser"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was the structure of the Bayes-net discussed.",
+                "tokenized_answer": [
+                    "The input layer deriving information from things like the user and situation models, feeds into a set of decision nodes, such as the Enter/View/Approach (EVA) endpoint.",
+                    "In any particular situation, most of the outputs will not be relevant to the given context.",
+                    "Therefore, they will either have to be pruned a posteriori, or only a subset of the possible decision nodes will be computed in each occasion."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 189,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "And some {disfmarker} some things will always be sort of too {disfmarker} not significant enough ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 234,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "Like , if you 're asked a Where - Is question , you may not even look {disfmarker} like , ask for the posterior probability of the , uh , EVA node ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 234,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was discussed about contextualizing output?",
+                "tokenized_answer": [
+                    "Due to most outputs not being relevant to the given context, they will either have to be pruned a posteriori, or only a subset of the possible decision nodes will be computed in each occasion.",
+                    "The latter option could follow a binary search-tree approach and it could also be better in computational terms.",
+                    "In any case, on what basis the \"winner\" output is chosen is not clear."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 230,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "because some of the things aren't relevant in the Bayes - net for a specific question ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 234,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "Like , if you 're asked a Where - Is question , you may not even look {disfmarker} like , ask for the posterior probability of the , uh , EVA node ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 234,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 249,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "I mean , maybe it does make a difference in terms of performance , computational time ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 255,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So basically , you 'd have a decision tree {pause} query , {pause} Go - there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 255,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And just basically do a binary search through the {disfmarker} ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 223,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "pru {comment} Take the ones where we have a clear winner ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 223,
+                            "sent_index": 6,
+                            "speaker": "Grad B",
+                            "content": "Yeah , because that would be the easiest way ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 223,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "And not care whether that 's consistent with anything ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "How does the bayes-net deal with inputs?",
+                "tokenized_answer": [
+                    "The presented Bayes-net takes inputs from the Situation, User, Discourse and Ontology models.",
+                    "There are several values (elements) defined in each of these models.",
+                    "The inputs are fed into the belief-net, which, in turn, outputs the posterior probabilities for the values of all the decision nodes.",
+                    "These comprise \"Go-there\", \"EVA\", \"Info-on\", \"Location\", \"Timing\", etc.",
+                    "At this stage, all the decision nodes are evenly weighted: regardless of the context, each output is trusted equally.",
+                    "Input and output node structure was presented in XML, as this is the format that will be used for the system.",
+                    "A large number of the value probabilities have already been set."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Based on the k what the question was , so what the discourse , the ontology , the situation and the user model gave us , we came up with these values for these decisions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 178,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "that would take all of the inputs and weight them appropriately for that question ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 313,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "So , we have to come up with values for this , and this , this , this , and so forth ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Yeah , the Go - there , the Info - on , and the Location ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "\" Uh , go there , Timing , now . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 189,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "I guess they are evenly weighted ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "The different decision nodes , you mean ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 152,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Yeah , the Go - there , the Info - on , and the Location ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "If we trusted the Go - there node more th much more than we trusted the other ones , then we would conclude , even in this situation , that he wanted to go there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "y Why are you specifying it in XML ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 12,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Um . Just because it forces us to be specific about the values {pause} here ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 14,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "And , also , I mean , this is a {disfmarker} what the input is going to be ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Look at that Struct in the {disfmarker} the output ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 49,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Well i well , it 's an XML Structure that 's being res returned ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

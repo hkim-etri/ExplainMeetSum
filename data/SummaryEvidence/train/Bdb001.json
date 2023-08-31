@@ -1,0 +1,1382 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "Two main options were discussed as to the organisation of the collected data.",
+            "On the one hand, a bespoke XML structure that connects transcriptions and annotations (down to the word-level) to a common timeline.",
+            "Its advantages are that it is easier to read, parse, map onto the Transcriber format and to expand with extra features.",
+            "Phone-level analysis can be included in the same structure, or in a separate, linked file.",
+            "The respective frame-level representation can be handled by P-files, a technology developed at ICSI, which also comes with a library of tools.",
+            "Separation of levels of analysis makes files more compact and manageable.",
+            "XML standards offer libraries that can be used for the development of search tools.",
+            "On the other hand, the ATLAS (NIST) technology offers a very similar, but more generic organisational scheme based on nodes and links.",
+            "These are labeled with domain specific types, like \"utterance\" or \"speaker\".",
+            "This option offer well-developed infrastructure and flexibility as to the type of data storage (flat XML files or relational database).",
+            "In either case, it is important for the chosen format to allow for fast searches, flexible updates and, if possible, be reusable in future work.",
+            "In order to confirm the suitability of the data format provided by the ATLAS project, its current state of development will be investigated.",
+            "More specifically, the issues that have to be ascertained are, firstly, whether the external file representation offers a format that would be appropriate for speech data, and, secondly, how the linking between the different annotations (eg, between word-level representations and prosodic-feature structures) can be achieved.",
+            "Regardless of the actual format, however, there was consensus that keeping levels of analysis (words, phones, frames, etc) on separate, inter-linked files can make their management easier.",
+            "Choosing a project-specific format for the representation of the data might not be optimal for future work.",
+            "On the other hand, it is not yet clear whether a more standardised, but generic technology, like that of the ATLAS project, can accommodate all the requirements of speech analysis.",
+            "Regardless of the particular format, including all annotations (sentences, words, phones, frames, etc) in one file could result in unmanageable file sizes.",
+            "Searching, updating or simply parsing a file for a simple task can become an unwieldy process.",
+            "Even P-files, which are only for frame-level annotation, may be too verbose for the amount of data resulting from hour-long recordings.",
+            "The actual mapping of word-level transcriptions to frame-level representations is expected to be problematic anyway.",
+            "Likewise, problems will arise if, in the future, slightly different transcripts of the same data are annotated in formats that do not include time-marks.",
+            "Trying to merge such annotations later will not be easy, because of the combination of transcription discrepancies with the loss of the underlying connection offered by the time-marks.",
+            "An XML scheme to build representations of the data is already available.",
+            "It incorporates information regarding utterances, sentences, speakers, words, etc.",
+            "All these features are linked together via time-marks that slot into a single, common timeline.",
+            "This format also allows for linking to different levels of representation of the same data.",
+            "For the frame-level representation, P-files is a readily available technology, developed at ICSI.",
+            "Besides the appropriate format, P-files come with a library of tools and the respective documentation."
+        ],
+        "answer_sentence_index": [
+            "Bdb001.s.1",
+            "Bdb001.s.2",
+            "Bdb001.s.3",
+            "Bdb001.s.4",
+            "Bdb001.s.5",
+            "Bdb001.s.6",
+            "Bdb001.s.7",
+            "Bdb001.s.8",
+            "Bdb001.s.9",
+            "Bdb001.s.10",
+            "Bdb001.s.11",
+            "Bdb001.s.12",
+            "Bdb001.s.13",
+            "Bdb001.s.14",
+            "Bdb001.s.15",
+            "Bdb001.s.16",
+            "Bdb001.s.17",
+            "Bdb001.s.18",
+            "Bdb001.s.19",
+            "Bdb001.s.20",
+            "Bdb001.s.21",
+            "Bdb001.s.22",
+            "Bdb001.s.23",
+            "Bdb001.s.24",
+            "Bdb001.s.25",
+            "Bdb001.s.26",
+            "Bdb001.s.27",
+            "Bdb001.s.28"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So tha it has a single time - line ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 222,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean , I {disfmarker} I chose this for a couple reasons ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 222,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "One of them is that it 's easy to parse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 264,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "The other thing {disfmarker} the other way that I sort of established this was as easy translation to and from the Transcriber format ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 269,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "This is sort of intuitively easy to actually r read ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 128,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So I think it {disfmarker} it 's debatable whether you want to do phone - level in the same thing ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "or {disfmarker} or any frame - level stuff I would use P - file ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It 's ICS uh , ICSI has a format for frame - level representation of features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And we have a lot of tools already to deal with it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 156,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean , it 's something that we developed at ICSI ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 285,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It seems to me you want to keep the frame - level stuff separate ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and I wanted to find actually a f a nicer format or a {disfmarker} maybe a more compact format than what we used before ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 421,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "There 's a {pause} standard again in XML , specifically for searching XML documents {disfmarker} structured X - XML documents , where you can specify both the content and the structural position ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 427,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "It 's {disfmarker} it 's {disfmarker} you would use that to build your tool to do that sort of search ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 484,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "What you would do is , someone would build a tool that used that as a library ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "We should look at ATLAS ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "the NIST thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 8,
+                    "speaker": "Grad C",
+                    "content": "which was their file format is just nodes and links ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 230,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "and then \" type \" would be \" utterance \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 305,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Well , channel or speaker or whatever ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 239,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "they 're developing a big infrastructure ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 454,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "so that , uh , you could define a single API and the {disfmarker} the storage could be flat XML files or a database ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 195,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "you want to recompute your features , um , and then keep the database up to date ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 197,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "and that if somebody wants to try something or compute something else , that it can be done flexibly ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 390,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "The {disfmarker} the o the other issue that you had was , how do you actually efficiently extract , um {disfmarker} find and extract information in a structure of this type ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "We should look at ATLAS ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "Your {disfmarker} your file format can know about {disfmarker} know that you 're talking about language {pause} and speech , which is what I chose , and time ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 260,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So I 'll {disfmarker} I 'll take a closer look at it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "Since then , they 've developed their own external file format ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 487,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "you know , we 'll do something where we {disfmarker} some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the segment - level ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 498,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 637,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "And {pause} you want some tool , uh , that is able to sort of merge these different annotations back into a single , uh , version ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Like phones , or syllables , or anything like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 285,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It seems to me you want to keep the frame - level stuff separate ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I {disfmarker} I definitely agree"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and I wanted to find actually a f a nicer format or a {disfmarker} maybe a more compact format than what we used before ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 297,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "which {disfmarker} which would , uh , be linked to the link ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "or your file format can just be a graph representation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 217,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Um , cuz we need to come up with a database like this just to do our work ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "We should look at ATLAS ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 205,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Uh , because I knew that we were doing speech ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Like phones , or syllables , or anything like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And it can take different types ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "And so it does waste a lot of space ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 181,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "but it gets unwieldy to go in and {disfmarker} and query these files with really huge files ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I mean these are long meetings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 113,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , but if you 're talking about one per frame , you 're talking about gigabyte - size files ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But I think , a anything at frame - level , even P - file , is too verbose ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "No matter what format you choose , you 're gonna have the trou you 're gonna have the difficulty of relating the {disfmarker} the frame - level features {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 624,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "but , when it comes to annotations , um , you often find yourself in the situation where you have {pause} different annotations {pause} of the same , say , word sequence ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "But , see , if you 'd annotate dialogue acts , you don't necessarily want to {disfmarker} or topics {disfmarker} you don't really want to be dealing with time - marks ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Because we had one set of {pause} annotations that were based on , uh , one version of the transcripts with a particular segmentation ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "and then we had another version that was based on , uh , a different s slightly edited version of the transcripts with a different segmentation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "So , {vocalsound} we had these two different versions which were {disfmarker} you know , you could tell they were from the same source but they weren't identical ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "So it was extremely hard {vocalsound} to reliably merge these two back together to correlate the information from the different annotations ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 687,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Then {disfmarker} Or if they tied it to an acoustic segment and we had the time - marks , that would help ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 689,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "But the problem is exactly as Adam said , that you get , you know , y you don't have that information or it 's lost in the merge somehow ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 295,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "there 's a spea speaker tag up at the top which identifies them"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "and it has these words in it \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I actually mostly need to be able to link up , or {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So tha it has a single time - line ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "And then , uh , {nonvocalsound} you could either say \" time equals a particular time - mark \" or you could do other sorts of references ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It 's ICS uh , ICSI has a format for frame - level representation of features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 98,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "That you could call {disfmarker} that you would tie into this representation with like an ID ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "or {disfmarker} or any frame - level stuff I would use P - file ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It 's ICS uh , ICSI has a format for frame - level representation of features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 156,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean , it 's something that we developed at ICSI ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 144,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So that {disfmarker} what 's nice about the P - file {disfmarker} It {disfmarker} i"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And we have a lot of tools already to deal with it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 151,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "Is there some documentation on this somewhere ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 152,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "there 's a ton of it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "a bunch of libraries , P - file utilities ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting",
+                "tokenized_answer": [
+                    "Meeting participants wanted to agree upon a standard database to link up different components of the transcripts.",
+                    "The current idea was to use an XML script, but it quickly seemed that other options, like a pfile or ATLAS, are more suitable.",
+                    "The reason being that they would make it easier to deal with different linguistic units, like frames and utterances.",
+                    "Eventually, the team was skeptical of using something that would be hard to learn, like ATLAS.",
+                    "Nonetheless, they wanted to explore their options.",
+                    "The meeting finished with some discussion about handling annotations."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "what about , um , the idea of using a relational database to , uh , store the information from the XML ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 5,
+                            "speaker": "PhD D",
+                            "content": "you {disfmarker} you could use the XML to put the data in ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 498,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 463,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "I guess I 'm just a little hesitant to try to go whole hog on sort of the {disfmarker} the whole framework that {disfmarker} that NIST is talking about , with ATLAS and a database and all that sort of stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "cuz it 's a big learning curve , just to get going ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 510,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "because , um , you know , Adam might have one opinion but you might have another ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 595,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "And so then it would just be a matter of getting {disfmarker} making sure to handle the annotations that are , you know , not at the word - level and , um , t to import the"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 637,
+                            "sent_index": 4,
+                            "speaker": "PhD A",
+                            "content": "And {pause} you want some tool , uh , that is able to sort of merge these different annotations back into a single , uh , version ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 695,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "So you want to get that annotation and bring it back in line with your data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 731,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "The {disfmarker} the point is , that {disfmarker} that they may have annotated it off a word transcript that isn't the same as our word transcript ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about the current XML format to link up different components in data",
+                "tokenized_answer": [
+                    "C developed an XML format that links together utterances based on time tags, essentially creating a lattice.",
+                    "The XML format would be divided into many sections, each with its own ID and timeline tag.",
+                    "The XML format could be modified to deal with smaller linguistic units since that would only entail changing the timestamps.",
+                    "Despite being easy to use, the format was not efficient for smaller linguistic units, like phones.",
+                    "It would work for word units, at best."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "so that you start with {disfmarker} with a time - line tag ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "And then somewhere la further down you might have something like an utterance tag"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 43,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So you 're essentially defining a lattice ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "So tha it has a single time - line ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "and then you can have lots of different sections ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "each of which have I Ds attached to it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "so that you start with {disfmarker} with a time - line tag ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I mean you 've got all these phone labels ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "because you could {disfmarker} you could {disfmarker} all you 'd have to change is the , {vocalsound} um , time - stamps in the time - line without {disfmarker} without , uh , changing the I Ds ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "I don't think I would do this for phone - level ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 197,
+                            "sent_index": 5,
+                            "speaker": "PhD F",
+                            "content": "it just has to be , you know , easy to use , and {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "I think for word - level , this would be OK ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did F think about the current XML format to link up different components in data?",
+                "tokenized_answer": [
+                    "F was concerned about how the time labels would adjust to smaller phonetic units.",
+                    "F inquired if the time boundaries could be changed by propagating new information throughout the XML.",
+                    "F thought that they could configure different XML files to deal with different units, but it would lead to large file sizes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I mean you 've got all these phone labels ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "and what do you do if you {disfmarker} just conceptually , if you get , um , transcriptions where the words are staying but the time boundaries are changing , cuz you 've got a new recognition output ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "and what do you do if you {disfmarker} just conceptually , if you get , um , transcriptions where the words are staying but the time boundaries are changing , cuz you 've got a new recognition output ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 57,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And you 'd be able to propagate all of the {disfmarker} the information ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "It 's just a matter of {disfmarker} it 's just a matter of it being bigger ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 78,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So you could have some file that configures how much information you want in your {disfmarker} in your XML or something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "I {disfmarker} I am imagining you 'd have multiple versions of this depending on the information that you want ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did A think about the current XML format to link up different components in data?",
+                "tokenized_answer": [
+                    "A had seen an example of this kind of XML format before.",
+                    "A thought that the time boundaries were nicely handled but believed that smaller linguistic units would drain too much memory.",
+                    "It was essentially like a lattice, in his opinion.",
+                    "Though, A did not seem too concerned with dealing with smaller linguistic units since the problem would not be encountered frequently."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Oh , I remember seeing an example of this ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 55,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "or s sort of {disfmarker} what 's the , um , sequence of going from the waveforms that stay the same , the transcripts that may or may not change , and then the utterance which {disfmarker} where the time boundaries that may or may not change {disfmarker} ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "That 's actually very nicely handled here"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "But {disfmarker} but why not use it for phone - level ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "you know , barring memory limitations , or uh {disfmarker} I w I mean this is still the m"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 43,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So you 're essentially defining a lattice ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "You would use it only {pause} for {pause} purposes where you actually want the phone - level information , I 'd imagine ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about the disadvantages of ATLAS and other options",
+                "tokenized_answer": [
+                    "Since the team is familiar with Perl and a flat file format is easier, it was suggested that the cost of learning a new framework, like ATLAS, might be too high.",
+                    "It was suggested that ATLAS be used for the external file representation initially, and if it seems suitable, then it should be adopted in its entirety.",
+                    "P files were also discussed but the problem with them was that they could still get pretty big."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 463,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "I guess I 'm just a little hesitant to try to go whole hog on sort of the {disfmarker} the whole framework that {disfmarker} that NIST is talking about , with ATLAS and a database and all that sort of stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "cuz it 's a big learning curve , just to get going ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Whereas if we just do a flat file format , sure , it may not be as efficient"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "but everyone can program in Perl and {disfmarker} and use it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 498,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 498,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "and then later on if we choose to go up the learning curve , we can use the whole ATLAS inter infrastructure ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 535,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "There used to be a problem that they get too large ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did C think about the disadvantages of ATLAS and other options?",
+                "tokenized_answer": [
+                    "C thought that other options have a big learning curve, which should be taken into account, and that a flat format works well.",
+                    "A flat file format may not be fast, but everyone can handle it.",
+                    "C believed that quick and dirty solutions should be balanced with long-term infrastructural solutions.",
+                    "For instance, Perl can be paired with external representations of ATLAS files to create a working system.",
+                    "C also suggested that alternatives to P files might be interesting too, though the disadvantage would, once again, be the learning curve."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "cuz it 's a big learning curve , just to get going ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Whereas if we just do a flat file format , sure , it may not be as efficient"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Whereas if we just do a flat file format , sure , it may not be as efficient"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "but everyone can program in Perl and {disfmarker} and use it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 492,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "I think that there are quick and dirty solutions ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 494,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "and then there are long - term , big - infrastructure solutions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 484,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "For Perl {disfmarker} if you want to just do Perl ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 498,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 530,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "and so if we pick something else , there 's the learning - curve problem ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did F think about the disadvantages of ATLAS and other options?",
+                "tokenized_answer": [
+                    "F wanted to ensure that prosodic features could be dealt with at the level of small linguistic units.",
+                    "F proposed that they be attached to the word or segment level with the option of extracting smaller units.",
+                    "This would allow the team to keep what they have without starting over."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 485,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "They 'll be looking at either a word - level prosodic , uh , an {disfmarker} a value ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 487,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "you know , we 'll do something where we {disfmarker} some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the segment - level ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 487,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "you know , we 'll do something where we {disfmarker} some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the segment - level ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 489,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "Um , one that Chuck mentioned is starting out with something that we don't have to start over , that we don't have to throw away if other people want to extend it for other kinds of questions ,"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

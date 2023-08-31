@@ -1,0 +1,807 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkely Meeting Recorder group discussed efforts by speaker mn005 to measure energy levels in cases of speaker overlap in which the time window analyzed was 200 milliseconds or greater.",
+            "Preliminary results were presented showing that log domain analyses did not reveal a significant difference in mean energy levels for windows of overlapping versus non-overlapping speech.",
+            "In contrast, raw energy analyses were successful in showing the two groups to be distinct.",
+            "Participants discussed alternate strategies for examining energy and the importance of categorizing types of speaker overlap.",
+            "Participants also reviewed the latest iteration of speaker forms, and discussed recent changes to the Transcriber tool.",
+            "Continuing efforts by speaker mn005 to measure energy levels in cases of speaker overlap will not include additional log energy analyses, but rather an analysis of raw energy for normalized speaker dataacross windows of varying duration, followed by an examination of pitch- and harmonicity-related features.",
+            "Speakers fe008 and fe016 discussed plans to categorize and produce a taxonomy of types of speaker overlap.",
+            "Time marks for transcribed or force-aligned data are needed to analyze types of speaker overlap.",
+            "With respect to speaker forms, the group discussed problems associated with categorizing regional dialects of American English.",
+            "The new version of Transcriber does not feature the waveform, as re-drawing of this window is too slow using Snack.",
+            "The latest iteration of speaker forms was presented.",
+            "New mutitrans patches were added to the Transcriber tool to enable it to run with fewer delays, still allowing users to open multiple panes and listen to different channels of the mixed signal."
+        ],
+        "answer_sentence_index": [
+            "Bmr009.s.1",
+            "Bmr009.s.2",
+            "Bmr009.s.3",
+            "Bmr009.s.4",
+            "Bmr009.s.5",
+            "Bmr009.s.6",
+            "Bmr009.s.7",
+            "Bmr009.s.8",
+            "Bmr009.s.9",
+            "Bmr009.s.10",
+            "Bmr009.s.11",
+            "Bmr009.s.12"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 27,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "but um uh Jose and I were just talking about {vocalsound} the uh {nonvocalsound} uh , speech e energy thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 8,
+                    "speaker": "Professor C",
+                    "content": "He was {disfmarker} he {disfmarker} he was taking everything over two hundred milliseconds"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "And so i i his {disfmarker} his {disfmarker} He 's making the constraint it has to be at least two hundred milliseconds ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "Right now , that he 's not really showing any kind of uh distinction , but uh {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "Um . And uh one is that uh this is all in log energy"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "um and {disfmarker} But one thing he was pointing out is when he {disfmarker} he looked at a bunch of examples in log domain , it is actually pretty hard to see {vocalsound} the change ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 70,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "And when he 's looking in the log domain he 's not really seeing it ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 73,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And when he 's looking in straight energy he is ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "so that 's a good place to start ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "I think I would just sort of look at the energy {pause} and then get into the harmonicity as {disfmarker} as a suggestion ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 357,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "and I had plan to go through with it , of {disfmarker} of co coding the types of overlaps that people were involved in s just with reference to speaker style so , you know , with reference {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 363,
+                    "sent_index": 1,
+                    "speaker": "Postdoc B",
+                    "content": "so I was planning to do a taxonomy of types overlaps with reference to that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 525,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Forms Next iteration of forms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 526,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "You had something on forms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 533,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So one is a one time only {pause} speaker form and the other is the digits ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 538,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So , they incorporate the changes {pause} that we talked about ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "Um {pause} Another is that he needs to play with the {disfmarker} the different uh {pause} uh temporal sizes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 10,
+                    "speaker": "Professor C",
+                    "content": "Um And uh {disfmarker} and the other thing is that the {disfmarker} yeah doing the {disfmarker} {vocalsound} subtracting off the mean and the variance in the {disfmarker} {pause} uh and dividing it by the {pause} standard deviation in the log domain , {vocalsound} may not be {pause} the right thing to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So yeah there {disfmarker} there {disfmarker} there {disfmarker} There 's a good chance then given that different people do talk different amounts {pause} that there is {disfmarker} there {disfmarker} there is still a lot more to be gained from gain norm normalization with some sort"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh . But we were agreed that in addition to that {comment} uh there should be {pause} s stuff related to pitch and harmonics and so forth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "I think I would just sort of look at the energy {pause} and then get into the harmonicity as {disfmarker} as a suggestion ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 339,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Not consider the log energy ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 357,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "and I had plan to go through with it , of {disfmarker} of co coding the types of overlaps that people were involved in s just with reference to speaker style so , you know , with reference {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 363,
+                    "sent_index": 1,
+                    "speaker": "Postdoc B",
+                    "content": "so I was planning to do a taxonomy of types overlaps with reference to that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But it is definitely true that we need to have the time marks ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 469,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and I was assuming that will be inherited because , if you have the words and they 're roughly aligned in time via forced alignment or whatever we end up using , then you know , this {pause} student and I would be looking at the time marks"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 487,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Well , we {disfmarker} we wouldn't be able to do any work without a forced alignment anyway ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 531,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "one 's a speaker form ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah this was the problem with these categories ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 653,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So I 'm not sure what to do about the Region field for English variety ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 655,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But I don't know how to {disfmarker} I don't know how to {disfmarker} I don't know how to categorize them ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1034,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "I wrote another version . Which , instead of having the one pane with the one view , It has multiple panes {pause} with the views ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1037,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But the problem with it is the drawing of those waveforms is so slow that every time you do anything it just crawls ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1040,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's {disfmarker} So , it {disfmarker} it 's the redrawing of the w"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1044,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Just about anything , and it {disfmarker} it was so slow it was not usable ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1060,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , not if we 're going to use Tcl - TK At least not if we 're going to use Snack ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 525,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Forms Next iteration of forms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 531,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "one 's a speaker form ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 535,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "Is {disfmarker} is new Is OK ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1022,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , did you guys get my email on the multitrans ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1024,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah . So . So . I {disfmarker} I have a version also which actually displays all the channels ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1029,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "The {disfmarker} what {disfmarker} the ones I applied , that you can actually do are Dan 's , because it doesn't slow it down ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1034,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "I wrote another version . Which , instead of having the one pane with the one view , It has multiple panes {pause} with the views ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the Meeting",
+                "tokenized_answer": [
+                    "Postdoc C suggested a possible hypothesis that energy is increased as more people are speaking.",
+                    "New forms were discussed, as these will include more details that may have to be completed by analysts through interviews with participants.",
+                    "The Multitrans update by the graduate student seems promising, and has been sent for review."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "That 's {disfmarker} that sort of hypothesis ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "we were just proposing that maybe it 's {disfmarker} you know , it 's harder to {pause} see with the log energy ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "and eh come with another speaker with high energy"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 538,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "This is just the suggestion for uh what the new forms would look like ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 538,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "So , they incorporate the changes {pause} that we talked about ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "Postdoc B",
+                            "content": "Uh why did you switch the order of the Date and Time fields ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 543,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "This is {disfmarker} this is rather a low level question , but {disfmarker} but it used {disfmarker} used to be Date came first ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 544,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Uh , because the user fills out the first three fields and I fill out the rest ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1022,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Um , did you guys get my email on the multitrans ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1024,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Yeah . So . So . I {disfmarker} I have a version also which actually displays all the channels ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1029,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "The {disfmarker} what {disfmarker} the ones I applied , that you can actually do are Dan 's , because it doesn't slow it down ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1032,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Just uses a lot of memory ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1034,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "It 's not slow at all ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was the discussion with Jose?",
+                "tokenized_answer": [
+                    "Derivatives were not discussed with Jose  but other possibilities were explored.",
+                    "First that log energy is basically compressing the distances.",
+                    "Another is that he needs to assess the different temporal sizes .",
+                    "He is taking everything over two hundred milliseconds and varying that number.",
+                    "He is also considering  moving windows , as previously discussed.",
+                    "He is measuring at the frame level."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "We didn't talk about the derivatives ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "but we discussed a couple of the possible things that uh he can look at ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "and log energy is basically compressing the distances {vocalsound} uh {pause} between things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 7,
+                            "speaker": "Professor C",
+                            "content": "Um {pause} Another is that he needs to play with the {disfmarker} the different uh {pause} uh temporal sizes ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 8,
+                            "speaker": "Professor C",
+                            "content": "He was {disfmarker} he {disfmarker} he was taking everything over two hundred milliseconds"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 9,
+                            "speaker": "Professor C",
+                            "content": "uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 9,
+                            "speaker": "Professor C",
+                            "content": "uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And then he 's {disfmarker} he 's uh measuring at the frame level {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Professor C say about the possible hypothesis?",
+                "tokenized_answer": [
+                    "Professor C said the basic hypothesis and starting point is if you examine the energy when two people are speaking at the same time , usually {there 'll be more energy than when one is.",
+                    "Coming up with a measure which will match this intuition is the next step.",
+                    "These energy features should be fed into a discriminative system.",
+                    "It is important to pick a normalization that matches the distribution for that feature."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 161,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "we were just proposing that maybe it 's {disfmarker} you know , it 's harder to {pause} see with the log energy ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Um And then we w I think we 're agreed that pitch - related things are {disfmarker} are {disfmarker} are going to be a {disfmarker} a really likely candidate to help ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 192,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "What you would imagine eventually , is that you 'll feed all of these features into some {pause} discriminative system ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 203,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "I mean , it 's really important to {pause} pick a normalization that matches the distribution for that feature ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was to be included in the new form arrangement?",
+                "tokenized_answer": [
+                    "For the new forms, one is a one time only speaker form and the other is the digits.",
+                    "The reason the time is included above the date is so that the person who 's extracting the digits will know where to look in the meeting , to try to find them.",
+                    "In addition to Name, Time and Email which the participant fills out,  the form including seat number, session, native language, region of origin, time spent in an English speaking country, and accent characterization filled by research facilitators, after conducting a short interview."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 533,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "So one is a one time only {pause} speaker form and the other is the digits ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 538,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "This is just the suggestion for uh what the new forms would look like ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 541,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "On {disfmarker} on the new one , Time comes first and then Date ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 553,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "The {disfmarker} the reason I put the time in , is so that the person who 's extracting the digits , meaning me , will know where to look in the meeting , to try to find the digits ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 588,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And the Seat is this number ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 590,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "Seat and Session ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 616,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So the main thing that the person fills out um {pause} is the name and email and time ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 618,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Right ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 622,
+                            "sent_index": 0,
+                            "speaker": "Postdoc B",
+                            "content": "What {disfmarker} And there 's an addition of the native language , which is a bit redundant ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 668,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "You know , I think if you 're talking {disfmarker} if you 're thinking in terms of places , {pause} as opposed to {pause} names different peop names people have given to {pause} different ways of talking , {pause} I would think North Midwest , and South Midwest would be more common than saying Midland ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 810,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "And those people , if you ask them to self - identify their accent they know ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 830,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "\" Characterize your accent {pause} if you can . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1008,
+                            "sent_index": 2,
+                            "speaker": "Postdoc B",
+                            "content": "and then you have time spent in English speaking country ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

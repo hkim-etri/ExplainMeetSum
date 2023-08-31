@@ -1,0 +1,330 @@
+{
+    "transcripts_id": "Bro003",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Tell him about the cube ."
+                },
+                {
+                    "turn_index": 91,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Uh we {disfmarker} actually we want to , mmm , Uh , {vocalsound} uh , analyze three dimensions ,"
+                },
+                {
+                    "turn_index": 115,
+                    "sent_index": 9,
+                    "speaker": "Professor F",
+                    "content": "So I 'm not sure if {disfmarker} . I mean , unless we 're going to include a bunch of car recordings in the {disfmarker} in the training database , I 'm not sure if it 's {disfmarker} completely rules it out"
+                },
+                {
+                    "turn_index": 811,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "an another question occurred to me is {disfmarker} is what were you folks planning to do about normalization ?"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Um . {vocalsound} Well , preparation of the French test data actually ."
+                },
+                {
+                    "turn_index": 227,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "so {disfmarker} so you take PLP and you {disfmarker} you , uh , do it {disfmarker} uh , you {disfmarker} you , uh , use HTK with it with the transformed features using a neural net that 's trained ."
+                },
+                {
+                    "turn_index": 338,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And , yeah , the training for the HTK models is always , uh , fixed for whatever language you 're testing on ."
+                },
+                {
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , the inputs are one dimension of the cube ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about language training data for cell phones",
+            "oracle_info": [
+                {
+                    "turn_index": 76,
+                    "sent_index": 8,
+                    "speaker": "PhD G",
+                    "content": "I 'm preparing the {disfmarker} the HTK baseline for this task ."
+                },
+                {
+                    "turn_index": 91,
+                    "sent_index": 4,
+                    "speaker": "PhD G",
+                    "content": "So we have the um , TI - digit task , the Italian task , the French task {pause} and the Finnish task ."
+                },
+                {
+                    "turn_index": 124,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "for the multilingual part we were thinking of using these three databases ."
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Yeah . I mean , in principle , I mean conceptually , it 's sort of like they want a re @ @ {comment} well , they want a replacement for mel cepstra ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "we 've got something much better than mel cepstra ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "but these gobbledy - gook features are supposed to be good for any language ."
+                }
+            ]
+        },
+        {
+            "query": "Did the Professor agree with Grad G on cross-lingual data?",
+            "oracle_info": [
+                {
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Yeah , and perhaps , um {disfmarker} {pause} We were thinking that perhaps the cross - language issue is not , uh , so big of a issue ."
+                },
+                {
+                    "turn_index": 137,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "Well , w w we {disfmarker} perhaps we should not focus too much on that cross - language stuff ."
+                },
+                {
+                    "turn_index": 138,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Uh - huh ."
+                },
+                {
+                    "turn_index": 138,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But that 's {disfmarker}"
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Yeah . I mean , in principle , I mean conceptually , it 's sort of like they want a re @ @ {comment} well , they want a replacement for mel cepstra ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "we 've got something much better than mel cepstra ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "but these gobbledy - gook features are supposed to be good for any language ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about the diversity of languages they needed?",
+            "oracle_info": [
+                {
+                    "turn_index": 172,
+                    "sent_index": 14,
+                    "speaker": "Professor F",
+                    "content": "Maybe {disfmarker} maybe we have a couple languages in the training set and that gives us enough breadth uh , uh , that {disfmarker} that {disfmarker} that the rest doesn't matter ."
+                },
+                {
+                    "turn_index": 184,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And so , ideally , what you 'd wanna do is you 'd wanna run it with and without the target language and the training set for a wide range of languages ."
+                },
+                {
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And that way you can say , \" Well , \" you know , \" we 're gonna build it for what we think are {pause} the most common ones \" ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on moving between data formats and the logistics of training models",
+            "oracle_info": [
+                {
+                    "turn_index": 724,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "The Spanish labels ?"
+                },
+                {
+                    "turn_index": 724,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "That was in different format ,"
+                },
+                {
+                    "turn_index": 724,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "that the format for the em {disfmarker} the program to train the neural network ."
+                },
+                {
+                    "turn_index": 726,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "I necessary to convert ."
+                },
+                {
+                    "turn_index": 727,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So you 're just having a problem converting the labels ."
+                },
+                {
+                    "turn_index": 728,
+                    "sent_index": 7,
+                    "speaker": "PhD E",
+                    "content": "l LabeCut , but don't {disfmarker} doesn't , eh , include the HTK format to convert ."
+                },
+                {
+                    "turn_index": 762,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "And we have reached the {disfmarker} this {disfmarker} the machines are getting faster and faster ."
+                },
+                {
+                    "turn_index": 762,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "So , it actually has reached the point where it 's a significant drag on the time for something to move the data from one place to another ."
+                },
+                {
+                    "turn_index": 953,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "is that we could {disfmarker} we could , uh , just translate {disfmarker} instead of translating to a superset , {pause} just translate to articulatory features , some set of articulatory features and train with that ."
+                }
+            ]
+        },
+        {
+            "query": "What concerns did the team have about disk space?",
+            "oracle_info": [
+                {
+                    "turn_index": 768,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Then , when you 're working with something and accessing it many times , you copy the piece of it that you 're working with over to some place that 's close to where the computation is and then do all the work there ."
+                },
+                {
+                    "turn_index": 768,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "And then that way you {disfmarker} you won't have the {disfmarker} the network {disfmarker} you won't be clogging the network for yourself and others ."
+                },
+                {
+                    "turn_index": 770,
+                    "sent_index": 7,
+                    "speaker": "Professor F",
+                    "content": "uh , I think four more , uh , thirty - six gigabyte drives"
+                },
+                {
+                    "turn_index": 781,
+                    "sent_index": 6,
+                    "speaker": "Professor F",
+                    "content": "So I guess the other question is what disk there i space there is there on the computational servers ."
+                },
+                {
+                    "turn_index": 782,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Yeah , I 'm not sure what 's available on {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about the cheating experiment?",
+            "oracle_info": [
+                {
+                    "turn_index": 956,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "We could do an interesting cheating experiment with that too ."
+                },
+                {
+                    "turn_index": 956,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "We could {disfmarker} I don't know , if you had uh the phone labels , you could replace them by their articulatory features"
+                },
+                {
+                    "turn_index": 956,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "to see if it {disfmarker} if you get a big win ."
+                },
+                {
+                    "turn_index": 953,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "is that we could {disfmarker} we could , uh , just translate {disfmarker} instead of translating to a superset , {pause} just translate to articulatory features , some set of articulatory features and train with that ."
+                },
+                {
+                    "turn_index": 953,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "Now the fact {disfmarker} even though it 's a smaller number , {pause} it 's still fine"
+                },
+                {
+                    "turn_index": 953,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because you have the {disfmarker} the , uh , combinations ."
+                },
+                {
+                    "turn_index": 953,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "So , in fact , it has every , you know {disfmarker} it had {disfmarker} has {disfmarker} has every distinction in it that you would have the other way ."
+                },
+                {
+                    "turn_index": 983,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "cuz it 'll kind of normalize them down to one half or something like that , for instance ."
+                },
+                {
+                    "turn_index": 992,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "So if you choose sigmoid it 's o it 's OK ?"
+                },
+                {
+                    "turn_index": 994,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Did we just run out of disk ,"
+                }
+            ]
+        }
+    ]
+}

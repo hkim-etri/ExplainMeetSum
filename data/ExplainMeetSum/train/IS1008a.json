@@ -1,0 +1,3536 @@
+{
+    "domain": "Product(ami)",
+    "topic_list": [
+        {
+            "topic": "Team building and project initiation",
+            "relevant_text_span": [
+                [
+                    "1",
+                    "29"
+                ],
+                [
+                    "71",
+                    "84"
+                ],
+                [
+                    "93",
+                    "121"
+                ]
+            ]
+        },
+        {
+            "topic": "Style of remote control for television",
+            "relevant_text_span": [
+                [
+                    "30",
+                    "50"
+                ]
+            ]
+        },
+        {
+            "topic": "Composition of the design team",
+            "relevant_text_span": [
+                [
+                    "59",
+                    "65"
+                ]
+            ]
+        },
+        {
+            "topic": "Marketing schemes",
+            "relevant_text_span": [
+                [
+                    "66",
+                    "70"
+                ],
+                [
+                    "85",
+                    "92"
+                ]
+            ]
+        },
+        {
+            "topic": "Team coordination",
+            "relevant_text_span": [
+                [
+                    "122",
+                    "149"
+                ]
+            ]
+        }
+    ],
+    "explainable_ami": {
+        "tokenized_answer": [
+            "The group introduced themselves to each other and discussed their roles in the project.",
+            "The Project Manager opened a discussion about the project plan and asked the Marketing Expert to prepare an overall plan for the project.",
+            "The Marketing Expert presented the initial aim of the project: the creation of a fresh, user-friendly remote control device.",
+            "The Project Manager asked the Industrial Designer to create a functional design plan for the device, then asked the Marketing Expert about ideas for the sales strategy.",
+            "The Marketing Expert presented an initial sales plan: to analyze the competition and to pinpoint the target marketing group.",
+            "The Project Manager instructed all participants to work together on their respective design plans.",
+            "The Project Manager decided that the design plans will be discussed at the next meeting, and that the next step will be to come up with a functional design of the device.",
+            "The Marketing Expert will prepare a sales plan for the product and discuss the project budget and the sales strategy.",
+            "The Industrial Designer will prepare an initial functional design.",
+            "The User Interface Designer will contribute studies on user requirements to the functional design.",
+            "The Project Manager will post his presentation to be available for all participants.",
+            "The group will discuss the design plans of the three experts at the next meeting.",
+            "The group will first work on a functional design of the device.",
+            "The group did not receive sufficient information about the project in advance to be prepared to create a project plan in the first meeting."
+        ],
+        "answer_sentence_index": [
+            "IS1008a.JacquelinePalmer.s.1",
+            "IS1008a.JacquelinePalmer.s.2",
+            "IS1008a.JacquelinePalmer.s.3",
+            "IS1008a.JacquelinePalmer.s.4",
+            "IS1008a.JacquelinePalmer.s.5",
+            "IS1008a.JacquelinePalmer.s.6",
+            "IS1008a.JacquelinePalmer.s.7",
+            "IS1008a.JacquelinePalmer.s.8",
+            "IS1008a.JacquelinePalmer.s.9",
+            "IS1008a.JacquelinePalmer.s.10",
+            "IS1008a.JacquelinePalmer.s.11",
+            "IS1008a.JacquelinePalmer.s.12",
+            "IS1008a.JacquelinePalmer.s.13",
+            "IS1008a.JacquelinePalmer.s.14"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "And uh I want to introduce myself ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "uh my name is uh Shrida Daseri"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "and uh I'm a project manager for this new project which we are going to discuss now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "So I want to introduce first of all uh the names and the colleagues here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "and my role in this uh scenario is to be the industrial designer ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So thanks for coming for the meeting first of all ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "First of all I want to ask uh Mister Ed about your uh marketing plan and your product plan and uh {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 25,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "do you have some project plan , something with you or {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "What is the goal of the project ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "I had a first part of mine was to make a remote control for a new f remote control for television ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "So we're have to design something that is very user friendly ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "we're have to come up with a new idea on how to make it a lot easier to use ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Christine , what about your uh the industrial design plan ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 51,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Are you have a design already on this product or uh you're still working on the design ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Um no , I I have not begun working on the design ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "And uh Ed uh so what's {disfmarker} what do you think about uh this uh project for the remote control"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "and d do you have some already planned something for your marketing strategy or uh the sales strategy ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh , what they're building , their designs , their ideas ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 85,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "and d do you have some already planned something for your marketing strategy or uh the sales strategy ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh , what they're building , their designs , their ideas ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 88,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "uh also have to pinpoint which market we're gonna go into ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 122,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So I think all three groups will need to interact quite a bit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 122,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "I guess build the plan based on all of that ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So , the immediate next step is to start determining the functional design , or"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "To come up with the functional design and uh to discuss with Ed , okay , and how it's going to be work ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So , we'll meet when the {disfmarker} we'll discuss on the further meeting ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 75,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "okay , so I need some kind of uh uh the plan in the writing from you ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 79,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "because uh without any uh documentations , I cannot go to the management and say , so we are going to do this and we need this much money ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "and d do you have some already planned something for your marketing strategy or uh the sales strategy ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 99,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "and uh you need to come up with some kind of plan , okay , how we are going to do the {disfmarker} your sales plan , okay ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 103,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "Okay , so I think it's uh maybe if we can uh give me some kind of your uh the sales plan , okay , including the technical what uh she's going to talk to you within the team , okay , then it will help me to discuss with the management for further , okay , and put it in the the proper project plan ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "but uh uh when you think you can give me like a kind of design on the functional design or the technical design ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 72,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "{vocalsound} Well , uh I've got a lot of other projects I'm doing right now um"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "and so I'll have to wait and see how those uh how those go ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 110,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I mean my job from what I understood was to look at the usability requirements and make sure that the product is usable , it's acceptable to the people who are gonna use it and look at the best ways to do that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 112,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So I think I'll have to interact with Christine and discuss with her , so that she's not designing something that my studies will show right off the bat that it's not going to work ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 139,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Would you mind um at the conclusion of our meeting could could you send us a copy of your slides ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 140,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Yes , I will . Yes ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "To come up with the functional design and uh to discuss with Ed , okay , and how it's going to be work ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So , we'll meet when the {disfmarker} we'll discuss on the further meeting ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So , the immediate next step is to start determining the functional design , or"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "I actually didn't know we were designing a remote control ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Um I just did s see that we were starting a new project together"
+                }
+            ]
+        ]
+    },
+    "explainable_icsi": {},
+    "explainable_qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "answer": "The team members met up for the first time to discuss the new remote control for the television. Each member introduced themselves and agreed that the product should be designed to be user-friendly. Industrial designer then proposed that the marketing plan is for the product to be fashionable and attractive. Project manager listed several subjects in need of settlement before the further discussion, including functional design, time frame, budget, product introduction marketing strategic plan and benefits for the company as well as the individuals, before he suggested more interaction among teams.",
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "The team members met up for the first time to discuss the new remote control for the television.",
+                        "evidence": [
+                            {
+                                "type": "PES",
+                                "turn_index": 1,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "uh good morning everybody here ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 1,
+                                "sent_index": 5,
+                                "speaker": "Project Manager",
+                                "content": "So I want to introduce first of all uh the names and the colleagues here ."
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 2,
+                                "sent_index": 1,
+                                "speaker": "User Interface",
+                                "content": "my name is Agnes"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 3,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "{vocalsound} My name is Ed"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 14,
+                                "sent_index": 0,
+                                "speaker": "Industrial Designer",
+                                "content": "And I'm Christine ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 37,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "Oh I think uh , if I'm not wrong , we're making the remote control ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 39,
+                                "sent_index": 2,
+                                "speaker": "Marketing",
+                                "content": "I had a first part of mine was to make a remote control for a new f remote control for television ,"
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    },
+                    {
+                        "answer_sentence": "Each member introduced themselves and agreed that the product should be designed to be user-friendly.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 1,
+                                "sent_index": 2,
+                                "speaker": "Project Manager",
+                                "content": "And uh I want to introduce myself ,"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 1,
+                                "sent_index": 3,
+                                "speaker": "Project Manager",
+                                "content": "uh my name is uh Shrida Daseri"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 2,
+                                "sent_index": 1,
+                                "speaker": "User Interface",
+                                "content": "my name is Agnes"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 3,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "{vocalsound} My name is Ed"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 14,
+                                "sent_index": 0,
+                                "speaker": "Industrial Designer",
+                                "content": "And I'm Christine ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 41,
+                                "sent_index": 1,
+                                "speaker": "Marketing",
+                                "content": "So we're have to design something that is very user friendly ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            1
+                        ]
+                    },
+                    {
+                        "answer_sentence": "Industrial designer then proposed that the marketing plan is for the product to be fashionable and attractive.",
+                        "evidence": [
+                            {
+                                "type": "PES",
+                                "turn_index": 67,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "Yeah , but uh before we talk about uh the finance , okay , uh do you have some idea how we can uh sell this product or project in the market"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 68,
+                                "sent_index": 1,
+                                "speaker": "Industrial Designer",
+                                "content": "I kind of think that in general you have to do uh um y you have to have something that's very fashionable , that's uh very attractive {disfmarker} that um people see and recognize uh its goal , and uh they immediately wanna have it uh have one of their own ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            2
+                        ]
+                    },
+                    {
+                        "answer_sentence": "Project manager listed several subjects in need of settlement before the further discussion, including functional design, time frame, budget, product introduction marketing strategic plan and benefits for the company as well as the individuals, before he suggested more interaction among teams.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 73,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "so like uh what's your functional design , what's your technical design , and uh how many people you need for this project , and what's the time frame you're looking , okay , and what is the budget , maybe uh initial budget you're looking , okay , and uh how is going to the market , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "so you've you've had to meet with the marketing team and how they're going to market and what are the marketing strategic plan , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "when are you going to introduce , okay , and by the time you introduce the product and uh you know there there would be a competition ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 79,
+                                "sent_index": 4,
+                                "speaker": "Project Manager",
+                                "content": "then we can have the further discussion again ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 93,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "Yes , so what I uh prefer maybe uh you need to interact uh more with the Christine , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 103,
+                                "sent_index": 3,
+                                "speaker": "Project Manager",
+                                "content": "Then uh we have to design , okay , how long it will take the whole project , okay , how much is going to cost us , and how much we are going to benefit for the company ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 103,
+                                "sent_index": 4,
+                                "speaker": "Project Manager",
+                                "content": "Okay , of course it's it's uh of benefit for everybody individually ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            3
+                        ]
+                    }
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What did the Industrial Designer propose about the marketing plan of the product?",
+                "answer": "By taking the example of iPod, Industrial Designer believed that the remote control should be fashionable so that people can instantly recognize its value and have the urge to possess one.",
+                "relevant_text_span": [
+                    [
+                        "61",
+                        "72"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "By taking the example of iPod, Industrial Designer believed that the remote control should be fashionable so that people can instantly recognize its value and have the urge to possess one.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 68,
+                                "sent_index": 1,
+                                "speaker": "Industrial Designer",
+                                "content": "I kind of think that in general you have to do uh um y you have to have something that's very fashionable , that's uh very attractive {disfmarker} that um people see and recognize uh its goal , and uh they immediately wanna have it uh have one of their own ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 68,
+                                "sent_index": 3,
+                                "speaker": "Industrial Designer",
+                                "content": "something like the iPod would be good , seems to have caught on fairly well ,"
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "query": "What did the Marketing recommend to do when discussing marketing strategy and why?",
+                "answer": "By doing research on other companies' design and ideas, Marketing pointed out that the market the remote control aimed at should be a fairly large one and that the product itself should have a brand new, attractive design and be simple to use.",
+                "relevant_text_span": [
+                    [
+                        "83",
+                        "92"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "By doing research on other companies' design and ideas, Marketing pointed out that the market the remote control aimed at should be a fairly large one and that the product itself should have a brand new, attractive design and be simple to use.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 86,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh , what they're building , their designs , their ideas ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 88,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "uh also have to pinpoint which market we're gonna go into ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 90,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "It should be a fairly large market because uh the number of people that uh {disfmarker} the competition ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 92,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "uh th I agree it has to be something {disfmarker} it has to be something new ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 92,
+                                "sent_index": 1,
+                                "speaker": "Marketing",
+                                "content": "it has to be something that that draws people saying eh , I like this ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 92,
+                                "sent_index": 2,
+                                "speaker": "Marketing",
+                                "content": "Whether it works or not , they have to first say I like this , I like the design ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 92,
+                                "sent_index": 3,
+                                "speaker": "Marketing",
+                                "content": "and then it's gotta be simple to use ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "query": "What did the Marketing suggest about remote control style in terms of marketing strategy?",
+                "answer": "Marketing pointed out that the remote control for television should be user-friendly, with a visual feature to draw the attention of customers and that new ideas should be put into thought on facilitating its usage, so that users could avoid spending too much time on the instruction menu.",
+                "relevant_text_span": [
+                    [
+                        "35",
+                        "50"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "Marketing pointed out that the remote control for television should be user-friendly, with a visual feature to draw the attention of customers and that new ideas should be put into thought on facilitating its usage, so that users could avoid spending too much time on the instruction menu.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 41,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "we'll start with the remote control for television then ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 41,
+                                "sent_index": 1,
+                                "speaker": "Marketing",
+                                "content": "So we're have to design something that is very user friendly ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 44,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "Something uh visual that has something that will will draw people to buy the product ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 46,
+                                "sent_index": 4,
+                                "speaker": "Marketing",
+                                "content": "we're have to come up with a new idea on how to make it a lot easier to use ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 48,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "'cause a lot of times uh spend uh half a day through the instruction book trying to figure out how to use it ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "query": "What did the Project Manager propose in the discussion of project initiation?",
+                "answer": "Project manager needed the following subjects to be presented in writing form, including functional and technical design, team scale, timeline, initial budget, cost limit, marketing strategic plan, product introduction, benefits for the company and for each individual. These matters should be determined before further discussion.",
+                "relevant_text_span": [
+                    [
+                        "71",
+                        "79"
+                    ],
+                    [
+                        "93",
+                        "103"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "Project manager needed the following subjects to be presented in writing form, including functional and technical design, team scale, timeline, initial budget, cost limit, marketing strategic plan, product introduction, benefits for the company and for each individual.",
+                        "evidence": [
+                            {
+                                "type": "PES",
+                                "turn_index": 72,
+                                "sent_index": 0,
+                                "speaker": "Industrial Designer",
+                                "content": "{vocalsound} Well , uh I've got a lot of other projects I'm doing right now um"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 73,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "Yeah , but uh I need something in the writing ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 73,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "so like uh what's your functional design , what's your technical design , and uh how many people you need for this project , and what's the time frame you're looking , okay , and what is the budget , maybe uh initial budget you're looking , okay , and uh how is going to the market , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "so you've you've had to meet with the marketing team and how they're going to market and what are the marketing strategic plan , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "when are you going to introduce , okay , and by the time you introduce the product and uh you know there there would be a competition ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 2,
+                                "speaker": "Project Manager",
+                                "content": "okay , so I need some kind of uh uh the plan in the writing from you ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 100,
+                                "sent_index": 0,
+                                "speaker": "Marketing",
+                                "content": "Do we already have a cost limit on this , th an idea of how much uh we want to market this for , how much it's gonna sell for ,"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 103,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "Yes , that's {disfmarker} you have to decide , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 103,
+                                "sent_index": 3,
+                                "speaker": "Project Manager",
+                                "content": "Then uh we have to design , okay , how long it will take the whole project , okay , how much is going to cost us , and how much we are going to benefit for the company ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 103,
+                                "sent_index": 4,
+                                "speaker": "Project Manager",
+                                "content": "Okay , of course it's it's uh of benefit for everybody individually ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    },
+                    {
+                        "answer_sentence": "These matters should be determined before further discussion.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 79,
+                                "sent_index": 3,
+                                "speaker": "Project Manager",
+                                "content": "okay , so then it's it's difficult for me to say , okay , that's the reason I need uh some kind of plan from you , initially , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 79,
+                                "sent_index": 4,
+                                "speaker": "Project Manager",
+                                "content": "then we can have the further discussion again ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "query": "For what reason did the Project Manager insist that the discussion of project initiation should be kept in writing form?",
+                "answer": "Because by the time the Industrial Designer introduced his product in a more thorough way, there would be a competition. Moreover, Project Manager made this request so that he could submit the documentation to the management. He hopes, in addition, that all the emails or other copies of discussions could be kept so that each member could be informed about the project proceeding.",
+                "relevant_text_span": [
+                    [
+                        "73",
+                        "79"
+                    ],
+                    [
+                        "125",
+                        "149"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "Because by the time the Industrial Designer introduced his product in a more thorough way, there would be a competition.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 75,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "when are you going to introduce , okay , and by the time you introduce the product and uh you know there there would be a competition ,"
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    },
+                    {
+                        "answer_sentence": "Moreover, Project Manager made this request so that he could submit the documentation to the management.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 79,
+                                "sent_index": 2,
+                                "speaker": "Project Manager",
+                                "content": "because uh without any uh documentations , I cannot go to the management and say , so we are going to do this and we need this much money ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 123,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "But what I request , okay , {gap} keep Ed in the loop , okay , in between your uh meeting and Christine meeting , because uh he should know what's happening ."
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 124,
+                                "sent_index": 1,
+                                "speaker": "User Interface",
+                                "content": "Yeah , we can C_C_ him on any discussions or documents that are passed around ."
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 125,
+                                "sent_index": 2,
+                                "speaker": "Project Manager",
+                                "content": "so I need to submit to the management ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            1
+                        ]
+                    },
+                    {
+                        "answer_sentence": "He hopes, in addition, that all the emails or other copies of discussions could be kept so that each member could be informed about the project proceeding.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 125,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "Okay and please please copy all the mails , okay , all the discussions to me , okay ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 142,
+                                "sent_index": 1,
+                                "speaker": "Project Manager",
+                                "content": "le let us keep all the emails and all the copies , okay , share each other , okay , so you know everybody what's happening , okay ?"
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            2
+                        ]
+                    }
+                ]
+            },
+            {
+                "query": "What did the Project Manager suggest about team coordination during the process of project initiation?",
+                "answer": "Project manager expressed his hope that Marketing could interact more frequently with the Industrial Designer Christine within her team, so that the two departments of sales and finance could coordinate with each other. Additionally, he would like all the teams worked together in order to take all the factors into account.",
+                "relevant_text_span": [
+                    [
+                        "93",
+                        "98"
+                    ],
+                    [
+                        "122",
+                        "126"
+                    ]
+                ],
+                "explainable_answer": [
+                    {
+                        "answer_sentence": "Project manager expressed his hope that Marketing could interact more frequently with the Industrial Designer Christine within her team, so that the two departments of sales and finance could coordinate with each other.",
+                        "evidence": [
+                            {
+                                "type": "CES",
+                                "turn_index": 97,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "So , what I prefer , okay , so you need to interact with the Christine more and uh within her team , okay , who is using the functional design or technical design , okay ,"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 99,
+                                "sent_index": 0,
+                                "speaker": "Project Manager",
+                                "content": "and uh you need to come up with some kind of plan , okay , how we are going to do the {disfmarker} your sales plan , okay ,"
+                            },
+                            {
+                                "type": "PES",
+                                "turn_index": 103,
+                                "sent_index": 6,
+                                "speaker": "Project Manager",
+                                "content": "Okay , and if you need uh any coordination in between uh compared to the maybe the some technical vendors or commercial vendors , okay , depends if you want to have some uh uh marketing plan or technical plan , okay , so you let me know ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            0
+                        ]
+                    },
+                    {
+                        "answer_sentence": "Additionally, he would like all the teams worked together in order to take all the factors into account.",
+                        "evidence": [
+                            {
+                                "type": "PES",
+                                "turn_index": 122,
+                                "sent_index": 2,
+                                "speaker": "User Interface",
+                                "content": "I guess build the plan based on all of that ,"
+                            },
+                            {
+                                "type": "CES",
+                                "turn_index": 122,
+                                "sent_index": 3,
+                                "speaker": "User Interface",
+                                "content": "because I think you need to take all the factors into account ."
+                            }
+                        ],
+                        "answer_sentence_index": [
+                            1
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "meeting_transcripts": [
+        {
+            "speaker": "Industrial Designer",
+            "content": "Oops That's as far as it goes {vocalsound} .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Oops",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.1"
+                },
+                {
+                    "turn_index": 0,
+                    "sent_index": 1,
+                    "dialogue_sentence": "That's as far as it goes {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.2"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Hi guys uh good morning everybody here . And uh I want to introduce myself , uh my name is uh Shrida Daseri and uh I'm a project manager for this new project which we are going to discuss now . So I want to introduce first of all uh the names and the colleagues here . And what you're uh drawing ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 1,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Hi guys",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.1"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 1,
+                    "dialogue_sentence": "uh good morning everybody here .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.2"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 2,
+                    "dialogue_sentence": "And uh I want to introduce myself ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.3"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 3,
+                    "dialogue_sentence": "uh my name is uh Shrida Daseri",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.4"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 4,
+                    "dialogue_sentence": "and uh I'm a project manager for this new project which we are going to discuss now .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.5"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 5,
+                    "dialogue_sentence": "So I want to introduce first of all uh the names and the colleagues here .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.6"
+                },
+                {
+                    "turn_index": 1,
+                    "sent_index": 6,
+                    "dialogue_sentence": "And what you're uh drawing ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.7"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "{vocalsound} Uh sure my name is Agnes and I'm an user {disfmarker} usability user interface designer .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Uh sure",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.1"
+                },
+                {
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "dialogue_sentence": "my name is Agnes",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.2"
+                },
+                {
+                    "turn_index": 2,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and I'm an user {disfmarker} usability user interface designer .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.3"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} My name is Ed and I do accounting .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 3,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} My name is Ed",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.1"
+                },
+                {
+                    "turn_index": 3,
+                    "sent_index": 1,
+                    "dialogue_sentence": "and I do accounting .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.2"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Uh how you spell your name uh ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 4,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Uh how you spell your name uh ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.8"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "E_D_ .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "dialogue_sentence": "E_D_ .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.3"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "E_D_ okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 6,
+                    "sent_index": 0,
+                    "dialogue_sentence": "E_D_ okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.9"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Mm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.4"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "And ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 8,
+                    "sent_index": 0,
+                    "dialogue_sentence": "And ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.10"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Do you also do marketing ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 9,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Do you also do marketing ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.3"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} No {vocalsound} .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} No {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.5"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "So only accounting ? Okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So only accounting ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.11"
+                },
+                {
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.12"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Accounting , yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 12,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Accounting , yes .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.6"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "And ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "dialogue_sentence": "And ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.13"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "And I'm Christine ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "dialogue_sentence": "And I'm Christine ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.4"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.14"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "and my role in this uh scenario is to be the industrial designer .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 16,
+                    "sent_index": 0,
+                    "dialogue_sentence": "and my role in this uh scenario is to be the industrial designer .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.5"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Industrial designer .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 17,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Industrial designer .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.15"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "But I'm not really one .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 18,
+                    "sent_index": 0,
+                    "dialogue_sentence": "But I'm not really one .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.6"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "So who is uh marketing , nobody in the market",
+            "sentence_level_content": [
+                {
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So who is uh marketing , nobody in the market",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.16"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Marketing is uh , is me {vocalsound} .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Marketing is uh , is me {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.7"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "It's you , okay . So thanks for coming for the meeting first of all , and uh we have a long time , just twenty-five minutes to discuss about uh this project and the the project initiation . First of all I want to ask uh Mister Ed about your uh marketing plan and your product plan and uh {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 21,
+                    "sent_index": 0,
+                    "dialogue_sentence": "It's you , okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.17"
+                },
+                {
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "dialogue_sentence": "So thanks for coming for the meeting first of all ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.19"
+                },
+                {
+                    "turn_index": 21,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and uh we have a long time , just twenty-five minutes to discuss about uh this project and the the project initiation .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.20"
+                },
+                {
+                    "turn_index": 21,
+                    "sent_index": 3,
+                    "dialogue_sentence": "First of all I want to ask uh Mister Ed about your uh marketing plan and your product plan and uh {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.21"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} Well I think that we'll see that throughout the day in how we're going to put this together as a marketing to to market the product . We'll have to see on a through discussion on where we're gonna go from here and from {disfmarker} with this .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 22,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Well I think that we'll see that throughout the day in how we're going to put this together as a marketing to to market the product .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.8"
+                },
+                {
+                    "turn_index": 22,
+                    "sent_index": 1,
+                    "dialogue_sentence": "We'll have to see on a through discussion on where we're gonna go from here and from {disfmarker} with this .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.9"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm but uh do you already have like a functional design or a technical design or {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 23,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.22"
+                },
+                {
+                    "turn_index": 23,
+                    "sent_index": 1,
+                    "dialogue_sentence": "but uh do you already have like a functional design or a technical design or {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.23"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} Uh for the moment not yet .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 24,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Uh for the moment not yet .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.11"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Oh for the moment not yet , okay , but uh what's what's your uh {disfmarker} do you have some project plan , something with you or {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Oh for the moment not yet , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.24"
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 1,
+                    "dialogue_sentence": "but uh what's what's your uh {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.25"
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 2,
+                    "dialogue_sentence": "do you have some project plan , something with you or {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.26"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} Good question {vocalsound} . No , this is like I said that we have to be discussed between all of us and we'll go from there . We'll have to {disfmarker} simply we'll have to work on it together .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Good question {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.12"
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 1,
+                    "dialogue_sentence": "No ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.13"
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 2,
+                    "dialogue_sentence": "this is like I said that we have to be discussed between all of us and we'll go from there .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.14"
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 3,
+                    "dialogue_sentence": "We'll have to {disfmarker} simply we'll have to work on it together .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.15"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm . Okay , so uh by when you think you can uh give me some kind of uh project plan , okay , a discussion with uh {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 27,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.27"
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.28"
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 2,
+                    "dialogue_sentence": "so uh by when you think you can uh give me some kind of uh project plan , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.29"
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 3,
+                    "dialogue_sentence": "a discussion with uh {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.30"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Certainly by the next meeting .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 28,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Certainly by the next meeting .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.16"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "By next meeting , okay that will be great . Uh Okay , so there's any questions or uh first of all about uh this project ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "dialogue_sentence": "By next meeting , okay that will be great .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.31"
+                },
+                {
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Uh Okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.32"
+                },
+                {
+                    "turn_index": 29,
+                    "sent_index": 2,
+                    "dialogue_sentence": "so there's any questions or uh first of all about uh this project ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.33"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "What is the goal of the project ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "dialogue_sentence": "What is the goal of the project ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.7"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Uh the goal of the project I think maybe I'll uh hand out to the Ed , okay , so to explain uh what is the project because he's in the sales and the accounting .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Uh the goal of the project I think maybe I'll uh hand out to the Ed , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.34"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 1,
+                    "dialogue_sentence": "so to explain uh what is the project because he's in the sales and the accounting .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.35"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 32,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.17"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 33,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.8"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "I'm in the sales I'm supposed to explain them what to do {vocalsound} . We have to define exactly what our product is , from uh {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 34,
+                    "sent_index": 0,
+                    "dialogue_sentence": "I'm in the sales I'm supposed to explain them what to do {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.18"
+                },
+                {
+                    "turn_index": 34,
+                    "sent_index": 1,
+                    "dialogue_sentence": "We have to define exactly what our product is , from uh {disfmarker}",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.19"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes , so can you explain uh what exactly the product is ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 35,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.36"
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 1,
+                    "dialogue_sentence": "so can you explain uh what exactly the product is ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.37"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "From what I had in mind we're supposed to be marketing coffee , is that right ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "dialogue_sentence": "From what I had in mind we're supposed to be marketing coffee ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.20"
+                },
+                {
+                    "turn_index": 36,
+                    "sent_index": 1,
+                    "dialogue_sentence": "is that right ?",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.21"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Oh I think uh , if I'm not wrong , we're making the remote control .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Oh I think uh , if I'm not wrong , we're making the remote control .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.38"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Um I was wondering {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Um I was wondering {disfmarker}",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.4"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Remote controls , 'cause I had two different things . I had a first part of mine was to make a remote control for a new f remote control for television , and afterward I had a discussion about coffee so {vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Remote controls ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.22"
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 1,
+                    "dialogue_sentence": "'cause I had two different things .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.23"
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 2,
+                    "dialogue_sentence": "I had a first part of mine was to make a remote control for a new f remote control for television ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.24"
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 3,
+                    "dialogue_sentence": "and afterward I had a discussion about coffee so {vocalsound}",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.25"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "{vocalsound} Yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.39"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "we'll start with the remote control for television then . So we're have to design something that is very user friendly .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 41,
+                    "sent_index": 0,
+                    "dialogue_sentence": "we'll start with the remote control for television then .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.26"
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "dialogue_sentence": "So we're have to design something that is very user friendly .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.27"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.40"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.5"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Something uh visual that has something that will will draw people to buy the product ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Something uh visual that has something that will will draw people to buy the product ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.28"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.41"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "because I think everybody's experienced with uh remote controls , and some remote controls are are worth uh throwing out the window . Uh th most of them ar I don't know we're have to come up with a new idea on how to make it a lot easier to use ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 0,
+                    "dialogue_sentence": "because I think everybody's experienced with uh remote controls ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.29"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "dialogue_sentence": "and some remote controls are are worth uh throwing out the window .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.30"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "dialogue_sentence": "Uh th most of them ar",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.31"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 3,
+                    "dialogue_sentence": "I don't know",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.32"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 4,
+                    "dialogue_sentence": "we're have to come up with a new idea on how to make it a lot easier to use ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.33"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.42"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "'cause a lot of times uh spend uh half a day through the instruction book trying to figure out how to use it .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 48,
+                    "sent_index": 0,
+                    "dialogue_sentence": "'cause a lot of times uh spend uh half a day through the instruction book trying to figure out how to use it .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.34"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.43"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.6"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "And uh what abo uh Christine , what about your uh the industrial design plan ? Are you have a design already on this product or uh you're still working on the design ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 51,
+                    "sent_index": 0,
+                    "dialogue_sentence": "And uh what abo uh",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.44"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Christine , what about your uh the industrial design plan ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.45"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 2,
+                    "dialogue_sentence": "Are you have a design already on this product or uh you're still working on the design ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.46"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Um no , I I have not begun working on the design ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Um no , I I have not begun working on the design ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.9"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.47"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "and um I uh I actually didn't know we were designing a remote control , I thought we were designing a new monitor . Um the website I went to look at had some announcements about an introduction of a um uh some sort of a seven inch um monitor , and um I understood that that was the project goal . So um I'm glad I didn't d do any work um ahead of time because uh I clearly didn't understand the project goal .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 54,
+                    "sent_index": 0,
+                    "dialogue_sentence": "and um I uh",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.10"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "dialogue_sentence": "I actually didn't know we were designing a remote control ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.11"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 2,
+                    "dialogue_sentence": "I thought we were designing a new monitor .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.12"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 3,
+                    "dialogue_sentence": "Um the website I went to look at had some announcements about an introduction of a um uh some sort of a seven inch um monitor ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.13"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 4,
+                    "dialogue_sentence": "and um I understood that that was the project goal .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.14"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 5,
+                    "dialogue_sentence": "So um I'm glad I didn't d do any work um ahead of time",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.15"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 6,
+                    "dialogue_sentence": "because uh I clearly didn't understand the project goal .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.16"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.48"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Um I just did s see that we were starting a new project together and there was going to be a four member team composed of these people , and um that's about uh that's {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Um I just did s see that we were starting a new project together",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.17"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 1,
+                    "dialogue_sentence": "and there was going to be a four member team composed of these people ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.18"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and um that's about uh that's {disfmarker}",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.19"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 57,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.49"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "and I I read through the different steps , and what my responsibilities were relative to the steps .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 58,
+                    "sent_index": 0,
+                    "dialogue_sentence": "and I I read through the different steps , and what my responsibilities were relative to the steps .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.20"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "So uh you'll be leading the team for your design team or how many members is working in the team , for the design ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So uh you'll be leading the team for your design team or how many members is working in the team , for the design ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.50"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound} Uh for the industrial design ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 60,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Uh for the industrial design ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.21"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.51"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Um well , I would th think that depends on how much money you give us .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 62,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Um well , I would th think that depends on how much money you give us .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.22"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.52"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.35"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "That's {gap}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "dialogue_sentence": "That's {gap}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.53"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Um because uh , you know , you can uh you can make it uh {disfmarker} {vocalsound} you have different choices with different financial models .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Um because uh , you know , you can uh you can make it uh {disfmarker} {vocalsound} you have different choices with different financial models .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.23"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yeah , but uh before we talk about uh the finance , okay , uh do you have some idea how we can uh sell this product or project in the market and how much is going to benefit to the company and uh of course it's to the individual also .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 67,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah , but uh before we talk about uh the finance , okay , uh do you have some idea how we can uh sell this product or project in the market",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.54"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "dialogue_sentence": "and how much is going to benefit to the company and uh of course it's to the individual also .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.55"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound} Well , you know um , I kind of think that in general you have to do uh um y you have to have something that's very fashionable , that's uh very attractive {disfmarker} that um people see and recognize uh its goal , and uh they immediately wanna have it uh have one of their own . So it would {disfmarker} really would need to um {disfmarker} {vocalsound} something like the iPod would be good , seems to have caught on fairly well ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Well , you know um ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.24"
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 1,
+                    "dialogue_sentence": "I kind of think that in general you have to do uh um y you have to have something that's very fashionable , that's uh very attractive {disfmarker} that um people see and recognize uh its goal , and uh they immediately wanna have it uh have one of their own .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.25"
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 2,
+                    "dialogue_sentence": "So it would {disfmarker} really would need to um {disfmarker} {vocalsound}",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.26"
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 3,
+                    "dialogue_sentence": "something like the iPod would be good , seems to have caught on fairly well ,",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.27"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.56"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "so um d uh you know , I don't care what it does , just so it looks cool .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 70,
+                    "sent_index": 0,
+                    "dialogue_sentence": "so um d uh",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.28"
+                },
+                {
+                    "turn_index": 70,
+                    "sent_index": 1,
+                    "dialogue_sentence": "you know , I don't care what it does , just so it looks cool .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.29"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay , but uh uh when you think you can give me like a kind of design on the functional design or the technical design ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.57"
+                },
+                {
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "dialogue_sentence": "but uh uh when you think you can give me like a kind of design on the functional design or the technical design ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.58"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound} Well , uh I've got a lot of other projects I'm doing right now um and so I'll have to wait and see how those uh how those go . If they uh go quickly then uh it could be a month . If um if I run into any problems in my other projects it might be six months .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 72,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Well , uh I've got a lot of other projects I'm doing right now um",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.30"
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "dialogue_sentence": "and so I'll have to wait and see how those uh how those go .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.31"
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 2,
+                    "dialogue_sentence": "If they uh go quickly then uh it could be a month .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.32"
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 3,
+                    "dialogue_sentence": "If um if I run into any problems in my other projects it might be six months .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.33"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yeah , but uh I need something in the writing , so like uh what's your functional design , what's your technical design , and uh how many people you need for this project , and what's the time frame you're looking , okay , and what is the budget , maybe uh initial budget you're looking , okay , and uh how is going to the market , okay ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah , but uh I need something in the writing ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.59"
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 1,
+                    "dialogue_sentence": "so like uh what's your functional design , what's your technical design , and uh how many people you need for this project , and what's the time frame you're looking , okay , and what is the budget , maybe uh initial budget you're looking , okay , and uh how is going to the market , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.60"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Mm-hmm . Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.34"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.35"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "so you've you've had to meet with the marketing team and how they're going to market and what are the marketing strategic plan , okay , when are you going to introduce , okay , and by the time you introduce the product and uh you know there there would be a competition , okay , so I need some kind of uh uh the plan in the writing from you . Okay , and it's po",
+            "sentence_level_content": [
+                {
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "dialogue_sentence": "so you've you've had to meet with the marketing team and how they're going to market and what are the marketing strategic plan , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.61"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 1,
+                    "dialogue_sentence": "when are you going to introduce , okay , and by the time you introduce the product and uh you know there there would be a competition ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.62"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 2,
+                    "dialogue_sentence": "okay , so I need some kind of uh uh the plan in the writing from you .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.63"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 3,
+                    "dialogue_sentence": "Okay , and it's po",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.64"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound} And when would you like that ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} And when would you like that ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.36"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "B as soon as possible .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "dialogue_sentence": "B as soon as possible .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.65"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound} Uh well if uh if we have enough time uh then d do you think um two weeks is a {disfmarker} is close enough ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Uh well if uh if we have enough time uh then d do you think um two weeks is a {disfmarker} is close enough ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.37"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes I think uh that would be good , because I need to go to the management and uh tell them what we are going to do , and uh what cost is , okay , and what's the time frame and what's the project plan , because uh without any uh documentations , I cannot go to the management and say , so we are going to do this and we need this much money , okay , so then it's it's difficult for me to say , okay , that's the reason I need uh some kind of plan from you , initially , okay , then we can have the further discussion again .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 79,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes I think uh that would be good ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.66"
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 1,
+                    "dialogue_sentence": "because I need to go to the management and uh tell them what we are going to do , and uh what cost is , okay , and what's the time frame and what's the project plan ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.67"
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 2,
+                    "dialogue_sentence": "because uh without any uh documentations , I cannot go to the management and say , so we are going to do this and we need this much money ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.68"
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 3,
+                    "dialogue_sentence": "okay , so then it's it's difficult for me to say , okay , that's the reason I need uh some kind of plan from you , initially , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.69"
+                },
+                {
+                    "turn_index": 79,
+                    "sent_index": 4,
+                    "dialogue_sentence": "then we can have the further discussion again .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.70"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Uh {vocalsound} are there other people who will be contributing to the plan ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Uh {vocalsound} are there other people who will be contributing to the plan ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.38"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes , of course , if you need some help , uh so let me know . So , who are the people you need uh from the marketing or uh the technical side or uh the administration point of view , okay , to add in any documentation , or some technical point of view ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 81,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes , of course ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.71"
+                },
+                {
+                    "turn_index": 81,
+                    "sent_index": 1,
+                    "dialogue_sentence": "if you need some help , uh so let me know .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.72"
+                },
+                {
+                    "turn_index": 81,
+                    "sent_index": 2,
+                    "dialogue_sentence": "So , who are the people you need uh from the marketing or uh the technical side or uh the administration point of view , okay , to add in any documentation , or some technical point of view ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.73"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.39"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "so just let me know so I can uh coordinate all the teams .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "dialogue_sentence": "so just let me know so I can uh coordinate all the teams .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.74"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Okay , I'll get back to you on that .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 84,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay , I'll get back to you on that .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.40"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes . Thank you . Okay . And uh Ed uh so what's {disfmarker} what do you think about uh this uh project for the remote control and d do you have some already planned something for your marketing strategy or uh the sales strategy ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.75"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Thank you .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.76"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 2,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.77"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 3,
+                    "dialogue_sentence": "And uh Ed uh so what's {disfmarker} what do you think about uh this uh project for the remote control",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.78"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 4,
+                    "dialogue_sentence": "and d do you have some already planned something for your marketing strategy or uh the sales strategy ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.79"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh , what they're building , their designs , their ideas ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Well not yet other than uh doing research and taking remote controls and looking what other companies have to do uh , what they're building , their designs , their ideas ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.36"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "{vocalsound} Hmm . {vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 87,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.80"
+                },
+                {
+                    "turn_index": 87,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.82"
+                },
+                {
+                    "turn_index": 87,
+                    "sent_index": 2,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.81"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "uh also have to pinpoint which market we're gonna go into .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 88,
+                    "sent_index": 0,
+                    "dialogue_sentence": "uh also have to pinpoint which market we're gonna go into .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.37"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 89,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.83"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "It should be a fairly large market because uh the number of people that uh {disfmarker} the competition ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 90,
+                    "sent_index": 0,
+                    "dialogue_sentence": "It should be a fairly large market because uh the number of people that uh {disfmarker} the competition ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.38"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 91,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.84"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "uh th I agree it has to be something {disfmarker} it has to be something new , it has to be something that that draws people saying eh , I like this . Whether it works or not , they have to first say I like this , I like the design , and then it's gotta be simple to use .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 92,
+                    "sent_index": 0,
+                    "dialogue_sentence": "uh th I agree it has to be something {disfmarker} it has to be something new ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.39"
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 1,
+                    "dialogue_sentence": "it has to be something that that draws people saying eh , I like this .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.40"
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 2,
+                    "dialogue_sentence": "Whether it works or not , they have to first say I like this , I like the design ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.41"
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 3,
+                    "dialogue_sentence": "and then it's gotta be simple to use .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.42"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes , so what I uh prefer maybe uh you need to interact uh more with the Christine , okay , because you know what she is going to do it , okay , and you know how to sell it . Okay , because uh she is doing the design , but you are the core because you are in the marketing , okay ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 93,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes , so what I uh prefer maybe uh you need to interact uh more with the Christine , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.85"
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 1,
+                    "dialogue_sentence": "because you know what she is going to do it , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.86"
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and you know how to sell it . Okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.87"
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 3,
+                    "dialogue_sentence": "because uh she is doing the design ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.88"
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 4,
+                    "dialogue_sentence": "but you are the core because you are in the marketing , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.89"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Yeah .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 94,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.43"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "so because you need to sell {disfmarker} and you're the responsible for the all the money , the finance , okay , tomorrow .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "dialogue_sentence": "so because you need to sell {disfmarker} and you're the responsible for the all the money , the finance , okay , tomorrow .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.90"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 96,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.44"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "So , what I prefer , okay , so you need to interact with the Christine more and uh within her team , okay , who is using the functional design or technical design , okay ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 97,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So , what I prefer , okay , so you need to interact with the Christine more and uh within her team , okay , who is using the functional design or technical design , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.91"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 98,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.45"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "and uh you need to come up with some kind of plan , okay , how we are going to do the {disfmarker} your sales plan , okay , th",
+            "sentence_level_content": [
+                {
+                    "turn_index": 99,
+                    "sent_index": 0,
+                    "dialogue_sentence": "and uh you need to come up with some kind of plan , okay , how we are going to do the {disfmarker} your sales plan , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.92"
+                },
+                {
+                    "turn_index": 99,
+                    "sent_index": 1,
+                    "dialogue_sentence": "th",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.93"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Do we already have a cost limit on this , th an idea of how much uh we want to market this for , how much it's gonna sell for ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Do we already have a cost limit on this , th an idea of how much uh we want to market this for , how much it's gonna sell for ,",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.46"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Th That {disfmarker} that's",
+            "sentence_level_content": [
+                {
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Th That {disfmarker} that's",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.94"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "that's up that's up to us to decide , eh ? {vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 102,
+                    "sent_index": 0,
+                    "dialogue_sentence": "that's up that's up to us to decide , eh ? {vocalsound}",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.48"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes , that's {disfmarker} you have to decide , okay , so the best thing is you {disfmarker} uh both of uh the Christine and you discuss with yourself , okay , and come up with the cost , and how we are going to compete in the market , okay , in the the technically , or in the sales wise , okay , the commercial wise , okay . Then uh we have to design , okay , how long it will take the whole project , okay , how much is going to cost us , and how much we are going to benefit for the company . Okay , of course it's it's uh of benefit for everybody individually . Okay , so I think it's uh maybe if we can uh give me some kind of your uh the sales plan , okay , including the technical what uh she's going to talk to you within the team , okay , then it will help me to discuss with the management for further , okay , and put it in the the proper project plan . Okay , and if you need uh any coordination in between uh compared to the maybe the some technical vendors or commercial vendors , okay , depends if you want to have some uh uh marketing plan or technical plan , okay , so you let me know .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 103,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes , that's {disfmarker} you have to decide , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.95"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "dialogue_sentence": "so the best thing is you {disfmarker} uh both of uh the Christine and you discuss with yourself , okay , and come up with the cost ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.96"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and how we are going to compete in the market , okay , in the the technically , or in the sales wise , okay , the commercial wise , okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.97"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 3,
+                    "dialogue_sentence": "Then uh we have to design , okay , how long it will take the whole project , okay , how much is going to cost us , and how much we are going to benefit for the company .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.98"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 4,
+                    "dialogue_sentence": "Okay , of course it's it's uh of benefit for everybody individually .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.99"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 5,
+                    "dialogue_sentence": "Okay , so I think it's uh maybe if we can uh give me some kind of your uh the sales plan , okay , including the technical what uh she's going to talk to you within the team , okay , then it will help me to discuss with the management for further , okay , and put it in the the proper project plan .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.100"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 6,
+                    "dialogue_sentence": "Okay , and if you need uh any coordination in between uh compared to the maybe the some technical vendors or commercial vendors , okay , depends if you want to have some uh uh marketing plan or technical plan , okay , so you let me know .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.101"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "{vocalsound} Very good .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 104,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound} Very good .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.49"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay , I can coordinate ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 105,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay , I can coordinate ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.102"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "Very good .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Very good .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.50"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "or maybe uh , you are my coordinator , am I right ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "dialogue_sentence": "or maybe uh , you are my coordinator , am I right ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.103"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.7"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Between uh all the coor",
+            "sentence_level_content": [
+                {
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Between uh all the coor",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.104"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Well , no , not exactly . I mean my job from what I understood was to look at the usability requirements and make sure that the product is usable , it's acceptable to the people who are gonna use it and look at the best ways to do that .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 110,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Well , no , not exactly .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.8"
+                },
+                {
+                    "turn_index": 110,
+                    "sent_index": 1,
+                    "dialogue_sentence": "I mean my job from what I understood was to look at the usability requirements and make sure that the product is usable , it's acceptable to the people who are gonna use it and look at the best ways to do that .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.9"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yeah .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 111,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.105"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "So I think I'll have to interact with Christine and discuss with her , so that she's not designing something that my studies will show right off the bat that it's not going to work ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 112,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So I think I'll have to interact with Christine and discuss with her , so that she's not designing something that my studies will show right off the bat that it's not going to work ,",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.10"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Th Christine , yeah {vocalsound} . Which is {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 113,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Th Christine , yeah {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.106"
+                },
+                {
+                    "turn_index": 113,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Which is {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.107"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "and so it's sort of {disfmarker} it's a loop that feeds in , but I don't think necessarily that I'm in a coordinating position for it .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 114,
+                    "sent_index": 0,
+                    "dialogue_sentence": "and so it's sort of {disfmarker} it's a loop that feeds in ,",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.11"
+                },
+                {
+                    "turn_index": 114,
+                    "sent_index": 1,
+                    "dialogue_sentence": "but I don't think necessarily that I'm in a coordinating position for it .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.12"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes . Yeah , so basically you need to interact with Christine more , okay , for the user acceptability , okay , and the testing , okay ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 115,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.108"
+                },
+                {
+                    "turn_index": 115,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Yeah , so basically you need to interact with Christine more , okay , for the user acceptability , okay , and the testing , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.109"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Yeah . Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 116,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.13"
+                },
+                {
+                    "turn_index": 116,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.14"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "then you will {disfmarker}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 117,
+                    "sent_index": 0,
+                    "dialogue_sentence": "then you will {disfmarker}",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.110"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Which will also feed into the marketing ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Which will also feed into the marketing ,",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.15"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 119,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.111"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "because depending on what users want , depends on how you sell it , what tag lines you attach to it , how you try to make it more attractive to users .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 120,
+                    "sent_index": 0,
+                    "dialogue_sentence": "because depending on what users want , depends on how you sell it , what tag lines you attach to it , how you try to make it more attractive to users .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.16"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes . Yeah . Yeah . Yeah .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 121,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.112"
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.113"
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 2,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.114"
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 3,
+                    "dialogue_sentence": "Yeah .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.115"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "So I think all three groups will need to interact quite a bit . Um , and then I guess build the plan based on all of that , because I think you need to take all the factors into account .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 122,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So I think all three groups will need to interact quite a bit .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.17"
+                },
+                {
+                    "turn_index": 122,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Um , and then",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.18"
+                },
+                {
+                    "turn_index": 122,
+                    "sent_index": 2,
+                    "dialogue_sentence": "I guess build the plan based on all of that ,",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.19"
+                },
+                {
+                    "turn_index": 122,
+                    "sent_index": 3,
+                    "dialogue_sentence": "because I think you need to take all the factors into account .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.20"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yep . But what I request , okay , {gap} keep Ed in the loop , okay , in between your uh meeting and Christine meeting , because uh he should know what's happening .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 123,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yep .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.116"
+                },
+                {
+                    "turn_index": 123,
+                    "sent_index": 1,
+                    "dialogue_sentence": "But what I request , okay , {gap} keep Ed in the loop , okay , in between your uh meeting and Christine meeting , because uh he should know what's happening .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.117"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Yeah , of course {vocalsound} . Yeah , we can C_C_ him on any discussions or documents that are passed around .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 124,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yeah , of course {vocalsound} .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.21"
+                },
+                {
+                    "turn_index": 124,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Yeah , we can C_C_ him on any discussions or documents that are passed around .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.22"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes . Okay and please please copy all the mails , okay , all the discussions to me , okay , so I need to submit to the management .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 125,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.118"
+                },
+                {
+                    "turn_index": 125,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Okay and please please copy all the mails , okay , all the discussions to me , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.119"
+                },
+                {
+                    "turn_index": 125,
+                    "sent_index": 2,
+                    "dialogue_sentence": "so I need to submit to the management .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.120"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Sure . No problem .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Sure .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.23"
+                },
+                {
+                    "turn_index": 126,
+                    "sent_index": 1,
+                    "dialogue_sentence": "No problem .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.24"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "So any questions for uh time being ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 127,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So any questions for uh time being ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.121"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "{vocalsound}",
+            "sentence_level_content": [
+                {
+                    "turn_index": 128,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{vocalsound}",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.41"
+                }
+            ]
+        },
+        {
+            "speaker": "Marketing",
+            "content": "No .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 129,
+                    "sent_index": 0,
+                    "dialogue_sentence": "No .",
+                    "dialogue-act_id": "IS1008a.D.dialog-act.s9553330.51"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "So , the immediate next step is to start determining the functional design , or",
+            "sentence_level_content": [
+                {
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "dialogue_sentence": "So , the immediate next step is to start determining the functional design , or",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.25"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 131,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.122"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "{disfmarker} okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 132,
+                    "sent_index": 0,
+                    "dialogue_sentence": "{disfmarker} okay .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.26"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay . To come up with the functional design and uh to discuss with Ed , okay , and how it's going to be work , and uh first of all with your user acceptance , okay , how it looks like and how it's going to be work in the market , okay ,",
+            "sentence_level_content": [
+                {
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.123"
+                },
+                {
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "dialogue_sentence": "To come up with the functional design and uh to discuss with Ed , okay , and how it's going to be work ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.124"
+                },
+                {
+                    "turn_index": 133,
+                    "sent_index": 2,
+                    "dialogue_sentence": "and uh first of all with your user acceptance , okay , how it looks like and how it's going to be work in the market , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.125"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 134,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.27"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "so then we can discuss about uh further things . So , we'll meet when the {disfmarker} we'll discuss on the further meeting .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 135,
+                    "sent_index": 0,
+                    "dialogue_sentence": "so then we can discuss about uh further things .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.126"
+                },
+                {
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "dialogue_sentence": "So , we'll meet when the {disfmarker} we'll discuss on the further meeting .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.127"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 136,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.28"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "It's okay ? Thanks for coming .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "dialogue_sentence": "It's okay ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.128"
+                },
+                {
+                    "turn_index": 137,
+                    "sent_index": 1,
+                    "dialogue_sentence": "Thanks for coming .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.129"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm-hmm .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 138,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.29"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Would you mind um at the conclusion of our meeting could could you send us a copy of your slides ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 139,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Would you mind um at the conclusion of our meeting could could you send us a copy of your slides ?",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.42"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Yes , I will . Yes .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 140,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Yes , I will . Yes .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.130"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Mm-hmm , yeah , that would be useful .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 141,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Mm-hmm ,",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.30"
+                },
+                {
+                    "turn_index": 141,
+                    "sent_index": 1,
+                    "dialogue_sentence": "yeah , that would be useful .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.31"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "I'll copy , uh le let us keep all the emails and all the copies , okay , share each other , okay , so you know everybody what's happening , okay ?",
+            "sentence_level_content": [
+                {
+                    "turn_index": 142,
+                    "sent_index": 0,
+                    "dialogue_sentence": "I'll copy , uh",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.131"
+                },
+                {
+                    "turn_index": 142,
+                    "sent_index": 1,
+                    "dialogue_sentence": "le let us keep all the emails and all the copies , okay , share each other , okay , so you know everybody what's happening , okay ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.132"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Sure .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 143,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Sure .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.32"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "And if anything you need anytime so please either you can call me , or just send me email , or uh just come and uh knock my door , okay , so I'm available here . It's good ? Okay , thanks for coming and uh I wish you a nice time then .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 144,
+                    "sent_index": 0,
+                    "dialogue_sentence": "And if anything you need anytime so please either you can call me , or just send me email , or uh just come and uh knock my door , okay ,",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.133"
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 1,
+                    "dialogue_sentence": "so I'm available here .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.134"
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 2,
+                    "dialogue_sentence": "It's good ?",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.135"
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 3,
+                    "dialogue_sentence": "Okay , thanks for coming and uh I wish you a nice time then .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.136"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Okay .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 145,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.33"
+                }
+            ]
+        },
+        {
+            "speaker": "Industrial Designer",
+            "content": "Thank you .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 146,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Thank you .",
+                    "dialogue-act_id": "IS1008a.C.dialog-act.s9553330.43"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Thanks .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 147,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Thanks .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.35"
+                }
+            ]
+        },
+        {
+            "speaker": "Project Manager",
+            "content": "Okay , see you later . Bye .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 148,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Okay , see you later . Bye .",
+                    "dialogue-act_id": "IS1008a.A.dialog-act.s9553330.137"
+                }
+            ]
+        },
+        {
+            "speaker": "User Interface",
+            "content": "Thank you .",
+            "sentence_level_content": [
+                {
+                    "turn_index": 149,
+                    "sent_index": 0,
+                    "dialogue_sentence": "Thank you .",
+                    "dialogue-act_id": "IS1008a.B.dialog-act.s9553330.34"
+                }
+            ]
+        }
+    ]
+}

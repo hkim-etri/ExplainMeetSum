@@ -1,0 +1,249 @@
+{
+    "transcripts_id": "Bmr009",
+    "general_query_list": [
+        {
+            "query": "Summarize the Meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 110,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Log energy ."
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "by cheating ,"
+                },
+                {
+                    "turn_index": 224,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Just seems sort of complex ."
+                },
+                {
+                    "turn_index": 238,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "both people talk more softly ?"
+                },
+                {
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "he has the histogram mechanism ,"
+                },
+                {
+                    "turn_index": 312,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "as well ."
+                },
+                {
+                    "turn_index": 361,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "that {pause} you know so it 's like people may have different amounts of being overlapped with or overlapping"
+                },
+                {
+                    "turn_index": 408,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Is possible to have ."
+                },
+                {
+                    "turn_index": 524,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "\" forms \" ."
+                },
+                {
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So don't fill these out ."
+                },
+                {
+                    "turn_index": 538,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "This is just the suggestion for uh what the new forms would look like ."
+                },
+                {
+                    "turn_index": 704,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "I c"
+                },
+                {
+                    "turn_index": 1100,
+                    "sent_index": 3,
+                    "speaker": "Postdoc B",
+                    "content": "looks as though it will be incorporated in the future version ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "What was the discussion with Jose?",
+            "oracle_info": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Because Jane uh is not here yet ."
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "but um uh Jose and I were just talking about {vocalsound} the uh {nonvocalsound} uh , speech e energy thing ,"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "and log energy is basically compressing the distances {vocalsound} uh {pause} between things ."
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "Um {pause} Another is that he needs to play with the {disfmarker} the different uh {pause} uh temporal sizes ."
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 8,
+                    "speaker": "Professor C",
+                    "content": "He was {disfmarker} he {disfmarker} he was taking everything over two hundred milliseconds"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before ."
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And then he 's {disfmarker} he 's uh measuring at the frame level {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What did Professor C say about the possible hypothesis?",
+            "oracle_info": [
+                {
+                    "turn_index": 170,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition ."
+                },
+                {
+                    "turn_index": 179,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "and the overlapping zone has eh less energy ."
+                },
+                {
+                    "turn_index": 192,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "What you would imagine eventually , is that you 'll feed all of these features into some {pause} discriminative system ."
+                },
+                {
+                    "turn_index": 199,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "and so it 's nice to have as many {disfmarker} as many together at the same time as possible in uh in some reasonable visual form ."
+                },
+                {
+                    "turn_index": 203,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I mean , it 's really important to {pause} pick a normalization that matches the distribution for that feature ."
+                },
+                {
+                    "turn_index": 205,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "but we don't really know which speaker is overlapping with which speaker ,"
+                },
+                {
+                    "turn_index": 227,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Cuz if energy doesn't matter there , like {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What was to be included in the new form arrangement?",
+            "oracle_info": [
+                {
+                    "turn_index": 615,
+                    "sent_index": 4,
+                    "speaker": "Postdoc B",
+                    "content": "we had one already ."
+                },
+                {
+                    "turn_index": 616,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So the main thing that the person fills out um {pause} is the name and email and time ?"
+                },
+                {
+                    "turn_index": 625,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "That 's because the one , the digit form that has native language is the old form"
+                },
+                {
+                    "turn_index": 625,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "not the new form ."
+                },
+                {
+                    "turn_index": 644,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "By definition ?"
+                },
+                {
+                    "turn_index": 687,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So ."
+                },
+                {
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "Just rule them out ."
+                },
+                {
+                    "turn_index": 761,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "You know ."
+                },
+                {
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "You know am I speaking with German accent"
+                },
+                {
+                    "turn_index": 791,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "That 's a joke ."
+                }
+            ]
+        }
+    ]
+}

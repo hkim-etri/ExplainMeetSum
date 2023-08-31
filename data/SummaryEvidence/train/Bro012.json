@@ -1,0 +1,1384 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Meeting Recorder group at Berkeley met to discuss recent progress.",
+            "Of greatest interest was the progress on improving the latency and performance of their recogniser.",
+            "There was also concern over overlap of work with partners OGI, and a lack of a good example of room reverberation for demonstrations.",
+            "Everyone must be sure and use the high-pass filtering option on the groups software, to deal with irregularities between mics.",
+            "In order to coordinate better with OGI, some sort of source code control is required and me018 has offered to investigate, but only minimal progress can be made until after the upcoming deadline for Eurospeech.",
+            "When he returns me026 will help.",
+            "Also, in two weeks one of the OGI members will return, and meetings should be arranged with him before the next big project meeting.",
+            "OGI seem to be having some good results with voice activation detection, so the group need to find out which is the best VAD and start using it.",
+            "The is a waveform example of room reverberation on the groups website that was used in a presentation.",
+            "It turns out that it is a good example of many things, but not the reverb it is supposed to contain.",
+            "Need to find a better example, maybe by just looking at a closer section of waveform.",
+            "Minor experimenting found that by dropping the self-loop transition in the HMMs by just 0.1% can increase performance by 10%, but the rules of the task forbid this change.",
+            "There is some confusion over what the results produced mean, since it appears they are weighted, which biases improvements in some cases quite heavily.",
+            "Speaker me013 is worried that his groups work on spectral subtraction overlaps with that of OGI, and that it may be time better spent on other tasks.",
+            "Speaker mn007 and fn002 have been working on improving the recogniser performance as well as reducing it's latency.",
+            "Work on new filters has reduced latency, but made no improvement, though a slight reduction in performance occurred in the well matched case.",
+            "Also tried adding some spectral subtraction, but it doesn't work will with on-line normalization and at this stage is just hurting results.",
+            "They have also been considering the possibility of using a second stream of data looking at the voicedness of the data, which would draw some ideas from previous work.",
+            "Me018 has been looking at the baseline system and feels it may be possible to decrease the run time of experiments by decreasing the iteration, and he has also got the five processor Linux machine capable of running HTKs."
+        ],
+        "answer_sentence_index": [
+            "Bro012.s.1",
+            "Bro012.s.2",
+            "Bro012.s.3",
+            "Bro012.s.4",
+            "Bro012.s.5",
+            "Bro012.s.6",
+            "Bro012.s.7",
+            "Bro012.s.8",
+            "Bro012.s.9",
+            "Bro012.s.10",
+            "Bro012.s.11",
+            "Bro012.s.12",
+            "Bro012.s.13",
+            "Bro012.s.14",
+            "Bro012.s.15",
+            "Bro012.s.16",
+            "Bro012.s.17",
+            "Bro012.s.18",
+            "Bro012.s.19"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "But then I had some other uh thing discussions with him"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 284,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah we are {disfmarker} {vocalsound} We are trying to {disfmarker} to do something with the Meeting Recorder digits ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 66,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Uh . Since the last meeting we 've {disfmarker} we 've tried to put together um {vocalsound} the clean low - pass um downsampling , upsampling , I mean ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "and it 's better {disfmarker} better latency ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I don't know . {vocalsound} I mean , we still evidently have a latency reduction plan which {disfmarker} which isn't quite what you 'd like it to be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 535,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I mean it was enough better that {disfmarker} that it would {vocalsound} uh account for a fair amount of the difference between our performance , actually ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 613,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "given the constraints of this task , we can't , {vocalsound} in a very nice way , feed {pause} forward to the recognizer the information {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 741,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Um . One of the ideas that we {pause} had come up with last week for things to try to {vocalsound} improve the system {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 4,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "I {vocalsound} {vocalsound} I have to be more careful about using that as a {disfmarker} as a {disfmarker} {vocalsound} as a good illustration ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "uh , in fact it 's not , of uh {disfmarker} {vocalsound} of the effects of room reverberation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 28,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "uh It 's just not a great example because not only isn't it reverberation but it 's a noise that we definitely know what to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 323,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "Maybe you and I can talk a little bit at some point about {vocalsound} coming up with a better {vocalsound} uh demonstration of the effects of reverberation for our web page ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 480,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "which is {vocalsound} um \" if {disfmarker} if most of what the OGI folk are working with is trying to {vocalsound} integrate this other {disfmarker} other uh spectral subtraction , {vocalsound} why are we worrying about it ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "if there are things that we won't do because {vocalsound} we 've got two groups doing the same thing ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "We just run over the data before we deal with it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "um The other thing that I don't know the answer to , but when people are using Feacalc here , uh whether they 're using it with the high - pass filter option or not ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "So when we 're doing all these things using our software there is {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "but if we do make use of the cheap mikes , {vocalsound} uh we want to be sure to do that {disfmarker} that filtering before we {vocalsound} process it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 262,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "Um . What I was asking , though , is uh {disfmarker} are {disfmarker} what 's {disfmarker} what 's the level of communication with uh {vocalsound} the O G I gang now , about this"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "Is there any further discussion about this {disfmarker} this idea of {disfmarker} of having some sort of source code control ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 271,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "There is this Eurospeech deadline ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 274,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "but {disfmarker} but I think that {disfmarker} that um {vocalsound} he 's saying people are sort of scrambling for a Eurospeech deadline ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 315,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And if you 're interested in using CVS , I 've set it up here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So . I 'll be away tomorrow and Monday but I 'll be back on Tuesday or Wednesday ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "Do you remember when the next meeting is supposed to be ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 516,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "It 's uh in June ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 547,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "H Hynek will be back in town uh the week after next ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 521,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "And it looks like the {disfmarker} the French VAD is actually uh better {disfmarker} significantly better ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 524,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "It 's Pratibha that {disfmarker} that did this experiment ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 526,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Um . We should ask which VAD she used ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 527,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "He {disfmarker} Actually , I think that he say with the good VAD of {disfmarker} from OGI"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 538,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "So if they have a better one , we should use it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 2,
+                    "sent_index": 4,
+                    "speaker": "Professor A",
+                    "content": "where this came up was that uh I was showing off these wave forms that we have on the web"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "I {vocalsound} {vocalsound} I have to be more careful about using that as a {disfmarker} as a {disfmarker} {vocalsound} as a good illustration ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "uh , in fact it 's not , of uh {disfmarker} {vocalsound} of the effects of room reverberation ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 323,
+                    "sent_index": 7,
+                    "speaker": "Professor A",
+                    "content": "It made a good {disfmarker} good audio demonstration because when we could play that clip the {disfmarker} the {disfmarker} the really {vocalsound} obvious difference is that you can hear two voices and {disfmarker} {vocalsound} {vocalsound} in the second one and only hear {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 331,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "that {disfmarker} actually that makes for a perfectly good demo"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "But not of reverberation ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 323,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "Maybe you and I can talk a little bit at some point about {vocalsound} coming up with a better {vocalsound} uh demonstration of the effects of reverberation for our web page ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 348,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So maybe we can just substitute one of these wave forms"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 348,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and um {vocalsound} then do some kind of zoom in on the spectrogram on an interesting area ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 70,
+                    "sent_index": 5,
+                    "speaker": "PhD F",
+                    "content": "that {vocalsound} uh in some cases when you modify slight {disfmarker} slightly modify the initial condition you end up {vocalsound} completely somewhere air somewhere else in the {disfmarker} in the space , {vocalsound} the parameters ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 87,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Yeah I looked at um {disfmarker} {vocalsound} looked at the results when Stephane did that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 91,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I mean th the only difference is you change the self - loop transition probability by a tenth of a percent"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "so from point six to point five and you get ten percent better ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "Well , what 's {disfmarker} what are {disfmarker} according to the rules what {disfmarker} what are we supposed to do about the transition probabilities ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 115,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I think you 're not allowed to {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Yeah , actually the way the final score is computed is quite funny ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 6,
+                    "speaker": "PhD F",
+                    "content": "it 's a weighted mean of improvements ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 169,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Which means that {vocalsound} actually the weight on the well - matched is {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 169,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "Well I well what what {disfmarker} What happened is that if you have a small improvement or a small if on the well - matched case {vocalsound} it will have uh huge influence on the improvement compared to the reference"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 262,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "Um . What I was asking , though , is uh {disfmarker} are {disfmarker} what 's {disfmarker} what 's the level of communication with uh {vocalsound} the O G I gang now , about this"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 265,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "For the moment , they are working on integrating {vocalsound} the um {vocalsound} spectral subtraction apparently from Ericsson ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 267,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "We are working on our side on other things like {vocalsound} uh also trying a sup spectral subtraction"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 480,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "Can I ask a , I mean {disfmarker} a sort of top - level question ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 480,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "which is {vocalsound} um \" if {disfmarker} if most of what the OGI folk are working with is trying to {vocalsound} integrate this other {disfmarker} other uh spectral subtraction , {vocalsound} why are we worrying about it ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "if there are things that we won't do because {vocalsound} we 've got two groups doing the same thing ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I don't know . {vocalsound} I mean , we still evidently have a latency reduction plan which {disfmarker} which isn't quite what you 'd like it to be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 535,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I mean it was enough better that {disfmarker} that it would {vocalsound} uh account for a fair amount of the difference between our performance , actually ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 613,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "given the constraints of this task , we can't , {vocalsound} in a very nice way , feed {pause} forward to the recognizer the information {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 741,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Um . One of the ideas that we {pause} had come up with last week for things to try to {vocalsound} improve the system {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 66,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Uh . Since the last meeting we 've {disfmarker} we 've tried to put together um {vocalsound} the clean low - pass um downsampling , upsampling , I mean ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "Uh the new filter that 's replacing the LDA filters ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 11,
+                    "speaker": "PhD F",
+                    "content": "Well , there is no {vocalsound} real improvement ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 166,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "But they 're not making things worse and we have reduced latency ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "But actually {disfmarker} um actually it seems to do a little bit worse for the well - matched case"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 356,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So the thing that we did is just to add spectral subtraction before this , the Wall uh process , which contains LDA on - line normalization ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 356,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And it hurts uh a lot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 654,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Well . Spectral subtraction and on - line normalization don't seem to {disfmarker} to go together very well ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 551,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Also is Stephane was thinking that {vocalsound} maybe it was useful to f to think about uh {vocalsound} voiced - unvoiced {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 562,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "Cuz I have a feeling that {vocalsound} when we look {disfmarker} when we look at the {disfmarker} just at the envelope there is no way you can tell if it 's voiced and unvoiced ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 588,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Um yeah , so yeah , I think if we try to develop a second stream"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 588,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "well , there would be one stream that is the envelope and the second , it could be interesting to have"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 591,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "Uh we had a guy here some years ago who did some work on {vocalsound} um {vocalsound} making use of voicing information uh to {vocalsound} help in reducing the noise ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 597,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "And that {disfmarker} that is another way of getting rid of part of the noise"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 150,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "And so {vocalsound} you know in trying to run these experiments I notice , you know , it 's difficult to find machines , you know , compute the run on ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "And so one of the things I did was I compiled HTK for the Linux {vocalsound} machines"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "cuz we have this one from IBM that 's got like five processors in it ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "And if {disfmarker} I 'm do running an experiment right now where I 'm changing the number of iterations ? {vocalsound} from seven to three ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "just to see how it affects the baseline system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 159,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "But if we can {vocalsound} you know , run all of these back - ends f with many fewer iterations and {vocalsound} on Linux boxes we should be able to get a lot more experimenting done ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting began with the professor discussing the technical features of their recordings.",
+                    "The interaction between the hardware and the model had to be mediated through different techniques.",
+                    "Some members on the team were working on low-pass down-sampling as a replacement for LDA filters.",
+                    "Low-pass seemed to perform better, but the team was uncertain about its robustness.",
+                    "The professor thought that the team should submit something to Eurospeech and that they should further study reverberation.",
+                    "The professor thought that studying spectrograms would be a good place to start.",
+                    "The team then discussed VAD and line mean normalization as techniques for getting rid of noise.",
+                    "The meeting ended with a brief discussion on feature detection."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "so uh {vocalsound} the PDA mikes uh have a big bunch of energy at {disfmarker} at uh five hertz"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 4,
+                            "speaker": "Professor A",
+                            "content": "It is isn't a bad illustration of the effects of uh room noise . {vocalsound} on {disfmarker} on uh some mikes"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 7,
+                            "speaker": "Professor A",
+                            "content": "And then we had this other discussion about um {vocalsound} whether this affects the dynamic range ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 707,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "what that said is that , sort of , left to its own devices , like without the {disfmarker} a strong language model and so forth , that you would {disfmarker} {vocalsound} you would make significant number of errors {vocalsound} just with your uh probabilistic machinery in deciding"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "Uh . Since the last meeting we 've {disfmarker} we 've tried to put together um {vocalsound} the clean low - pass um downsampling , upsampling , I mean ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "Uh the new filter that 's replacing the LDA filters ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 66,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "Uh . Since the last meeting we 've {disfmarker} we 've tried to put together um {vocalsound} the clean low - pass um downsampling , upsampling , I mean ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "and it 's better {disfmarker} better latency ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "It seems better when we look at the mismatched case"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 5,
+                            "speaker": "PhD F",
+                            "content": "I don't {disfmarker} I don't think it means that the new system is more robust"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 281,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "Anybo - anybody in the {disfmarker} in this group do doing anything for Eurospeech ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 288,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "and , well , some people from OGI are working on a paper for this ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 302,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "So we should definitely get something in for that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 323,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "Maybe you and I can talk a little bit at some point about {vocalsound} coming up with a better {vocalsound} uh demonstration of the effects of reverberation for our web page ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 335,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "But for the {disfmarker} the visual , just , you know , I 'd like to have uh {vocalsound} uh , you know , the spectrogram again ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 544,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "And perhaps we can easily improve if {disfmarker} if we put like mean normalization before the {disfmarker} before the VAD ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 597,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "And that {disfmarker} that is another way of getting rid of part of the noise"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 719,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "And we did this complex feature selection thing where we looked at all the different possible features one could have for voicing"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 719,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "and {disfmarker} and uh {disfmarker} for {disfmarker} for that particular speaker and you 'd find you know the five or six features which really did well on them ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on patterns of noise in the recordings",
+                "tokenized_answer": [
+                    "The professor noted that a major component in one of the waves was the air conditioner.",
+                    "The team had to be more cognizant about these kind reverberations in the recordings.",
+                    "After a threshold, the reverberations interfered with the recordings.",
+                    "The team thought they could look at spectral slices to further understand the problem."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 5,
+                            "speaker": "Professor A",
+                            "content": "and {disfmarker} and uh {vocalsound} I just sort of hadn't noticed this , but that {disfmarker} the major , major component in the wave {disfmarker} in the second wave form in that pair of wave forms is actually the air conditioner ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "I {vocalsound} {vocalsound} I have to be more careful about using that as a {disfmarker} as a {disfmarker} {vocalsound} as a good illustration ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 3,
+                            "speaker": "Professor A",
+                            "content": "uh , in fact it 's not , of uh {disfmarker} {vocalsound} of the effects of room reverberation ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "since I was talking about reverberation and showing this thing that was noise , it wasn't a good match ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "but it certainly was still uh an indication of the fact that you get noise with distant mikes ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "um {vocalsound} Another , I was thinking of was um {vocalsound} taking some spectral slices ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 5,
+                            "speaker": "Professor A",
+                            "content": "And so maybe {disfmarker} maybe that would be more obvious ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the effect of noise on speech frequencies?",
+                "tokenized_answer": [
+                    "The professor informed the team that noise was affecting their recordings but Dan had assured him that the quantization effect was not significant.",
+                    "He thought that the team should update their web page to better reflect their understanding of the topic."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 4,
+                            "speaker": "Professor A",
+                            "content": "It is isn't a bad illustration of the effects of uh room noise . {vocalsound} on {disfmarker} on uh some mikes"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 10,
+                            "speaker": "Professor A",
+                            "content": "But uh Dan is pretty confident that we 're not , that {disfmarker} that quantization error is not {disfmarker} is still not a significant {vocalsound} factor there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "So I think we 'll change our {disfmarker} our picture on the web , when we 're @ @ ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "One of the things I was {disfmarker} I mean , I was trying to think about what {disfmarker} what 's the best {vocalsound} way to show the difference an and I had a couple of thoughts"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 34,
+                            "sent_index": 7,
+                            "speaker": "Professor A",
+                            "content": "So one thing to do might be to just take a piece of the spec uh of the spectrogram where you can see {vocalsound} that something looks different ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD B think about patterns of noise in the recordings?",
+                "tokenized_answer": [
+                    "PhD B thought that a smaller capacitor might help with reverberation.",
+                    "PhD B was also interested in the cutoff frequency to ensure that reverberation does not interfere with speech too much.",
+                    "PhD B thought it was around 20."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 4,
+                            "sent_index": 13,
+                            "speaker": "Professor A",
+                            "content": "whether we should {vocalsound} change a capacitor on the input box for that"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 5,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Yeah , he suggested a smaller capacitor ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "since I was talking about reverberation and showing this thing that was noise , it wasn't a good match ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 10,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "but he has a {disfmarker} a simple filter , a digital filter that he suggested ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 14,
+                            "sent_index": 6,
+                            "speaker": "Professor A",
+                            "content": "filter . Doesn't affect speech frequencies ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "What 's the {pause} cut - off frequency it used ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 17,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Is it like twenty ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "but it 's {disfmarker} it 's {disfmarker} it 's {disfmarker} it 's mild ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 22,
+                            "sent_index": 3,
+                            "speaker": "Professor A",
+                            "content": "but if we do make use of the cheap mikes , {vocalsound} uh we want to be sure to do that {disfmarker} that filtering before we {vocalsound} process it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 28,
+                            "sent_index": 3,
+                            "speaker": "Professor A",
+                            "content": "uh It 's just not a great example because not only isn't it reverberation but it 's a noise that we definitely know what to do ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 15,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "What 's the {pause} cut - off frequency it used ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Is it like twenty ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 18,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "Something like that ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on Eurospeech and reverberation",
+                "tokenized_answer": [
+                    "Eurospeech was taking place in Denmark and the team was planning on submitting a paper to it.",
+                    "The team was also discussing how to best present the reverberation problem.",
+                    "The team thought that the spectral effects of the reverberation were very clear.",
+                    "They would have to figure out how to remove the sources of variance from the data to capture only the main voice."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 281,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "Anybo - anybody in the {disfmarker} in this group do doing anything for Eurospeech ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 288,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "and , well , some people from OGI are working on a paper for this ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 296,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "Where is Eurospeech this year ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "It 's in Denmark ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 323,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "Maybe you and I can talk a little bit at some point about {vocalsound} coming up with a better {vocalsound} uh demonstration of the effects of reverberation for our web page ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 323,
+                            "sent_index": 7,
+                            "speaker": "Professor A",
+                            "content": "It made a good {disfmarker} good audio demonstration because when we could play that clip the {disfmarker} the {disfmarker} the really {vocalsound} obvious difference is that you can hear two voices and {disfmarker} {vocalsound} {vocalsound} in the second one and only hear {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 324,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Maybe we could just {pause} like , talk into a cup ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Some good reverb ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 323,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "Maybe you and I can talk a little bit at some point about {vocalsound} coming up with a better {vocalsound} uh demonstration of the effects of reverberation for our web page ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 335,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "But for the {disfmarker} the visual , just , you know , I 'd like to have uh {vocalsound} uh , you know , the spectrogram again ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 347,
+                            "sent_index": 5,
+                            "speaker": "Professor A",
+                            "content": "So there are {disfmarker} clearly are spectral effects ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 351,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "The other thing that we had in there that I didn't like was that um {vocalsound} the most obvious characteristic of the difference uh when you listen to it is that there 's a second voice ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 351,
+                            "sent_index": 8,
+                            "speaker": "Professor A",
+                            "content": "So we {disfmarker} we would like to actually see {vocalsound} the voice coming in , too , I think ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 413,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "And so , in principle , you {disfmarker} if you remove that source , then , you know , you can {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 425,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "So the {disfmarker} {vocalsound} it 's removing these sources of variability in the data {vocalsound} that have nothing to do with the linguistic component ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the PhD F think about Eurospeech?",
+                "tokenized_answer": [
+                    "PhD F explained that they were trying to do something with meeting recorder digits for Eurospeech.",
+                    "Some people on OGI were working on a paper due on the 13th of May."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Yeah we are {disfmarker} {vocalsound} We are trying to {disfmarker} to do something with the Meeting Recorder digits ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 289,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "For uh {disfmarker} {vocalsound} Oh , for Eurospeech ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 290,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 288,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "and , well , some people from OGI are working on a paper for this ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 300,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "When 's the deadline ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "I think it 's the thirteenth of May ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD F think about spectral subtraction?",
+                "tokenized_answer": [
+                    "PhD F informed the group that the preliminary results from spectral subtraction were very bad.",
+                    "Mean normalization brought noise to around zero.",
+                    "Mean and variance normalization helped with speech but not with noise variance."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 354,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "Well . I start {disfmarker} we started to work on spectral subtraction ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 354,
+                            "sent_index": 4,
+                            "speaker": "PhD F",
+                            "content": "And {vocalsound} um {vocalsound} the preliminary results were very bad ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 378,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Uh then when we apply mean normalization it looks like the second figure ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 378,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "Well , the noise part is around zero"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 380,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "and {disfmarker} {vocalsound} {vocalsound} And then the third figure is what happens when we apply mean normalization and variance normalization ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 380,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "What we can clearly see is that on the speech portion {vocalsound} the two channel come {disfmarker} becomes very close ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 380,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "but also what happens on the noisy portion is that the variance of the noise is {disfmarker}"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

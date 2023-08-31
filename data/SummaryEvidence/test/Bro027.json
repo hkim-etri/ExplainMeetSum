@@ -1,0 +1,1432 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "ICSI's Meeting Recorder Group at Berkeley meets to discuss, for the most part, progress on the Aurora Project.",
+            "The main areas being worked on were the voice activity detector and the tandem data streams.",
+            "The group discussed possible further investigations that arose from these areas, including better linking the two.",
+            "They also consider how aspects of an absent member's work might be applied to the current project.",
+            "The meeting closed with a discussion of upcoming absences, and how meetings would continue.",
+            "Speaker me018 must confirm what is needed to work with the new software in terms of adjustments with someone further up the project chain.",
+            "The system at it's current stage employs the neural networks and second stream, but the group leader would like the network investigated separately, incase it is hurting performance.",
+            "There are worries regarding the need to make adjustments so the new software can handle the group's different feature set.",
+            "The system, whilst improved, also has increased latency, and while the limit has not been set, the group need to reduce it.",
+            "Likewise the number of features the use in their system, since this has been set at an arbitrarily low value.",
+            "There has been an increase in the number of deletion in the errors, which is of some concern.",
+            "Speaker mn007 has been implementing a new voice activity detector on noise compensated data, and it performs much better.",
+            "He has also been working on the tandem neural network.",
+            "Speaker me013, along with a student, submitted work on reverberation for a speech workshop.",
+            "Speaker me018 has downloaded and compiled the software he was asked to work with in the previous meeting."
+        ],
+        "answer_sentence_index": [
+            "Bro027.s.1",
+            "Bro027.s.2",
+            "Bro027.s.3",
+            "Bro027.s.4",
+            "Bro027.s.5",
+            "Bro027.s.6",
+            "Bro027.s.7",
+            "Bro027.s.8",
+            "Bro027.s.9",
+            "Bro027.s.10",
+            "Bro027.s.11",
+            "Bro027.s.12",
+            "Bro027.s.13",
+            "Bro027.s.14",
+            "Bro027.s.15"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "And actually it brought up a question which may be relevant to the Aurora stuff too ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 14,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "Um , I know that when you figured out the filters that we 're using for the Mel scale , there was some experimentation that went on at {disfmarker} at , uh {disfmarker} at OGI ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 221,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Um , I 've been playing with , first , the , um , VAD ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 221,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Um , {vocalsound} so it 's exactly the same approach ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "I mean , I guess there 's a lot of things you could do to {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 520,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Well , what 's your {disfmarker} what 's your thought about what to do next with it ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , we might {disfmarker} uh , we might have to experiment with , uh better training sets ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 94,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "so I think when {disfmarker} when he gets done with his prelim study I think {vocalsound} one of the next things we 'd want to do is to take this , uh {disfmarker} uh , noise , uh , processing stuff and {disfmarker} and , uh {disfmarker} uh , synthesize some speech from it ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "When are his prelims ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 96,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Um , I think in about , um , a little less than two weeks ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1082,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "it shou we should have the results today during the afternoon ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1085,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "So I won't be here for {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1086,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "When do you leave ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1087,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , I 'm leaving next Wednesday ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1087,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "May or may not be in in the morning ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1087,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I leave in the afternoon ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1101,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "So it 'll be a few weeks , really , before we have a meeting of the same cast of characters ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1109,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And then starting up on the thirteenth , {nonvocalsound} uh , we 'll have meetings again"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1116,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "The meeting in {disfmarker} is the five and six of December ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1126,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 's a wrap ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Is there any word yet about the issues about , um , adjustments for different feature sets or anything ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "You asked me to write to him"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Uh , I 'll {disfmarker} I 'll d I 'll double check that and ask him again ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 138,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "it 's like that {disfmarker} that could r turn out to be an important issue for us ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 530,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I {disfmarker} The other thing is , I mean , before you found that was the best configuration , but you might have to retest those things now that we have different {disfmarker} The rest of it is different ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 530,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "For instance , what 's the effect of just putting the neural net on without the o other {disfmarker} other path ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 532,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I mean , you know what the straight features do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 726,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 729,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It was {disfmarker} b a little bit worse ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 732,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "until you put the second path in with the pure features , the neural net wasn't helping at all ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 740,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Well , I still think it would be k sort of interesting to see what would happen if you just had the neural net without the side thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 742,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And {disfmarker} and the thing I {disfmarker} I have in mind is , uh , maybe you 'll see that the results are not just a little bit worse ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 131,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And so I haven't grabbed the latest one that he just , uh , put out yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Um , but , the software seemed to compile fine and everything ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Is there any word yet about the issues about , um , adjustments for different feature sets or anything ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 138,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "it 's like that {disfmarker} that could r turn out to be an important issue for us ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 250,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but the problem is still that the latency is too large ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 252,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 345,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Wh - what 's the baseline you need to be under ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 346,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , we don't know ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 346,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "They 're still arguing about it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I mean , if it 's two {disfmarker} if {disfmarker} if it 's , uh {disfmarker} if it 's two - fifty , then we could keep the delta where it is if we shaved off twenty ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "If it 's two hundred , if we shaved off twenty , we could {disfmarker} we could , uh , meet it by moving the delta back ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 350,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So , how do you know that what you have is too much if they 're still deciding ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 353,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , if {disfmarker} if {disfmarker} if a week before we have to be done someone says , \" Well , you have to have fifty milliseconds less than you have now \" , it would be pretty frantic around here ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "You 're just using the full ninety features ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 471,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "From the networks , it 's twenty - eight ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And from the other side it 's forty - five ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 474,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So it 's {disfmarker} you have seventy - three features ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 479,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "There 's a KLT after the neural network , as {disfmarker} as before ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 480,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "That 's how you get down to twenty - eight ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 497,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But we have to {disfmarker} for sure , we have to go down ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 497,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "because the limit is now sixty features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 499,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "we have to find a way to decrease the number of features ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah , actually {vocalsound} to s eh , what I observed in the HM case is that the number of deletion dramatically increases ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 680,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "When I added the num the neural network it doubles the number of deletions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 680,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Yeah , so I don't you know {vocalsound} how to interpret that ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 681,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Me either ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 221,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Um , I 've been playing with , first , the , um , VAD ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 221,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Um , {vocalsound} so it 's exactly the same approach ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 221,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but the features that the VAD neural network use are , uh , MFCC after noise compensation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 245,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Which now is based on , uh , cleaned features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , it 's a l it 's a lot better ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 446,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Uh , but I started to play with the , um , {vocalsound} {vocalsound} uh , tandem neural network ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 446,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "I just did the configuration that 's very similar to what we did for the February proposal ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 5,
+                    "sent_index": 11,
+                    "speaker": "Professor B",
+                    "content": "Um , I can say about {disfmarker} just q just quickly to get through it , that Dave and I submitted this ASRU ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 7,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "I mean , basically we 're dealing with rever reverberation ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 121,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And he gave me all of the pointers and everything that I needed ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 121,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "And so I downloaded the , um {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 121,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "There were two things , uh , that they had to download ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 121,
+                    "sent_index": 5,
+                    "speaker": "PhD A",
+                    "content": "So I downloaded the software and compiled all of that ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The team was coming close to finalizing the model for Aurora.",
+                    "They were still trying to make some improvements to improve their score.",
+                    "The team began with a discussion about how reverberation could be better accounted for.",
+                    "The professor thought that experimenting with different filters could help achieve a better signal-to-noise ratio.",
+                    "The new system for estimating silence probabilities that the team had added to the model was very effective, but it created a 220ms latency in the VAD.",
+                    "The team was not sure what kinds of constraints would be placed on latency eventually. They wanted to play it safe.",
+                    "The models, over all, were performing well, though the team intended to keep improving them.",
+                    "The team was also trying to figure out how to deal with different kinds of background noise.",
+                    "The meeting ended with a discussion of logistical issues."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5,
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ],
+                    [
+                        9
+                    ]
+                ],
+                "evidence": [
+                    [],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I mean , we were getting , uh , lots better recognition using that , than {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Of course , you do have the problem that , um , u i {comment} we are not able to increase the number of Gaussians , uh , or anything to , uh , uh , to match anything ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 587,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So we 're only improving the training of our feature set ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "but that 's still probably something ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "I mean , basically we 're dealing with rever reverberation ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "and , um , when we deal with pure reverberation , the technique he 's using works really , really well ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "Uh , and when they had the reverberation here , uh , we 'll measure the signal - to - noise ratio"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "and it 's , uh , about nine DB ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 71,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "Anyway , that was just something we wondered about ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "Uh , the signal - to - noise ratio , you know , looks a fair amount better if you {disfmarker} if you high - pass filter it from this room ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 243,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "It 's the same system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "The only thing that changed is the n a p eh {disfmarker} a es the estimation of the silence probabilities ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 246,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And , it 's a l it 's a lot better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 250,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "but the problem is still that the latency is too large ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 251,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "What 's the latency ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 252,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 252,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "And , uh , the VAD is used uh , i for on - line normalization ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 252,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "and it 's used before the delta computation ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "So if you add these components it goes t to a hundred and seventy ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 253,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I {disfmarker} I 'm confused ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 253,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "You started off with two - twenty and you ended up with one - seventy ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I mean , we were getting , uh , lots better recognition using that , than {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Of course , you do have the problem that , um , u i {comment} we are not able to increase the number of Gaussians , uh , or anything to , uh , uh , to match anything ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 587,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So we 're only improving the training of our feature set ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 587,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "but that 's still probably something ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 712,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "and they 're not so much the stationary driving kind of noises , right ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 713,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "So there are f just four noises ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 713,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "uh , \" Car \" , I think ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 713,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "\" Babble \" ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 715,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "\" Subway \" , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 719,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "\" Train station \" , yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 726,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 729,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "It was {disfmarker} b a little bit worse ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1124,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Guess we 're done ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1126,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "It 's a wrap ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on deletions and improving the net",
+                "tokenized_answer": [
+                    "Adding the neural net was doubling the number of deletions.",
+                    "The model did not improve significantly, however, thought it became better at some tasks.",
+                    "The results were a mixed basket and it was decided that further experimentation was necessary."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 680,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "When I added the num the neural network it doubles the number of deletions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 683,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And {disfmarker} and did {disfmarker} an other numbers stay the same ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 683,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "Insertion substitutions stay the same ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 684,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "They p stayed the same ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 686,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "they {disfmarker} maybe they are a little bit uh , lower ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 688,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "They are a little bit better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 689,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Did they increase the number of deletions even for the cases that got better ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So it 's only the highly mismatched ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well , we might {disfmarker} uh , we might have to experiment with , uh better training sets ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 528,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Again ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 530,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I {disfmarker} The other thing is , I mean , before you found that was the best configuration , but you might have to retest those things now that we have different {disfmarker} The rest of it is different ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the neural net?",
+                "tokenized_answer": [
+                    "The professor was interested in knowing what impact the neural net had in the older models which did not have pure features.",
+                    "The professor believed it was worthwhile to improve the net, though he also expressed that nets were occasionally over used."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 726,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 729,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "It was {disfmarker} b a little bit worse ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 732,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "until you put the second path in with the pure features , the neural net wasn't helping at all ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 740,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Well , I still think it would be k sort of interesting to see what would happen if you just had the neural net without the side thing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 742,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And {disfmarker} and the thing I {disfmarker} I have in mind is , uh , maybe you 'll see that the results are not just a little bit worse ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 746,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "If it really is that the net is hurting you at the moment , then I think the issue is to focus on {disfmarker} on , uh , improving the {disfmarker} the net ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team discuss about the most noisy cases?",
+                "tokenized_answer": [
+                    "The team thought that the most noisy cases were the distant microphone testing.",
+                    "That is when there were non-stationary noises in the background, like from a car, a babble or subway.",
+                    "These presented a unique challenge for the model that could potentially be best solved with a neural net."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 700,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "The most noisy cases are the distant microphone for testing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 701,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Right ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 712,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "actually {disfmarker} {nonvocalsound} the TIMIT noises {pause} are sort of a range of noises"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "and they 're not so much the stationary driving kind of noises , right ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 713,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "uh , \" Car \" , I think ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 713,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "\" Babble \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 715,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "\" Subway \" , right ?"
+                        }
+                    ],
+                    [],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 740,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Well , I still think it would be k sort of interesting to see what would happen if you just had the neural net without the side thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 742,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And {disfmarker} and the thing I {disfmarker} I have in mind is , uh , maybe you 'll see that the results are not just a little bit worse ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 746,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "If it really is that the net is hurting you at the moment , then I think the issue is to focus on {disfmarker} on , uh , improving the {disfmarker} the net ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on VAD results",
+                "tokenized_answer": [
+                    "The VAD neural net had twelve times nine inputs and two outputs.",
+                    "The system had improved significantly.",
+                    "It added some latency but the team could potentially run it in parallel."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 221,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "but the features that the VAD neural network use are , uh , MFCC after noise compensation ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 221,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "Oh , I think I have the results ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 234,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "there 's {disfmarker} there 's {disfmarker} there 's how many {disfmarker} how many inputs ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 235,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "So it 's twelve times nine ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 238,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Two outputs ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "It should be OK ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 246,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And , it 's a l it 's a lot better ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "after the noise part , the forty {disfmarker} the {disfmarker} the other hundred and eighty {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "Some of this is , uh {disfmarker} is , uh {disfmarker} is in parallel , isn't it ?"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about VAD latency?",
+                "tokenized_answer": [
+                    "The professor wanted to know how much latency the VAD was adding to the model.",
+                    "The professor thought that the process could work in parallel.",
+                    "The professor informed the team that the max latency was unknown."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 250,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "but the problem is still that the latency is too large ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "What 's the latency ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "Some of this is , uh {disfmarker} is , uh {disfmarker} is in parallel , isn't it ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "I mean , the LDA {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "Oh , you have the LDA as part of the V D - uh , VAD ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 345,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "Wh - what 's the baseline you need to be under ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 346,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well , we don't know ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 346,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "They 're still arguing about it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 349,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I mean , if it 's two {disfmarker} if {disfmarker} if it 's , uh {disfmarker} if it 's two - fifty , then we could keep the delta where it is if we shaved off twenty ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 349,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "If it 's two hundred , if we shaved off twenty , we could {disfmarker} we could , uh , meet it by moving the delta back ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD C say about the breakdown of the latency?",
+                "tokenized_answer": [
+                    "PhD C explained that the silence probabilities had a 100ms delay, the delta at the input had a 40ms delay, and a 10ms delay was created by LDA filters."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 262,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "after that , um , you have the um , filtering of the silence probabilities ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 262,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "and it creates a one hundred milliseconds delay ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 265,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "and there is the delta at the input"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 270,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "It 's like forty plus {disfmarker} forty {disfmarker} plus {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 276,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "There is ten that comes from the LDA filters also ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

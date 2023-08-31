@@ -1,0 +1,300 @@
+{
+    "transcripts_id": "Bro007",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Do you e um they mentioned {disfmarker} made some {disfmarker} uh when I was on the phone with Sunil they {disfmarker} they mentioned some weighting scheme that was used to evaluate all of these numbers ."
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                },
+                {
+                    "turn_index": 190,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "given that we have to take the filt ones out of the {disfmarker} the running because of this delay problem {disfmarker} so it looks to me like the ones you said I agree are {disfmarker} are the ones to look at"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "and so you could reduce the dimension as you were saying before a bit perhaps ."
+                },
+                {
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah , it 's {disfmarker} it 's significantly worse well but {disfmarker} Mm - hmm ."
+                },
+                {
+                    "turn_index": 110,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "it 's {disfmarker} it 's uh it 's {disfmarker} it 's mostly worse ."
+                },
+                {
+                    "turn_index": 143,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "well also just to know the numbers ,"
+                },
+                {
+                    "turn_index": 146,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So these {disfmarker} these are word error rates"
+                },
+                {
+                    "turn_index": 148,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "so this is on how many words ."
+                },
+                {
+                    "turn_index": 206,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I guess if we 're not doing all these things {disfmarker} if we 're only doing um"
+                },
+                {
+                    "turn_index": 206,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "I mean ordinarily if {disfmarker} in final test data you don't want to do several and {disfmarker} and take the best"
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "I mean we have to fix the system on this d on this data , to choose the best"
+                },
+                {
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on looking at feature streams",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "There is uh {disfmarker} there is the features uh there 's the OGI features and then um those features um go through a contextual {disfmarker} uh"
+                },
+                {
+                    "turn_index": 2,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Um those features go through a contextualized KLT ."
+                },
+                {
+                    "turn_index": 2,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "Then these features also uh get um low - pass filtered"
+                },
+                {
+                    "turn_index": 58,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh OK so the one {disfmarker} one place where it looks like we 're messing things up a bit is in the highly mismatched Italian ."
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh so one of the ideas that you had mentioned last time was having a {disfmarker} a second um silence detection ."
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Um yeah so it seems f for the {disfmarker} the well match and mismatched condition"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "it 's uh it brings something ."
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD C think about silence detection?",
+            "oracle_info": [
+                {
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "if we had time perhaps we could try to find uh some kind of compromise between the delay that 's on the handset and on the server side ."
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 6,
+                    "speaker": "PhD C",
+                    "content": "but well hmm For the moment they have this large delay on the {disfmarker} the feature computation and so we don't"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the silence detection problem?",
+            "oracle_info": [
+                {
+                    "turn_index": 90,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "Oh I see yeah that {disfmarker} that one you can't use because of the delay ."
+                },
+                {
+                    "turn_index": 90,
+                    "sent_index": 9,
+                    "speaker": "Professor B",
+                    "content": "Those look pretty good ."
+                },
+                {
+                    "turn_index": 90,
+                    "sent_index": 11,
+                    "speaker": "Professor B",
+                    "content": "Well even the {disfmarker} just the {disfmarker} the second row doesn't look that bad right ?"
+                },
+                {
+                    "turn_index": 98,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah so when we do this weighted measure we should compare the two cuz it might even come out better ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on fixing the system",
+            "oracle_info": [
+                {
+                    "turn_index": 206,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "um I guess since this is development data it 's legitimate to do more than one ,"
+                },
+                {
+                    "turn_index": 206,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "I mean ordinarily if {disfmarker} in final test data you don't want to do several and {disfmarker} and take the best"
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "I mean we have to fix the system on this d on this data , to choose the best"
+                },
+                {
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But the question is when {disfmarker} when do we fix the system ,"
+                },
+                {
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                },
+                {
+                    "turn_index": 217,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I think we fixed on Tuesday , yeah ."
+                },
+                {
+                    "turn_index": 222,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so maybe what we do is we {disfmarker} we {disfmarker} we uh as soon as we get the data from them we start the training and so forth"
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about a single KLT?",
+            "oracle_info": [
+                {
+                    "turn_index": 336,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "and {disfmarker} and perhaps I was thinking also a fourth one with just {disfmarker} just a single KLT"
+                },
+                {
+                    "turn_index": 338,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "removing all these KLT 's and putting one single KLT at the end ."
+                },
+                {
+                    "turn_index": 339,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , I mean that would be pretty low maintenance to try it ."
+                },
+                {
+                    "turn_index": 341,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh if you can fit it in ."
+                }
+            ]
+        },
+        {
+            "query": "What were the professor's concluding comments?",
+            "oracle_info": [
+                {
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but {vocalsound} uh {vocalsound} um Cuz our best improvements over the years that we 've gotten from finding bugs ,"
+                },
+                {
+                    "turn_index": 343,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh I don't know if we 're gonna need it uh but uh Jeff up at the uh University of Washington has uh gotten a hold of a uh uh some kind of server farm of uh of ten uh uh multiprocessor uh IBM machines RS six thousands"
+                },
+                {
+                    "turn_index": 349,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "well uh you guys doing great stuff so that 's {disfmarker} that {disfmarker} that 's really neat"
+                }
+            ]
+        }
+    ]
+}

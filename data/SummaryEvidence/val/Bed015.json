@@ -1,0 +1,1592 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The discussion concerned the revised semantic specification and the construction formalism.",
+            "The different levels of the latter focus on what construction types are encountered and what bindings there are between them.",
+            "The notation maintains properties of both dependency and constituent-based grammars.",
+            "The encoding of features is still incomplete: frame profiles, focus, adjectives, nominal expressions are phenomena in the process of being integrated.",
+            "Similarly, ways to handle mental spaces will have to be added on top.",
+            "On the other hand, the semantic specification structures information in terms of \"scenario\", \"referent\" and \"discourse segment\".",
+            "Each category comprises a number of slots filled in by information derived from the utterance.",
+            "It is, essentially, a toolkit with which to create semantic constructions, as well as the bindings between them and with the ontology.",
+            "Among the issues still being defined, mental spaces and context (eg pronoun references) present similarities that can be echoed in the specification.",
+            "Work on both of these formalisms will continue with circumscription of the construction space that will be studied in more detail.",
+            "Work on construal will use Bayes-nets, which will be fed information from other modules and implement general rules to infer how utterances are construed.",
+            "The semantic specification requires some adjustments.",
+            "Amongst other things \"cause\" has to be added as another X-schema.",
+            "Linguistic hedging will also be encoded as a demarcation of evidentiality or speaker confidence.",
+            "Mental spaces can be tackled with mechanisms that can also deal with context issues (time, space etc.): creating a base space and rules of interaction with other interconnected spaces.",
+            "However, the complexity of these mechanisms has to be bound as well: it is necessary to define the range of constructions to be studied.",
+            "Given the domains currently used (tourist, child language learning), some features, like speaker attitude, are not of equal importance at this stage.",
+            "On the other hand, it was decided for the inheritance between constructions to be left out for now, as the notation can be rendered more elegant later on.",
+            "Finally, a preliminary presentation on the idea of how to use Bayes-nets for construal will take place in the next meeting.",
+            "The construction formalism is not yet complete as to the semantic constraints -the terminology has also been met with objections- and does not deal with mental spaces.",
+            "On their own, constructions can only give limited information regarding mental spaces: forms can provide cues to create a different mental space, but the semantic nuances are defined by context.",
+            "It is not decided at this stage whether the necessary values should be coded within the construction or as part of construal.",
+            "Other issues concern focus and stress: focus is seen as an information structure device, but there has been no suggestion as to how to predict its effects or break it down in possible focused elements; as to stress, it may not be useful as a form value, as it shows the focus exponent, but not what the focus is on.",
+            "Moving to the semantic specification, the analysis still needs mechanisms to deal with causality, as well as mental spaces and bindings between them.",
+            "Additionally, how referring expressions are linked to referents or even how mental spaces affect this linking are still to lay down in detail.",
+            "The revised semantic specification and construction formalism are more stable than the previous versions.",
+            "In the latter, we find both construction types and meaning types along with formal considerations like verb subcategorisation, or the ones a \"directed motion\" construction would dictate.",
+            "Semantic constraints also come into play.",
+            "The semantic specification, on the other hand, is split into three levels: \"scenario\" is a list of schemas and bindings between them, which describes the current event in terms of Source-Path-Goal, Container, etc.; \"referent\" is about the entities in the discourse and includes grammatical information and pointers to the ontology; \"discourse segment\" comprises utterance-specific things.",
+            "Apart from the presentation, JavaBayes can now run through the modified web page of the project."
+        ],
+        "answer_sentence_index": [
+            "Bed015.s.1",
+            "Bed015.s.2",
+            "Bed015.s.3",
+            "Bed015.s.4",
+            "Bed015.s.5",
+            "Bed015.s.6",
+            "Bed015.s.7",
+            "Bed015.s.8",
+            "Bed015.s.9",
+            "Bed015.s.10",
+            "Bed015.s.11",
+            "Bed015.s.12",
+            "Bed015.s.13",
+            "Bed015.s.14",
+            "Bed015.s.15",
+            "Bed015.s.16",
+            "Bed015.s.17",
+            "Bed015.s.18",
+            "Bed015.s.19",
+            "Bed015.s.20",
+            "Bed015.s.21",
+            "Bed015.s.22",
+            "Bed015.s.23",
+            "Bed015.s.24",
+            "Bed015.s.25",
+            "Bed015.s.26",
+            "Bed015.s.27",
+            "Bed015.s.28",
+            "Bed015.s.29",
+            "Bed015.s.30"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 9,
+                    "sent_index": 10,
+                    "speaker": "Grad F",
+                    "content": "And there 's two things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 9,
+                    "sent_index": 11,
+                    "speaker": "Grad F",
+                    "content": "And so one on one side is {disfmarker} on one side is a sort of the revised sort of updated semantic specification ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And the other side is , um , sort of a revised construction formalism ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 24,
+                    "sent_index": 7,
+                    "speaker": "Grad F",
+                    "content": "Uh , these three have various ways of doing certain things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 9,
+                    "speaker": "Grad F",
+                    "content": "So they could all have a type at the beginning ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "OK , and then again semantic constraints here are just {disfmarker} are just bindings ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "But , you know , we have the {pause} properties of dependency grammars and some properties of constituents {disfmarker} constituent - based grammar ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 399,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "I think that 's still in progress ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 401,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "But I think one {disfmarker} the one thing you can schematize is the kind of focus , right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 401,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "it 's {disfmarker} it is kind of like a profile {disfmarker} profile - background thing"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 401,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "but I {disfmarker} I can't think of like the limited set of possible meanings that you would {disfmarker} that you would focu"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 405,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "OK . Anyway . So that 's onl there are {disfmarker} there are many more things that are uncl that are sort of like a little bit unstable about the notation"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 405,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "Other things we didn't {vocalsound} totally deal with , um ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "well , we 've had a lot of other stuff that Keith and I have them working on in terms of like how you deal with like an adjective ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 409,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "You know , a {disfmarker} a nominal expression ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "The whole {disfmarker} the mental space thing is clearly not here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 199,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "So there 's going to be some extra {disfmarker} you know , definitely other notation we 'll need for that which we skip for now ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 514,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "S s the question is , do we have a way on the other page , uh , when we get to the s semantic side , of saying what the stressed element was , or stressed phrase , or something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "since I couldn't think of an easy like limited way of doing it , um , all I can say is that information structure has a focused slot"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "So you see it 's \" scenario \" , \" referent \" and \" discourse segment \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "And actually it 's just a list of various slots from which you would draw {disfmarker} draw in order to paint your picture , a bunch of frames , bi and bindings , right ?"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 653,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "OK , uh , then this says that when an analysis is finished , the whole analysis is finished , {comment} you 'll have as a result , uh , some s resulting s semspec for that utterance in context ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 655,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "which is made up entirely of these things and , uh , bindings among them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 655,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And bindings to ontology items ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So that {disfmarker} that the who that this is the tool kit under whi out of which you can make a semantic specification ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 661,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So this is an that anything you have , in the party line , {comment} anything you have as the semantic side of constructions comes , from pieces of this {disfmarker} ignoring li"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 773,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "I guess that {disfmarker} that {disfmarker} that {disfmarker} that 's not very clear from here {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah , but you {disfmarker} Don't we ultimately want to handle that analogously to the way we handle time and place ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 846,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Um , we might be able to handle context in the same way that we handle mental spaces"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 852,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So that pulling something out of a discourse context is I think similar to other kinds of , uh , mental space phenomena ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1009,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "It 's {disfmarker} as far as I can tell there 's this one major thing we have to do"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1009,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "which is the mental {disfmarker} the whole s mental space thing ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1009,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "And then there 's some other minor things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1011,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Um , and we 're going to have to s sort of bound the complexity ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1044,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "but just try to describe which ones you think we ought to have ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1048,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Just {disfmarker} just sort of , you know , define your space ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1187,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "Um , imagine you {disfmarker} you write a Bayes - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1191,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "um , completely from scratch every time you do construal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1198,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And that fills in your CPT 's with which you can then query , um , the {disfmarker} the net that you just wrote"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1198,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "and find out how thing X is construed as an utterance U ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1198,
+                    "sent_index": 10,
+                    "speaker": "Grad A",
+                    "content": "You may have some general rules as to how things can be {disfmarker} can be construed as what , so that will allow you to craft the {disfmarker} the {disfmarker} the initial notes ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 9,
+                    "sent_index": 11,
+                    "speaker": "Grad F",
+                    "content": "And so one on one side is {disfmarker} on one side is a sort of the revised sort of updated semantic specification ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And , um , after a little bit more discussion and especially like Keith and I {disfmarker} I have more linguistic things to settle in the next few days , um , it 'll probably change again some more ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 667,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh , so that the , you know , goal of the , uh uh , \" source , path , goal \" has to be the landmark of the conta you know , the interior of this container ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 675,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Except for \" cause \" , that I forgot ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 675,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "But anyway , there 's som some kind of causal structure for composite events ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 710,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Causal stuff we absolutely need ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 946,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah , but about linguistic hedges ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 956,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well we were just talking about this sort of evidentiality and stuff like that , right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 965,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Confidence or something like that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 228,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "Um , it 's often thought of as {disfmarker} it is also considered a mental space ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 252,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "Same thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah , but you {disfmarker} Don't we ultimately want to handle that analogously to the way we handle time and place ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 846,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Um , we might be able to handle context in the same way that we handle mental spaces"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 901,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "It 's like , oh , actually , it 's the same {disfmarker} same operation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 904,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "It 's like {disfmarker} it 's like what 's happening {disfmarker} that , yeah , what what 's happening , uh , there is that you 're moving the base space or something like that , right ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1011,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Um , and we 're going to have to s sort of bound the complexity ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1042,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "it was Keith 's , uh , sort of job over the summer to come up with this set of constructions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1044,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "but just try to describe which ones you think we ought to have ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1048,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Just {disfmarker} just sort of , you know , define your space ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 995,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "We {disfmarker} we don't have to care too much about the speaker attitude , right ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 997,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1065,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So {disfmarker} so we 're gonna get the w we 're basically dealing with two domains ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1065,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "the tourist domain and the {disfmarker} and the child language learning ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1108,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Is this , uh {disfmarker} was it intentional to leave off things like \" inherits \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1117,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "I didn't want to think too much about that for {disfmarker} for now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1154,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "can we make it more elegant ? \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1155,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Yeah , that 's {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1187,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "Um , imagine you {disfmarker} you write a Bayes - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1191,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "um , completely from scratch every time you do construal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1229,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "But the question is do you want to , for example , send the little group , uh , a draft of your thesis proposal"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1230,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "We can do it Th - Thursday again ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "And so it was an issue whether constraints {disfmarker} um , there were some linguists who reacted against \" constraints \" , saying , \" oh , if it 's not used for matching , then it shouldn't be called a constraint \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "The whole {disfmarker} the mental space thing is clearly not here ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 270,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "I mean , I 'm not sure that the formalism , sort of the grammatical side of things , {comment} is gonna have that much going on in terms of the mental space stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "You know , um , basically all of these so - called space builders that are in the sentence are going to sort of {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "I think of it as , sort of giving you the coordinates of , you know {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "assuming that at any point in discourse there 's the possibility that we could be sort of talking about a bunch of different world scenarios , whatever , and the speaker 's supposed to be keeping track of those . The , um {disfmarker} the construction that you actually get is just gonna sort of give you a cue as to which one of those that you 've already got going , um , you 're supposed to add structure to ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 272,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "but it doesn't tell you like exactly what it {disfmarker} what the point of doing so is ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 272,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "So for example , depending on the linguistic con uh , context it could be {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "So we have a few funny things where something in the meaning might refer to something in the form ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "There are certain things that are attribute - value , similar to the bindings below"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 42,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "And Johno and I {disfmarker} I {disfmarker} you {disfmarker} you and I can like fight about that if you like ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 42,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "but about changing it to \" semantic {pause} n effects \" ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 42,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "which I thought was a little bit too order - biased"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "But I think we want to be uncommitted about whether it 's used for matching or not . Right ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 375,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "I think that , um , the other terms that are related are like focus and stress ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 379,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "OK , it 's like {disfmarker} uh , it 's not {disfmarker} it might be that there 's a syntactic , uh , device that you use to indicate focus"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "Uh , so {disfmarker} so I think that 's kind of nice to keep \" focus \" being an information structure term ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 399,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "But it did {disfmarker} one {disfmarker} one implication it does f have for the other side , which we 'll get to in a minute is that I couldn't think of a good way to say \" here are the possible things that you could focus on \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 420,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Maybe you want to forget stress ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 426,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "canonically speaking you can {disfmarker} if you look at a {disfmarker} a curve over sentence , you can find out where a certain stress is"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 426,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "and say , \" hey , that 's my focus exponent . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "It doesn't tell you anything what the focus is ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 673,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "but pretty much this is the full range of semantic structures available to you ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 710,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Causal stuff we absolutely need ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 710,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Mental space we need ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 814,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "And {disfmarker} and so we 're , uh gonna have to , um , chain those as well ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "I mean , I 'm {disfmarker} I 'm s curious about how much of the mental {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "I mean , I 'm not sure that the formalism , sort of the grammatical side of things , {comment} is gonna have that much going on in terms of the mental space stuff ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 270,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "You know , um , basically all of these so - called space builders that are in the sentence are going to sort of {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "I think of it as , sort of giving you the coordinates of , you know {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 551,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "The middle thing used to be \" entities \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 551,
+                    "sent_index": 30,
+                    "speaker": "Grad F",
+                    "content": "you have a set of entities that you 're sort of referring to ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 33,
+                    "speaker": "Grad F",
+                    "content": "cuz I would say , for a particular utterance you have particular referring expressions in it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 34,
+                    "speaker": "Grad F",
+                    "content": "And those are the ones that you get information about that you stick in here ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 9,
+                    "sent_index": 11,
+                    "speaker": "Grad F",
+                    "content": "And so one on one side is {disfmarker} on one side is a sort of the revised sort of updated semantic specification ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And the other side is , um , sort of a revised construction formalism ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 8,
+                    "speaker": "Grad F",
+                    "content": "it 's only slightly more stable than it was before ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 9,
+                    "speaker": "Grad F",
+                    "content": "So they could all have a type at the beginning ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 30,
+                    "sent_index": 17,
+                    "speaker": "Grad F",
+                    "content": "Um , or you could just say in the second case that you only know the meaning type ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 30,
+                    "sent_index": 18,
+                    "speaker": "Grad F",
+                    "content": "So a very common example of this is that , you know , in directed motion , the first person to do something should be an agent of some kind ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And usually it has formal um , considerations that will go along with it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 119,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "Well , right now it 's a c uh contr construction type and meaning type ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 120,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Oh , I see ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I just know that this is {disfmarker} Like , we didn't originally have in mind that , uh {disfmarker} that verbs would subcategorize for a particular sort of form ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "OK , and then again semantic constraints here are just {disfmarker} are just bindings ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "So you see it 's \" scenario \" , \" referent \" and \" discourse segment \" ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 549,
+                    "sent_index": 4,
+                    "speaker": "Grad F",
+                    "content": "And \" scenario \" is essentially what kind of {disfmarker} what 's the basic predication ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "what event happened ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 549,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "And actually it 's just a list of various slots from which you would draw {disfmarker} draw in order to paint your picture , a bunch of frames , bi and bindings , right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 5,
+                    "speaker": "Grad F",
+                    "content": "And this is intended to be grammatically specifiable information about a referent {disfmarker} uh , you know , about some entity that you were going to talk about ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 12,
+                    "speaker": "Grad F",
+                    "content": "Basically , it could be a pointer to ontology ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 26,
+                    "speaker": "Grad F",
+                    "content": "So , th the {disfmarker} the big com and {disfmarker} and finally \" discourse segment \" is about {vocalsound} sort of speech - act - y information structure - y ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 551,
+                    "sent_index": 27,
+                    "speaker": "Grad F",
+                    "content": "like utterance - specific kinds of things ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 604,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Um , mostly the top one is sort of image schematic ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 6,
+                    "speaker": "Grad F",
+                    "content": "like a container or sort of support - ish ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 8,
+                    "speaker": "Grad F",
+                    "content": "like \" source , path , goal \" is often thought of that way"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 636,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "The \" scenario \" box ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "\" part of what I 'm going to hand you is a whole bunch of s uh , schemas , image , and X - schemas ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1168,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Um , thanks to Eva on our web site we can now ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1168,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "she modified the GUI so it has now a m a m a button menu item for saving it into the embedded JavaBayes format ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the meeting about?",
+                "tokenized_answer": [
+                    "The revised semantic specification and construction formalism are more stable than the previous versions.",
+                    "Semantic constraints also come into play.",
+                    "The semantic specification, on the other hand, is split into three levels: \"scenario\" is a list of schemas and bindings between them, which describes the current event in terms of Source-Path-Goal, Container, etc.",
+                    "; \"referent\" is about the entities in the discourse and includes grammatical information and pointers to the ontology; \"discourse segment\" comprises utterance-specific things.",
+                    "Apart from the presentation, JavaBayes can now run through the modified web page of the project."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 11,
+                            "speaker": "Grad F",
+                            "content": "And so one on one side is {disfmarker} on one side is a sort of the revised sort of updated semantic specification ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "And the other side is , um , sort of a revised construction formalism ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 18,
+                            "sent_index": 8,
+                            "speaker": "Grad F",
+                            "content": "it 's only slightly more stable than it was before ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "OK , and then again semantic constraints here are just {disfmarker} are just bindings ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 3,
+                            "speaker": "Grad F",
+                            "content": "So you see it 's \" scenario \" , \" referent \" and \" discourse segment \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 549,
+                            "sent_index": 4,
+                            "speaker": "Grad F",
+                            "content": "And \" scenario \" is essentially what kind of {disfmarker} what 's the basic predication ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 5,
+                            "speaker": "Grad F",
+                            "content": "what event happened ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 6,
+                            "speaker": "Grad F",
+                            "content": "And actually it 's just a list of various slots from which you would draw {disfmarker} draw in order to paint your picture , a bunch of frames , bi and bindings , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 604,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Um , mostly the top one is sort of image schematic ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 6,
+                            "speaker": "Grad F",
+                            "content": "like a container or sort of support - ish ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 8,
+                            "speaker": "Grad F",
+                            "content": "like \" source , path , goal \" is often thought of that way"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 636,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "The \" scenario \" box ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 641,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "\" part of what I 'm going to hand you is a whole bunch of s uh , schemas , image , and X - schemas ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 5,
+                            "speaker": "Grad F",
+                            "content": "And this is intended to be grammatically specifiable information about a referent {disfmarker} uh , you know , about some entity that you were going to talk about ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 12,
+                            "speaker": "Grad F",
+                            "content": "Basically , it could be a pointer to ontology ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 26,
+                            "speaker": "Grad F",
+                            "content": "So , th the {disfmarker} the big com and {disfmarker} and finally \" discourse segment \" is about {vocalsound} sort of speech - act - y information structure - y ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 27,
+                            "speaker": "Grad F",
+                            "content": "like utterance - specific kinds of things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1168,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "Um , thanks to Eva on our web site we can now ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1168,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "she modified the GUI so it has now a m a m a button menu item for saving it into the embedded JavaBayes format ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was concluded on semantic specification?",
+                "tokenized_answer": [
+                    "The revised semantic specification and construction formalism are more stable than the previous versions.",
+                    "In the latter, we find both construction types and meaning types along with formal considerations like verb subcategorization, or the ones a \"directed motion\" construction would dictate."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 11,
+                            "speaker": "Grad F",
+                            "content": "And so one on one side is {disfmarker} on one side is a sort of the revised sort of updated semantic specification ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "And the other side is , um , sort of a revised construction formalism ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 18,
+                            "sent_index": 8,
+                            "speaker": "Grad F",
+                            "content": "it 's only slightly more stable than it was before ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 24,
+                            "sent_index": 9,
+                            "speaker": "Grad F",
+                            "content": "So they could all have a type at the beginning ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 30,
+                            "sent_index": 18,
+                            "speaker": "Grad F",
+                            "content": "So a very common example of this is that , you know , in directed motion , the first person to do something should be an agent of some kind ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "And usually it has formal um , considerations that will go along with it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 119,
+                            "sent_index": 3,
+                            "speaker": "Grad F",
+                            "content": "Well , right now it 's a c uh contr construction type and meaning type ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 120,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Oh , I see ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I just know that this is {disfmarker} Like , we didn't originally have in mind that , uh {disfmarker} that verbs would subcategorize for a particular sort of form ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Please describe the semantic specification",
+                "tokenized_answer": [
+                    "The semantic specification, on the other hand, is split into three levels: \"scenario\" is a list of schemas and bindings between them, which describes the current event in terms of Source-Path-Goal, Container, etc.",
+                    "; \"referent\" is about the entities in the discourse and includes grammatical information and pointers to the ontology; \"discourse segment\" comprises utterance-specific things."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 3,
+                            "speaker": "Grad F",
+                            "content": "So you see it 's \" scenario \" , \" referent \" and \" discourse segment \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 549,
+                            "sent_index": 4,
+                            "speaker": "Grad F",
+                            "content": "And \" scenario \" is essentially what kind of {disfmarker} what 's the basic predication ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 5,
+                            "speaker": "Grad F",
+                            "content": "what event happened ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 549,
+                            "sent_index": 6,
+                            "speaker": "Grad F",
+                            "content": "And actually it 's just a list of various slots from which you would draw {disfmarker} draw in order to paint your picture , a bunch of frames , bi and bindings , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 604,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Um , mostly the top one is sort of image schematic ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 6,
+                            "speaker": "Grad F",
+                            "content": "like a container or sort of support - ish ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 8,
+                            "speaker": "Grad F",
+                            "content": "like \" source , path , goal \" is often thought of that way"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 636,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "The \" scenario \" box ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 641,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "\" part of what I 'm going to hand you is a whole bunch of s uh , schemas , image , and X - schemas ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 5,
+                            "speaker": "Grad F",
+                            "content": "And this is intended to be grammatically specifiable information about a referent {disfmarker} uh , you know , about some entity that you were going to talk about ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 12,
+                            "speaker": "Grad F",
+                            "content": "Basically , it could be a pointer to ontology ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 26,
+                            "speaker": "Grad F",
+                            "content": "So , th the {disfmarker} the big com and {disfmarker} and finally \" discourse segment \" is about {vocalsound} sort of speech - act - y information structure - y ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 551,
+                            "sent_index": 27,
+                            "speaker": "Grad F",
+                            "content": "like utterance - specific kinds of things ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "How would the mental spaces operate?",
+                "tokenized_answer": [
+                    "Mental spaces can be tackled with mechanisms that can also deal with context issues (time, space etc.): creating a base space and rules of interaction with other interconnected spaces.",
+                    "However, the complexity of these mechanisms has to be bound as well: it is necessary to define the range of constructions to be studied."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 228,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "Um , it 's often thought of as {disfmarker} it is also considered a mental space ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 774,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Yeah , but you {disfmarker} Don't we ultimately want to handle that analogously to the way we handle time and place ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 846,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "Um , we might be able to handle context in the same way that we handle mental spaces"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 901,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "It 's like , oh , actually , it 's the same {disfmarker} same operation ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 904,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "It 's like {disfmarker} it 's like what 's happening {disfmarker} that , yeah , what what 's happening , uh , there is that you 're moving the base space or something like that , right ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1011,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Um , and we 're going to have to s sort of bound the complexity ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1042,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "it was Keith 's , uh , sort of job over the summer to come up with this set of constructions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1044,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "but just try to describe which ones you think we ought to have ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1048,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Just {disfmarker} just sort of , you know , define your space ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is the description of the domains in the mental spaces?",
+                "tokenized_answer": [
+                    "Given the domains currently used (tourist, child language learning), some features, like speaker attitude, are not of equal importance at this stage.",
+                    "On the other hand, it was decided for the inheritance between constructions to be left out for now, as the notation can be rendered more elegant later on."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 995,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "We {disfmarker} we don't have to care too much about the speaker attitude , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 997,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1065,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So {disfmarker} so we 're gonna get the w we 're basically dealing with two domains ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1065,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "the tourist domain and the {disfmarker} and the child language learning ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1108,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Is this , uh {disfmarker} was it intentional to leave off things like \" inherits \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1117,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "I didn't want to think too much about that for {disfmarker} for now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1154,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "can we make it more elegant ? \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1155,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Yeah , that 's {disfmarker}"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

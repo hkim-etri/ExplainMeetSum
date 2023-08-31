@@ -1,0 +1,360 @@
+{
+    "transcripts_id": "Bro027",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 587,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So we 're only improving the training of our feature set ,"
+                },
+                {
+                    "turn_index": 7,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "I mean , basically we 're dealing with rever reverberation ,"
+                },
+                {
+                    "turn_index": 7,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and , um , when we deal with pure reverberation , the technique he 's using works really , really well ."
+                },
+                {
+                    "turn_index": 71,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "Uh , the signal - to - noise ratio , you know , looks a fair amount better if you {disfmarker} if you high - pass filter it from this room ."
+                },
+                {
+                    "turn_index": 243,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                },
+                {
+                    "turn_index": 243,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "The only thing that changed is the n a p eh {disfmarker} a es the estimation of the silence probabilities ."
+                },
+                {
+                    "turn_index": 246,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , it 's a l it 's a lot better ."
+                },
+                {
+                    "turn_index": 250,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but the problem is still that the latency is too large ."
+                },
+                {
+                    "turn_index": 252,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                },
+                {
+                    "turn_index": 252,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "So if you add these components it goes t to a hundred and seventy ,"
+                },
+                {
+                    "turn_index": 253,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I {disfmarker} I 'm confused ."
+                },
+                {
+                    "turn_index": 713,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So there are f just four noises ."
+                },
+                {
+                    "turn_index": 726,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?"
+                },
+                {
+                    "turn_index": 1124,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Guess we 're done ."
+                },
+                {
+                    "turn_index": 1126,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 's a wrap ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on deletions and improving the net",
+            "oracle_info": [
+                {
+                    "turn_index": 680,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "When I added the num the neural network it doubles the number of deletions ."
+                },
+                {
+                    "turn_index": 686,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "they {disfmarker} maybe they are a little bit uh , lower ."
+                },
+                {
+                    "turn_index": 688,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "They are a little bit better ."
+                },
+                {
+                    "turn_index": 689,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Did they increase the number of deletions even for the cases that got better ?"
+                },
+                {
+                    "turn_index": 693,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So it 's only the highly mismatched ?"
+                },
+                {
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , we might {disfmarker} uh , we might have to experiment with , uh better training sets ."
+                },
+                {
+                    "turn_index": 530,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I {disfmarker} The other thing is , I mean , before you found that was the best configuration , but you might have to retest those things now that we have different {disfmarker} The rest of it is different ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the neural net?",
+            "oracle_info": [
+                {
+                    "turn_index": 726,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?"
+                },
+                {
+                    "turn_index": 746,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "If it really is that the net is hurting you at the moment , then I think the issue is to focus on {disfmarker} on , uh , improving the {disfmarker} the net ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about the most noisy cases?",
+            "oracle_info": [
+                {
+                    "turn_index": 700,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "The most noisy cases are the distant microphone for testing ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and they 're not so much the stationary driving kind of noises , right ?"
+                },
+                {
+                    "turn_index": 713,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "uh , \" Car \" , I think ,"
+                },
+                {
+                    "turn_index": 713,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "\" Babble \" ,"
+                },
+                {
+                    "turn_index": 715,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "\" Subway \" , right ?"
+                },
+                {
+                    "turn_index": 740,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Well , I still think it would be k sort of interesting to see what would happen if you just had the neural net without the side thing ."
+                },
+                {
+                    "turn_index": 742,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And {disfmarker} and the thing I {disfmarker} I have in mind is , uh , maybe you 'll see that the results are not just a little bit worse ."
+                },
+                {
+                    "turn_index": 746,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "If it really is that the net is hurting you at the moment , then I think the issue is to focus on {disfmarker} on , uh , improving the {disfmarker} the net ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on VAD results",
+            "oracle_info": [
+                {
+                    "turn_index": 221,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but the features that the VAD neural network use are , uh , MFCC after noise compensation ."
+                },
+                {
+                    "turn_index": 234,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "there 's {disfmarker} there 's {disfmarker} there 's how many {disfmarker} how many inputs ?"
+                },
+                {
+                    "turn_index": 235,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So it 's twelve times nine ."
+                },
+                {
+                    "turn_index": 238,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Two outputs ."
+                },
+                {
+                    "turn_index": 243,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It should be OK ."
+                },
+                {
+                    "turn_index": 243,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "It 's based on the system that has a fifty - three point sixty - six percent improvement ."
+                },
+                {
+                    "turn_index": 246,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , it 's a l it 's a lot better ."
+                },
+                {
+                    "turn_index": 252,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "Some of this is , uh {disfmarker} is , uh {disfmarker} is in parallel , isn't it ?"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about VAD latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 250,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but the problem is still that the latency is too large ."
+                },
+                {
+                    "turn_index": 251,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "What 's the latency ?"
+                },
+                {
+                    "turn_index": 252,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds ."
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "Some of this is , uh {disfmarker} is , uh {disfmarker} is in parallel , isn't it ?"
+                },
+                {
+                    "turn_index": 345,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Wh - what 's the baseline you need to be under ?"
+                },
+                {
+                    "turn_index": 346,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , we don't know ."
+                },
+                {
+                    "turn_index": 346,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "They 're still arguing about it ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD C say about the breakdown of the latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 262,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "after that , um , you have the um , filtering of the silence probabilities ."
+                },
+                {
+                    "turn_index": 262,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "and it creates a one hundred milliseconds delay ."
+                },
+                {
+                    "turn_index": 265,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "and there is the delta at the input"
+                },
+                {
+                    "turn_index": 270,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's like forty plus {disfmarker} forty {disfmarker} plus {disfmarker}"
+                },
+                {
+                    "turn_index": 276,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "There is ten that comes from the LDA filters also ."
+                }
+            ]
+        }
+    ]
+}

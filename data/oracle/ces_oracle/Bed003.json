@@ -1,0 +1,414 @@
+{
+    "transcripts_id": "Bed003",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 144,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "I want to go {pause} to this place . \""
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "So we 're gonna set up features along the lines of where they want to go"
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 9,
+                    "speaker": "Grad B",
+                    "content": "and {pause} what they 've said previously and whatnot ."
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 10,
+                    "speaker": "Grad B",
+                    "content": "And then we have {pause} the means {vocalsound} that they should use ."
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "So . The mode {pause} basically has three different {pause} outputs ."
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "The probability {disfmarker} whether the probability of a Vista , Tango , or Enter ."
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 10,
+                    "speaker": "Grad B",
+                    "content": "\" Verb used \" is actually personally amusing"
+                },
+                {
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "From the {pause} utterance ?"
+                },
+                {
+                    "turn_index": 180,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Like we don't have nodes for \" discourse \" and \" parse \" ,"
+                },
+                {
+                    "turn_index": 180,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "although like in some sense they are parts of this belief - net ."
+                },
+                {
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And then in that second row {pause} or whatever that row of Time of Day through that {disfmarker} So all of those {disfmarker} Some of them come from the utterance"
+                },
+                {
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "and some of them are sort of {vocalsound} either world knowledge or situational {pause} things ."
+                },
+                {
+                    "turn_index": 719,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So maybe this could be sort of a separate region of the net , {pause} which has two {disfmarker} {pause} has it 's own middle layer ."
+                },
+                {
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And the same we will be able to do for syntactic information ,"
+                },
+                {
+                    "turn_index": 743,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "the verbs used , the object types used , modifiers ."
+                },
+                {
+                    "turn_index": 889,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Basically just refine {pause} some of the more general nodes ."
+                },
+                {
+                    "turn_index": 891,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "The probabilities and all are completely ad - hoc ."
+                },
+                {
+                    "turn_index": 983,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But um {disfmarker} in terms of specifying the scenario , {vocalsound} um {disfmarker} uh {disfmarker} uh {disfmarker} we 've gotten a little further"
+                },
+                {
+                    "turn_index": 988,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I don't know how much the structure of the evolving Bayes - net {vocalsound} {pause} will af affect {disfmarker}"
+                },
+                {
+                    "turn_index": 988,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Like we wanna {disfmarker} we wanna be able to collect {vocalsound} as much of the variables that are needed for that ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "What did Grad B say about the structure of the belief net?",
+            "oracle_info": [
+                {
+                    "turn_index": 743,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "And maybe there 's a hidden layer for that ."
+                },
+                {
+                    "turn_index": 746,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So essentially a lot of those nodes can be expanded into little Bayes - nets of their own ."
+                },
+                {
+                    "turn_index": 750,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I guess , the fact that the {disfmarker} there 's a complete separation between the {pause} observed features and in the output ."
+                },
+                {
+                    "turn_index": 752,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I mean , it makes it cleaner , but then uh {disfmarker} I mean ."
+                },
+                {
+                    "turn_index": 756,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "well for instance , the \" discourse admission fee \" {pause} node seems like it should point directly to the {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What was the next step on features?",
+            "oracle_info": [
+                {
+                    "turn_index": 876,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So , um I suggest w to {disfmarker} for {disfmarker} to proceed with this in {disfmarker} in the sense that {pause} maybe throughout this week the three of us will {disfmarker} will talk some more about maybe segmenting off different regions ,"
+                },
+                {
+                    "turn_index": 876,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "and we make up some {disfmarker} {pause} some toy a observable \" nodes \" {disfmarker}"
+                },
+                {
+                    "turn_index": 877,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Refined y re just refine the {disfmarker}"
+                },
+                {
+                    "turn_index": 798,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "They 're {disfmarker} in {disfmarker} in non in sort of more traditional AI kinds of plan recognition things you sort of have {vocalsound} {pause} you know , some idea at each turn of agent doing something ,"
+                },
+                {
+                    "turn_index": 798,
+                    "sent_index": 7,
+                    "speaker": "Grad D",
+                    "content": "\" OK , wha what plans is this a {disfmarker} consistent with ? \""
+                },
+                {
+                    "turn_index": 798,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "and then get s some more information and then you see {pause} \" here 's a sequence that this sort of roughly fits into \" ."
+                },
+                {
+                    "turn_index": 798,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "It {disfmarker} it might be useful here too ."
+                },
+                {
+                    "turn_index": 803,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "It 's in the {disfmarker} these {disfmarker} these {disfmarker} these plan schemas ."
+                },
+                {
+                    "turn_index": 803,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I mean there are some {disfmarker} some of them are extremely elaborate ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize what was said on intentionality",
+            "oracle_info": [
+                {
+                    "turn_index": 150,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean {disfmarker} We can do a demo in the sense that we can um , {vocalsound} just ob observe the fact that this will , in fact do inference ."
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "So then the features we decided {disfmarker} or we decided we were {disfmarker} talked about ,"
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "Uh the {disfmarker} the prosody , the discourse , {pause} verb choice ."
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "The \" landmark - iness \" of uh {disfmarker}"
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 11,
+                    "speaker": "Grad B",
+                    "content": "the time of day ,"
+                },
+                {
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "whether they discuss the admission fees ."
+                }
+            ]
+        },
+        {
+            "query": "How would the middle layer work?",
+            "oracle_info": [
+                {
+                    "turn_index": 144,
+                    "sent_index": 12,
+                    "speaker": "Grad B",
+                    "content": "but the middle thing , we were thinking along the lines of maybe trying to figure out , like , the concept of whether they 're a tourist {pause} or {pause} whether they 're running an errand or something like that"
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                },
+                {
+                    "turn_index": 174,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "that kind of thing is all uh {vocalsound} sort of {disfmarker} you know probabilistically depends on the other things ."
+                },
+                {
+                    "turn_index": 212,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "so one thing I {disfmarker} I 'm you know unsure about , is how we have the discus uh {disfmarker} the \" admission fee \" thing set up ."
+                },
+                {
+                    "turn_index": 212,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "but you could see perhaps discus the \" admission fee \" going directly to the mode pointing at \" Enter \" ,"
+                },
+                {
+                    "turn_index": 214,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Versus pointing to just at \" tourist \" ,"
+                }
+            ]
+        },
+        {
+            "query": "What was the importance of SmartKom?",
+            "oracle_info": [
+                {
+                    "turn_index": 791,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "They tried to figure out the intention ,"
+                },
+                {
+                    "turn_index": 791,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "And this um {disfmarker} m won't differentiate between all modes ,"
+                },
+                {
+                    "turn_index": 791,
+                    "sent_index": 13,
+                    "speaker": "Grad A",
+                    "content": "and then it 's handed on to the discourse history which is , um o one of the most elaborate {disfmarker} elaborate modules ."
+                },
+                {
+                    "turn_index": 791,
+                    "sent_index": 15,
+                    "speaker": "Grad A",
+                    "content": "It helps an an anaphora resolution and it {disfmarker} and it fills in all the structures that are omitted ,"
+                }
+            ]
+        },
+        {
+            "query": "What was said about hiring?",
+            "oracle_info": [
+                {
+                    "turn_index": 948,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "OK , I have to report {vocalsound} um , data collection ."
+                },
+                {
+                    "turn_index": 948,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "We interviewed Fey ,"
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "She 's willing to do it ,"
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "meaning be the wizard for the data collection ,"
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "also {vocalsound} maybe transcribe a little bit , if she has to ,"
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "but also recruiting subjects , organizing them , and so forth ."
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "see whether she can actually do all the uh spontaneous , eloquent and creativeness that we uh expect of the wizard ."
+                },
+                {
+                    "turn_index": 950,
+                    "sent_index": 8,
+                    "speaker": "Grad A",
+                    "content": "and it looks as if Friday afternoon will be the time when we have a first trial run for the data ."
+                }
+            ]
+        }
+    ]
+}

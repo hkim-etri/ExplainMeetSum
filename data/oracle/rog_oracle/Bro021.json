@@ -1,0 +1,324 @@
+{
+    "transcripts_id": "Bro021",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 10,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Well , the first thing maybe is that the p Eurospeech paper is , uh , accepted ."
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Wasn't there some experiment you were gonna try"
+                },
+                {
+                    "turn_index": 235,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Great ."
+                },
+                {
+                    "turn_index": 268,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But that 's not a big deal"
+                },
+                {
+                    "turn_index": 288,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "and then I told him ."
+                },
+                {
+                    "turn_index": 292,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "I was h"
+                },
+                {
+                    "turn_index": 302,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I ask you that question every meeting ."
+                },
+                {
+                    "turn_index": 310,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "VTS ."
+                },
+                {
+                    "turn_index": 337,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "If you want , you c I can say something about the method ."
+                },
+                {
+                    "turn_index": 341,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "when we have a , um , a statistic of the clean speech and an statistic of the noisy speech ."
+                },
+                {
+                    "turn_index": 622,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "This is almost cheating ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the Eurospeech paper and on-line normalization",
+            "oracle_info": [
+                {
+                    "turn_index": 10,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Well , the first thing maybe is that the p Eurospeech paper is , uh , accepted ."
+                },
+                {
+                    "turn_index": 21,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It 's , uh , Aalborg in Denmark ."
+                },
+                {
+                    "turn_index": 23,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "September ."
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "Uh , I 've been trying different {disfmarker} slightly {disfmarker} slightly different approaches ."
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Are the means pretty different {pause} for the two ?"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD C think about on-line normalization?",
+            "oracle_info": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "Uh , I 've been trying different {disfmarker} slightly {disfmarker} slightly different approaches ."
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 7,
+                    "speaker": "PhD C",
+                    "content": "one mean for the silence and one for the speech ."
+                },
+                {
+                    "turn_index": 30,
+                    "sent_index": 7,
+                    "speaker": "PhD C",
+                    "content": "And {disfmarker} Yeah , it {disfmarker} the C - one is {disfmarker}"
+                },
+                {
+                    "turn_index": 34,
+                    "sent_index": 8,
+                    "speaker": "PhD C",
+                    "content": "And then this time constant increases"
+                },
+                {
+                    "turn_index": 44,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "And then it was something about , uh , some"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So I was adding a white noise energy ,"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 8,
+                    "speaker": "PhD C",
+                    "content": "well , there is almost no difference between the cepstral coefficients of the two ."
+                },
+                {
+                    "turn_index": 59,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "but it 's , um , kind of surprising that it 's not worse"
+                },
+                {
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So it 's ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the difference between means of silence and speech?",
+            "oracle_info": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I I really would like to suggest looking , um , a little bit at the kinds of errors ."
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So I was adding a white noise energy ,"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 8,
+                    "speaker": "PhD C",
+                    "content": "well , there is almost no difference between the cepstral coefficients of the two ."
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Huh . Oh , OK ."
+                },
+                {
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , it 's a kind of smoothing ,"
+                },
+                {
+                    "turn_index": 93,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "which means {vocalsound} that the differences , even though they look like they 're not so big , {vocalsound} are {disfmarker} are hurting your recognition ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on quals and phase normalization",
+            "oracle_info": [
+                {
+                    "turn_index": 203,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , {vocalsound} still working on my {disfmarker} my quals preparation stuff ."
+                },
+                {
+                    "turn_index": 203,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Um , {vocalsound} so I 'm {disfmarker} I 'm thinking about , um , starting some , {vocalsound} uh , cheating experiments to , uh , determine the , um {disfmarker} {vocalsound} the relative effectiveness of , um , some intermediate categories that I want to classify ."
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I {disfmarker} I {disfmarker} I was thinking {disfmarker}"
+                },
+                {
+                    "turn_index": 242,
+                    "sent_index": 2,
+                    "speaker": "Grad G",
+                    "content": "It turned out there was a bug in my Matlab code ."
+                },
+                {
+                    "turn_index": 242,
+                    "sent_index": 5,
+                    "speaker": "Grad G",
+                    "content": "and , um , the results {vocalsound} were {disfmarker} were better ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about phase normalization?",
+            "oracle_info": [
+                {
+                    "turn_index": 245,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "The big one takes a while ."
+                },
+                {
+                    "turn_index": 245,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah . That takes two , three weeks ."
+                },
+                {
+                    "turn_index": 246,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "Two , three weeks ."
+                },
+                {
+                    "turn_index": 247,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "it was two , three weeks for training up for the large Broadcast News test set {disfmarker} training set ."
+                },
+                {
+                    "turn_index": 253,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and it 'd be nearly as good ."
+                },
+                {
+                    "turn_index": 257,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "you just doing it all with complex arithmetic"
+                },
+                {
+                    "turn_index": 257,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "But {vocalsound} it looks like there 's ways that one could potentially just work with the complex numbers and {disfmarker} and {disfmarker} and in principle get rid of the {vocalsound} effects of the average complex spectrum ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad A think about the experiments Grad A was running?",
+            "oracle_info": [
+                {
+                    "turn_index": 205,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "And so this would be a useful thing , um , to know {vocalsound} in terms of , like , which {disfmarker} which , um {disfmarker} which of these categories are {disfmarker} are good for , um , speech recognition ."
+                },
+                {
+                    "turn_index": 207,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So , that 's {disfmarker}"
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "TIMIT {disfmarker} uh , phone recognition with TIMIT ."
+                },
+                {
+                    "turn_index": 224,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So maybe , um , Chronos"
+                }
+            ]
+        }
+    ]
+}

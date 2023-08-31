@@ -1,0 +1,1116 @@
+{
+    "domain": "Committee",
+    "ami": {},
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The meeting basically discussed the crisis across Canada amidst the pandemic.",
+                    "The opposition party questioned the ministers for responding late to the situation, and the financial support was not given to those who were really in need.",
+                    "The ministers promised that they were trying to reach out to as many companies as possible and the opposition party was not very satisfied with the answer.",
+                    "Canada's economy was heavily stricken by the pandemic and the opposition party was prompting the ministers to roll out several measures.",
+                    "Last but not least, they stressed on the long-term care issue, and the ministers promised that they were paying attention to it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 1,
+                            "speaker": "Ms. Laurel Collins (Victoria, NDP)",
+                            "content": "Chair, Canadians have been shaken by this pandemic."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 46,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Obviously, this pandemic is affecting everyone and every business across the country in different ways, but our focus has been on ensuring that those who most need it are getting the help they can."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "We recognize that it is a difficult situation because of COVID-19."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 215,
+                            "sent_index": 4,
+                            "speaker": "Mr. Don Davies",
+                            "content": "COVID-19 has exposed critical vulnerabilities across Canada's entire network of long-term care facilities."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 290,
+                            "sent_index": 4,
+                            "speaker": "Hon. Bernadette Jordan (Minister of Fisheries, Oceans and the Canadian Coast Guard)",
+                            "content": "We know that the fish and seafood sector has taken extreme hits because of COVID-19."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 333,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, we felt it was necessary to put emergency programs in place in response to the crisis during the pandemic."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 39,
+                            "sent_index": 2,
+                            "speaker": "Hon. Andrew Scheer (Leader of the Opposition)",
+                            "content": "In the early days of the pandemic and the lockdown that followed, Canadians were told by this government that programs would be rolled out very quickly and that gaps and shortcomings would be changed as time went on."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 3,
+                            "speaker": "Hon. Andrew Scheer (Leader of the Opposition)",
+                            "content": "While many Canadians are being let down by this government's response and its unnecessarily rigid programs, Conservatives identified solutions weeks ago, yet here we are, two and a half months later, and many of these programs still have not been improved."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 2,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "There's no excuse for the delay."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 7,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "We called on the government weeks ago to have a more flexible sliding scale to allow more companies to access this program to keep more people on the job and more businesses open."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 328,
+                            "sent_index": 5,
+                            "speaker": "Mrs. Marilne Gill (Manicouagan, BQ)",
+                            "content": "These people haven't seen the money that is available through these programs."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 40,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "We rolled out the Canada emergency response benefit extremely quickly."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 40,
+                            "sent_index": 3,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "Eight million Canadians have had that as a replacement for paycheques lost because of COVID-19."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 42,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Chair, I know that there are many different types of businesses across this country that need support."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "We have moved forward on supporting as many of them as we possibly can, and we continue to work on filling gaps."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 51,
+                            "sent_index": 0,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Any company or organization that can demonstrate a significant drop in its income, whether that be in donations, receipts, profits"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Any organization experiencing those difficulties can apply."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 332,
+                            "sent_index": 0,
+                            "speaker": "Mrs. Marilne Gill",
+                            "content": "Mr.Chair, I'm still not satisfied."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 334,
+                            "sent_index": 9,
+                            "speaker": "Mrs. Marilne Gill",
+                            "content": "Is the finance minister going to help all sectors of the economy, including tourism, fisheries and seasonal industries?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 1,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "Chair, small businesses have always been the cornerstone of communities across this country."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 2,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "They provide employment and economic stability and are always the first to support community functions and activities, but small businesses have been particularly hard hit due to COVID-19."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 3,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "They have shut their doors temporarily, and now many worry they'll never be able to open their doors again."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 4,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "With the season cancellations at the Stratford Festival, Drayton Entertainment and Stratford Summer Music, businesses in the tourism, hospitality, accommodation and retail sectors in PerthWellington are struggling."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 5,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "Every day, I talk to small business owners who can't access the Canada emergency business account, and others who find the convoluted commercial rent assistance program to be out of reach."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 6,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "The program is needlessly complicated, frustratingly slow and excessively restrictive."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 8,
+                            "speaker": "Mr. John Nater (PerthWellington, CPC)",
+                            "content": "Chair, the government needs to go back, fix these programs and ensure that support goes to the small businesses that need it."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 40,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "We rolled out the Canada emergency response benefit extremely quickly."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 49,
+                            "sent_index": 0,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Mr.Chair, we recognized that a number of organizations and companies were facing difficulties because of COVID-19."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 207,
+                            "sent_index": 4,
+                            "speaker": "Ms. Iqra Khalid (MississaugaErin Mills, Lib.)",
+                            "content": "Chair, when the women and men of the Canadian Armed Forces stepped in to provide support to five long-term care homes in Ontario at the request of the premier, they released a report that outlined their findings in detail."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 208,
+                            "sent_index": 2,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "I believe all Canadians were deeply horrified to read the details from the Canadian Armed Forces on the conditions in long-term care homes in Ontario."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 208,
+                            "sent_index": 3,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "What's happening to seniors in Ontario is completely unacceptable."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 11,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "We'll continue to work with the provinces and territories to ensure that they get the care and dignity they deserve."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 215,
+                            "sent_index": 3,
+                            "speaker": "Mr. Don Davies",
+                            "content": "The seniors care crisis is a national problem."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 221,
+                            "sent_index": 1,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "Chair, I believe that, when we commit to taking care of people, we must do so with the utmost care that is required."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "How did the Prime Minister debate about the delaying of the government's response towards Covid-19?",
+                "tokenized_answer": [
+                    "In response to the opposition party, the Prime Minister answered that the government rolled out the Canada emergency response benefit extremely quickly, and they had been helping the small businesses with the Canada emergency business account.",
+                    "The opposition party was not very satisfied because he thought that the government did not reach out to as many businesses as possible.",
+                    "Also, the opposition party made a few comments on the rent relief program which was too rigid and hard to apply."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 40,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "Chair, we knew from the beginning of this pandemic that we did need to move extremely quickly, and that's what we did."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 40,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "We rolled out the Canada emergency response benefit extremely quickly."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 40,
+                            "sent_index": 5,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "What we've done in terms of helping small businesses with the Canada emergency business account has had a massive impact on small businesses across the country, but we understand that certain companies and businesses have particularities that mean it's a little more difficult for them to qualify."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "Chair, these are very simple technical fixes that can be made by this government."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 41,
+                            "sent_index": 2,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "There's no excuse for the delay."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 5,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "They're trying to get patted on the back for actions they took back in March, and yet they are letting so many Canadians down by not making these very simple changes."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 4,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "Another gap that is letting people down is in the rent relief program."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 7,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "We called on the government weeks ago to have a more flexible sliding scale to allow more companies to access this program to keep more people on the job and more businesses open."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 45,
+                            "sent_index": 8,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "Will the government introduce some flexibility to this program to help more businesses survive?"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the opposition party and the Prime Minister commented about companies laying off workers in the midst of pandemic?",
+                "tokenized_answer": [
+                    "The Prime Minister explained that the government recognized that several organizations and companies were facing difficulties because of COVID-19 and they were supporting people all over the country through that program.",
+                    "Although the opposition party was getting rigorous about the intensity of the question, the Prime Minister kept emphasizing that the government's priority had always been workers in difficulty so that they do not lose their jobs.",
+                    "This applied to all organizations and companies in the country to the extent possible."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 49,
+                            "sent_index": 0,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Mr.Chair, we recognized that a number of organizations and companies were facing difficulties because of COVID-19."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 49,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "People work for those organizations, as accountants, receptionists, assistants or labourers, and those people need to be supported."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 49,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "We are supporting people all over the country through that program."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 60,
+                            "sent_index": 0,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Mr.Chair, all through this pandemic, our priority has been to be here for workers in difficulty so that they do not lose their jobs."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 60,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "This applies to all organizations and companies in the country to the extent possible."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 60,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "That is what we are in the process of doing."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the debate over the situation of long-term care?",
+                "tokenized_answer": [
+                    "The opposition party questioned about sending military groups to provinces in order to fix long-term care.",
+                    "The Prime Minister answered that the government needed to make sure seniors across the country were properly cared for, and they sent in the military to help the provinces.",
+                    "The opposition party also questioned about applying the national standards so that long-term care was governed by the same principles as the Canada Health Act.",
+                    "The Prime Minister elaborated that due the Covid-19, pushing the project had become extremely difficult."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 2,
+                            "speaker": "Mr. Jagmeet Singh (Burnaby South, NDP)",
+                            "content": "The conditions of seniors as outlined by the military were appalling, but seniors need more than just compassionate words."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 4,
+                            "speaker": "Mr. Jagmeet Singh (Burnaby South, NDP)",
+                            "content": "Will the Prime Minister stop hiding behind excuses and actually show leadership to fix long-term care?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 4,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "We need to make sure our seniors right across the country are properly cared for, which is why we sent in the military and why we are there to help the provinces."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 1,
+                            "speaker": "Mr. Jagmeet Singh",
+                            "content": "Will the Prime Minister call for national standards so that long-term care is governed by the same principles as the Canada Health Act?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 88,
+                            "sent_index": 3,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "We will continue to work with them on the report, but the COVID-19 situation has made that more difficult."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the questioning about the reports on long-term care facilities?",
+                "tokenized_answer": [
+                    "The opposition party questioned that the report was delayed in issuing by the government and was not acted upon.",
+                    "The minister answered that the report was done and given up through the chain of command, and once the government received this report, it was forwarded to the appropriate authorities.",
+                    "The minister denied the fact that the report was released and acted upon late."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 0,
+                            "speaker": "Mr. James Bezan",
+                            "content": "I trust that you got the report on the 21st, but the report was written on the 14th, so what happened with that report for seven days?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 1,
+                            "speaker": "Mr. James Bezan",
+                            "content": "Why wasn't it acted upon?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 93,
+                            "sent_index": 2,
+                            "speaker": "Mr. James Bezan",
+                            "content": "Could you just explain that?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 1,
+                            "speaker": "Hon. Harjit S. Sajjan",
+                            "content": "Chair, as we stated, this report was done and given up through the chain of command, and the appropriate leadership did their due diligence."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 2,
+                            "speaker": "Hon. Harjit S. Sajjan",
+                            "content": "Once we received this report, it was forwarded to the appropriate authorities."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 3,
+                            "speaker": "Hon. Harjit S. Sajjan",
+                            "content": "As I stated, it was given to us, and on the same day it was forwarded to the Minister of Public Safety, who immediately then sent it to the provincial authorities."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the debate about a particular fundraising campaign?",
+                "tokenized_answer": [
+                    "The opposition party claimed that the Minister of Digital Government has been promoting a fundraising campaign to sue Global News for their story criticizing the Chinese Communist Party, and the opposition party thought the minister was supporting the Communist Party of China and threatening our media and freedom of expression.",
+                    "The Minister explained that community outreach was a very important part of the work of a member of Parliament and WeChat was one of many social media sites regularly used by members, and the minister did not share any personal views on Wechat."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 104,
+                            "sent_index": 1,
+                            "speaker": "Mrs. Rosemarie Falk (BattlefordsLloydminster, CPC)",
+                            "content": "Yesterday it was revealed that the Minister of Digital Government has been promoting a fundraising campaign to sue Global News for their story criticizing the Chinese Communist Party."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 104,
+                            "sent_index": 2,
+                            "speaker": "Mrs. Rosemarie Falk (BattlefordsLloydminster, CPC)",
+                            "content": "Why is the minister using her authority to support the Communist Party of China and threatening our media and freedom of expression?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 0,
+                            "speaker": "Hon. Joyce Murray",
+                            "content": "As we all know, community outreach is a very important part of the work of a member of Parliament."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 1,
+                            "speaker": "Hon. Joyce Murray",
+                            "content": "WeChat is one of many social media sites regularly used by members"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 121,
+                            "sent_index": 1,
+                            "speaker": "Hon. Joyce Murray",
+                            "content": "Chair, I have been very clear that I do not share the views of the person who posted on my WeChat site, who operated outside of my"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What policy the government was going to roll out to ease the deficit?",
+                "tokenized_answer": [
+                    "The minister argued that it was very important to be transparent with our investments and the government would look at the investments and the figures every day and be transparent about it.",
+                    "The minister promised that Canada would have a good economy in the future, and the government would not raise taxes after the crisis to tackle the deficit.",
+                    "Hence, the opposition party demanded a regular economy update."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, it is important to be transparent with our investments."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 1,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "We look at the investments and the figures every day."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, we always want to be clear and transparent."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 146,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, we think it's very important to make investments."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 146,
+                            "sent_index": 3,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "That way, we know that we'll have a good economy in the future."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 148,
+                            "sent_index": 0,
+                            "speaker": "Mr. Grard Deltell",
+                            "content": "Mr.Chair, will the minister commit not to raise taxes after the crisis?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 149,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, I have said several times that we do not have a plan to raise taxes."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 0,
+                            "speaker": "Mr. Grard Deltell",
+                            "content": "When will there be an economic update?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 155,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, we want our economic update to be accurate."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the debate about the economic bilateral relations with the UK?",
+                "tokenized_answer": [
+                    "The opposition party claimed that the government was not cooperating with the UK, its largest trading partner, protecting the viability of their international supply chains and capitalizing on the opportunities.",
+                    "The minister explained that the UK, of course, was a very important trading partner for Canada, and CETA would continue to apply to trade with the U.K. during this period while they went through Brexit."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 160,
+                            "sent_index": 2,
+                            "speaker": "Mr. Randy Hoback",
+                            "content": "Why is Canada not at the table with our largest trading partner protecting the viability of our international supply chains and capitalizing on the opportunities of others doing the same?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 166,
+                            "sent_index": 1,
+                            "speaker": "Mr. Randy Hoback",
+                            "content": "Chair, the U.K. will begin applying tariffs at the beginning of next year on Canadian exports such as seafood, beef and cars."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 166,
+                            "sent_index": 3,
+                            "speaker": "Mr. Randy Hoback",
+                            "content": "Will the government commit to having a new trade agreement with the U.K. in place by January 1?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 2,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "The U.K., of course, is a very important trading partner for Canada."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 167,
+                            "sent_index": 3,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "They are in discussions right now."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 4,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "I want to assure Canadian businesses that CETA continues to apply to our trade with the U.K. during this period while they go through Brexit."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the discussion about imports and supply chains?",
+                "tokenized_answer": [
+                    "The opposition party claimed that the supply chain in Canada amidst the pandemic was not stable enough and the government was not doing anything.",
+                    "The minister explained that they would continue to work with countries around the globe to ensure that Canada's supply chains and those global supply chains, particularly for essential goods, for agricultural products, for medical supplies, would continue to remain open."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 1,
+                            "speaker": "Mr. Randy Hoback",
+                            "content": "Chair, going forward post-COVID, there are a lot things that will be changing in supply chains."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 2,
+                            "speaker": "Mr. Randy Hoback",
+                            "content": "What is this government doing proactively to look at opportunities in these supply chains that Canadian businesses can take advantage of?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 176,
+                            "sent_index": 1,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Chair, we continue to work with countries around the globe to ensure that Canada's supply chains and those global supply chains, particularly for essential goods, for agricultural products, for medical supplies, continue to remain open."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the controversy about China hoarding PPE amid the pandemic?",
+                "tokenized_answer": [
+                    "The opposition party claimed that China was procuring and hoarding PPE during January.",
+                    "And in April, the minister stated there were not enough supplies in the national emergency stockpile.",
+                    "The opposition party was triggered by the fact that the minister approved a donation of 16 tonnes of PPE for China on January 31, claiming it would not compromise the country's supply.",
+                    "The minister explained that the government was doing so because they had multiple complementary supply chains operating at the same time for PPE production."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 180,
+                            "sent_index": 2,
+                            "speaker": "Mrs. Cathy McLeod (KamloopsThompsonCariboo, CPC)",
+                            "content": "Senior Canadian bureaucrats received very credible reports in early January that China was procuring and hoarding PPE."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 182,
+                            "sent_index": 0,
+                            "speaker": "Mrs. Cathy McLeod",
+                            "content": "In April, the minister stated there were not enough supplies in the national emergency stockpile."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 182,
+                            "sent_index": 1,
+                            "speaker": "Mrs. Cathy McLeod",
+                            "content": "Can she explain why she approved a donation of 16 tonnes of PPE for China on January 31, claiming it would not compromise our supply?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 183,
+                            "sent_index": 1,
+                            "speaker": "Hon. Anita Anand (Minister of Public Services and Procurement)",
+                            "content": "Chair, we are operating in a highly competitive global environment, and the reality is that we need to make sure we have multiple complementary supply chains operating at the same time, which we have been doing in the past weeks and months, to ensure our front-line health care workers have the supplies they need to keep Canadians safe."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the debate about government giving money to companies which did not put the amount into proper use?",
+                "tokenized_answer": [
+                    "The opposition party claimed that the government had been providing financial support to companies such as Air Canada, which did not pay a single cent in tax nor did it use the money to reimburse customers.",
+                    "The minister explained that the government did not bias against any company, , and it was thought that it was very important to protect employees in every sector of the economy and across Canada.The fight against tax evasion was a priority for the government.",
+                    "The minister promised that they would continue to target companies that use tax evasion schemes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 195,
+                            "sent_index": 0,
+                            "speaker": "Mr. Alain Therrien (La Prairie, BQ)",
+                            "content": "Mr.Chair, during the pandemic, the government has given money to companies that don't pay a cent in tax because they use tax havens."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 195,
+                            "sent_index": 3,
+                            "speaker": "Mr. Alain Therrien (La Prairie, BQ)",
+                            "content": "During the pandemic, the government gave money to Air Canada, but Air Canada never reimbursed customers who did not get the services they paid for."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 0,
+                            "speaker": "Hon. Diane Lebouthillier (Minister of National Revenue)",
+                            "content": "Mr.Chair, the fight against tax evasion is a priority for our government."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 3,
+                            "speaker": "Hon. Diane Lebouthillier (Minister of National Revenue)",
+                            "content": "Employees are employees, no matter who they work for."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 198,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr.Chair, we think it's very important to protect employees across the country and in every economic sector that's experiencing a significant drop in income."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 1,
+                            "speaker": "Hon. Diane Lebouthillier (Minister of National Revenue)",
+                            "content": "We will continue to target companies that use tax evasion schemes."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the discussion about the government's policy to improve long-term care facilities and protect the seniors?",
+                "tokenized_answer": [
+                    "The opposition party claimed that people across Canada were appalled by the situation in care homes which left seniors suffering.",
+                    "The minister explained that the government was fully aware of the situation.",
+                    "The minister promised that they would fully play their role federal level with advice, with guidance, with support and with investments.",
+                    "They were going to have those conversations about how best they can improve the care for all seniors."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 207,
+                            "sent_index": 4,
+                            "speaker": "Ms. Iqra Khalid (MississaugaErin Mills, Lib.)",
+                            "content": "Chair, when the women and men of the Canadian Armed Forces stepped in to provide support to five long-term care homes in Ontario at the request of the premier, they released a report that outlined their findings in detail."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 207,
+                            "sent_index": 5,
+                            "speaker": "Ms. Iqra Khalid (MississaugaErin Mills, Lib.)",
+                            "content": "Military members witnessed residents' cries for help going unanswered."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 213,
+                            "sent_index": 2,
+                            "speaker": "Mr. Don Davies (Vancouver Kingsway, NDP)",
+                            "content": "Canadians were horrified to hear the report yesterday from our armed forces about the appalling conditions experienced by seniors in our long-term care homes."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 208,
+                            "sent_index": 3,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "What's happening to seniors in Ontario is completely unacceptable."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 211,
+                            "sent_index": 3,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "We also know that there are seniors all across the country who are struggling with care and with the appropriate level of care."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 211,
+                            "sent_index": 9,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "We know that there's a role we can play at the federal level with advice, with guidance, with support and, yes, with investments."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 211,
+                            "sent_index": 10,
+                            "speaker": "Hon. Patty Hajdu",
+                            "content": "We look forward to having those conversations about how best we can improve the care for all seniors amongst us."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the discussion about the seniors care crisis?",
+                "tokenized_answer": [
+                    "The opposition party claimed that the seniors care crisis was a national problem, and the federal government was not taking immediate response.",
+                    "The opposition party pointed out that these failures were the product of systemic neglect.The minister replied that they were fully aware that in long-term care facilities both seniors and persons living with a disability face unique challenges.",
+                    "And considering the severity of this report, the federal government promptly shared it with the Province of Ontario, and the Province of Ontario has initiated an investigation based on the report's findings."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 215,
+                            "sent_index": 3,
+                            "speaker": "Mr. Don Davies",
+                            "content": "The seniors care crisis is a national problem."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 215,
+                            "sent_index": 7,
+                            "speaker": "Mr. Don Davies",
+                            "content": "Will this government move swiftly to establish binding national standards for long-term care?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 2,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "We understand in long-term care facilities both seniors and persons living with a disability face unique challenges, and the findings of this report are in fact deeply concerning and completely unacceptable."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 2,
+                            "speaker": "Mr. Don Davies",
+                            "content": "These failures are the product of systemic neglect often motivated by prioritizing profit over the provision of adequate care."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 3,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "Considering the severity of this report, we promptly shared it with the Province of Ontario, and the Province of Ontario has initiated an investigation based on the report's findings."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 214,
+                            "sent_index": 4,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "Their investigation includes alerting the province's chief coroner who has the authority to alert the police of jurisdiction."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

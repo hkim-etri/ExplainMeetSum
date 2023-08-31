@@ -1,0 +1,408 @@
+{
+    "transcripts_id": "Bro014",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 36,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "This was the mix up stuff ."
+                },
+                {
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "That 's right ."
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "That 's great ."
+                },
+                {
+                    "turn_index": 96,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "just to see , um {disfmarker} see how {disfmarker} how that affects performance ."
+                },
+                {
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "that had more ."
+                },
+                {
+                    "turn_index": 118,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "there {disfmarker} because they start off with , uh , an initial model"
+                },
+                {
+                    "turn_index": 129,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "or was it Sunil"
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 's a weighted average ."
+                },
+                {
+                    "turn_index": 218,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "The training and testing ."
+                },
+                {
+                    "turn_index": 232,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "With {disfmarker}"
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Work to do ."
+                },
+                {
+                    "turn_index": 351,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "which might be much better ."
+                },
+                {
+                    "turn_index": 484,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It 's not part of a VAD system that you 're doing ?"
+                },
+                {
+                    "turn_index": 593,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "But it 's this ,"
+                },
+                {
+                    "turn_index": 605,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "no ."
+                },
+                {
+                    "turn_index": 831,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "That was it , huh ?"
+                },
+                {
+                    "turn_index": 853,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "or a feature or something ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on feature classification",
+            "oracle_info": [
+                {
+                    "turn_index": 410,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "That 's right ."
+                },
+                {
+                    "turn_index": 423,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "but they have a lot of overlap ."
+                },
+                {
+                    "turn_index": 435,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "It 's noisy TIMIT ."
+                },
+                {
+                    "turn_index": 446,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , yeah , except the variance was big ."
+                },
+                {
+                    "turn_index": 448,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Except the variance is quite high ."
+                },
+                {
+                    "turn_index": 454,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "So that could be giving you a lot of variance ."
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But another way of looking at it {vocalsound} might be that {disfmarker}"
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 10,
+                    "speaker": "Professor B",
+                    "content": "coming up with some things and just trying them out"
+                },
+                {
+                    "turn_index": 478,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And your intuition is driving you towards particular kinds of , {vocalsound} uh , statistical characterizations of , um , what 's missing from the spectral envelope ."
+                },
+                {
+                    "turn_index": 489,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Features ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the voice-unvoice characterization?",
+            "oracle_info": [
+                {
+                    "turn_index": 458,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "By going back to the FFT , {vocalsound} you 're getting something that is {pause} more like the raw data ."
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "another way of looking at it is what characterization {vocalsound} of the difference between {pause} the raw data {pause} and this smooth version {pause} is something that you 're missing that could help ?"
+                },
+                {
+                    "turn_index": 488,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "No , the idea was , I guess , to {disfmarker} to use them as {disfmarker} as features ."
+                },
+                {
+                    "turn_index": 492,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "but it could be in the {disfmarker} also the big neural network that does phoneme classification ."
+                },
+                {
+                    "turn_index": 495,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , you have , uh , uh , variance only ,"
+                }
+            ]
+        },
+        {
+            "query": "Did PhD A and PhD C agree about the variance?",
+            "oracle_info": [
+                {
+                    "turn_index": 404,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So we would be looking at , um , the {pause} variance of the spectrum of the excitation ,"
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "The variance of the spectrum of excitation ."
+                },
+                {
+                    "turn_index": 410,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "That 's right ."
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So we have the mel f filter bank ,"
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "we have the FFT ,"
+                },
+                {
+                    "turn_index": 448,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Except the variance is quite high ."
+                },
+                {
+                    "turn_index": 452,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "because you 're doing these canonical mappings from TIMIT labellings ."
+                },
+                {
+                    "turn_index": 456,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "and that the variance is sort of artificial because of how you 're getting your truth ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about VAD improvements",
+            "oracle_info": [
+                {
+                    "turn_index": 289,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "Per - e s s someone told that perhaps it 's not fair to do that because the , um {disfmarker} to make a good VAD {pause} you don't have enough to {disfmarker} with the {disfmarker} the features that are {disfmarker} the baseline features ."
+                },
+                {
+                    "turn_index": 289,
+                    "sent_index": 7,
+                    "speaker": "PhD A",
+                    "content": "you need more features ."
+                },
+                {
+                    "turn_index": 299,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "see , MFCC for instance doesn't have anything in it , uh , related to the pitch ."
+                },
+                {
+                    "turn_index": 299,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "and if it gets an unambiguous {disfmarker}"
+                },
+                {
+                    "turn_index": 327,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But ,"
+                },
+                {
+                    "turn_index": 351,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "which might be much better ."
+                },
+                {
+                    "turn_index": 353,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "which was not done on our first proposal ."
+                },
+                {
+                    "turn_index": 366,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "the latencies are much shorter ."
+                },
+                {
+                    "turn_index": 370,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but you 've got the latency shorter now ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about latencies?",
+            "oracle_info": [
+                {
+                    "turn_index": 366,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "the latencies are much shorter ."
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 5,
+                    "speaker": "PhD A",
+                    "content": "We put the good VAD ."
+                },
+                {
+                    "turn_index": 375,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So it 's better than the system that we had before ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD A think about VAD?",
+            "oracle_info": [
+                {
+                    "turn_index": 304,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "That 's not clear ,"
+                },
+                {
+                    "turn_index": 315,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "They may not be the same thing ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "you might as well pick some voice activity detector and make that the baseline ,"
+                },
+                {
+                    "turn_index": 345,
+                    "sent_index": 12,
+                    "speaker": "PhD A",
+                    "content": "and it seems that on - line normalization doesn't help further when you have spectral subtraction ."
+                },
+                {
+                    "turn_index": 353,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "which was not done on our first proposal ."
+                },
+                {
+                    "turn_index": 361,
+                    "sent_index": 5,
+                    "speaker": "PhD A",
+                    "content": "because the well - matched case is better ."
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 5,
+                    "speaker": "PhD A",
+                    "content": "We put the good VAD ."
+                },
+                {
+                    "turn_index": 370,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but you 've got the latency shorter now ."
+                },
+                {
+                    "turn_index": 378,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "with the short filter and with the long filter ,"
+                }
+            ]
+        }
+    ]
+}

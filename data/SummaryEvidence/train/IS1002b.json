@@ -1,0 +1,1640 @@
+{
+    "domain": "Product(ami)",
+    "ami": {
+        "tokenized_answer": [
+            "The Project Manager reviewed new requirements for the project with the group and discussed their implementation.",
+            "The Industrial Designer presented the basic components of a remote control device and how they work together.",
+            "He showed that the size of the chip they will use is dependent on how many complicated functions are included.",
+            "The User Interface Designer stressed that the project should focus on a simple design for the device.",
+            "The group discussed not being able to include a teletext component, and that the product design would have to be the main selling point of the device.",
+            "The Marketing Expert discussed his marketing strategy for the project, again stressing the attractiveness of the product design.",
+            "The Industrial Designer proposed including a battery charging stand with the device but it was decided that it was not a useful feature.",
+            "The group continued to discuss the marketing strategy for the device as it would not include many advanced technological functions; they discussed including a guarantee for the remote and using a unique form factor.",
+            "The group decided that they want to incorporate teletext despite the management's directive.",
+            "The group does not want to include the battery charging stand.",
+            "There was a lack of information about the cost of components and materials.",
+            "The group felt constrained by the new project requirements and had difficulties implementing the management's directives."
+        ],
+        "answer_sentence_index": [
+            "IS1002b.JacquelinePalmer.s.1",
+            "IS1002b.JacquelinePalmer.s.2",
+            "IS1002b.JacquelinePalmer.s.3",
+            "IS1002b.JacquelinePalmer.s.4",
+            "IS1002b.JacquelinePalmer.s.5",
+            "IS1002b.JacquelinePalmer.s.6",
+            "IS1002b.JacquelinePalmer.s.7",
+            "IS1002b.JacquelinePalmer.s.8",
+            "IS1002b.JacquelinePalmer.s.9",
+            "IS1002b.JacquelinePalmer.s.10",
+            "IS1002b.JacquelinePalmer.s.11",
+            "IS1002b.JacquelinePalmer.s.12"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "We can talk about the requirements"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well {vocalsound} uh what comes up for me is that if we're gonna if we're gonna be marketing a product that is going to be uh having {vocalsound} no teletext , people are very comfortable {vocalsound} with {vocalsound} the idea of having teletext and using teletext , and so we're not {disfmarker} we're gonna be a new product without something that people are very comfortable having right now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "which is , what are we gonna be targeting our market uh that {vocalsound} identifies our product as better than {disfmarker} because it doesn't have teletext it has ta-ta-ta-ta-ta ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 17,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "but but we are sort of being dictated that this should only be for the television ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "Obviously the the {disfmarker} w it has to be branded ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "So then the double R_ will be our our {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "I think w , yeah , one of the things that we should also keep in mind um when we're doing this {disfmarker} I mean our company's slogan is we put the fashion in electronics , right ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 49,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "So I think our kind of {disfmarker} our target here is to {vocalsound} have some kind of very like sleek {vocalsound} nice look remote"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 57,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I'm the Industrial Designer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 57,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "And we've some basic components that um our remote is gonna need ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "We need some kinda of power d power source ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 59,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "Um we have to decide on our our user interface , which is his department ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "but the in user interface is also a major component ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 4,
+                    "speaker": "User Interface",
+                    "content": "You need a on-off switch"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 8,
+                    "speaker": "User Interface",
+                    "content": "and so that'll require some memory as well ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 9,
+                    "speaker": "User Interface",
+                    "content": "Um so here's just a basic layout of how how the remote would work ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 59,
+                    "sent_index": 10,
+                    "speaker": "User Interface",
+                    "content": "You ha the v the power source is in the upper right-hand corner there ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 59,
+                    "sent_index": 11,
+                    "speaker": "User Interface",
+                    "content": "and you can see that uh we have the user interface here which is connected to the chip which does all our signal processing ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 59,
+                    "sent_index": 12,
+                    "speaker": "User Interface",
+                    "content": "and then passes that signal on to the infra-red L_E_D_"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 59,
+                    "sent_index": 13,
+                    "speaker": "User Interface",
+                    "content": "and that signal is then emitted and received by the television at the photo-transistor ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "So depending on what we want our functionality to be , um the chip could be expensive or it could be cheap ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Um depending on the n amount of memory we need in there and stuff like that and h and h {vocalsound} you know how much power ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 98,
+                    "sent_index": 4,
+                    "speaker": "Industrial Designer",
+                    "content": "and I think , honestly , we should keep technology low and just simple basically"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 98,
+                    "sent_index": 5,
+                    "speaker": "Industrial Designer",
+                    "content": "and try to aim for design ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 5,
+                    "speaker": "Industrial Designer",
+                    "content": "um as for what I would recommend for uh the the interface design , and uh I will change the colours on the on the logo , but {vocalsound} um we should go for the user-oriented device ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 6,
+                    "speaker": "Industrial Designer",
+                    "content": "so simple controls and good ergonomics ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "because in seeing that teletext is becoming outdated , some sort remote control that can work with the Internet {disfmarker} {vocalsound} there is the opportunity that's presented , I guess ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 12,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "Right . Yeah . No , I I agree with you ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "I mean {vocalsound} even if it's necessary or not , if you {disfmarker} if you're given the choice between a t a remote with teletext or without uh when it really {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 138,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "One way the other teletext was there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 138,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "but I guess we can remove it"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So if we're keeping it basic we're loo loo what we're looking to sell it basically is it's uh just being very easy to use , looking exceptionally good , that sort of thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 171,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "and come up with some really {vocalsound} beautiful exterior design or something"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 247,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "So what we've identified here as our main marketing stratagem is is in design ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 247,
+                    "sent_index": 3,
+                    "speaker": "Marketing",
+                    "content": "We're making the most beautiful attractive uh whatever we decide it is ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 249,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Um {vocalsound} so I would like to have a product that that we can sell easily ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 249,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "so having something beauty , something attractive , uh something that in a sense will sell itself ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 251,
+                    "sent_index": 11,
+                    "speaker": "Marketing",
+                    "content": "that we're new , we're aggressive , we're competitive , we're we're trying to provide a product from a new perspective rather than from an old corporate line ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 3,
+                    "speaker": "User Interface",
+                    "content": "but instead what about if we had like a power cradle ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 263,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Like a a cradle that is is there to hold the remote when you're not using it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 263,
+                    "sent_index": 3,
+                    "speaker": "User Interface",
+                    "content": "and we can , instead of having instead of having , you know , replaceable batteries we'll just have a power cell that stays there for the life of the remote ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 263,
+                    "sent_index": 8,
+                    "speaker": "User Interface",
+                    "content": "You know you could have some kind of neat little , you know , {vocalsound} a sexy design for d a cradle and the remote itself ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 370,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "but when you're done with it you put it back in the cradle ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 371,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But it it takes away the ease of use of the remote to a certain extent ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 278,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "we we can certainly push for a more expensive product if that's gonna be {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 279,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well , see I I {disfmarker} see I I'm an advocate to make this an exclusive product ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 279,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "Let's make this thing really exclusive , environmentally sensitive , uh high-tech design , uh ergonomics , all of this ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 284,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "like being able to operate , you know , the D_V_D_ player and , you know , the stereo system and all that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 284,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "Which is a pretty basic function that w we've opted out of ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 285,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "I think we can say with certainty now that we are supporting teletext ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But I t I think what the {vocalsound} the management recommendation was less that there's a worry that teletext will become outdated rather than we shouldn't have it ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 101,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So I I still think if it's cheap enough functionality-wise to include , it really should be in there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 149,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "a a and th the message really we wanna be sending to them is that , although teletext may become outdated w there's no l logic in not having it in there anyway i if it doesn't affect the price ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Um but I I think what they're pushing us towards here is in terms of thinking of ways to future-proof our system for future systems that have something else other than teletext maybe ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 157,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "but we're not putting some {disfmarker} there's no no putting anything in in the place of teletext ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 285,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "I think we can say with certainty now that we are supporting teletext ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 3,
+                    "speaker": "User Interface",
+                    "content": "but instead what about if we had like a power cradle ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 263,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Like a a cradle that is is there to hold the remote when you're not using it ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 264,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "I like the idea ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 264,
+                    "sent_index": 3,
+                    "speaker": "Marketing",
+                    "content": "but we're talking about {disfmarker} in cost is gonna probably double ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 265,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "It w it would increase the cost ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 371,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But it it takes away the ease of use of the remote to a certain extent ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Do we have an idea of costs of different components ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Do we have any ballpark figures for that yet ? No ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Uh I don't have any figures right now ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 17,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "but but we are sort of being dictated that this should only be for the television ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So we're quite fixed ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So we're really probably , in terms of marketing , are looking for that's uh that's a cost winner rather than a fantastic new feature product ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "So uh we're gonna be removing the teletext out of any T_V_ that we {disfmarker} people use our remote with ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "So it's kind of a stupid decision ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But I t I think what the {vocalsound} the management recommendation was less that there's a worry that teletext will become outdated rather than we shouldn't have it ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 101,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So I I still think if it's cheap enough functionality-wise to include , it really should be in there ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 293,
+                    "sent_index": 3,
+                    "speaker": "Marketing",
+                    "content": "I don't know what kind of role we have in this {disfmarker} in the corporate ladder uh ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 295,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "do we follow their directives or do we make uh presentations back and and then and then discuss ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 295,
+                    "sent_index": 5,
+                    "speaker": "Marketing",
+                    "content": "beca I I do not {disfmarker} I do not see the market niche for the product that they're handing f handing us right now ."
+                }
+            ]
+        ]
+    },
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The group had a heated discussion over the functional design and the market positioning of their new product.",
+                    "First, User Interface introduced the basic components of the remote control and the cost of them.",
+                    "When discussing the user interface design, the group agreed that the product should be good-looking and branded with their company logo.",
+                    "Industrial Designer thought they should keep the functions simple and basic and aimed at the exterior design.",
+                    "Then, the group talked much about the teletext and whether the controller should be only for TV.",
+                    "When it came to the market positioning, the opinion of User Interface differed from Marketing's - the former tended to keep it simple but the latter thought there should be something special about the product to make it exclusive."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "we are here to talk about functional design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Now hopefully we've all got a better idea from {vocalsound} {disfmarker} than we did f leaving the last meeting as to what it is we are up to now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So we're really probably , in terms of marketing , are looking for that's uh that's a cost winner rather than a fantastic new feature product ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 57,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "And we've some basic components that um our remote is gonna need ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "We need some kinda of power d power source ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Um we have to decide on our our user interface , which is his department ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "but the in user interface is also a major component ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "Um we need a programmable digital signal processor to um to take the input from the user and translate that into uh into electronic signal , which we pass to the infra-red L_E_D_ , which you aim at the television uh which {disfmarker} and it receives that signal ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "You need a on-off switch"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 69,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Do we have an idea of costs of different components ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um well the most the most costly components are gonna be the chip"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "basically the user interface and the casing are gonna be expensive as well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um the L_E_D_ and the the transistors and everything else are you know they're they're pretty cheap ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "So depending on what we want our functionality to be , um the chip could be expensive or it could be cheap ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Obviously the the {disfmarker} w it has to be branded ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "So then the double R_ will be our our {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 49,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "I think w , yeah , one of the things that we should also keep in mind um when we're doing this {disfmarker} I mean our company's slogan is we put the fashion in electronics , right ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 49,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "So I think our kind of {disfmarker} our target here is to {vocalsound} have some kind of very like sleek {vocalsound} nice look remote"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 51,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "We want something that looks nice and it's fashionable and so {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "So yeah function design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 4,
+                            "speaker": "Industrial Designer",
+                            "content": "and I think , honestly , we should keep technology low and just simple basically"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "and try to aim for design ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well {vocalsound} uh what comes up for me is that if we're gonna if we're gonna be marketing a product that is going to be uh having {vocalsound} no teletext , people are very comfortable {vocalsound} with {vocalsound} the idea of having teletext and using teletext , and so we're not {disfmarker} we're gonna be a new product without something that people are very comfortable having right now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "because in seeing that teletext is becoming outdated , some sort remote control that can work with the Internet {disfmarker} {vocalsound} there is the opportunity that's presented , I guess ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 14,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "So what I'm talking about is I see that one side we're eliminating something so we have to come up with another side"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 14,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "which is , what are we gonna be targeting our market uh that {vocalsound} identifies our product as better than {disfmarker} because it doesn't have teletext it has ta-ta-ta-ta-ta ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "but but we are sort of being dictated that this should only be for the television ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 26,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "So uh we're gonna be removing the teletext out of any T_V_ that we {disfmarker} people use our remote with ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "But there's also the potential for mark there's a market here for our lost teletext ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 279,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well , see I I {disfmarker} see I I'm an advocate to make this an exclusive product ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 279,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Let's make this thing really exclusive , environmentally sensitive , uh high-tech design , uh ergonomics , all of this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "I just don't know about that , because in order to do that {vocalsound} {disfmarker} in order to price it at that kind of level I think we'd need to have every functionality that all the other competitors are offering"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "Which is a pretty basic function that w we've opted out of ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about basic components and the cost.",
+                "tokenized_answer": [
+                    "The basic components included power source, user interface, a programmable digital signal processor, on-off switch, encryption codes for the different modes of TVs, and memory system.",
+                    "Then User Interface presented the basic layout of how the remote would work.",
+                    "In terms of the cost, the most costly component was the chip and the casing would be expensive as well.",
+                    "LED, the transistors and everything else were pretty cheap.",
+                    "The price of the chip depended on what functionality the product would have and how much the battery capacity and storage would be.",
+                    "For the moment, they didn't have a ballpark figure."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 57,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "And we've some basic components that um our remote is gonna need ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "We need some kinda of power d power source ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "but the in user interface is also a major component ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "Um we need a programmable digital signal processor to um to take the input from the user and translate that into uh into electronic signal , which we pass to the infra-red L_E_D_ , which you aim at the television uh which {disfmarker} and it receives that signal ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "You need a on-off switch"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 6,
+                            "speaker": "User Interface",
+                            "content": "And uh we also need to um have the {vocalsound} {disfmarker} if we want a universal remote we need to have encryption codes for the different makes of T_V_s ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 8,
+                            "speaker": "User Interface",
+                            "content": "and so that'll require some memory as well ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 9,
+                            "speaker": "User Interface",
+                            "content": "Um so here's just a basic layout of how how the remote would work ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 10,
+                            "speaker": "User Interface",
+                            "content": "You ha the v the power source is in the upper right-hand corner there ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 11,
+                            "speaker": "User Interface",
+                            "content": "and you can see that uh we have the user interface here which is connected to the chip which does all our signal processing ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 12,
+                            "speaker": "User Interface",
+                            "content": "and then passes that signal on to the infra-red L_E_D_"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 13,
+                            "speaker": "User Interface",
+                            "content": "and that signal is then emitted and received by the television at the photo-transistor ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 69,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Do we have an idea of costs of different components ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um well the most the most costly components are gonna be the chip"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "basically the user interface and the casing are gonna be expensive as well ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um the L_E_D_ and the the transistors and everything else are you know they're they're pretty cheap ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "So depending on what we want our functionality to be , um the chip could be expensive or it could be cheap ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um depending on the n amount of memory we need in there and stuff like that and h and h {vocalsound} you know how much power ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Do we have any ballpark figures for that yet ? No ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Uh I don't have any figures right now ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about functional design and user interface design.",
+                "tokenized_answer": [
+                    "The group agreed that the product should be good-looking and branded with their company logo.",
+                    "Industrial Designer thought they should keep the functions simple and basic and aimed at the exterior design.",
+                    "As for the teletext, Project Manager had intended to remove it from their new product, but considering the popularity of teletext, they decided to keep it since it wouldn't affect the price anyway.",
+                    "Besides, the product was demanded to be only for TV, but Marketing thought they should design an all-in-one ultimate remote control which would be easier to sell."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Obviously the the {disfmarker} w it has to be branded ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "So then the double R_ will be our our {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "On the product yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 4,
+                            "speaker": "Industrial Designer",
+                            "content": "and I think , honestly , we should keep technology low and just simple basically"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "and try to aim for design ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 101,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "But I t I think what the {vocalsound} the management recommendation was less that there's a worry that teletext will become outdated rather than we shouldn't have it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 101,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So I I still think if it's cheap enough functionality-wise to include , it really should be in there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 103,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "if it i {vocalsound} if it isn't more expensive for us to k make {disfmarker} because as far as I understand it , {vocalsound} it can be operated with the same set of buttons , yeah ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 103,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "So it should be in there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 104,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Right as far as {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 322,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And it's like whoa we ha in my opinion we have to go with something that's extremely exclusive to make this thing marketable ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 325,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "because who wants just a television remote ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 329,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "If you're in the market for this ultimate remote , you're not gonna go for just a television remote ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 329,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "If it can't control {disfmarker} if it can't control your your D_V_D_ player and a al if y if you can't get that all-in-one ultimate remote , that just {disfmarker} you can throw all your other remotes away . I'm not gonna buy a d seventy-five Euro remote ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 330,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I I I have a tendency to agree with you ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Marketing think of the proposal of eliminating teletext technology from their product?",
+                "tokenized_answer": [
+                    "Marketing disapproved of this proposal because though teletext was becoming outdated as Project Manager said, more than eighty percent of the current televisions were still teletext and people were very comfortable with the idea of having and using teletext.",
+                    "Besides, Marketing couldn't understand why the advent of the Internet would eliminate the need for teletext.",
+                    "Even so, if they were to remove the teletext from the controller, they had to bring something very attractive to take the place of it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well {vocalsound} uh what comes up for me is that if we're gonna if we're gonna be marketing a product that is going to be uh having {vocalsound} no teletext , people are very comfortable {vocalsound} with {vocalsound} the idea of having teletext and using teletext , and so we're not {disfmarker} we're gonna be a new product without something that people are very comfortable having right now ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "because in seeing that teletext is becoming outdated , some sort remote control that can work with the Internet {disfmarker} {vocalsound} there is the opportunity that's presented , I guess ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 37,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "'Cause we're talking about {vocalsound} eighty percent or ninety percent or ninety-five percent of the televisions out there are are teletext ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "I {disfmarker} in the very beginning it said with the with the advent of computers there's gonna be the {disfmarker} it's gonna be out-moded teletext ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I I don't understand how those two things are connected ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "How does how does computers and teletext {disfmarker} h how {disfmarker} why is one eliminating the need of the other ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "But there's also the potential for mark there's a market here for our lost teletext ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "That's what I'm that's what I'm talking about is is that we have to find something that is gonna be very attractive about this product"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "'cause it took {disfmarker} they can't ac access their teletext ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did User Interface recommend to do when discussing the functional design and why?",
+                "tokenized_answer": [
+                    "User Interface recommended to design a power cradle for the controller so that it would be unnecessary to change batteries.",
+                    "In this way, users would always know where the remote was because they had to put the device back to the cradle to charge it, which addressed the problem of losing it.",
+                    "This attempt would also do good to the look and feel of the remote control as a whole.",
+                    "The idea would be considered by the group, but they had to look into how much this might increase the cost."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "but instead what about if we had like a power cradle ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 263,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Like a a cradle that is is there to hold the remote when you're not using it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "and we can , instead of having instead of having , you know , replaceable batteries we'll just have a power cell that stays there for the life of the remote ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Like a a cradle that is is there to hold the remote when you're not using it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "so you'll always know where the remote is"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "'cause you have to put it back there to charge the remote ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "and we can , instead of having instead of having , you know , replaceable batteries we'll just have a power cell that stays there for the life of the remote ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 263,
+                            "sent_index": 7,
+                            "speaker": "User Interface",
+                            "content": "or for {disfmarker} not just for the user design , but also for the {disfmarker} just for the look and feel of the remote as as a whole ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 264,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I like the idea ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 264,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "but we're talking about {disfmarker} in cost is gonna probably double ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 265,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "It w it would increase the cost ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about marketing positioning of the product.",
+                "tokenized_answer": [
+                    "The group decided to make the new product good-looking, durable and environmentally sensitive, but the opinion of User Interface had a little difference with Marketing's - the former thought the product should only have some basic functions but the latter thought there should be something special about the product to make it exclusive."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 279,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well , see I I {disfmarker} see I I'm an advocate to make this an exclusive product ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 279,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Let's make this thing really exclusive , environmentally sensitive , uh high-tech design , uh ergonomics , all of this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "I just don't know about that , because in order to do that {vocalsound} {disfmarker} in order to price it at that kind of level I think we'd need to have every functionality that all the other competitors are offering"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "Which is a pretty basic function that w we've opted out of ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 396,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "I think w what's really important is it has to look good ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 5,
+                            "speaker": "User Interface",
+                            "content": "it has to feel {vocalsound} {disfmarker} it has to feel good in your hand ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "it has to be durable ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the opinion of User Interface about Marketing positioning of the product.",
+                "tokenized_answer": [
+                    "User Interface believed that most people bought a new remote control just because they lost their old one and needed another one that could work with their TV.",
+                    "What they wanted was something ergonomic, durable, and good-looking.",
+                    "Actually, few people would use every function of the controller, so they should just keep the product simple instead of adding cost for advanced features."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "Where I think the largest portion of the market is just gonna {disfmarker} you know they lost their T_V_ remote , they need another one that'll work with their T_V_ ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 5,
+                            "speaker": "User Interface",
+                            "content": "They want something that looks nice ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 6,
+                            "speaker": "User Interface",
+                            "content": "that that that isn't gonna break when they drop it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 7,
+                            "speaker": "User Interface",
+                            "content": "that you know that maybe it's it's ergonomic , it feels good in your hand , something like that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "I'm just thinking you know with all these universal remotes that are out there , how many people {vocalsound} how many people actually use every feature"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So we are looking for something that looks good and just works , rather than looking for any special features ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 188,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "I think the more bells and whistles we add , it's just gonna cut into our into our profits ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was Marketing's opinion on Marketing positioning of the product?",
+                "tokenized_answer": [
+                    "Marketing wanted the product to be exclusive, beautiful, attractive, and environmentally sensitive.",
+                    "It should be special in some way so that it could sell on its own.",
+                    "Marketing also wanted to sell their corporate identity along with the product.",
+                    "However, the fact was that they could not use some cutting-edge technology due to the limitation of cost, so they had to aim at the exterior design."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 247,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "We're making the most beautiful attractive uh whatever we decide it is ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "I I wanna make this thing something that I can identify as special in some way ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 6,
+                            "speaker": "Marketing",
+                            "content": "I I talked about environmentally sensitive ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 7,
+                            "speaker": "Marketing",
+                            "content": "uh maybe we have a product that can be identified in some way as advantageous in a home ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 249,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um {vocalsound} so I would like to have a product that that we can sell easily ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 249,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "so having something beauty , something attractive , uh something that in a sense will sell itself ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "I I wanna make this thing something that I can identify as special in some way ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 12,
+                            "speaker": "Marketing",
+                            "content": "So to me it's about selling d uh our identity {disfmarker} our corporate identity along with the product ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "I think technology we'd we {disfmarker} we're not in the price range to do it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "We don't have the money to do it towards t f technology"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "so we should we should aim at design ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

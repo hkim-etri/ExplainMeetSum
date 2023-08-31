@@ -1,0 +1,390 @@
+{
+    "transcripts_id": "Bdb001",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts ,"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "what about , um , the idea of using a relational database to , uh , store the information from the XML ?"
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "you {disfmarker} you could use the XML to put the data in ,"
+                },
+                {
+                    "turn_index": 498,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                },
+                {
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                },
+                {
+                    "turn_index": 144,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure ."
+                },
+                {
+                    "turn_index": 463,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I guess I 'm just a little hesitant to try to go whole hog on sort of the {disfmarker} the whole framework that {disfmarker} that NIST is talking about , with ATLAS and a database and all that sort of stuff ,"
+                },
+                {
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "cuz it 's a big learning curve , just to get going ."
+                },
+                {
+                    "turn_index": 510,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "because , um , you know , Adam might have one opinion but you might have another ,"
+                },
+                {
+                    "turn_index": 595,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "And so then it would just be a matter of getting {disfmarker} making sure to handle the annotations that are , you know , not at the word - level and , um , t to import the"
+                },
+                {
+                    "turn_index": 637,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "And {pause} you want some tool , uh , that is able to sort of merge these different annotations back into a single , uh , version ."
+                },
+                {
+                    "turn_index": 695,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "So you want to get that annotation and bring it back in line with your data ."
+                },
+                {
+                    "turn_index": 731,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "The {disfmarker} the point is , that {disfmarker} that they may have annotated it off a word transcript that isn't the same as our word transcript ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about the current XML format to link up different components in data",
+            "oracle_info": [
+                {
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "so that you start with {disfmarker} with a time - line tag ."
+                },
+                {
+                    "turn_index": 38,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And then somewhere la further down you might have something like an utterance tag"
+                },
+                {
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So you 're essentially defining a lattice ."
+                },
+                {
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So tha it has a single time - line ,"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "and then you can have lots of different sections ,"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "each of which have I Ds attached to it ,"
+                },
+                {
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I mean you 've got all these phone labels ,"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "because you could {disfmarker} you could {disfmarker} all you 'd have to change is the , {vocalsound} um , time - stamps in the time - line without {disfmarker} without , uh , changing the I Ds ."
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I don't think I would do this for phone - level ."
+                },
+                {
+                    "turn_index": 197,
+                    "sent_index": 5,
+                    "speaker": "PhD F",
+                    "content": "it just has to be , you know , easy to use , and {disfmarker}"
+                },
+                {
+                    "turn_index": 84,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "I think for word - level , this would be OK ."
+                }
+            ]
+        },
+        {
+            "query": "What did F think about the current XML format to link up different components in data?",
+            "oracle_info": [
+                {
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I mean you 've got all these phone labels ,"
+                },
+                {
+                    "turn_index": 55,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and what do you do if you {disfmarker} just conceptually , if you get , um , transcriptions where the words are staying but the time boundaries are changing , cuz you 've got a new recognition output ,"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And you 'd be able to propagate all of the {disfmarker} the information ?"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It 's just a matter of {disfmarker} it 's just a matter of it being bigger ."
+                },
+                {
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So you could have some file that configures how much information you want in your {disfmarker} in your XML or something ."
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I {disfmarker} I am imagining you 'd have multiple versions of this depending on the information that you want ."
+                }
+            ]
+        },
+        {
+            "query": "What did A think about the current XML format to link up different components in data?",
+            "oracle_info": [
+                {
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff ."
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Oh , I remember seeing an example of this ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "That 's actually very nicely handled here"
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "But {disfmarker} but why not use it for phone - level ?"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "you know , barring memory limitations , or uh {disfmarker} I w I mean this is still the m"
+                },
+                {
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So you 're essentially defining a lattice ."
+                },
+                {
+                    "turn_index": 77,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "You would use it only {pause} for {pause} purposes where you actually want the phone - level information , I 'd imagine ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about the disadvantages of ATLAS and other options",
+            "oracle_info": [
+                {
+                    "turn_index": 463,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I guess I 'm just a little hesitant to try to go whole hog on sort of the {disfmarker} the whole framework that {disfmarker} that NIST is talking about , with ATLAS and a database and all that sort of stuff ,"
+                },
+                {
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "cuz it 's a big learning curve , just to get going ."
+                },
+                {
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Whereas if we just do a flat file format , sure , it may not be as efficient"
+                },
+                {
+                    "turn_index": 468,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "but everyone can program in Perl and {disfmarker} and use it ."
+                },
+                {
+                    "turn_index": 498,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                },
+                {
+                    "turn_index": 498,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "and then later on if we choose to go up the learning curve , we can use the whole ATLAS inter infrastructure ,"
+                },
+                {
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                },
+                {
+                    "turn_index": 535,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "There used to be a problem that they get too large ,"
+                }
+            ]
+        },
+        {
+            "query": "What did C think about the disadvantages of ATLAS and other options?",
+            "oracle_info": [
+                {
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "cuz it 's a big learning curve , just to get going ."
+                },
+                {
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Whereas if we just do a flat file format , sure , it may not be as efficient"
+                },
+                {
+                    "turn_index": 468,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "but everyone can program in Perl and {disfmarker} and use it ."
+                },
+                {
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I think that there are quick and dirty solutions ,"
+                },
+                {
+                    "turn_index": 494,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "and then there are long - term , big - infrastructure solutions ."
+                },
+                {
+                    "turn_index": 484,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "For Perl {disfmarker} if you want to just do Perl ."
+                },
+                {
+                    "turn_index": 498,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl ,"
+                },
+                {
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , I think the other thing we might want to look at is alternatives to P - file ."
+                },
+                {
+                    "turn_index": 530,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and so if we pick something else , there 's the learning - curve problem ."
+                }
+            ]
+        },
+        {
+            "query": "What did F think about the disadvantages of ATLAS and other options?",
+            "oracle_info": [
+                {
+                    "turn_index": 485,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "They 'll be looking at either a word - level prosodic , uh , an {disfmarker} a value ,"
+                },
+                {
+                    "turn_index": 487,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "you know , we 'll do something where we {disfmarker} some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the segment - level ,"
+                },
+                {
+                    "turn_index": 489,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "Um , one that Chuck mentioned is starting out with something that we don't have to start over , that we don't have to throw away if other people want to extend it for other kinds of questions ,"
+                }
+            ]
+        }
+    ]
+}

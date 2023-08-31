@@ -1,0 +1,330 @@
+{
+    "transcripts_id": "Bro013",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 4,
+                    "sent_index": 4,
+                    "speaker": "Professor A",
+                    "content": "Um . {vocalsound} {vocalsound} What are we talking about today ?"
+                },
+                {
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Uh , well , first there are perhaps these uh Meeting Recorder digits that we tested ."
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "Our back - end is {disfmarker} is fairly simple"
+                },
+                {
+                    "turn_index": 95,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "well , let 's say if we {disfmarker} if we add enough data to train on the um on the Meeting Recorder digits , I guess we could have better results than this ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 5,
+                    "speaker": "Professor A",
+                    "content": "That was that topic ."
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "Perhaps the point is that we 've been working on {vocalsound} is ,"
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "yeah , we have put the um the good VAD in the system"
+                },
+                {
+                    "turn_index": 192,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "Uh I designed a new {disfmarker} a new filter"
+                },
+                {
+                    "turn_index": 207,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Yeah , and then we 've started to work with this of um voiced - unvoiced stuff ."
+                },
+                {
+                    "turn_index": 329,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "so like later down the line when {vocalsound} we 've come up with these {disfmarker} these feature detectors , how do we {disfmarker} {vocalsound} how do we uh {vocalsound} you know , uh model the time series that {disfmarker} that happens"
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 5,
+                    "speaker": "PhD E",
+                    "content": "but until now , well , the attempts to improve it or {disfmarker} have fail"
+                },
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "but that 's all with the same amount of data which is pretty small ."
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "But , yeah , so far he hadn't gotten any big improvement ,"
+                },
+                {
+                    "turn_index": 329,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "um {vocalsound} {vocalsound} and {vocalsound} and we talked a little bit about {vocalsound} factorial H M Ms and how {vocalsound} um when you 're doing inference {disfmarker} or w when you 're doing recognition , there 's like simple Viterbi stuff that you can do for {disfmarker} {vocalsound} for these H M"
+                },
+                {
+                    "turn_index": 337,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "so I 've been looking at Avendano 's work"
+                },
+                {
+                    "turn_index": 347,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "So let 's read our digits and go home ."
+                },
+                {
+                    "turn_index": 348,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "y you do {disfmarker} I think you read some of the {disfmarker} the zeros as O 's and some as zeros ."
+                },
+                {
+                    "turn_index": 363,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I mean in digit recognition we 've done before , you have {disfmarker} you have two pronunciations for that value , \" O \" and \" zero \" ."
+                },
+                {
+                    "turn_index": 394,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "We 're done ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about meeting recorder digits",
+            "oracle_info": [
+                {
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I mean . One is that {disfmarker} that , you know , there 's something simple that 's wrong with the back - end ."
+                },
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "but that 's all with the same amount of data which is pretty small ."
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I uh but I 'm {disfmarker} I 'm almost certain that it {disfmarker} it {disfmarker} {vocalsound} I mean , that it has to do with the um amount of training data ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the back-end?",
+            "oracle_info": [
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "but that 's all with the same amount of data which is pretty small ."
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I uh but I 'm {disfmarker} I 'm almost certain that it {disfmarker} it {disfmarker} {vocalsound} I mean , that it has to do with the um amount of training data ."
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "If {disfmarker} {vocalsound} if you look at what commercial places do , they use a huge amount of data ."
+                },
+                {
+                    "turn_index": 78,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "in other words , do word models {disfmarker}"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "And that 's just a huge amount of training for it ."
+                },
+                {
+                    "turn_index": 44,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "We 've been playing a number of states"
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "But , yeah , so far he hadn't gotten any big improvement ,"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD E think about the noise?",
+            "oracle_info": [
+                {
+                    "turn_index": 61,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "perhaps it 's not related , the amount of data but the um recording conditions ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "Because {vocalsound} it 's probably not a problem of noise , because our features are supposed to be robust to noise ."
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "The {disfmarker} the fact that {disfmarker} the result with the tandem and Aurora system are {vocalsound} uh so much worse ."
+                },
+                {
+                    "turn_index": 95,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "well , let 's say if we {disfmarker} if we add enough data to train on the um on the Meeting Recorder digits , I guess we could have better results than this ."
+                },
+                {
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "What I meant is that perhaps we can learn something uh from this ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on time series, reverberation and pronouncing zero",
+            "oracle_info": [
+                {
+                    "turn_index": 333,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "thinking of maybe using um {vocalsound} um m modulation spectrum stuff to {vocalsound} um {disfmarker} as features um also in the {disfmarker} in the sub - bands"
+                },
+                {
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "because {vocalsound} it seems like {vocalsound} the modulation um spectrum tells you a lot about the intelligibility of {disfmarker} of certain um words and stuff"
+                },
+                {
+                    "turn_index": 337,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "but it 's {disfmarker} it 's an approach to deal with {vocalsound} reverberation or that {disfmarker} the aspect of his work that I 'm interested in"
+                },
+                {
+                    "turn_index": 341,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "so the {disfmarker} the way I want to extend his work is make it able to deal with a time varying reverberation response"
+                },
+                {
+                    "turn_index": 347,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "So let 's read our digits and go home ."
+                },
+                {
+                    "turn_index": 348,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "y you do {disfmarker} I think you read some of the {disfmarker} the zeros as O 's and some as zeros ."
+                },
+                {
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "\" O \" {disfmarker} \" O \" {disfmarker} \" O \" and \" zero \" are two ways that we say that digit ."
+                },
+                {
+                    "turn_index": 363,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "I mean in digit recognition we 've done before , you have {disfmarker} you have two pronunciations for that value , \" O \" and \" zero \" ."
+                },
+                {
+                    "turn_index": 378,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "and {disfmarker} and people say it different ways ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad B think about time series?",
+            "oracle_info": [
+                {
+                    "turn_index": 329,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "um {nonvocalsound} and uh {vocalsound} shared with him the ideas about um {vocalsound} extending the Larry Saul work"
+                },
+                {
+                    "turn_index": 329,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "um {vocalsound} {vocalsound} and {vocalsound} and we talked a little bit about {vocalsound} factorial H M Ms and how {vocalsound} um when you 're doing inference {disfmarker} or w when you 're doing recognition , there 's like simple Viterbi stuff that you can do for {disfmarker} {vocalsound} for these H M"
+                },
+                {
+                    "turn_index": 333,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "thinking of maybe using um {vocalsound} um m modulation spectrum stuff to {vocalsound} um {disfmarker} as features um also in the {disfmarker} in the sub - bands"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about pronouncing zero?",
+            "oracle_info": [
+                {
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "\" O \" {disfmarker} \" O \" {disfmarker} \" O \" and \" zero \" are two ways that we say that digit ."
+                },
+                {
+                    "turn_index": 374,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "See . I mean , you 'd have to tell them {vocalsound} \" OK when we write this , say it tha \" ,"
+                }
+            ]
+        }
+    ]
+}

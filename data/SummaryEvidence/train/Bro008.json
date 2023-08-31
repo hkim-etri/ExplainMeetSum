@@ -1,0 +1,883 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkley Meeting Recorder Group discussed the most recent progress with their current project, a digit recognition system for use in cell phones.",
+            "This included some discussion of results, comparing various other groups' systems, issues involving the set up, and plans for future work.",
+            "Results are required for an upcoming meeting, but since some group members will be away, results need to be in sooner.",
+            "Although error rates have been greatly reduced, current rates are still unusable in a practical situation.",
+            "There is a problem replicating some results found by partner OGI, but it is unclear why.",
+            "mn007 and fn002 have been working with the new Danish and German databases, making improvements, though more so with results on the Danish.",
+            "The results are reasonable, but still not good enough.",
+            "However, it has not been possible to compare results to the best, as still development system.",
+            "There are a number of things that the group wishes to consider for looking for further improvements.",
+            "There are various techniques that various groups have tried, and they should all be considered for possible combinations of systems.",
+            "One suitable candidate for combination is the group's own filtering which reduces bandwidth to half bit transmission rate."
+        ],
+        "answer_sentence_index": [
+            "Bro008.s.1",
+            "Bro008.s.2",
+            "Bro008.s.3",
+            "Bro008.s.4",
+            "Bro008.s.5",
+            "Bro008.s.6",
+            "Bro008.s.7",
+            "Bro008.s.8",
+            "Bro008.s.9",
+            "Bro008.s.10",
+            "Bro008.s.11"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "because these , {vocalsound} {vocalsound} {vocalsound} uh , standards are supposed to go on cell phones with m moderate resources in both respects ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 119,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Yeah , so perhaps we could have a {disfmarker} a large gain , eh , just by looking at improving the , uh , recognition , not of phonemes , but of phoneme classes , simply ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 190,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Um , and then , uh , as we mentioned before , we also have the {disfmarker} the new , uh , digit set coming up from recordings in this room ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 0,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "So , I got , uh {pause} these results from , uh , Stephane ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 0,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "I think s that , uh , there were some other very good results that we 're gonna wanna compare to ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "How much {disfmarker} how much better was the best system than ours ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 31,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Well , we don't know yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 130,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "but {disfmarker} but , uh , within the artificial setup , it isn't noise artificially added , you know , simulated , uh , additive noise ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 133,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "actually {disfmarker} actually the well - matched condition {pause} is {pause} still quite di still quite difficult ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 190,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So , there 's a lot of things to work with ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 6,
+                    "speaker": "PhD A",
+                    "content": "That 's why we should have a loo more closer look at what 's going on ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "When {disfmarker} when {disfmarker} when do you folks leave ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 21,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Uh , Sunday ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "When is the development set {disfmarker} I mean , the , uh , uh , test set results due ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Uh , probably the day after they leave ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I think tha I think the {disfmarker} the meeting is on the thirteenth or something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "And the {disfmarker} the , uh , results are due like the day before the meeting or something ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 8,
+                    "speaker": "Professor D",
+                    "content": "but I mean , it sounds like , uh , one way or another , the methods that we 're doing can reduce the error rate from {disfmarker} from mel ceptrum {pause} down by , you know {pause} a fourth of them to , uh , a half of them ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 122,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I mean , some of these , of course , even with all of our {disfmarker} our wonderful processing , still are horrible kinds of numbers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "This is obviously not usable ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "is that even , say on the development set stuff that we saw , the , uh , the numbers that , uh , that Alcatel was getting when choosing out the best single numbers , {vocalsound} it was just {disfmarker} you know , it wasn't good enough for {disfmarker} for {pause} a {disfmarker} a {disfmarker} for a real system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Uh , so , uh , that 's probably something wrong with the features that we get from OGI ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "Uh , and Sunil is working on {disfmarker} on trying to {disfmarker} to check everything ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "You know most of the time , even {disfmarker} I mean even though it 's true that the overall number for Danish {disfmarker} we didn't improve it"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "Uh , and Sunil is working on {disfmarker} on trying to {disfmarker} to check everything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "And it looks like the overall result as they are now , even without , you know , any {disfmarker} any bugs being fixed is that , uh , on the {disfmarker} the other tasks , we had this average of , uh , forty uh {disfmarker} nine percent , or so , improvement ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "And here we have somewhat better than that than the Danish , and somewhat worse than that on the German ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "I mean , even with these results as they are , it 's {disfmarker} it 's {disfmarker} it 's really not that bad ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 57,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "But i it it {disfmarker} so it looks like they did some {disfmarker} some , uh , reasonable things ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "is that even , say on the development set stuff that we saw , the , uh , the numbers that , uh , that Alcatel was getting when choosing out the best single numbers , {vocalsound} it was just {disfmarker} you know , it wasn't good enough for {disfmarker} for {pause} a {disfmarker} a {disfmarker} for a real system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "How much {disfmarker} how much better was the best system than ours ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Well , we don't know yet ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 33,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Uh , I mean , first place , there 's still this thing to {disfmarker} to work out ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 33,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "and second place {disfmarker} second thing is that the only results that we have so far from before were really development set results ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 24,
+                    "speaker": "Professor D",
+                    "content": "So , uh , I 'm interested in hearing {disfmarker} hearing your thoughts about {pause} where you think we should go from this ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 119,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Yeah , so perhaps we could have a {disfmarker} a large gain , eh , just by looking at improving the , uh , recognition , not of phonemes , but of phoneme classes , simply ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "I don't know exactly s to think what we can improve ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Um {pause} It 's probably a good time to look at what 's really going on and seeing if there 's a {disfmarker} there 's a way to combine the best ideas"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "uh , it 's possible that some combination of these different things that were done would be the best thing to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 111,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "because , well , we tried several thing ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "Um , now , one of the things that 's nice about what we did is , we do have a {disfmarker} a , uh {disfmarker} a filtering , which leads to a {disfmarker} a , uh {disfmarker} a reduction in the bandwidth in the modulation spectrum , which allows us to downsample ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "So , uh , as a result of that we have a reduced , um , transmission rate for the bits ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 104,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "So , if you can {disfmarker} if you can add those in {pause} um {pause} then , uh , you can cut the data rate in half ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The project was finally coming to a conclusion and the team was getting ready to share their results.",
+                    "They achieved an error rate reduction for the task, but the error rate in itself was still significant.",
+                    "The team also had to think about how they could make their model efficient for it to be deployed as they continue with future research.",
+                    "They discussed some new directions and were reminded that while the initial phase was over, much work lied ahead of them."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 6,
+                            "speaker": "Professor D",
+                            "content": "I think s that , uh , there were some other very good results that we 're gonna wanna compare to ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 8,
+                            "speaker": "Professor D",
+                            "content": "but I mean , it sounds like , uh , one way or another , the methods that we 're doing can reduce the error rate from {disfmarker} from mel ceptrum {pause} down by , you know {pause} a fourth of them to , uh , a half of them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "But , um , for the development set , our best result was a little bit short of fifty percent ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "where these numbers are the , uh , relative , uh , reduction in , uh , word error rate ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 24,
+                            "speaker": "Professor D",
+                            "content": "So , uh , I 'm interested in hearing {disfmarker} hearing your thoughts about {pause} where you think we should go from this ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 110,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I mean , we tried a lot of things in a hurry ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 152,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "so the high {disfmarker} so the {disfmarker} right {disfmarker} so the highly mismatched {vocalsound} case {pause} is in some sense a good model for what we 've been , you know , typically talking about when we talk about additive noise in {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 188,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "We were just talking about , um , {vocalsound} some , uh , some work that we 're interested in ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 190,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "So , there 's a lot of things to work with ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "And I don't know how far , or if you guys even had a chance to try that , but {pause} that would be some it 'd be interesting to me ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 21,
+                            "speaker": "Professor D",
+                            "content": "I mean , you 're done in the sense that , um , you may be able to get some new features from Sunil , and we 'll re - run it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 22,
+                            "speaker": "Professor D",
+                            "content": "Uh , but other than that , you 're {disfmarker} you 're basically done ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 24,
+                            "speaker": "Professor D",
+                            "content": "So , uh , I 'm interested in hearing {disfmarker} hearing your thoughts about {pause} where you think we should go from this ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 178,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "there were a lot of times when we 've tried something and it didn't work right away , even though we had an intuition that there should be something there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 178,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "And so then we would just stop it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 188,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "We were just talking about , um , {vocalsound} some , uh , some work that we 're interested in ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 190,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "So , there 's a lot of things to work with ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on the performance of the deployed model",
+                "tokenized_answer": [
+                    "The deployed model generally decreased error rates, but the extent to which it did so varied based on the language as well as where it was deployed.",
+                    "They learned that similar projects experienced the same challenges.",
+                    "Still, the model was not efficient and likely used too much CPU and memory for the benefit it provided."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 8,
+                            "speaker": "Professor D",
+                            "content": "but I mean , it sounds like , uh , one way or another , the methods that we 're doing can reduce the error rate from {disfmarker} from mel ceptrum {pause} down by , you know {pause} a fourth of them to , uh , a half of them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 9,
+                            "speaker": "Professor D",
+                            "content": "Somewhere in there , depending on the {pause} exact case ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 57,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "that 's p that 's not that uncommon ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "But the only caveat to that is that everybody 's being real conscious of how much memory and how much CPU they 're using"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the range of errors in the models?",
+                "tokenized_answer": [
+                    "The worst systems were still reducing errors between a third to half of the time.",
+                    "Though, there was a system in Aurora that did not do very well and the Alcatel systems seemed to do better."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "And here the {disfmarker} the worst system {pause} still reduced the error rate by thirty - three percent , or something , in development set ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So {disfmarker} so , you know , sort of everybody is doing things between , well , roughly a third of the errors , and half the errors being eliminated , {vocalsound} uh , and varying on different test sets and so forth ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 37,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "In Aurora one there were {disfmarker} there were systems that ba basically didn't improve things ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 45,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Um , uh , the , uh , the there were two systems that were put forth by a combination of {disfmarker} of , uh , French Telecom and Alcatel ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "but they e em one was called the French Telecom Alcatel System the other was called the Alcatel French Telecom System , {vocalsound} uh , which is the biggest difference , I think ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "Uh , and {disfmarker} and , uh , they both did very well ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about Danish and German models?",
+                "tokenized_answer": [
+                    "The professor explained that while the Danish model did not improve overall, the results were mixed over six cases.",
+                    "The team's models led to improvements, even without bug fixes, but they were better on the Danish than German."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "You know most of the time , even {disfmarker} I mean even though it 's true that the overall number for Danish {disfmarker} we didn't improve it"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "Looks like out of the six cases , between the different kinds of , uh , matching conditions {pause} out of the six cases , there 's basically , um , a couple where it stays about the same ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 6,
+                            "speaker": "Professor D",
+                            "content": "And it looks like the overall result as they are now , even without , you know , any {disfmarker} any bugs being fixed is that , uh , on the {disfmarker} the other tasks , we had this average of , uh , forty uh {disfmarker} nine percent , or so , improvement ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 7,
+                            "speaker": "Professor D",
+                            "content": "And here we have somewhat better than that than the Danish , and somewhat worse than that on the German ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize discussion on the pragmatic overview of the project",
+                "tokenized_answer": [
+                    "The team gathered some ideas on how they could further improve the model, perhaps by focusing more so on MSG and multi-band.",
+                    "The professor iterated that the task was pretty hard, and their model was still not good enough for a real system.",
+                    "The team was generally excited about the Aurora data, as it was more realistic, and about further pursuing the task."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 170,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "So , uh , we still have stuff to do ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "Does a any you have any thoughts about what else {vocalsound} y you 're thinking that you didn't get to that you would like to do if you had more time ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "I don't know exactly s to think what we can improve ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 193,
+                            "sent_index": 6,
+                            "speaker": "PhD A",
+                            "content": "That 's why we should have a loo more closer look at what 's going on ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "and then , of course , try to {disfmarker} well , {vocalsound} kind of debug what was wrong , eh , when we do Aurora test on the MSG {pause} particularly , and on the multi - band ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "actually {disfmarker} actually the well - matched condition {pause} is {pause} still quite di still quite difficult ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 168,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "is that even , say on the development set stuff that we saw , the , uh , the numbers that , uh , that Alcatel was getting when choosing out the best single numbers , {vocalsound} it was just {disfmarker} you know , it wasn't good enough for {disfmarker} for {pause} a {disfmarker} a {disfmarker} for a real system ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 192,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "uh {pause} This is what 's nice about the Aurora data and the data here , is that {disfmarker} is that it 's sort of a realistic room situation {pause} uh , acoustics {disfmarker} acoustic situation , both terms in noise and reflections , and so on"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "And I don't know how far , or if you guys even had a chance to try that , but {pause} that would be some it 'd be interesting to me ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the pragmatic overview of the project?",
+                "tokenized_answer": [
+                    "The professor thought that they needed to work more and asked who had ideas on how they could pursue new directions.",
+                    "He himself wanted to try out playing with MSG and multi-band.",
+                    "He also thought that they should try learning more about different acoustic environments."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "So , uh , we still have stuff to do ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "Does a any you have any thoughts about what else {vocalsound} y you 're thinking that you didn't get to that you would like to do if you had more time ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 196,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "and then , of course , try to {disfmarker} well , {vocalsound} kind of debug what was wrong , eh , when we do Aurora test on the MSG {pause} particularly , and on the multi - band ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 190,
+                            "sent_index": 17,
+                            "speaker": "Professor D",
+                            "content": "And then we {vocalsound} {disfmarker} we , uh {disfmarker} uh , made a simulation of the {disfmarker} of the room acoustics there and {disfmarker} and applied it to other things ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD C and the professor discuss about multiple languages?",
+                "tokenized_answer": [
+                    "PhD C and the professor expressed a desire to learn more about nets that incorporated multiple languages.",
+                    "They thought they could explore whether it was better to have one net for many languages or different nets for each language."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "Uh , now , I 'm interested in , um , uh {pause} looking at the experiments where you use , um {pause} uh , data from multiple languages to train the neural net ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Also , uh , {vocalsound} I mean , there was just the whole notion of having multiple nets that were trained on different data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Well , i in fact , uh , m in those experiments it wasn't so much combining multiple nets , it was a single net that had different"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So , first thing is would it be better if they were multiple nets , for some reason ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 7,
+                            "speaker": "Professor D",
+                            "content": "But , um , {vocalsound} I don't think we know for sure ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

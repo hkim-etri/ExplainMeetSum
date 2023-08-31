@@ -1,0 +1,540 @@
+{
+    "transcripts_id": "ES2010b",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "This is the functional design meeting ."
+                },
+                {
+                    "turn_index": 0,
+                    "sent_index": 9,
+                    "speaker": "Project Manager",
+                    "content": "Um gonna come to a decision on the functions of the remote control ."
+                },
+                {
+                    "turn_index": 0,
+                    "sent_index": 18,
+                    "speaker": "Project Manager",
+                    "content": "And then lastly we're going to determine its working design , how exactly will it perform its functions ,"
+                },
+                {
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "And we can decide if that's what we want , {gap} , um if we want to include that on the remote , if that's something that would stay on the T_V_ itself , for example ."
+                },
+                {
+                    "turn_index": 28,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "Um and you can see on the left , it's got a lot more buttons ,"
+                },
+                {
+                    "turn_index": 30,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "And then on the right , it's a lot more simpler ,"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "So that gives you two different kinds , a more complex and more simple version ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Now we have Courtney with the functional requirements ."
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "And we need we need it to be simple , yet it needs to be high-tech looking . So {disfmarker}"
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "and users don't really need all of the buttons that are contained on there , because they only use ten percent of the buttons really ."
+                },
+                {
+                    "turn_index": 76,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "{vocalsound} And so people say that they typically lose it ,"
+                },
+                {
+                    "turn_index": 76,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "as you yourself know , because you probably lose your remote control all the time ,"
+                },
+                {
+                    "turn_index": 104,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "I think that we should go with something that's more user-friendly ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "And also we found {disfmarker} our team found that speech recognition is {disfmarker} it's like an up-and-coming thing"
+                },
+                {
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "'Kay . I think it should be there , working design ."
+                },
+                {
+                    "turn_index": 136,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "We need a power source , we're gonna need a smart chip if we're gonna make it multi-functional ."
+                },
+                {
+                    "turn_index": 136,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "Um extra functions will probably need an additional chip ."
+                },
+                {
+                    "turn_index": 156,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "um subcomponent which would be like a way of diverting the power to different parts of the the device ."
+                },
+                {
+                    "turn_index": 198,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Okay , let's talk about all of our {disfmarker}"
+                },
+                {
+                    "turn_index": 198,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "'cause we need to discuss the new project requirements"
+                },
+                {
+                    "turn_index": 198,
+                    "sent_index": 6,
+                    "speaker": "Project Manager",
+                    "content": "which you might've already seen flashed up on the screen a bit earlier ."
+                },
+                {
+                    "turn_index": 419,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Anybody have anything else they'd like to bring up in this meeting ?"
+                },
+                {
+                    "turn_index": 421,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Let's go back to the meeting closure then and see what we need to do next . Mm ."
+                },
+                {
+                    "turn_index": 421,
+                    "sent_index": 11,
+                    "speaker": "Project Manager",
+                    "content": "Um here's what we're each going to do ."
+                },
+                {
+                    "turn_index": 421,
+                    "sent_index": 19,
+                    "speaker": "Project Manager",
+                    "content": "Okay , well , this meeting is officially over ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize Marketing's presentation on functional requirements.",
+            "oracle_info": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "okay so we tested a hundred subjects in our lab ,"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 3,
+                    "speaker": "Marketing",
+                    "content": "and we found that the {vocalsound} users are not typically happy with current remote controls ."
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 5,
+                    "speaker": "Marketing",
+                    "content": "Eighty percent want {disfmarker} they've {disfmarker} are willing to spend more , which is good news for us um if we make it look fancier ,"
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 8,
+                    "speaker": "Marketing",
+                    "content": "but they {disfmarker} it needs to be snazzy and it {disfmarker} but yet simple ."
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "And we need we need it to be simple , yet it needs to be high-tech looking . So {disfmarker}"
+                },
+                {
+                    "turn_index": 104,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "I think that we should go with something that's more user-friendly ."
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "It's from my uh research ."
+                },
+                {
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Only use ten percent of the buttons ."
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "and users don't really need all of the buttons that are contained on there , because they only use ten percent of the buttons really ."
+                },
+                {
+                    "turn_index": 76,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "{vocalsound} And so people say that they typically lose it ,"
+                },
+                {
+                    "turn_index": 76,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "as you yourself know , because you probably lose your remote control all the time ,"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "And also we found {disfmarker} our team found that speech recognition is {disfmarker} it's like an up-and-coming thing"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "consumers are really interested in it ,"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 3,
+                    "speaker": "Marketing",
+                    "content": "and since our findings found that people are willing to pay more money for a remote for it to be more high-class we could consider it ."
+                }
+            ]
+        },
+        {
+            "query": "What did the lab tests tell them about the design of buttons?",
+            "oracle_info": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "okay so we tested a hundred subjects in our lab ,"
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "and users don't really need all of the buttons that are contained on there , because they only use ten percent of the buttons really ."
+                },
+                {
+                    "turn_index": 104,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "I think that we should go with something that's more user-friendly ."
+                },
+                {
+                    "turn_index": 106,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "Um the functionality of the product really needs to be considered as to like what type of buttons do we really need on it ."
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "{vocalsound} But also s so the channel , the volume and the power buttons are the most important"
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "on our company website you can find like the specific statistics concerning to how much each button is used ,"
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "but those are the definitely the top ones ."
+                }
+            ]
+        },
+        {
+            "query": "What could they do to make the remote more modern and high-class in regard to its function design?",
+            "oracle_info": [
+                {
+                    "turn_index": 76,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "as you yourself know , because you probably lose your remote control all the time ,"
+                },
+                {
+                    "turn_index": 273,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Do we want this thing to be able to be found easily ?"
+                },
+                {
+                    "turn_index": 280,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "we we need a like homing device ."
+                },
+                {
+                    "turn_index": 282,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "like if this is gonna get lost underneath the coach , how are we going to accommodate the quick ability to find it ?"
+                },
+                {
+                    "turn_index": 104,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "And so personally I think that we need a modern eye-catching design ,"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "And also we found {disfmarker} our team found that speech recognition is {disfmarker} it's like an up-and-coming thing"
+                },
+                {
+                    "turn_index": 109,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "just to clarify by speech recognition you mean they would say , channel five , and the thing would go to channel five ?"
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "We could definitely include that if we wanted to ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the additional ideas on function design which the team brought up based on previous presentations.",
+            "oracle_info": [
+                {
+                    "turn_index": 198,
+                    "sent_index": 14,
+                    "speaker": "Project Manager",
+                    "content": "First it's only going to be a T_V_ remote ."
+                },
+                {
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "It's not gonna be multi-functional ."
+                },
+                {
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "so we need to somehow include our colour and our company slogan on the remote ."
+                },
+                {
+                    "turn_index": 242,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "non-technically challenged people are gonna use it ."
+                },
+                {
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Okay , so we want um for our target group would we say , I mean , young and old , all age ranges ,"
+                },
+                {
+                    "turn_index": 264,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "And we also need to determine the specific functions of this ,"
+                },
+                {
+                    "turn_index": 264,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "So we said it needs to send messages to the T_V_ , needs to change the channel , turn on and off , just basic simple stuff like this ."
+                },
+                {
+                    "turn_index": 273,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Do we want this thing to be able to be found easily ?"
+                },
+                {
+                    "turn_index": 310,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well , th there's the people who desire speech recognition , there's the different demog demographics have different desires ,"
+                },
+                {
+                    "turn_index": 328,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "{gap} and the speech recognition could be part of the lost and found device , too ."
+                },
+                {
+                    "turn_index": 395,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "something , a menu button , that pops up with a menu on the T_V_ that says , you know , audio , video , whatever , language ,"
+                },
+                {
+                    "turn_index": 412,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So we just have it like {disfmarker} add a menu button then for the various things needed ,"
+                }
+            ]
+        },
+        {
+            "query": "In the discussion of function design, how could the team realize the lost-and-found function of their remote?",
+            "oracle_info": [
+                {
+                    "turn_index": 289,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "What if we gave it a charger ?"
+                },
+                {
+                    "turn_index": 289,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "and if you d leave your phone somewhere , you push the button to find it , and it finds th the phone beeps for you ."
+                },
+                {
+                    "turn_index": 296,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Would that add to our costs at all , I wonder ?"
+                },
+                {
+                    "turn_index": 297,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "I would think so , because you'd have to develop a base ."
+                },
+                {
+                    "turn_index": 302,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Rechargeable batteries are cheaper usually ."
+                },
+                {
+                    "turn_index": 328,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "{gap} and the speech recognition could be part of the lost and found device , too ."
+                },
+                {
+                    "turn_index": 330,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "A certain phrase then it could beep ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team decide on designing buttons for the remote?",
+            "oracle_info": [
+                {
+                    "turn_index": 336,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "Well , do we wanna include the numbers like zero through nine ?"
+                },
+                {
+                    "turn_index": 336,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "Can we conceive of leaving them out ?"
+                },
+                {
+                    "turn_index": 342,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well , we definitely need those ."
+                },
+                {
+                    "turn_index": 375,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So we've simplified , we don't need all those um play , fast-forward , rewind ,"
+                },
+                {
+                    "turn_index": 379,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So we've pretty much pared it down to on-off , volume , mute , channel up and down , um the numbers {disfmarker}"
+                },
+                {
+                    "turn_index": 389,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Yeah , audi audio settings and screen settings , we need those"
+                },
+                {
+                    "turn_index": 395,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Couldn't we do that all through one button ,"
+                },
+                {
+                    "turn_index": 395,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "something , a menu button , that pops up with a menu on the T_V_ that says , you know , audio , video , whatever , language ,"
+                },
+                {
+                    "turn_index": 412,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "So we just have it like {disfmarker} add a menu button then for the various things needed ,"
+                },
+                {
+                    "turn_index": 401,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "you could just double up with like the channel or the volume buttons ."
+                }
+            ]
+        }
+    ]
+}

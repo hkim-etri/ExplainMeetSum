@@ -1,0 +1,1194 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The ICSI Meeting Recorder Group at Berkeley are approaching an important milestone on their project.",
+            "They discussed most recent results, finalized plans to continue and discussed the work required and timing needed for completion of this stage of the project.",
+            "Mn007 and fn002 Need to find a way of combining result figures into one easily comparable way of judging performance.",
+            "They were also asked to mail round numbers detailing the size of their test-sets, so that group members can assess the seriousness of figures such as word error rates.",
+            "There are now just 4 architectures that will be carried forward for testing.",
+            "Though the final system is not due to be fixed, until Tuesday, writing it up must begin sooner.",
+            "Anything written must go through me013 for editing.",
+            "Discussion on future work once this stage is out of the way will be held at the next meeting.",
+            "While using a second silence detection system it was found that while providing some improvement, it added too great a delay on the server side of the system.",
+            "The experiment team have been narrowing down their experiments, coming close to fixing their system.",
+            "Partner OGI have been using a weighting scheme, but the ICSI group do not yet have all the parts to run a similar system.",
+            "They have been able to come close to the OGI results, but since OGI have changed something they do differ, though for the better.",
+            "So far, testing on Italian is the worst performing condition.",
+            "With regards to the digits the group have been recording during meetings, the collection of data is growing, and will soon be a workable size."
+        ],
+        "answer_sentence_index": [
+            "Bro007.s.1",
+            "Bro007.s.2",
+            "Bro007.s.3",
+            "Bro007.s.4",
+            "Bro007.s.5",
+            "Bro007.s.6",
+            "Bro007.s.7",
+            "Bro007.s.8",
+            "Bro007.s.9",
+            "Bro007.s.10",
+            "Bro007.s.11",
+            "Bro007.s.12",
+            "Bro007.s.13",
+            "Bro007.s.14"
+        ],
+        "evidence": [
+            [],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Do you e um they mentioned {disfmarker} made some {disfmarker} uh when I was on the phone with Sunil they {disfmarker} they mentioned some weighting scheme that was used to evaluate all of these numbers ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "um well it 's uh forty percent for TI - digit , sixty for all the SpeechDat - Cars ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "well all these languages ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "Ehm the well match is forty , medium thirty five and high mismatch twenty - five ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 190,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "given that we have to take the filt ones out of the {disfmarker} the running because of this delay problem {disfmarker} so it looks to me like the ones you said I agree are {disfmarker} are the ones to look at"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 192,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but I just would add the {disfmarker} the {disfmarker} the second row one"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But the question is when {disfmarker} when do we fix the system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 217,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I think we fixed on Tuesday , yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 222,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so maybe what we do is we {disfmarker} we {disfmarker} we uh as soon as we get the data from them we start the training and so forth"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 224,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but we start the write - up right away because as you say there {disfmarker} there 's only minor differences between these ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I think you {disfmarker} we could {disfmarker} we could start soon , yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And so have you put all these numbers together into a single number representing that ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK so that should be pretty easy to do and that would be good {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "then we could compare the two and say what was better ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "So {disfmarker} you know how many words are in uh one of these test sets ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Um it 's {disfmarker} it depends {disfmarker} well {disfmarker} the well matched is generally larger than the other sets"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "and I think it 's around two thousand or three thousand words perhaps , at least ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 131,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "See the {disfmarker} I mean the reason I 'm asking is {disfmarker} is {disfmarker} is we have all these small differences and I don't know how seriously to take them , right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So uh i if {disfmarker} if you had uh just you know {disfmarker} to give an example , if you had uh um if you had a thousand words then uh a {disfmarker} a tenth of a percent would just be one word ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 139,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "um so um yeah it be kind of {disfmarker} I 'd kind of like to know what the sizes of these test sets were actually ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 146,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So these {disfmarker} these are word error rates"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so anyway if you could just mail out what those numbers are and then {disfmarker} then {disfmarker} that {disfmarker} that be great ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 336,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "so basically we will {disfmarker} I think we 'll try to {disfmarker} to focus on these three architectures"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 336,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "and {disfmarker} and perhaps I was thinking also a fourth one with just {disfmarker} just a single KLT"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 336,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "because we did not really test that {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But the question is when {disfmarker} when do we fix the system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I {disfmarker} Yeah , OK except that we do have to write it up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 217,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I think we fixed on Tuesday , yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I think you {disfmarker} we could {disfmarker} we could start soon , yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 227,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Write up something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 228,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , and {disfmarker} and I {disfmarker} I would {disfmarker} you know , I would {disfmarker} I 'd kind of like to see it"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 230,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "maybe I can {disfmarker} I can edit it a bit"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 230,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "The {disfmarker} my {disfmarker} what in this si i in this situation is my forte which is English ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 313,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and {disfmarker} and uh maybe next meeting we can start talking a little bit about where we want to go from here uh in terms of uh the research ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 315,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Um you know what things uh did you think of when you were uh doing this process that uh you just didn't really have time to adequately work on"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh so one of the ideas that you had mentioned last time was having a {disfmarker} a second um silence detection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Um yeah so it seems f for the {disfmarker} the well match and mismatched condition"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "it 's uh it brings something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Oh we can't do it ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "No ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 161,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's only one small experiment to know what happened ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 161,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "To apply also to in include also the {disfmarker} the silence of the MLP we have the fifty - six form and the silence to pick up the silence and we include those ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 162,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "The silence plus the KLT output ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 165,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "No they 're {disfmarker} I think there is this silence in addition to the um KLT outputs"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "it is because we {disfmarker} we {disfmarker} we just keep uh we don't keep all the dimensions after the KLT"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So we try to add the silence also in addition to the {disfmarker} these twenty - eight dimensions ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Do you e um they mentioned {disfmarker} made some {disfmarker} uh when I was on the phone with Sunil they {disfmarker} they mentioned some weighting scheme that was used to evaluate all of these numbers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "um well it 's uh forty percent for TI - digit , sixty for all the SpeechDat - Cars ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "Ehm the well match is forty , medium thirty five and high mismatch twenty - five ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Um and we don't have the TI - digits part yet ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And so have you put all these numbers together into a single number representing that ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK so that should be pretty easy to do and that would be good {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "then we could compare the two and say what was better ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 53,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "actually OGI two is the {disfmarker} the baseline with the OGI features"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but this is not exactly the result that they have because they 've {disfmarker} they 're still made some changes in the features"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "and {disfmarker} well but uh actually our results are better than their results ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh OK so the one {disfmarker} one place where it looks like we 're messing things up a bit is in the highly mismatched Italian ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "um Oh well the other thing I guess that I will say is that uh the digits that we 're gonna record momentarily is starting to get {disfmarker} are starting to get into a pretty good size collection"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 349,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "and um in addition to the SpeechDat stuff we will have those to work with really pretty soon now"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting participants discuss results from experiments and challenges that the model was facing.",
+                    "There was a significant server side delay, so they could not accommodate silence detection.",
+                    "Members noted that reducing model dimensions had a detrimental effect on model performance.",
+                    "The professor wanted to know the size of words that the word error rate was calculated on and explained that there would be no new training.",
+                    "From this point, they can start talking about future directions and work on fixing the system."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 37,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Do you e um they mentioned {disfmarker} made some {disfmarker} uh when I was on the phone with Sunil they {disfmarker} they mentioned some weighting scheme that was used to evaluate all of these numbers ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "um well it 's uh forty percent for TI - digit , sixty for all the SpeechDat - Cars ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "Generally what you observe with TI - digits is that the result are very close whatever the {disfmarker} the system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 190,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "given that we have to take the filt ones out of the {disfmarker} the running because of this delay problem {disfmarker} so it looks to me like the ones you said I agree are {disfmarker} are the ones to look at"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 66,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh so one of the ideas that you had mentioned last time was having a {disfmarker} a second um silence detection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Oh we can't do it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "No ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "and so you could reduce the dimension as you were saying before a bit perhaps ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah , it 's {disfmarker} it 's significantly worse well but {disfmarker} Mm - hmm ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 110,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "it 's {disfmarker} it 's uh it 's {disfmarker} it 's mostly worse ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 142,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We could {disfmarker} we could run {disfmarker} run some kind of significance tests"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 143,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "well also just to know the numbers ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 146,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So these {disfmarker} these are word error rates"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 148,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "so this is on how many words ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "I guess if we 're not doing all these things {disfmarker} if we 're only doing um"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "I mean ordinarily if {disfmarker} in final test data you don't want to do several and {disfmarker} and take the best"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 209,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "I mean we have to fix the system on this d on this data , to choose the best"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 217,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "I think we fixed on Tuesday , yeah ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "so maybe what we do is we {disfmarker} we {disfmarker} we uh as soon as we get the data from them we start the training and so forth"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on looking at feature streams",
+                "tokenized_answer": [
+                    "The team used OGI features that then passed through a contextualized KLT, an MLP, and a low-pass filter.",
+                    "The highly mismatched Italian part was still not working well.",
+                    "The team tried using silence detection to improve performance, but the results were not too promising."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "There is uh {disfmarker} there is the features uh there 's the OGI features and then um those features um go through a contextual {disfmarker} uh"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "l l let 's take this bottom arr one pointed to by the bottom arrow ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Um those features go through a contextualized KLT ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "Then these features also uh get um low - pass filtered"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh OK so the one {disfmarker} one place where it looks like we 're messing things up a bit is in the highly mismatched Italian ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 61,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "there is something funny happening here because {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh so one of the ideas that you had mentioned last time was having a {disfmarker} a second um silence detection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Um yeah so it seems f for the {disfmarker} the well match and mismatched condition"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "it 's uh it brings something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Oh we can't do it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "No ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD C think about silence detection?",
+                "tokenized_answer": [
+                    "PhD C explained that there was no room left for silence detection because of the server side delay.",
+                    "They were working out a compromise between the handset delay and the server delay, but the delay was too large at the moment."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 85,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Uh t two days ago they were still working on this trying to reduce the delay of the silence detector"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "if we had time perhaps we could try to find uh some kind of compromise between the delay that 's on the handset and on the server side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 6,
+                            "speaker": "PhD C",
+                            "content": "but well hmm For the moment they have this large delay on the {disfmarker} the feature computation and so we don't"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the silence detection problem?",
+                "tokenized_answer": [
+                    "The professor thought that the results in the experiment without silence detection were okay as well.",
+                    "He thought some sort of weighted measure between other features should result in good performance."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 74,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 90,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "Oh I see yeah that {disfmarker} that one you can't use because of the delay ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 90,
+                            "sent_index": 9,
+                            "speaker": "Professor B",
+                            "content": "Those look pretty good ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 90,
+                            "sent_index": 11,
+                            "speaker": "Professor B",
+                            "content": "Well even the {disfmarker} just the {disfmarker} the second row doesn't look that bad right ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 98,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Yeah so when we do this weighted measure we should compare the two cuz it might even come out better ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 98,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "And it 's {disfmarker} it 's {disfmarker} it 's a little {disfmarker} slightly simpler ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on fixing the system",
+                "tokenized_answer": [
+                    "It was time for the team to rely on the models they had created so far to fix the system.",
+                    "They were deciding when to fix it.",
+                    "The professor explained that they should do so by Tuesday, and when they get new data later in the week, they need not train on it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "um I guess since this is development data it 's legitimate to do more than one ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "I mean ordinarily if {disfmarker} in final test data you don't want to do several and {disfmarker} and take the best"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 209,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "I mean we have to fix the system on this d on this data , to choose the best"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 212,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "But the question is when {disfmarker} when do we fix the system ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "do we fix the system uh tomorrow or do we fix the system on Tuesday ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 216,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I {disfmarker} Yeah , OK except that we do have to write it up ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 217,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "I think we fixed on Tuesday , yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 217,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "I think we fixed on Tuesday , yeah ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Right"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "so maybe what we do is we {disfmarker} we {disfmarker} we uh as soon as we get the data from them we start the training and so forth"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team think about a single KLT?",
+                "tokenized_answer": [
+                    "PhD C thought that it would be worthwhile to test on a single KLT.",
+                    "The professor agreed that since it would be pretty low-maintenance, the team should do that, but only if they can fit it in."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 336,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "so basically we will {disfmarker} I think we 'll try to {disfmarker} to focus on these three architectures"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 336,
+                            "sent_index": 4,
+                            "speaker": "PhD C",
+                            "content": "and {disfmarker} and perhaps I was thinking also a fourth one with just {disfmarker} just a single KLT"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 336,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "because we did not really test that {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 338,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "removing all these KLT 's and putting one single KLT at the end ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 339,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , I mean that would be pretty low maintenance to try it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 336,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "because we did not really test that {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 338,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "removing all these KLT 's and putting one single KLT at the end ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 339,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , I mean that would be pretty low maintenance to try it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 341,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh if you can fit it in ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the professor's concluding comments?",
+                "tokenized_answer": [
+                    "The professor noted that the most important improvements over the years have been due to finding bugs.",
+                    "He also informed the team of some IBM processors that were available to them at the University of Washington.",
+                    "He finally congratulated them on their efforts."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 333,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "but uh I mean you have something really really wrong {vocalsound} and you fix it {vocalsound} you can get big and really enormous improvements"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 335,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "but {vocalsound} uh {vocalsound} um Cuz our best improvements over the years that we 've gotten from finding bugs ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 343,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "uh I don't know if we 're gonna need it uh but uh Jeff up at the uh University of Washington has uh gotten a hold of a uh uh some kind of server farm of uh of ten uh uh multiprocessor uh IBM machines RS six thousands"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 345,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "and {disfmarker} and uh so I think each one is four processors or something or {disfmarker} I don't know , eight hundred megahertz or something"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 349,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "well uh you guys doing great stuff so that 's {disfmarker} that {disfmarker} that 's really neat"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

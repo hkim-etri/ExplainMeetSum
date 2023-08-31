@@ -1,0 +1,408 @@
+{
+    "transcripts_id": "Bro025",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh . Yeah , we formed a coalition actually ."
+                },
+                {
+                    "turn_index": 9,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "We already made it into one ."
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                },
+                {
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , we had a long discussion about how they were the same and how they were d uh , completely different ."
+                },
+                {
+                    "turn_index": 53,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Um , so it sort of came down to spectral subtraction versus Wiener filtering ."
+                },
+                {
+                    "turn_index": 63,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "There 're so many other choices to make that are {disfmarker} are almost {disfmarker} well , if not independent , certainly in addition to {pause} the choice of whether you , uh , do spectral subtraction or Wiener filtering ,"
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "uh , but it is , uh , worse on the , uh , Aurora {disfmarker}"
+                },
+                {
+                    "turn_index": 94,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "It 's between {disfmarker} i we are second actually if we take this system ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , uh , and it {disfmarker} it is , uh , very close in performance to the best thing that was there before ."
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And the thing is , this doesn't have neural net in yet for instance ."
+                },
+                {
+                    "turn_index": 123,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Um , what we 've done in uh {disfmarker} in the past is to use the neural net , uh , to transform , {vocalsound} um , all of the features that we use ."
+                },
+                {
+                    "turn_index": 233,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , {vocalsound} I think the neural net will probably do better if it looks at a little bit of the future ."
+                },
+                {
+                    "turn_index": 237,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But I think , you know , at this point our major concern is making the performance better"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and , uh , I think it was {vocalsound} Hynek and Guenter 's and my opinion also that , um , you know , we sort of spread out to look at a number of different ways of doing noise suppression ."
+                },
+                {
+                    "turn_index": 63,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "And {disfmarker} {vocalsound} and , uh , we said , uh , take a week , go arm wrestle ,"
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "We do still , however , have to consider its latency ."
+                },
+                {
+                    "turn_index": 134,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "We can't have unlimited amounts of latency ."
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Just using either their VAD or our current VAD ."
+                },
+                {
+                    "turn_index": 166,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "How {disfmarker} how much latency does the , uh {disfmarker} does our VAD add ?"
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "If {disfmarker} if we can have a good VAD , well , it would be great ."
+                },
+                {
+                    "turn_index": 222,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "What amount of latency are you thinking about when you say that ?"
+                },
+                {
+                    "turn_index": 237,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and {disfmarker} and , um , {vocalsound} if , uh , something has to take a little longer in latency in order to do it that 's {pause} you know , a secondary issue ."
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Like , should we do something f more for the noise estimation ,"
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "I tried just plugging the , um , {vocalsound} uh , Guenter noise estimation on this system ,"
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "and it {disfmarker} uh , it got worse ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about the state of the final model",
+            "oracle_info": [
+                {
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh . Yeah , we formed a coalition actually ."
+                },
+                {
+                    "turn_index": 9,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "We already made it into one ."
+                },
+                {
+                    "turn_index": 17,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So it 's {disfmarker} well , it 's {pause} spectral subtraction or Wiener filtering ,"
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So now we are , yeah , setting up the software ."
+                },
+                {
+                    "turn_index": 30,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Yeah . So the sh it 's the sheet that gives fifty - f three point sixty - six ."
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "It 's the same , um , idea but it 's working on mel bands , {vocalsound} and it 's a spectral subtraction instead of Wiener filter ,"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "and there is also a noise addition after , uh , cleaning up the mel bins ."
+                },
+                {
+                    "turn_index": 33,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah . I mean , {vocalsound} it 's {disfmarker} {comment} it 's actually , uh , very similar ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD E say about the best result?",
+            "oracle_info": [
+                {
+                    "turn_index": 23,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "And , um , {vocalsound} the best result is {vocalsound} when we apply this procedure on FFT bins , uh , with a Wiener filter ."
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "And there is no noise addition after {disfmarker} after that ."
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So it 's good"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "Well , the results are similar ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor say about the final model?",
+            "oracle_info": [
+                {
+                    "turn_index": 9,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "We already made it into one ."
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So now we are , yeah , setting up the software ."
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "the , uh , one that has the smallest {disfmarker} smaller overall number is actually better on the Finnish and Spanish ,"
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "uh , but it is , uh , worse on the , uh , Aurora {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on frame dropping and noise estimation",
+            "oracle_info": [
+                {
+                    "turn_index": 237,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But I think , you know , at this point our major concern is making the performance better"
+                },
+                {
+                    "turn_index": 253,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So the frame - dropping is the last thing that we do ."
+                },
+                {
+                    "turn_index": 258,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "It seems to be helping on the well - matched condition ."
+                },
+                {
+                    "turn_index": 258,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "So . And it actually r reduced a little bit on the high mismatch ,"
+                },
+                {
+                    "turn_index": 259,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Did you happen to notice how much , {vocalsound} uh , the change was due to just this frame - dropping problem ?"
+                },
+                {
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Just the frame - dropping problem ."
+                },
+                {
+                    "turn_index": 265,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah . I mean , it {disfmarker} it always seemed to us that it would be kind of nice to {disfmarker} in addition to , uh , reducing insertions , actually use up less bandwidth ."
+                },
+                {
+                    "turn_index": 282,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "If the net 's on the server side then it could use all of the {pause} frames ."
+                },
+                {
+                    "turn_index": 337,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "So , th the Guenter was arguing that , I mean , even if you have a very good VAD , averaging it , like , over the whole thing is not a good idea ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD E think about improving the model?",
+            "oracle_info": [
+                {
+                    "turn_index": 265,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                },
+                {
+                    "turn_index": 266,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "And then we have to be careful with that also {disfmarker} with the neural net"
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Like , should we do something f more for the noise estimation ,"
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 5,
+                    "speaker": "PhD E",
+                    "content": "but of course I didn't play {pause} with it ."
+                },
+                {
+                    "turn_index": 310,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "Uh , I didn't {pause} do much more {pause} for noise estimation . I just tried this ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about improving the model?",
+            "oracle_info": [
+                {
+                    "turn_index": 259,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Did you happen to notice how much , {vocalsound} uh , the change was due to just this frame - dropping problem ?"
+                },
+                {
+                    "turn_index": 265,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah . I mean , it {disfmarker} it always seemed to us that it would be kind of nice to {disfmarker} in addition to , uh , reducing insertions , actually use up less bandwidth ."
+                }
+            ]
+        }
+    ]
+}

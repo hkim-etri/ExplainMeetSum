@@ -1,0 +1,962 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Even Deeper Understanding group discussed plans and concerns regarding the architecture of SmartKom, its proposed modules, and the types of interactions expected to take place between modules.",
+            "The meeting was largely focused on SmartKom's decision making capacity and how to adapt this functionality to the tourist information domain.",
+            "The group set a date for assessing SmartKom plans.",
+            "It was decided that SmartKom's action plans should be represented in XML as a state transition network.",
+            "It was proposed that the term 'dialogue planner' should replace 'dialogue manager'.",
+            "Prolog will be phased out completely and replaced by Java code.",
+            "The dialogue manager must be capable of changing states, i.e. go from being event driven to answering a question from a planning module.",
+            "SmartKom should feature a well defined core interface, with domain-specific information kept external.",
+            "A syntactic analysis component that performs chunk parsing will be added to the system.",
+            "As a functional module, the action planner is too restrictive for the tourist domain and requires complex slots from the dialogue manager.",
+            "What form will the language input have, and what will the action planner do with it?",
+            "Links must be in place between the input end, action planner, parser, and language feedback components for communicating the current state of plan.",
+            "Interactions in a deep map system between the spatial planner and the route planner are too convoluted.",
+            "SmartKom requires a fast and robust parser that includes language-specific extensions.",
+            "Which form of semantic construction grammar should be used, and how would such information be derived from the parsed input?",
+            "Efforts are in progress to complete and test the code, generate an English grammar like that used in the German system, and get the parser interface working.",
+            "A 'wizard of Oz' style data collection experiment is in progress to model users' underlying intentions when communicating with the dialogue component of a tourist domain GPS.",
+            "Corresponding interfaces and a belief net will be incorporated into the knowledge modelling module.",
+            "While the current focus is on decision making, a fuller implementation of SmartKom will enable it to query the user for desired information.",
+            "Stemming information is connected to the lexicon through the use of knowledge bases from Verbmobil."
+        ],
+        "answer_sentence_index": [
+            "Bed009.s.1",
+            "Bed009.s.2",
+            "Bed009.s.3",
+            "Bed009.s.4",
+            "Bed009.s.5",
+            "Bed009.s.6",
+            "Bed009.s.7",
+            "Bed009.s.8",
+            "Bed009.s.9",
+            "Bed009.s.10",
+            "Bed009.s.11",
+            "Bed009.s.12",
+            "Bed009.s.13",
+            "Bed009.s.14",
+            "Bed009.s.15",
+            "Bed009.s.16",
+            "Bed009.s.17",
+            "Bed009.s.18",
+            "Bed009.s.19",
+            "Bed009.s.20"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Well the obvious one would be if {disfmarker} if you envision this as a module within SmartKom , where exactly would that Sit ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 127,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "um {disfmarker} so far I 've thought of it as sort of adding it onto the modeler knowledge module ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 284,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "We talked about this several times that {disfmarker} that {disfmarker} the {disfmarker} the input end is gonna need a fair amount of feedback from the planning end ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 535,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "So we talked about the fact that There 're going to be a certain number of decisions That you want the knowledge modeler to make , that will be then fed to the function module , that does uh , route planning ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 28,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "and then that can be sort of developed uh as needed when we get {disfmarker} enter the tourism domain ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 180,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "We probably won't do this early on , because the current focus is more on the decision making and stuff like that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "All through Friday would be fine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 63,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "so anyt we 'll find a time later in the week to uh get together and talk about {pause} your understanding of what SmartKom plans are ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 185,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "So {disfmarker} my suggestion then is that you um look into the currently ongoing discussion about how the action plans are supposed to look like ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "And they 're currently um Agreeing or {disfmarker} or in the process of agreeing on an X M L - ification of um something like a state - transition network of how dialogues would proceed ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 292,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Would there be any chance of getting the terminology changed so that the dialogue planner was called a \" dialogue planner \" ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 295,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It oughta be called a {disfmarker} a dialogue manager ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 320,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Is he gonna continue with the old {disfmarker} uh {disfmarker} thing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "no he 's completely gonna rewrite everything . In Java ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 326,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "whether we 're {disfmarker} we 're gonna stick to Prolog or not ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 327,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "No , that 's gonna be phased out ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 3,
+                    "speaker": "Professor F",
+                    "content": "in that case the dialogue manager is sort of event driven ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and this {disfmarker} one of these planning modules comes along and says \" hey , right now we need to ask a question \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So that forces the dialogue manager to change state ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 361,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And {disfmarker} and the {disfmarker} the underlying idea of course is that there is something like kernel modules with kernel functionality that you can plug uh certain applications like tourist information or um the home scenario with uh controlling a VCR and so on ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 361,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "That 's an additional reason to have this well - defined interface"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 361,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "and keep these things like uh tourist information external ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 386,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "um it 's to {disfmarker} to integrate and syntactic analysis ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 442,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 227,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "you know th the functional module that {disfmarker} that interacts with {disfmarker} with where the tourism g stuff is going {comment} probably is too restrictive ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 230,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "what 's called the action plan and what 's really the dialogue manager ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 232,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "um is based on slots that have to be filled"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "and I 'm not sure if {disfmarker} if complex slots of that type are really um being taken into consideration ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 259,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I think the {disfmarker} the true key issues is how does the whatever comes out of the language input pipeline look like"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 259,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "and then what the action planner does with it {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 271,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "but there 's gonna be some kind of feedback and input from uh the action planner into all the analysis modules , telling them what to expect and what the current state of the discourse is ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 284,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "We talked about this several times that {disfmarker} that {disfmarker} the {disfmarker} the input end is gonna need a fair amount of feedback from the planning end ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Yeah I think just the {disfmarker} the spatial planner and the route planner"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "I showed you once the interac action between them among them in the deep map system"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 310,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "so {disfmarker} a printout of the communication between those two fills up"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 310,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I don't know how many pages"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Yeah , uh the problem is th that it has to be very fast"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 406,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And they also have to be very robust . cuz of um speech recognition errors"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 442,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 513,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Some extensions uh have to be made . For {disfmarker} for a English version"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 529,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "That 's good , because that will uh tell you a fair amount about The form of semantic construction grammar that we 're using ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 537,
+                    "sent_index": 15,
+                    "speaker": "Professor F",
+                    "content": "But the other half of the problem is How would you get that kind of information from the parsed input ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 28,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "and some lines of code were already written today"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 28,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and almost tested"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 28,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "and just gonna say we have um again the recognizer to parser thing where we 're working on"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Either we do a syllable concatenating um grammar for the English generation which is sort of starting from scratch and doing it the easy way ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "or we simply adopt the ah um more in - depth um style that is implemented in the German system"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 89,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "well for one thing we 're also using this room to collect data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "no not meeting data but sort of {disfmarker} sort ah our version of a wizard experiment such"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 97,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and so it 's a {disfmarker} sort of a computer call system that gives you tourist information"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 101,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "and we 're setting it up so that we can {disfmarker} we hope to implant certain intentions in people ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 113,
+                    "sent_index": 16,
+                    "speaker": "Grad B",
+                    "content": "And um so the idea is to construct uh um suitable interfaces and a belief - net for a module that actually tries to guess what the underlying intention {pause} was ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "But , uh th the current design suggests that if it seems to be an important decision and if the belief - net is equivocal so that it doesn't say that one of these is much more probable than the other , then an option is to go back and ask for the information you want ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 180,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "We probably won't do this early on , because the current focus is more on the decision making and stuff like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 182,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "But While we 're on the subject I just wanted to give you a sort of head 's up that it could be that some months from now we said \" OK we 're now ready to try to close that loop \" in terms of querying about some of these decisions ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 352,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "and this {disfmarker} one of these planning modules comes along and says \" hey , right now we need to ask a question \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 470,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So y you just connect to the lexicon"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "at least for German you have all {disfmarker} all of the {disfmarker} uh the stemming information ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 473,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "We have knowledge bases from {disfmarker} from Verbmobil system we can use"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was discussed in the meeting?",
+                "tokenized_answer": [
+                    "The group discussed plans and concerns regarding the architecture of SmartKom, its proposed modules, and the types of interactions expected to take place between modules.",
+                    "The meeting was largely focused on SmartKom's decision making capacity and how to adapt this functionality to the tourist information domain.",
+                    "The group set a date for assessing SmartKom plans."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 126,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "Well the obvious one would be if {disfmarker} if you envision this as a module within SmartKom , where exactly would that Sit ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 127,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "um {disfmarker} so far I 've thought of it as sort of adding it onto the modeler knowledge module ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "We talked about this several times that {disfmarker} that {disfmarker} the {disfmarker} the input end is gonna need a fair amount of feedback from the planning end ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 535,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "So we talked about the fact that There 're going to be a certain number of decisions That you want the knowledge modeler to make , that will be then fed to the function module , that does uh , route planning ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "and then that can be sort of developed uh as needed when we get {disfmarker} enter the tourism domain ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 180,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "We probably won't do this early on , because the current focus is more on the decision making and stuff like that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "All through Friday would be fine ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 3,
+                            "speaker": "Professor F",
+                            "content": "so anyt we 'll find a time later in the week to uh get together and talk about {pause} your understanding of what SmartKom plans are ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize what was said on SmartKom architecture",
+                "tokenized_answer": [
+                    "It was decided that SmartKom's action plans should be represented in XML as a state transition network.",
+                    "It was proposed that the term 'dialogue planner' should replace 'dialogue manager'.",
+                    "Prolog will be phased out completely and replaced by Java code.",
+                    "The dialogue manager must be capable of changing states, i.e. go from being event driven to answering a question from a planning module."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 185,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "So {disfmarker} my suggestion then is that you um look into the currently ongoing discussion about how the action plans are supposed to look like ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "And they 're currently um Agreeing or {disfmarker} or in the process of agreeing on an X M L - ification of um something like a state - transition network of how dialogues would proceed ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 292,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "Would there be any chance of getting the terminology changed so that the dialogue planner was called a \" dialogue planner \" ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "It oughta be called a {disfmarker} a dialogue manager ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 320,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Is he gonna continue with the old {disfmarker} uh {disfmarker} thing ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 321,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "no he 's completely gonna rewrite everything . In Java ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "whether we 're {disfmarker} we 're gonna stick to Prolog or not ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 327,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "No , that 's gonna be phased out ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 350,
+                            "sent_index": 3,
+                            "speaker": "Professor F",
+                            "content": "in that case the dialogue manager is sort of event driven ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 352,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "and this {disfmarker} one of these planning modules comes along and says \" hey , right now we need to ask a question \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 352,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "So that forces the dialogue manager to change state ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the modules for the SmartKom. ",
+                "tokenized_answer": [
+                    "SmartKom should feature a well defined core interface, with domain-specific information kept external.",
+                    "A syntactic analysis component that performs chunk parsing will be added to the system."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And {disfmarker} and the {disfmarker} the underlying idea of course is that there is something like kernel modules with kernel functionality that you can plug uh certain applications like tourist information or um the home scenario with uh controlling a VCR and so on ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "That 's an additional reason to have this well - defined interface"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 4,
+                            "speaker": "PhD A",
+                            "content": "and keep these things like uh tourist information external ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 386,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "um it 's to {disfmarker} to integrate and syntactic analysis ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 442,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What problems were reported due to SmartKom modules interaction?",
+                "tokenized_answer": [
+                    "As a functional module, the action planner is too restrictive for the tourist domain and requires complex slots from the dialogue manager.",
+                    "Interactions in a deep map system between the spatial planner and the route planner are too convoluted.",
+                    "SmartKom requires a fast and robust parser that includes language-specific extensions."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "you know th the functional module that {disfmarker} that interacts with {disfmarker} with where the tourism g stuff is going {comment} probably is too restrictive ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 230,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "what 's called the action plan and what 's really the dialogue manager ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 232,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "um is based on slots that have to be filled"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "and I 'm not sure if {disfmarker} if complex slots of that type are really um being taken into consideration ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 238,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So that 's {disfmarker} that 's really something we"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Yeah I think just the {disfmarker} the spatial planner and the route planner"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "I showed you once the interac action between them among them in the deep map system"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 310,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "so {disfmarker} a printout of the communication between those two fills up"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 310,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "I don't know how many pages"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 400,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Yeah , uh the problem is th that it has to be very fast"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 406,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And they also have to be very robust . cuz of um speech recognition errors"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 442,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 513,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "Some extensions uh have to be made . For {disfmarker} for a English version"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about the parser interface?",
+                "tokenized_answer": [
+                    "Efforts are in progress to complete and test the code, generate an English grammar like that used in the German system, and get the parser interface working.",
+                    "A 'wizard of Oz' style data collection experiment is in progress to model users' underlying intentions when communicating with the dialogue component of a tourist domain GPS."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "and some lines of code were already written today"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "and almost tested"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "and just gonna say we have um again the recognizer to parser thing where we 're working on"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Either we do a syllable concatenating um grammar for the English generation which is sort of starting from scratch and doing it the easy way ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "or we simply adopt the ah um more in - depth um style that is implemented in the German system"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "well for one thing we 're also using this room to collect data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "no not meeting data but sort of {disfmarker} sort ah our version of a wizard experiment such"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 97,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "and so it 's a {disfmarker} sort of a computer call system that gives you tourist information"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 101,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "and we 're setting it up so that we can {disfmarker} we hope to implant certain intentions in people ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

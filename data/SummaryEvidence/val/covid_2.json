@@ -1,0 +1,780 @@
+{
+    "domain": "Committee",
+    "ami": {},
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The participants discussed the government's response to the coronavirus.",
+                    "Participants expressed concern over a variety of matters that ranged from welfare transfers to protecting small businesses.",
+                    "The Prime Minister was questioned on alleged fraud in the distribution of pandemic relief funds.",
+                    "The participants were also concerned about government handling of business loans during the pandemic and the lack of statistics around the pandemic.",
+                    "A lot of the meeting's attention was paid to seasonal industries, like tourism and fishing, which had been served a major blow by the pandemic.",
+                    "Some participants also expressed concern about the distribution of funds and resources to vulnerable populations, like students and the elderly.",
+                    "Aside from the pandemic, some participants were concerned about the impact of recent gun control legislation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 3,
+                            "speaker": "Mr. Yves-Franois Blanchet",
+                            "content": "First, let me remind you that, on March12, the government announced a first series of measures of about $1billion to adapt to what was at the time the beginning of the coronavirus crisis, including $500million in transfers to the provinces, with about $100million going to Quebec."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 162,
+                            "sent_index": 4,
+                            "speaker": "Mr. Yves-Franois Blanchet",
+                            "content": "Since that time, the commitments from the government have reached very probably around $300billion, making those first $500 million pale by comparison."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 164,
+                            "sent_index": 2,
+                            "speaker": "Hon. Patty Hajdu (Minister of Health)",
+                            "content": "We continue to work with provinces and territories on a regular basis to make sure they're supported not just in the outbreak of this pandemic, but in the increased cost overall to health care across the country."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 2,
+                            "speaker": "Mr. Jagmeet Singh",
+                            "content": "Both Liberal and Conservative federal governments have been consistently, for decades, cutting transfers to health care."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 3,
+                            "speaker": "Mr. Jagmeet Singh",
+                            "content": "They can increase those transfers to ensure long-term care is adequately funded."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 4,
+                            "speaker": "Mr. Jagmeet Singh",
+                            "content": "We could also ensure that there's a national care guarantee, working with provinces to ensure that we are meeting the best standards."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 1,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "Chair, an ongoing concern I've heard from small business owners is that they are ineligible for CEBA because they don't have a business account."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 84,
+                            "sent_index": 2,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "When I brought up this point to small business minister Ng at committee, she said it was the first time that she had heard of this issue and that she would follow up."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 1,
+                            "speaker": "Hon. Navdeep Bains (MississaugaMalton, Lib.)",
+                            "content": "It is really important that this program that we've established help small businesses."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 5,
+                            "sent_index": 0,
+                            "speaker": "Hon. Andrew Scheer (Leader of the Opposition)",
+                            "content": "It was revealed yesterday that this government's policy was to ignore fraud."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 5,
+                            "sent_index": 1,
+                            "speaker": "Hon. Andrew Scheer (Leader of the Opposition)",
+                            "content": "The Prime Minister's reaction was to act as if everything was normal."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 5,
+                            "sent_index": 2,
+                            "speaker": "Hon. Andrew Scheer (Leader of the Opposition)",
+                            "content": "In fact, we've learned that over 200,000cases of suspected fraud have been identified in the benefit applications."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 2,
+                            "speaker": "Hon. Andrew Scheer",
+                            "content": "It's a simple question: Yes or no, did the government instruct any government department to ignore red flags or warnings of fraudulent cases?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 8,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Chair, the priority in this situation was getting money out to the millions of Canadians who needed it as quickly as possible, but of course fraud is unacceptable."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 86,
+                            "sent_index": 1,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "Chair, I just read another email from a small business owner this morning who has been let down by the government."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 4,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "This shows a true lack of understanding of small businesses and especially of owner-operators."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 5,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "Will the government commit to fixing this issue?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 4,
+                            "speaker": "Mrs. Marilne Gill (Manicouagan, BQ)",
+                            "content": "These are regions whose economy rests basically on two very important seasonal industries: tourism and fishing."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 8,
+                            "speaker": "Mrs. Marilne Gill (Manicouagan, BQ)",
+                            "content": "A few minutes ago, I heard the Prime Minister say that he had intervened to help the companies and the workers in those seasonal industries."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 175,
+                            "sent_index": 9,
+                            "speaker": "Mrs. Marilne Gill (Manicouagan, BQ)",
+                            "content": "I would like to know what the specific assistance is and how it is tailored to the companies and the workers in the seasonal industries he mentions."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 3,
+                            "speaker": "Mrs. Marilne Gill",
+                            "content": "The fishers are currently going out, but right in the middle of the COVID-19 crisis."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 177,
+                            "sent_index": 4,
+                            "speaker": "Mrs. Marilne Gill",
+                            "content": "One fishing season has been pushed back."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 177,
+                            "sent_index": 5,
+                            "speaker": "Mrs. Marilne Gill",
+                            "content": "The same thing applies to tourism."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 23,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "This is an unprecedented situation, which is why we're working with seasonal industries and the different regions to make sure they have a sufficient workforce in their situation."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 3,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "That's why we continue to work with the industries involved to ensure that they have a sufficient workforce while we support students."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 325,
+                            "sent_index": 6,
+                            "speaker": "Mr. Scott Duvall (Hamilton Mountain, NDP)",
+                            "content": "Before enduring the crisis, it was clear that OAS and GIS benefits levels were just not enough for seniors to keep up with the cost of living, so we need to fix this now."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 325,
+                            "sent_index": 7,
+                            "speaker": "Mr. Scott Duvall (Hamilton Mountain, NDP)",
+                            "content": "Why is the government refusing to increase OAS and GIS benefits to lift seniors out of poverty on a permanent basis?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 315,
+                            "sent_index": 1,
+                            "speaker": "Mr. Tako Van Popta",
+                            "content": "Can the minister inform Canadians how many Canadian taxpayer dollars are going to go to the buyback program for legal gun owners and how far that money would go if it were to be diverted to something useful, such as more border controls to stop the illegal importation of firearms?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 316,
+                            "sent_index": 1,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "We've seen an unacceptable rise in gun violence right across our community."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 316,
+                            "sent_index": 2,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "All weapons are being regulated in our country."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 316,
+                            "sent_index": 7,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "I want to assure the member we will bring forward legislation that will facilitate an appropriate buyback program."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 316,
+                            "sent_index": 8,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "I look forward to a discussion in this House with the member opposite on how that can be done to ensure public safety and to ensure that we do it in as effective a way as possible."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What did the Prime Minister say about fraud in distribution of funds?",
+                "tokenized_answer": [
+                    "The Prime Minister was adamant that fraud was unacceptable and reiterated that fraudsters would have to return the money.",
+                    "Nonetheless, the government's priority remained the speedy disbursement of funds to those that were in need."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "Having said that, I want to make it very clear, Mr.Chair: Fraud is unacceptable."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 3,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "We have measures in place to detect fraud."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 4,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "All fraudsters will be required to pay back the money they fraudulently received from the government."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "Our priority was to get money out quickly to all Canadians who needed it, and that's exactly what we've done."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau (Prime Minister)",
+                            "content": "Millions of Canadians have received the money they so desperately needed."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Minister of Seniors say about pandemic assistance for seniors?",
+                "tokenized_answer": [
+                    "The Minister of Seniors clarified that his office recognizes that seniors are in great need.",
+                    "The minister explained that those receiving OAS and GIS are getting payments of $200 and $300 respectively.",
+                    "The minister was insistent that this was not an insignificant amount."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 2,
+                            "speaker": "Hon. Deb Schulte (Minister of Seniors)",
+                            "content": "Many Canadian seniors are facing significant health, economic and social challenges as a result of the pandemic."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 326,
+                            "sent_index": 3,
+                            "speaker": "Hon. Deb Schulte (Minister of Seniors)",
+                            "content": "They built this country and now they need our help."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 4,
+                            "speaker": "Hon. Deb Schulte (Minister of Seniors)",
+                            "content": "Our government is taking significant action to provide Canadian seniors with greater financial security and give them the help they need during this crisis."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 326,
+                            "sent_index": 5,
+                            "speaker": "Hon. Deb Schulte (Minister of Seniors)",
+                            "content": "We're building on past measures by introducing a one-time tax-free payment of $300 for those who receive OAS and of $200 for those receiving GIS, totalling $500 to seniors who receive both."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 328,
+                            "sent_index": 6,
+                            "speaker": "Hon. Deb Schulte",
+                            "content": "Just to give some details, for those on OAS and GIS, they will get, in conjunction with the GST credit top-up, $875 per adult, and over $1,500 per couple."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 328,
+                            "sent_index": 7,
+                            "speaker": "Hon. Deb Schulte",
+                            "content": "This is not an insignificant amount."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Prime Minister say about students?",
+                "tokenized_answer": [
+                    "The Prime Minister clarified that while young people are in need of funds, especially due to loss of income over the summer, they are also in need of work experience.",
+                    "The government would start providing the Canada emergency student benefit which will assist in this by making both jobs and money available."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "member for understanding the importance of supporting students who, for the most part, won't be able to get the summer jobs they were counting on."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 2,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "Young people don't just want to earn money; they also want to gain work experience."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 21,
+                            "sent_index": 3,
+                            "speaker": "Right Hon. Justin Trudeau",
+                            "content": "That's why we're setting up programs, including Canada summer jobs, but also another program with 76,000new jobs for young people in important sectors, so that young people can also get jobs."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 1,
+                            "speaker": "Mr. Yves-Franois Blanchet (BeloeilChambly, BQ)",
+                            "content": "On Friday, students in Quebec and Canada will be able to apply for the Canada emergency student benefit, which is a good thing."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 2,
+                            "speaker": "Mr. Yves-Franois Blanchet (BeloeilChambly, BQ)",
+                            "content": "This program was necessary, particularly because the number of students who won't be able to get back their jobs from last year is much higher than the number of jobs that might be available to these young people."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 6,
+                            "speaker": "Mr. Yves-Franois Blanchet (BeloeilChambly, BQ)",
+                            "content": "On April29, the Deputy Prime Minister made a formal commitment to ensure that these programs are accompanied by work incentives for youth and all CESB recipients."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Bains say about business loans?",
+                "tokenized_answer": [
+                    "Bains said that the government has been accommodating of small businesses in the past and it will continue to do so.",
+                    "The government has increased the threshold for individual companies and looks forward to making further adjustments.",
+                    "Bains emphasized that 590,000 loans have already been distributed through the CEBA program, highlighting its efficacy."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 2,
+                            "speaker": "Hon. Navdeep Bains (MississaugaMalton, Lib.)",
+                            "content": "We have shown in the past that we're very flexible and nimble in accommodating the needs of businesses."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains (MississaugaMalton, Lib.)",
+                            "content": "I assure the member opposite that we are looking into this matter and will come forward with a resolution in a timely manner."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 87,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "With regard to the program that she highlighted, we have shown flexibility in the eligibility criteria by decreasing the payroll threshold for individual companies that want to apply for this loan to $20,000 versus $50,000, and the upper limit has gone to $1.5 million versus $1 million."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 87,
+                            "sent_index": 4,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We will continue to bring forward the changes necessary to have more businesses"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 96,
+                            "sent_index": 1,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "Chair, I want to highlight the fact that we have issued 590,000 loans through the CEBA account."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 96,
+                            "sent_index": 2,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "This demonstrates that this particular program is working and that businesses are taking advantage of it."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 96,
+                            "sent_index": 4,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We've demonstrated flexibility in the past and we will continue to be nimble going forward."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Morneau say about the debt?",
+                "tokenized_answer": [
+                    "Morneau explained that the government was committed to supporting Canadians.",
+                    "It came into the pandemic with a strong fiscal position, and while the pandemic will bring challenges, it will face those challenges while supporting small businesses and Canadians."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau (Minister of Finance)",
+                            "content": "Mr. Speaker, we remain committed to doing, as we've said, whatever it takes to support Canadians through this challenging time."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 122,
+                            "sent_index": 1,
+                            "speaker": "Hon. Bill Morneau (Minister of Finance)",
+                            "content": "We think this is extremely important, and we will continue to focus on the well-being of all Canadians."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 127,
+                            "sent_index": 0,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Mr. Speaker, Canada came into this crisis with a very strong fiscal position, and of course we will experience challenges as we move forward, but we believe that we should experience those challenges as we support Canadians."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 129,
+                            "sent_index": 1,
+                            "speaker": "Hon. Bill Morneau",
+                            "content": "Chair, we will continue to focus on how we can support Canadians and Canadian businesses as we get through this challenge."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Bains say about the threshold for the wage subsidy program and loan refinancing?",
+                "tokenized_answer": [
+                    "Bains said that the threshold for the program had been lowered to a 15% decline in revenue from a 30% decline.",
+                    "Businesses will also be able to compare losses to more recent time periods due to greater flexibility.",
+                    "Bain clarified that the government is listening to businesses and recognizes its need to be agile."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 89,
+                            "sent_index": 0,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "When it comes to the Canada emergency wage subsidy, we have demonstrated flexibility and nimbleness."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 1,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "The program requirement changed in terms of revenue threshold."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 2,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We originally had 30% for the month of March."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 89,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We changed that to 15%."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 89,
+                            "sent_index": 5,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We're going to continue to make changes to make sure more businesses can access this program."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 247,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "When we originally proposed this initiative, the threshold was 30% for the month of March."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 247,
+                            "sent_index": 4,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "Now businesses will only need to show a 15% decline in revenue, and businesses will have the option of using January and February as a reference period to show revenue losses, or of using the same time last year."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 247,
+                            "sent_index": 5,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "This reflects, again, our ability to understand the needs of businesses, to act quickly and to make sure that they benefit from this very important initiative."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 250,
+                            "sent_index": 2,
+                            "speaker": "Mr. Larry Maguire",
+                            "content": "Can the minister provide any rationale for why countless small businesses are not being allowed to access these loans?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "Clearly we recognize that we need to be agile and that we need to understand the needs of businesses."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 251,
+                            "sent_index": 4,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "That's why we made changes to this particular program."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 5,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "We'll continue to listen to businesses."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Bains say about the arts, culture, and tourism industry?",
+                "tokenized_answer": [
+                    "Bains claimed that the government was aware of these issues and had allocated $500 million to arts and culture organizations.",
+                    "Bains also explained that while pandemic control efforts were affecting these industries adversely, Canadians' health and safety remained the government's priority."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 231,
+                            "sent_index": 5,
+                            "speaker": "Mr. John Nater",
+                            "content": "How will the government address the blind spot in their programs for small businesses in communities like this, which rely on the tourism and the arts and culture industries?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 232,
+                            "sent_index": 1,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "Chair, clearly, we understand how important these organizations are to these communities."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 232,
+                            "sent_index": 2,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "That is why we allocated $500 million to respond to the specific financial needs of arts, heritage and sports organizations, to help them be more resilient through this difficult time."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 232,
+                            "sent_index": 3,
+                            "speaker": "Hon. Navdeep Bains",
+                            "content": "Last week we rolled out the funding of this announcement, and we look forward to engaging with communities across the country."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 231,
+                            "sent_index": 3,
+                            "speaker": "Mr. John Nater",
+                            "content": "The postponement and cancellation of the seasons of these important cultural institutions is having a massive impact on the hospitality industry, including local restaurants, hotels and bed and breakfasts."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 231,
+                            "sent_index": 5,
+                            "speaker": "Mr. John Nater",
+                            "content": "How will the government address the blind spot in their programs for small businesses in communities like this, which rely on the tourism and the arts and culture industries?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 234,
+                            "sent_index": 3,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "When it comes to international borders, the health and safety of Canadians is absolutely the first criterion we are going to look at."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1215 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "ICSI's Meeting Recorder Group met to discuss their progress in various aspects of the Aurora Project, but also to hear more about other developments relevant to the group.",
+            "On the Aurora Project, there were reports on a project conference call, the status of the tandem neural networks, and progress with the Mississippi State recognizer.",
+            "The latency limit has been set, and the group's system is performing very well, but is a little over.",
+            "On the larger vocabulary task, there are still a few issues to resolve before work can really get started.",
+            "The group heard of the plan of one of it's member's work into intermediate classifiers, and also of how a visiting research student's work into auditory models can be applied to their work.",
+            "Speaker me013 wants to know how much memory the tandem network takes up.",
+            "It is only a minor problem that the latency limit has been set below the current systems level, and also keeping the number of features within limits only drops performance a little.",
+            "A more significant problem is that the tandem approach may not fit in the memory space allowed, and removing it drops performance more.",
+            "Some of the group had issues with mn007's approach to human performance testing, but this was considered more of a side issue.",
+            "Speaker mn007 has been working on the tandem network approach, and the current results are good.",
+            "He has found a good way of calculating the silence probabilities, that does not increase insertions.",
+            "He also attempted to transcribe data himself, to establish a human performance level.",
+            "Speaker me018 is working on Mississippi Sate recognizer for dealing with the Wall Street Journal Data."
+        ],
+        "answer_sentence_index": [
+            "Bro028.s.1",
+            "Bro028.s.2",
+            "Bro028.s.3",
+            "Bro028.s.4",
+            "Bro028.s.5",
+            "Bro028.s.6",
+            "Bro028.s.7",
+            "Bro028.s.8",
+            "Bro028.s.9",
+            "Bro028.s.10",
+            "Bro028.s.11",
+            "Bro028.s.12",
+            "Bro028.s.13"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , yeah . It 's the conference call between the Aurora , {vocalsound} uh , group ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 276,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Um , while we 're still on Aurora stuff {pause} maybe you can talk a little about the status with the , uh , {vocalsound} Wall Street Journal {vocalsound} things for it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 343,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Did they say anything on the conference call {pause} about , um , how the {pause} Wall Street Journal part of the test was going to be {pause} run ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 500,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And he 's done some work using {vocalsound} an auditory model {pause} of , um , {vocalsound} human hearing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 500,
+                    "sent_index": 8,
+                    "speaker": "Grad C",
+                    "content": "Um , and {pause} he tried that on {disfmarker} I think on some Aurora data and got results that he thought {pause} seemed respectable ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah . So there was this conference call this morning ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 8,
+                    "speaker": "PhD D",
+                    "content": "tandem network , right now , is like {disfmarker} i is using the noises from the Aurora task"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 277,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So I 've , um , downloaded , uh , a couple of things from Mississippi State ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 403,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Out of curiosity , what {disfmarker} what kind of recognizer {pause} is the one from Mississippi State ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 408,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "It 's a , {vocalsound} um {disfmarker} sort of {pause} came out of , uh {disfmarker} uh , looking a lot like HTK ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "a and to come at {disfmarker} uh , to get a decision about this latency problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and they decided on {nonvocalsound} a number ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Oh , yes . We have , like , a system that gives sixty - two percent improvement ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "but {vocalsound} if you want also to stick to the number {vocalsound} of features that {disfmarker} limit it to sixty , {vocalsound} then we go a little bit down"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 277,
+                    "sent_index": 8,
+                    "speaker": "PhD A",
+                    "content": "Uh , I 'm waiting {disfmarker} there was one problem with part of it"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 321,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "they 're {disfmarker} I I 'm still waiting for them to {pause} release the , um , {vocalsound} multi - CPU version of their scripts ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 321,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "cuz right now their script only handles processing on a single CPU ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 321,
+                    "sent_index": 5,
+                    "speaker": "PhD A",
+                    "content": "which will take a really long time to run ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 325,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "So , as soon as they get that , then I 'll {disfmarker} I 'll grab those too"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 328,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah . Cuz we have to get started ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "because I d {comment} didn't read also the {pause} most recent mails about {vocalsound} the large - vocabulary task ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 500,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So Michael Kleinschmidt , who 's a PHD student from Germany , {vocalsound} showed up this week ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 500,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And he 's done some work using {vocalsound} an auditory model {pause} of , um , {vocalsound} human hearing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 516,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "So it 's {disfmarker} so I think it 's a neat thing to try ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 553,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well , that sort of segues into {pause} what {disfmarker} what I 'm doing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 555,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "then build intermediate category classifiers , then do recognition ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And i is the tandem network , uh , small enough that it will fit on the terminal size"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but it 's , uh , m mainly a problem of memory ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Ho - how much memory d ? H how many {disfmarker} ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 60,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Yeah , I c I {disfmarker} I have to check that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "a and to come at {disfmarker} uh , to get a decision about this latency problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and they decided on {nonvocalsound} a number ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "we have to reduce it by ten milliseconds somehow ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "That 's not a problem , I {disfmarker} I guess ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Oh , yes . We have , like , a system that gives sixty - two percent improvement ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "but {vocalsound} if you want also to stick to the number {vocalsound} of features that {disfmarker} limit it to sixty , {vocalsound} then we go a little bit down"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "but it 's still sixty - one percent ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "Uh , and if we drop the tandem network , then we have fifty - seven percent ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 49,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And i is the tandem network , uh , small enough that it will fit on the terminal size"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , no , I don't think so ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 61,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "cuz we {vocalsound} maybe we could make it a little smaller"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah . The last thing is that I think we are getting close to human performance ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Well , that 's something I would like to investigate further ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 165,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There 's two problems there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 250,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "It 's {disfmarker} it 's a side thing"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 252,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But I 'm {disfmarker} I 'm just saying , at least as a thought experiment , {vocalsound} that 's what I would wanna test ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Oh , yes . We have , like , a system that gives sixty - two percent improvement ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 70,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah , there were small tricks to make this tandem network work ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And {vocalsound} things get better when , instead of using the silence probability computed by the tandem network , we use the silence probability , uh , given by the VAD network ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 96,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah . Uh , there was a p {comment} problem that we observed , um , {vocalsound} {vocalsound} that there was {disfmarker} there were , like , many insertions in the {disfmarker} in the system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Actually plugging in the tandem network was increasing , I {disfmarker} I {disfmarker} I think , the number of insertions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and then just using the {disfmarker} the other silence probability helps ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah . The last thing is that I think we are getting close to human performance ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Well , that 's something I would like to investigate further ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 148,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "I did , like , um {disfmarker} I did , uh , listen to the m most noisy utterances of the SpeechDat - Car Italian"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "and tried to transcribe them ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 277,
+                    "sent_index": 6,
+                    "speaker": "PhD A",
+                    "content": "They wrote some scripts that sort of make it easy to run {vocalsound} the system on the Wall Street Journal , uh , data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 403,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Out of curiosity , what {disfmarker} what kind of recognizer {pause} is the one from Mississippi State ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 408,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "It 's a , {vocalsound} um {disfmarker} sort of {pause} came out of , uh {disfmarker} uh , looking a lot like HTK ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting occurred very close to the finalization of the Aurora model.",
+                    "The team discussed how various components of the model could be moved around to improve results.",
+                    "They had to decrease system latency as well to meet the Aurora requirements.",
+                    "The team thought that LPC could solve the problems they were having.",
+                    "The team also began discussing the Wall Street Journal data and task, which focused on speech recognition.",
+                    "The team was studying the task and learning from Mississippi State's existing model on how to perform better on it.",
+                    "Finally, the team discussed how they could histogram equalization as an alternative to some of the techniques they were using in their current models."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 148,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Yeah . The last thing is that I think we are getting close to human performance ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 485,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "uh , Stephane and Sunil seemed to find , {vocalsound} uh , was , you know , they could actually make a unified piece of software that handled a range of different things that people were talking about ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 499,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "n not {disfmarker} not so much in this meeting about Aurora ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "and the only topic on the agenda was just to discuss"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "but it 's , uh , m mainly a problem of memory ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "because it 's {disfmarker} it could be in ROM ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "And {vocalsound} things get better when , instead of using the silence probability computed by the tandem network , we use the silence probability , uh , given by the VAD network ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 248,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "but it but {disfmarker} but the thing is that if you {disfmarker} {vocalsound} um , if you detect that there 's periodic {disfmarker} s strong periodic components , then you can use a voiced {disfmarker} voice thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 254,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , I wan would wanna drive it with a {disfmarker} a {disfmarker} a two - source system rather than a {disfmarker} than a one - source system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 256,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Maybe {disfmarker} maybe , uh , {vocalsound} uh , without that , it 's {disfmarker} it 's not possible to do a whole lot better than we 're doing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 321,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "they 're {disfmarker} I I 'm still waiting for them to {pause} release the , um , {vocalsound} multi - CPU version of their scripts ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 321,
+                            "sent_index": 4,
+                            "speaker": "PhD A",
+                            "content": "cuz right now their script only handles processing on a single CPU ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 384,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "and so we can model them better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 428,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "he might work on improving the noise estimate"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 555,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and , um , improve speech recognition in that way ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "a and to come at {disfmarker} uh , to get a decision about this latency problem ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 16,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "two hundred and twenty ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 6,
+                            "speaker": "PhD D",
+                            "content": "Uh , it means that it 's like eighty milliseconds {pause} less than before ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , that 's probably Aurora ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 156,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "but still , uh , {vocalsound} what happens is {disfmarker} is that , {vocalsound} uh , the digit error rate on this is around one percent ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 276,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Um , while we 're still on Aurora stuff {pause} maybe you can talk a little about the status with the , uh , {vocalsound} Wall Street Journal {vocalsound} things for it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 277,
+                            "sent_index": 6,
+                            "speaker": "PhD A",
+                            "content": "They wrote some scripts that sort of make it easy to run {vocalsound} the system on the Wall Street Journal , uh , data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 555,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and , um , improve speech recognition in that way ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 277,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So I 've , um , downloaded , uh , a couple of things from Mississippi State ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 277,
+                            "sent_index": 6,
+                            "speaker": "PhD A",
+                            "content": "They wrote some scripts that sort of make it easy to run {vocalsound} the system on the Wall Street Journal , uh , data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 345,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "so there was some talk about having Mississippi State run {pause} the systems for them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 373,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "And , well , if {disfmarker} if Mississippi State runs it , then maybe they 'll do a little optimization on that {pause} parameter ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 384,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "and so we can model them better ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 446,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "they said they s they sort of see it in a way as s for the speech case {comment} {disfmarker} as being kind of a generalization of spectral subtraction in a way ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 475,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "And then , uh , for testing , uh , you can do it for one per utterance ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on LPC",
+                "tokenized_answer": [
+                    "The team was filtering out white noise from the digit task using LPC.",
+                    "The concern was that LPC was not a great representation of speech.",
+                    "The LPC was adding degradation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I mean , th the thing is LPC is not a {disfmarker} a really great representation of speech ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 165,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "I mean {disfmarker} I mean , so {disfmarker} so the first is {vocalsound} that by doing LPC - twelve with synthesized speech w like you 're saying , uh , it 's {disfmarker} {vocalsound} i i you 're {disfmarker} you 're adding other degradation ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about LPC?",
+                "tokenized_answer": [
+                    "The professor thought the LPC had two problems.",
+                    "It was adding degradation and there was an issue with pitch.",
+                    "The professor also expressed that the LPC was throwing away information that was useful."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 165,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "There 's two problems there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "but you 're adding in fact some degradation"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "What if you had {pause} done analysis {comment} re - synthesis and taken the pitch as well ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 173,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "That would say at least for people , having the pitch is really , really important ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "And that 's why I was saying it might be interesting if you {disfmarker} {vocalsound} an interesting test of this would be if you {disfmarker} if you actually put the pitch back in ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 260,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "I mean , other than the pitch de information , {vocalsound} it 's hard to imagine that there 's a whole lot more {vocalsound} in the signal that {disfmarker} that , uh {disfmarker} that we 're throwing away that 's important ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD D think about LPC?",
+                "tokenized_answer": [
+                    "PhD D expressed that the resynthesized version of the speech that LPC gave was not the same as speech.",
+                    "Though, the excitations were more clear in the resynthesized version."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um , but what happens also is that if I listen to the , um {disfmarker} {nonvocalsound} a re - synthesized version of the speech"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 160,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "well , you can argue , that , uh {disfmarker} that this is not speech ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 178,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Yeah . Well , the point is that eh l ey {disfmarker} the point is that , um , {vocalsound} what I {disfmarker} what I listened to when I re - synthesized the LP - the LPC - twelve {pause} spectrum {vocalsound} is in a way what the system , uh , is hearing ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 178,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "well , the excitation is {disfmarker} is not taken into account ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on histogram equalization",
+                "tokenized_answer": [
+                    "Guenter from Germany expressed that CVS would not work for him.",
+                    "He was going to work on histogram equalization.",
+                    "Histogram equalization was mentioned in a recent paper published by Ney.",
+                    "The team discussed the paper and its implications."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 422,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "but , uh , we had talked about , uh , {comment} Guenter {vocalsound} playing around , uh , uh , over in Germany"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 424,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Uh , I saw that other mail where he said that he {disfmarker} {vocalsound} uh , it wasn't going to work for him to do CVS ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 428,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "he might work on improving the noise estimate"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 428,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "or on {vocalsound} some histogram things ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "but I just saw the {disfmarker} just read the paper ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "but I just saw the {disfmarker} just read the paper ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 442,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So this is just a {disfmarker} a histogram of {disfmarker} of {vocalsound} the amplitudes , I guess ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 462,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "But I should read the paper ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 479,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I didn't read carefully how they actually implemented it ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD D think about the paper?",
+                "tokenized_answer": [
+                    "PhD D had not read the paper, only the poster on histogram equalization.",
+                    "PhD D reported that the histogram equalization was similar to on-line normalization.",
+                    "There was a histogram for each frequency band."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "Did you see that one ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 431,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Um , it was a poster ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 462,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "But I should read the paper ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 462,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "I just went {pause} through the poster quickly ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 430,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 452,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So is this a histogram across different frequency bins ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 456,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "I think they have , yeah , different histograms ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 456,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "Something like one per {pause} frequency band ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 458,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So , one histogram per frequency bin ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD A think about histogram equalization?",
+                "tokenized_answer": [
+                    "PhD A wanted to know what exactly the technique did.",
+                    "PhD A inquired into how the histogram may represent energy levels and how histograms could speak to what can be done with the model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 476,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "and then you compare the histograms and that tells you {vocalsound} what to do to the utterance to make it more like {disfmarker} ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 471,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And {disfmarker} and that {disfmarker} that , um , {pause} histogram represents {pause} the {pause} different energy levels that have been seen at that {pause} frequency ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 472,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I don't remember that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 476,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "and then you compare the histograms and that tells you {vocalsound} what to do to the utterance to make it more like {disfmarker} ?"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1249 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "Although the members of ICSI's Meeting Recorder Group at Berkeley had little progress to report, there were still a number of issues relating to their work to discuss.",
+            "These included making plans for upcoming experiments, clarifying definitions, and approaches which may or may not be against the rules of the Aurora project, alongside alternatives that would not be.",
+            "There was also debate about the necessary continuation of a group report.",
+            "Plans were also made with regard to a visitor from research partner OGI",
+            "For next weeks meeting, speaker me018 will provide numbers on his experiments into adjusting insertion penalties.",
+            "Speaker me013 feels that mn007 and fn002 should just put together the coherent bare-bones of their report, and move back to experimenting, leaving the report for the end of the project.",
+            "He also feels that they should discuss some aspects of future work, for clarity's sake, with the visitor from OGI.",
+            "The main project the group is working on, Aurora, has a number of rules attaches as to what developers can and cannot play with, but this needs to be clarified.",
+            "The rules are adhered to in the small community, but make no sense from a broader research perspective.",
+            "While writing their report, mn007 and fn002 have noticed some tables contain only partial results, and there are things they do not recall the reasoning behind.",
+            "Speaker me018 has done a little initial research into the next area he is to look at, adjusting the scaling and the insertion penalties.",
+            "Playing with the latter made little difference, though was coming from a different feature set.",
+            "Speakers mn007 and fn002 have been working on their report, logically writing up everything they have done so far.",
+            "Mn007 has also been working with a new dataset, preparing it for use as a more realistic source of noise, though it is not clear if this is allowed.",
+            "Speaker me006 has continued to look at phonetic events, and has come up with a plan for his future work."
+        ],
+        "answer_sentence_index": [
+            "Bro016.s.1",
+            "Bro016.s.2",
+            "Bro016.s.3",
+            "Bro016.s.4",
+            "Bro016.s.5",
+            "Bro016.s.6",
+            "Bro016.s.7",
+            "Bro016.s.8",
+            "Bro016.s.9",
+            "Bro016.s.10",
+            "Bro016.s.11",
+            "Bro016.s.12",
+            "Bro016.s.13",
+            "Bro016.s.14",
+            "Bro016.s.15"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Been working on {pause} Meeting Recorder stuff ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 148,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Well , so we 've been mainly working on the report"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 153,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Any - anything new on the thing that , uh , you were working on with the , uh {disfmarker} ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I don't have results yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "How are , uh , uh {disfmarker} how are things going with what you 're doing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 416,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "So , I 'm {disfmarker} I 'm starting to write code now for my work"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 416,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "but I don't have any results yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 448,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "do you wanna {pause} say something about your stuff here ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 449,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "I {pause} just , um , continuing looking at , uh , ph uh , phonetic events ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so the experiment is to , um , run our front - end like normal , with the default , uh , insertion penalties and so forth ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "and then tweak that a little bit"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 453,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "I {disfmarker} I was thinking getting {disfmarker} getting us a set of acoustic events to {disfmarker} um , to be able to distinguish between , uh , phones and words and stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 464,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "There 's , um {disfmarker} in my mind , anyways , there 's a difference between , um , acoustic features and acoustic events ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 464,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And I think of acoustic features as being , um , things that linguists talk about ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 468,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "So they talk about features for phones ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "which may or may not be all that easy to measure in the acoustic signal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Versus an acoustic event , which is just {nonvocalsound} some {nonvocalsound} something in the acoustic signal {nonvocalsound} that is fairly easy to measure ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 190,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Just summary of the experiment and the conclusion"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "So , my suggestion , though , is that you {disfmarker} you not necessarily finish that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 195,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So that , you know {disfmarker} so that such a thing can be written ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "And right now it 's kind of important that we actually go forward with experiments ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 253,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "you know , th that they have tuned in some way for other things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 253,
+                    "sent_index": 7,
+                    "speaker": "Professor E",
+                    "content": "Maybe {disfmarker} that 's maybe a topic {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 253,
+                    "sent_index": 9,
+                    "speaker": "Professor E",
+                    "content": "that 's a topic you should discuss with Hynek"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so the experiment is to , um , run our front - end like normal , with the default , uh , insertion penalties and so forth ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "and then tweak that a little bit"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 40,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Looking at the {disfmarker} I wrote down what the deletions , substitutions , and insertions were ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 40,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "for different numbers of states per phone ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 55,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So maybe I can have that for next week when Hynek 's here ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 175,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , we work in the report , too ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "because we have a lot of result ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 179,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "and trying to pull it together into some coherent form to be able to see wha see what happens ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 181,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "y yeah . Basically we we 've stopped , uh , experimenting ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "So , my suggestion , though , is that you {disfmarker} you not necessarily finish that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "And right now it 's kind of important that we actually go forward with experiments ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 202,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So {disfmarker} so , I {disfmarker} I think it 's good to pause , and to gather everything together and make sure it 's in good shape ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "and so that it can go into a report in June ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 404,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "I think maybe we should , uh , try to integrate it in {disfmarker} in our system ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 410,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I think that would involve to {disfmarker} {vocalsound} to mmm {vocalsound} use a big {disfmarker} a {disfmarker} al already a big bunch of the system of Ericsson ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 412,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "and s I {disfmarker} I think it 's important , um , {vocalsound} to reduce this musical noise and this {disfmarker} this increase of variance during silence portions ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 412,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "This was in this would involve to take almost everything from {disfmarker} from the {disfmarker} this proposal"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "Well , this 'll be , I think , something for discussion with Hynek next week ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 27,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Uh , so the next question to ask , which is I think the one that {disfmarker} that {disfmarker} that Andreas was dre addressing himself to in the lunch meeting , is , um , we 're not supposed to adjust the back - end ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 135,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "As for these other things , it may turn out that , uh , {vocalsound} it 's kind of reasonable ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 7,
+                    "speaker": "Professor E",
+                    "content": "people {disfmarker} people within this tight - knit community who are doing this evaluation {vocalsound} are accepting , uh , more or less , that these are the rules ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 215,
+                    "sent_index": 13,
+                    "speaker": "PhD B",
+                    "content": "adding the noises from {disfmarker} from the SpeechDat - Car ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "that 's permitted ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 217,
+                    "sent_index": 4,
+                    "speaker": "PhD B",
+                    "content": "At some point they did that for {disfmarker} for the voice activity detector ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 7,
+                    "speaker": "Professor E",
+                    "content": "people {disfmarker} people within this tight - knit community who are doing this evaluation {vocalsound} are accepting , uh , more or less , that these are the rules ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 8,
+                    "speaker": "Professor E",
+                    "content": "But , people outside of it who look in at the broader picture are certainly gonna say \" Well , wait a minute . You 're doing all this standing on your head , uh , on the front - end ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 210,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Are you discovering anything , uh , that makes you scratch your head as you write this report ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 210,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "like why did we do that ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 210,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "or why didn't we do this ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 213,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "Actually , there were some tables that were also with partial results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 213,
+                    "sent_index": 4,
+                    "speaker": "PhD B",
+                    "content": "We just noticed that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 213,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "wh while gathering the result that for some conditions we didn't have everything ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 9,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "What 's your projection on {disfmarker} ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Cuz the one thing {disfmarker} the one thing that seems to me we really should try , if you hadn't tried it before , because it hadn't occurred to me {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "is , um , adjusting the , uh , sca the scaling and , uh , insertion penalty sorta stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I did play with that , actually , a little bit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Um . What happens is , uh , {vocalsound} when you get to the noisy stuff , you start getting lots of insertions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've tried playing around a little bit with , um , the insertion penalties and things like that ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 12,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Um . What happens is , uh , {vocalsound} when you get to the noisy stuff , you start getting lots of insertions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've tried playing around a little bit with , um , the insertion penalties and things like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "I mean , it {disfmarker} it didn't make a whole lot of difference ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "Like for the well - matched case , it seemed like it was pretty good ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "Well , so we 've been mainly working on the report"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 174,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So , what {disfmarker} wha {vocalsound} wh wha what what 's going on ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , we work in the report , too ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "because we have a lot of result ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 177,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "and was necessary to {disfmarker} to look in all the directory to {disfmarker} to {disfmarker} to give some more structure ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 179,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "and trying to pull it together into some coherent form to be able to see wha see what happens ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 215,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "We have , yeah , extracted actually the noises from {pause} the SpeechDat - Car ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 215,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "we can train neural network with speech and these noises ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "that 's permitted ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 217,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "OGI does {disfmarker} did that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 222,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "The rules as I understand it , is that in principle the Italian and the Spanish and the English {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 224,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "on which you could adjust things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 230,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "it {disfmarker} it doesn't appear that there 's strong evidence that even though things were somewhat tuned on those three or four languages , that {disfmarker} that going to a different language really hurt you ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 449,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "I {pause} just , um , continuing looking at , uh , ph uh , phonetic events ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 449,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "and , uh , this Tuesday gonna be , uh , meeting with John Ohala with Chuck to talk some more about these , uh , ph um , phonetic events ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 453,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "I {disfmarker} I was thinking getting {disfmarker} getting us a set of acoustic events to {disfmarker} um , to be able to distinguish between , uh , phones and words and stuff ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 453,
+                    "sent_index": 9,
+                    "speaker": "Grad A",
+                    "content": "Um , we could take these events and , um , {vocalsound} do some cheating experiments ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting took place close to the finalization of the model, so participants were focused on further experimentation they could conduct.",
+                    "It began with a discussion about how the backend system could be further improved.",
+                    "The team thought that perhaps they could tweak language scaling and insertion penalties to see how the model changed its performance.",
+                    "Then, the team moved into discussing methods for detecting voice segments in their results.",
+                    "Finally, the team spent some time exploring normalization techniques and acoustic events, both of which could potentially improve model performance."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 5,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "I won't be here Thursday and Friday ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 5,
+                            "sent_index": 5,
+                            "speaker": "Professor E",
+                            "content": "But my suggestion is that , uh , at least for this meeting , people should go ahead ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "So other than reading digits , what 's our agenda ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I don't really have , uh , anything new ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "but to first order , I would say that the conclusion is that if you , um , do , uh , some monkeying around with , uh , the exact HTK training and @ @ {comment} with , uh , you know , how many states and so forth , that it {disfmarker} it doesn't particularly improve the performance ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "if you were just adjusting the back - end , how much better would you do , uh , in noise ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "Uh , because the language scaling and insertion penalties and so forth are probably set to be about right for mel cepstrum ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "But , um , they 're probably not at all set right for these things ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "I think that 's , uh , @ @ {comment} that 's kind of a first - order thing that {disfmarker} that we should try ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "so the experiment is to , um , run our front - end like normal , with the default , uh , insertion penalties and so forth ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "and then tweak that a little bit"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "and see how much of a difference it makes"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 161,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Uh , to try to found , nnn , robust feature for detect between voice and unvoice ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 161,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "And we {disfmarker} w we try to use {vocalsound} the variance {vocalsound} of the es difference between the FFT spectrum and mel filter bank spectrum ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 213,
+                            "sent_index": 3,
+                            "speaker": "PhD B",
+                            "content": "Actually , there were some tables that were also with partial results ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 215,
+                            "sent_index": 3,
+                            "speaker": "PhD B",
+                            "content": "We have , yeah , extracted actually the noises from {pause} the SpeechDat - Car ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 283,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Do you have something simple in mind for {disfmarker} I mean , vocal tract length normalization ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Uh no . I hadn't {disfmarker} I hadn't thought {disfmarker} it was {disfmarker} thought too much about it , really ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "I mean , you could maybe use the ideas {disfmarker} a similar {pause} idea to what they do in vocal tract length normalization ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 404,
+                            "sent_index": 5,
+                            "speaker": "PhD B",
+                            "content": "I think maybe we should , uh , try to integrate it in {disfmarker} in our system ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 410,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "I think that would involve to {disfmarker} {vocalsound} to mmm {vocalsound} use a big {disfmarker} a {disfmarker} al already a big bunch of the system of Ericsson ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 412,
+                            "sent_index": 2,
+                            "speaker": "PhD B",
+                            "content": "and s I {disfmarker} I think it 's important , um , {vocalsound} to reduce this musical noise and this {disfmarker} this increase of variance during silence portions ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on the tax return",
+                "tokenized_answer": [
+                    "Grad D was focused on filing his taxes.",
+                    "He explained to the team that he had both Canadian and US income, so he had to file taxes in both countries for the preceding year."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 415,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "How are , uh , uh {disfmarker} how are things going with what you 're doing ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "I took a lot of time just getting my taxes out of the way {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "I took a lot of time just getting my taxes out of the way {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "multi - national taxes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 441,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "But not for this next year ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 443,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Ye"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 447,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Uh , I 'll {disfmarker} I 'll still have a bit of Canadian income"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 447,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "because I will not be a {disfmarker} considered a resident of Canada anymore ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 447,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "so I won't have to declare my American income on my Canadian return ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad D think about the tax return?",
+                "tokenized_answer": [
+                    "Grad D thought that his tax returns were taking too much time.",
+                    "He had started writing code for his work, however.",
+                    "He was expecting that his taxes would be easier next year, since he would not have to declare his Canadian income."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "I took a lot of time just getting my taxes out of the way {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 416,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "So , I 'm {disfmarker} I 'm starting to write code now for my work"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 441,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "But not for this next year ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 443,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Ye"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 447,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Uh , I 'll {disfmarker} I 'll still have a bit of Canadian income"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 447,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "but it 'll be less complicated"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 447,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "because I will not be a {disfmarker} considered a resident of Canada anymore ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 447,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "so I won't have to declare my American income on my Canadian return ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about the tax return?",
+                "tokenized_answer": [
+                    "The professor initially suggested that not making too much money made taxes easier.",
+                    "He learned that Canada wants taxes from Grad D. He also wanted to know if the same would hold for the coming year."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "That 's just {disfmarker} that 's {disfmarker} that 's one of the big advantages of not making much money is {vocalsound} the taxes are easier ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 436,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "Canada w Canada wants a cut ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 438,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Have to do {disfmarker} So you {disfmarker} you have to do two returns ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Mmm . W uh , for two thousand I did ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 442,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "Probably not this next year , I guess ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about acoustic events",
+                "tokenized_answer": [
+                    "Grad A explained that he was trying to collect a set of acoustic events to help distinguish between various linguistic features.",
+                    "The team distinguished between acoustic features and acoustic events.",
+                    "Acoustic events were a feature of the acoustic signal that could be derived from the data."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 453,
+                            "sent_index": 5,
+                            "speaker": "Grad A",
+                            "content": "I {disfmarker} I was thinking getting {disfmarker} getting us a set of acoustic events to {disfmarker} um , to be able to distinguish between , uh , phones and words and stuff ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 464,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "There 's , um {disfmarker} in my mind , anyways , there 's a difference between , um , acoustic features and acoustic events ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 464,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And I think of acoustic features as being , um , things that linguists talk about ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 466,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Stuff that 's not based on data , necessarily ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 472,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Versus an acoustic event , which is just {nonvocalsound} some {nonvocalsound} something in the acoustic signal {nonvocalsound} that is fairly easy to measure ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD F think about acoustic events?",
+                "tokenized_answer": [
+                    "PhD F explained the difference between acoustic features and acoustic events.",
+                    "Acoustic features are what linguists talk about whereas acoustic events are measurable properties of the acoustic signal, like its height."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 464,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "There 's , um {disfmarker} in my mind , anyways , there 's a difference between , um , acoustic features and acoustic events ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 464,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "And I think of acoustic features as being , um , things that linguists talk about ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 3,
+                            "speaker": "PhD F",
+                            "content": "like , uh , its height ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 472,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Versus an acoustic event , which is just {nonvocalsound} some {nonvocalsound} something in the acoustic signal {nonvocalsound} that is fairly easy to measure ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about acoustic events?",
+                "tokenized_answer": [
+                    "The professor recalled that the SPAM work had something similar to acoustic events, auditory events.",
+                    "He also informed the team that Professors Kollmeier and Professor Kleinschmidt will be visiting for six months, and they may know more about this topic."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 473,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "I mean , when we did the SPAM work {disfmarker} I mean , there we had {disfmarker} we had this notion of an , uh , auditory {disfmarker} @ @ {comment} auditory event ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 491,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "I forget if I already told you this ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 491,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "but , a couple people who are gonna be here for six months ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 493,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "uh , there 's a Professor Kollmeier , uh , from Germany"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 493,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "and , um , Michael Kleinschmidt , who 's worked with him ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 495,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "um , I think they 'll be interesting to talk to , in this sort of issue"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

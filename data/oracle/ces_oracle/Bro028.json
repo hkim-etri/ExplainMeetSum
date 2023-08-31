@@ -1,0 +1,402 @@
+{
+    "transcripts_id": "Bro028",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 499,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "n not {disfmarker} not so much in this meeting about Aurora ,"
+                },
+                {
+                    "turn_index": 12,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "and the only topic on the agenda was just to discuss"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but it 's , uh , m mainly a problem of memory ."
+                },
+                {
+                    "turn_index": 58,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "because it 's {disfmarker} it could be in ROM ,"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And {vocalsound} things get better when , instead of using the silence probability computed by the tandem network , we use the silence probability , uh , given by the VAD network ,"
+                },
+                {
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but it but {disfmarker} but the thing is that if you {disfmarker} {vocalsound} um , if you detect that there 's periodic {disfmarker} s strong periodic components , then you can use a voiced {disfmarker} voice thing ."
+                },
+                {
+                    "turn_index": 254,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , I wan would wanna drive it with a {disfmarker} a {disfmarker} a two - source system rather than a {disfmarker} than a one - source system ."
+                },
+                {
+                    "turn_index": 256,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Maybe {disfmarker} maybe , uh , {vocalsound} uh , without that , it 's {disfmarker} it 's not possible to do a whole lot better than we 're doing ."
+                },
+                {
+                    "turn_index": 321,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "they 're {disfmarker} I I 'm still waiting for them to {pause} release the , um , {vocalsound} multi - CPU version of their scripts ,"
+                },
+                {
+                    "turn_index": 321,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "cuz right now their script only handles processing on a single CPU ,"
+                },
+                {
+                    "turn_index": 384,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and so we can model them better ."
+                },
+                {
+                    "turn_index": 428,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "he might work on improving the noise estimate"
+                },
+                {
+                    "turn_index": 555,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "and , um , improve speech recognition in that way ."
+                },
+                {
+                    "turn_index": 12,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "a and to come at {disfmarker} uh , to get a decision about this latency problem ."
+                },
+                {
+                    "turn_index": 16,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "Uh , it means that it 's like eighty milliseconds {pause} less than before ."
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , that 's probably Aurora ."
+                },
+                {
+                    "turn_index": 156,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "but still , uh , {vocalsound} what happens is {disfmarker} is that , {vocalsound} uh , the digit error rate on this is around one percent ,"
+                },
+                {
+                    "turn_index": 158,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                },
+                {
+                    "turn_index": 276,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Um , while we 're still on Aurora stuff {pause} maybe you can talk a little about the status with the , uh , {vocalsound} Wall Street Journal {vocalsound} things for it ."
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 6,
+                    "speaker": "PhD A",
+                    "content": "They wrote some scripts that sort of make it easy to run {vocalsound} the system on the Wall Street Journal , uh , data ."
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So I 've , um , downloaded , uh , a couple of things from Mississippi State ."
+                },
+                {
+                    "turn_index": 345,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "so there was some talk about having Mississippi State run {pause} the systems for them ."
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "And , well , if {disfmarker} if Mississippi State runs it , then maybe they 'll do a little optimization on that {pause} parameter ,"
+                },
+                {
+                    "turn_index": 430,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                },
+                {
+                    "turn_index": 435,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                },
+                {
+                    "turn_index": 446,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "they said they s they sort of see it in a way as s for the speech case {comment} {disfmarker} as being kind of a generalization of spectral subtraction in a way ,"
+                },
+                {
+                    "turn_index": 475,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "And then , uh , for testing , uh , you can do it for one per utterance ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on LPC",
+            "oracle_info": [
+                {
+                    "turn_index": 158,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                },
+                {
+                    "turn_index": 185,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean , th the thing is LPC is not a {disfmarker} a really great representation of speech ."
+                },
+                {
+                    "turn_index": 165,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean {disfmarker} I mean , so {disfmarker} so the first is {vocalsound} that by doing LPC - twelve with synthesized speech w like you 're saying , uh , it 's {disfmarker} {vocalsound} i i you 're {disfmarker} you 're adding other degradation ."
+                }
+            ]
+        },
+        {
+            "query": "What did the Professor think about LPC?",
+            "oracle_info": [
+                {
+                    "turn_index": 165,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There 's two problems there ."
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "but you 're adding in fact some degradation"
+                },
+                {
+                    "turn_index": 167,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "What if you had {pause} done analysis {comment} re - synthesis and taken the pitch as well ?"
+                },
+                {
+                    "turn_index": 173,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "That would say at least for people , having the pitch is really , really important ,"
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "And that 's why I was saying it might be interesting if you {disfmarker} {vocalsound} an interesting test of this would be if you {disfmarker} if you actually put the pitch back in ."
+                },
+                {
+                    "turn_index": 260,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , other than the pitch de information , {vocalsound} it 's hard to imagine that there 's a whole lot more {vocalsound} in the signal that {disfmarker} that , uh {disfmarker} that we 're throwing away that 's important ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD D think about LPC?",
+            "oracle_info": [
+                {
+                    "turn_index": 158,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um , but what happens also is that if I listen to the , um {disfmarker} {nonvocalsound} a re - synthesized version of the speech"
+                },
+                {
+                    "turn_index": 158,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}"
+                },
+                {
+                    "turn_index": 160,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "well , you can argue , that , uh {disfmarker} that this is not speech ,"
+                },
+                {
+                    "turn_index": 178,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah . Well , the point is that eh l ey {disfmarker} the point is that , um , {vocalsound} what I {disfmarker} what I listened to when I re - synthesized the LP - the LPC - twelve {pause} spectrum {vocalsound} is in a way what the system , uh , is hearing ,"
+                },
+                {
+                    "turn_index": 178,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "well , the excitation is {disfmarker} is not taken into account ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on histogram equalization",
+            "oracle_info": [
+                {
+                    "turn_index": 422,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "but , uh , we had talked about , uh , {comment} Guenter {vocalsound} playing around , uh , uh , over in Germany"
+                },
+                {
+                    "turn_index": 424,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh , I saw that other mail where he said that he {disfmarker} {vocalsound} uh , it wasn't going to work for him to do CVS ."
+                },
+                {
+                    "turn_index": 428,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "or on {vocalsound} some histogram things ,"
+                },
+                {
+                    "turn_index": 430,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                },
+                {
+                    "turn_index": 430,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "but I just saw the {disfmarker} just read the paper ."
+                },
+                {
+                    "turn_index": 435,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                },
+                {
+                    "turn_index": 442,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So this is just a {disfmarker} a histogram of {disfmarker} of {vocalsound} the amplitudes , I guess ."
+                },
+                {
+                    "turn_index": 462,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But I should read the paper ."
+                },
+                {
+                    "turn_index": 479,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I didn't read carefully how they actually implemented it ,"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD D think about the paper?",
+            "oracle_info": [
+                {
+                    "turn_index": 430,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ?"
+                },
+                {
+                    "turn_index": 462,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But I should read the paper ."
+                },
+                {
+                    "turn_index": 462,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "I just went {pause} through the poster quickly ,"
+                },
+                {
+                    "turn_index": 435,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker}"
+                },
+                {
+                    "turn_index": 452,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So is this a histogram across different frequency bins ?"
+                },
+                {
+                    "turn_index": 456,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I think they have , yeah , different histograms ."
+                },
+                {
+                    "turn_index": 456,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Something like one per {pause} frequency band ,"
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So , one histogram per frequency bin ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD A think about histogram equalization?",
+            "oracle_info": [
+                {
+                    "turn_index": 476,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "and then you compare the histograms and that tells you {vocalsound} what to do to the utterance to make it more like {disfmarker} ?"
+                },
+                {
+                    "turn_index": 471,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And {disfmarker} and that {disfmarker} that , um , {pause} histogram represents {pause} the {pause} different energy levels that have been seen at that {pause} frequency ?"
+                }
+            ]
+        }
+    ]
+}

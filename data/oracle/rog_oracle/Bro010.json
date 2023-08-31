@@ -1,0 +1,294 @@
+{
+    "transcripts_id": "Bro010",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 34,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "one for the low frequency bands"
+                },
+                {
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "What was the total we ended up with through the whole system ?"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "which was done in the log domain"
+                },
+                {
+                    "turn_index": 154,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "or something like that ."
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "I wonder how they did do it ?"
+                },
+                {
+                    "turn_index": 331,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "That 's what spectral subtraction will help with , practically speaking ."
+                },
+                {
+                    "turn_index": 401,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "More or less ?"
+                },
+                {
+                    "turn_index": 423,
+                    "sent_index": 6,
+                    "speaker": "PhD A",
+                    "content": "What {disfmarker} what {disfmarker} what are they looking at ?"
+                },
+                {
+                    "turn_index": 578,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "That could help though ."
+                },
+                {
+                    "turn_index": 599,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "and I was {disfmarker} I was about to read them too ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about FIR filters and dealing with additive noise",
+            "oracle_info": [
+                {
+                    "turn_index": 18,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "that 's ."
+                },
+                {
+                    "turn_index": 34,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So they had two filters ,"
+                },
+                {
+                    "turn_index": 34,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "one for the low frequency bands"
+                },
+                {
+                    "turn_index": 34,
+                    "sent_index": 7,
+                    "speaker": "PhD B",
+                    "content": "So we have the filters"
+                },
+                {
+                    "turn_index": 58,
+                    "sent_index": 9,
+                    "speaker": "PhD B",
+                    "content": "this is the first thing ."
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "they were more or less trading computation for performance"
+                },
+                {
+                    "turn_index": 106,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "So , w th w this was a test that largely had additive noise"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "which was done in the log domain"
+                },
+                {
+                    "turn_index": 117,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "but it was ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about the length of silence before declaring an utterance?",
+            "oracle_info": [
+                {
+                    "turn_index": 115,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And I {disfmarker} I can't remember now off the top of my head how many frames of silence we had to detect before we would declare it to be the end of an utterance ."
+                },
+                {
+                    "turn_index": 117,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "I would say it was probably around the order of two hundred and fifty milliseconds ."
+                },
+                {
+                    "turn_index": 126,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "so you had a {disfmarker} a quarter second delay before , uh , plus some little processing time ,"
+                },
+                {
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And it felt to , uh , the users that it was instantaneous ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 106,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "And then someone else does something that 's straight forward ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 10,
+                    "speaker": "Professor C",
+                    "content": "I think you should be able to end up with a system that 's better than both"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about dealing with smaller features of recordings",
+            "oracle_info": [
+                {
+                    "turn_index": 409,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Well , the low level detectors are logistic regressions ."
+                },
+                {
+                    "turn_index": 411,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "the one o"
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "so that 's the product ."
+                },
+                {
+                    "turn_index": 423,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "like \" I 'm going to look for this particular feature"
+                },
+                {
+                    "turn_index": 425,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "What are their inputs ?"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about detecting smaller units of sound?",
+            "oracle_info": [
+                {
+                    "turn_index": 410,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So that , by the way , basically is a {disfmarker} is one of the units in our {disfmarker} in our {disfmarker} our neural network ."
+                },
+                {
+                    "turn_index": 412,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So that 's all it is ."
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "uh , with weighted sum at the input ,"
+                },
+                {
+                    "turn_index": 416,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "which you train by gradient {pause} descent ."
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 10,
+                    "speaker": "Professor C",
+                    "content": "they have to have targets ."
+                },
+                {
+                    "turn_index": 423,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And so are each of these , low level detectors {comment} {disfmarker} are they ,"
+                }
+            ]
+        },
+        {
+            "query": "What did Grade E think about sonorance?",
+            "oracle_info": [
+                {
+                    "turn_index": 407,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Um , but I 'm , uh , looking into extending the work done by Larry Saul and John Allen and uh Mazin Rahim ."
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 8,
+                    "speaker": "Grad E",
+                    "content": "they 're {disfmarker} they 're taking sub - band features and , um , training up a detector that detects for , um , these phonetic features"
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 12,
+                    "speaker": "Grad E",
+                    "content": "So , uh , on each sub - band you have several independent tests ,"
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "so that 's the product ."
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "then he has each of these AND things ."
+                },
+                {
+                    "turn_index": 434,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "So you can imagine building many of these detectors on different features ."
+                }
+            ]
+        }
+    ]
+}

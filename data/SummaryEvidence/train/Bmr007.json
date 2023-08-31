@@ -1,0 +1,1572 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group focussed its discussion on overlapping speech segments.",
+            "Speaker fe008 presented raw counts and percentages for one transcribed meeting, revealing a large number of overlaps throughout the 40-plus-minute transcript.",
+            "Efforts by speakers fe008 and fe016 are in progress to categorize and subcategorize types of overlapping speech and evaluate the contribution of multiple speakers in an interaction to the amount and types of overlap observed.",
+            "Speaker me011 described his attempts to automatically identify speakers via the close-talking microphone channels using thresholding and filtering methods and an existing speaker-change detection algorithm.",
+            "The group also tentatively discussed the erection of visual barriers during meeting recordings, and speaker me013 presented a list of work performed by BMR over the previous three months to be included in a forthcoming report to IBM.",
+            "For future meetings, speaker me011 will generate a system for mapping speakers and their positions in the recording room.",
+            "Speaker fe008 will analyze backchannels for a subset of meeting data and givee a report in the next meeting.",
+            "For language and dialogue modelling, current methods of marking and segmenting overlap are abstracted from real time, as individual speaker turns are indicated sequentially.",
+            "A large amount of data must be collected to address research questions concerning overlapping speech.",
+            "For automatic speaker identification, thresholding and filtering methods are sensitive regarding the particular filter width and threshold selected.",
+            "While such parameters can be finely tuned for one speaker to achieve good results, extending the same parameters to another speaker is problematic.",
+            "The broad phone classifier of the speaker-change detector is peforming poorly.",
+            "The prospect of erecting visual barriers during meetings would require partitioning off each of the participants.",
+            "Also, barriers that do not affect the overall room acoustics would be required.",
+            "Efforts are in progress to mark where regions of speaker overlap occur in meeting transcripts and note the number of speakers involved.",
+            "Such information is currently being encoded within relatively loose time boundaries.",
+            "A large number of overlapping speech regions were identified throughout one recorded meeting, wherein overlaps were found to occur in bursts, rather than being evenly distributed throughout the meeting.",
+            "A cursory analysis was done on regions of overlap involving two speakers to determine whether speakers are more likely to be overlapped with or to cause overlap with other speakers.",
+            "Attempts were also made to classify types of speaker overlap---e.g. backchannels, answering questions as they are being asked, and responding in unison---with future work focussed on subcategorizing types of backchannels.",
+            "Speaker fe016 is interested in the contribution of multiple speakers in an interaction to the amount and types of overlap observed, and comparing this to findings from the Switchboard corpus.",
+            "Future work includes generating predictive models of overlap, and the tentative erection of visual barriers during meeting recordings.",
+            "Speaker me011 described his attempts to automatically identify speakers via the close-talking microphone channels using thresholding and filtering methods and an existing speaker-change detection algorithm."
+        ],
+        "answer_sentence_index": [
+            "Bmr007.s.1",
+            "Bmr007.s.2",
+            "Bmr007.s.3",
+            "Bmr007.s.4",
+            "Bmr007.s.5",
+            "Bmr007.s.6",
+            "Bmr007.s.7",
+            "Bmr007.s.8",
+            "Bmr007.s.9",
+            "Bmr007.s.10",
+            "Bmr007.s.11",
+            "Bmr007.s.12",
+            "Bmr007.s.13",
+            "Bmr007.s.14",
+            "Bmr007.s.15",
+            "Bmr007.s.16",
+            "Bmr007.s.17",
+            "Bmr007.s.18",
+            "Bmr007.s.19",
+            "Bmr007.s.20",
+            "Bmr007.s.21",
+            "Bmr007.s.22"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 222,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "And what we 're doing now is , {pause} aside from the many other differences in the task , we are considering overlap"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 222,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "and one of the reasons that we 're considering it , {pause} you know , one of them not all of them , one of them is {vocalsound} that w uh at least , {pause} you know I 'm very interested in {vocalsound} the scenario in which , uh {pause} both people talking are pretty much equally {pause} audible , {vocalsound} and from a single microphone ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "Raw counts ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "so . Of the times a person spoke and furthermore was involved in a two two - person overlap , {vocalsound} {vocalsound} what percentage of the time were they the overlapper and what percent of the time were they th the overlappee ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 6,
+                    "speaker": "Postdoc F",
+                    "content": "but , of course , uh i e {vocalsound} this is just one meeting , {pause} uh {pause} there 's no statistical testing involved , and that would be {pause} required for a {disfmarker} for a finding {pause} of {pause} any {pause} kind of {pause} scientific {pause} reliability ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "it 's a forty {disfmarker} {pause} forty plus minute {pause} {vocalsound} meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "and not only were there two hundred and fifteen overlaps {vocalsound} {pause} but , {pause} uh I think there 's one {disfmarker} {pause} one minute there where there {disfmarker} where {disfmarker} where there wasn't any overlap ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 115,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Hundred ninety - seven ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "And {pause} it would be , you know {pause} of course , {pause} there 's also the question of what type of overlap was this , and w what were they ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 1,
+                    "speaker": "Postdoc F",
+                    "content": "and i and I {disfmarker} and I know that I can distinguish at least three types and , probably more ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "I mean , the {vocalsound} general {pause} {vocalsound} cultural idea which w uh , the conversation analysts originally started with in the seventies was that we have this {vocalsound} strict model where politeness involves that you let the person finish th before you start talking ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "and {pause} and you know , I mean , {pause} w we know that {disfmarker} {pause} an and they 've loosened up on that too s in the intervening time , that {pause} that that 's {disfmarker} that 's viewed as being {pause} a culturally - relative thing ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 4,
+                    "speaker": "Postdoc F",
+                    "content": "I mean , {pause} that you have the high - involvement style from the East Coast where people {vocalsound} will overlap often as an indication of interest in what the other person is saying ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 7,
+                    "speaker": "Postdoc F",
+                    "content": "So , uh , the point is that , um {pause} {vocalsound} overlap 's not necessarily a bad thing and that it would be im {pause} i useful to subdivide these further and see if there are individual differences in styles with respect to the types involved ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah , I 've been playing with , um uh , using the close - talking mike to do {disfmarker} to try to figure out who 's speaking ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So my first attempt was just using thresholding and filtering , that we talked about {disfmarker} about two weeks ago ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "OK and then the other thing I did , was I took {vocalsound} Javier 's speaker - change detector {disfmarker} acoustic - change detector , and I implemented that with the close - talking mikes ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 559,
+                    "sent_index": 11,
+                    "speaker": "Grad H",
+                    "content": "And what looks like it 's happening is that the {disfmarker} even on the close - talking mike the broad phone class classifier 's doing a really bad job ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 433,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And , {vocalsound} uh , {pause} and as a {disfmarker} to , um {vocalsound} as another c {pause} c comparison {pause} condition , {pause} we could um see what {disfmarker} what what happens in terms of overlap , when you don't have visual contact ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Or , this is getting a little extravagant , we could put up some kind of blinds or something to {disfmarker} {pause} to remove , uh {pause} visual contact ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 742,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "So this is the things that I think we did {vocalsound} in the last three months"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 742,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "Um {pause} in no particular order {vocalsound} uh , one , uh , ten more hours of meeting r meetings recorded , something like that , you know from {disfmarker} from , uh {pause} three months ago ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 742,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "Uh {pause} XML formats and other transcription aspects sorted out {pause} and uh {pause} sent to IBM ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 742,
+                    "sent_index": 8,
+                    "speaker": "Professor D",
+                    "content": "Um , pilot data put together and sent to IBM for transcription ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 463,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Why {disfmarker} why do we want to have a picture of the meeting ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "The {disfmarker} because you get then the spatial relationship of the speakers ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well , you could do that by just noting on the enrollment sheet the {disfmarker} {pause} the seat number ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I 'll do that on the next set of forms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 491,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "So I 'm gonna put little labels on all the chairs with the seat number ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 874,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "I think {disfmarker} what I {disfmarker} what this has , uh , caused me {disfmarker} so this discussion caused me to wanna subdivide these further ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 874,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "I 'm gonna take a look at the , uh {pause} backchannels ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 874,
+                    "sent_index": 4,
+                    "speaker": "Postdoc F",
+                    "content": "how much we have anal I hope to have that for next time ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 237,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "so , from the point of view of studying dialogue , I mean , which {pause} Dan Jurafsky and Andreas and I had some projects on , you want to know the sequence of turns ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 239,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So what happens is if you 're talking and I have a backchannel in the middle of your turn , and then you keep going what it looks like in a dialogue model is your turn and then my backchannel ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So , for things like language modeling or dialogue modeling {pause} {vocalsound} it 's {disfmarker} We know that that 's wrong in real time ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 245,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "But , because of the acoustic segmentations that were done and the fact that some of the acoustic data in Switchboard were missing , people couldn't study it ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 245,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "but that doesn't mean in the real world that people don't talk that way ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 385,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "You know , the other thing I was thinking was that , {pause} um {pause} these {disfmarker} all these interesting questions are , of course , pretty hard to answer with , uh u {pause} you know , a small amount of data ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So , um {pause} I wonder if what you 're saying suggests that we should make a conscious attempt to have , um {vocalsound} a {disfmarker} a fair number of meetings with , uh a smaller number of people ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah , I 've been playing with , um uh , using the close - talking mike to do {disfmarker} to try to figure out who 's speaking ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and so I played with that a little bit , and {vocalsound} it works O K , {pause} except that {pause} it 's very sensitive to your choice of {vocalsound} your filter width and your {vocalsound} threshold ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 536,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "So if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone 's talking and when they 're not ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 557,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "And that works O K , if you fil if you tune the filter parameters , if you tune {vocalsound} how long your median filter is and how high you 're looking for your thresholds ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "So if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone 's talking and when they 're not ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 4,
+                    "speaker": "Grad H",
+                    "content": "But if you try to use the same paramenters on another speaker , it doesn't work anymore ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "OK and then the other thing I did , was I took {vocalsound} Javier 's speaker - change detector {disfmarker} acoustic - change detector , and I implemented that with the close - talking mikes ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 11,
+                    "speaker": "Grad H",
+                    "content": "And what looks like it 's happening is that the {disfmarker} even on the close - talking mike the broad phone class classifier 's doing a really bad job ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 716,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "at least of this meeting that we have lots of recordings of"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 724,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "Actually {pause} well also {disfmarker} I {disfmarker} I can say I made barr barriers for {disfmarker} so that {disfmarker} the {pause} stuff I was doing with Collin wha {pause} which {pause} just used , um {pause} this {pause} kind of foam board ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 726,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "these are {pause} you know , pretty l large partitions ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 726,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "these are {pause} you know , pretty l large partitions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 728,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "so we need a barrier that doesn't disturb {pause} the sound ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "so {pause} Basically , {vocalsound} um {pause} as you know , uh {pause} part of the encoding {pause} includes a mark that indicates {pause} an overlap ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 50,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "It 's not indicated {pause} with , um {pause} uh , tight precision , it 's just indicated that {disfmarker} OK , so , It 's indicated to {disfmarker} to {disfmarker} so the people know {pause} what parts of sp which {disfmarker} which stretches of speech were in the clear , versus being overlapped by others ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "And , um {pause} What you can see is the number of overlaps {pause} and then {pause} to the right , {pause} whether they involve two speakers , three speakers , or more than three speakers ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "so {pause} Basically , {vocalsound} um {pause} as you know , uh {pause} part of the encoding {pause} includes a mark that indicates {pause} an overlap ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "It 's not indicated {pause} with , um {pause} uh , tight precision , it 's just indicated that {disfmarker} OK , so , It 's indicated to {disfmarker} to {disfmarker} so the people know {pause} what parts of sp which {disfmarker} which stretches of speech were in the clear , versus being overlapped by others ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 52,
+                    "sent_index": 4,
+                    "speaker": "Postdoc F",
+                    "content": "uh , you know {disfmarker} y this is just {disfmarker} {pause} eh {disfmarker} eh , this would {disfmarker} this is not statistically {pause} verified , {pause} but it {pause} did look to me as though there are bursts throughout , rather than being {pause} localized to a particular region ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "And , {pause} then if you look down in the summary table , {pause} then you see that , um {pause} th they 're differences in {pause} whether a person got overlapped with or {pause} overlapped by ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 3,
+                    "speaker": "Postdoc F",
+                    "content": "so . Of the times a person spoke and furthermore was involved in a two two - person overlap , {vocalsound} {vocalsound} what percentage of the time were they the overlapper and what percent of the time were they th the overlappee ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 5,
+                    "speaker": "Postdoc F",
+                    "content": "um , {pause} that some people tend to be overlapped {pause} with more often than they 're overlapped ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 6,
+                    "speaker": "Postdoc F",
+                    "content": "but , of course , uh i e {vocalsound} this is just one meeting , {pause} uh {pause} there 's no statistical testing involved , and that would be {pause} required for a {disfmarker} for a finding {pause} of {pause} any {pause} kind of {pause} scientific {pause} reliability ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 1,
+                    "speaker": "Postdoc F",
+                    "content": "and i and I {disfmarker} and I know that I can distinguish at least three types and , probably more ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 11,
+                    "speaker": "Postdoc F",
+                    "content": "So , um Then it beco {pause} though {disfmarker} so {disfmarker} just {disfmarker} just superficially to give {pause} um {pause} a couple ideas of the types of overlaps involved , I have at the bottom several that I noticed ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 12,
+                    "speaker": "Postdoc F",
+                    "content": "So , {pause} {vocalsound} uh , there are backchannels , like what Adam just did now"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 13,
+                    "speaker": "Postdoc F",
+                    "content": "and , um {pause} {vocalsound} um , anticipating the end of a question and {pause} simply answering it earlier ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 5,
+                    "speaker": "Postdoc F",
+                    "content": "And places {pause} also which I thought were interesting , where two or more people gave exactly th the same answer in unison {disfmarker} different words of course"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 357,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "Uh , to distinguish between , say , backchannels {vocalsound} {pause} precision timing {disfmarker} Sort of {vocalsound} you know , benevolent overlaps , and {disfmarker} and {disfmarker} {vocalsound} {pause} and w and {disfmarker} and sort of , um {pause} I don't know , hostile overlaps , where {vocalsound} someone is trying to grab the floor from someone else ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 213,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "So , the question is , you know , how many more overlaps {pause} {vocalsound} do you have {pause} of , say the two - person type , by adding more people . to a meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 229,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "and {pause} {vocalsound} I 'm wondering how much more {pause} overlap {pause} of {pause} the types that {disfmarker} that Jane described happen with more people present ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 229,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "So it may be that having three people {pause} {vocalsound} is very different from having two people or it may not be ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 280,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I 'm just {pause} {vocalsound} saying that it may {disfmarker} {pause} the reason you get overlaps may or may not be due to sort of the number of people in the meeting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 286,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "because some of the data say Switchboard , which isn't exactly the same kind of context ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 286,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "But we should still be able to somehow say what {disfmarker} what is the added contra contribution to sort of overlap time of each additional person , or something like that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Language model prediction of overlap , that would be really interesting ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 433,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And , {vocalsound} uh , {pause} and as a {disfmarker} to , um {vocalsound} as another c {pause} c comparison {pause} condition , {pause} we could um see what {disfmarker} what what happens in terms of overlap , when you don't have visual contact ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Or , this is getting a little extravagant , we could put up some kind of blinds or something to {disfmarker} {pause} to remove , uh {pause} visual contact ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah , I 've been playing with , um uh , using the close - talking mike to do {disfmarker} to try to figure out who 's speaking ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So my first attempt was just using thresholding and filtering , that we talked about {disfmarker} about two weeks ago ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "OK and then the other thing I did , was I took {vocalsound} Javier 's speaker - change detector {disfmarker} acoustic - change detector , and I implemented that with the close - talking mikes ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 559,
+                    "sent_index": 11,
+                    "speaker": "Grad H",
+                    "content": "And what looks like it 's happening is that the {disfmarker} even on the close - talking mike the broad phone class classifier 's doing a really bad job ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the Meeting ",
+                "tokenized_answer": [
+                    "Members of the team discussed options to encode aspects of conversation that cannot be captured through microphones.",
+                    "overlaps, as well as methods to deduce the length of pauses and the reasons behind them.",
+                    "This led to discussing how else to document the conversations, and archive each participant\u2019s responses separately."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "so {pause} Basically , {vocalsound} um {pause} as you know , uh {pause} part of the encoding {pause} includes a mark that indicates {pause} an overlap ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "It 's not indicated {pause} with , um {pause} uh , tight precision , it 's just indicated that {disfmarker} OK , so , It 's indicated to {disfmarker} to {disfmarker} so the people know {pause} what parts of sp which {disfmarker} which stretches of speech were in the clear , versus being overlapped by others ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "So , I {pause} used this mark and , um {pause} and , uh {pause} uh , {pause} divided the {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 52,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "And , um {pause} What you can see is the number of overlaps {pause} and then {pause} to the right , {pause} whether they involve two speakers , three speakers , or more than three speakers ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 160,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "You split this by minute , um {pause} so if an overlap straddles {pause} the boundary between two minutes , that counts towards both of those minutes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "Uh , so {pause} le let 's think about the case where {vocalsound} A starts speaking {pause} {vocalsound} and then B overlaps with A , {pause} and then the minute boundary happens ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "And let 's say that {vocalsound} after that minute boundary , {vocalsound} um {pause} B is still speaking , {pause} and A overlaps {pause} with B ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 161,
+                            "sent_index": 6,
+                            "speaker": "Postdoc F",
+                            "content": "But otherwise {pause} um , let 's say B {pause} comes to the conclusion of {disfmarker} of that turn without {pause} anyone overlapping with him or her ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 161,
+                            "sent_index": 7,
+                            "speaker": "Postdoc F",
+                            "content": "in which case there would be no overlap counted in that second minute ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 163,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "In that case , um {pause} my c {pause} the coding that I was using {disfmarker} {vocalsound} since we haven't , {pause} uh {pause} incorporated Adam 's , uh {pause} coding of overlap yets , the coding of"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 163,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "It would be an underestimate of the number of overlaps because , um {pause} I wou I wouldn't be able to pick it up from the way it was {pause} encoded so far ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 165,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "We just haven't done th the precise second to sec you know , {pause} second to second coding of when they occur ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 114,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "it 's a forty {disfmarker} {pause} forty plus minute {pause} {vocalsound} meeting ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "and not only were there two hundred and fifteen overlaps {vocalsound} {pause} but , {pause} uh I think there 's one {disfmarker} {pause} one minute there where there {disfmarker} where {disfmarker} where there wasn't any overlap ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 115,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Hundred ninety - seven ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "So four {disfmarker} four minutes all together with none {disfmarker} none ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "but , uh {pause} I {disfmarker} I will , uh I will do the {disfmarker} the study of the {disfmarker} {pause} with the {disfmarker} with the program with the {disfmarker} uh , the different , uh {pause} the , nnn , {pause} distribution of the duration of the overlaps ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Uh , i probably it 's very difficult to {disfmarker} to {disfmarker} because the {disfmarker} the overlap is , uh on is only the {disfmarker} in the final \" S \" of the {disfmarker} of the {disfmarker} the fin the {disfmarker} the end {disfmarker} the end word of the , um {pause} previous speaker {vocalsound} with the {disfmarker} the next word of the {disfmarker} the new speaker ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 163,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "Uh {vocalsound} since we haven't incorporated Adam 's method of handling overl overlaps yet {vocalsound} um {pause} then {pause} that would have fallen through the cra cracks ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So , in the two - person conversations , {pause} when there 's backchannel , is there a great deal of {pause} overlap {pause} in the speech ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 327,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "That is an earphone , so if you just put it {pause} so it 's on your ear ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 328,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "Cuz my impression is sometimes it happens when there 's a pause ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 334,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "you know , like you {disfmarker} you get a lot of backchannel , when somebody 's pausing"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 338,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "Um {pause} no , when {disfmarker} when {disfmarker} when there 's backchannel , I mean , just {disfmarker} I was just listening , and {disfmarker} and when there 's two people talking and there 's backchannel it seems like , {pause} um the backchannel happens when , you know , the pitch drops and the first person {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 341,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "I think there 's a lot of the kind that Jose was talking about , where {disfmarker} {pause} I mean , this is called \" precision timing \" in {pause} conversation analysis , where {pause} {vocalsound} they come in overlapping , {pause} but at a point where the {pause} information is mostly {pause} complete ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 341,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "So all you 're missing is some last syllables or something or the last word or some highly predictable words ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 343,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So technically , it 's an overlap ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 352,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Well , that 's exactly , exactly why we wanted to study the precise timing of overlaps ins in uh Switchboard ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 357,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "Uh , to distinguish between , say , backchannels {vocalsound} {pause} precision timing {disfmarker} Sort of {vocalsound} you know , benevolent overlaps , and {disfmarker} and {disfmarker} {vocalsound} {pause} and w and {disfmarker} and sort of , um {pause} I don't know , hostile overlaps , where {vocalsound} someone is trying to grab the floor from someone else ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 365,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "I ju I {disfmarker} I think that {pause} in this meeting I really had the feeling that wasn't happening , that {pause} the hostile {disfmarker} hostile type ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 365,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "These were {disfmarker} these were {pause} benevolent types , as people {pause} finishing each other 's sentences , and {pause} stuff ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 387,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Should we {pause} really try to have some two - person meetings , {pause} or some three - person meetings and re record them {vocalsound} just to {disfmarker} to {disfmarker} to beef up the {disfmarker} the statistics on that ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Yeah , I 've been playing with , um uh , using the close - talking mike to do {disfmarker} to try to figure out who 's speaking ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 536,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So my first attempt was just using thresholding and filtering , that we talked about {disfmarker} about two weeks ago ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 3,
+                            "speaker": "Grad H",
+                            "content": "So if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone 's talking and when they 're not ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 557,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "And that works O K , if you fil if you tune the filter parameters , if you tune {vocalsound} how long your median filter is and how high you 're looking for your thresholds ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 565,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Um {pause} So , at any rate , my next attempt , {pause} which I 'm in the midst of and haven't quite finished yet was actually using the {vocalsound} uh , thresholding as the way of generating the candidates ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 565,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "Because one of the things that definitely happens is if you put the threshold low {vocalsound} you get lots of breaks ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was said about the overlaps? ",
+                "tokenized_answer": [
+                    "PhD G explained how the data represents the number of overlaps regardless of the number of speakers.",
+                    "It is important to  answer the question of whether overlaps are distributed evenly throughout or whether they are in bursts.",
+                    "Anonymizing the results and classifying overlaps by type may assist in standardizing cultural ways of conversing.",
+                    "PhD G proposed finding the average length of overlaps and the distribution of the duration of overlaps ."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "so {pause} Basically , {vocalsound} um {pause} as you know , uh {pause} part of the encoding {pause} includes a mark that indicates {pause} an overlap ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "It 's not indicated {pause} with , um {pause} uh , tight precision , it 's just indicated that {disfmarker} OK , so , It 's indicated to {disfmarker} to {disfmarker} so the people know {pause} what parts of sp which {disfmarker} which stretches of speech were in the clear , versus being overlapped by others ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 5,
+                            "speaker": "Postdoc F",
+                            "content": "I wrote a script {pause} which divides things into individual minutes , {pause} of which we ended up with forty {pause} five , and a little bit ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "And , um {pause} What you can see is the number of overlaps {pause} and then {pause} to the right , {pause} whether they involve two speakers , three speakers , or more than three speakers ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "And , {pause} um {pause} and , what I was looking for sp sp specifically was the question of {pause} whether they 're distributed evenly throughout or whether they 're {pause} bursts of them ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 52,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "And {pause} it looked to me as though {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 52,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "uh , you know {disfmarker} y this is just {disfmarker} {pause} eh {disfmarker} eh , this would {disfmarker} this is not statistically {pause} verified , {pause} but it {pause} did look to me as though there are bursts throughout , rather than being {pause} localized to a particular region ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 85,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "And I 'm {pause} you know , I 'm {disfmarker} I don't see a point of singling people out ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 90,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "Well , {vocalsound} you know , it 's like {disfmarker} I 'm not {disfmarker} I 'm not saying on the tape who did {pause} better or worse"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 93,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "because {pause} I don't think that it 's {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "and {disfmarker} and th here 's a case where of course , human subjects people would say be sure that you anonymize the results , {pause} and {disfmarker} and , so , might as well do this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Yeah , when {disfmarker} this is what {disfmarker} This is actually {disfmarker} when Jane sent this email first , is what caused me to start thinking about anonymizing the data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 98,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "And actually , {pause} you know , the point is not about an individual , it 's the point about {pause} tendencies toward {pause} you know , different styles , different speaker styles ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "And {pause} it would be , you know {pause} of course , {pause} there 's also the question of what type of overlap was this , and w what were they ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "and i and I {disfmarker} and I know that I can distinguish at least three types and , probably more ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "I mean , the {vocalsound} general {pause} {vocalsound} cultural idea which w uh , the conversation analysts originally started with in the seventies was that we have this {vocalsound} strict model where politeness involves that you let the person finish th before you start talking ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "and {pause} and you know , I mean , {pause} w we know that {disfmarker} {pause} an and they 've loosened up on that too s in the intervening time , that {pause} that that 's {disfmarker} that 's viewed as being {pause} a culturally - relative thing ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "I mean , {pause} that you have the high - involvement style from the East Coast where people {vocalsound} will overlap often as an indication of interest in what the other person is saying ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 105,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "And {disfmarker} and , {pause} you know , in contrast , so Deborah {disfmarker} d and also Deborah Tannen 's {pause} thesis"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 105,
+                            "sent_index": 3,
+                            "speaker": "Postdoc F",
+                            "content": "she talked about differences of these types , {pause} that they 're just different styles ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 105,
+                            "sent_index": 5,
+                            "speaker": "Postdoc F",
+                            "content": "and {pause} you know , conversational analysts also agree with that ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 105,
+                            "sent_index": 10,
+                            "speaker": "Postdoc F",
+                            "content": "I mean they {disfmarker} they {pause} also {pause} {vocalsound} you know , uh {pause} uh , ack acknowledge the influence of {pause} sub of subcultural norms and {pause} cross - cultural norms and things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "and not only were there two hundred and fifteen overlaps {vocalsound} {pause} but , {pause} uh I think there 's one {disfmarker} {pause} one minute there where there {disfmarker} where {disfmarker} where there wasn't any overlap ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 127,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "It 'd be interesting to see what the total amount of time is in the overlaps , versus {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 128,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "Yes , exactly and that 's {disfmarker} that 's where Jose 's pro project comes in ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 130,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I was about to ask {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 136,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "O oh , what 's {disfmarker} what 's the {disfmarker} what 's the average {pause} length ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "M I {disfmarker} I haven't averaged it now"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "but , uh {pause} I {disfmarker} I will , uh I will do the {disfmarker} the study of the {disfmarker} {pause} with the {disfmarker} with the program with the {disfmarker} uh , the different , uh {pause} the , nnn , {pause} distribution of the duration of the overlaps ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 138,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "OK , you {disfmarker} you don you don't have a feeling for roughly how {pause} much it is ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 141,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "The duration is , uh {pause} the variation {disfmarker} the variation of the duration is uh , very big on the dat"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about Switchboard?",
+                "tokenized_answer": [
+                    "Professor D said Switchboard does not allow for accurate recording of backchannels, especially with a smaller audience.",
+                    "Backchannels , which are the vast majority of overlaps in Switchboard don't play as big a role online, because it 's unnatural to backchannel with a multi- person audience."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 208,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "I think what 's really interesting though , it is {pause} before d {pause} saying \" yes , meetings have a lot of overlaps \" is to actually find out how many more {pause} we have than two - party ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 210,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Cuz in two - party conversations , like Switchboard , there 's an awful lot too if you just look at backchannels , if you consider those overlaps ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 213,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "So , the question is , you know , how many more overlaps {pause} {vocalsound} do you have {pause} of , say the two - person type , by adding more people . to a meeting ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 216,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "because {pause} since we were dealing with this full duplex sort of thing in Switchboard where it was just all separated out {vocalsound} we just {disfmarker} everything was just nice ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 219,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Well , it 's not really {pause} \" nice \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 219,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "It depends what you 're doing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 219,
+                            "sent_index": 6,
+                            "speaker": "PhD B",
+                            "content": "So the question is , you know {disfmarker} \" are there really more overlaps happening than there would be in a two - person {pause} party \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "What {disfmarker} what I {disfmarker} what {disfmarker} I shouldn't use words like \" nice \" because maybe that 's too {disfmarker} i too imprecise ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "But what I mean is {vocalsound} that , um in Switchboard , {pause} despite the many {disfmarker} many other problems that we have , one problem that we 're not considering is overlap ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "and one of the reasons that we 're considering it , {pause} you know , one of them not all of them , one of them is {vocalsound} that w uh at least , {pause} you know I 'm very interested in {vocalsound} the scenario in which , uh {pause} both people talking are pretty much equally {pause} audible , {vocalsound} and from a single microphone ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 222,
+                            "sent_index": 5,
+                            "speaker": "Professor D",
+                            "content": "And so , {pause} in that case , it does get mixed in , {vocalsound} and it 's pretty hard to jus {pause} to just ignore it , to just do processing on one and not on the other ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 232,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I think what I 'm {disfmarker} {pause} All I 'm s really saying is that I don't think we were considering that in Switchboard ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 268,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "In a way , I guess what I 'm comparing to is more the common sense notion of {vocalsound} how {disfmarker} how much people overlap ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 268,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Uh {pause} you know the fact that when {disfmarker} when {disfmarker} when , uh , Adam was looking for a stretch of {disfmarker} of speech before , that didn't have any overlaps , and he w he was having such a hard time"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 307,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I {disfmarker} I have a feeling that backchannels , which are the vast majority of overlaps in Switchboard , {pause} uh , don't play as big a role here , because it 's very unnatural I think , to backchannel if {disfmarker} in a multi - audience {disfmarker} you know , in a multi - person {vocalsound} {pause} audience ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize what was said on Control and Further Modifications",
+                "tokenized_answer": [
+                    "Postdoc F said or a control experiment,  having a number of meetings with a smaller group of people may be useful.",
+                    "Since most of the meetings currently have between five and eight people, the control would have three person meetings."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 385,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "You know , the other thing I was thinking was that , {pause} um {pause} these {disfmarker} all these interesting questions are , of course , pretty hard to answer with , uh u {pause} you know , a small amount of data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So , um {pause} I wonder if what you 're saying suggests that we should make a conscious attempt to have , um {vocalsound} a {disfmarker} a fair number of meetings with , uh a smaller number of people ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 387,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "I mean {vocalsound} we {disfmarker} most of our meetings are {pause} uh , meetings currently with say five , six , seven , eight people"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 387,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Should we {pause} really try to have some two - person meetings , {pause} or some three - person meetings and re record them {vocalsound} just to {disfmarker} to {disfmarker} to beef up the {disfmarker} the statistics on that ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 388,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "That 's a control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 388,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "Well , {vocalsound} it seems like there are two possibilities there ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 388,
+                            "sent_index": 2,
+                            "speaker": "Postdoc F",
+                            "content": "I mean {pause} i it seems like {vocalsound} if you have just {pause} two people it 's not {pause} really , y like a meeting , w is not as similar as the rest of the {disfmarker} {pause} of the sample ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 388,
+                            "sent_index": 4,
+                            "speaker": "Postdoc F",
+                            "content": "but {vocalsound} It seems like that would be more a case of the control condition , compared to , uh {pause} an experimental {pause} condition , with more than two ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 392,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "You wouldn't have that difference {pause} also that you have in the {vocalsound} say , in Switchboard data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 393,
+                            "sent_index": 1,
+                            "speaker": "Postdoc F",
+                            "content": "Yeah , I 'm just thinking that 'd be more like a c control condition ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 397,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Well , but from the acoustic point of view , it 's all good ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So , um {pause} I wonder if what you 're saying suggests that we should make a conscious attempt to have , um {vocalsound} a {disfmarker} a fair number of meetings with , uh a smaller number of people ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "I mean {vocalsound} we {disfmarker} most of our meetings are {pause} uh , meetings currently with say five , six , seven , eight people"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Should we {pause} really try to have some two - person meetings , {pause} or some three - person meetings and re record them {vocalsound} just to {disfmarker} to {disfmarker} to beef up the {disfmarker} the statistics on that ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 388,
+                            "sent_index": 0,
+                            "speaker": "Postdoc F",
+                            "content": "That 's a control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 390,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , Liz was raising the question of {disfmarker} of whether i it 's the number {disfmarker} there 's a relationship between the number of people and the number of overlaps or type of overlaps there ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 416,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Do you think that would be useful ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 416,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "I 'm just thinking that as an action item of whether we should try to record some two - person meetings or something ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 419,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "but that {vocalsound} in normal conversation with two people there 's an awful lot of the same kinds of overlap ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 419,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "and that it would be interesting to look at {pause} whether there are these kinds of constraints that Jane mentioned , that {vocalsound} what maybe the additional people add to this competition that happens right after a turn ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team say on experiments?",
+                "tokenized_answer": [
+                    "Grad H has been experimenting with using the close - talking mike to decipher who is speaking .",
+                    "The first attempt was thresholding and filtering , which is very sensitive to the choice of filter width and threshold .",
+                    "It does allow for effective segmenting when someone 's talking and when they are not ."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 534,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Speaking of taking control , you said you had some research to talk about ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Yeah , I 've been playing with , um uh , using the close - talking mike to do {disfmarker} to try to figure out who 's speaking ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So my first attempt was just using thresholding and filtering , that we talked about {disfmarker} about two weeks ago ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "and so I played with that a little bit , and {vocalsound} it works O K , {pause} except that {pause} it 's very sensitive to your choice of {vocalsound} your filter width and your {vocalsound} threshold ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 536,
+                            "sent_index": 3,
+                            "speaker": "Grad H",
+                            "content": "So if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone 's talking and when they 're not ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 536,
+                            "sent_index": 4,
+                            "speaker": "Grad H",
+                            "content": "But if you try to use the same paramenters on another speaker , it doesn't work anymore ,"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

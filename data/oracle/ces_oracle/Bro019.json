@@ -1,0 +1,372 @@
+{
+    "transcripts_id": "Bro019",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 3,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Uh Chuck , is the mike type wireless {disfmarker}"
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "and then just uh , I guess uh , progress reports individually , and then uh , plans for where we go between now and then , pretty much ."
+                },
+                {
+                    "turn_index": 358,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "which I already tested but without the um frame dropping actually ,"
+                },
+                {
+                    "turn_index": 538,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I tried to include another new parameter to the traditional parameter ,"
+                },
+                {
+                    "turn_index": 540,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "the coe the cepstrum coefficient ,"
+                },
+                {
+                    "turn_index": 694,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Suni - i d ' you v did uh {disfmarker} did you find a place ?"
+                },
+                {
+                    "turn_index": 725,
+                    "sent_index": 8,
+                    "speaker": "Grad E",
+                    "content": "And he wanted to look at um , how the energy is moving {pause} over time in that spectrum"
+                },
+                {
+                    "turn_index": 147,
+                    "sent_index": 8,
+                    "speaker": "PhD A",
+                    "content": "uh , showing any improvement over {disfmarker} final {disfmarker} by plugging in an LDA ."
+                },
+                {
+                    "turn_index": 147,
+                    "sent_index": 29,
+                    "speaker": "PhD A",
+                    "content": "I found that the baseline itself improves by twenty - two percent by just giving the wuh ."
+                },
+                {
+                    "turn_index": 376,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "but I don't know what are the , pros and cons of both ."
+                },
+                {
+                    "turn_index": 398,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "maybe it would work better if you 'd already done some simple spectral subtraction ,"
+                },
+                {
+                    "turn_index": 402,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So I 've been thinking about combining the Wiener filtering with signal subspace ,"
+                },
+                {
+                    "turn_index": 404,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "I mean just to see all {disfmarker} some {disfmarker} some such permutation combination to see whether it really helps or not ."
+                },
+                {
+                    "turn_index": 550,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "You can extend the coefficient of the mel filter bank and obtain an approximation of the spectrum of the signal ."
+                },
+                {
+                    "turn_index": 560,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "The idea is to found another feature for discriminate between voice sound and unvoice sound ."
+                },
+                {
+                    "turn_index": 568,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "n with the neural network I have more or less the same result ."
+                },
+                {
+                    "turn_index": 554,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I found a difference at the variance of this different"
+                },
+                {
+                    "turn_index": 687,
+                    "sent_index": 9,
+                    "speaker": "Grad G",
+                    "content": "um , other than that , uh , I was kicked out of I - house for living there for four years ."
+                },
+                {
+                    "turn_index": 714,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "You know , if you 're in a desperate situation and you need a place to stay , you could stay with me for a while ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about microphone issues",
+            "oracle_info": [
+                {
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "but they weren't so close that they got quite the {disfmarker} you know , the really good {disfmarker} No , th"
+                },
+                {
+                    "turn_index": 13,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "They were not so far away that they were really good representative distant mikes ,"
+                },
+                {
+                    "turn_index": 17,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "uh , little mouth clicks and breaths and so forth are worse with these than with the lapel ,"
+                },
+                {
+                    "turn_index": 17,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "given the choice we {disfmarker} there seemed to be very strong opinions for uh , getting rid of lapels ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD F think about computational resources?",
+            "oracle_info": [
+                {
+                    "turn_index": 56,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "uh I fired off a training job ,"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 5,
+                    "speaker": "PhD F",
+                    "content": "and then I fired off a recognition job"
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "s my m my jobs are not getting run . \""
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 8,
+                    "speaker": "PhD F",
+                    "content": "So I had to back off a little bit ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 10,
+                    "speaker": "PhD F",
+                    "content": "soon as we get some more machines then uh {disfmarker} then we 'll have more compute available ."
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "so it 's sort of a sharing thing ."
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So all twenty - five people were sending things to all twenty - five machines"
+                },
+                {
+                    "turn_index": 64,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "But you probably wanna be careful with that"
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "because um , you don't wanna saturate the network ."
+                },
+                {
+                    "turn_index": 90,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So it {disfmarker} it 's {disfmarker} it 's not systematically queued ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor say about the workshop?",
+            "oracle_info": [
+                {
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "I remember I {disfmarker} I forget whether it was when the Rutgers or {disfmarker} or Hopkins workshop ,"
+                },
+                {
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "I remember one of the workshops I was at there were {disfmarker} everybody was real excited cuz they got twenty - five machines"
+                },
+                {
+                    "turn_index": 75,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and {vocalsound} and things were a lot less efficient than if you 'd just use your own machine ."
+                },
+                {
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So as I understand , you know , he 's using all the machines and you 're using all the machines ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about spectral subtraction",
+            "oracle_info": [
+                {
+                    "turn_index": 359,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Is it {disfmarker} is spectral subtraction typically done on the {disfmarker} after the mel , uh , scaling"
+                },
+                {
+                    "turn_index": 359,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "or is it done on the FFT bins ?"
+                },
+                {
+                    "turn_index": 376,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "but I don't know what are the , pros and cons of both ."
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So essentially you could do simple spectral subtraction , followed by a KL transform , followed by a"
+                },
+                {
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "If you look at what JRASTA doing essentially i i it 's equivalent to sort of adding a little {disfmarker} adding a little noise ,"
+                },
+                {
+                    "turn_index": 444,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "in order to get rid of the effects of noise ."
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "and they have implementation of VTS techniques"
+                }
+            ]
+        },
+        {
+            "query": "What did the team say about the person in Grenada?",
+            "oracle_info": [
+                {
+                    "turn_index": 447,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "and they have implementation of VTS techniques"
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "so it 's um , Vector Taylor Series that are used to mmm , {vocalsound} uh f to model the transformation between clean cepstra and noisy cepstra ."
+                },
+                {
+                    "turn_index": 451,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So there is one guy in Grenada ,"
+                },
+                {
+                    "turn_index": 456,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Uh , Jose Carlos Segura ."
+                },
+                {
+                    "turn_index": 457,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "I don't know him ."
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "This VTS has been proposed by CMU ?"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the Wiener filter?",
+            "oracle_info": [
+                {
+                    "turn_index": 406,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "I {disfmarker} I guess I 'm ignorant about this ,"
+                },
+                {
+                    "turn_index": 406,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "I mean , since Wiener filter also assumes that you 're {disfmarker} that you 're adding together the two signals , how is {disfmarker} how is that differ from signal subspace ?"
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "I see ."
+                },
+                {
+                    "turn_index": 414,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So essentially you could do simple spectral subtraction , followed by a KL transform , followed by a"
+                },
+                {
+                    "turn_index": 415,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Wiener filtering ."
+                }
+            ]
+        }
+    ]
+}
