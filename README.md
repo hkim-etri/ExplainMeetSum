@@ -120,11 +120,11 @@ You can see other results by editing `config.py`.
 
 ### Evaluation
 First download the checkpoints of Multi-DYLE from [Google Drive](https://drive.google.com/drive/u/2/folders/1IL9NoqsQbhzk-ALg2_BJXZBgznKOW5Zv).\
-Place the `*.ckpt` files under `MultiDyle/outputs/multidyle-best-model/`
+Place the folder under `MultiDyle/outputs/multidyle-best-model/`
 ```
 sh test_multi_dyle.sh
 ```
-Result is same as table below.\
+Results will be same as table below.\
 You can see other results by editing `config.py`.
 
 ### Results
@@ -133,22 +133,30 @@ You can see other results by editing `config.py`.
 |-|-|-|-|-|
 |$\text{Multi-DYLE}(\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o})$||**37.55**|**12.43**|**32.76**|
 
-* $\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o}$ : Train with sentence-level oracle and sentence-level CESs.
+* ($\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o}$) : Train with sentence-level ROUGE-based and CES-based extractive oracles.
 
 ## Acknowledgements
-Dataset named ExplainMeetSum is extended-version of QMSum([https://github.com/Yale-LILY/QMSum](https://github.com/Yale-LILY/QMSum)) for "[QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization](https://arxiv.org/pdf/2104.05938v1.pdf)", which distributed under MIT License Copyright (c) 2021 Yale-LILY.
+Dataset named ExplainMeetSum is extended-version of QMSum([https://github.com/Yale-LILY/QMSum](https://github.com/Yale-LILY/QMSum)) for "[QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization](https://arxiv.org/pdf/2104.05938v1.pdf)," which distributed under MIT License Copyright (c) 2021 Yale-LILY.
 
-Model named Multi-DYLE is extended-version of DYLE([https://github.com/Yale-LILY/DYLE](https://github.com/Yale-LILY/DYLE)) for "[DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization](https://arxiv.org/pdf/2110.08168.pdf)", which distributed under MIT License Copyright (c) 2021 Yale-LILY.
+Model named Multi-DYLE is extended-version of DYLE([https://github.com/Yale-LILY/DYLE](https://github.com/Yale-LILY/DYLE)) for "[DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization](https://arxiv.org/pdf/2110.08168.pdf)," which distributed under MIT License Copyright (c) 2021 Yale-LILY.
 
 ## Citation
-If you extend or use our work, pleas cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf)
+If you extend or use our work, please cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf)
 
 ```bibtex
-@inproceedings{kim2023explainmeetsum,
-  title={ExplainMeetSum: A Dataset for Explainable Meeting Summarization Aligned with Human Intent},
-  author={Kim, Hyun and Cho, Minsoo and Na, Seung-Hoon},
-  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  pages={13079--13098},
-  year={2023}
+@inproceedings{kim-etal-2023-explainmeetsum,
+    title = "{E}xplain{M}eet{S}um: A Dataset for Explainable Meeting Summarization Aligned with Human Intent",
+    author = "Kim, Hyun  and
+      Cho, Minsoo  and
+      Na, Seung-Hoon",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.731",
+    doi = "10.18653/v1/2023.acl-long.731",
+    pages = "13079--13098",
 }
+
 ```
