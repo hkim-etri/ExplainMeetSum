@@ -117,12 +117,12 @@ With one NVIDIA RTX A6000, spent about **2h per epoch**.\
 You can see other results by editing `config.py`.
 
 ### Evaluation
-First download the checkpoints of Multi-DYLE from [Google Drive]().\
+First download the checkpoints of Multi-DYLE from [Google Drive](https://drive.google.com/drive/u/2/folders/1IL9NoqsQbhzk-ALg2_BJXZBgznKOW5Zv).\
 Place the folder under `MultiDyle/outputs/multidyle-best-model/`
 ```
 sh test_multi_dyle.sh
 ```
-Result is same as table below.\
+Results will be same as table below.\
 You can see other results by editing `config.py`.
 
 ### Results
