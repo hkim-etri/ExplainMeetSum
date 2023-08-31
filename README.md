@@ -25,12 +25,12 @@ conda create -n explainmeetsum
 conda activate explainmeetsum
 ```
 
-## Dataset
+## Dataset (ExplainMeetSum)
 
 **ExplainMeetSum** dataset is augmented version of [QMSUM](https://github.com/Yale-LILY/QMSum), by newly annotating **evidence sentences** that faithfully "explain" a summary.
 
 > Note: covid_1.json in QMSum is excluded \
-> $\to$ [REASON]
+> $\to$ There's some problems found to be used as dataset
 
 ### Folder Structure
 ```
@@ -89,10 +89,12 @@ So, you need original QMSum/ dataset.
 We splited `meeting_transcripts` of ICSI and Ami dataset in QMSum by using dialogue act files.\
 So, you need acl2018_abssumm/ for dialogue act files.
 
-## Model
-> _To be written_
+## Model (Multi-DYLE)
+**Multy-DYLE** model extensively generalizes DYLE to enable using a supervised
+extractor based on **human-aligned extractive oracles**.
 
 ![](img/model_structure.png)
+An overall architecture of the proposed Multi-DYLE for the case of $M$ = 2
 
 ### Dependency
 Install dependencies via:
@@ -117,8 +119,8 @@ With one NVIDIA RTX A6000, spent about **2h per epoch**.\
 You can see other results by editing `config.py`.
 
 ### Evaluation
-First download the checkpoints of Multi-DYLE from [Google Drive]().\
-Place the folder under `MultiDyle/outputs/multidyle-best-model/`
+First download the checkpoints of Multi-DYLE from [Google Drive](https://drive.google.com/drive/u/2/folders/1IL9NoqsQbhzk-ALg2_BJXZBgznKOW5Zv).\
+Place the `*.ckpt` files under `MultiDyle/outputs/multidyle-best-model/`
 ```
 sh test_multi_dyle.sh
 ```
