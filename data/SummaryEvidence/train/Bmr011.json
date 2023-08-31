@@ -1,0 +1,966 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group discussed recording equipment and setup issues, recent developments in the transcription effort, other potential types of tagging to be assigned to transcribers, and the post-processing of waveforms.",
+            "The discussion was largely focused on efforts to facilitate transcriptions, including the improvement of strategies for transcribing overlapping speech, and achieving greater uniformity in the type of equipment used during recordings and the manner in which recording devices are worn by speakers.",
+            "To achieve greater uniformity in across-speaker recording conditions, the group decided to purchase three additional head-mounted microphones.",
+            "Future work will include recording more varied meeting data from non-ICSI discussion groups.",
+            "It was proposed by speaker fe016 that better communication be established between researchers involved in post-processing of the waveform and ASR.",
+            "Use of dissimilar microphones adds an extra, unwanted variable to individual speaker recordings.",
+            "Similarly, differences in the type of recording equipment used and the manner in which microphones are worn by speakers causes problems for the transcription effort.",
+            "Setting up a microphone array and performing video recordings (in a possible collaboration with NIST) are problematic due to the types of changes in infrastructure they require.",
+            "IBM's single-channel approach to transcriptions may pose problems for the post-processing of waveforms and forced alignments, as the group foresees difficulties in referencing chopped segments back to the original times/locations from which they were extracted.",
+            "Another post-processing problem involves cross-talk, and, in particular, situations in which a speaker whose contributions to the discussion are relatively sparse but whose microphone picks up signals from the other speakers.",
+            "Modifications are being made to multi-trans to enable tight time markings at the boundaries of overlapping speech segments, and facilitate the transcription of such segments.",
+            "Pre-segmentation continues to be very beneficial to the transcription effort.",
+            "Work by speaker mn014 is in progress to compare the energies of different channels for detecting speech/non-speech portions, facilitating transcriptions,and potentially providing speaker identification information.",
+            "Efforts are being developed to create a cross-correlation setup linking recorded data with a map of where individual speakers were seated.",
+            "The transcriber pool has been performing within the expected range of work completed per the amount of time spent transcribing.",
+            "IBM has a team of people employed to transcribe meeting data, and who are transcribing single versus multiple channels.",
+            "The group discussed the potential for assigning additional tasks to ICSI's transcriber pool, including tagging more fine-grained acoustic information, and discourse and disfluency tagging."
+        ],
+        "answer_sentence_index": [
+            "Bmr011.s.1",
+            "Bmr011.s.2",
+            "Bmr011.s.3",
+            "Bmr011.s.4",
+            "Bmr011.s.5",
+            "Bmr011.s.6",
+            "Bmr011.s.7",
+            "Bmr011.s.8",
+            "Bmr011.s.9",
+            "Bmr011.s.10",
+            "Bmr011.s.11",
+            "Bmr011.s.12",
+            "Bmr011.s.13",
+            "Bmr011.s.14",
+            "Bmr011.s.15",
+            "Bmr011.s.16",
+            "Bmr011.s.17"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Uh , I guess just hear about how things are going with , uh , uh , the transcriptions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "uh , the main thing would be if anyone has , um , knowledge about ways to , uh , post - process the wave forms that would give us better recognition ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "But if we could actually standardize , you know , the {disfmarker} the microphones , uh , as much as possible that would be really helpful ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 279,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "both in terms of recording and also live room where you 're interacting {disfmarker} the participants are interacting with the computer , and with the video , and lots of other stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 19,
+                    "speaker": "Professor B",
+                    "content": "And the other one is , um , uh , is there some good use that we can make of the transcribers to do other things ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 836,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "Um , the other thing is that {disfmarker} there was a number of things at the transcription side that , um , transcribers can do , like dialogue act tagging ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "And actually in addition to that , that the {disfmarker} the close talking mikes are worn in such a way as to best capture the signal ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "So it 's towards the corner of your mouth so that breath sounds don't get on it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "But if we could actually standardize , you know , the {disfmarker} the microphones , uh , as much as possible that would be really helpful ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but have them all be the same mike ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 5,
+                    "speaker": "Postdoc G",
+                    "content": "It 's the equipment and also how it 's worn ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 150,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "it 's really {disfmarker} {nonvocalsound} it makes a big difference from the transcribers ' point of view"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "So we might as well get it as uniform as we can ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 464,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "And , uh , also Dan Ellis 's innovation of the , uh {disfmarker} the multi - channel to here really helped a r a lot in terms of clearing {disfmarker} clearing up h hearings that involve overlaps ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "uh , well one thing I was gonna say was that , um , i we could get more , uh , of the head mounted microphones"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 99,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "so why don't we just go out and {disfmarker} and get an order of {disfmarker} of"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but have them all be the same mike ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "So we might as well get it as uniform as we can ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 776,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "I guess I wanted to , um , sort of make a pitch for trying to collect more meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 800,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "non - ICSI , non - academic ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 815,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "because I think it 'd be good if {disfmarker} if we can get a few different sort of non - internal types of meetings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 818,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "and just also more data ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1061,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "but that , um , it would be helpful if I can stay in the loop somehow with , um , people who are doing any kind of post - processing ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 6,
+                    "speaker": "PhD A",
+                    "content": "it adds this extra , you know , vari variable for each speaker to {disfmarker} to deal with when the microphones aren't similar ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "But if we could actually standardize , you know , the {disfmarker} the microphones , uh , as much as possible that would be really helpful ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 5,
+                    "speaker": "Postdoc G",
+                    "content": "It 's the equipment and also how it 's worn ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "it 's really {disfmarker} {nonvocalsound} it makes a big difference from the transcribers ' point of view"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 268,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "NIST has {disfmarker} has done a big meeting room {disfmarker} instrumented meeting room with video and microphone arrays , and very elaborate software ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 284,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , uh , it is related to ours ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 377,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "but if you 're d i the kind of person who 's doing array processing you actually care about funny little times ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 377,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "And {disfmarker} and so you actually wou would want to have a completely different set up than we have ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 398,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Is there an interest in getting video recordings for these meetings ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 401,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yes , absolutely . But it 's exactly the same problem ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 401,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "that you have an infrastructure problem ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 518,
+                    "sent_index": 4,
+                    "speaker": "Postdoc G",
+                    "content": "So each of these people is {pause} transcribing from one channel ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "But there could be problems , right ? with that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 620,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "then for forced alignment we actually don't know where {disfmarker} you know , in the signal the transcriber heard that word ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 636,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Th - but there 's going to be a real problem ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 636,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "uh , even if we chop up based on speech silence these , uh , the transcripts from I B M , we don't actually know where the words were ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 636,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "which segment they belonged to ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1061,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "but that , um , it would be helpful if I can stay in the loop somehow with , um , people who are doing any kind of post - processing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1084,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "It seems like a problem with cross - talk ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1086,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1100,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So the problem is like , uh , on the microphone of somebody who 's not talking they 're picking up signals from other people {comment} and that 's {vocalsound} causing problems ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 182,
+                    "sent_index": 6,
+                    "speaker": "Postdoc G",
+                    "content": "And , um . OK , in terms of the multi - trans , well that {disfmarker} that 's being modified by Dave Gelbart to , uh , handle multi - channel recording ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 4,
+                    "speaker": "Postdoc G",
+                    "content": "And , uh , that 's {disfmarker} that will enable us to do {pause} nice um , tight time marking of the beginning and ending of overlapping segments ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 464,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "And , uh , also Dan Ellis 's innovation of the , uh {disfmarker} the multi - channel to here really helped a r a lot in terms of clearing {disfmarker} clearing up h hearings that involve overlaps ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 189,
+                    "sent_index": 8,
+                    "speaker": "Postdoc G",
+                    "content": "In terms of , like , pre - segmentation , that {disfmarker} that continues to be , um , a terrific asset to the {disfmarker} to the transcribers ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 190,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "What {disfmarker} what I 'm doing right now is I 'm trying to include some information about which channel , uh , there 's some speech in ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 190,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "I 'm just trying to do this by comparing energies , uh {disfmarker} normalizing energies and comparing energies of the different channels ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "so to {disfmarker} to give the transcribers some information in which channel there 's {disfmarker} there 's speech in addition to {disfmarker} to the thing we {disfmarker} we did"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "now which is just , uh , speech - nonspeech detection on the mixed file ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 195,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "Excellent , so this 'd be like w e providing also speaker ID {pause} potentially ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "and that is to try to construct a map of where people were sitting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Well Dan {disfmarker} Dan had worked on that . Dan Ellis ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 219,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So that {disfmarker} that 's the cross - correlation stuff , was {disfmarker} was doing b beam - forming ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 221,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "And so you could plot out who was sitting next to who"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 464,
+                    "sent_index": 3,
+                    "speaker": "Postdoc G",
+                    "content": "She said it takes about , uh , sixty minutes transcription for every five minutes of real time ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 464,
+                    "sent_index": 5,
+                    "speaker": "Postdoc G",
+                    "content": "which is what we were thinking ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "It 's well in the range ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 505,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "that they 've hired these people to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 507,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "but my understanding is that that 's all this company does is transcriptions for IBM for their speech product ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 518,
+                    "sent_index": 4,
+                    "speaker": "Postdoc G",
+                    "content": "So each of these people is {pause} transcribing from one channel ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 693,
+                    "sent_index": 19,
+                    "speaker": "Professor B",
+                    "content": "And the other one is , um , uh , is there some good use that we can make of the transcribers to do other things ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 702,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "which is that , um , if , uh {disfmarker} if we have time and people are able to do it , to take some subset of the data and do some very fine grained analysis of the speech ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 702,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "potentially overlapping fashion , uh , the value of , uh , ar articulatory features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 836,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "Um , the other thing is that {disfmarker} there was a number of things at the transcription side that , um , transcribers can do , like dialogue act tagging ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 838,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "disfluency tagging ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The group discussed recording equipment and setup issues, recent developments in the transcription effort, other potential types of tagging to be assigned to transcribers, and the post-processing of waveforms.",
+                    "The discussion was largely focused on efforts to facilitate transcriptions, including the improvement of strategies for transcribing overlapping speech, and achieving greater uniformity in the type of equipment used during recordings and the manner in which recording devices are worn by speakers."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Uh , I guess just hear about how things are going with , uh , uh , the transcriptions ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 37,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "That would sorta be an obvious thing to discuss ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "uh , the main thing would be if anyone has , um , knowledge about ways to , uh , post - process the wave forms that would give us better recognition ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "But if we could actually standardize , you know , the {disfmarker} the microphones , uh , as much as possible that would be really helpful ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 279,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "both in terms of recording and also live room where you 're interacting {disfmarker} the participants are interacting with the computer , and with the video , and lots of other stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 19,
+                            "speaker": "Professor B",
+                            "content": "And the other one is , um , uh , is there some good use that we can make of the transcribers to do other things ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 695,
+                            "sent_index": 6,
+                            "speaker": "Postdoc G",
+                            "content": "bin , well with {disfmarker} with the improvement in the database {disfmarker} in {disfmarker} in the , uh , sorry , in the interface , it 'd be possible to , um , you know , just do a click and drag thing , and get the {disfmarker} uh , the specific place of each of those , the time tag associated with the beginning and end of {disfmarker} of each segment ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "And actually in addition to that , that the {disfmarker} the close talking mikes are worn in such a way as to best capture the signal ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "So it 's towards the corner of your mouth so that breath sounds don't get on it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "But if we could actually standardize , you know , the {disfmarker} the microphones , uh , as much as possible that would be really helpful ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 120,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "but have them all be the same mike ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 135,
+                            "sent_index": 5,
+                            "speaker": "Postdoc G",
+                            "content": "It 's the equipment and also how it 's worn ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 150,
+                            "sent_index": 0,
+                            "speaker": "Postdoc G",
+                            "content": "it 's really {disfmarker} {nonvocalsound} it makes a big difference from the transcribers ' point of view"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "So we might as well get it as uniform as we can ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 464,
+                            "sent_index": 0,
+                            "speaker": "Postdoc G",
+                            "content": "And , uh , also Dan Ellis 's innovation of the , uh {disfmarker} the multi - channel to here really helped a r a lot in terms of clearing {disfmarker} clearing up h hearings that involve overlaps ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What did PhD A say about microphones?",
+                "tokenized_answer": [
+                    "Use of dissimilar microphones adds an extra, unwanted variable to individual speaker recordings.",
+                    "Similarly, differences in the type of recording equipment used and the manner in which microphones are worn by speakers causes problems for the transcription effort."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 6,
+                            "speaker": "PhD A",
+                            "content": "it adds this extra , you know , vari variable for each speaker to {disfmarker} to deal with when the microphones aren't similar ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So the one issue was that the {disfmarker} the , uh , lapel mike , uh , isn't as good as you would like ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 1,
+                            "speaker": "PhD A",
+                            "content": "And actually in addition to that , that the {disfmarker} the close talking mikes are worn in such a way as to best capture the signal ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 6,
+                            "speaker": "PhD A",
+                            "content": "it adds this extra , you know , vari variable for each speaker to {disfmarker} to deal with when the microphones aren't similar ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team say about incorporating video recordings",
+                "tokenized_answer": [
+                    "Setting up a microphone array and performing video recordings (in a possible collaboration with NIST) are problematic due to the types of changes in infrastructure they require."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 268,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "NIST has {disfmarker} has done a big meeting room {disfmarker} instrumented meeting room with video and microphone arrays , and very elaborate software ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And , uh , it is related to ours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "but if you 're d i the kind of person who 's doing array processing you actually care about funny little times ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "And {disfmarker} and so you actually wou would want to have a completely different set up than we have ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Is there an interest in getting video recordings for these meetings ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 401,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Yes , absolutely . But it 's exactly the same problem ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 401,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "that you have an infrastructure problem ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What decision was reached about microphones nonuniformity?",
+                "tokenized_answer": [
+                    "To achieve greater uniformity in across-speaker recording conditions, the group decided to purchase three additional head-mounted microphones."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "uh , well one thing I was gonna say was that , um , i we could get more , uh , of the head mounted microphones"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 99,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "so why don't we just go out and {disfmarker} and get an order of {disfmarker} of"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "but have them all be the same mike ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "So we might as well get it as uniform as we can ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about IBM transcription?",
+                "tokenized_answer": [
+                    "IBM has a team of people employed to transcribe meeting data, and who are transcribing single versus multiple channels."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 505,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "that they 've hired these people to do ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 507,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "but my understanding is that that 's all this company does is transcriptions for IBM for their speech product ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 518,
+                            "sent_index": 4,
+                            "speaker": "Postdoc G",
+                            "content": "So each of these people is {pause} transcribing from one channel ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was suggested for the transcribers?",
+                "tokenized_answer": [
+                    "The group discussed the potential for assigning additional tasks to ICSI's transcriber pool, including tagging more fine-grained acoustic information, and discourse and disfluency tagging."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 693,
+                            "sent_index": 19,
+                            "speaker": "Professor B",
+                            "content": "And the other one is , um , uh , is there some good use that we can make of the transcribers to do other things ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 702,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "which is that , um , if , uh {disfmarker} if we have time and people are able to do it , to take some subset of the data and do some very fine grained analysis of the speech ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 702,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "potentially overlapping fashion , uh , the value of , uh , ar articulatory features ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 836,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "Um , the other thing is that {disfmarker} there was a number of things at the transcription side that , um , transcribers can do , like dialogue act tagging ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 838,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "disfluency tagging ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What\u2019s the current status of transcription?",
+                "tokenized_answer": [
+                    "The transcriber pool has been performing within the expected range of work completed per the amount of time spent transcribing."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 464,
+                            "sent_index": 3,
+                            "speaker": "Postdoc G",
+                            "content": "She said it takes about , uh , sixty minutes transcription for every five minutes of real time ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 464,
+                            "sent_index": 5,
+                            "speaker": "Postdoc G",
+                            "content": "which is what we were thinking ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 466,
+                            "sent_index": 0,
+                            "speaker": "Postdoc G",
+                            "content": "It 's well in the range ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

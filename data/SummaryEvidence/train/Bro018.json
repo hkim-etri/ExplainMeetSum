@@ -1,0 +1,1102 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The ICSI Meeting Recorder Group met once more to discuss their recent progress in various projects, as well as discuss some of the issues that have arisen in the last week.",
+            "There has been further work on voiced/unvoiced detection, along with spectral subtraction.",
+            "The group discussed one members attendance at a conference, and another groups code, which is proving hard to follow.",
+            "In trying to understand France Telecom's code, there does not appear to be a reason for a particular constant value.",
+            "Speaker fn002 reported on her work with mn007, who was absent attending a conference.",
+            "They have been working on voiced/unvoiced detection, and have tried two different configuration of MLP, although results have not been improved greatly.",
+            "She has also begun looking at France Telecom's recogniser code.",
+            "Speaker me006 has been coming up with tests for his work using acoustic events.",
+            "Speaker me018 is investigating differences in another system, and feels it maybe down to bugs.",
+            "Speaker me026 has made real progress on his spectral subtraction work, with an implementation and early results."
+        ],
+        "answer_sentence_index": [
+            "Bro018.s.1",
+            "Bro018.s.2",
+            "Bro018.s.3",
+            "Bro018.s.4",
+            "Bro018.s.5",
+            "Bro018.s.6",
+            "Bro018.s.7",
+            "Bro018.s.8",
+            "Bro018.s.9",
+            "Bro018.s.10"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and also mmm I {disfmarker} H Hynek last week say that if I have time I can to begin to {disfmarker} to study"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "and then I 've been trying to track down this bug in uh the ICSI front - end features ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 574,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "And on meeting rec recorder far mike digits , mike {disfmarker} on channel F , it went from um {vocalsound} {vocalsound} forty - one percent error to eight percent error ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Well eh you know that I work {disfmarker} I begin to work with a new feature to detect voice - unvoice ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 609,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Cuz I {disfmarker} I {disfmarker} it 's cuz I don't know what log magnitude spectral subtraction is gonna do to additive noise ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and also mmm I {disfmarker} H Hynek last week say that if I have time I can to begin to {disfmarker} to study"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "well seriously the France Telecom proposal"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "to look at the code"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 195,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "But the first thing that I don't understand is that they are using R - the uh log energy that this quite {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 235,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "OK , and wh when did Stephane take off ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I think that Stephane will arrive today or tomorrow ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 241,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So he 's {disfmarker} he 's going to ICASSP which is good ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and also mmm I {disfmarker} H Hynek last week say that if I have time I can to begin to {disfmarker} to study"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "well seriously the France Telecom proposal"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "to look at the code"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 195,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "I don't know why they have some constant in the expression of the lower energy ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 0,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So uh , he 's not here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 3,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah , I will try to explain the thing that I did this {disfmarker} this week {disfmarker} during this week ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 235,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "OK , and wh when did Stephane take off ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I think that Stephane will arrive today or tomorrow ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 241,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So he 's {disfmarker} he 's going to ICASSP which is good ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Well eh you know that I work {disfmarker} I begin to work with a new feature to detect voice - unvoice ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "What I trying two MLP to {disfmarker} to the {disfmarker} with this new feature and the fifteen feature uh from the eh bus base system"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 17,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "and only have result with {disfmarker} with the MLP with the three output ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 17,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "And , well , the result are li a little bit better , but more or less similar ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "and also mmm I {disfmarker} H Hynek last week say that if I have time I can to begin to {disfmarker} to study"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "well seriously the France Telecom proposal"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "to look at the code"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 257,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "Then uh I talked a little bit about {vocalsound} um continuing with these dynamic ev um acoustic events ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 257,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "and um {vocalsound} {vocalsound} we 're {disfmarker} we 're {disfmarker} we 're {vocalsound} thinking about a way to test the completeness of a {disfmarker} a set of um dynamic uh events ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 257,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "Uh , completeness in the {disfmarker} in the sense that {vocalsound} um if we {disfmarker} if we pick these X number of acoustic events , {vocalsound} do they provide sufficient coverage {vocalsound} for the phones that we 're trying to recognize {vocalsound} or {disfmarker} or the f the words that we 're gonna try to recognize later on ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 425,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "but I was gonna ask about the {disfmarker} {vocalsound} the um {vocalsound} changes to the data in comparing PLP and mel cepstrum for the SRI system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 427,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So we talked on the phone about this , that {disfmarker} that there was still a difference of a {disfmarker} of a few percent"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "What I 've been doing is {vocalsound} uh {vocalsound} trying to figure out {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "well it seems like there 's a bug ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "because the difference in performance is {disfmarker} it 's not gigantic"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 432,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "but it 's big enough that it {disfmarker} it seems wrong ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 574,
+                    "sent_index": 9,
+                    "speaker": "Grad B",
+                    "content": "I use that to normalize the s the current center frame {vocalsound} by mean subtraction ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 574,
+                    "sent_index": 17,
+                    "speaker": "Grad B",
+                    "content": "um {vocalsound} where I just used the simulated impulse response um {vocalsound} the error rate went from something like eighty it was from something like eighteen percent {vocalsound} to um four percent ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 609,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "O one thing I 'm wondering about is what this mean subtraction method {vocalsound} um will do if it 's faced with additive noise ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 609,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Cuz I {disfmarker} I {disfmarker} it 's cuz I don't know what log magnitude spectral subtraction is gonna do to additive noise ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting began with an update on the voice-unvoice detection.",
+                    "The professor suggested the solution might just be feeding the log magnitude of the spectrum into a simple neural net.",
+                    "The team then had a brief discussion about some confusing formula on the France Telecom proposal.",
+                    "Following this, the team talked about how to pick out the most important acoustic events.",
+                    "Then, Grad A introduced the team to phonological matchings that he was working on using Support Vector Machines.",
+                    "The goal was to map MFCC's to phonological features.",
+                    "The team concluded by discussing a potential bug which led to a significant difference between PLP and mel cepstrum and the FFT method that they were exploring."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 5,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Well eh you know that I work {disfmarker} I begin to work with a new feature to detect voice - unvoice ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "so here 's {disfmarker} here 's an idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 86,
+                            "sent_index": 5,
+                            "speaker": "Professor C",
+                            "content": "uh What about it you skip all the {disfmarker} all the really clever things , and just fed the log magnitude spectrum into this ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And you just took this thing in here because it 's a neural net and neural nets are wonderful"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 191,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "and also mmm I {disfmarker} H Hynek last week say that if I have time I can to begin to {disfmarker} to study"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 191,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "well seriously the France Telecom proposal"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 195,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "I begin to {disfmarker} to work also in that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 195,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "But the first thing that I don't understand is that they are using R - the uh log energy that this quite {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 195,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "I don't know why they have some constant in the expression of the lower energy ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "Then uh I talked a little bit about {vocalsound} um continuing with these dynamic ev um acoustic events ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 257,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "and um {vocalsound} {vocalsound} we 're {disfmarker} we 're {disfmarker} we 're {vocalsound} thinking about a way to test the completeness of a {disfmarker} a set of um dynamic uh events ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 5,
+                            "speaker": "Grad A",
+                            "content": "Uh , completeness in the {disfmarker} in the sense that {vocalsound} um if we {disfmarker} if we pick these X number of acoustic events , {vocalsound} do they provide sufficient coverage {vocalsound} for the phones that we 're trying to recognize {vocalsound} or {disfmarker} or the f the words that we 're gonna try to recognize later on ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "So i i the idea is if we get good phone recognition results , {vocalsound} using um these set of acoustic events , {vocalsound} then {vocalsound} um that {disfmarker} that says that these acoustic events are g sufficient to cover {vocalsound} a set of phones ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 10,
+                            "speaker": "Grad A",
+                            "content": "Um so i it would be a {disfmarker} {vocalsound} a measure of \" are we on the right track with {disfmarker} with the {disfmarker} the choices of our acoustic events \" ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "So for my class project I 'm {vocalsound} um {vocalsound} {vocalsound} I 'm tinkering with uh support vector machines ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 297,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "And so I 'm gonna apply that to {vocalsound} um compare it with the results by um King and Taylor who did {vocalsound} um these"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 7,
+                            "speaker": "Grad A",
+                            "content": "and made a mapping from the MFCC 's to these phonological features ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "so I 'm gonna {vocalsound} do a similar thing with {disfmarker} {vocalsound} with support vector machines"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 298,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So what 's the advantage of support vector machines ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 299,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Um . So , support vector machines are {disfmarker} are good with dealing with a less amount of data"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 390,
+                            "sent_index": 3,
+                            "speaker": "PhD E",
+                            "content": "wh I 'm {disfmarker} what is the task for the class project ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 395,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "basically it 's to learn a mapping {vocalsound} from {disfmarker} {vocalsound} from the MFCC 's to {vocalsound} uh phonological features ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 425,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "but I was gonna ask about the {disfmarker} {vocalsound} the um {vocalsound} changes to the data in comparing PLP and mel cepstrum for the SRI system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 427,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "So we talked on the phone about this , that {disfmarker} that there was still a difference of a {disfmarker} of a few percent"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "well it seems like there 's a bug ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 3,
+                            "speaker": "PhD E",
+                            "content": "because the difference in performance is {disfmarker} it 's not gigantic"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 4,
+                            "speaker": "PhD E",
+                            "content": "but it 's big enough that it {disfmarker} it seems wrong ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 440,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "So I was going through and just double - checking that kind of think first , to see if there was just some kind of obvious bug in the way that I was computing the features ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 476,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "We basically {disfmarker} it looks to me like we do the FFT , um and then we just take all the bins"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about voice-unvoice detection",
+                "tokenized_answer": [
+                    "The existing net for voice-unvoice had three outputs, voice, unvoice, and silence.",
+                    "It took fifteen features as inputs.",
+                    "The team discussed how energy measures could be incorporated to improve performance on this task.",
+                    "The nets took around a day to train, so the team could run more experiments.",
+                    "The current performance on the task was unsatisfactory."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 5,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Well eh you know that I work {disfmarker} I begin to work with a new feature to detect voice - unvoice ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "And I 'm trying two MLP , one one that only have t three output ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "voice , unvoice , and silence ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "What {disfmarker} what feeds the uh {disfmarker} the three - output net ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "The inputs are the fifteen {disfmarker} the fifteen uh bases feature ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "I mean usually for voiced - unvoiced you 'd do {disfmarker} yeah , you 'd do something {disfmarker} you 'd do energy"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "yeah one of the differences between voiced , unvoiced and silence is energy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 53,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So if it 's {disfmarker} if it 's um {disfmarker} if it 's low energy uh but the {disfmarker} but the spectrum looks like that or like that , it 's probably silence ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 55,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Uh but if it 's low energy and the spectrum looks like that , it 's probably unvoiced ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "or i i you know you 'd have some other energy measure"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Well , I can also th use this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Bec - because the result are a little bit better"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "How long does it take , Carmen , to train up one of these nets ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Mmm , one day or less ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 115,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "What are {disfmarker} what are your f uh frame error rates for {disfmarker} for this ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 141,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "That 's pretty bad ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about improving voice-unvoice detection?",
+                "tokenized_answer": [
+                    "The professor explained that the task typically relied on R-one over R-zero as a measure.",
+                    "He thought that the team should explore the difference between the log FFT and the log magnitude FF spectrum and the filter bank.",
+                    "These were fundamentally different measures which could help the model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "and so R - one over R - zero is what you typically use for that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "I 'm saying that 's what people us typically use ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "And so the kind of thing that {disfmarker} that she was talking about before , was looking at something uh ab um {disfmarker} something uh about the difference between the {disfmarker} the uh um log FFT uh log power uh and the log magnitude uh F F - spectrum uh and the um uh filter bank ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And something different in some fundamental way ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Then you have this over time , and {disfmarker} and both kinds of measures"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 617,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "OK , so it 's then {disfmarker} then it 's {disfmarker} it 's {disfmarker} it 's reasonable to expect it would be helpful if we used it with the SRI system"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD D think about voice-unvoice detection?",
+                "tokenized_answer": [
+                    "PhD D explained that voice-unvoice net took fifteen base features and three features of R as inputs.",
+                    "The R features were the variance of the difference between the two spectrums, variance of the auto-correlation function, and the first coefficient of the auto-correlation function.",
+                    "This method, however, was not that much better than the more typical method that the professor recalled."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "What {disfmarker} what feeds the uh {disfmarker} the three - output net ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "The inputs are the fifteen {disfmarker} the fifteen uh bases feature ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "And the other three features are R , the variance of the difference between the two spectrum ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "And the other three features are R , the variance of the difference between the two spectrum ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "the first coefficient of the auto - correlation function ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Yes , yes , the variance of the auto - correlation function that uses that"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "and so R - one over R - zero is what you typically use for that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Bec - because the result are a little bit better"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "but we have in a point that everything is more or less the similar {disfmarker} more or less similar ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "It 's not quite better ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on support vector machines to map MFCC to phonological features",
+                "tokenized_answer": [
+                    "Support vector machines were better at dealing with a lower amount of data, so they could do a reasonable job learning patterns in MFCC without too much work.",
+                    "They worked by finding an optimal separating plane.",
+                    "This was more efficient as the model picked only critical points as opposed to doing more computationally expensive k-means clustering."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 297,
+                            "sent_index": 7,
+                            "speaker": "Grad A",
+                            "content": "and made a mapping from the MFCC 's to these phonological features ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "so I 'm gonna {vocalsound} do a similar thing with {disfmarker} {vocalsound} with support vector machines"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 299,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Um . So , support vector machines are {disfmarker} are good with dealing with a less amount of data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "and um so if you {disfmarker} if you give it less data it still does a reasonable job {vocalsound} in learning the {disfmarker} the patterns ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 307,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "and then it finds the optimal separating plane , um between these two different um classes ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 323,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "So rather than doing nearest neighbor where you compare to every single one , you just pick a few critical ones ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about support vector machines for speech recognition?",
+                "tokenized_answer": [
+                    "The professor recalled that people at Mississippi state were using support vector machines for speech recognition by estimating probabilities.",
+                    "The results were not significant, but they were reasonable."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 343,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Cuz actually Mississippi State people did use support vector machines for uh uh speech recognition and they were using it to estimate probabilities ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 352,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Did the {disfmarker} did they get good results with that ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 355,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "so {disfmarker} {vocalsound} so the {disfmarker} you know , the numbers were not incredibly good"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 357,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "but there 's you know , it was th reasonable ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad A explain about his vectors for his support vector machine?",
+                "tokenized_answer": [
+                    "Grad A explained that his vector contained binary values for whether a phonological feature exists or not.",
+                    "The goal was to come up with a mapping from a feature set to the existence of a particular phonological feature.",
+                    "He was not doing the mapping yet.",
+                    "The goal was simply detecting features at the time."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 384,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So in your {disfmarker} in {disfmarker} in the thing that you 're doing , uh you have a vector of ones and zeros for each phone ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 389,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "f so for every phone there is {disfmarker} there is a um {disfmarker} a vector of ones and zeros {vocalsound} f uh corresponding to whether it exhibits a particular phonological feature or not ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 393,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "um to come up with a mapping from um MFCC 's or s some feature set , {vocalsound} um to {vocalsound} uh w to whether there 's existence of a particular phonological feature ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 401,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "I 'm not {disfmarker} I 'm not planning to do any {disfmarker} any phoneme mapping yet ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 401,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "Just {disfmarker} {vocalsound} it 's {disfmarker} it 's basically {disfmarker} it 's {disfmarker} it 's really simple , basically a detection {vocalsound} of phonological features ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

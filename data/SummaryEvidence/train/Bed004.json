@@ -1,0 +1,1583 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "A test run of the data collection design was very successful.",
+            "The group decided to hire the \"wizard\" and continue with the refinement of the design and recruitment of subjects.",
+            "On the other hand, there was a presentation of a new version of the belief-net for the Vista/Enter/Tango mode task.",
+            "It is not a working net yet, but identifying clusters of features that define the output mode provides a visual aid for further work.",
+            "There are potential problems from a combinatorics perspective.",
+            "These can be tackled either with technical adjustments or through careful knowledge engineering.",
+            "A base solution for the task would be to simply add some extra action-mode rules in the SmartKom system.",
+            "Action modes, however, can be inferred more efficiently by feeding a collection of features -from the ontology, discourse history, parsing, etc.- into Bayes-nets that would replace those rules.",
+            "Ideally, the results of this small task will give insights into the function of linguistic deep understanding.",
+            "For instance, the final combination of features used in the current study may form a representation of the ontology, general enough to employ in any task that includes trajectors and paths.",
+            "Although the data collection test went well and it was decided to hire the \"wizard\", there are minor amendments in the procedure to be carried out (shortenting the preparatory reading, numbering tasks etc).",
+            "A presentation of the data collection design should be included in the forthcoming meeting with other research groups, along with some account of the system design and the use of belief-nets.",
+            "The structure of the latter was a major issue during the meeting.",
+            "Their input vector is to be provided by information extracted from the various modules of the system, such as the ontology and discourse history, using standard rule-based methods.",
+            "The output action essentially provides additional semantic parameters for the X-schema, and, in turn, may trigger the collection of more features from the data.",
+            "The feature extraction could be carried out by a software tool checking object (feature) trees and filling them with appropriate values.",
+            "For this concept to be put to work, further refinement of the belief-net variables is necessary, with particular attention on the combinatorics involved.",
+            "After the trial run of the experiment, some minor issues, like the length of the preliminary reading and the need to order the tasks given to the subjects, were highlighted.",
+            "It is also possible that the pool of subjects ends up comprising almost entirely of students; more variation in the sample is needed.",
+            "From a system design perspective, the progress so far has shown that the combinatorics of the Bayes-net even for a simple task, like the choice of Vista/Enter/Tango mode, could render it unmanageable.",
+            "The belief-net presented in the meeting is not a working Bayes-net.",
+            "Consequently, it is as yet unclear what the decision nodes in the net are, and what values these can take.",
+            "Even if those were decided, how to extract the necessary information from the data, would still be an open issue.",
+            "Looking at the bigger picture, the current task is yet to provide insights into more general ways to achieve linguistic deep understanding.",
+            "With these intricacies in mind, it is not easy to put together a presentation of the project cohesive and attractive enough for the other research groups in the institute.",
+            "The first trial run of the experiments was very successful.",
+            "After reading some information on a city, the subject, acting as a tourist, has to ask for information over a phoneline in order to carry out certain tasks.",
+            "A \"wizard\" on the other side of the line pretends to be a computer system for half of the duration.",
+            "For the second half the subject is aware of communicating with another human.",
+            "In parallel to the data collection, there was further work on the belief-net for the inferences currently studied.",
+            "The features determining the output mode (Vista, Enter or Tango) of the belief-net have been grouped in categories: Trajector, Landmark, Source, Path, Goal, Parse, Prosody, World knowledge, Discourse and Context.",
+            "Every particular feature, like \"time of day\", \"being in a hurry\", \"business or tourism\", etc, will fit into on these categories.",
+            "Although the presented net is not a working Bayes-net yet, it serves as a visual aid and stepping stone for the work to follow."
+        ],
+        "answer_sentence_index": [
+            "Bed004.s.1",
+            "Bed004.s.2",
+            "Bed004.s.3",
+            "Bed004.s.4",
+            "Bed004.s.5",
+            "Bed004.s.6",
+            "Bed004.s.7",
+            "Bed004.s.8",
+            "Bed004.s.9",
+            "Bed004.s.10",
+            "Bed004.s.11",
+            "Bed004.s.12",
+            "Bed004.s.13",
+            "Bed004.s.14",
+            "Bed004.s.15",
+            "Bed004.s.16",
+            "Bed004.s.17",
+            "Bed004.s.18",
+            "Bed004.s.19",
+            "Bed004.s.20",
+            "Bed004.s.21",
+            "Bed004.s.22",
+            "Bed004.s.23",
+            "Bed004.s.24",
+            "Bed004.s.25",
+            "Bed004.s.26",
+            "Bed004.s.27",
+            "Bed004.s.28",
+            "Bed004.s.29",
+            "Bed004.s.30",
+            "Bed004.s.31",
+            "Bed004.s.32",
+            "Bed004.s.33"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So we get nice um data for that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Um , we have to refine the tasks more and more , which of course we haven't done at all , so far , in order to avoid this rephrasing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And uh my suggestion is of course we {disfmarker} we keep the wizard , because I think she did a wonderful job ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So {pause} first of all , I agree that um we should hire Fey , and start paying her ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 113,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "Um {pause} And also if she 's willing to take on the job of organizing all those subjects and stuff that would be wonderful ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 141,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So , what I did for this {disfmarker} this is {disfmarker} uh , a pedagogical belief - net"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So basically all I did was I took the last {pause} belief - net"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and it will give us then of course an action type of the type \" Enter \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "if this pla if the object type um here is {disfmarker} is a m is a landmark , of course it 'll be um \" Vista \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "This would have been a classical um uh \" Tango \" , actually ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "and I grouped things according to what {disfmarker} how I thought they would fit in to uh image schemas that would be related ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 176,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Well , this is not a working Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "But the uh {disfmarker} the {disfmarker} the nice thing is that you know , it just is a {disfmarker} is a visual aid for thinking about these things which has comple clearly have to be specified m more carefully"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , here 's the problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "is , if we just do this , we could wind up with a huge uh , combinatoric input to the Mode thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 273,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "too many factors if we {disfmarker} if we allow them to just go combinatorially ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 191,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "which is there are technical ways of doing it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And the other trick , which is not a technical trick , it 's kind of a knowledge engineering trick , is to make the n {pause} each node sufficiently narrow that you don't get this combinatorics ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 231,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Uh , and certainly you can add rules like that to the existing SmartKom system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 237,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "that 's another sort of thing \" OK , here 's a {disfmarker} another kind of minimal uh way of tackling this \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 237,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Add extra properties ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 237,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "a deterministic rule for every property"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , the Parse would be what verb they chose ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 237,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "Uh Now , if that 's all you 're doing , then you can get the types from the ontology ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "And um {disfmarker} and here is exactly where what 's gonna be replaced with our Bayes - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "which is exactly getting the input feeding into here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "This decides whether it 's an whether action {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 16,
+                    "speaker": "Grad D",
+                    "content": "but also we definitely want to look up in the dialogue history um some s some stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 300,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and maybe draw some inferences on that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 313,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "So . What you 're trying to get out of this deep co cognitive linguistics is the fact that w if you know about source {disfmarker} source , paths and goals , and nnn {comment} all this sort of stuff , that a lot of this is the same , for different tasks ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 211,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "this is a way of playing with this abs Source - path - goal trajector exp uh uh abstraction and {disfmarker} and sort of sh displaying it in a particular way ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 269,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So , the hardest problem is how are you going to get this information from some combination of the {disfmarker} what the person says and the context and the ontology ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 19,
+                    "speaker": "Grad D",
+                    "content": "I was just made some examples from the ontology"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 313,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "And that {disfmarker} uh there 's {disfmarker} there 's some {disfmarker} some important generalities that you 're getting ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So we get nice um data for that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And uh my suggestion is of course we {disfmarker} we keep the wizard , because I think she did a wonderful job ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "OK , the uh lessons learned ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "The reading needs to be shorter ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "S so if you just number them \" one \" , \" two \" , \" three \" it 's"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "And this , and {disfmarker} in case no {disfmarker} you hadn't seen it , this is what Litonya looked at during the uh {disfmarker} um while taking the {disfmarker} while partaking in the data collection ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "And this , and {disfmarker} in case no {disfmarker} you hadn't seen it , this is what Litonya looked at during the uh {disfmarker} um while taking the {disfmarker} while partaking in the data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "But then , the other thing of course is we should um give the computer scientists some idea of {disfmarker} of what 's going on with the system design ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and where we think the belief - nets fit in"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 263,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , so the pro The immediate problem is {disfmarker} is back t t to what you were {disfmarker} what you are doing with the belief - net ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "So the belief - net takes as input , a vector ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "But this information is just M - three - L ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 12,
+                    "speaker": "Grad D",
+                    "content": "and then we want to look up some more stuff in the ontology"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 16,
+                    "speaker": "Grad D",
+                    "content": "but also we definitely want to look up in the dialogue history um some s some stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 300,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So this may be a {disfmarker} a sort of a process of two to three steps before we get our vector , that we feed into the belief - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 303,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There will be rules , but they aren't rules that come to final decisions , they 're rules that gather information for a decision process ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 251,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "so what we 'd be generating would be a reference to a semantic uh like parameters for the {disfmarker} for the X - schema ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 254,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "and you wanted to specialize it to these three ones , then you would have to supply the parameters ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "And um it Output is whatever , as well ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 305,
+                    "sent_index": 13,
+                    "speaker": "Professor B",
+                    "content": "and that may actually involve getting more information ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 310,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "but it looks of complect object trees and decides how {disfmarker} are there parts missing that need to be filled out ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 199,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , not necessarily in th in this meeting , but to try to informally think about what the decision variables are ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 222,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "Um , we 'll add some action type , which in this case is \" Approach \" and could be , you know , more refined uh in many ways ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 271,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "uh , we have a d a technical problem with the belief - nets that we {disfmarker} we don't want all the com"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 273,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "too many factors if we {disfmarker} if we allow them to just go combinatorially ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "OK , the uh lessons learned ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 59,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "The reading needs to be shorter ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "S so if you just number them \" one \" , \" two \" , \" three \" it 's"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "She also agrees that you know if it 's all just gonna be students the data is gonna be less valuable because of that"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "But then , the other thing of course is we should um give the computer scientists some idea of {disfmarker} of what 's going on with the system design ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "is , if we just do this , we could wind up with a huge uh , combinatoric input to the Mode thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and it will give us then of course an action type of the type \" Enter \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "if this pla if the object type um here is {disfmarker} is a m is a landmark , of course it 'll be um \" Vista \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 246,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "And um {disfmarker} and here is exactly where what 's gonna be replaced with our Bayes - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "This would have been a classical um uh \" Tango \" , actually ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 141,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So , what I did for this {disfmarker} this is {disfmarker} uh , a pedagogical belief - net"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 176,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Well , this is not a working Bayes - net ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 199,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I mean , not necessarily in th in this meeting , but to try to informally think about what the decision variables are ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and maybe a binary version f for each , or some relatively compact decision node just above the final one ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So the immediate problem is just deciding w which {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 269,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "The harder problem is we decide what we want to use , how are we gonna get it ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 269,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And that the {disfmarker} the {disfmarker} that 's the hardest problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 271,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "how are you gonna g get this information ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 317,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "see what 's the really interesting question is can you use uh deep uh cognitive linguistics to {pause} get powerful generalizations ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 219,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and uh see if we can find a way to present this to this linguists group that {disfmarker} that is helpful to them ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So we get nice um data for that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "this is what she had to read {pause} aloud ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "this was the uh first three tasks she had to {disfmarker} to master after she called the system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 14,
+                    "speaker": "Grad D",
+                    "content": "This is the phone - in phase of {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 162,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "And \" usefulness \" is basi basically means is that an institutional facility like a town hall or something like that that 's not {disfmarker} something that you 'd visit for tourist 's {disfmarker} tourism 's sake or whatever ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Like , there was a wizard for both uh {disfmarker} both parts ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "One time , pretending to be a system ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "One time , pretending to be a system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "one time , to {disfmarker} pretending to be a human , which is actually not pretending ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 50,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Well . Isn't this kind of obvious when it says \" OK now you 're talking to a human \" and then the human has the same voice ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 93,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "And this , and {disfmarker} in case no {disfmarker} you hadn't seen it , this is what Litonya looked at during the uh {disfmarker} um while taking the {disfmarker} while partaking in the data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 300,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and maybe draw some inferences on that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 305,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "My guess is it 'll be the same basic agent that um can go off and get information , run it through a {disfmarker} a c this belief - net that {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So basically all I did was I took the last {pause} belief - net"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "and I grouped things according to what {disfmarker} how I thought they would fit in to uh image schemas that would be related ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "And the two that I came up with were Trajector - landmark and then Source - path - goal as initial ones ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 164,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "Yeah , so {disfmarker} um , in terms of Context , what we had currently said was whether they were a businessman or a tourist of some other person ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 164,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "Um , Discourse was related to whether they had asked about open hours"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 166,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Uh , Prosody I don't really {disfmarker} I 'm not really sure what prosody means , in this context ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um , the Parse would be what verb they chose ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And um , in terms of World Knowledge , this would just basically be like opening and closing times of things , the time of day it is , and whatnot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and it will give us then of course an action type of the type \" Enter \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So this is just based on this one {disfmarker} um , on this one feature ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "if this pla if the object type um here is {disfmarker} is a m is a landmark , of course it 'll be um \" Vista \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "And um it Output is whatever , as well ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "This would have been a classical um uh \" Tango \" , actually ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "and I grouped things according to what {disfmarker} how I thought they would fit in to uh image schemas that would be related ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And um , in terms of World Knowledge , this would just basically be like opening and closing times of things , the time of day it is , and whatnot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So this is just based on this one {disfmarker} um , on this one feature ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 279,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and then it would have values , uh , \" Tour \" , \" Business \" , or uh \" Hurried \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 176,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Well , this is not a working Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "But the uh {disfmarker} the {disfmarker} the nice thing is that you know , it just is a {disfmarker} is a visual aid for thinking about these things which has comple clearly have to be specified m more carefully"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 220,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "we regard this as sort of an exercise in {disfmarker} in thinking about the problem"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The team began the meeting by discussing the logistics of setting up the interface for data collection.",
+                    "Some members ran a trial of it earlier and found someone who would make a suitable wizard.",
+                    "The team shared concern about how they would recruit non-university student participants.",
+                    "Grad D introduced the team to the second iteration of the bayes-net model and its schemas.",
+                    "Then, the discussion moved onto controlling the size of the bayes-net as it would otherwise be based on too much information.",
+                    "The team ended the meeting by delving into how the method of creating a Bayes-net in different scenarios could itself be abstracted, i.e. narrowing the input and output factors and the intermediate representation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Let 's get started ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "So , some {disfmarker} some work needs to be done , but I think we can uh {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 93,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "And this , and {disfmarker} in case no {disfmarker} you hadn't seen it , this is what Litonya looked at during the uh {disfmarker} um while taking the {disfmarker} while partaking in the data collection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 129,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Um . Now , {pause} I signed us up for the Wednesday slot , and part of what we should do is this ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 131,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "my idea on that was {pause} uh , partly we 'll talk about system stuff for the computer scientists ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 135,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "But then , the other thing of course is we should um give the computer scientists some idea of {disfmarker} of what 's going on with the system design ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "and we also have a l little bit on the interface ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 6,
+                            "speaker": "Grad D",
+                            "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And uh my suggestion is of course we {disfmarker} we keep the wizard , because I think she did a wonderful job ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And um I told her that we gonna um figure out a meeting time in the near future to refine the tasks and s look for the potential sources to find people ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "She also agrees that you know if it 's all just gonna be students the data is gonna be less valuable because of that"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "This is sort of th the second {vocalsound} version and I {disfmarker} I {disfmarker} I {disfmarker} look at this maybe just as a , you know , a {disfmarker} a {disfmarker} whatever , UML diagram or , you know , as just a uh screen shot , not really as a Bayes - net as John {disfmarker} Johno said ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 183,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So , so if you {disfmarker} if we made {disfmarker} if we wanted to make it into a {disfmarker} a real uh Bayes - net ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 186,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Cuz I don't understand how it would work otherwise ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 305,
+                            "sent_index": 13,
+                            "speaker": "Professor B",
+                            "content": "and that may actually involve getting more information ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 336,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "The Bayes - nets will be dec specific for each decision ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 336,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "But what I 'd like to be able to do is to have the way that you extract properties , that will go into different Bayes - nets , be the {disfmarker} uh general ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 338,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "What you 'd really like of course is the same thing you 'd always like which is that you have um a kind of intermediate representation which looks the same o over a bunch of inputs and a bunch of outputs ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the details about setting up the wizard and recruiting participants",
+                "tokenized_answer": [
+                    "The team listened to a recording of the interface's trial run.",
+                    "Litonya was asked to be the first subject of the interface and Fey acted as the wizard.",
+                    "The team was happy with Fey's performance and decided to hire her.",
+                    "Upon Fey's suggestion, they also decided that the wizard should be introduced in a more appropriate fashion.",
+                    "The team also agreed that the run was too long at 5 minutes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 6,
+                            "speaker": "Grad D",
+                            "content": "So . On Friday we had our wizard test data test and um {vocalsound} these are some of the results ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 43,
+                            "sent_index": 6,
+                            "speaker": "Grad D",
+                            "content": "There are {disfmarker} here are uh the results ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 43,
+                            "sent_index": 12,
+                            "speaker": "Grad D",
+                            "content": "The reading was five minutes , exactly ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 9,
+                            "speaker": "Grad D",
+                            "content": "so I asked uh Litonya . just on the spur of the moment , and she was uh kind enough to uh serve as the first subject ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And uh my suggestion is of course we {disfmarker} we keep the wizard , because I think she did a wonderful job ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So {pause} first of all , I agree that um we should hire Fey , and start paying her ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "And we need a better introduction for the wizard ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "That is something that Fey actually thought of a {disfmarker} in the last second that sh the system should introduce itself , when it 's called ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 68,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "True ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "The reading needs to be shorter ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 59,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "Five minutes is just too long ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad D and Grad C discuss about who was acting as the computer and wizard?",
+                "tokenized_answer": [
+                    "Grad C was concerned that the same person acting as the wizard and computer system might not be the best idea.",
+                    "Grad D had some way of making the wizard and computer seem distinct even though both were voiced by the same person and told Grad C that the recording would clarify things."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "Like , there was a wizard for both uh {disfmarker} both parts ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "It was bo it both times the same person ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 57,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "This is the system breaking down , actually ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 47,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "One time , pretending to be a system ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 47,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "one time , to {disfmarker} pretending to be a human , which is actually not pretending ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Well . Isn't this kind of obvious when it says \" OK now you 're talking to a human \" and then the human has the same voice ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So , are {disfmarker} are you trying to record this meeting ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And uh my suggestion is of course we {disfmarker} we keep the wizard , because I think she did a wonderful job ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about hiring Fey?",
+                "tokenized_answer": [
+                    "The Professor was very supportive of the idea of hiring Fey.",
+                    "He thought that it would be helpful since she was also willing to take over the task of organizing subjects.",
+                    "In addition, he believed the project would provide her with a valuable learning experience for her own upcoming graduate school work in experimental paradigms."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So {pause} first of all , I agree that um we should hire Fey , and start paying her ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 113,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "Um {pause} And also if she 's willing to take on the job of organizing all those subjects and stuff that would be wonderful ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 115,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And , uh she 's {disfmarker} actually she 's going to graduate school in a kind of an experimental paradigm ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 115,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "so I think this is all just fine in terms of h her learning things she 's gonna need to know uh , to do her career ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about controlling size of combinatorial input",
+                "tokenized_answer": [
+                    "The team was concerned that the combinatorial input that would result from the various linguistic and contextual schemas would be enormous for the Bayes net.",
+                    "The Professor suggested that it's best to narrow down the decision variables, perhaps by studying the trade-offs between different input factors.",
+                    "The team thought that perhaps they could keep the kinds of objects in the environment to a small subset and make rules governing actions around those objects."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "is , if we just do this , we could wind up with a huge uh , combinatoric input to the Mode thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 246,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "And um {disfmarker} and here is exactly where what 's gonna be replaced with our Bayes - net ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 246,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "which is exactly getting the input feeding into here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 269,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "So , the hardest problem is how are you going to get this information from some combination of the {disfmarker} what the person says and the context and the ontology ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 199,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So what I was gonna say is {disfmarker} is maybe a good at this point is to try to informally {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 199,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "I mean , not necessarily in th in this meeting , but to try to informally think about what the decision variables are ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And the other trick , which is not a technical trick , it 's kind of a knowledge engineering trick , is to make the n {pause} each node sufficiently narrow that you don't get this combinatorics ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So that if you decided that you could characterize the decision as a trade - off between three factors , whatever they may be ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 220,
+                            "sent_index": 11,
+                            "speaker": "Grad D",
+                            "content": "We have an action that he wants to go from somewhere , which is some type of object , to someplace ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "we have to add , you know , not too much about um object types and stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "and what I think you did is add some rules of the style that are already there that say \" If it 's of type \" Landmark \" , then you take {disfmarker} you 're gonna take a picture of it . \""
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about controlling the size of the combinatorial input?",
+                "tokenized_answer": [
+                    "The professor was the one to raise the issue and suggested that a knowledge engineering trick could be used to narrow down inputs.",
+                    "He thought that perhaps adding deterministic rules to properties that have actions would be helpful and the property types could be retrieved from the ontology."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 199,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So what I was gonna say is {disfmarker} is maybe a good at this point is to try to informally {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And the other trick , which is not a technical trick , it 's kind of a knowledge engineering trick , is to make the n {pause} each node sufficiently narrow that you don't get this combinatorics ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Add extra properties ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "a deterministic rule for every property"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "you have an action , \" pppt ! \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "Uh Now , if that 's all you 're doing , then you can get the types from the ontology ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad D think about managing the size of the combinatorial input?",
+                "tokenized_answer": [
+                    "Grad D thought that the best way would be to add restrictive action types that are attached to the kind of object.",
+                    "For instance, there are specific actions that would be relevant to a landmark."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 11,
+                            "speaker": "Grad D",
+                            "content": "We have an action that he wants to go from somewhere , which is some type of object , to someplace ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 224,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "if this pla if the object type um here is {disfmarker} is a m is a landmark , of course it 'll be um \" Vista \" ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

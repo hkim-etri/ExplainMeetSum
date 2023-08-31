@@ -1,0 +1,1617 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "An idea for future work was suggested during the visit of the german project manager: the possibility to use the same system for language generation.",
+            "Having a system able to ask questions could contribute significantly to training the belief-net.",
+            "Setting up certain inputs in the Bayes-net would imply certain intentions, which would trigger dialogues.",
+            "There is potential to make a conference paper out of presenting the current work and the project aspirations within a parsing paradigm.",
+            "The focus should be the Bayes-net, to which all other modules interface.",
+            "Situation, User, Discourse and Ontology feed into the net to infer user intentions.",
+            "Someone asking where the castle is after having asked about the admission fee, indicates that -given that the castle is open to tourists- they want to go there, as opposed to knowing its whereabouts.",
+            "It was suggested that they start analysing what the Discourse and Ontology would give as inputs to the Bayes-net by working on simple utterances like \"where is X?\".",
+            "With this addition, all input layers of the net would be functioning.",
+            "Although this function would be limited, it would allow for the Bayes-net to be tested in its entirety and, henceforth, extended.",
+            "The possibility of incorporating language generation into the system will have to be discussed further.",
+            "Similarly, as no one could recall some of the points of the conference call, the group will have to meet again and define the exact structure and content of the paper they are going to submit.",
+            "The Bayes-net is going to be the focus of the presentation.",
+            "In order to complete a functioning prototype of the belief-net, it was decided to start expanding the Ontology and Discourse nodes by working with a simple construction, like \"where is X?\".",
+            "A robust analysis of such a basic utterance will indicate what the limits of the information derived from the construction are, as well as ways to design the whole module and fit other constructions in.",
+            "The idea to create a language generation module for the system, along with the language understanding, was met with interest, although it was made clear that generation is not just the inverse of understanding.",
+            "Understanding what a construction entails does not mean the system can use the construction in all appropriate circumstances.",
+            "A dialogue producing system would be useful for training the system further, even though the number of input permutations could render the process computationally unwieldy.",
+            "Regarding the conference paper, it was noted that at this stage they have not completed any big parts of the system and there is no evaluation.",
+            "Similarly, the length of the paper would not allow for presentation of the formalism in detail.",
+            "The focus would have to be on cognitive motivations of the research, and not on system design, anyway.",
+            "Such motivations also apply to the belief-net: there are various direct or indirect ways to link features of the Ontology or Discourse with specific intentions.",
+            "The originating observation behind the whole project is that utterances like \"Where is X?\" are seemingly unambiguous, but, in context, they can acquire much more complex interpretations.",
+            "The SmartKom prototype was in need of de-bugging, which is now on its way.",
+            "Similarly, the work on XML is going to be finished within a day.",
+            "On the other hand, the data recording has started: almost twenty subjects have already taken part and the transcription of the recordings is running in parallel.",
+            "Meanwhile a new person, who is also a possible replacement for the wizard's task in the data collection, has been hired."
+        ],
+        "answer_sentence_index": [
+            "Bed013.s.1",
+            "Bed013.s.2",
+            "Bed013.s.3",
+            "Bed013.s.4",
+            "Bed013.s.5",
+            "Bed013.s.6",
+            "Bed013.s.7",
+            "Bed013.s.8",
+            "Bed013.s.9",
+            "Bed013.s.10",
+            "Bed013.s.11",
+            "Bed013.s.12",
+            "Bed013.s.13",
+            "Bed013.s.14",
+            "Bed013.s.15",
+            "Bed013.s.16",
+            "Bed013.s.17",
+            "Bed013.s.18",
+            "Bed013.s.19",
+            "Bed013.s.20",
+            "Bed013.s.21",
+            "Bed013.s.22",
+            "Bed013.s.23",
+            "Bed013.s.24",
+            "Bed013.s.25",
+            "Bed013.s.26",
+            "Bed013.s.27"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "and the other bit of news is we had {disfmarker} you know , uh , I was visited by my German project manager"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and he came up {disfmarker} we came up {disfmarker} with a pretty strange idea ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "It should be possible to make that system produce questions ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And once you 've done that what we can do is have the system ask itself ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "and enter a dialogue with itself ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "So the {disfmarker} the ba basic {disfmarker} the same idea as having two chess computers play against each other ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "But maybe one could do some learning ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "If you get the system to speak to itself , you may find n break downs and errors and you may be able to learn ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 62,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "No . Let 's {disfmarker} we have to {disfmarker} we have some {disfmarker} some top - down processing , given certain setting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 62,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "OK , now we change nothing , and just say ask something ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "What would it ask ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "It wouldn't know what to ask ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Which means that we 'd need to set up an intention inside of the system . Right ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I mean we just {disfmarker} I mean it wouldn't hurt to write up a paper ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well , um , I don't have much experience with uh , conference papers for compu in the computer science realm ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "like , this is the sort of the basic outline of the system or whatever ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So we can actually show how we parse it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 229,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "The submitting to a major international conference . {comment} {comment} Yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well , I {disfmarker} I also think that if we sort of write about what we have done in the past six months , we {disfmarker} we {disfmarker} we could sort of craft a nice little paper that {pause} if it gets rejected , which could happen , doesn't hurt"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 524,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well , in the moment it 's a Bayes - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 524,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And it has sort of fifty not - yet - specified interfaces ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 524,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "OK . Eh {pause} I have taken care that we actually can build little interfaces , {nonvocalsound} to other modules that will tell us whether the user likes these things and , n the {disfmarker} or these things ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 470,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "The SUDO - square {nonvocalsound} is , {vocalsound} \" Situation \" , \" User \" , \" Discourse \" , right ? \" Ontology \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "You know , these are our , whatever , belief - net decision nodes ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and they all contribute to these {pause} {nonvocalsound} things down here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 524,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "OK . Eh {pause} I have taken care that we actually can build little interfaces , {nonvocalsound} to other modules that will tell us whether the user likes these things and , n the {disfmarker} or these things ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and Johno coming up with the idea that if the person discussed the {disfmarker} discussed the admission fee , in {disfmarker} eh previously , that might be a good indication that , \" how do I get to the castle ? \" , actually he wants to enter ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 561,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Or , you know , \" how do I get to X ? \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 561,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "discussing the admission fee in the previous utterance , is a good indication ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "so that we actually end up with um , um , nodes for the discourse and ontology"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "so that we can put them into our Bayes - net ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 774,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "never change them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "so we {disfmarker} all there is is \" where is X \" ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "and we can run our better JavaBayes , and have it produce some output ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 780,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "I wanna {disfmarker} would like to look at uh , what this ad - hoc process of designing a belief - net would actually produce ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and then they also do the generation phase , like Nancy 's thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "you remember , in the {disfmarker} the hand thing in one - eighty - two , like not only was it able to recognize but it was also to generate based upon situations ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "See the {disfmarker} the generation bit , making the system generate {disfmarker} generate something , {comment} is {disfmarker} shouldn't be too hard ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Well , once the system understands things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 278,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "What would one possibly put in such a paper ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 279,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "What to write about ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "What is our {disfmarker} what 's our take home message ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 281,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "What {disfmarker} what do we actually {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 285,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "maybe even {disfmarker} That 's maybe the time to introduce the {disfmarker} the new formalism that you guys have cooked up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Look at the web page and let 's talk about it maybe tomorrow afternoon ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 333,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "More cues for us to find it are like , neural cons"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 444,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So this will be sort of documenting what we think , and documenting what we have in terms of the Bayes - net stuff ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 446,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And since there 's never a bad idea to document things , no ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 447,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "That 's th that 's definitely a good idea ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 448,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "We {disfmarker} we should sketch out the details maybe tomorrow afternoon - ish , if everyone is around ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 618,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "and specify um , what {disfmarker} what we think the {disfmarker} the output uh , observe , out {disfmarker} i input nodes for our Bayes - nets for the sub sub - D , for the discourse bit , should be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 620,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So we need to find out what the \" where is X \" construction will give us in terms of semantics"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 620,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and {vocalsound} Simspec type things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "so that we actually end up with um , um , nodes for the discourse and ontology"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 721,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "U that 's exactly r um , why I 'm proposing {disfmarker} It 's too early to have {disfmarker} to think of them {disfmarker} of all of these discourse things that one could possibly observe ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 725,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "human beings are not allowed to ask anything but \" where is X \" ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 730,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Just \" where is X \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 735,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Wait , so do , or do not take other kinds of constructions into account ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 736,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Well , if you {disfmarker} if you can , oh definitely do ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and then they also do the generation phase , like Nancy 's thing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "you remember , in the {disfmarker} the hand thing in one - eighty - two , like not only was it able to recognize but it was also to generate based upon situations ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "See the {disfmarker} the generation bit , making the system generate {disfmarker} generate something , {comment} is {disfmarker} shouldn't be too hard ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "e I 'm sort of {disfmarker} have the impression that getting it to say the right thing in the right circumstances is much more difficult than getting it to understand something given the circumstances and so on ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 51,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "you know , I mean just cuz it 's sort of harder to learn to speak correctly in a foreign language , rather than learning to understand it . Right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "just the fact that we 'll get {disfmarker} The point is that getting it to understand one construction doesn't mean that it will n always know exactly when it 's correct to use that construction . Right ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "e I 'm sort of {disfmarker} have the impression that getting it to say the right thing in the right circumstances is much more difficult than getting it to understand something given the circumstances and so on ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 51,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "you know , I mean just cuz it 's sort of harder to learn to speak correctly in a foreign language , rather than learning to understand it . Right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "just the fact that we 'll get {disfmarker} The point is that getting it to understand one construction doesn't mean that it will n always know exactly when it 's correct to use that construction . Right ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "It should be possible to make that system produce questions ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 31,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So if you have the knowledge of how to interpret \" where is X ? \" under given conditions , situational , user , discourse and ontological {vocalsound} conditions , you should also be able to make that same system ask \" where is X ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "But maybe one could do some learning ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "If you get the system to speak to itself , you may find n break downs and errors and you may be able to learn ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 44,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "And make it more robust ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 44,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "maybe learn new things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well , um , I don't have much experience with uh , conference papers for compu in the computer science realm ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "I {disfmarker} I didn't really know what to do with it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 172,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "like , this is the sort of the basic outline of the system or whatever ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 221,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "We 're talking about this um , alleged paper that we may , just , sort of w"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "and we {disfmarker} we p pretend to parse it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "What {disfmarker} what do we actually {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "I mean , it 's obvious that we can't do any kind of evaluation ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Yeah , I guess four pages you could {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "It 's just {disfmarker} It 'd just be small ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 434,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "Like introducing the formalism might be not really possible in detail ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 420,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And how much to get into the cognitive neural part ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 421,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "That 's the only {disfmarker} That 's the question mark ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 423,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Don't you need to reduce it if it 's a {disfmarker} or reduce it , if it 's a cognitive neuro {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 424,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I mean the conference may be cognitive neural ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 427,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "you can say that construction - based"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 428,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So i so this paper wouldn't particularly deal with that side"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 769,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "And then the {disfmarker} the {disfmarker} the miracle that we get out the intention , Go - there , happens , based on what we know about that entity , about the user , about his various beliefs , goals , desires , blah - blah - blah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "so that we actually end up with um , um , nodes for the discourse and ontology"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 774,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "so that we can put them into our Bayes - net ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 787,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "but normal statements that seem completely unambiguous , such as \" where is the blah - blah \" , actually are terribly complex , and completely ambiguous ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "Well we fixed some more things from the SmartKom system ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "I 'll ask Eva about the E Bayes and she 's working on that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "How is the generation XML thing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 139,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I 'm gonna finish it today , uh hopefully ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 807,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "and that 's also maybe interesting for Keith and whoever , if you wanna get some more stuff into the data collection ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 807,
+                    "sent_index": 7,
+                    "speaker": "Grad D",
+                    "content": "Remember this , we can completely change the set - up any time we want ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 809,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Look at the results we 've gotten so far for the first , whatever , fifty some subjects ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 811,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "No , we 're approaching twenty now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 818,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "I guess it has to be transcribed , huh ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 819,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "We have uh , eh found someone here who 's hand st hand transcribing the first twelve ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 805,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "and Thilo 's gonna do the instructing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 807,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Also we 're getting a {disfmarker} a person who just got fired uh , from her job ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 807,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Uh a person from Oakland who is interested in maybe continuing the wizard bit once Fey leaves in August ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the meeting about?",
+                "tokenized_answer": [
+                    "An idea for future work was suggested during the visit of the german project manager: the possibility to use the same system for language generation.",
+                    "Setting up certain inputs in the Bayes-net would imply certain intentions, which would trigger dialogues.",
+                    "There is potential to make a conference paper out of presenting the current work and the project aspirations within a parsing paradigm.",
+                    "The focus should be the Bayes-net, to which all other modules interface.",
+                    "Situation, User, Discourse and Ontology feed into the net to infer user intentions.",
+                    "It was suggested that they start analysing what the Discourse and Ontology would give as inputs to the Bayes-net."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "and the other bit of news is we had {disfmarker} you know , uh , I was visited by my German project manager"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 24,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "and he came up {disfmarker} we came up {disfmarker} with a pretty strange idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "It should be possible to make that system produce questions ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "So if you have the knowledge of how to interpret \" where is X ? \" under given conditions , situational , user , discourse and ontological {vocalsound} conditions , you should also be able to make that same system ask \" where is X ? \""
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "No . Let 's {disfmarker} we have to {disfmarker} we have some {disfmarker} some top - down processing , given certain setting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "OK , now we change nothing , and just say ask something ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What would it ask ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "It wouldn't know what to ask ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Unless it was in a situation ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "We 'd have to set up a situation where , it didn't know where something was and it wanted to go there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Which means that we 'd need to set up an intention inside of the system . Right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 71,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Which is basically , \" I don't know where something is and I need to go there \" ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I mean we just {disfmarker} I mean it wouldn't hurt to write up a paper ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Well , um , I don't have much experience with uh , conference papers for compu in the computer science realm ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 172,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "I {disfmarker} I didn't really know what to do with it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 4,
+                            "speaker": "Grad E",
+                            "content": "like , this is the sort of the basic outline of the system or whatever ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "So we can actually show how we parse it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "That should be able to {disfmarker} we should be able to come up with , you know , a sort of a {disfmarker} a parse ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 188,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Right ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 229,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "The submitting to a major international conference . {comment} {comment} Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well , I {disfmarker} I also think that if we sort of write about what we have done in the past six months , we {disfmarker} we {disfmarker} we could sort of craft a nice little paper that {pause} if it gets rejected , which could happen , doesn't hurt"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 524,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well , in the moment it 's a Bayes - net ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 524,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "And it has sort of fifty not - yet - specified interfaces ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 524,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "OK . Eh {pause} I have taken care that we actually can build little interfaces , {nonvocalsound} to other modules that will tell us whether the user likes these things and , n the {disfmarker} or these things ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 470,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "The SUDO - square {nonvocalsound} is , {vocalsound} \" Situation \" , \" User \" , \" Discourse \" , right ? \" Ontology \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 514,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "You know , these are our , whatever , belief - net decision nodes ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 514,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "and they all contribute to these {pause} {nonvocalsound} things down here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 524,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "OK . Eh {pause} I have taken care that we actually can build little interfaces , {nonvocalsound} to other modules that will tell us whether the user likes these things and , n the {disfmarker} or these things ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 774,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "so that we actually end up with um , um , nodes for the discourse and ontology"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 774,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "so that we can put them into our Bayes - net ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was said in future work?",
+                "tokenized_answer": [
+                    "An idea for future work was suggested during the visit of the german project manager: the possibility to use the same system for language generation.",
+                    "Setting up certain inputs in the Bayes-net would imply certain intentions, which would trigger dialogues.",
+                    "Having a system able to ask questions could contribute significantly to training the belief-net.",
+                    "The possibility of incorporating language generation into the system will have to be discussed further."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "and the other bit of news is we had {disfmarker} you know , uh , I was visited by my German project manager"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 24,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "and he came up {disfmarker} we came up {disfmarker} with a pretty strange idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 31,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "It should be possible to make that system produce questions ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 31,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "So if you have the knowledge of how to interpret \" where is X ? \" under given conditions , situational , user , discourse and ontological {vocalsound} conditions , you should also be able to make that same system ask \" where is X ? \""
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "No . Let 's {disfmarker} we have to {disfmarker} we have some {disfmarker} some top - down processing , given certain setting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "OK , now we change nothing , and just say ask something ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What would it ask ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "It wouldn't know what to ask ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Unless it was in a situation ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "We 'd have to set up a situation where , it didn't know where something was and it wanted to go there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Which means that we 'd need to set up an intention inside of the system . Right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 71,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Which is basically , \" I don't know where something is and I need to go there \" ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And once you 've done that what we can do is have the system ask itself ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "and enter a dialogue with itself ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "So the {disfmarker} the ba basic {disfmarker} the same idea as having two chess computers play against each other ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "But maybe one could do some learning ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 44,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "If you get the system to speak to itself , you may find n break downs and errors and you may be able to learn ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 44,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "And make it more robust ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 44,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "maybe learn new things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 35,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , like in AI they generally do the take in ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "and then they also do the generation phase , like Nancy 's thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "you remember , in the {disfmarker} the hand thing in one - eighty - two , like not only was it able to recognize but it was also to generate based upon situations ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "See the {disfmarker} the generation bit , making the system generate {disfmarker} generate something , {comment} is {disfmarker} shouldn't be too hard ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 47,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Well , once the system understands things ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why was the project fit to be included in a conference paper?",
+                "tokenized_answer": [
+                    "There is potential to make a conference paper out of presenting the current work and the project aspirations within a parsing paradigm.",
+                    "Similarly, as no one could recall some of the points of the conference call, the group will have to meet again and define the exact structure and content of the paper they are going to submit."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I mean we just {disfmarker} I mean it wouldn't hurt to write up a paper ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Well , um , I don't have much experience with uh , conference papers for compu in the computer science realm ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 172,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "I {disfmarker} I didn't really know what to do with it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 4,
+                            "speaker": "Grad E",
+                            "content": "like , this is the sort of the basic outline of the system or whatever ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "So we can actually show how we parse it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "That should be able to {disfmarker} we should be able to come up with , you know , a sort of a {disfmarker} a parse ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 188,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Right ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 229,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "The submitting to a major international conference . {comment} {comment} Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well , I {disfmarker} I also think that if we sort of write about what we have done in the past six months , we {disfmarker} we {disfmarker} we could sort of craft a nice little paper that {pause} if it gets rejected , which could happen , doesn't hurt"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 277,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "So , is the {disfmarker} What {disfmarker} Are you just talking about you know , the details of how to do it , or whether to do it , or what it would be ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 278,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "What would one possibly put in such a paper ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 279,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What to write about ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 281,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "What is our {disfmarker} what 's our take home message ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 281,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "What {disfmarker} what do we actually {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 285,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "maybe even {disfmarker} That 's maybe the time to introduce the {disfmarker} the new formalism that you guys have cooked up ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 314,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "They just want ASCII ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 314,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "Pure ASCII lines ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 332,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Look at the web page and let 's talk about it maybe tomorrow afternoon ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 333,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "More cues for us to find it are like , neural cons"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about the bayes-net?",
+                "tokenized_answer": [
+                    "The Bayes-net is going to be the focus of the presentation.",
+                    "In order to complete a functioning prototype of the belief-net, it was decided to start expanding the Ontology and Discourse nodes by working with a simple construction, like \"where is X?\".",
+                    "A robust analysis of such a basic utterance will indicate what the limits of the information derived from the construction are, as well as ways to design the whole module and fit other constructions in."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "So this will be sort of documenting what we think , and documenting what we have in terms of the Bayes - net stuff ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 446,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "And since there 's never a bad idea to document things , no ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 447,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "That 's th that 's definitely a good idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 448,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "We {disfmarker} we should sketch out the details maybe tomorrow afternoon - ish , if everyone is around ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 618,
+                            "sent_index": 6,
+                            "speaker": "Grad D",
+                            "content": "and specify um , what {disfmarker} what we think the {disfmarker} the output uh , observe , out {disfmarker} i input nodes for our Bayes - nets for the sub sub - D , for the discourse bit , should be ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 618,
+                            "sent_index": 7,
+                            "speaker": "Grad D",
+                            "content": "So that {disfmarker} And I will {disfmarker} I will then {comment} {vocalsound} come up with the ontology side uh , bits and pieces ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 620,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "So we need to find out what the \" where is X \" construction will give us in terms of semantics"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 620,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "and {vocalsound} Simspec type things ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 774,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "so that we actually end up with um , um , nodes for the discourse and ontology"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 721,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "U that 's exactly r um , why I 'm proposing {disfmarker} It 's too early to have {disfmarker} to think of them {disfmarker} of all of these discourse things that one could possibly observe ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 725,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "human beings are not allowed to ask anything but \" where is X \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 730,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "not the {disfmarker} the choices of \" where is X \" or \" how do I get to X \" ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 730,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "Just \" where is X \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 735,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Wait , so do , or do not take other kinds of constructions into account ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 736,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well , if you {disfmarker} if you can , oh definitely do ,"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

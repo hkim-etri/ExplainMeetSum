@@ -1,0 +1,330 @@
+{
+    "transcripts_id": "Bro023",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 21,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "No , he 'll be around for three weeks ."
+                },
+                {
+                    "turn_index": 37,
+                    "sent_index": 4,
+                    "speaker": "PhD A",
+                    "content": "and it seemed like they {disfmarker} they had some new results"
+                },
+                {
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So , um , since we 're looking at putting this , um {disfmarker} mean log m magnitude spectral subtraction , um , into the SmartKom system , I I did a test seeing if , um , it would work using past only {comment} and plus the present to calculate the mean ."
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "but it was just a slight drop ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "So that was encouraging ."
+                },
+                {
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Pretty short ."
+                },
+                {
+                    "turn_index": 159,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "What was that ?"
+                },
+                {
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Not changed ."
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 8,
+                    "speaker": "PhD B",
+                    "content": "That was with on - line normalization and LDA ."
+                },
+                {
+                    "turn_index": 231,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "It 's very similar ."
+                },
+                {
+                    "turn_index": 535,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "but some variant of Wiener filtering ."
+                },
+                {
+                    "turn_index": 683,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "By how much ?"
+                },
+                {
+                    "turn_index": 706,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "which {disfmarker}"
+                },
+                {
+                    "turn_index": 773,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Which is which ?"
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 11,
+                    "speaker": "PhD D",
+                    "content": "With this , no improvement ,"
+                },
+                {
+                    "turn_index": 837,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So it could be {disfmarker} it could be interesting ."
+                },
+                {
+                    "turn_index": 851,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Well ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the mean log magnitude spectral subtraction",
+            "oracle_info": [
+                {
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "So that was encouraging ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 14,
+                    "speaker": "Grad E",
+                    "content": "So I did that for about three different conditions ."
+                },
+                {
+                    "turn_index": 63,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Or twelve seconds of speech ?"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So that if you have very long utterances you have the best ,"
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Most of the silence has been cut out ."
+                },
+                {
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Pretty short ."
+                }
+            ]
+        },
+        {
+            "query": "What was the professor's take on the 12 second mean?",
+            "oracle_info": [
+                {
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "That 's how you get your ,"
+                },
+                {
+                    "turn_index": 104,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "that 's {disfmarker} If somebody 's using a system to ask for directions or something ,"
+                },
+                {
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "you know , they 'll say something first ."
+                },
+                {
+                    "turn_index": 110,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "just not as much as he would like ."
+                },
+                {
+                    "turn_index": 110,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "And so , uh , there 's a higher probability of it making an error , uh , in the first utterance ."
+                },
+                {
+                    "turn_index": 115,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "And you could use that initial speech to do all these adaptations"
+                }
+            ]
+        },
+        {
+            "query": "What did Grad E think about the goal of his experiment?",
+            "oracle_info": [
+                {
+                    "turn_index": 51,
+                    "sent_index": 18,
+                    "speaker": "Grad E",
+                    "content": "Something like that ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 20,
+                    "speaker": "Grad E",
+                    "content": "but it {disfmarker} it doesn't hurt that much ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "I 'm not {disfmarker} e u"
+                },
+                {
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Of {disfmarker} of speech ."
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Does it matter how much time y you use to calculate the mean when you were , um , tra doing the training data ? \""
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on latency in the system",
+            "oracle_info": [
+                {
+                    "turn_index": 654,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "Yeah , another thing that I {disfmarker} it 's important to mention is , um , that this has a this has some additional latency ."
+                },
+                {
+                    "turn_index": 689,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "we may or may not be able to add any latency ."
+                },
+                {
+                    "turn_index": 799,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "it 's our system"
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "I , um , also implemented a sp um {disfmarker} spectral whitening idea"
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 11,
+                    "speaker": "PhD D",
+                    "content": "With this , no improvement ,"
+                },
+                {
+                    "turn_index": 830,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "On the overall estimate of the noise ."
+                }
+            ]
+        },
+        {
+            "query": "Why did the professor not like latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 689,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "we may or may not be able to add any latency ."
+                },
+                {
+                    "turn_index": 693,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "I would worry about it a little ."
+                },
+                {
+                    "turn_index": 695,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Because if we completely ignore latency , and then we discover that we really have to do something about it , we 're going to be {disfmarker} find ourselves in a bind ."
+                },
+                {
+                    "turn_index": 697,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "you know , maybe you could make it twenty - five ."
+                },
+                {
+                    "turn_index": 699,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Yeah , just , you know , just be {disfmarker} be a little conservative"
+                }
+            ]
+        },
+        {
+            "query": "How long was the latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 662,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "and the latency of this recursion is around fifty milliseconds ."
+                },
+                {
+                    "turn_index": 707,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "A quick question just about the latency thing ."
+                },
+                {
+                    "turn_index": 707,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "If {disfmarker} if there 's another part of the system that causes a latency of a hundred milliseconds , is this an additive thing ?"
+                }
+            ]
+        }
+    ]
+}

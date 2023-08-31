@@ -1,0 +1,1968 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group discussed the preparation of a data sample for IBM, the manual adjustment of time bins by transcribers, recognition results for a test set of digits data, and forced alignments.",
+            "Participants also talked about Eurospeech 2001 submissions, and exchanged comments on the proceedings of the recently attended Human Language Technologies conference (HLT'01).",
+            "Preliminary recognition results were presented for a subset of digits data.",
+            "Efforts to deal with cross-talk and improve forced alignments for non-digits data were also discussed.",
+            "Subsequent manual adjustment of speech and non-speech boundaries will be delegated to the transcriber pool.",
+            "A subset of Meeting Recorder data will be prepared (i.e. pre-segmented and manually adjusted) for delivery to IBM.",
+            "The Transcriber interface may require modifications if it becomes necessary for transcribers to quickly switch among waveform displays.",
+            "Transcribers risk overlooking speech that is deeply embedded in the mixed signal.",
+            "Should transcriptions be derived from each of the close-talking channels or from the mixed signal alone?",
+            "The pre-segmentation tool does not perform well on short utterances, e.g. backchannels.",
+            "The Transcriber interface does not allow the user to quickly switch among visual displays, i.e. multi-channel waveforms.",
+            "Forced alignments were problematic for non-digits data due to cross-talk.",
+            "This problem was reported to be particularly bad for cross-talk featuring more than one word.",
+            "Echo cancellation was considered as a means of improving forced alignments, but was ultimately deemed to be too time-consuming given the dynamic aspect of adapting distances between speakers.",
+            "Comparing error rates in terms of the recording device used, i.e. lapel versus wireless microphones, is tedious.",
+            "Deleting segments of the recordings is expected to be very time-consuming for transcribers.",
+            "More results are needed for generating adequate submissions for Eurospeech'01.",
+            "Participants have complained that the head-mounted microphone is uncomfortable.",
+            "One meeting recording has been channelized and pre-segmented for delivery to IBM.",
+            "A sample of digits data is being prepared for IBM.",
+            "Preliminary recognition results were obtained for a subset of digits data.",
+            "The error rate distribution was multimodal, reflecting differences in performance for native versus non-native speakers, and also possible pre-processing errors.",
+            "Future efforts will involve an attempt to get good forced alignments on digits data and generate a report for Eurospeech'01.",
+            "A program has been developed for replacing sections of recorded speech with editing bleeps.",
+            "The tightening of time bins for one NSA meeting was checked and judged to be highly accurate.",
+            "Efforts are ongoing to improve forced alignments for a subset of non-digits data, including acoustic adaptation manipulations."
+        ],
+        "answer_sentence_index": [
+            "Bmr018.s.1",
+            "Bmr018.s.2",
+            "Bmr018.s.3",
+            "Bmr018.s.4",
+            "Bmr018.s.5",
+            "Bmr018.s.6",
+            "Bmr018.s.7",
+            "Bmr018.s.8",
+            "Bmr018.s.9",
+            "Bmr018.s.10",
+            "Bmr018.s.11",
+            "Bmr018.s.12",
+            "Bmr018.s.13",
+            "Bmr018.s.14",
+            "Bmr018.s.15",
+            "Bmr018.s.16",
+            "Bmr018.s.17",
+            "Bmr018.s.18",
+            "Bmr018.s.19",
+            "Bmr018.s.20",
+            "Bmr018.s.21",
+            "Bmr018.s.22",
+            "Bmr018.s.23",
+            "Bmr018.s.24",
+            "Bmr018.s.25",
+            "Bmr018.s.26"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 111,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "Will we have time to , um , to prepare something that we {disfmarker} in the format we were planning for the IBM transcribers by then ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 125,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Well we 've talked about that as being the next ones we wanted to transcribe ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "OK , and has it been corrected ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Hand - checked ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 138,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "and then we go in and adjust the boundaries ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 151,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "how quickly can the transcribers scan over and fix the boundaries ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 157,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "and then it 's {disfmarker} then it 's {disfmarker} then it 's the transcribers tightening stuff up ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So you 're talking about tightening up time boundaries ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 465,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "You {disfmarker} did you have , uh , something in the report about , uh , {disfmarker} about , uh , for f uh , forced alignment ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Oh , well , yeah , so I 've been struggling with the forced alignments ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 368,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "does anybody , uh , working on any {disfmarker} any Eurospeech submission related to this ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 369,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I would like to try to do something on digits"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 369,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "but I just don't know if we have time ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 369,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "I mean , it 's due next Friday"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 369,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "so we have to do the experiments and write the paper ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 478,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "so we {disfmarker} you know , we had spent a lot of time , um , writing up the HLT paper"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 480,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but the HLT paper has , you know , it 's a very crude measure of overlap ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 480,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "It 's not really something you could scientifically say is overlap ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 480,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "it 's just whether or not the , um , the segments that were all synchronized , whether there was some overlap somewhere ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 542,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "What {disfmarker} what is {disfmarker} why do you need the , um , the forced alignment for the HLT {disfmarker} I mean for the Eurospeech paper ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 381,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Did you run the {disfmarker} Andreas {disfmarker} the r SRI recognizer on the digits ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Since I considered those preliminary , I didn't ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 430,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "it was transcribed incorrectly ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 430,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "something really bad happened ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "But {disfmarker} and {disfmarker} and some of what you {disfmarker} I mean , you also appear quite a bit in that cross - talk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "that 's just aligned {vocalsound} to the beginning of someone else 's speech , uh in that segment ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 8,
+                    "speaker": "PhD F",
+                    "content": "which is cross - talk ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 482,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "so he thought well if we can do something quick and dirty because Dan said the cross - cancellation , it 's not straight - forward ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 482,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "so , it 's sort of good to hear that it was not straight - forward , thinking if we can get decent forced alignments , then at least we can do sort of a overall report of what happens with actual overlap in time ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "OK , and has it been corrected ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 135,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Hand - checked ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 138,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "and then we go in and adjust the boundaries ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 148,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "except that if they had {disfmarker} if there was a choice between having fifteen minutes that was fully the way you wanted it , and having a whole meeting that didn't get at what you wanted for them {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 151,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "how quickly can the transcribers scan over and fix the boundaries ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well , so {disfmarker} so that 's something that the transcribers will have to {disfmarker} have to do ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 116,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "but that should be really easy to do ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 116,
+                    "sent_index": 7,
+                    "speaker": "Grad E",
+                    "content": "So do we have a meeting that that 's been done with ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 119,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "He generated , um , a channel - wise presegmented version of a meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So the first thing is the automatic thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "and then it 's {disfmarker} then it 's {disfmarker} then it 's the transcribers tightening stuff up ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 160,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and then it 's IBM ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 296,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "I mean , so {disfmarker} so we could use like X Waves instead of Transcriber ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 304,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "but the problem with it is even with just three waveforms it was just painfully slow to scroll ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 304,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "So you just scroll a screen and it would , you know go \" kur - chunk ! \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 307,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And so it just was not doable with the current interface ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 309,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I think that if we decide that we need {disfmarker} that they need to see the visuals , we need to change the interface so that they can do that ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 184,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "I guess there is this issue of , you know , if {disfmarker} if the segmenter thought there was no speech on {disfmarker} on a particular stretch , on a particular channel ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "and there really was , then , if it didn't show up in a mixed signal to verify , then it might be overlooked ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "so , I mean , the question is \" should {disfmarker} should a transcriber listen to the entire thing or can it g can it be based on the mixed signal ? \""
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "and there really was , then , if it didn't show up in a mixed signal to verify , then it might be overlooked ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "so , I mean , the question is \" should {disfmarker} should a transcriber listen to the entire thing or can it g can it be based on the mixed signal ? \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "And I th eh so far as I 'm concerned it 's fine to base it on the mixed signal at this point ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 196,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So , they have the normal channeltrans interface where they have each individual speaker has their own line ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "but you 're listening to the mixed signal and you 're tightening the boundaries ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 198,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "correcting the boundaries ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 198,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "You shouldn't have to tighten them too much because Thilo 's program does that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Except for {vocalsound} it doesn't do well on short things , remember ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "It will miss most of the really short things ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 207,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Uh - huh !"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah , you have to say \" uh - huh \" more slowly to {disfmarker} to get c"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 275,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "The problem is that {disfmarker} that {disfmarker} the Tcl - TK interface with the visuals , it 's very slow to load waveforms ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 279,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "You can {disfmarker} you can switch quickly between the audio ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "but you just can't get the visual display to show quickly ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 281,
+                    "sent_index": 3,
+                    "speaker": "Postdoc A",
+                    "content": "Well , I mean , it takes {disfmarker} it takes long enough {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Oh , well , yeah , so I 've been struggling with the forced alignments ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "But {disfmarker} and {disfmarker} and some of what you {disfmarker} I mean , you also appear quite a bit in that cross - talk ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "So , {vocalsound} I actually went through all of those ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "there were I think fifty - five segments , {vocalsound} um , in {disfmarker} in X Waves , and {disfmarker} and sort of did a crude check ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and {vocalsound} more often than not , it {disfmarker} it gets it wrong ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 4,
+                    "speaker": "PhD F",
+                    "content": "So there 's either the beginning , mostly the beginning word , {vocalsound} where th you , um , you know , Chuck talks somewhere into the segment ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 5,
+                    "speaker": "PhD F",
+                    "content": "but the first , um , word of what he says , often \" I \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 6,
+                    "speaker": "PhD F",
+                    "content": "but it 's very reduced \" I , \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 7,
+                    "speaker": "PhD F",
+                    "content": "that 's just aligned {vocalsound} to the beginning of someone else 's speech , uh in that segment ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 8,
+                    "speaker": "PhD F",
+                    "content": "which is cross - talk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 472,
+                    "sent_index": 10,
+                    "speaker": "PhD F",
+                    "content": "but it might well be that we can't get clean alignments out of this {disfmarker} out of those , uh , {vocalsound} channels ,"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 10,
+                    "speaker": "PhD F",
+                    "content": "but it might well be that we can't get clean alignments out of this {disfmarker} out of those , uh , {vocalsound} channels ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 473,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Unless maybe we do this , uh , um , cancellation business ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 476,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but it 's clear from Dan that this is not something you can do in a short amount of time ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 482,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "so , it 's sort of good to hear that it was not straight - forward , thinking if we can get decent forced alignments , then at least we can do sort of a overall report of what happens with actual overlap in time ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 504,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "um , but then if you add the dynamic aspect of adapting distances , then it wasn't {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 505,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Well , Andreas , how well did it work on the non - lapel stuff ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 507,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I haven't checked those yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 509,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "It 's very tedious to check these ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 472,
+                    "sent_index": 10,
+                    "speaker": "PhD F",
+                    "content": "but it might well be that we can't get clean alignments out of this {disfmarker} out of those , uh , {vocalsound} channels ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 473,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Unless maybe we do this , uh , um , cancellation business ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 476,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but it 's clear from Dan that this is not something you can do in a short amount of time ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 734,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "these are conferences that have d really different emphases ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 734,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "Whereas HLT and {disfmarker} and Eurospeech , pretty {disfmarker} pretty {disfmarker} pretty similar , so I {disfmarker} I {disfmarker} I can't see really just putting in the same thing ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 738,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "the HLT paper is really more of a introduction - to - the - project paper , and , um {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 740,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Yeah , for Eurospeech we want some results"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 784,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "I guess it 's alright for you to talk a little without the mike {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 784,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "I noticed you adjusting the mike a lot ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 785,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "Well I won I noticed when you turned your head , it would {disfmarker} it would tilt ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 786,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Maybe it wasn't just tightened enough , or {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 792,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Cuz , I 'm just thinking , you know , we were {disfmarker} we 're {disfmarker} we 've been talking about changing the mikes , uh , for a while ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 795,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "but if they 're not comfortable , we have the same problems we have with these stupid things ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 116,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "I {disfmarker} I have the program to insert the beeps ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 116,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "but that should be really easy to do ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 116,
+                    "sent_index": 7,
+                    "speaker": "Grad E",
+                    "content": "So do we have a meeting that that 's been done with ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 119,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "He generated , um , a channel - wise presegmented version of a meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 160,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and then it 's IBM ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 169,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "The {disfmarker} I guess the question on my mind is do we wait for the transcribers to adjust the marks for the whole meeting before we give anything to IBM ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 169,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "or do we go ahead and send them a sample ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 381,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Did you run the {disfmarker} Andreas {disfmarker} the r SRI recognizer on the digits ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Since I considered those preliminary , I didn't ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 430,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "it was transcribed incorrectly ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 430,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "something really bad happened ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 430,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "and I just haven't listened to it yet to find out what it was ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 377,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "also got very lousy average error , like fifteen or {disfmarker} or , uh , fifteen to twenty percent average ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 377,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "So that {disfmarker} that means to me that somewhere in the other recordings there are some pathological cases ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 391,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Yeah , it 's actually , um , it {disfmarker} uh {disfmarker} it was trimodal , actually {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 398,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Zero percent error ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "the non - pathological native speakers ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 402,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Then there was another bump at , um , {vocalsound} {vocalsound} oh , like fifteen or something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 409,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Those were the non - natives ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 409,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "And then there was another distinct bump at , like , a hundred , {vocalsound} which must have been some problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 432,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 478,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "so we {disfmarker} you know , we had spent a lot of time , um , writing up the HLT paper"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 478,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and we wanted to use that , uh , kind of analysis ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 482,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "so , it 's sort of good to hear that it was not straight - forward , thinking if we can get decent forced alignments , then at least we can do sort of a overall report of what happens with actual overlap in time ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 115,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "and it was fine {disfmarker} with the beeps"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 115,
+                    "sent_index": 6,
+                    "speaker": "PhD B",
+                    "content": "they would be {disfmarker} That 's easy for them to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "I {disfmarker} I have the program to insert the beeps ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 747,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "I had , uh , one of the transcribers go through and tighten up the bins on one of the , uh , NSA meetings ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 747,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "and then I went through afterwards and double - checked it"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 747,
+                    "sent_index": 3,
+                    "speaker": "Postdoc A",
+                    "content": "so that one is really very {disfmarker} very accurate ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 675,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So we need some way to push these first chunk of meetings into a state where we get good alignments ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 676,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I 'm probably going to spend another day or so trying to improve things by , um , {vocalsound} {vocalsound} by using , um , acoustic adaptation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 676,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Um , the {disfmarker} {vocalsound} Right now I 'm using the unadapted models for the forced alignments ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was said in the meeting?",
+                "tokenized_answer": [
+                    "The group discussed the preparation of a data sample for IBM, the manual adjustment of time bins by transcribers, recognition results for a test set of digits data, and forced alignments.",
+                    "Participants also talked about Eurospeech 2001 submissions, and exchanged comments on the proceedings of the recently attended Human Language Technologies conference (HLT'01).",
+                    "Preliminary recognition results were presented for a subset of digits data.",
+                    "Efforts to deal with cross-talk and improve forced alignments for non-digits data were also discussed."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 111,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Will we have time to , um , to prepare something that we {disfmarker} in the format we were planning for the IBM transcribers by then ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 125,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Well we 've talked about that as being the next ones we wanted to transcribe ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "OK , and has it been corrected ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 135,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Hand - checked ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 138,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "and then we go in and adjust the boundaries ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "how quickly can the transcribers scan over and fix the boundaries ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 157,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and then it 's {disfmarker} then it 's {disfmarker} then it 's the transcribers tightening stuff up ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So you 're talking about tightening up time boundaries ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 237,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "What you {disfmarker} the digital {disfmarker} what the digital task that you had your interface ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 381,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Did you run the {disfmarker} Andreas {disfmarker} the r SRI recognizer on the digits ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "You {disfmarker} did you have , uh , something in the report about , uh , {disfmarker} about , uh , for f uh , forced alignment ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Oh , well , yeah , so I 've been struggling with the forced alignments ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 368,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "does anybody , uh , working on any {disfmarker} any Eurospeech submission related to this ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I would like to try to do something on digits"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 369,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "but I just don't know if we have time ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 369,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "I mean , it 's due next Friday"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 369,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "so we have to do the experiments and write the paper ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 478,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "so we {disfmarker} you know , we had spent a lot of time , um , writing up the HLT paper"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "but the HLT paper has , you know , it 's a very crude measure of overlap ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "It 's not really something you could scientifically say is overlap ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "it 's just whether or not the , um , the segments that were all synchronized , whether there was some overlap somewhere ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 542,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "What {disfmarker} what is {disfmarker} why do you need the , um , the forced alignment for the HLT {disfmarker} I mean for the Eurospeech paper ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 543,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Well , I guess I {disfmarker} I wanted to just do something not on recognition experiments"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 543,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "because that 's ju way too early , but to be able to report , you know , actual numbers ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 381,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Did you run the {disfmarker} Andreas {disfmarker} the r SRI recognizer on the digits ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Since I considered those preliminary , I didn't ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "it was transcribed incorrectly ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "something really bad happened ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and I just haven't listened to it yet to find out what it was ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 472,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "But {disfmarker} and {disfmarker} and some of what you {disfmarker} I mean , you also appear quite a bit in that cross - talk ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 472,
+                            "sent_index": 7,
+                            "speaker": "PhD F",
+                            "content": "that 's just aligned {vocalsound} to the beginning of someone else 's speech , uh in that segment ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 472,
+                            "sent_index": 8,
+                            "speaker": "PhD F",
+                            "content": "which is cross - talk ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 482,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "so he thought well if we can do something quick and dirty because Dan said the cross - cancellation , it 's not straight - forward ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "so , it 's sort of good to hear that it was not straight - forward , thinking if we can get decent forced alignments , then at least we can do sort of a overall report of what happens with actual overlap in time ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was said about IBM? ",
+                "tokenized_answer": [
+                    "One meeting recording has been channelized and pre-segmented for delivery to IBM.",
+                    "A subset of Meeting Recorder data will be prepared (i.e. pre-segmented and manually adjusted) for delivery to IBM."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 116,
+                            "sent_index": 4,
+                            "speaker": "Grad E",
+                            "content": "I {disfmarker} I have the program to insert the beeps ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 116,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 116,
+                            "sent_index": 6,
+                            "speaker": "Grad E",
+                            "content": "but that should be really easy to do ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 116,
+                            "sent_index": 7,
+                            "speaker": "Grad E",
+                            "content": "So do we have a meeting that that 's been done with ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 119,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "He generated , um , a channel - wise presegmented version of a meeting ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 160,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "and then it 's IBM ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 116,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 116,
+                            "sent_index": 6,
+                            "speaker": "Grad E",
+                            "content": "but that should be really easy to do ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 116,
+                            "sent_index": 7,
+                            "speaker": "Grad E",
+                            "content": "So do we have a meeting that that 's been done with ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "that we 've tightened it up to the point where we can actually give it to IBM and have them try it out ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 119,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "He generated , um , a channel - wise presegmented version of a meeting ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "So the first thing is the automatic thing ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and then it 's {disfmarker} then it 's {disfmarker} then it 's the transcribers tightening stuff up ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 160,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "and then it 's IBM ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the preliminary recognition results?",
+                "tokenized_answer": [
+                    "Preliminary recognition results were obtained for a subset of digits data.",
+                    "The error rate distribution was multimodal, reflecting differences in performance for native versus non-native speakers, and also possible pre-processing errors."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 381,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Did you run the {disfmarker} Andreas {disfmarker} the r SRI recognizer on the digits ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Since I considered those preliminary , I didn't ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "it was transcribed incorrectly ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "something really bad happened ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 430,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "and I just haven't listened to it yet to find out what it was ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 377,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "He s he did the Aurora system"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "also got very lousy average error , like fifteen or {disfmarker} or , uh , fifteen to twenty percent average ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "So that {disfmarker} that means to me that somewhere in the other recordings there are some pathological cases ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 391,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Yeah , it 's actually , um , it {disfmarker} uh {disfmarker} it was trimodal , actually {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Zero percent error ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 400,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "the non - pathological native speakers ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 402,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Then there was another bump at , um , {vocalsound} {vocalsound} oh , like fifteen or something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 409,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Those were the non - natives ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 409,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "And then there was another distinct bump at , like , a hundred , {vocalsound} which must have been some problem ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 432,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So , if I excluded the pathological ones , {vocalsound} by definition , those that had like over ninety - five percent error rate , {vocalsound} and the non - natives , then the average error rate was like one point four or something ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team say about the transcriber interface?",
+                "tokenized_answer": [
+                    "The Transcriber interface may require modifications if it becomes necessary for transcribers to quickly switch among waveform displays."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 296,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "I mean , so {disfmarker} so we could use like X Waves instead of Transcriber ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 298,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "and it loads faster , certainly ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 302,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So I {disfmarker} I actually before , uh , Dave Gelbart did this , I did an interface which showed each waveform and ea a ribbon for each waveform ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 304,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "but the problem with it is even with just three waveforms it was just painfully slow to scroll ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 304,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "So you just scroll a screen and it would , you know go \" kur - chunk ! \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 307,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And so it just was not doable with the current interface ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "and , you know , you could fire up a Transcriber interface for , y you know , in different windows , multiple ones , one for each channel ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "And it 's sort of a {disfmarker} a hack but I mean it would be one way of seeing the visual form ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 309,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I think that if we decide that we need {disfmarker} that they need to see the visuals , we need to change the interface so that they can do that ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about mixed signals?",
+                "tokenized_answer": [
+                    "Transcribers risk overlooking speech that is deeply embedded in the mixed signal.",
+                    "Should transcriptions be derived from each of the close-talking channels or from the mixed signal alone?",
+                    "The pre-segmentation tool does not perform well on short utterances, e.g. backchannels."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 184,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "I guess there is this issue of , you know , if {disfmarker} if the segmenter thought there was no speech on {disfmarker} on a particular stretch , on a particular channel ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 186,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "and there really was , then , if it didn't show up in a mixed signal to verify , then it might be overlooked ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 186,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "so , I mean , the question is \" should {disfmarker} should a transcriber listen to the entire thing or can it g can it be based on the mixed signal ? \""
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 186,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "and there really was , then , if it didn't show up in a mixed signal to verify , then it might be overlooked ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 186,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "so , I mean , the question is \" should {disfmarker} should a transcriber listen to the entire thing or can it g can it be based on the mixed signal ? \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 186,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "And I th eh so far as I 'm concerned it 's fine to base it on the mixed signal at this point ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So , they have the normal channeltrans interface where they have each individual speaker has their own line ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "but you 're listening to the mixed signal and you 're tightening the boundaries ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "correcting the boundaries ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "You shouldn't have to tighten them too much because Thilo 's program does that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 200,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Except for {vocalsound} it doesn't do well on short things , remember ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "It will miss most of the really short things ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 207,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Uh - huh !"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Yeah , you have to say \" uh - huh \" more slowly to {disfmarker} to get c"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What challenges needed to be overcome before submission for Eurospeech\u201901?",
+                "tokenized_answer": [
+                    "Deleting segments of the recordings is expected to be very time-consuming for transcribers.",
+                    "More results are needed for generating adequate submissions for Eurospeech'01."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 472,
+                            "sent_index": 10,
+                            "speaker": "PhD F",
+                            "content": "but it might well be that we can't get clean alignments out of this {disfmarker} out of those , uh , {vocalsound} channels ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 473,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "Unless maybe we do this , uh , um , cancellation business ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 476,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "but it 's clear from Dan that this is not something you can do in a short amount of time ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 734,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "these are conferences that have d really different emphases ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 734,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "Whereas HLT and {disfmarker} and Eurospeech , pretty {disfmarker} pretty {disfmarker} pretty similar , so I {disfmarker} I {disfmarker} I can't see really just putting in the same thing ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 738,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "the HLT paper is really more of a introduction - to - the - project paper , and , um {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 740,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Yeah , for Eurospeech we want some results"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is the future of data alignments?",
+                "tokenized_answer": [
+                    "Future efforts will involve an attempt to get good forced alignments on digits data and generate a report for Eurospeech'01."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 478,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "so we {disfmarker} you know , we had spent a lot of time , um , writing up the HLT paper"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 478,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "and we wanted to use that , uh , kind of analysis ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "but the HLT paper has , you know , it 's a very crude measure of overlap ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "It 's not really something you could scientifically say is overlap ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "it 's just whether or not the , um , the segments that were all synchronized , whether there was some overlap somewhere ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "so , it 's sort of good to hear that it was not straight - forward , thinking if we can get decent forced alignments , then at least we can do sort of a overall report of what happens with actual overlap in time ,"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,216 @@
+{
+    "transcripts_id": "Bmr010",
+    "general_query_list": [
+        {
+            "query": "What was discussed in the meeting?",
+            "oracle_info": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "OK . We seem to be recording ."
+                },
+                {
+                    "turn_index": 27,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "OK , transcription , uh , microphone issues {disfmarker}"
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "use {disfmarker}"
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 8,
+                    "speaker": "Professor G",
+                    "content": "h he was looking for , uh , speaker change {pause} points ."
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 7,
+                    "speaker": "PhD C",
+                    "content": "to have more or less , uh , silence portions in inserted ."
+                },
+                {
+                    "turn_index": 234,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "to at least modify Transcriber ,"
+                },
+                {
+                    "turn_index": 275,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Oh , OK ."
+                },
+                {
+                    "turn_index": 453,
+                    "sent_index": 4,
+                    "speaker": "Professor G",
+                    "content": "they were {disfmarker} they were perturbed with me"
+                },
+                {
+                    "turn_index": 473,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Stop breathing !"
+                },
+                {
+                    "turn_index": 616,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Speech research ."
+                },
+                {
+                    "turn_index": 686,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Full - time ."
+                },
+                {
+                    "turn_index": 725,
+                    "sent_index": 2,
+                    "speaker": "Professor G",
+                    "content": "which will also clear things up ."
+                },
+                {
+                    "turn_index": 805,
+                    "sent_index": 1,
+                    "speaker": "Professor G",
+                    "content": "But , I mean , the other things that we talked about is , uh , {vocalsound} pitch - related things and harmonicity - related things ,"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "What did Speaker C say about detecting speech/non-speech options?",
+            "oracle_info": [
+                {
+                    "turn_index": 90,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "which is an HMM - ba based system with Gaussian mixtures for s speech and nonspeech ."
+                },
+                {
+                    "turn_index": 94,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "for that dialogue"
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about volume variation?",
+            "oracle_info": [
+                {
+                    "turn_index": 98,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "uh , why I added more mixtures for {disfmarker} for the speech ."
+                },
+                {
+                    "turn_index": 100,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so I did two mixtures , one for the loud speakers and one for the quiet speakers ."
+                },
+                {
+                    "turn_index": 102,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I did that for {disfmarker} for five minutes of one dialogue"
+                }
+            ]
+        },
+        {
+            "query": "What problems were faced due to overlaps?",
+            "oracle_info": [
+                {
+                    "turn_index": 311,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "so they 're {disfmarker} {vocalsound} it 's {disfmarker} the {disfmarker} the techniques work pretty well ."
+                },
+                {
+                    "turn_index": 312,
+                    "sent_index": 1,
+                    "speaker": "Postdoc F",
+                    "content": "Cuz there is one thing that we don't have right now and that is the automatic , um , channel identifier ."
+                },
+                {
+                    "turn_index": 314,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "That {disfmarker} that , you know , that would g help in terms of encoding of overlaps ."
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "The {disfmarker} the transcribers would have less , uh , disentangling to do {pause} if that were available ."
+                }
+            ]
+        },
+        {
+            "query": "What\u2019s the status of transcription?",
+            "oracle_info": [
+                {
+                    "turn_index": 206,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "uh Th - they 're {nonvocalsound} making really quick progress ."
+                },
+                {
+                    "turn_index": 234,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "which , if we don't have something else that works , I think that 's a pretty good way of going ."
+                }
+            ]
+        },
+        {
+            "query": "What did Speaker F state about the transcriber tool?",
+            "oracle_info": [
+                {
+                    "turn_index": 258,
+                    "sent_index": 0,
+                    "speaker": "Postdoc F",
+                    "content": "the hack to {vocalsound} preserve the overlaps {nonvocalsound} better would be one which creates different output files for each channel ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the team say on alternative transcription tools? ",
+            "oracle_info": [
+                {
+                    "turn_index": 176,
+                    "sent_index": 2,
+                    "speaker": "Postdoc F",
+                    "content": "this {disfmarker} this is called Praat , PRAAT , {nonvocalsound} which I guess means spee speech in Dutch or something ."
+                },
+                {
+                    "turn_index": 179,
+                    "sent_index": 1,
+                    "speaker": "Postdoc F",
+                    "content": "In terms {nonvocalsound} of it being {nonvocalsound} Windows {nonvocalsound} versus {disfmarker}"
+                },
+                {
+                    "turn_index": 195,
+                    "sent_index": 1,
+                    "speaker": "Professor G",
+                    "content": "So I don't know if we have a long - term need to do lots and lots of transcribing ."
+                },
+                {
+                    "turn_index": 195,
+                    "sent_index": 5,
+                    "speaker": "Professor G",
+                    "content": "But as far a you know , uh , with {disfmarker} with any luck we 'll be able to wind down the larger project ."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1475 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The translation of SmartKom to english is in its final stages.",
+            "The synthesis module will be the last one to do, after the english syntax trees are completed.",
+            "The system is still buggy and unstable, but it will soon be ready for a demonstration.",
+            "This is the first of two working demos required for the project.",
+            "Further than that, there are no restrictions on the focus of the research or its possible applications.",
+            "For example, issues like spatial descriptions could be investigated.",
+            "The variety of linguistic conventions seem to develop around an ego/allo-centric and a proximal/distal paradigm.",
+            "The latter is also reflected in neuro-physiological data.",
+            "From an engineering perspective, the belief-net for the AVE task should be completed within a few weeks.",
+            "The majority of the nodes are already there.",
+            "This leaves the dependencies between them and the rules of computation to be set.",
+            "Since the whole system is going to be re-designed, there are major decisions to be taken regarding the parser and the ontology, as well as what can be re-used from past EML projects.",
+            "In parallel, another team is working on formalisation and notation.",
+            "Finally, more ideas are expected to come from students and their research.",
+            "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised.",
+            "After the demo, the focus of research can switch towards purely scientific goals, including issues on ontology, deep semantic constructions, execution engines etc.",
+            "Moreover, a new system will be designed for the project and at least some parts of it should be built.",
+            "Similarly, the construction analyser should be a single, general tool working for both the tourist domain and child language modelling.",
+            "The focus for the next meeting will be on the belief-net, of which a working demo should be complete in the next few weeks.",
+            "Since there are not enough data, its connections and weights will have to be designed.",
+            "Although JavaBayes has been the tool of choice until now, the possibility that Hugin could be a better option should be investigated.",
+            "In order to promote the collaboration with EML, the group-ware server there will be updated with all progress being made in the two sites.",
+            "A talk on some of the issues will also be organised to take place at DFKI.",
+            "The german SmartKom version available on the server does not work.",
+            "The english version, although still under development, does work, however, the system is still unstable as -apart from other reasons- it was initially built to work with a touch screen.",
+            "De-bugging and cleaning up has to take place before any new modules are added on it.",
+            "As regards the belief-net, no connections and dependencies have been built into it.",
+            "These will have to be guessed instead of learnt through data, as not enough data is available for such a task.",
+            "Finally, it has been noted that the JavaBayes GUI does not satisfy all the presentation requirements for this belief-net and modifying the underlying code would be too time-consuming.",
+            "The german SmartKom system has been translated to English up to the speech synthesis level.",
+            "The german syntax trees are currently being adapted to English.",
+            "These also contribute information to the synthesis module in order to achieve better pronunciation.",
+            "The current english version is probably the best working one, since some of the problems with the original system have been corrected.",
+            "The design of the belief-net has also progressed significantly: the vast majority of the nodes have been identified and the feasibility of the task from a technical point of view has been confirmed."
+        ],
+        "answer_sentence_index": [
+            "Bed010.s.1",
+            "Bed010.s.2",
+            "Bed010.s.3",
+            "Bed010.s.4",
+            "Bed010.s.5",
+            "Bed010.s.6",
+            "Bed010.s.7",
+            "Bed010.s.8",
+            "Bed010.s.9",
+            "Bed010.s.10",
+            "Bed010.s.11",
+            "Bed010.s.12",
+            "Bed010.s.13",
+            "Bed010.s.14",
+            "Bed010.s.15",
+            "Bed010.s.16",
+            "Bed010.s.17",
+            "Bed010.s.18",
+            "Bed010.s.19",
+            "Bed010.s.20",
+            "Bed010.s.21",
+            "Bed010.s.22",
+            "Bed010.s.23",
+            "Bed010.s.24",
+            "Bed010.s.25",
+            "Bed010.s.26",
+            "Bed010.s.27",
+            "Bed010.s.28",
+            "Bed010.s.29",
+            "Bed010.s.30",
+            "Bed010.s.31",
+            "Bed010.s.32",
+            "Bed010.s.33",
+            "Bed010.s.34"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "which means it 's just using a German sythesis module for English sentences ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 6,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "which means it 's just using a German sythesis module for English sentences ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "But I think that the point is that out of the twelve possible utterances that the German system can do , we 've already written the {disfmarker} the syntax trees for three or four ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 34,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "Right now it 's brittle and you need to ch start it up and then make ts twenty changes on {disfmarker} on {disfmarker} on {disfmarker} on seventeen modules before they actually can stomach it , anything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 122,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "we can even make a {disfmarker} sort of an internal demo ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Um . {vocalsound} Well it was just amazing to {disfmarker} to see uh how {disfmarker} how instable the whole thing is ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 87,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So th the demo the demo requirements for this Fall are sort of taken care of as of later this week or something ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But , more focused on uh an idealized version than just getting the demo out ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 431,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "And so these issues about uh , reference , and {disfmarker} spatial {comment} reference , discourse reference , uh - uh - uh - uh {comment} all this sort of stuff , uh , deixis which is part of what you were talking about ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 433,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "um {disfmarker} So , all of this stuff is coming up essentially starting now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 433,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So we gotta do all this ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So in addition to e ego and allocentric uh which appear all over the place , you also apparently have this proximal - distal thing which is very deeply uh embedded ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 431,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Well there 's {disfmarker} there 's uh been a lot of behavioral things o on this , but that was the first neur neuro - physiological thing I saw ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 522,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "so , I think as far as this group goes , um , it 's certainly worth continuing for the next few weeks to get closure on the uh belief - net and the ideas that are involved in that , and what are th what are the concepts ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 8,
+                    "speaker": "Professor C",
+                    "content": "and we went through this , and , I think , more or less convinced ourselves that at least the vast majority of the nodes that we needed for the demo level we were thinking of , were in there ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 11,
+                    "speaker": "Professor C",
+                    "content": "So , uh Bhaskara and I went off and looked at some technical questions about were certain operations sort of legitimate belief - net computations and was there some known problem with them or had someone already uh , solved you know how to do this and stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 433,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So \" OK , we 're not using their system . That means we need our system . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 439,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But to do that we 're gonna need to make some decisions like ontology ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 439,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "There 's a sort of standard way of getting things from ontologies"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 439,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "and we build the parser and stuff around that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 439,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "i Does uh either the uh SmartKom project or one of the projects at EML have something that we can just p pull out , for that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 437,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And so , uh , in addition to the business about just getting the linguistics right , and the formalism and stuff , we 're actually gonna build something"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 437,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "and uh , Johno is point person on the parser , analyzer , whatever that is ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 437,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "and we 're gonna start on that in parallel with the um , the grammar stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 496,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "And , while we 're at this level , uh , there 's at least one new doctoral student in computer science who will be joining the project , either next week or the first of August , depending on the blandishments of Microsoft ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And actually I talked today to a uh undergraduate who wants to do an honors thesis on this ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 122,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "we can even make a {disfmarker} sort of an internal demo ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 128,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And so you {disfmarker} when somebody on the streets com comes up to you and asks you what is SmartKom so you can , sort of , give a sensible answer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 130,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So , c sh we could set that up as actually an institute wide thing ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 132,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "That 's the level at which you know we can just li invite everybody and say \" this is a project that we 've been working on and here 's a demo version of it \" and stuff like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "Well d we {disfmarker} we do wanna have all the bugs out b where you have to sort of pipe in extra XML messages from left and right before you 're {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So I 'd like to , for the summer turn into science mode ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 132,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "That 's the level at which you know we can just li invite everybody and say \" this is a project that we 've been working on and here 's a demo version of it \" and stuff like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 140,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But uh starting next meeting I think we want to flip into this mode where {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 140,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Uh . I mean there are a lot of issues ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 140,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "what 's the ontology look like ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 142,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "you know what do the constructions look like ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 142,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "what 's the execution engine look like ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 433,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "And then there 's also a set of system things that come up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 433,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So \" OK , we 're not using their system . That means we need our system . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 437,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And so , uh , in addition to the business about just getting the linguistics right , and the formalism and stuff , we 're actually gonna build something"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "It looks like we 're now in a position that the construction analyzer that we want for this applied project can be the same as the construction analyzer that Nancy needs for the child language modeling ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 441,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "and the hope is that we can make these things the same thing ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 443,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and of course it 's only w In both cases it 's only one piece of a bigger system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 522,
+                    "sent_index": 6,
+                    "speaker": "Professor C",
+                    "content": "so , I think as far as this group goes , um , it 's certainly worth continuing for the next few weeks to get closure on the uh belief - net and the ideas that are involved in that , and what are th what are the concepts ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 522,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "We 'll see whether it 's gonna make sense to have this be separate from the other bigger effort with the formalization stuff or not ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "How do you go about this process of deciding what these connections are ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I know that there 's an issue of how to weight the different things too , and stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 219,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So uh what we 're gonna do initially is {disfmarker} is do design , and , i if you will , guess ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and there are even techniques for learning the structure , although that takes a lot more data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "but for the limited amount of stuff we have for this particular exercise I think we 'll just design it ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 174,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "JavaBayes does not support that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 179,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "So {disfmarker} so don't view free as {disfmarker} as a absolute constraint ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "Yeah , the one that uh people seem to use is uh Hugin or whatever ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 187,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "yeah that 's free ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Uh but yo I noticed people do use Hugin"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I {disfmarker} I also s would suggest not to d spend two weeks in {disfmarker} in {disfmarker} in changing the {disfmarker} the JavaBayes code ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 16,
+                    "speaker": "Grad E",
+                    "content": "And um , part of my responsibility is uh to use our internal \" group - ware \" server at EML ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 17,
+                    "speaker": "Grad E",
+                    "content": "make that open to all of us and them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 18,
+                    "speaker": "Grad E",
+                    "content": "so that whatever we discuss in terms of parsing and {disfmarker} and generating and constructions w we {disfmarker} we sort of uh put it in there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 19,
+                    "speaker": "Grad E",
+                    "content": "and they put what they do in there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 20,
+                    "speaker": "Grad E",
+                    "content": "and maybe we can even um , get some overlap , get some synergy out of that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 547,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "and so anyway we c uh {disfmarker} We can m undoubtedly get Ami uh to give a talk at uh EML or something like that . While he 's in {disfmarker} in uh {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 550,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "A lot of interest . Actually , either place , DFKI or uh {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 147,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "uh what {disfmarker} what part of th the SmartKom stuff ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 148,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Well , the parser , and that stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "e the version {disfmarker} that is , the full version that 's on the server d does not work ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 34,
+                    "sent_index": 6,
+                    "speaker": "Grad E",
+                    "content": "Right now it 's brittle and you need to ch start it up and then make ts twenty changes on {disfmarker} on {disfmarker} on {disfmarker} on seventeen modules before they actually can stomach it , anything ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 34,
+                    "sent_index": 7,
+                    "speaker": "Grad E",
+                    "content": "And send in a {disfmarker} a {disfmarker} a couple of side queries on some dummy center set - up program so that it actually works"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 34,
+                    "sent_index": 8,
+                    "speaker": "Grad E",
+                    "content": "because it 's designed for this seevit thing , where you have the gestural recognition running with this s Siemens virtual touch screen , which we don't have here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Um . {vocalsound} Well it was just amazing to {disfmarker} to see uh how {disfmarker} how instable the whole thing is ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "Well d we {disfmarker} we do wanna have all the bugs out b where you have to sort of pipe in extra XML messages from left and right before you 're {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "Makes sense ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 157,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "OK so here 's where we are on the belief - net stuff as far as I understand it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "Um . Going back I guess two weeks ago uh Robert had laid out this belief - net , missing only the connections ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 8,
+                    "speaker": "Professor C",
+                    "content": "and we went through this , and , I think , more or less convinced ourselves that at least the vast majority of the nodes that we needed for the demo level we were thinking of , were in there ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 217,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Well there {disfmarker} there {disfmarker} there There 're two different things you do ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 219,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "One is you design and the other is you learn ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 219,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "So uh what we 're gonna do initially is {disfmarker} is do design , and , i if you will , guess ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 223,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "If it 's done right , and if you have data then , there are techniques for learning the numbers given the structure"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "and there are even techniques for learning the structure , although that takes a lot more data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "but for the limited amount of stuff we have for this particular exercise I think we 'll just design it ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 165,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "We wanted to look into maybe getting it , the visualization , a bit clearer ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 165,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "but I think if we do it , um , sort of a paper version of all the nodes and then the connections between them , that should suffice ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 169,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "We do in the long run wanna do better visualization and all that stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 174,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "JavaBayes does not support that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 174,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "It 'd probably take two weeks or so to actually go through and do it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "and I couldn't find the necessary mix of free and uh with the GUI and , with this thing that we want ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I {disfmarker} I also s would suggest not to d spend two weeks in {disfmarker} in {disfmarker} in changing the {disfmarker} the JavaBayes code ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "which means it 's just using a German sythesis module for English sentences ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "But I think that the point is that out of the twelve possible utterances that the German system can do , we 've already written the {disfmarker} the syntax trees for three or four ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Why {disfmarker} I had {disfmarker} I did need to chan generate different trees than the German ones ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 37,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "mainly because you know like uh , the gerund in {disfmarker} in German is automatically taken care of with just a regular verb ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 19,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "So I 'm {disfmarker} I 'm {disfmarker} I 'm going backwards now ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "so \" synthesis \" is where you sort of make this {disfmarker} uh , make these sounds ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 4,
+                    "speaker": "Grad E",
+                    "content": "and \" concept to speech \" is feeding into this synthesis module giving it what needs to be said , and the whole syntactic structure"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 5,
+                    "speaker": "Grad E",
+                    "content": "so it can pronounce things better , presumably . Then , just with text to speech ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 154,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "And I g I got the feeling that we are {pause} the only ones right now who have a running system ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 157,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "Um . Going back I guess two weeks ago uh Robert had laid out this belief - net , missing only the connections ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 8,
+                    "speaker": "Professor C",
+                    "content": "and we went through this , and , I think , more or less convinced ourselves that at least the vast majority of the nodes that we needed for the demo level we were thinking of , were in there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 9,
+                    "speaker": "Professor C",
+                    "content": "Yeah {comment} we may run across one or two more ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 11,
+                    "speaker": "Professor C",
+                    "content": "So , uh Bhaskara and I went off and looked at some technical questions about were certain operations sort of legitimate belief - net computations and was there some known problem with them or had someone already uh , solved you know how to do this and stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 13,
+                    "speaker": "Professor C",
+                    "content": "The answer seems to be uh , \" no , no one has done it , but yes it 's a perfectly reasonable thing to do if that 's what you set out to do \" ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the general discussion of the meeting?",
+                "tokenized_answer": [
+                    "The meeting discussed various topics such as data collection and updates on the German parser.",
+                    "They discussed XML modifications and future thoughts on the ontology.",
+                    "Additionally, object representations will include an EVA vector.",
+                    "This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type.",
+                    "The actual number of the inputs can create a combinatorial explosion when setting the probabilities.",
+                    "In any case, further to fulfilling the basic requirements (translating the parser and the generator into english), the project is entirely open-ended in terms of focus of research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 227,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "Fo - Hopefully as time passes we 'll get more and more data from Heidelberg and from people actually using it and stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 232,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "Yeah , oh , and by the way , speaking of data , um , are there"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 232,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "I could swore {disfmarker} uh , I could swear I saw it sitting on someone 's desk at some point ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 232,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "but is there a {disfmarker} um a transcript of any of the , sort of , initial interactions of people with the {disfmarker} with the system ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "But to do that we 're gonna need to make some decisions like ontology ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "so , um {disfmarker} And so this is another thing where we 're gonna , you know , have to get involved and make s relatively early I think , make some decisions on uh , \" is there an ontology API that {disfmarker} that \" {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "There 's a sort of standard way of getting things from ontologies"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and we build the parser and stuff around that ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "or is there a particular ontology that we 're gonna standardize on , and if so {disfmarker} For example , is there something that we can use there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 24,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "So . Bu - Uh , i The way the uh , the dialogue manager works is it dumps out what it wants to know , or what it wants to tell the person , to a {disfmarker} er in XML"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 24,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "and there 's a conversion system for different uh , to go from XML to something else ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 24,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "And th so , the knowledge base for the system , that generates the syntasti syntactic structures for the ge generation is uh , in a LISP - like {disfmarker} the knowledge base is in a LISP - like form ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 140,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "Uh . I mean there are a lot of issues ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "what 's the ontology look like ,"
+                        }
+                    ],
+                    [],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "But to do that we 're gonna need to make some decisions like ontology ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "so , um {disfmarker} And so this is another thing where we 're gonna , you know , have to get involved and make s relatively early I think , make some decisions on uh , \" is there an ontology API that {disfmarker} that \" {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "There 's a sort of standard way of getting things from ontologies"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and we build the parser and stuff around that ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "or is there a particular ontology that we 're gonna standardize on , and if so {disfmarker} For example , is there something that we can use there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 169,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "We do in the long run wanna do better visualization and all that stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 172,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "I did look into that , uh in terms of , you know , exploding the nodes out and down ag"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "Uh , is there anything we can give back , beyond th the sort of minimum requirements ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "But none of that has a short time fuse ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was the general discussion of the meeting?",
+                "tokenized_answer": [
+                    "The translation of SmartKom to english is in its final stages.",
+                    "The variety of linguistic conventions seem to develop around an ego/allo-centric and a proximal/distal paradigm.",
+                    "From an engineering perspective, the belief-net for the AVE task should be completed within a few weeks.",
+                    "Since the whole system is going to be re-designed, there are major decisions to be taken regarding the parser and the ontology, as well as what can be re-used from past EML projects.",
+                    "In parallel, another team is working on formalisation and notation.",
+                    "Finally, more ideas are expected to come from students and their research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "which means it 's just using a German sythesis module for English sentences ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 355,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "On this scale , you have it either be ego or allocentric ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "So in addition to e ego and allocentric uh which appear all over the place , you also apparently have this proximal - distal thing which is very deeply uh embedded ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 522,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "so , I think as far as this group goes , um , it 's certainly worth continuing for the next few weeks to get closure on the uh belief - net and the ideas that are involved in that , and what are th what are the concepts ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 433,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "So \" OK , we 're not using their system . That means we need our system . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "But to do that we 're gonna need to make some decisions like ontology ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "There 's a sort of standard way of getting things from ontologies"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and we build the parser and stuff around that ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 439,
+                            "sent_index": 5,
+                            "speaker": "Professor C",
+                            "content": "i Does uh either the uh SmartKom project or one of the projects at EML have something that we can just p pull out , for that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 437,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And so , uh , in addition to the business about just getting the linguistics right , and the formalism and stuff , we 're actually gonna build something"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 437,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "and uh , Johno is point person on the parser , analyzer , whatever that is ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 437,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "and we 're gonna start on that in parallel with the um , the grammar stuff ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 496,
+                            "sent_index": 6,
+                            "speaker": "Professor C",
+                            "content": "And , while we 're at this level , uh , there 's at least one new doctoral student in computer science who will be joining the project , either next week or the first of August , depending on the blandishments of Microsoft ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 514,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And actually I talked today to a uh undergraduate who wants to do an honors thesis on this ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the problems encountered with SmartKom system?",
+                "tokenized_answer": [
+                    "The translation of SmartKom to english is in its final stages.",
+                    "The synthesis module will be the last one to do, after the english syntax trees are completed.",
+                    "The system is still buggy and unstable, but it will soon be ready for a demonstration."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "which means it 's just using a German sythesis module for English sentences ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "The {disfmarker} we got to the point where we can now speak into the SmartKom system , and it 'll go all the way through and then say something like \" Roman numeral one , am Smarticus . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "which means it 's just using a German sythesis module for English sentences ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 29,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "But I think that the point is that out of the twelve possible utterances that the German system can do , we 've already written the {disfmarker} the syntax trees for three or four ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 6,
+                            "speaker": "Grad E",
+                            "content": "Right now it 's brittle and you need to ch start it up and then make ts twenty changes on {disfmarker} on {disfmarker} on {disfmarker} on seventeen modules before they actually can stomach it , anything ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "we can even make a {disfmarker} sort of an internal demo ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Um . {vocalsound} Well it was just amazing to {disfmarker} to see uh how {disfmarker} how instable the whole thing is ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What demos would the system be involved in?",
+                "tokenized_answer": [
+                    "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 122,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "we can even make a {disfmarker} sort of an internal demo ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 128,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And so you {disfmarker} when somebody on the streets com comes up to you and asks you what is SmartKom so you can , sort of , give a sensible answer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 130,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So , c sh we could set that up as actually an institute wide thing ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 132,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "That 's the level at which you know we can just li invite everybody and say \" this is a project that we 've been working on and here 's a demo version of it \" and stuff like that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 134,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "Well d we {disfmarker} we do wanna have all the bugs out b where you have to sort of pipe in extra XML messages from left and right before you 're {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What would happen after the demo?",
+                "tokenized_answer": [
+                    "After the demo, the focus of research can switch towards purely scientific goals, including issues on ontology, deep semantic constructions, execution engines etc.",
+                    "Moreover, a new system will be designed for the project and at least some parts of it should be built."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 107,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "So I 'd like to , for the summer turn into science mode ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 132,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "That 's the level at which you know we can just li invite everybody and say \" this is a project that we 've been working on and here 's a demo version of it \" and stuff like that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "But uh starting next meeting I think we want to flip into this mode where {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "Uh . I mean there are a lot of issues ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 140,
+                            "sent_index": 2,
+                            "speaker": "Professor C",
+                            "content": "what 's the ontology look like ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 142,
+                            "sent_index": 0,
+                            "speaker": "Professor C",
+                            "content": "you know what do the constructions look like ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 142,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "what 's the execution engine look like ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 433,
+                            "sent_index": 3,
+                            "speaker": "Professor C",
+                            "content": "And then there 's also a set of system things that come up ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 433,
+                            "sent_index": 4,
+                            "speaker": "Professor C",
+                            "content": "So \" OK , we 're not using their system . That means we need our system . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 437,
+                            "sent_index": 1,
+                            "speaker": "Professor C",
+                            "content": "And so , uh , in addition to the business about just getting the linguistics right , and the formalism and stuff , we 're actually gonna build something"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

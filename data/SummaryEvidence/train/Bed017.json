@@ -1,0 +1,1430 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The first phase of the data collection has finished.",
+            "There is a new wizard for phase two, during which subjects will be given more complex scenarios.",
+            "Also finished are the modifications on SmartKom: the remaining glitches will take no more than a day to iron out.",
+            "A big part of the meeting was covered by the presentation of the PRM of the proposed system.",
+            "An alternative representation of the Bayes-net, it depicts context features as classes, and dependencies as relations between them.",
+            "The current outputs show the desirability of a site, as well as its EVA mode.",
+            "The fact that this model allows for instantiations of classes fits the research purposes much better than the extended belief-net.",
+            "Following this, a visiting researcher presented an overview of a parallel project at the International University.",
+            "It attempts to build a smart tutoring system for a computer science course.",
+            "The assumption is that document searches can give more personalised results, if they take into account contextual parameters (user, situation).",
+            "Although no detailed linguistic analysis takes place, it was suggested that the use of FrameNet could be a useful approach.",
+            "There were also further suggestions for meetings with ICSI researchers.",
+            "As the data collection is going into its second phase, more complex scenarios will be used to generate more intricate dialogues.",
+            "Subjects can be recruited from within the Psychology department students, since such participation in experiments is compulsory in their syllabus.",
+            "As the work on creating a PRM for the system has progressed, it is now necessary to find an implementation that can work as a PRM interpreter.",
+            "There are no plans to build one from scratch, but it seems that other research groups at Stanford may already have one.",
+            "Moreover, closer collaboration with the local PRM group will be pursued with additional participation in their meetings.",
+            "An early version of the PRM of the system presented the same problem as a flat Bayes-net: the CPT's become too large.",
+            "Another PRM issue that arose and remained unclear was how the probabilities are specified (instead of learnt) on the actual relations between the classes.",
+            "Furthermore, the lack of a PRM interpreter is an open issue.",
+            "It is not within the remit of the project to build one from scratch, therefore, an existing implementation has to be found.",
+            "On the other hand, the discussion about the smart tutoring system being built at the International University showed the importance of finding out  which context parameters are influential in a given domain.",
+            "It is easy to hack up a system for a small domain, but making it scalable is much more difficult.",
+            "Finally, there was a passing mention of problems encountered with the speech synthesis module of SmartKom.",
+            "The first phase of the data collection has been completed.",
+            "Thirty subjects were recorded in total.",
+            "Of those dialogues, ten have been transcribed.",
+            "A new wizard will carry out the second phase.",
+            "On top of this, a presentation of a PRM of the proposed system took place.",
+            "The PRM comprises a set of classes, such as \"user\", \"site\", \"route\", \"time\" and \"query\" with relations between them.",
+            "Another class incorporates a number of attributes (\"money affordability\", \"travel compatibility\" etc) modelling the intermediate nodes of the Bayes-net, as well as references to the other classes in the model.",
+            "This model is much cleaner, and it also makes it easier to specify the CPT's.",
+            "At this stage, the model makes two decisions (outputs): how much a site fits a user's needs and what the user intention is in EVA terms."
+        ],
+        "answer_sentence_index": [
+            "Bed017.s.1",
+            "Bed017.s.2",
+            "Bed017.s.3",
+            "Bed017.s.4",
+            "Bed017.s.5",
+            "Bed017.s.6",
+            "Bed017.s.7",
+            "Bed017.s.8",
+            "Bed017.s.9",
+            "Bed017.s.10",
+            "Bed017.s.11",
+            "Bed017.s.12",
+            "Bed017.s.13",
+            "Bed017.s.14",
+            "Bed017.s.15",
+            "Bed017.s.16",
+            "Bed017.s.17",
+            "Bed017.s.18",
+            "Bed017.s.19",
+            "Bed017.s.20",
+            "Bed017.s.21",
+            "Bed017.s.22",
+            "Bed017.s.23",
+            "Bed017.s.24",
+            "Bed017.s.25",
+            "Bed017.s.26",
+            "Bed017.s.27",
+            "Bed017.s.28",
+            "Bed017.s.29",
+            "Bed017.s.30",
+            "Bed017.s.31",
+            "Bed017.s.32",
+            "Bed017.s.33"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 36,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "So Fey 's time with us is almost officially over ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and ten dialogues have been transcribed"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "That 's for the data collection ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "Um , and we found another uh , cogsci student who 's interested in playing wizard for us ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "Here we 're gonna make it a little bit more complicated for the subjects , uh this round ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 19,
+                    "speaker": "Grad B",
+                    "content": "As for SmartKom , I 'm {disfmarker} the last SmartKom meeting I mentioned that we have some problems with the synthesis ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 20,
+                    "speaker": "Grad B",
+                    "content": "which as of this morning should be resolved ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 38,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "\" should be \" means they aren't yet ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "Maybe it 'll take some more time ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 12,
+                    "speaker": "Grad B",
+                    "content": "that 'll be done officially s once we 're done ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "I 've been looking at the PRM stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 12,
+                    "speaker": "Grad D",
+                    "content": "I sorta constructed a couple of classes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 13,
+                    "speaker": "Grad D",
+                    "content": "Like , a user class , a site class , and {disfmarker} and you know , a time , a route , and then {disfmarker} and a query class ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 20,
+                    "speaker": "Grad D",
+                    "content": "The red lines on the , um , graph are the um , relations between the different um , classes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 25,
+                    "speaker": "Grad D",
+                    "content": "this is more or less similar to the flat Bayes - net that I have , you know , with the input nodes and all that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 27,
+                    "speaker": "Grad D",
+                    "content": "So I tried to construct the dependency models ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 61,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So y you didn't yet tell us what the output is ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So what decisions does this make ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "OK . So it only makes two decisions , in this model ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And one is basically how desirable a site is"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "And the other is the mode of the visit ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "whether th It 's the EVA decision ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "I mean , the notion of instantiating your el elements from the ontology and stuff fits this very nicely and doesn't fit very well into the extended belief - net ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 16,
+                    "speaker": "Grad B",
+                    "content": "we have a visitor from Bruchsal from the International University ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Um , so maybe just a {disfmarker} a little background on {disfmarker} on my visit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "And {disfmarker} and so I 'll just n sort of give you a real quick introduction to what I 'm working on ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "OK , so , um , what I started looking at , uh , to begin with is just uh , content management systems uh , i i in general ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 45,
+                    "speaker": "Grad C",
+                    "content": "and so , what I want to build is basically a {disfmarker} a smart F A Q system ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 38,
+                    "speaker": "Grad C",
+                    "content": "uh {disfmarker} So . So the scenario is the following , you you 're working on some sort of project and you encounter a certain problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 45,
+                    "speaker": "Grad C",
+                    "content": "and so , what I want to build is basically a {disfmarker} a smart F A Q system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 52,
+                    "speaker": "Grad C",
+                    "content": "So , I want to be able to model information like , um , so in the {disfmarker} in the context of {disfmarker} in the context of developing distributed systems , of a at a computer science school ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 46,
+                    "speaker": "Grad C",
+                    "content": "Now , what you uh need to do here is you need to provide some context information"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 57,
+                    "speaker": "Grad C",
+                    "content": "So this sort of information I think should be transmitted , uh , when a certain document is retrieved ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 72,
+                    "speaker": "Grad C",
+                    "content": "Now , what I plan to do is I want to uh sort of do a uh {disfmarker} uh {pause} try to improve the quality of the search results ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 74,
+                    "speaker": "Grad C",
+                    "content": "So if I knew which operating system the person was working on , would this improve my search result ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "cuz some of us do pretty detailed linguistic analyses ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "and I 'm guessing that you {disfmarker} you won't be doing that ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 168,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "No ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 173,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "On the other hand , uh , FrameNet could well be useful ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "We {disfmarker} There 's someone in ICSI who actually has been working on {disfmarker} has worked on that kinda stuff ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "so you could talk to him about , you know , both of those things at once ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "uh in a {disfmarker} in a smaller group we had uh , talked and decided about continuation of the data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "Here we 're gonna make it a little bit more complicated for the subjects , uh this round ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 9,
+                    "speaker": "Grad B",
+                    "content": "She 's actually suggested to look um , at the psychology department students ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 10,
+                    "speaker": "Grad B",
+                    "content": "because they have to partake in two experiments in order to fulfill some requirements ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 53,
+                    "speaker": "Grad D",
+                    "content": "I 'm tr I w I wa have been trying to see whether the PRM would make it more efficient if we do inferencing like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 5,
+                    "speaker": "Professor F",
+                    "content": "the {disfmarker} You {disfmarker} you didn't look at all yet to see if there 's anybody has a implementation ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So one {disfmarker} so one of the questions , you know , about these P R Ms is"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "uh , we aren't gonna build our own interpreter ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "Uh , so one of the things that Eva 's gonna do over the next few weeks is see if we can track that down ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "uh , we aren't gonna build our own interpreter ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "the people at Stanford write papers as if they had one ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "and supposedly , um , we 'll actually get s deep {disfmarker} seriously connected to {disfmarker} to their work"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "somebody 'll {disfmarker} Uh , you know {disfmarker} If it 's a group meeting once a week probably someone 'll go down and , whatever ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "I 've been looking at the PRM stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 25,
+                    "speaker": "Grad D",
+                    "content": "this is more or less similar to the flat Bayes - net that I have , you know , with the input nodes and all that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 31,
+                    "speaker": "Grad D",
+                    "content": "and it turns out , you know , the CPT 's are really big , if I do that ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "And the , uh , other question I would have is that presumably , from the way the Stanford people talk about it , you can put the probabilities also on the relations ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 91,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "It 's sort of in the definition or {disfmarker} in the {disfmarker} in Daphne 's definition of a PRM"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 91,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "is that classes and relations ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So one {disfmarker} so one of the questions , you know , about these P R Ms is"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "uh , we aren't gonna build our own interpreter ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 6,
+                    "speaker": "Professor F",
+                    "content": "So w Anyway . So that 's a {disfmarker} a major open issue ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 5,
+                    "speaker": "Professor F",
+                    "content": "the {disfmarker} You {disfmarker} you didn't look at all yet to see if there 's anybody has a implementation ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "uh , we aren't gonna build our own interpreter ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "Uh , so one of the things that Eva 's gonna do over the next few weeks is see if we can track that down ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 38,
+                    "sent_index": 16,
+                    "speaker": "Grad B",
+                    "content": "we have a visitor from Bruchsal from the International University ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 137,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Um , so maybe just a {disfmarker} a little background on {disfmarker} on my visit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 45,
+                    "speaker": "Grad C",
+                    "content": "and so , what I want to build is basically a {disfmarker} a smart F A Q system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 46,
+                    "speaker": "Grad C",
+                    "content": "Now , what you uh need to do here is you need to provide some context information"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 51,
+                    "speaker": "Grad C",
+                    "content": "it , and {disfmarker} and the same sentence in another context makes a huge difference ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 140,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "It 's like , um , you know , the c context - based factors that influence how you interpret ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 79,
+                    "speaker": "Grad C",
+                    "content": "Now , the big problem that I 'm facing right now is um , it 's fairly easy to hack up a system uh quickly , that {disfmarker} that works in the small domain ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 80,
+                    "speaker": "Grad C",
+                    "content": "but the problem is obviously the scalability ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 19,
+                    "speaker": "Grad B",
+                    "content": "As for SmartKom , I 'm {disfmarker} the last SmartKom meeting I mentioned that we have some problems with the synthesis ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 36,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "So Fey 's time with us is almost officially over ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and ten dialogues have been transcribed"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "That 's for the data collection ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "and she brought us some thirty subjects and , t collected the data ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and ten dialogues have been transcribed"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 36,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "Um , and we found another uh , cogsci student who 's interested in playing wizard for us ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "I 've been looking at the PRM stuff ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "I 've been looking at the PRM stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 12,
+                    "speaker": "Grad D",
+                    "content": "I sorta constructed a couple of classes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 13,
+                    "speaker": "Grad D",
+                    "content": "Like , a user class , a site class , and {disfmarker} and you know , a time , a route , and then {disfmarker} and a query class ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 20,
+                    "speaker": "Grad D",
+                    "content": "The red lines on the , um , graph are the um , relations between the different um , classes ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 29,
+                    "speaker": "Grad D",
+                    "content": "a lot of these stuff I got from the flat Bayes - net ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 35,
+                    "speaker": "Grad D",
+                    "content": "Actually , you know , a class of {disfmarker} with different attributes that are the intermediate nodes ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 36,
+                    "speaker": "Grad D",
+                    "content": "and one of them is like , time affordability money affordability , site availability , and the travel compatibility ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 66,
+                    "speaker": "Grad D",
+                    "content": "Um , so anyhow , using those intermediate nodes then , this {disfmarker} this would be the class that represent the intermediate nodes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 67,
+                    "speaker": "Grad D",
+                    "content": "And that would {disfmarker} basically it 's just another class in the model ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 68,
+                    "speaker": "Grad D",
+                    "content": "with , you know , references to the user and the site and the time ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 71,
+                    "speaker": "Grad D",
+                    "content": "And so , you know , it 's easier to specify the CPT and all ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 11,
+                    "speaker": "Professor F",
+                    "content": "Uh , I actually think it is cleaner ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 61,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "So y you didn't yet tell us what the output is ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 63,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So what decisions does this make ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "OK . So it only makes two decisions , in this model ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And one is basically how desirable a site is"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "meaning , um , how good it matches the needs of a user ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 64,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "And the other is the mode of the visit ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "whether th It 's the EVA decision ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The first phase of the data collection has finished.",
+                    "There is a new wizard for phase two, during which subjects will be given more complex scenarios.",
+                    "An alternative representation of the Bayes-net, it depicts context features as classes, and dependencies as relations between them.",
+                    "Following this, a visiting researcher presented an overview of a parallel project at the International University.",
+                    "It attempts to build a smart tutoring system for a computer science course.",
+                    "The assumption is that document searches can give more personalised results, if they take into account contextual parameters (user, situation).",
+                    "There were also further suggestions for meetings with ICSI researchers."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 35,
+                            "sent_index": 6,
+                            "speaker": "Professor F",
+                            "content": "Um , so Robert , why don't you bring us up to date on where we are with EDU ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "uh in a {disfmarker} in a smaller group we had uh , talked and decided about continuation of the data collection ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 36,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "So Fey 's time with us is almost officially over ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "and she brought us some thirty subjects and , t collected the data ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "and ten dialogues have been transcribed"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 18,
+                            "speaker": "Grad B",
+                            "content": "That 's for the data collection ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "Um , and we found another uh , cogsci student who 's interested in playing wizard for us ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "Here we 're gonna make it a little bit more complicated for the subjects , uh this round ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 12,
+                            "speaker": "Grad D",
+                            "content": "I sorta constructed a couple of classes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 13,
+                            "speaker": "Grad D",
+                            "content": "Like , a user class , a site class , and {disfmarker} and you know , a time , a route , and then {disfmarker} and a query class ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 20,
+                            "speaker": "Grad D",
+                            "content": "The red lines on the , um , graph are the um , relations between the different um , classes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 25,
+                            "speaker": "Grad D",
+                            "content": "this is more or less similar to the flat Bayes - net that I have , you know , with the input nodes and all that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 27,
+                            "speaker": "Grad D",
+                            "content": "So I tried to construct the dependency models ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 16,
+                            "speaker": "Grad B",
+                            "content": "we have a visitor from Bruchsal from the International University ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Um , so maybe just a {disfmarker} a little background on {disfmarker} on my visit ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "And {disfmarker} and so I 'll just n sort of give you a real quick introduction to what I 'm working on ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 13,
+                            "speaker": "Grad C",
+                            "content": "OK , so , um , what I started looking at , uh , to begin with is just uh , content management systems uh , i i in general ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 45,
+                            "speaker": "Grad C",
+                            "content": "and so , what I want to build is basically a {disfmarker} a smart F A Q system ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 38,
+                            "speaker": "Grad C",
+                            "content": "uh {disfmarker} So . So the scenario is the following , you you 're working on some sort of project and you encounter a certain problem ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 40,
+                            "speaker": "Grad C",
+                            "content": "they always run into the same problems ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 43,
+                            "speaker": "Grad C",
+                            "content": "and we always give out the same answer ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 45,
+                            "speaker": "Grad C",
+                            "content": "and so , what I want to build is basically a {disfmarker} a smart F A Q system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 52,
+                            "speaker": "Grad C",
+                            "content": "So , I want to be able to model information like , um , so in the {disfmarker} in the context of {disfmarker} in the context of developing distributed systems , of a at a computer science school ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 46,
+                            "speaker": "Grad C",
+                            "content": "Now , what you uh need to do here is you need to provide some context information"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 57,
+                            "speaker": "Grad C",
+                            "content": "So this sort of information I think should be transmitted , uh , when a certain document is retrieved ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 72,
+                            "speaker": "Grad C",
+                            "content": "Now , what I plan to do is I want to uh sort of do a uh {disfmarker} uh {pause} try to improve the quality of the search results ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 74,
+                            "speaker": "Grad C",
+                            "content": "So if I knew which operating system the person was working on , would this improve my search result ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 78,
+                            "speaker": "Grad C",
+                            "content": "and {disfmarker} and sort of try to optimize the search in this way ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "We {disfmarker} There 's someone in ICSI who actually has been working on {disfmarker} has worked on that kinda stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 243,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "so you could talk to him about , you know , both of those things at once ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What are progress updates?",
+                "tokenized_answer": [
+                    "The first phase of the data collection has finished.",
+                    "There is a new wizard for phase two, during which subjects will be given more complex scenarios.",
+                    "Also finished are the modifications on SmartKom: the remaining glitches will take no more than a day to iron out.",
+                    "A big part of the meeting was covered by the presentation of the PRM of the proposed system."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 35,
+                            "sent_index": 6,
+                            "speaker": "Professor F",
+                            "content": "Um , so Robert , why don't you bring us up to date on where we are with EDU ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "uh in a {disfmarker} in a smaller group we had uh , talked and decided about continuation of the data collection ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 36,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "So Fey 's time with us is almost officially over ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "and she brought us some thirty subjects and , t collected the data ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "and ten dialogues have been transcribed"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 18,
+                            "speaker": "Grad B",
+                            "content": "That 's for the data collection ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "Um , and we found another uh , cogsci student who 's interested in playing wizard for us ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "Here we 're gonna make it a little bit more complicated for the subjects , uh this round ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 19,
+                            "speaker": "Grad B",
+                            "content": "As for SmartKom , I 'm {disfmarker} the last SmartKom meeting I mentioned that we have some problems with the synthesis ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 36,
+                            "sent_index": 20,
+                            "speaker": "Grad B",
+                            "content": "which as of this morning should be resolved ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "\" should be \" means they aren't yet ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "so maybe uh uh , when tomorrow is over , we 're done ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "Maybe it 'll take some more time ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "but at least we 're {disfmarker} we 're seeing the end of the tunnel there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 12,
+                            "speaker": "Grad B",
+                            "content": "that 'll be done officially s once we 're done ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 38,
+                            "sent_index": 14,
+                            "speaker": "Grad B",
+                            "content": "something happened , in {disfmarker} on Eva 's side with the PRM that we 're gonna look at today ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 8,
+                            "speaker": "Grad D",
+                            "content": "I 've been looking at the PRM stuff ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is the future for data collection?",
+                "tokenized_answer": [
+                    "As the data collection is going into its second phase, more complex scenarios will be used to generate more intricate dialogues.",
+                    "Subjects can be recruited from within the Psychology department students, since such participation in experiments is compulsory in their syllabus."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "uh in a {disfmarker} in a smaller group we had uh , talked and decided about continuation of the data collection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "Here we 're gonna make it a little bit more complicated for the subjects , uh this round ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 9,
+                            "speaker": "Grad B",
+                            "content": "She 's actually suggested to look um , at the psychology department students ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 10,
+                            "speaker": "Grad B",
+                            "content": "because they have to partake in two experiments in order to fulfill some requirements ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize this segmen",
+                "tokenized_answer": [
+                    "An alternative representation of the Bayes-net, it depicts context features as classes, and dependencies as relations between them.",
+                    "The current outputs show the desirability of a site, as well as its EVA mode.",
+                    "The fact that this model allows for instantiations of classes fits the research purposes much better than the extended belief-net."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 12,
+                            "speaker": "Grad D",
+                            "content": "I sorta constructed a couple of classes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 13,
+                            "speaker": "Grad D",
+                            "content": "Like , a user class , a site class , and {disfmarker} and you know , a time , a route , and then {disfmarker} and a query class ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 20,
+                            "speaker": "Grad D",
+                            "content": "The red lines on the , um , graph are the um , relations between the different um , classes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 25,
+                            "speaker": "Grad D",
+                            "content": "this is more or less similar to the flat Bayes - net that I have , you know , with the input nodes and all that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 27,
+                            "speaker": "Grad D",
+                            "content": "So I tried to construct the dependency models ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "So y you didn't yet tell us what the output is ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 63,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "So what decisions does this make ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "OK . So it only makes two decisions , in this model ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "And one is basically how desirable a site is"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "And the other is the mode of the visit ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "whether th It 's the EVA decision ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 4,
+                            "speaker": "Professor F",
+                            "content": "I mean , the notion of instantiating your el elements from the ontology and stuff fits this very nicely and doesn't fit very well into the extended belief - net ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

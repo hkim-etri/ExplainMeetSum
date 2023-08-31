@@ -1,0 +1,239 @@
+{
+    "transcripts_id": "Bmr023",
+    "general_query_list": [
+        {
+            "query": "What was the general discussion of the meeting?",
+            "oracle_info": [
+                {
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                },
+                {
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "Y y you guys were doing a bunch of experiments with different front - ends and then with {disfmarker}"
+                },
+                {
+                    "turn_index": 84,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "We 're improving ."
+                },
+                {
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Now the {disfmarker} the {disfmarker} You saw the note that the PLP now is getting basically the same as the MFCC ."
+                },
+                {
+                    "turn_index": 89,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah . Actually it looks like it 's getting better ."
+                },
+                {
+                    "turn_index": 95,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "um , it looks like the vocal tract length normalization is working beautifully , actually ,"
+                },
+                {
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                },
+                {
+                    "turn_index": 413,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "and then I had done some work on finding from the foreground speech whether or not someone was likely to interrupt ,"
+                },
+                {
+                    "turn_index": 413,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "so where {disfmarker} you know , if I 'm talking now and someone {disfmarker} and {disfmarker} and Andreas is about to interrupt me , is he gonna choose a certain place in my speech , either prosodically or word - based ."
+                },
+                {
+                    "turn_index": 413,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "And there the prosodic features actually showed up"
+                },
+                {
+                    "turn_index": 415,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "the model {disfmarker} the tree classifier was trying to find general locations that were applicable to different speakers ,"
+                },
+                {
+                    "turn_index": 417,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And so the classifier learns more about Morgan than it does about sort of the average person ,"
+                },
+                {
+                    "turn_index": 469,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But the PLP features work {disfmarker} um , uh , you know , continue to improve the ,"
+                },
+                {
+                    "turn_index": 471,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "As I said before , the {disfmarker} uh using Dan 's , uh , uh , vocal tract normalization option works very well ."
+                },
+                {
+                    "turn_index": 489,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , but if you add them all up you have , uh , almost five percent difference now ."
+                },
+                {
+                    "turn_index": 556,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "And I think I agree with you that if we fixed lots of different things and they would all add up , we would probably have a {disfmarker} a {disfmarker} a competitive system ."
+                },
+                {
+                    "turn_index": 556,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "But I think not that much of it is due to the front - end per se ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "What was decided on DARPA?",
+            "oracle_info": [
+                {
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                },
+                {
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What was said on transcripts?",
+            "oracle_info": [
+                {
+                    "turn_index": 35,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "because {vocalsound} it occurred to me that this is late May and the DARPA meeting is in {pause} mid July ."
+                },
+                {
+                    "turn_index": 35,
+                    "sent_index": 4,
+                    "speaker": "Professor F",
+                    "content": "I know that we were gonna do something with the transcriber interface is one thing ,"
+                },
+                {
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well , we were gonna do a mock - up , like , question answering or something , I thought ,"
+                },
+                {
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "I mean in particular I would {disfmarker} I would really hope that when we do this DARPA meeting in July that we sort of have {disfmarker} we 're {disfmarker} we 're into production mode , somehow {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What was the status of transcription?",
+            "oracle_info": []
+        },
+        {
+            "query": "What change has occurred to the segmenter?",
+            "oracle_info": [
+                {
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Because in all our previous experiments , we had the {disfmarker} uh , you know , we were essentially cheating by having the , um , you know , the h the hand - segmentations as the basis of the recognition ."
+                },
+                {
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What is the status of the segmenter",
+            "oracle_info": [
+                {
+                    "turn_index": 369,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "because we couldn't use the non - native {disfmarker} all non - native meetings"
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "and {vocalsound} it 's , well , probably below threshold on enough data for us for the things we 're looking at"
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 4,
+                    "speaker": "PhD G",
+                    "content": "because the {vocalsound} prosodic features are {pause} very noisy and so you {disfmarker} you need a lot of data in order to model them ."
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 7,
+                    "speaker": "PhD G",
+                    "content": "But we did find that some of the features that , I gue Jane would know about , that are expressing sort of the {vocalsound} distance of , um , {vocalsound} boundaries from peaks in the utterance and {vocalsound} some {pause} local , um , range {disfmarker} pitch range effects , like how close people are to their floor , are showing up in these classifiers ,"
+                }
+            ]
+        },
+        {
+            "query": "What change has occurred to the segmenter?",
+            "oracle_info": [
+                {
+                    "turn_index": 109,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And so now with Thilo 's segmenter working so well , I think we should {pause} consider doing a {disfmarker}"
+                },
+                {
+                    "turn_index": 134,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "We should {disfmarker} we should consider doing some extra things , like , um , you know , retraining or adapting the {disfmarker} {vocalsound} the models for background noise to the {disfmarker} to this environment , for instance ."
+                },
+                {
+                    "turn_index": 137,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And , yeah , using Thilo 's , you know , posteriors or some kind of {disfmarker} or {disfmarker}"
+                }
+            ]
+        }
+    ]
+}

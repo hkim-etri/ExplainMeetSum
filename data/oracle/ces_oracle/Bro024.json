@@ -1,0 +1,438 @@
+{
+    "transcripts_id": "Bro024",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                },
+                {
+                    "turn_index": 173,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "Um , so I will be using {vocalsound} these graphical models that {disfmarker} um , that implement the multi - band approach {vocalsound} to recognize a set of intermediate categories that might involve , uh , things like phonetic features {vocalsound} or other {disfmarker} other f feature things that are more closely related to the acoustic signal itself ."
+                },
+                {
+                    "turn_index": 466,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "So {disfmarker} So , basically our {disfmarker} our position is {vocalsound} that , um , we shouldn't be unduly constraining the latency at this point"
+                },
+                {
+                    "turn_index": 554,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "yeah , there are two figures showing actually the , mmm , um , performance of the current VAD ."
+                },
+                {
+                    "turn_index": 554,
+                    "sent_index": 11,
+                    "speaker": "PhD E",
+                    "content": "Uh , but to estimate the performance of the VAD , we don't want to do that ,"
+                },
+                {
+                    "turn_index": 755,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "It 's just a constant noise addition ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "And there 's this question of , well , so , um , in my tests before with HTK I found it worked {disfmarker} it worked the best with about twelve seconds of data used to estimate the mean ,"
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 12,
+                    "speaker": "Grad C",
+                    "content": "If we think twelve seconds is ideal we could train the models using twelve seconds to calculate the mean , to mean subtract the training data ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 14,
+                    "speaker": "Grad C",
+                    "content": "So {disfmarker} like I did an experiment where I , um , was using six seconds in test ,"
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 18,
+                    "speaker": "Grad C",
+                    "content": "And six seconds in train {vocalsound} was about point three percent better ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 19,
+                    "speaker": "Grad C",
+                    "content": "Um , and {disfmarker} {vocalsound} um , it 's not clear to me yet whether that 's {vocalsound} something significant ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 15,
+                    "speaker": "Grad C",
+                    "content": "um , but , for {disfmarker} I tried twelve seconds in train ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 16,
+                    "speaker": "Grad C",
+                    "content": "And I tried , um , um , the same in train {disfmarker}"
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 17,
+                    "speaker": "Grad C",
+                    "content": "I 'm a I tried six seconds in train ."
+                },
+                {
+                    "turn_index": 170,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Um , so for the past , {vocalsound} uh , week an or two , I 've been just writing my , uh , formal thesis proposal ."
+                },
+                {
+                    "turn_index": 170,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "Um , so I 'm taking {vocalsound} this qualifier exam that 's coming up in two weeks ."
+                },
+                {
+                    "turn_index": 170,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "And uh , should I {disfmarker} should I explain , uh , more about what {disfmarker} what I 'm proposing to do , and s and stuff ?"
+                },
+                {
+                    "turn_index": 173,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "Um , and the hope in all of this is that by going multi - band and by going into these , {vocalsound} um intermediate classifications , {vocalsound} that we can get a system that 's more robust to {disfmarker} to unseen noises , and situations like that ."
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 12,
+                    "speaker": "PhD B",
+                    "content": "And I found that , the noise estimation is a reason for the TI - digits to perform worse than the baseline ."
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 24,
+                    "speaker": "PhD B",
+                    "content": "uh , for any non - stationary noise like \" Babble \" or \" Subway \" or any {disfmarker} \" Street \" , some \" Restaurant \" noise , it 's like {disfmarker} it 's not performing w very well ."
+                },
+                {
+                    "turn_index": 194,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "Yeah , I think what is important to see is that there is a big difference between the training modes ."
+                },
+                {
+                    "turn_index": 562,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "uh , which means that we tend to label speech as {disfmarker} as a silence ."
+                },
+                {
+                    "turn_index": 562,
+                    "sent_index": 9,
+                    "speaker": "PhD E",
+                    "content": "And it may also be due to the alignment"
+                },
+                {
+                    "turn_index": 765,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "wha what I observed is that for Italian and Spanish , {comment} when you go to thirty and twenty - five DB , {comment} uh it {disfmarker} it 's good ."
+                },
+                {
+                    "turn_index": 767,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "well , the performance of the {disfmarker} this algorithm is quite good ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on SRI experiments and mean subtraction",
+            "oracle_info": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                },
+                {
+                    "turn_index": 15,
+                    "sent_index": 7,
+                    "speaker": "Grad C",
+                    "content": "the results are suspicious ."
+                },
+                {
+                    "turn_index": 15,
+                    "sent_index": 8,
+                    "speaker": "Grad C",
+                    "content": "Um , it 's , um , {vocalsound} cuz they 're {disfmarker} the baseline results are worse than , um , Andreas {disfmarker} than results Andreas got previously ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 15,
+                    "speaker": "Grad C",
+                    "content": "um , but , for {disfmarker} I tried twelve seconds in train ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 17,
+                    "speaker": "Grad C",
+                    "content": "I 'm a I tried six seconds in train ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 18,
+                    "speaker": "Grad C",
+                    "content": "And six seconds in train {vocalsound} was about point three percent better ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 6,
+                    "speaker": "Professor D",
+                    "content": "Um , I mean , on the one hand in a practical system if something is , uh , four point four percent error , four point one percent error , people won't really tell {disfmarker} be able to tell the difference ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 7,
+                    "speaker": "Professor D",
+                    "content": "On the other hand , when you 're doing , uh , research , you may , eh {disfmarker} you might find that the way that you build up a change from a ninety - five percent accurate system to a ninety - eight percent accurate system is through ten or twelve little things that you do that each are point three percent ."
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But what do you {disfmarker} What about if I w I fed it through some kind of , um , speech processing algorithm that changed the speech rate ?"
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Yeah , but then you 'll have the degradation of {disfmarker} of , uh , whatever you do uh , added onto that ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about speech rate algorithms?",
+            "oracle_info": [
+                {
+                    "turn_index": 65,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "I guess one thing that might also be an issue , uh , cuz part of what you 're doing is you 're getting a {disfmarker} a spectrum over a bunch of different kinds of speech sounds ."
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "and so it might matter how fast someone was talking for instance ."
+                },
+                {
+                    "turn_index": 72,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But what do you {disfmarker} What about if I w I fed it through some kind of , um , speech processing algorithm that changed the speech rate ?"
+                },
+                {
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Yeah , but then you 'll have the degradation of {disfmarker} of , uh , whatever you do uh , added onto that ."
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Well , uh , just if you think it 's worth looking into ."
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "You know , if you {disfmarker} if {disfmarker} if {disfmarker} if there 's a lot of phones in one second maybe you 'll get a {disfmarker} a really good sampling of all these different things ,"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "and {disfmarker} {vocalsound} and , uh , on the other hand if someone 's talking slowly maybe you 'd need more ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about LDA filters?",
+            "oracle_info": [
+                {
+                    "turn_index": 80,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And so , um , Mike Shire in his thesis um , {vocalsound} did a {disfmarker} a series of experiments , um , training LDA filters in d on different conditions ."
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "Or for these long analysis windows , I guess , is the right way to put it ."
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And you were interested in having me repeat this for {disfmarker}"
+                },
+                {
+                    "turn_index": 83,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "as I was saying , I think the simplest thing to do is not to train anything , but just to do some sort of , uh , uh , hamming or Hanning , uh , kind of window , kind of thing ,"
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "I think what they do is they do it always on - line ,"
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 2,
+                    "speaker": "Professor G",
+                    "content": "that you calculate the mean of this and subtract the mean ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on noise addition",
+            "oracle_info": [
+                {
+                    "turn_index": 755,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "And if you add too much noise it get worse also ."
+                },
+                {
+                    "turn_index": 755,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "It 's just a constant noise addition ."
+                },
+                {
+                    "turn_index": 769,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "the {disfmarker} the a the noise addition should be lower"
+                },
+                {
+                    "turn_index": 767,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "well , the performance of the {disfmarker} this algorithm is quite good ."
+                },
+                {
+                    "turn_index": 820,
+                    "sent_index": 3,
+                    "speaker": "Professor G",
+                    "content": "you smooth somehow the noise estimate ,"
+                },
+                {
+                    "turn_index": 834,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "But the way it 's done is that um , for low gain , there is this non nonlinear smoothing actually ."
+                },
+                {
+                    "turn_index": 887,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "It 's better for high mismatch , right ?"
+                },
+                {
+                    "turn_index": 888,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "it 's better for high mismatch ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about high mismatch?",
+            "oracle_info": [
+                {
+                    "turn_index": 888,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "it 's better for high mismatch ."
+                },
+                {
+                    "turn_index": 889,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "But a little bit worse for well matched ."
+                },
+                {
+                    "turn_index": 901,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Well , our tradition here has always been to focus on the mismatched ."
+                },
+                {
+                    "turn_index": 915,
+                    "sent_index": 2,
+                    "speaker": "PhD H",
+                    "content": "Because I have , {vocalsound} mmm , {comment} worse result in medium mismatch and high mismatch ."
+                },
+                {
+                    "turn_index": 755,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "And if you add too much noise it get worse also ."
+                },
+                {
+                    "turn_index": 769,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "the {disfmarker} the a the noise addition should be lower"
+                }
+            ]
+        },
+        {
+            "query": "What did professor G say about smoothing?",
+            "oracle_info": [
+                {
+                    "turn_index": 820,
+                    "sent_index": 2,
+                    "speaker": "Professor G",
+                    "content": "As far as I remember you {disfmarker} you smooth somehow the envelope ,"
+                },
+                {
+                    "turn_index": 820,
+                    "sent_index": 3,
+                    "speaker": "Professor G",
+                    "content": "you smooth somehow the noise estimate ,"
+                },
+                {
+                    "turn_index": 824,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Uh , actually I d I do all the smoothing ."
+                },
+                {
+                    "turn_index": 835,
+                    "sent_index": 4,
+                    "speaker": "Professor G",
+                    "content": "The best is to do the smoo smoothing as early as possible ."
+                }
+            ]
+        }
+    ]
+}

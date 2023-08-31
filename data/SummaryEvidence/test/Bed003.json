@@ -1,0 +1,1879 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The group discussed the first version of the Bayes-net used to work out a user's intentions when asking for directions from a navigation device.",
+            "Three intentions were identified: Vista (to view), Enter (to visit) and Tango (to approach).",
+            "The structure of the belief-net comprises, firstly, a feature layer, which includes linguistic, discourse and world knowledge information that can be gleaned from the data.",
+            "It is possible for these variables to form thematic clusters( eg \"entrance\", \"type of object\", \"verb\"), each one with a separate middle layer.",
+            "These feed, in turn, into the main middle layer, that defines more general hidden variables, such as the tourist/business status of the user.",
+            "The feature layer can end up being cue-based, while the middle layers task-based.",
+            "The latter determine the final probability of each intention in the output layer.",
+            "This first model of the belief-net was built in JavaBayes, since it is a free package, has a graphical interface, and it can take XML files as input.",
+            "At this stage, all the actual probabilities are ad-hoc and hand-coded.",
+            "However, there has been progress in the design and organisation of experiments, that will eventually provide data more useful and appropriate for this task.",
+            "It is necessary for the belief-net to have at least one layer of nodes between the features and the final output.",
+            "This makes the structure more flexible in terms of coding feature-layer probabilities.",
+            "Another technique to systematise the work is the thematic clustering of the features, each cluster forming a Bayes-net of each own: for example features like \"admission fee\" and \"opening hours\" can feed into an intermediate \"entrance\" node connecting to the main middle layer.",
+            "The next stage is to refine the set of feature nodes and identify possible clusters.",
+            "Although, in theory, traditional AI plan recognition techniques could also be helpful for inferring intentions, the schemas involved are too elaborate for this task.",
+            "Further work also includes discussing the possible advantages of Bayes-net packages, other than JavaBayes, with experts at ICSI.",
+            "If they continue using JavaBayes, a script to help with the inputting of probabilities in the nodes is needed, as the in-built method is cumbersome.",
+            "Finally, it was decided that at least some of the experiments designed for the new data collection initiative will factor in the intentions studied in the current task.",
+            "The set of cues that form the feature nodes is not well-defined yet.",
+            "Especially with lexical cues (verbs, modifiers etc), no one offered specific intuitions as to how they might contribute to the inference of intentions.",
+            "Other features, like \"admission fee\", may be intuitively linked with one of the outputs (Enter), however, any probabilities are coded in an ad-hoc fashion and are by no means realistic.",
+            "Cases like this, where feature and output seem to be linked directly, bring the necessity of a middle layer in the belief-net to question.",
+            "Nevertheless, not having a middle layer would not allow for shifts in the discourse and would make the setting of probabilities and manipulation of the belief-net clumsy.",
+            "Some issues with the use of JavaBayes also arose: the addition of new variables in an existing node overwrites all previous settings, and the native text file where the probability tables are set is not easy to read; this makes adding and changing variables and nodes problematic.",
+            "Finally, it is unclear how much learning can be done on the created nets.",
+            "There was a demonstration of the structure and the function of a toy version of the belief-net for the intentionality task.",
+            "The features nodes include things like prosody, discourse, verb choice, \"landmark-iness\" of a building, time of day and whether the admission fee was discussed.",
+            "The values these nodes take feed into the middle layer nodes identified as hidden variables of the user/device interaction, such as whether the user is on tour, running an errand or in a hurry.",
+            "These, in turn, help infer whether the user wants to see, enter or simply approach a building.",
+            "The set of features nodes is derived from linguistic cues, world knowledge and discourse history.",
+            "SmartKom, although it does not code for intentions as specified in this task, provides a model of the discourse, which can be useful for the detection of features through querying and anaphora resolution.",
+            "Experiments for the collection of new data will start soon, since someone who will recruit subjects and help run the experiments has already been hired and the designing of the experiments has also progressed significantly."
+        ],
+        "answer_sentence_index": [
+            "Bed003.s.1",
+            "Bed003.s.2",
+            "Bed003.s.3",
+            "Bed003.s.4",
+            "Bed003.s.5",
+            "Bed003.s.6",
+            "Bed003.s.7",
+            "Bed003.s.8",
+            "Bed003.s.9",
+            "Bed003.s.10",
+            "Bed003.s.11",
+            "Bed003.s.12",
+            "Bed003.s.13",
+            "Bed003.s.14",
+            "Bed003.s.15",
+            "Bed003.s.16",
+            "Bed003.s.17",
+            "Bed003.s.18",
+            "Bed003.s.19",
+            "Bed003.s.20",
+            "Bed003.s.21",
+            "Bed003.s.22",
+            "Bed003.s.23",
+            "Bed003.s.24",
+            "Bed003.s.25",
+            "Bed003.s.26",
+            "Bed003.s.27",
+            "Bed003.s.28",
+            "Bed003.s.29",
+            "Bed003.s.30",
+            "Bed003.s.31",
+            "Bed003.s.32"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 144,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "like \" I 'm {disfmarker} \" the {disfmarker} the abstract idea being \" I am a tourist"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "I want to go {pause} to this place . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "So we 're gonna set up features along the lines of where they want to go"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 9,
+                    "speaker": "Grad B",
+                    "content": "and {pause} what they 've said previously and whatnot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 10,
+                    "speaker": "Grad B",
+                    "content": "And then we have {pause} the means {vocalsound} that they should use ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "So . The mode {pause} basically has three different {pause} outputs ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "The probability {disfmarker} whether the probability of a Vista , Tango , or Enter ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 3,
+                    "speaker": "Grad B",
+                    "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 6,
+                    "speaker": "Grad B",
+                    "content": "So . The mode {pause} basically has three different {pause} outputs ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 152,
+                    "sent_index": 10,
+                    "speaker": "Grad B",
+                    "content": "\" Verb used \" is actually personally amusing"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 180,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Like we don't have nodes for \" discourse \" and \" parse \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 180,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "although like in some sense they are parts of this belief - net ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And then in that second row {pause} or whatever that row of Time of Day through that {disfmarker} So all of those {disfmarker} Some of them come from the utterance"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "and some of them are sort of {vocalsound} either world knowledge or situational {pause} things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 719,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So maybe this could be sort of a separate region of the net , {pause} which has two {disfmarker} {pause} has it 's own middle layer ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 741,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "They ra may have there own hidden layer {pause} that points to some of {pause} the {disfmarker} the real hidden layer , um or the general hidden layer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And the same we will be able to do for syntactic information ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 743,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "the verbs used , the object types used , modifiers ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 12,
+                    "speaker": "Grad B",
+                    "content": "but the middle thing , we were thinking along the lines of maybe trying to figure out , like , the concept of whether they 're a tourist {pause} or {pause} whether they 're running an errand or something like that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 15,
+                    "speaker": "Grad B",
+                    "content": "Yes , we could things we couldn't extract the {disfmarker} from the data , the hidden variables ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 863,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So by the way tha that structure {pause} that Robert drew on the board was like more um , {vocalsound} {pause} cue - type - based ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 863,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "entering or som you know like they might be more task - based ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 870,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "so {vocalsound} maybe what {disfmarker} what {disfmarker} what happened {disfmarker} what might happen is that we do get this sort of task - based middle layer ,"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 552,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean in a way this is a lot of good features in Java"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 552,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "it 's cra has a GUI and it 's uh {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 563,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "But uh {disfmarker} it 's free ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 673,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "and he 's updated it for an XML version of I guess Bayes - nets ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 887,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "And then these should then connect somehow to the more plan - based deep space"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 889,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Basically just refine {pause} some of the more general nodes ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 891,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , this is totally like {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 891,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "The probabilities and all are completely ad - hoc ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 983,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But um {disfmarker} in terms of specifying the scenario , {vocalsound} um {disfmarker} uh {disfmarker} uh {disfmarker} we 've gotten a little further"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 988,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I don't know how much the structure of the evolving Bayes - net {vocalsound} {pause} will af affect {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 988,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Like we wanna {disfmarker} we wanna be able to collect {vocalsound} as much of the variables that are needed for that ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 743,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "And maybe there 's a hidden layer for that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 746,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So essentially a lot of those nodes can be expanded into little Bayes - nets of their own ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 750,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I guess , the fact that the {disfmarker} there 's a complete separation between the {pause} observed features and in the output ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 752,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I mean , it makes it cleaner , but then uh {disfmarker} I mean ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 756,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "well for instance , the \" discourse admission fee \" {pause} node seems like it should point directly to the {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 717,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "I think a {disfmarker} a sort of general strategy here {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 717,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "is that maybe we ob we could observe a couple of um discourse phenomena such as the admission fee ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 719,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So maybe this could be sort of a separate region of the net , {pause} which has two {disfmarker} {pause} has it 's own middle layer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 725,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Opening hours or something like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 726,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "That would all f funnel into one node that would {pause} constitute entrance requirements or something like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 741,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "They ra may have there own hidden layer {pause} that points to some of {pause} the {disfmarker} the real hidden layer , um or the general hidden layer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 750,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I guess , the fact that the {disfmarker} there 's a complete separation between the {pause} observed features and in the output ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 876,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So , um I suggest w to {disfmarker} for {disfmarker} to proceed with this in {disfmarker} in the sense that {pause} maybe throughout this week the three of us will {disfmarker} will talk some more about maybe segmenting off different regions ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 876,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "and we make up some {disfmarker} {pause} some toy a observable \" nodes \" {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 877,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Refined y re just refine the {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 798,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "They 're {disfmarker} in {disfmarker} in non in sort of more traditional AI kinds of plan recognition things you sort of have {vocalsound} {pause} you know , some idea at each turn of agent doing something ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 798,
+                    "sent_index": 7,
+                    "speaker": "Grad D",
+                    "content": "\" OK , wha what plans is this a {disfmarker} consistent with ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 798,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "and then get s some more information and then you see {pause} \" here 's a sequence that this sort of roughly fits into \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 798,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "It {disfmarker} it might be useful here too ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 803,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "It 's in the {disfmarker} these {disfmarker} these {disfmarker} these plan schemas ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 803,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I mean there are some {disfmarker} some of them are extremely elaborate ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 903,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Yeah , another thing to do , um , is also to , um {disfmarker} I guess to ask around people about other Bayes - net packages ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 903,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Is Srini gonna be {pause} at the meeting tomorrow ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 643,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "we can maybe write an interface th for uh entering probability distributions easily ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 643,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "something like {disfmarker} like a little script ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 645,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "I actually seem to recall Srini complaining about something to do with Entering probability"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 664,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I don't know if it actually manipulate the source , though ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 664,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "That might be a bit complicated ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 666,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I think it might {disfmarker} it might be simpler to just {pause} have a script that , you know {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 988,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So the ideal task um , {pause} will have {pause} whatever"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 988,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I don't know how much the structure of the evolving Bayes - net {vocalsound} {pause} will af affect {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 988,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Like we wanna {disfmarker} we wanna be able to collect {vocalsound} as much of the variables that are needed for that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1002,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So in other words this data collection is {pause} more general ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1004,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "It could {disfmarker} it could {pause} be used for not just this task ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1007,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "So now I think we should maybe have at least one navigational task with {disfmarker} with sort of explicit {disfmarker} uh"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 714,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "if there 's a way to define it or maybe you know generalize it some way"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 714,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "um , there might be other cues that , say , um , in the last few utterances there has been something that has strongly associated with say one of the particular modes"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And the same we will be able to do for syntactic information ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 743,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "the verbs used , the object types used , modifiers ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 743,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "And maybe there 's a hidden layer for that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 717,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "is that maybe we ob we could observe a couple of um discourse phenomena such as the admission fee ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 720,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "So instead of single node , for {pause} like , if they said the word \" admission fee \" {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 725,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Opening hours or something like that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 726,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "That would all f funnel into one node that would {pause} constitute entrance requirements or something like that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 759,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Like we could add a node like do they want to enter it ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 759,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "which is affected by admission fee and by whether it 's closed and by whether it has a door ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 891,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "The probabilities and all are completely ad - hoc ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 891,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "I mean but , they 're even like {vocalsound} {pause} I mean like , close to the end we were like , uh , you know we were like uh {vocalsound} really ad - hoc ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 756,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "well for instance , the \" discourse admission fee \" {pause} node seems like it should point directly to the {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 759,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Or we could like add more , uh , sort of middle nodes ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 762,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Either like make an arrow directly or put a new node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 782,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "So the discourse refers to \" admission fee \" but it just turns out that they change their mind in the middle of the discourse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 783,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I mean there 's a {disfmarker} there 's change across several turns of discourse"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 891,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "The probabilities and all are completely ad - hoc ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 891,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "I mean but , they 're even like {vocalsound} {pause} I mean like , close to the end we were like , uh , you know we were like uh {vocalsound} really ad - hoc ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 516,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I don't know if JavaBayes is nice about that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 516,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "It might be that if you add a new thing pointing to a variable , you just like {disfmarker} it just overwrites everything ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 574,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "or do you actually never have to write any code there ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 575,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "There is actually a text file that you can edit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 623,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "That 's how actual probability tables are specified ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 627,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So theoretically you could edit that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 630,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But {pause} they 're not very friendly ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 664,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I don't know if it actually manipulate the source , though ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 554,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I guess those are the main two things ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 554,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It does learning ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 556,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "No it doesn't , actually ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 558,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "I didn't think it did learning ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 150,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 323,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean {disfmarker} We can do a demo in the sense that we can um , {vocalsound} just ob observe the fact that this will , in fact do inference ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "So then the features we decided {disfmarker} or we decided we were {disfmarker} talked about ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "Uh the {disfmarker} the prosody , the discourse , {pause} verb choice ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 66,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "The \" landmark - iness \" of uh {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 68,
+                    "sent_index": 11,
+                    "speaker": "Grad B",
+                    "content": "the time of day ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "What 's {disfmarker} what 's \" Disc admission fee \" ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "whether they discuss the admission fees ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 12,
+                    "speaker": "Grad B",
+                    "content": "but the middle thing , we were thinking along the lines of maybe trying to figure out , like , the concept of whether they 're a tourist {pause} or {pause} whether they 're running an errand or something like that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 144,
+                    "sent_index": 18,
+                    "speaker": "Grad B",
+                    "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 174,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "but the other ones , the final destination , the whether they 're doing business , whether they 're in a hurry , and whether they 're tourists ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 174,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "that kind of thing is all uh {vocalsound} sort of {disfmarker} you know probabilistically depends on the other things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "so one thing I {disfmarker} I 'm you know unsure about , is how we have the discus uh {disfmarker} the \" admission fee \" thing set up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "but you could see perhaps discus the \" admission fee \" going directly to the mode pointing at \" Enter \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "Versus pointing to just at \" tourist \" ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 200,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So there are certain cues that are very strong {pause} either lexical or topic - based um , concept cues"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "And then in that second row {pause} or whatever that row of Time of Day through that {disfmarker} So all of those {disfmarker} Some of them come from the utterance"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 202,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "and some of them are sort of {vocalsound} either world knowledge or situational {pause} things ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 790,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "How much is built into SmartKom and {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 791,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "It works like this ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 791,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "The first thing we get is that {pause} already the intention is sort of t"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 791,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "They tried to figure out the intention ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 791,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "And this um {disfmarker} m won't differentiate between all modes ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 791,
+                    "sent_index": 13,
+                    "speaker": "Grad A",
+                    "content": "and then it 's handed on to the discourse history which is , um o one of the most elaborate {disfmarker} elaborate modules ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 791,
+                    "sent_index": 15,
+                    "speaker": "Grad A",
+                    "content": "It helps an an anaphora resolution and it {disfmarker} and it fills in all the structures that are omitted ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 948,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "OK , I have to report {vocalsound} um , data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 948,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "We interviewed Fey ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "She 's willing to do it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "meaning be the wizard for the data collection ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "also {vocalsound} maybe transcribe a little bit , if she has to ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "but also recruiting subjects , organizing them , and so forth ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 950,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "Jerry however suggested that we should uh have a trial run with her ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "see whether she can actually do all the uh spontaneous , eloquent and creativeness that we uh expect of the wizard ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 950,
+                    "sent_index": 8,
+                    "speaker": "Grad A",
+                    "content": "and it looks as if Friday afternoon will be the time when we have a first trial run for the data ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The group discussed the first version of the Bayes-net used to work out a user's intentions when asking for directions from a navigation device.",
+                    "Three intentions were identified: Vista (to view), Enter (to visit) and Tango (to approach).",
+                    "The structure of the belief-net comprises, firstly, a feature layer, which includes linguistic, discourse and world knowledge information that can be gleaned from the data.",
+                    "It is possible for these variables to form thematic clusters( eg \"entrance\", \"type of object\", \"verb\"), each one with a separate middle layer.",
+                    "At this stage, all the actual probabilities are ad-hoc and hand-coded.",
+                    "However, there has been progress in the design and organisation of experiments, that will eventually provide data more useful and appropriate for this task."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 144,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "like \" I 'm {disfmarker} \" the {disfmarker} the abstract idea being \" I am a tourist"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 6,
+                            "speaker": "Grad B",
+                            "content": "I want to go {pause} to this place . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 8,
+                            "speaker": "Grad B",
+                            "content": "So we 're gonna set up features along the lines of where they want to go"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 9,
+                            "speaker": "Grad B",
+                            "content": "and {pause} what they 've said previously and whatnot ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 10,
+                            "speaker": "Grad B",
+                            "content": "And then we have {pause} the means {vocalsound} that they should use ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 18,
+                            "speaker": "Grad B",
+                            "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 6,
+                            "speaker": "Grad B",
+                            "content": "So . The mode {pause} basically has three different {pause} outputs ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 7,
+                            "speaker": "Grad B",
+                            "content": "The probability {disfmarker} whether the probability of a Vista , Tango , or Enter ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 6,
+                            "speaker": "Grad B",
+                            "content": "So . The mode {pause} basically has three different {pause} outputs ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 152,
+                            "sent_index": 10,
+                            "speaker": "Grad B",
+                            "content": "\" Verb used \" is actually personally amusing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 152,
+                            "sent_index": 11,
+                            "speaker": "Grad B",
+                            "content": "mainly because it 's {disfmarker} it 's just whether the verb is a Tango verb , an Enter verb , or a {pause} Vista verb ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 165,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "The \" closed \" is also not directly extracted I guess ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 168,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "From the {pause} utterance ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 172,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "OK , \" closed \" sort of is ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 180,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "Like we don't have nodes for \" discourse \" and \" parse \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 180,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "although like in some sense they are parts of this belief - net ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "And then in that second row {pause} or whatever that row of Time of Day through that {disfmarker} So all of those {disfmarker} Some of them come from the utterance"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 202,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "and some of them are sort of {vocalsound} either world knowledge or situational {pause} things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 719,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "So maybe this could be sort of a separate region of the net , {pause} which has two {disfmarker} {pause} has it 's own middle layer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 741,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "They ra may have there own hidden layer {pause} that points to some of {pause} the {disfmarker} the real hidden layer , um or the general hidden layer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 743,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "And the same we will be able to do for syntactic information ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 743,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "the verbs used , the object types used , modifiers ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 887,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "And then these should then connect somehow to the more plan - based deep space"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 889,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Basically just refine {pause} some of the more general nodes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 891,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Yeah , this is totally like {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 891,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "The probabilities and all are completely ad - hoc ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 983,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "But um {disfmarker} in terms of specifying the scenario , {vocalsound} um {disfmarker} uh {disfmarker} uh {disfmarker} we 've gotten a little further"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 988,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "I don't know how much the structure of the evolving Bayes - net {vocalsound} {pause} will af affect {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 988,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "Like we wanna {disfmarker} we wanna be able to collect {vocalsound} as much of the variables that are needed for that ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What did Grad B say about the structure of the belief net?",
+                "tokenized_answer": [
+                    "It is necessary for the belief-net to have at least one layer of nodes between the features and the final output.",
+                    "This makes the structure more flexible in terms of coding feature-layer probabilities."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 743,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "And the same we will be able to do for syntactic information ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 743,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "the verbs used , the object types used , modifiers ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 743,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "And maybe there 's a hidden layer for that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 746,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "So essentially a lot of those nodes can be expanded into little Bayes - nets of their own ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 750,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "I guess , the fact that the {disfmarker} there 's a complete separation between the {pause} observed features and in the output ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 752,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "I mean , it makes it cleaner , but then uh {disfmarker} I mean ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 756,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "well for instance , the \" discourse admission fee \" {pause} node seems like it should point directly to the {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the next step on features?",
+                "tokenized_answer": [
+                    "The next stage is to refine the set of feature nodes and identify possible clusters.",
+                    "Although, in theory, traditional AI plan recognition techniques could also be helpful for inferring intentions, the schemas involved are too elaborate for this task."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 876,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Might be {disfmarker} might be a nice dichotomy of {disfmarker} of the world ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 876,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "So , um I suggest w to {disfmarker} for {disfmarker} to proceed with this in {disfmarker} in the sense that {pause} maybe throughout this week the three of us will {disfmarker} will talk some more about maybe segmenting off different regions ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 876,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "and we make up some {disfmarker} {pause} some toy a observable \" nodes \" {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 877,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "Refined y re just refine the {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 798,
+                            "sent_index": 6,
+                            "speaker": "Grad D",
+                            "content": "They 're {disfmarker} in {disfmarker} in non in sort of more traditional AI kinds of plan recognition things you sort of have {vocalsound} {pause} you know , some idea at each turn of agent doing something ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 798,
+                            "sent_index": 7,
+                            "speaker": "Grad D",
+                            "content": "\" OK , wha what plans is this a {disfmarker} consistent with ? \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 798,
+                            "sent_index": 8,
+                            "speaker": "Grad D",
+                            "content": "and then get s some more information and then you see {pause} \" here 's a sequence that this sort of roughly fits into \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 798,
+                            "sent_index": 9,
+                            "speaker": "Grad D",
+                            "content": "It {disfmarker} it might be useful here too ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 803,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "It 's in the {disfmarker} these {disfmarker} these {disfmarker} these plan schemas ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 803,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "I mean there are some {disfmarker} some of them are extremely elaborate ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize what was said on intentionality",
+                "tokenized_answer": [
+                    "There was a demonstration of the structure and the function of a toy version of the belief-net for the intentionality task.",
+                    "The features nodes include things like prosody, discourse, verb choice, \"landmark-iness\" of a building, time of day and whether the admission fee was discussed."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 150,
+                            "sent_index": 3,
+                            "speaker": "Grad B",
+                            "content": "And then \" Let 's look at the belief - net \" {comment} OK ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 150,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "So that means that I should switch to the {pause} other program ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "Um right now it 's still kind of {pause} in a toy {pause} version of it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 323,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "I mean {disfmarker} We can do a demo in the sense that we can um , {vocalsound} just ob observe the fact that this will , in fact do inference ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "So then the features we decided {disfmarker} or we decided we were {disfmarker} talked about ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "Uh the {disfmarker} the prosody , the discourse , {pause} verb choice ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "The \" landmark - iness \" of uh {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 68,
+                            "sent_index": 11,
+                            "speaker": "Grad B",
+                            "content": "the time of day ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 186,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "What 's {disfmarker} what 's \" Disc admission fee \" ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 187,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "whether they discuss the admission fees ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "How would the middle layer work?",
+                "tokenized_answer": [
+                    "The values these nodes take feed into the middle layer nodes identified as hidden variables of the user/device interaction, such as whether the user is on tour, running an errand or in a hurry.",
+                    "These, in turn, help infer whether the user wants to see, enter or simply approach a building."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 144,
+                            "sent_index": 10,
+                            "speaker": "Grad B",
+                            "content": "And then we have {pause} the means {vocalsound} that they should use ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 12,
+                            "speaker": "Grad B",
+                            "content": "but the middle thing , we were thinking along the lines of maybe trying to figure out , like , the concept of whether they 're a tourist {pause} or {pause} whether they 're running an errand or something like that"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 18,
+                            "speaker": "Grad B",
+                            "content": "So then the hidden variables {disfmarker} hair variables we came up with were whether someone was on a tour , running an errand , or whether they were in a hurry ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 174,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "but the other ones , the final destination , the whether they 're doing business , whether they 're in a hurry , and whether they 're tourists ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 174,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "that kind of thing is all uh {vocalsound} sort of {disfmarker} you know probabilistically depends on the other things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 212,
+                            "sent_index": 2,
+                            "speaker": "Grad B",
+                            "content": "so one thing I {disfmarker} I 'm you know unsure about , is how we have the discus uh {disfmarker} the \" admission fee \" thing set up ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 212,
+                            "sent_index": 4,
+                            "speaker": "Grad B",
+                            "content": "Uh {disfmarker} we kept um {disfmarker} things from directly affecting the mode {pause} beyond the concept ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 212,
+                            "sent_index": 5,
+                            "speaker": "Grad B",
+                            "content": "but you could see perhaps discus the \" admission fee \" going directly to the mode pointing at \" Enter \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "Versus pointing to just at \" tourist \" ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the importance of SmartKom?",
+                "tokenized_answer": [
+                    "SmartKom, although it does not code for intentions as specified in this task, provides a model of the discourse, which can be useful for the detection of features through querying and anaphora resolution."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 790,
+                            "sent_index": 0,
+                            "speaker": "Grad B",
+                            "content": "What sort of discourse {pause} processing is uh {disfmarker} are the {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 790,
+                            "sent_index": 1,
+                            "speaker": "Grad B",
+                            "content": "How much is built into SmartKom and {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 791,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "It works like this ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 791,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "The first thing we get is that {pause} already the intention is sort of t"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 791,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "They tried to figure out the intention ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 791,
+                            "sent_index": 6,
+                            "speaker": "Grad A",
+                            "content": "And this um {disfmarker} m won't differentiate between all modes ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 791,
+                            "sent_index": 13,
+                            "speaker": "Grad A",
+                            "content": "and then it 's handed on to the discourse history which is , um o one of the most elaborate {disfmarker} elaborate modules ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 791,
+                            "sent_index": 14,
+                            "speaker": "Grad A",
+                            "content": "It 's {disfmarker} it 's actually the {disfmarker} the whole memory of the entire system , that knows what {disfmarker} wh who said what , which was {disfmarker} what was presented ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 791,
+                            "sent_index": 15,
+                            "speaker": "Grad A",
+                            "content": "It helps an an anaphora resolution and it {disfmarker} and it fills in all the structures that are omitted ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about hiring?",
+                "tokenized_answer": [
+                    "Experiments for the collection of new data will start soon, since someone who will recruit subjects and help run the experiments has already been hired and the designing of the experiments has also progressed significantly."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 948,
+                            "sent_index": 6,
+                            "speaker": "Grad A",
+                            "content": "OK , I have to report {vocalsound} um , data collection ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 948,
+                            "sent_index": 7,
+                            "speaker": "Grad A",
+                            "content": "We interviewed Fey ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "She 's willing to do it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "meaning be the wizard for the data collection ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "also {vocalsound} maybe transcribe a little bit , if she has to ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "but also recruiting subjects , organizing them , and so forth ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 950,
+                            "sent_index": 5,
+                            "speaker": "Grad A",
+                            "content": "Jerry however suggested that we should uh have a trial run with her ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 6,
+                            "speaker": "Grad A",
+                            "content": "see whether she can actually do all the uh spontaneous , eloquent and creativeness that we uh expect of the wizard ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "and it looks as if Friday afternoon will be the time when we have a first trial run for the data ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

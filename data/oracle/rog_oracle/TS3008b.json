@@ -1,0 +1,348 @@
+{
+    "transcripts_id": "TS3008b",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 16,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Welcome at the functional design meeting , again presented by Maarten ."
+                },
+                {
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "In project ."
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Remote control is nothing special nowadays ."
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Design ."
+                },
+                {
+                    "turn_index": 116,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Yeah , that was it ."
+                },
+                {
+                    "turn_index": 121,
+                    "sent_index": 9,
+                    "speaker": "Marketing",
+                    "content": "about willingness to spend money on remote control ,"
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "No , new requirements say no ."
+                },
+                {
+                    "turn_index": 263,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "yeah , basic functions , yeah ."
+                },
+                {
+                    "turn_index": 280,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Look at the market ."
+                },
+                {
+                    "turn_index": 434,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "With recharger ."
+                },
+                {
+                    "turn_index": 600,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Or some bump ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the technical functions on the remote control.",
+            "oracle_info": [
+                {
+                    "turn_index": 36,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "In project ."
+                },
+                {
+                    "turn_index": 37,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "I've done that ."
+                },
+                {
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "'Kay , we're going to um uh talk about working design ."
+                },
+                {
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "But nothing restricted for user interface ?"
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Remote control is nothing special nowadays ."
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "R regardless of what type of functions we want to implement . Doesn't really matter ."
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Well , the technical functions ."
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "but uh I got these two ,"
+                },
+                {
+                    "turn_index": 108,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Design ."
+                },
+                {
+                    "turn_index": 211,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Not much more than that ."
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "No , new requirements say no ."
+                },
+                {
+                    "turn_index": 244,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "keep it simple"
+                },
+                {
+                    "turn_index": 262,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "So we should put uh zap buttons on it ."
+                },
+                {
+                    "turn_index": 267,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "a t a teletext button should be there ."
+                },
+                {
+                    "turn_index": 280,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Look at the market ."
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Might be . Might be ."
+                }
+            ]
+        },
+        {
+            "query": "Why did Marketing disagree with Project Manager when discussing the technical functions on the remote control?",
+            "oracle_info": [
+                {
+                    "turn_index": 121,
+                    "sent_index": 36,
+                    "speaker": "Marketing",
+                    "content": "because they are used very rarely and well ,"
+                },
+                {
+                    "turn_index": 133,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Because um uh s decided to put {disfmarker} They have decide to put two additional requirements forward ."
+                },
+                {
+                    "turn_index": 149,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "New products should reach a new market with customers that are younger than forty ."
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "It's a very small market which we will approach then if we uh want to reach customers younger than forty ."
+                }
+            ]
+        },
+        {
+            "query": "What did User Interface think of putting lots of functions in the remote control when discussing the technical functions on it?",
+            "oracle_info": [
+                {
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I think uh people {disfmarker} younger people are more looking for just a trendy look than uh more functions ."
+                }
+            ]
+        },
+        {
+            "query": "What did the group discuss about extra designs or gadgets to make the remote control special?",
+            "oracle_info": [
+                {
+                    "turn_index": 361,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "so maybe with with bouncing pads so that you can just throw it on the floor or something ."
+                },
+                {
+                    "turn_index": 370,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Be original , yeah ."
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So big buttons , flashy design , and maybe some kind of gadget kind of thing ."
+                },
+                {
+                    "turn_index": 382,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "For the remote control . {vocalsound}"
+                },
+                {
+                    "turn_index": 417,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "fifty percent often loses remote control ."
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "{vocalsound} Uh , that's kind of nice ."
+                },
+                {
+                    "turn_index": 423,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Oh , like this ."
+                },
+                {
+                    "turn_index": 451,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "But but remote controls remote controls nowadays can can last uh two years , three years , with with t two batteries ."
+                }
+            ]
+        },
+        {
+            "query": "How did Project Manager think of the cost of adding rechargeable units to the device when discussing extra designs or gadgets to make the remote control special?",
+            "oracle_info": [
+                {
+                    "turn_index": 409,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "If you do that , but I don't know if that's possible within the production cost of twelve and a half Euros ."
+                },
+                {
+                    "turn_index": 415,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "was it fifty ?"
+                },
+                {
+                    "turn_index": 417,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "fifty percent often loses remote control ."
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "{vocalsound} Uh , that's kind of nice ."
+                },
+                {
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "It should be possible ."
+                },
+                {
+                    "turn_index": 460,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Yeah , but then it's very easy to make it also a rechargeab I don't think that is gonna cost much to make it also a recharge function in it ."
+                },
+                {
+                    "turn_index": 469,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "it's not a easy market ."
+                },
+                {
+                    "turn_index": 486,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "If that's too expensive , we won't do that ."
+                }
+            ]
+        },
+        {
+            "query": "What's Industrial Designer's concern about the idea of adding rechargeable units to the device during discussion on extra designs or gadgets to make the remote control special?",
+            "oracle_info": [
+                {
+                    "turn_index": 450,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "it's not the purpose to be handy , it's"
+                },
+                {
+                    "turn_index": 451,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "But but remote controls remote controls nowadays can can last uh two years , three years , with with t two batteries ."
+                },
+                {
+                    "turn_index": 455,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "Or {disfmarker}"
+                }
+            ]
+        }
+    ]
+}

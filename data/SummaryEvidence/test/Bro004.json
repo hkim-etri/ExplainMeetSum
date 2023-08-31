@@ -1,0 +1,1479 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The meeting was dominated by a discussion of the first results coming\nin.",
+            "There have been four types of test, in which the training data\nvaries, and a variety of input features have been tried.",
+            "The process\nand results were explained to the group, the implications of the\nresults discussed, and plans for moving forward were made.",
+            "There was also discussion of some of the work being conducted by\nresearch partners OGI, including how the two groups should best work\ntogether.",
+            "The group also briefly touched upon resource issues.",
+            "Speaker mn007 would like to investigate increasing the context of the\nphonemes.",
+            "speaker mn013 does agree with mn007s assessment of the\noutcome, and points out the lack of data, but acknowledges that if\nmn007 is interested he will go ahead with it.",
+            "Must be careful in choosing which experiments to perform as an\nimportant visitor is coming soon.",
+            "Also need to come up with a\nstronger plan for collaboration with OGI.",
+            "Must decide what from both\ncan be brought together, and how then can the work be divided.",
+            "Someone (implied with gestures in the meeting) must speak to a person\noutside the group with regards to using a multiprocessor Linux machine\nthat is available.",
+            "Debugging the process while there are just two\nprocessors bodes well for when they have 8 to multi-thread.",
+            "Speaker mn026 volunteers to get some training running under Linux.",
+            "It\nis agreed that he should start with the neural net training, then work\non HTK.",
+            "Incorrect assumptions were made when considering the on-line\nnormalization for the main task.  members used different values to a\nprevious study, and whilst it was believed not to make a difference,\nit does, so networks are being retrained.",
+            "Currently working with noise conditions being the same in training and\ntest data, but there is nothing which matches the noise on the Italian\ntest data.",
+            "In fact no other language matches the noise from Aurora\ndata.",
+            "Spanish was being used to train for Italian as it was assumed they\nwere the most similar, but that may not be as close a match as\nthought.",
+            "OGI have an interesting approach to Voice Activation Detection for\nremoving blocks of silence, that shows good results, but currently the\nword model being used is too poor to make good use of this and no one\nis working on improving it.",
+            "Speakers mn007 and fn002 have been running experiments.",
+            "Looking at\ndifferent features, under different training conditions.",
+            "Moving from\ntraining with task data to broad data increases error rate by 10%, and\nmoving to multiple languages increases a further 20-30%.",
+            "PLP with\nJRASTA better than just PLP on mismatched conditions, but slightly\nworse on well matched.",
+            "Speaker fn002 is also looking at the HTK training, but does not yet\nhave results.",
+            "Speaker mn007 is going to start work on creating broad phonetic\ncategories based on various features, and combine this with original\nfeatures like PLP.",
+            "As yet unsure how to combine the data however."
+        ],
+        "answer_sentence_index": [
+            "Bro004.s.1",
+            "Bro004.s.2",
+            "Bro004.s.3",
+            "Bro004.s.4",
+            "Bro004.s.5",
+            "Bro004.s.6",
+            "Bro004.s.7",
+            "Bro004.s.8",
+            "Bro004.s.9",
+            "Bro004.s.10",
+            "Bro004.s.11",
+            "Bro004.s.12",
+            "Bro004.s.13",
+            "Bro004.s.14",
+            "Bro004.s.15",
+            "Bro004.s.16",
+            "Bro004.s.17",
+            "Bro004.s.18",
+            "Bro004.s.19",
+            "Bro004.s.20",
+            "Bro004.s.21",
+            "Bro004.s.22",
+            "Bro004.s.23",
+            "Bro004.s.24",
+            "Bro004.s.25",
+            "Bro004.s.26"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 40,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So uh {pause} I also copied uh the results that we all got in the mail I think from uh {disfmarker} {pause} from OGI"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 685,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and think about it and {disfmarker} {pause} and talk with everybody uh , {pause} outside of this meeting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 685,
+                    "sent_index": 12,
+                    "speaker": "Professor B",
+                    "content": "One of the things I wonder about , {pause} coming back to the first results you talked about , is {disfmarker} is {pause} how much , {pause} uh {pause} things could be helped {pause} by more parameters ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We {disfmarker} No , we did four {disfmarker} four kind of {disfmarker} of testing , actually ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 87,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It has three languages ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 95,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "it 's the broad {pause} data ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 40,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So uh {pause} I also copied uh the results that we all got in the mail I think from uh {disfmarker} {pause} from OGI"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 45,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um . We 've trained uh several neural networks on {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "From what I saw from the earlier results , uh I guess last week , {pause} was that um , {pause} if you {pause} trained on one language and tested on another , say , that {pause} the results were {disfmarker} were relatively poor ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "uh . The error rate increase u of {disfmarker} of {disfmarker} of ten percent , relative ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK , but I think that {pause} given the pressure of time we probably want to draw {disfmarker} because of that {pause} especially , we wanna draw some conclusions from this ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 402,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and make some strong decisions for what we 're gonna do testing on before next week ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 40,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So uh {pause} I also copied uh the results that we all got in the mail I think from uh {disfmarker} {pause} from OGI"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 373,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "So these are the results of {pause} OGI with {pause} on - line normalization"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 458,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "Um , how are we going to {pause} combine {pause} with what they 've been focusing on ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I don't think this {pause} will work {pause} alone ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 657,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "So um I think that it 's {disfmarker} it 's nice to do that in this"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 657,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "because in fact , it 's gonna give a better word error result"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 689,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "How are we doing on the {pause} resources ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 692,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "um , {pause} not much problems with that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 704,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah , {pause} we 're gonna get a replacement {pause} server that 'll be a faster server , {pause} actually ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So uh what we were thinking about is perhaps {pause} um one way {pause} to solve this problem is increase the number of {pause} outputs of the neural networks ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Doing something like , um {pause} um phonemes within context and ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 426,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "We already actually don't have a huge amount of training data"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 452,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but the {disfmarker} the real thing is if you 're interested in it you 'll probably try it"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 538,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "so I think Hynek will be here Monday ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 542,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So I think , you know , we need to {pause} choose the {disfmarker} choose the experiments carefully ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 375,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So {pause} what we see that {disfmarker} is {disfmarker} there is that um {pause} uh the way we were doing this was not correct ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 458,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "I mean , {pause} we should probably turn shortly to this O G I note ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 458,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "Um , how are we going to {pause} combine {pause} with what they 've been focusing on ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 657,
+                    "sent_index": 12,
+                    "speaker": "Professor B",
+                    "content": "So um The question we 're gonna wanna go {pause} through next week when Hynek shows up I guess is given that we 've been {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 20,
+                    "speaker": "Professor B",
+                    "content": "And I guess when he comes here we 're gonna have to start deciding about {pause} um what do we choose {pause} from what we 've looked at {pause} to um blend with {pause} some group of things in what they 've looked at"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 20,
+                    "speaker": "Professor B",
+                    "content": "And I guess when he comes here we 're gonna have to start deciding about {pause} um what do we choose {pause} from what we 've looked at {pause} to um blend with {pause} some group of things in what they 've looked at"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 21,
+                    "speaker": "Professor B",
+                    "content": "And once we choose that , {pause} how do we split up the {pause} effort ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 712,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "We had originally hoped we were getting eight hundred megahertz processors ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 712,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "So instead of having eight processors that were eight hundred megahertz , we ended up with two {pause} that are five hundred and fifty megahertz ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 712,
+                    "sent_index": 17,
+                    "speaker": "Professor B",
+                    "content": "Uh so it 'll be a pr pretty fast Linux machine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 718,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , I mean you can check with uh {pause} Dave Johnson ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 718,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and {disfmarker} {pause} Somebody could do {disfmarker} {pause} you know , uh , check out {pause} uh the multi - threading {pause} libraries ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 718,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and {disfmarker} {pause} Somebody could do {disfmarker} {pause} you know , uh , check out {pause} uh the multi - threading {pause} libraries ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 718,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "I mean , I guess the prudent thing to do would be for somebody to do the work on {disfmarker} {pause} on getting our code running {pause} on that machine with two processors {pause} even though there aren't five or eight ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 718,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "There 's {disfmarker} there 's {disfmarker} there 's gonna be debugging hassles"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 2,
+                    "speaker": "Grad G",
+                    "content": "so , {pause} um I could try to get {pause} um the train the neural network trainings or the HTK stuff running under Linux , and to start with I 'm {pause} wondering which one I should pick first ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 2,
+                    "speaker": "Grad G",
+                    "content": "so , {pause} um I could try to get {pause} um the train the neural network trainings or the HTK stuff running under Linux , and to start with I 'm {pause} wondering which one I should pick first ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 736,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "But I think {pause} that {pause} you could {pause} certainly do d um , {pause} distributed , sort of {disfmarker} {pause} Ah ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 364,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "but {pause} actually there is something important ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 364,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "is that {pause} um we made a lot of assumption concerning the on - line normalization"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 375,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So {pause} what we see that {disfmarker} is {disfmarker} there is that um {pause} uh the way we were doing this was not correct ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 378,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "um , {pause} I used point five percent , {pause} which was the default value in the {disfmarker} {pause} in the programs here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 382,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "I assume that this was not important because {pause} uh previous results from {disfmarker} from Dan and {disfmarker} show that basically {pause} the {pause} both {disfmarker} both values g give the same {disfmarker} same {pause} uh results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 382,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "It was true on uh {pause} TI - digits but it 's not true on Italian ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 391,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "well , the {disfmarker} the {disfmarker} the networks are retaining with these new {pause} features ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 307,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "The noise condition is the same {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 309,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So there 's not a {pause} statistical {disfmarker} sta a strong st {pause} statistically different {pause} noise characteristic between {pause} uh the training and test"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 316,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "To try the same t {pause} with the exact same training , do testing on {pause} the other languages ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 319,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah , so for the Italian the results are {vocalsound} uh {pause} stranger"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 331,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And perhaps the noise are {pause} quite different from the noises {pause} in the speech that Italian ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Do we have any um {pause} test sets {pause} uh in {pause} any other language that um have the same noise as in {pause} the Aurora ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "No ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 319,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "So what appears is that perhaps Spanish is {pause} not very close to Italian"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 319,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "because uh , well , {pause} when using the {disfmarker} the network trained only on Spanish it 's {disfmarker} {pause} the error rate is {pause} almost uh twice {pause} the baseline error rate ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "and OGI show showed that , is {pause} the distinction between {pause} sp speech and silence"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 555,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I guess they mean voice activity detection So again , it 's the silence {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 559,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So um Their uh {disfmarker} {pause} the results look pretty good ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "Um . Uh , as you know , part of the problem with evaluation right now is that the {pause} word models are pretty bad"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 657,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "and nobody wants {disfmarker} {pause} has {disfmarker} has approached improving them ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 45,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um . We 've trained uh several neural networks on {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We only did either task {disfmarker} task data or {pause} uh broad {pause} data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 542,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So I think , you know , we need to {pause} choose the {disfmarker} choose the experiments carefully ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh so . {pause} uh {disfmarker} We {disfmarker} So {pause} As I was already said , we {disfmarker} we mainly focused on uh four kind of features ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "The PLP , the PLP with JRASTA , the MSG , and the MFCC from the baseline Aurora ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 45,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Um . We 've trained uh several neural networks on {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We {disfmarker} No , we did four {disfmarker} four kind of {disfmarker} of testing , actually ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 515,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "Because these nets are trained on well - controlled condition ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We only did either task {disfmarker} task data or {pause} uh broad {pause} data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The first testing is {pause} with task data {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "example {pause} uh when we go from TI - digits training to {pause} TIMIT training {pause} uh we lose {pause} uh around ten percent ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "uh . The error rate increase u of {disfmarker} of {disfmarker} of ten percent , relative ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And then when we jump to the multilingual data it 's uh it become worse"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Twenty to {disfmarker} to thirty percent further ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 197,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So . This was for the PLP ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 199,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "There {disfmarker} there is a difference actually with {disfmarker} b between PLP and JRASTA"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 199,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "is that {pause} JRASTA {pause} seems to {pause} perform better with the highly mismatched {pause} condition {pause} but slightly {disfmarker} slightly worse {pause} for the well matched condition ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 462,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "Are there {disfmarker} is there {disfmarker} are there any H T K {pause} trainings {disfmarker} testings going on ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "But I haven't result {vocalsound} at this moment ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 484,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And {pause} we {pause} plan to work also on the idea of using both {pause} features {pause} and net outputs ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 486,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "So we have um {pause} come up with um {pause} different kind of {pause} broad phonetic categories ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 486,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "And we have {disfmarker} Basically we have three {pause} types of broad phonetic classes ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 486,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "Well , something using place of articulation"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 486,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "Uh , another which is based on manner ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 486,
+                    "sent_index": 9,
+                    "speaker": "PhD D",
+                    "content": "And then , {pause} something that combine both ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But you think if you include that {pause} plus the other features ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 516,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "And you have the original features ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 518,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Which are PLP , or something ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 496,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So you 're having multiple nets and combining them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 496,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Uh , how are you {disfmarker} how are you coming up with {disfmarker}"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The participants discussed results from the experiments that had been conducted.",
+                    "Switching between tasks in the same language had smaller errors than multilingual models.",
+                    "The professor thought that increasing the parameters of the net for larger multi-lingual models would be helpful.",
+                    "The team decided that they should experiment further with different linguistic features.",
+                    "They also discussed how they could speed up their work by relying on greater computational resources."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um . We 've trained uh several neural networks on {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 4,
+                            "speaker": "PhD D",
+                            "content": "Mmm , so there 's our result tables here , for the tandem approach ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 5,
+                            "speaker": "PhD D",
+                            "content": "and um , actually what we {disfmarker} we @ @ observed is that if the network is trained on the task data it works pretty well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 62,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "so if the network is trained on the task data um {pause} tandem works pretty well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "From what I saw from the earlier results , uh I guess last week , {pause} was that um , {pause} if you {pause} trained on one language and tested on another , say , that {pause} the results were {disfmarker} were relatively poor ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "But {disfmarker} but the question is if you train on one language {pause} but you have a broad coverage {pause} and then test in another , {pause} does that {disfmarker} {pause} is that improve things {pause} i c in comparison ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "We {disfmarker} No , we did four {disfmarker} four kind of {disfmarker} of testing , actually ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 102,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "And then when we jump to the multilingual data it 's uh it become worse"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 542,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So I think , you know , we need to {pause} choose the {disfmarker} choose the experiments carefully ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 102,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "And then when we jump to the multilingual data it 's uh it become worse"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 143,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "If we call that \" one \" , {pause} then what you 're saying is {pause} that the word error rate {pause} for the same language but using {pause} uh different training data than you 're testing on , say TIMIT and so forth , {pause} it 's one point one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "The only difference it 's {disfmarker} is that it 's multilingual {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "Um . The English data {disfmarker} {pause} No , the multilingual databases are two times the {pause} broad English {pause} data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 194,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "or {disfmarker} I mean . {pause} You have the same number of parameters in the neural net ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 685,
+                            "sent_index": 12,
+                            "speaker": "Professor B",
+                            "content": "One of the things I wonder about , {pause} coming back to the first results you talked about , is {disfmarker} is {pause} how much , {pause} uh {pause} things could be helped {pause} by more parameters ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 685,
+                            "sent_index": 16,
+                            "speaker": "Professor B",
+                            "content": "um , I wonder if having twice as many parameters would help ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 244,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "So the only {pause} task that 's similar to this is the training on two languages ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 245,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "But we 've done a bunch of things where we just trained on one language ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 245,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I mean , you haven't {disfmarker} you haven't done all your tests on multiple languages ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 542,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So I think , you know , we need to {pause} choose the {disfmarker} choose the experiments carefully ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 685,
+                            "sent_index": 13,
+                            "speaker": "Professor B",
+                            "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 685,
+                            "sent_index": 16,
+                            "speaker": "Professor B",
+                            "content": "um , I wonder if having twice as many parameters would help ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 689,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "How are we doing on the {pause} resources ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 692,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "um , {pause} not much problems with that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 704,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Yeah , {pause} we 're gonna get a replacement {pause} server that 'll be a faster server , {pause} actually ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 712,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "And more are supposed to come soon"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 712,
+                            "sent_index": 11,
+                            "speaker": "Professor B",
+                            "content": "but uh {vocalsound} Hopefully , {pause} they 'll get us some more {pause} parts , soon"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 14,
+                            "speaker": "Professor B",
+                            "content": "once we get it populated , {pause} that 'll be a nice machine ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 712,
+                            "sent_index": 16,
+                            "speaker": "Professor B",
+                            "content": "And uh {disfmarker} and uh a nice amount of memory ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 17,
+                            "speaker": "Professor B",
+                            "content": "Uh so it 'll be a pr pretty fast Linux machine ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 719,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "I is it um {pause} mostly um the neural network trainings that are {pause} um slowing us down or the HTK runs that are slowing us down ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 720,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I mean I think you 're {disfmarker} you 're sort of held up by both ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 727,
+                            "sent_index": 2,
+                            "speaker": "Grad G",
+                            "content": "so , {pause} um I could try to get {pause} um the train the neural network trainings or the HTK stuff running under Linux , and to start with I 'm {pause} wondering which one I should pick first ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about the effect of training on different languages",
+                "tokenized_answer": [
+                    "Using multiple languages led to more diversity which potentially hindered the model performance.",
+                    "The professor was skeptical about discussing the results since they had not received any good ones so far."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "so I think what I 'm {disfmarker} what I saw in your smaller chart that I was thinking of was {disfmarker} was {pause} there were some numbers I saw , I think , that included these multiple languages"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 303,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "and the {disfmarker} and the result was quite poor ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 226,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well , it 's {disfmarker} it sounds {disfmarker} {pause} I mean , we have to be careful ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 226,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "cuz we haven't gotten a good result yet ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 228,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And comparing different bad results can be {pause} tricky ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD D explain about the multilingual model?",
+                "tokenized_answer": [
+                    "PhD D explained that the multilingual model, trained on French, Spanish, and English, was trained with higher frame rates.",
+                    "It has slightly poorer results when delta was not used.",
+                    "All in all, the addition of English did not seem to help the model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "Then you have {pause} uh MF , {pause} MS and ME"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "which are for French , Spanish and English ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 6,
+                            "speaker": "PhD D",
+                            "content": "Actually I {disfmarker} {pause} I uh forgot to say that {pause} the multilingual net are trained {pause} on {pause} uh {pause} features without the s derivatives"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 7,
+                            "speaker": "PhD D",
+                            "content": "uh but with {pause} increased frame numbers ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 9,
+                            "speaker": "PhD D",
+                            "content": "And we can {disfmarker} we can see on the first line of the table that it {disfmarker} it {disfmarker} {pause} it 's slightly {disfmarker} slightly worse when we don't use"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 295,
+                            "sent_index": 10,
+                            "speaker": "PhD D",
+                            "content": "delta but it 's not {disfmarker} {pause} not that much ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 303,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "What I {disfmarker} {pause} we hadn't seen yet was that if you added in the English , it 's still poor ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about the use of English?",
+                "tokenized_answer": [
+                    "The professor thought that the model did not get hurt that much because of the removal of English.",
+                    "He also thought it would be worthwhile to train on one language and test on another."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 218,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "because {pause} it {disfmarker} it seems like what it 's saying is not so much that you got hurt {pause} uh because {pause} you {pause} uh didn't have so much representation of English ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 218,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "because in the other case you don't get hurt any more ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 232,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "I think we got some earlier results {pause} in which you trained on one language and tested on another"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on managing the complexity of the model",
+                "tokenized_answer": [
+                    "The team discussed the size of the neural net, which was just a simple net.",
+                    "At the time, it had 27 outputs, but the professor recommended that they use a larger net, with perhaps more features.",
+                    "They discussed the effect that removing silent frames could have on the model.",
+                    "The professor recommended having a bigger hidden layer, though he did not think that would substantially improve performance.",
+                    "Currently, however, the team was facing computational limitations."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 194,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "you haven't increased the size of the neural net ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 486,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Um . And {pause} we think that {pause} with this approach perhaps {pause} we could reduce the number of outputs of the neural network ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 486,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Um , So , get simpler networks ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 501,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "It 's one net with {pause} um {pause} twenty - seven outputs"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 514,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "But you think if you include that {pause} plus the other features ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 658,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "When they removed the silence frames , did they insert some kind of a marker so that the recognizer knows it 's {disfmarker} {pause} knows when it 's time to back trace or something ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 659,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Um . I don't know the {disfmarker} {pause} the specifics of how they 're doing it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 687,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , just have a bigger hidden layer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 687,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I doubt it would {pause} help by forty per cent ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 685,
+                            "sent_index": 13,
+                            "speaker": "Professor B",
+                            "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team discuss about IBM computers?",
+                "tokenized_answer": [
+                    "The team was concerned about the availability of computational resources.",
+                    "The Professor informed them that they had received two 550 megahertz processors by IBM.",
+                    "Though, they were originally expecting eight 800 megahertz processors."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 685,
+                            "sent_index": 12,
+                            "speaker": "Professor B",
+                            "content": "One of the things I wonder about , {pause} coming back to the first results you talked about , is {disfmarker} is {pause} how much , {pause} uh {pause} things could be helped {pause} by more parameters ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 685,
+                            "sent_index": 13,
+                            "speaker": "Professor B",
+                            "content": "And uh {disfmarker} {pause} And uh how many more parameters we can afford to have , {vocalsound} {pause} in terms of the uh computational limits ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "uh IBM was donating five ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "So instead of having eight processors that were eight hundred megahertz , we ended up with two {pause} that are five hundred and fifty megahertz ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "We had originally hoped we were getting eight hundred megahertz processors ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 712,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "So instead of having eight processors that were eight hundred megahertz , we ended up with two {pause} that are five hundred and fifty megahertz ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team think about delays?",
+                "tokenized_answer": [
+                    "The team talked about delays when discussing the removal of frames that were silent.",
+                    "This could possibly improve model performance at the cost of a small delay."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 647,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "It does introduce delays"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 658,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "When they removed the silence frames , did they insert some kind of a marker so that the recognizer knows it 's {disfmarker} {pause} knows when it 's time to back trace or something ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 659,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Um . I don't know the {disfmarker} {pause} the specifics of how they 're doing it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 657,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "Um . Uh , as you know , part of the problem with evaluation right now is that the {pause} word models are pretty bad"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 657,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "and nobody wants {disfmarker} {pause} has {disfmarker} has approached improving them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 657,
+                            "sent_index": 9,
+                            "speaker": "Professor B",
+                            "content": "So {pause} it 's possible that a lot of the problems {pause} with so many insertions and so forth would go away if they were better word models {pause} to begin with ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

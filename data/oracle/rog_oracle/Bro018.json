@@ -1,0 +1,294 @@
+{
+    "transcripts_id": "Bro018",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And the other three features are R , the variance of the difference between the two spectrum ,"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "That wasn't what I was saying"
+                },
+                {
+                    "turn_index": 191,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "well seriously the France Telecom proposal"
+                },
+                {
+                    "turn_index": 228,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "something they were doing ."
+                },
+                {
+                    "turn_index": 257,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "Then uh I talked a little bit about {vocalsound} um continuing with these dynamic ev um acoustic events ,"
+                },
+                {
+                    "turn_index": 297,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "and made a mapping from the MFCC 's to these phonological features ,"
+                },
+                {
+                    "turn_index": 298,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So what 's the advantage of support vector machines ?"
+                },
+                {
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Does there some kind of a distance metric that they use"
+                },
+                {
+                    "turn_index": 317,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "Sort of an equivalent ."
+                },
+                {
+                    "turn_index": 448,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "but with the mel cepstral features ."
+                },
+                {
+                    "turn_index": 553,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Yeah , maybe just be different kind of distributions"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about voice-unvoice detection",
+            "oracle_info": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "voice , unvoice , and silence ,"
+                },
+                {
+                    "turn_index": 17,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "And I put together the fifteen features and the three MLP output ."
+                },
+                {
+                    "turn_index": 60,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah , yeah ."
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "But it {disfmarker} it could be something else ."
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "Then in that case , if you have two nets ,"
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "Alright , and this one has three outputs , and this one has f"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "That wasn't what I was saying"
+                },
+                {
+                    "turn_index": 112,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Mmm , one day or less ."
+                },
+                {
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Silence will be better but more or less the same ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about improving voice-unvoice detection?",
+            "oracle_info": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "I 'm saying that 's what people us typically use ."
+                },
+                {
+                    "turn_index": 59,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "or i i you know you 'd have some other energy measure"
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "But it {disfmarker} it could be something else ."
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "And something different in some fundamental way ."
+                },
+                {
+                    "turn_index": 88,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "You have the log magnitude spectrum , and you were looking at that and the difference between the filter bank and {disfmarker} and c c computing the variance ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD D think about voice-unvoice detection?",
+            "oracle_info": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And the other three features are R , the variance of the difference between the two spectrum ,"
+                },
+                {
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "the first coefficient of the auto - correlation function ."
+                },
+                {
+                    "turn_index": 37,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "R correlations ."
+                },
+                {
+                    "turn_index": 39,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "R c No ."
+                },
+                {
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yes , yes , the variance of the auto - correlation function that uses that"
+                },
+                {
+                    "turn_index": 66,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's not quite better ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on support vector machines to map MFCC to phonological features",
+            "oracle_info": [
+                {
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Um . So , support vector machines are {disfmarker} are good with dealing with a less amount of data"
+                },
+                {
+                    "turn_index": 307,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "and then it finds the optimal separating plane , um between these two different um classes ,"
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "That 's another way of doing it ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "So rather than doing nearest neighbor where you compare to every single one , you just pick a few critical ones ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about support vector machines for speech recognition?",
+            "oracle_info": [
+                {
+                    "turn_index": 343,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Cuz actually Mississippi State people did use support vector machines for uh uh speech recognition and they were using it to estimate probabilities ."
+                },
+                {
+                    "turn_index": 355,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "so {disfmarker} {vocalsound} so the {disfmarker} you know , the numbers were not incredibly good"
+                },
+                {
+                    "turn_index": 357,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "but there 's you know , it was th reasonable ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad A explain about his vectors for his support vector machine?",
+            "oracle_info": [
+                {
+                    "turn_index": 389,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "f so for every phone there is {disfmarker} there is a um {disfmarker} a vector of ones and zeros {vocalsound} f uh corresponding to whether it exhibits a particular phonological feature or not ."
+                },
+                {
+                    "turn_index": 393,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "um to come up with a mapping from um MFCC 's or s some feature set , {vocalsound} um to {vocalsound} uh w to whether there 's existence of a particular phonological feature ."
+                },
+                {
+                    "turn_index": 401,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I 'm not {disfmarker} I 'm not planning to do any {disfmarker} any phoneme mapping yet ."
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "and this i their {disfmarker} their idea was to first find {vocalsound} a mapping from MFCC 's to {vocalsound} uh phonological features"
+                }
+            ]
+        }
+    ]
+}

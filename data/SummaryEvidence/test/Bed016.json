@@ -1,0 +1,1528 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The meeting was taken up by discussion about a thesis proposal and a talk about to take place at EML.",
+            "The latter will present the work that is currently being done at ICSI including examples of inference of user intentions and of the recordings of the on-going data collection.",
+            "The talk will also outline the theoretical (X-schemas, image schemas, Bayes-nets) and neural background.",
+            "The thesis proposal, on the other hand, presents the idea of \"construal\" and makes claims as to how inferences are drawn in a probabilistic relational model by using information from the ontology, situation, user and discourse models.",
+            "It was advised that more emphasis should be put on the role of construal in the understanding of metaphor and metonymy.",
+            "Base constructions deal with the norm, while further general domain mechanisms determine how the constructions are invoked depending on the context.",
+            "Several potential examples of polysemy were discussed in detail: \"walk/run into\", \"on the bus\", \"out of film\", \"where is X?\".",
+            "However, none of them was an example of lexical polysemy resolved by construal straightforward enough to include in the proposal; the tourist domain is not metaphor rich.",
+            "As the talk at EML will also refer to a theoretical framework, it was suggested that along with presenting NTL and the piece on mirror neurons, it also alludes to relevant fMRI work.",
+            "The neural side of the research could be of interest to various groups.",
+            "The language analysis itself will be introduced in terms of image schemas.",
+            "On the other hand, it was arranged for more feedback on the thesis proposal to be sent by email.",
+            "The latest version of the construction formalism will also be needed to complete the presentation.",
+            "It was noted that the thesis proposal did not put any emphasis on metaphor or on the scalability achieved by combining constructions with general construal mechanisms: constructions cover base cases, while metaphoric and metonymic cases are resolved with the extra help provided by construal.",
+            "During this discussion, however, the suggested examples of polysemy, which is tackled by the proposed framework, were not straightforward enough.",
+            "It was agreed that metaphors are not abundant in the spatial domain.",
+            "Some of the candidates discussed were phrases like \"on the bus\", \"out of film\", non-spatial uses of \"where\" or other fixed expressions.",
+            "The thesis proposal focuses on how construal works in the tourist domain.",
+            "One can build a probabilistic relational model with domain general rules that define how ontology, situation, user and discourse models combine to infer intentions.",
+            "The talk for EML includes a presentation of the motivation behind the project, as well as the work already done on SmartKom (parser, generator, synthesis).",
+            "Furthermore, the data collection currently taking place and some preliminary observations are going to be outlined.",
+            "All this is going to be given from the perspective of the general theoretical framework, NTL, with further explanations on X-schemas and also the embodied simulation approach."
+        ],
+        "answer_sentence_index": [
+            "Bed016.s.1",
+            "Bed016.s.2",
+            "Bed016.s.3",
+            "Bed016.s.4",
+            "Bed016.s.5",
+            "Bed016.s.6",
+            "Bed016.s.7",
+            "Bed016.s.8",
+            "Bed016.s.9",
+            "Bed016.s.10",
+            "Bed016.s.11",
+            "Bed016.s.12",
+            "Bed016.s.13",
+            "Bed016.s.14",
+            "Bed016.s.15",
+            "Bed016.s.16",
+            "Bed016.s.17",
+            "Bed016.s.18",
+            "Bed016.s.19",
+            "Bed016.s.20",
+            "Bed016.s.21",
+            "Bed016.s.22"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 159,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Then I 'm also going to present a little talk at EML , about what we have done here"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 159,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "of course , I 'm {disfmarker} I 'm gonna start out with this slide ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 159,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "so the most relevant aspects of our stay here ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 159,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "then I 'm asking them to imagine that they 're standing somewhere in Heidelberg"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 159,
+                    "sent_index": 7,
+                    "speaker": "Grad C",
+                    "content": "and someone asks them in the morning {disfmarker} The Cave Forty - Five is a {disfmarker} is a well - known discotheque"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 11,
+                    "speaker": "Professor E",
+                    "content": "let 's talk about your thesis proposal ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 293,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "You might want to , uh , double - check the spellings of the authors ' names on your references ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 293,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "you had a few , uh , misspells in your slides , there ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 293,
+                    "sent_index": 2,
+                    "speaker": "Grad F",
+                    "content": "Like I believe you had \" Jackendorf \" ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 159,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Then I 'm also going to present a little talk at EML , about what we have done here"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Then I 'm going to talk about the data ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 175,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "you know these things about {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "uh , actually I have an example ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But they 're {disfmarker} they 're mimicking the synthesis when they speak to the computer ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 187,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "they 're trying to match their prosody onto the machine ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "and then maybe talk about the big picture here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 14,
+                    "speaker": "Grad C",
+                    "content": "e tell a little bit {disfmarker} as much as I {pause} can about the NTL story ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "So X - schemas , then , I would like to do {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "talk about the construction aspect"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "and then at the end about our Bayes - net ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It basically says , well \" this is construal \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and then it continues to say that one could potentially build a probabilistic relational model that has some general , domain - general rules"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "how things are construed ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "and then the idea is to use ontology , situation , user , and discourse model to instantiate elements in the classes of the probabilistic relational model {pause} to do some inferences in terms of what is being construed as what"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "that if you introduce a new construction at {disfmarker} at the base level , it should com uh , interact with all the metonymies and metaphors"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 324,
+                    "sent_index": 7,
+                    "speaker": "Professor E",
+                    "content": "so that all of the projections of it also should work ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 312,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "about {disfmarker} we talked about is the , um , scalability that you get by , um , combining the constructions with the general construal mechanism ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "which is , that , the constructions , that , uh , Nancy and Keith and friends are doing , uh , are , in a way , quite general"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "but cover only base cases ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "And to make them apply to metaphorical cases and metonymic cases and all those things , requires this additional mechanism , of construal ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 338,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I mean , it seems like nothing is context - free ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 340,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But \" walked into the cafe and ordered a drink , \" and \" walked into the cafe and broke his nose , \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 341,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Oh , it doesn't mean that they 're unambiguous ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 343,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "I mean , a cafe can be construed as a container , or it can be construed you know as {disfmarker} as a obstacle ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 345,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "or as some physical object ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 345,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "So there are multiple construals ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 360,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "The \" walk into it \" never really means , w as in walked smack {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 361,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "But \" run into \" does ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So \" in the bus \" and \" on the bus , \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 414,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "um , that 's actually a little tricky in English"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 414,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "because to some extent they 're synonyms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 443,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "We had {disfmarker} we had {disfmarker} initially we 'd {disfmarker} started discussing the \" out of film . \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 445,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And there 's a lot of \" out of \" analysis ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 690,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean maybe the \" where is something \" question as a whole , you know , can be construed as , u i locational versus instructional request ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 697,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Oh , I thought that was {disfmarker} definitely treated as an example of construal ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 670,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Metonymy , polysemy ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "I love Van Gogh ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 673,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "\" I wanna go see the Van Gogh . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 677,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But I think the argument should be {disfmarker} uh , can be made that , you know , despite the fact that this is not the most met metaphorical domain ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 677,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "because people interacting with HTI systems try to be straightforward and less lyrical ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 679,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "construal still is , uh , you know , completely , um , key in terms of finding out any of these things ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "and then maybe talk about the big picture here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 14,
+                    "speaker": "Grad C",
+                    "content": "e tell a little bit {disfmarker} as much as I {pause} can about the NTL story ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 203,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Anything I forgot that we should mention ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Oh , maybe the FMRI stuff ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 203,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Should I mention the fact that , um , we 're also actually started {disfmarker} going to start to look at people 's brains in a more direct way ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Well , the time to mention it , if you mention it , is when you talk about mirror neurons ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 203,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "Oh , maybe the FMRI stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 203,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Should I mention the fact that , um , we 're also actually started {disfmarker} going to start to look at people 's brains in a more direct way ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Well , the time to mention it , if you mention it , is when you talk about mirror neurons ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "then you should talk about the more recent stuff , about the kicking"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 6,
+                    "speaker": "Professor E",
+                    "content": "the b the combination of the biology and the Leipzig connection might be interesting to these guys ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 224,
+                    "sent_index": 5,
+                    "speaker": "Professor E",
+                    "content": "there {disfmarker} the {disfmarker} there {disfmarker} we 've got various i generations of slides that show language analysis , and matching to the underlying image schemas ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 719,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "OK . So why don't we plan to give you feedback electronically ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 129,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "um , if you would have checked your email you may have received a note from Yees asking you to send me the , uh , up - to - d"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 131,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "current formalism thing that you presented ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 11,
+                    "speaker": "Professor E",
+                    "content": "let 's talk about your thesis proposal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "i i it looks like the , uh , metaphor didn't get in yet ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 312,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "and I don't think it 's there yet ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 312,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "about {disfmarker} we talked about is the , um , scalability that you get by , um , combining the constructions with the general construal mechanism ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 312,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "Is that in there ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 315,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Um , but I {disfmarker} I did not focus on that aspect"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 324,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Cuz let me tell the gang what I think the punch line is ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "which is , that , the constructions , that , uh , Nancy and Keith and friends are doing , uh , are , in a way , quite general"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "but cover only base cases ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 324,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "And to make them apply to metaphorical cases and metonymic cases and all those things , requires this additional mechanism , of construal ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 655,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "I mean , there 's tons of cases for polysemy ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 658,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So , you know , mak re making reference to buildings as institutions , as containers , as build"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 660,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Um , so ib in mus for example , in museums , you know , as a building or as something where pictures hang versus , you know , ev something that puts on exhibits ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 669,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "The castle {disfmarker} the {disfmarker} that old castle one is sort of {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 670,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Metonymy , polysemy ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 671,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "I love Van Gogh ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 673,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "\" I wanna go see the Van Gogh . \""
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 677,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But I think the argument should be {disfmarker} uh , can be made that , you know , despite the fact that this is not the most met metaphorical domain ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 677,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "because people interacting with HTI systems try to be straightforward and less lyrical ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 677,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "But I think the argument should be {disfmarker} uh , can be made that , you know , despite the fact that this is not the most met metaphorical domain ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 680,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "that it {disfmarker} in this domain you 're gonna get less metaphor and more metonymy ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 708,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "just in the spatial domain are rare ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 411,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and then we {disfmarker} we may get the same constructions with a metaphorical use that 's also relevant to the {disfmarker} to the domain ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 412,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "OK , f let 's {disfmarker} let 's suppose you use \" in \" and \" on \" ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 412,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "I mean , that 's what you started with ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "So \" in the bus \" and \" on the bus , \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 443,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "We had {disfmarker} we had {disfmarker} initially we 'd {disfmarker} started discussing the \" out of film . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 598,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "OK . Can we think of a nice metaphorical use of \" where \" in the tourist 's domain ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 648,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "A fixed expression , yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It basically says , well \" this is construal \" ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and then it continues to say that one could potentially build a probabilistic relational model that has some general , domain - general rules"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "how things are construed ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 102,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "in our beloved tourism domain ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "It basically says , well \" this is construal \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "and then it continues to say that one could potentially build a probabilistic relational model that has some general , domain - general rules"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 100,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "how things are construed ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 100,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "and then the idea is to use ontology , situation , user , and discourse model to instantiate elements in the classes of the probabilistic relational model {pause} to do some inferences in terms of what is being construed as what"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 159,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "Then I 'm also going to present a little talk at EML , about what we have done here"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 161,
+                    "sent_index": 9,
+                    "speaker": "Grad C",
+                    "content": "That 's sort of motivating it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 161,
+                    "sent_index": 10,
+                    "speaker": "Grad C",
+                    "content": "Then what have we done so far ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 161,
+                    "sent_index": 11,
+                    "speaker": "Grad C",
+                    "content": "We had our little bit of , um , um , SmartKom stuff , that we did ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 162,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Oh , you 've got the parser done ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 167,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "the generation outputter ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "And , um , and Fey is doing the synthesis stuff as we speak ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 175,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Then I 'm going to talk about the data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "and some preliminary observations ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "and then maybe talk about the big picture here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 14,
+                    "speaker": "Grad C",
+                    "content": "e tell a little bit {disfmarker} as much as I {pause} can about the NTL story ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 18,
+                    "speaker": "Grad C",
+                    "content": "and then , {vocalsound} talk a bit about the embodied and simulation approach favored here"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 24,
+                    "speaker": "Grad C",
+                    "content": "and then I stole an X - schema from one of your talks I think ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 194,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "I was like , \" where 'd you get that ? \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "So X - schemas , then , I would like to do {disfmarker}"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting was taken up by discussion about a thesis proposal and a talk about to take place at EML.",
+                    "It was advised that more emphasis should be put on the role of construal in the understanding of metaphor and metonymy.",
+                    "Base constructions deal with the norm, while further general domain mechanisms determine how the constructions are invoked depending on the context.",
+                    "Several potential examples of polysemy were discussed in detail: \"walk/run into\", \"on the bus\", \"out of film\", \"where is X?\".",
+                    "However, none of them was an example of lexical polysemy resolved by construal straightforward enough to include in the proposal; the tourist domain is not metaphor rich."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 159,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Then I 'm also going to present a little talk at EML , about what we have done here"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 159,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "of course , I 'm {disfmarker} I 'm gonna start out with this slide ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 159,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "so the most relevant aspects of our stay here ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 159,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "then I 'm asking them to imagine that they 're standing somewhere in Heidelberg"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 159,
+                            "sent_index": 7,
+                            "speaker": "Grad C",
+                            "content": "and someone asks them in the morning {disfmarker} The Cave Forty - Five is a {disfmarker} is a well - known discotheque"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 290,
+                            "sent_index": 11,
+                            "speaker": "Professor E",
+                            "content": "let 's talk about your thesis proposal ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 293,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "You might want to , uh , double - check the spellings of the authors ' names on your references ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 293,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "you had a few , uh , misspells in your slides , there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 293,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "Like I believe you had \" Jackendorf \" ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 6,
+                            "speaker": "Professor E",
+                            "content": "that if you introduce a new construction at {disfmarker} at the base level , it should com uh , interact with all the metonymies and metaphors"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 324,
+                            "sent_index": 7,
+                            "speaker": "Professor E",
+                            "content": "so that all of the projections of it also should work ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 312,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "about {disfmarker} we talked about is the , um , scalability that you get by , um , combining the constructions with the general construal mechanism ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "which is , that , the constructions , that , uh , Nancy and Keith and friends are doing , uh , are , in a way , quite general"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 3,
+                            "speaker": "Professor E",
+                            "content": "but cover only base cases ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 4,
+                            "speaker": "Professor E",
+                            "content": "And to make them apply to metaphorical cases and metonymic cases and all those things , requires this additional mechanism , of construal ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 338,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "I mean , it seems like nothing is context - free ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 340,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "But \" walked into the cafe and ordered a drink , \" and \" walked into the cafe and broke his nose , \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 341,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Oh , it doesn't mean that they 're unambiguous ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 343,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "I mean , a cafe can be construed as a container , or it can be construed you know as {disfmarker} as a obstacle ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 345,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "or as some physical object ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 345,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "So there are multiple construals ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 360,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "The \" walk into it \" never really means , w as in walked smack {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "But \" run into \" does ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 414,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "So \" in the bus \" and \" on the bus , \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 414,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "um , that 's actually a little tricky in English"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 414,
+                            "sent_index": 2,
+                            "speaker": "Professor E",
+                            "content": "because to some extent they 're synonyms ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 443,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "We had {disfmarker} we had {disfmarker} initially we 'd {disfmarker} started discussing the \" out of film . \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 445,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And there 's a lot of \" out of \" analysis ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 690,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "I mean maybe the \" where is something \" question as a whole , you know , can be construed as , u i locational versus instructional request ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 697,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Oh , I thought that was {disfmarker} definitely treated as an example of construal ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 670,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Metonymy , polysemy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 671,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "I love Van Gogh ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 673,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "\" I wanna go see the Van Gogh . \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 677,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "But I think the argument should be {disfmarker} uh , can be made that , you know , despite the fact that this is not the most met metaphorical domain ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 677,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "because people interacting with HTI systems try to be straightforward and less lyrical ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 679,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "construal still is , uh , you know , completely , um , key in terms of finding out any of these things ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What\u2019s the thesis about?",
+                "tokenized_answer": [
+                    "The thesis proposal presents the idea of \"construal\" and makes claims as to how inferences are drawn in a probabilistic relational model by using information from the ontology, situation, user and discourse models.",
+                    "It was advised that more emphasis should be put on the role of construal in the understanding of metaphor and metonymy."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "It basically says , well \" this is construal \" ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "and then it continues to say that one could potentially build a probabilistic relational model that has some general , domain - general rules"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "how things are construed ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 100,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "and then the idea is to use ontology , situation , user , and discourse model to instantiate elements in the classes of the probabilistic relational model {pause} to do some inferences in terms of what is being construed as what"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 324,
+                            "sent_index": 6,
+                            "speaker": "Professor E",
+                            "content": "that if you introduce a new construction at {disfmarker} at the base level , it should com uh , interact with all the metonymies and metaphors"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 324,
+                            "sent_index": 7,
+                            "speaker": "Professor E",
+                            "content": "so that all of the projections of it also should work ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about EML talk?",
+                "tokenized_answer": [
+                    "The talk will present the work that is currently being done at ICSI including examples of inference of user intentions and of the recordings of the on-going data collection.",
+                    "The talk will also outline the theoretical (X-schemas, image schemas, Bayes-nets) and neural background."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 159,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Then I 'm also going to present a little talk at EML , about what we have done here"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "Then I 'm going to talk about the data ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 175,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "you know these things about {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 175,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "uh , actually I have an example ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "But they 're {disfmarker} they 're mimicking the synthesis when they speak to the computer ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 187,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "they 're trying to match their prosody onto the machine ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 13,
+                            "speaker": "Grad C",
+                            "content": "and then maybe talk about the big picture here ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 14,
+                            "speaker": "Grad C",
+                            "content": "e tell a little bit {disfmarker} as much as I {pause} can about the NTL story ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "So X - schemas , then , I would like to do {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "talk about the construction aspect"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "and then at the end about our Bayes - net ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about the talk and neurons?",
+                "tokenized_answer": [
+                    "As the talk at EML will also refer to a theoretical framework, it was suggested that along with presenting NTL and the piece on mirror neurons, it also alludes to relevant fMRI work.",
+                    "The neural side of the research could be of interest to various groups.",
+                    "The language analysis itself will be introduced in terms of image schemas.",
+                    "On the other hand, it was arranged for more feedback on the thesis proposal to be sent by email.",
+                    "The latest version of the construction formalism will also be needed to complete the presentation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 13,
+                            "speaker": "Grad C",
+                            "content": "and then maybe talk about the big picture here ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 14,
+                            "speaker": "Grad C",
+                            "content": "e tell a little bit {disfmarker} as much as I {pause} can about the NTL story ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 203,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Anything I forgot that we should mention ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 203,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "Oh , maybe the FMRI stuff ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 203,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "Should I mention the fact that , um , we 're also actually started {disfmarker} going to start to look at people 's brains in a more direct way ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Well , the time to mention it , if you mention it , is when you talk about mirror neurons ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 203,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "Oh , maybe the FMRI stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 203,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "Should I mention the fact that , um , we 're also actually started {disfmarker} going to start to look at people 's brains in a more direct way ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 0,
+                            "speaker": "Professor E",
+                            "content": "Well , the time to mention it , if you mention it , is when you talk about mirror neurons ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "then you should talk about the more recent stuff , about the kicking"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 290,
+                            "sent_index": 6,
+                            "speaker": "Professor E",
+                            "content": "the b the combination of the biology and the Leipzig connection might be interesting to these guys ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 224,
+                            "sent_index": 5,
+                            "speaker": "Professor E",
+                            "content": "there {disfmarker} the {disfmarker} there {disfmarker} we 've got various i generations of slides that show language analysis , and matching to the underlying image schemas ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 719,
+                            "sent_index": 1,
+                            "speaker": "Professor E",
+                            "content": "OK . So why don't we plan to give you feedback electronically ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 129,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "um , if you would have checked your email you may have received a note from Yees asking you to send me the , uh , up - to - d"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 131,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "current formalism thing that you presented ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

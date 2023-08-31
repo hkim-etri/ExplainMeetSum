@@ -1,0 +1,1494 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "A detailed diagram of the belief-net had already been disseminated.",
+            "Its structure was discussed during the meeting.",
+            "There are several endpoints (User, Ontology, Discourse etc) with separate EVA (Enter/View/Approach) values.",
+            "Details of how different inputs feed into them were discussed at length.",
+            "Ideas mentioned included grouping features of buildings like \"selling\", \"fixing\" and \"exhibiting\", as well as creating a User-compatibility node that would take different values depending on the situation and the user status.",
+            "Similarly, a Go-there (towards a building) node can be influenced by things like the user's budget and discourse parameters amongst other things.",
+            "The latter are still ill-defined at this stage.",
+            "The study of the linguistic constructions that people use in this kind of navigational domain is expected to be prove useful in that respect.",
+            "As each node in the tree is the decision point of the combination of its parent nodes, which rules govern this combination is an important issue.",
+            "There are several approaches ranging from simply averaging the inputs to using a hidden variable in order to weight them differently depending on context.",
+            "If the latter architecture is used, the net could -to an extent- be trained with the data that is currently being collected.",
+            "Although this was mainly a brainstorming meeting, some minor tasks were allocated for the near future.",
+            "Since the net architecture and possible decision algorithms were discussed, it is necessary to examine how much of this JavaBayes can accommodate and, if not, what modifications would be necessary.",
+            "Additionally, the german partners visiting the institute will need to see some results of the new system design.",
+            "Finally, the analysis of the linguistic constructions for the current research domain can begin even with limited data, as, at this stage, they need not be very detailed.",
+            "The is only a diagrammatic view of how the decision tree for the EVA task looks like.",
+            "A lot of the details have been glossed over: the user model can potentially comprise a huge number of factors; a planning \"go-there\" node needs input from several other areas of the net; there are intricate interactions between discourse and the situation model.",
+            "Similarly, what discourse properties are of importance and how they influence EVA probabilities is still a mystery.",
+            "On a more general note, there is also the question of whether the net should be updated continuously or only when it is needed.",
+            "No final decision was taken as to the rules of computation applying in the belief-net.",
+            "The more interesting solutions would ideally require training data, and it is still debatable whether the current collection would be appropriate for this particular task.",
+            "In any case, how different architectures can be implemented in JavaBayes and what modifications would be necessary for the purposes of this project also need to be investigated.",
+            "A simulator of the set of influence links forming the belief-net was created and put up for discussion.",
+            "Different sections of the analysis, such as the user model, the ontology and the discourse are represented as a layer of nodes each with its own EVA probabilities.",
+            "They form endpoints to which other nodes like Go-there, User_Budget, User_Thrift and Prosody feed into.",
+            "The second presentation concerned the set of computational rules that are to be used with the net.",
+            "The simple way to decide on the final output is the majority vote (which E, V or A form the majority of the parent nodes' outputs).",
+            "This assumes that all inputs are of equal importance.",
+            "Alternatively, each input can be weighted in a fixed way.",
+            "A third option is to create a hidden variable that makes the decision of which of the inputs is more trusted in a particular situation.",
+            "The same variable can potentially also change the weighting of each input."
+        ],
+        "answer_sentence_index": [
+            "Bed008.s.1",
+            "Bed008.s.2",
+            "Bed008.s.3",
+            "Bed008.s.4",
+            "Bed008.s.5",
+            "Bed008.s.6",
+            "Bed008.s.7",
+            "Bed008.s.8",
+            "Bed008.s.9",
+            "Bed008.s.10",
+            "Bed008.s.11",
+            "Bed008.s.12",
+            "Bed008.s.13",
+            "Bed008.s.14",
+            "Bed008.s.15",
+            "Bed008.s.16",
+            "Bed008.s.17",
+            "Bed008.s.18",
+            "Bed008.s.19",
+            "Bed008.s.20",
+            "Bed008.s.21",
+            "Bed008.s.22",
+            "Bed008.s.23",
+            "Bed008.s.24",
+            "Bed008.s.25",
+            "Bed008.s.26",
+            "Bed008.s.27",
+            "Bed008.s.28",
+            "Bed008.s.29",
+            "Bed008.s.30",
+            "Bed008.s.31"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "OK so let 's start with the uh belief - nets , the general influence stuff"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 667,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "anyway so uh it clear that even with this if we put in all the arrows nobody is gonna be able to read the diagram ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "one of which is just lay out the influence structure of what we think influences what"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 153,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "the way we had been designing this , there were three intermediate nodes"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 153,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh which were the endpoint decision as seen from the uh user model as seen from the ontology and as seen from the discourse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 162,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So that 's w w in our uh in {disfmarker} in Johno 's sort of pictogram everything that could contribute to whether a person wants to enter , view , or approach something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 458,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 'll have the EVA values"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 550,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "where um go there from the user and go there from the situation just sort of don't know about each other but they both feed the go there decision"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 642,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "like for example consider endpoint view , it has inputs coming from user budget , user thrift"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 191,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So that there 'd be certain properties that would fit into the decision node"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so the idea would be that you might wanna merge those three"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 273,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "it can either em do s do sell things , fix things , service things , exhibit things , it can be a landmark at the same time as doing these things ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Then we can make a user state ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 401,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "What 's th what we 're talking about is compatibility ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Sure , but other {disfmarker} I thought though the node we 're creating right now is user compatibility to the current action ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 449,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we have the user model , the situation model here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well i i it can have di various values ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 34,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "you could have all those values for Go - there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 444,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 642,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "like for example consider endpoint view , it has inputs coming from user budget , user thrift"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 442,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "I guess we 're gonna wind up pulling out uh discourse properties like we have object properties"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 442,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and we don't know what they are yet ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 579,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "as we s e sort of going to this detail indeed Keith is going to {disfmarker} to worry about the various constructions that people might use"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So um recall the basic problem which is that um you have a belief - net and you have like a lot of different nodes all contributing to one node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 681,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "All of their outputs combined to make a decision ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 683,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So the problem is to specify the uh so the conditional property of this given all those ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 683,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "like each node given its parents ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So those are the two things that we uh need ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "and we just take the uh we essentially take um averages ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 711,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Sure , so we don't wanna like give them all equal weight"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 15,
+                    "speaker": "Grad D",
+                    "content": "This is a hidden variable ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 730,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So {disfmarker} so the function of the thing that comes out of H is very different from the function of the other inputs ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 745,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "OK , so they {disfmarker} they could either be hand coded or learned or"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Based on training data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 750,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Well I mean we need data with people intentions ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 768,
+                    "sent_index": 20,
+                    "speaker": "Grad A",
+                    "content": "fifty constructions or whatever"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Yeah , I {disfmarker} I mean , it might soon , if this is gonna be used in a serious way like java base then it might soon be necessary to uh start modifying it for our purposes ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 153,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "the way we had it designed ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 768,
+                    "sent_index": 21,
+                    "speaker": "Grad A",
+                    "content": "that 's uh that 's a whole lot of constructions"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 768,
+                    "sent_index": 22,
+                    "speaker": "Grad A",
+                    "content": "and um you know , I mean one might be f fairly pleased with getting a really good analysis of five maybe ten in a summer"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 768,
+                    "sent_index": 29,
+                    "speaker": "Grad A",
+                    "content": "and we don't really need all the detail for what we 're doing right now"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 382,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "so basically make it more tree like going backwards ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "the other is it can be {disfmarker} it presumably can be used for multiple decisions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 630,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "EV - it 's the EVA ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "you augment these diagrams like this"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we have the user interest is a {disfmarker} is a vector of five hundred values ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "um That 's from the user model ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 444,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 449,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we have the user model , the situation model here ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 498,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Also , that node , I mean the Go - there s S node would just be fed by separate ones for"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , the idea is that you go there , you go comes from something about the user from something about the situation and the uh the discourse is {disfmarker} is a mystery ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 442,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "I guess we 're gonna wind up pulling out uh discourse properties like we have object properties"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 442,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "and we don't know what they are yet ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 536,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , the idea is that you go there , you go comes from something about the user from something about the situation and the uh the discourse is {disfmarker} is a mystery ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "so this is probability of E"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "s and then probability of A given all that is um two out of four"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "and probability of V is one out of four ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 91,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "but then the question is do you {disfmarker} do we wanna propagate beliefs every single time it 's updated or only when we need to ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "so but du we should sort of have all of the uh basic design of what influences what done before we decide exactly how to compute it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So um recall the basic problem which is that um you have a belief - net and you have like a lot of different nodes all contributing to one node ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "So as we discussed specifying this kind of thing is a big pain"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Based on training data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 750,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Um Well , I mean to learn them we need data ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 671,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Yeah , I {disfmarker} I mean , it might soon , if this is gonna be used in a serious way like java base then it might soon be necessary to uh start modifying it for our purposes ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "one of which is just lay out the influence structure of what we think influences what"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 75,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "this is actually a GUI to a simulator that will if we tell it all the right things we 'll wind up with a functioning belief - net at the other end ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 153,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh which were the endpoint decision as seen from the uh user model as seen from the ontology and as seen from the discourse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "so this is probability of E"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "s and then probability of A given all that is um two out of four"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "and probability of V is one out of four ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 153,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "the way we had been designing this , there were three intermediate nodes"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 153,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh which were the endpoint decision as seen from the uh user model as seen from the ontology and as seen from the discourse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 173,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "The prosody ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Well the Go - there , actually the Endpoint node could feed {disfmarker} feed into the Go - there S"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 642,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "like for example consider endpoint view , it has inputs coming from user budget , user thrift"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "so but du we should sort of have all of the uh basic design of what influences what done before we decide exactly how to compute it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 9,
+                    "speaker": "Grad D",
+                    "content": "These are all like saying EV or A ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 681,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "All of their outputs combined to make a decision ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 683,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "like each node given its parents ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 694,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So what uh I guess , what Jerry suggested earlier was basically that we , you know view these guys as voting"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 705,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "S so this assumes symmetry and equal weights and all this sort of things , which may or may not be a good assumption ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "So the next possibility is that um we 've given just a single weight to each expert ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "but then we had this third idea of input from the discourse ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 15,
+                    "speaker": "Grad D",
+                    "content": "This is a hidden variable ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 17,
+                    "speaker": "Grad D",
+                    "content": "and what it does is it decides which of the experts is to be trusted in this particular situation ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 739,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "or which one of the weighting systems"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 763,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "That 's on the added variable ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The group members mainly talked about the details of the belief-net framework.",
+                    "They first discussed the way to make the definition of user and situation clear and set up the standards, e.g., user thrift, based on user's budget.",
+                    "Then they turned to the discussion about endpoint decision.",
+                    "They mentioned approaches including setting features/modes of like selling, fixing and exhibiting, and this inspired the group members to design user compatibility nodes of which value would depend on the user status and situation.",
+                    "They further discussed Go-there decision, which is related to the previous idea using the similar set of the ontologies.",
+                    "Finally, they shifted the topic to different probability computation methods for belief-nets and thought of solutions to issues with limited data annotation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "OK so let 's start with the uh belief - nets , the general influence stuff"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 4,
+                            "speaker": "Grad E",
+                            "content": "so who is the user ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "Everything that has user comes from the user model"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 6,
+                            "speaker": "Grad E",
+                            "content": "everything that has situation comes from the situation model - A ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 7,
+                            "speaker": "Grad E",
+                            "content": "We should be be clear ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "User thrift ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "so what we {disfmarker} we {disfmarker} what we talked about is three separate endpoint decisions ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 130,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Well some of those are subsumed by approach ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 214,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "so the idea would be that you might wanna merge those three"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "it can either em do s do sell things , fix things , service things , exhibit things , it can be a landmark at the same time as doing these things ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 358,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "It seems like everything in a user model a affects {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 370,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "uh so if there 's some general notion of for example the uh relation to the time to do this to the amount of time the guy has or something like that is {disfmarker} is the uh compatibility with his current state ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 407,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Sure , but other {disfmarker} I thought though the node we 're creating right now is user compatibility to the current action ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "we have the user model , the situation model here ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "Much the same way as we didn't {disfmarker} we don't have the ontology here ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 13,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "so but du we should sort of have all of the uh basic design of what influences what done before we decide exactly how to compute it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "OK so let 's start with the uh belief - nets , the general influence stuff"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 27,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "we actually get just probabilities ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about value for user and situation models.",
+                "tokenized_answer": [
+                    "First, Grad E proposed a question about better discriminating the definition of user and situation models, and it was necessary to set values for the models.",
+                    "Then, they discussed the issues in terms of the user's running budget, which was vital for the outcome of decisions.",
+                    "They tried to design a set of terms to describe the user's financial policy, such as thrift, average, spendy, or more finer scale ones."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 4,
+                            "speaker": "Grad E",
+                            "content": "so who is the user ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "Everything that has user comes from the user model"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 6,
+                            "speaker": "Grad E",
+                            "content": "everything that has situation comes from the situation model - A ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 7,
+                            "speaker": "Grad E",
+                            "content": "We should be be clear ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 11,
+                            "speaker": "Grad E",
+                            "content": "You sort of have to a write the values this can take ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 47,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "for example if it 's a running budget so what are the discrete values of a running budget ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Um the finance is sort of here thought of as {disfmarker} as the financial policy a person carries out in his life ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 79,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "OK , I can think of uh people being cheap , average , or spendy or we can even have a {disfmarker} a finer scale moderately cheap ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the group members think of the value of user budget when discussing value for user and situation models?",
+                "tokenized_answer": [
+                    "The reason why they mentioned user budget was that they wanted to take this example to further discuss the value for user model.",
+                    "Also, user budget was an important factor for the outcomes of decisions.",
+                    "Then, they tried to decide which set of words could represent the budget better.",
+                    "Finally, they found that the words that could describe financial policy of users, such as user thrift, was appropriate."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 5,
+                            "speaker": "Grad E",
+                            "content": "Everything that has user comes from the user model"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 45,
+                            "sent_index": 11,
+                            "speaker": "Grad E",
+                            "content": "You sort of have to a write the values this can take ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 79,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "OK , I can think of uh people being cheap , average , or spendy or we can even have a {disfmarker} a finer scale moderately cheap ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 81,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "but here um I wasn't sure what to write in ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Um the finance is sort of here thought of as {disfmarker} as the financial policy a person carries out in his life ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "User thrift ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 69,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Thrift , that 's good ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about Go-there decision.",
+                "tokenized_answer": [
+                    "Grad E proposed the idea that Go-there decision was also worth thinking about.",
+                    "Professor B suggested that the decision could stick to the discourse properties as a placeholder.",
+                    "With regard to the lack of ontologies, Professor B thought that it could use the same properties like exhibiting and selling.",
+                    "Grad E doubted the choice of binary EVA values, but Professor B insisted that it was still necessary to make this choice.",
+                    "Then the group members discussed the layout of belief-nets, for example, the connection between Go-there nodes and other ones such as endpoints.",
+                    "And Professor B reminded me that the belief-nets should not have loops."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "go there or not I think is a good one ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "and I guess why don't we just stick a discourse thing up there to be as a placeholder for"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "Much the same way as we didn't {disfmarker} we don't have the ontology here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 450,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well the ontology we sort of said we would pull these various kinds of properties from the ontology like exhibiting , selling , and so forth ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 458,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "It 'll have the EVA values"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 460,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "For Go - there , probably is true and false , let 's say ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 470,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , but that doesn't change the fact that you 're {disfmarker} you want these two values ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 504,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Yeah . So {disfmarker} so now the other thing that Bhaskara eh pointed out is what this says is that uh there sh should be a link ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 511,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Maybe we could um have intermediate node that just the Endpoint and the Go - there S node sort of fed into ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 514,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Well the Go - there , actually the Endpoint node could feed {disfmarker} feed into the Go - there S"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 520,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "and again we 'll have to do layout at some point ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 520,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Uh really important in {disfmarker} in the belief worl net world not to have loops"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad E say when discussing Go-there decision?",
+                "tokenized_answer": [
+                    "Grad E first started the topic about Go-there decision, and then proposed the question about how to represent discourse.",
+                    "Though Professor B insisted on using true-and-false values, Grad E challenged Professor B's opinion by taking examples about whether people really wanted to go some place or not when they asked how to get there."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 444,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So that {disfmarker} that the Go - there decision will have a node from uh discourse ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "we don't have the discourse model here yet ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 460,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "For Go - there , probably is true and false , let 's say ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 461,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "so people say how do I get to the castle"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 461,
+                            "sent_index": 3,
+                            "speaker": "Grad E",
+                            "content": "and this usually means they wanna go there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "however people also sometimes say how do I get there"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "without wanting to go there ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about probability computation.",
+                "tokenized_answer": [
+                    "Professor B first emphasized the necessity of combining influences mathematically and asked Grad D to further explain the potential solutions.",
+                    "Then the students discussed the computation methods including weighted combination and mixture of experts, based on the mechanism of belief-nets.",
+                    "But there was no consensus on which method should be applied in belief-nets."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 669,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "we have two first - order considerations"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 669,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "which is what are the uh influences A ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 669,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "and B how do they get combined mathematically ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 672,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "OK , so why don't you tell us a little bit about decision nodes and what {disfmarker} what the choices might be for these ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 678,
+                            "sent_index": 13,
+                            "speaker": "Grad D",
+                            "content": "we wanna view each of these as experts"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 678,
+                            "sent_index": 16,
+                            "speaker": "Grad D",
+                            "content": "and create you know , um sorta weighted combination ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 683,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "That 's the way belief - nets are defined ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 9,
+                            "speaker": "Grad D",
+                            "content": "So the way this is handled is by what 's called a mixture of experts ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 683,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "That 's the way belief - nets are defined ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad D say about mixture of experts when discussing probability computation?",
+                "tokenized_answer": [
+                    "Grad D first said that different experts were reliable in different situations and it was necessary to organically combine them to make the network adapt to diverse situations.",
+                    "The network could be divided into several parts and the network would decide which of the experts would be trusted in this particular situation.",
+                    "Grad D then answered other group members' questions about the layout of mixture of expert models and their detailed computation process."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 8,
+                            "speaker": "Grad D",
+                            "content": "whereas it might be the case that um in certain situations one of the experts is more uh reliable and in certain situations the other expert is more reliable ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 9,
+                            "speaker": "Grad D",
+                            "content": "So the way this is handled is by what 's called a mixture of experts ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 17,
+                            "speaker": "Grad D",
+                            "content": "and what it does is it decides which of the experts is to be trusted in this particular situation ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 9,
+                            "speaker": "Grad D",
+                            "content": "So the way this is handled is by what 's called a mixture of experts ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 732,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "So H passes a vector on to the next node ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 733,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "It could ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

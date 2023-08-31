@@ -1,0 +1,282 @@
+{
+    "transcripts_id": "Bro016",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 5,
+                    "sent_index": 5,
+                    "speaker": "Professor E",
+                    "content": "But my suggestion is that , uh , at least for this meeting , people should go ahead ,"
+                },
+                {
+                    "turn_index": 23,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "but to first order , I would say that the conclusion is that if you , um , do , uh , some monkeying around with , uh , the exact HTK training and @ @ {comment} with , uh , you know , how many states and so forth , that it {disfmarker} it doesn't particularly improve the performance ."
+                },
+                {
+                    "turn_index": 29,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "if you were just adjusting the back - end , how much better would you do , uh , in noise ?"
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "I think that 's , uh , @ @ {comment} that 's kind of a first - order thing that {disfmarker} that we should try ."
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so the experiment is to , um , run our front - end like normal , with the default , uh , insertion penalties and so forth ,"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "and then tweak that a little bit"
+                },
+                {
+                    "turn_index": 32,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "and see how much of a difference it makes"
+                },
+                {
+                    "turn_index": 161,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh , to try to found , nnn , robust feature for detect between voice and unvoice ."
+                },
+                {
+                    "turn_index": 161,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "And we {disfmarker} w we try to use {vocalsound} the variance {vocalsound} of the es difference between the FFT spectrum and mel filter bank spectrum ."
+                },
+                {
+                    "turn_index": 283,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Do you have something simple in mind for {disfmarker} I mean , vocal tract length normalization ?"
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "I mean , you could maybe use the ideas {disfmarker} a similar {pause} idea to what they do in vocal tract length normalization ."
+                },
+                {
+                    "turn_index": 412,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "and s I {disfmarker} I think it 's important , um , {vocalsound} to reduce this musical noise and this {disfmarker} this increase of variance during silence portions ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the tax return",
+            "oracle_info": [
+                {
+                    "turn_index": 416,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I took a lot of time just getting my taxes out of the way {disfmarker}"
+                },
+                {
+                    "turn_index": 416,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "multi - national taxes ."
+                },
+                {
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "But not for this next year ?"
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Uh , I 'll {disfmarker} I 'll still have a bit of Canadian income"
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "so I won't have to declare my American income on my Canadian return ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad D think about the tax return?",
+            "oracle_info": [
+                {
+                    "turn_index": 416,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "I took a lot of time just getting my taxes out of the way {disfmarker}"
+                },
+                {
+                    "turn_index": 416,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "So , I 'm {disfmarker} I 'm starting to write code now for my work"
+                },
+                {
+                    "turn_index": 443,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Ye"
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "but it 'll be less complicated"
+                },
+                {
+                    "turn_index": 447,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "so I won't have to declare my American income on my Canadian return ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the tax return?",
+            "oracle_info": [
+                {
+                    "turn_index": 429,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "That 's just {disfmarker} that 's {disfmarker} that 's one of the big advantages of not making much money is {vocalsound} the taxes are easier ."
+                },
+                {
+                    "turn_index": 438,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "Have to do {disfmarker} So you {disfmarker} you have to do two returns ?"
+                },
+                {
+                    "turn_index": 439,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Mmm . W uh , for two thousand I did ."
+                },
+                {
+                    "turn_index": 442,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "Probably not this next year , I guess ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about acoustic events",
+            "oracle_info": [
+                {
+                    "turn_index": 453,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "I {disfmarker} I was thinking getting {disfmarker} getting us a set of acoustic events to {disfmarker} um , to be able to distinguish between , uh , phones and words and stuff ."
+                },
+                {
+                    "turn_index": 464,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "There 's , um {disfmarker} in my mind , anyways , there 's a difference between , um , acoustic features and acoustic events ."
+                },
+                {
+                    "turn_index": 466,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Stuff that 's not based on data , necessarily ."
+                },
+                {
+                    "turn_index": 472,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Versus an acoustic event , which is just {nonvocalsound} some {nonvocalsound} something in the acoustic signal {nonvocalsound} that is fairly easy to measure ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD F think about acoustic events?",
+            "oracle_info": [
+                {
+                    "turn_index": 464,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "There 's , um {disfmarker} in my mind , anyways , there 's a difference between , um , acoustic features and acoustic events ."
+                },
+                {
+                    "turn_index": 464,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And I think of acoustic features as being , um , things that linguists talk about ,"
+                },
+                {
+                    "turn_index": 468,
+                    "sent_index": 3,
+                    "speaker": "PhD F",
+                    "content": "like , uh , its height ,"
+                },
+                {
+                    "turn_index": 472,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Versus an acoustic event , which is just {nonvocalsound} some {nonvocalsound} something in the acoustic signal {nonvocalsound} that is fairly easy to measure ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about acoustic events?",
+            "oracle_info": [
+                {
+                    "turn_index": 473,
+                    "sent_index": 0,
+                    "speaker": "Professor E",
+                    "content": "I mean , when we did the SPAM work {disfmarker} I mean , there we had {disfmarker} we had this notion of an , uh , auditory {disfmarker} @ @ {comment} auditory event ."
+                },
+                {
+                    "turn_index": 491,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "I forget if I already told you this ,"
+                },
+                {
+                    "turn_index": 491,
+                    "sent_index": 4,
+                    "speaker": "Professor E",
+                    "content": "but , a couple people who are gonna be here for six months ."
+                },
+                {
+                    "turn_index": 493,
+                    "sent_index": 1,
+                    "speaker": "Professor E",
+                    "content": "uh , there 's a Professor Kollmeier , uh , from Germany"
+                },
+                {
+                    "turn_index": 493,
+                    "sent_index": 3,
+                    "speaker": "Professor E",
+                    "content": "and , um , Michael Kleinschmidt , who 's worked with him ,"
+                },
+                {
+                    "turn_index": 495,
+                    "sent_index": 2,
+                    "speaker": "Professor E",
+                    "content": "um , I think they 'll be interesting to talk to , in this sort of issue"
+                }
+            ]
+        }
+    ]
+}

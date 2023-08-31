@@ -1,0 +1,998 @@
+{
+    "domain": "Committee",
+    "ami": {},
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The meeting was with the Special Committee on the COVID-19 Pandemic.",
+                    "First of all, petitioners presented several petitions including to call the government to implement a wage supplement.",
+                    "Later the committee expressed the thanks to different departments and people for the contribution to the society under the Covid-19 situation.",
+                    "When it came to questions, the committee discussed the financial support from the government to various industries as well as groups to ensure equal rights of different groups of people, especially the most vulnerable ones.",
+                    "Moreover, the meeting discussed the new law in Hong Kong and issues related to community services in Canada.",
+                    "In the end, the committee discussed the recent and upcoming solutions to battle the Covid-19 concerning various aspects."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 0,
+                            "sent_index": 0,
+                            "speaker": "The Chair (Hon. Anthony Rota (NipissingTimiskaming, Lib.))",
+                            "content": "I call this meeting to order."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 1,
+                            "speaker": "The Chair (Hon. Anthony Rota (NipissingTimiskaming, Lib.))",
+                            "content": "Welcome to the 13th meeting of the House of Commons Special Committee on the COVID-19 Pandemic."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 9,
+                            "sent_index": 2,
+                            "speaker": "Ms. Elizabeth May (SaanichGulf Islands, GP)",
+                            "content": "The petition I'm presenting today is petition e-2509, which has been duly certified."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 5,
+                            "speaker": "Ms. Elizabeth May (SaanichGulf Islands, GP)",
+                            "content": "The petitioners have asked the government to implement a wage supplement as a temporary measure to bring the wages for those who are in contact with the general public and working in what has been deemed an essential service to no less than $20 an hour, in light of their service and the risks they're taking for all of us."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 33,
+                            "sent_index": 9,
+                            "speaker": "Ms. Leona Alleslev (AuroraOak RidgesRichmond Hill, CPC)",
+                            "content": "My sincere thanks to everyone who's working to ease the burdens on one another during this crisis."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Mr. Jamie Schmale (HaliburtonKawartha LakesBrock, CPC)",
+                            "content": "This week is Paramedic Services Week, and I would like to take a moment to thank these men and women who work tirelessly at the best of times to protect and save lives."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 2,
+                            "speaker": "Mr. Jamie Schmale (HaliburtonKawartha LakesBrock, CPC)",
+                            "content": "Their efforts during COVID-19, like the services provided by many front-line workers in health care, such as personal support workers, doctors, nurses, janitorial and clerical staff, lab technicians and many others, have been extraordinary and truly beyond the call of duty."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 0,
+                            "speaker": "Hon. Diane Lebouthillier",
+                            "content": "Mr.Chair, I must thank the officials who have done excellent work during this historic COVID-19 period."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 59,
+                            "sent_index": 4,
+                            "speaker": "Mr. John Barlow",
+                            "content": "After 64 days, when will the credit options be available to Canada's small and medium-sized energy companies?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 60,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Chair, I agree with the member opposite about one thing: The energy sector and energy workers are absolutely essential to our economy, and we support them."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 62,
+                            "sent_index": 1,
+                            "speaker": "Mr. Alexis Brunelle-Duceppe (Lac-Saint-Jean, BQ)",
+                            "content": "Will the Liberal Party of Canada pay back the money it took from the wage subsidy program, yes or no?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 63,
+                            "sent_index": 0,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Mr.Chair, the purpose of the wage subsidy is to support workers, help them keep their jobs and keep them connected to their workplace"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 3,
+                            "speaker": "Mr. Alexis Brunelle-Duceppe",
+                            "content": "The historic village of Val-Jalbert is in the same situation."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 4,
+                            "speaker": "Mr. Alexis Brunelle-Duceppe",
+                            "content": "Does the Liberal Party of Canada consider itself to be in greater financial difficulty than the historic village of Val-Jalbert and Trillium Media?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "member opposite what we're doing to support Canadians: more than 8million Canadians have received the Canada emergency response benefit."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 2,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "In addition, 635,000businesses have received loans through the Canada emergency business account."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 70,
+                            "sent_index": 5,
+                            "speaker": "Mr. Alexis Brunelle-Duceppe",
+                            "content": "The businesses that'll have access to it won't, but the political parties will."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 70,
+                            "sent_index": 6,
+                            "speaker": "Mr. Alexis Brunelle-Duceppe",
+                            "content": "Doesn't that contravene the Canada Elections Act, yes or no?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 0,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Mr.Chair, our programs don't discriminate."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "They're there to help all workers, to help all Canadians, to help all Quebeckers."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 71,
+                            "sent_index": 3,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "member talked about companies and sectors that need more help."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 121,
+                            "sent_index": 0,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Yesterday the rubber-stamp National People's Congress passed the national security bill undermining Hong Kong's autonomy and strengthening a grip of the Communist Party of China."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 121,
+                            "sent_index": 1,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Will the Prime Minister condemn this law?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Canada, with our international partners in the U.S., Australia and the U.K., made a joint statement in which we are expressing our deep concern regarding China's imposition of a new security law for Hong Kong."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 129,
+                            "sent_index": 3,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Will this government condemn that law today?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 130,
+                            "sent_index": 0,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Canada will continue to support Hong Kong's high degree of autonomy and freedoms under the Basic Law and the one country, two systems framework."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 137,
+                            "sent_index": 2,
+                            "speaker": "Hon. Steven Blaney",
+                            "content": "Why, and how is it that there is still money to be invested in our businesses to create summer jobs?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 138,
+                            "sent_index": 2,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "We created flexibilities in Canada summer jobs so that we can assuredly fill all of these 70,000 positions."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 149,
+                            "sent_index": 5,
+                            "speaker": "Ms. Marilyn Gladu",
+                            "content": "Will the minister create exemptions to allow the reunification of these Canadians with their family?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 150,
+                            "sent_index": 3,
+                            "speaker": "Hon. Bill Blair",
+                            "content": "We've been working very hard to ensure that we have a solution for those individuals who need and want to reunite with their families."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 157,
+                            "sent_index": 3,
+                            "speaker": "Ms. Marilyn Gladu",
+                            "content": "When will we begin to process those paper tax filings so seniors can get the refunds they need?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 158,
+                            "sent_index": 0,
+                            "speaker": "Hon. Diane Lebouthillier (Minister of National Revenue)",
+                            "content": "Mr.Chair, we consider this to be a difficult situation for Canadians, and our government will do everything it can to support them."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 344,
+                            "sent_index": 4,
+                            "speaker": "Hon. Pablo Rodriguez",
+                            "content": "Of course, we are holding discussions with everyone involved."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 361,
+                            "sent_index": 0,
+                            "speaker": "Hon. Diane Lebouthillier",
+                            "content": "Mr.Chair, I must thank the officials who have done excellent work during this historic COVID-19 period."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 0,
+                            "speaker": "The Acting Chair (Mr. Bruce Stanton)",
+                            "content": "That concludes the 13thmeeting of the Special Committee on the COVID-19 Pandemic."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was stated in petition e-2509?",
+                "tokenized_answer": [
+                    "The petitioners had asked the government to implement a wage supplement as a temporary measure to bring the wages for those who were in contact with the general public and working in what had been deemed an essential service to no less than $20 an hour, in light of their service and the risks they were taking for all Canadians."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 5,
+                            "speaker": "Ms. Elizabeth May (SaanichGulf Islands, GP)",
+                            "content": "The petitioners have asked the government to implement a wage supplement as a temporary measure to bring the wages for those who are in contact with the general public and working in what has been deemed an essential service to no less than $20 an hour, in light of their service and the risks they're taking for all of us."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the difficulty faced by the tourism industry?",
+                "tokenized_answer": [
+                    "Mr. Blake Richards suggested that Tourism Week in Canada, the annual celebration was a time to recognize the contributions and experiences of Canada's tourism industry.",
+                    "The ongoing coronavirus crisis had closed provincial and international borders to recreational travel, and tourism operators from coast to coast had been among the first and hardest hit due to the government-mandated lockdowns.",
+                    "The 1.8 million Canadians whose jobs depended on a thriving tourism sector were counting on it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 0,
+                            "speaker": "Mr. Blake Richards (BanffAirdrie, CPC)",
+                            "content": "May 24 to May 31 is Tourism Week in Canada."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 1,
+                            "speaker": "Mr. Blake Richards (BanffAirdrie, CPC)",
+                            "content": "This annual celebration is a time for us to recognize the contributions and experiences of Canada's tourism industry."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 2,
+                            "speaker": "Mr. Blake Richards (BanffAirdrie, CPC)",
+                            "content": "This is a very important industry, and this year's Tourism Week is a little different from what it normally is."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 3,
+                            "speaker": "Mr. Blake Richards (BanffAirdrie, CPC)",
+                            "content": "The ongoing coronavirus crisis has closed provincial and international borders to recreational travel, and tourism operators from coast to coast have been among the first and hardest hit due to the government-mandated lockdowns."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 8,
+                            "speaker": "Mr. Blake Richards (BanffAirdrie, CPC)",
+                            "content": "The 1.8 million Canadians whose jobs depend on a thriving tourism sector are counting on it."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why were the thanks expressed to the House of Commons today from Whitehorse?",
+                "tokenized_answer": [
+                    "Hon. Larry Bagnell (Yukon, Lib.) suggested that as a great historic Canadian event last week, Yukon became home to Canada's first university north of 60.",
+                    "Yukon University would provide Yukoners with educational opportunities closer to home, expand the research capabilities and expertise on the Arctic and climate change and allow those who want to study northern and first nations governance to do so in the north."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 25,
+                            "sent_index": 1,
+                            "speaker": "Hon. Larry Bagnell (Yukon, Lib.)",
+                            "content": "Chair, it is a great honour to speak to the House of Commons today from Whitehorse, Yukon, here on the traditional territory of the Kwanlin Dn First Nation and the Ta'an Kwch'n Council."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 2,
+                            "speaker": "Hon. Larry Bagnell (Yukon, Lib.)",
+                            "content": "As a great historic Canadian event last week, Yukon became home to Canada's first university north of 60."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 3,
+                            "speaker": "Hon. Larry Bagnell (Yukon, Lib.)",
+                            "content": "Yukon University will provide Yukoners with educational opportunities closer to home, expand our research capabilities and expertise on the Arctic and climate change and allow those who want to study northern and first nations governance to do so in the north."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the reasons to thank the members of the Canadian Armed Forces?",
+                "tokenized_answer": [
+                    "Ms. Anju Dhillon would like to thank the members of the Canadian Armed Forces for their invaluable assistance in the long-term care facilities.",
+                    "Since many seniors, the most vulnerable ones desperately needed them and they had offered great assistance."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 43,
+                            "sent_index": 0,
+                            "speaker": "Ms. Anju Dhillon (DorvalLachineLaSalle, Lib.)",
+                            "content": "Mr.Chair, I'd like to thank the members of the Canadian Armed Forces from the bottom of my heart for their invaluable assistance in the long-term care facilities."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 43,
+                            "sent_index": 1,
+                            "speaker": "Ms. Anju Dhillon (DorvalLachineLaSalle, Lib.)",
+                            "content": "Their deployment came at a critical time, when many seniors desperately needed them."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Would there be more room for profit in the care of the seniors?",
+                "tokenized_answer": [
+                    "Hon. Chrystia Freeland suggested that after what it had been learned this week, all options must be on the table when it came to how care for the elders would be provided in Canada in the future.",
+                    "Currently, it is clear to all that root-and-branch reform was necessary.",
+                    "All participants would need to act with speed but not haste, and work with the provincial partners."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 84,
+                            "sent_index": 4,
+                            "speaker": "Mr. Jagmeet Singh",
+                            "content": "What is the government doing to protect seniors in the long-term care homes that they own?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Chair, I agree with the member opposite that after what we have learned this week, all options must be on the table when it comes to how care for our elders will be provided in Canada in the future."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 2,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "I think it is clear to us all that root-and-branch reform is necessary."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 3,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "We need to act with speed but not haste, and work with our provincial partners."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Where was the $75 million towards sexual exploitation and human trafficking had gone?",
+                "tokenized_answer": [
+                    "Mrs. Karen Vecchio joined critics from the NDP, the Bloc and the Green Party who delt with women's issues and gender equality to ask where the $75 million toward sexual exploitation and human trafficking had gone.",
+                    "As a result of financial shortage, last week organizations had to close their doors and the programs that helped vulnerable women and girls.",
+                    "Hon. Bill Blair (Minister of Public Safety and Emergency Preparedness) introduced that the government had launched a new, comprehensive national strategy to combat human trafficking, and had incorporated a new pillar in that strategy of empowerment to ensure that focus."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 2,
+                            "speaker": "Mrs. Karen Vecchio (ElginMiddlesexLondon, CPC)",
+                            "content": "Today I join critics from the NDP, the Bloc and the Green Party who deal with women's issues and gender equality to ask where the $75 million toward sexual exploitation and human trafficking has gone."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 3,
+                            "speaker": "Mrs. Karen Vecchio (ElginMiddlesexLondon, CPC)",
+                            "content": "Last week organizations had to close their doors and the programs that help vulnerable women and girls, so the simple question is this: Where is the money?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 96,
+                            "sent_index": 2,
+                            "speaker": "Hon. Bill Blair (Minister of Public Safety and Emergency Preparedness)",
+                            "content": "I agree that human trafficking, which is a crime of coercion and exploitation, is unacceptable, and we have to ensure that we provide the supports necessary to the victims of this crime."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 96,
+                            "sent_index": 3,
+                            "speaker": "Hon. Bill Blair (Minister of Public Safety and Emergency Preparedness)",
+                            "content": "As the member knows, we have launched a new, comprehensive national strategy to combat human trafficking, and we've incorporated a new pillar in that strategy of empowerment to ensure that the focus"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Would the Prime Minister condemn this law concerning the national security bill undermining Hong Kong's autonomy?",
+                "tokenized_answer": [
+                    "Hon. Mary Ng suggested that Canada,with our international partners in the U.S., Australia and the U.K., made a joint statement in which countries were expressing deep concern regarding China's imposition of a new security law for Hong Kong.",
+                    "Moreover, with hundreds of thousands of Canadians living in Hong Kong, the government had a vested interest in Hong Kong's stability and prosperity, the foundations of which were Hong Kong's relative autonomy and basic freedoms.",
+                    "Canada would always support and promote freedom of speech, freedom of expression and freedoms of the press around the world."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 121,
+                            "sent_index": 0,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Yesterday the rubber-stamp National People's Congress passed the national security bill undermining Hong Kong's autonomy and strengthening a grip of the Communist Party of China."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 121,
+                            "sent_index": 1,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Will the Prime Minister condemn this law?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Canada, with our international partners in the U.S., Australia and the U.K., made a joint statement in which we are expressing our deep concern regarding China's imposition of a new security law for Hong Kong."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 123,
+                            "sent_index": 2,
+                            "speaker": "Mr. David Sweet",
+                            "content": "Why is the government letting down Hong Kong?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 124,
+                            "sent_index": 1,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Chair, with hundreds of thousands of Canadians living in Hong Kong, we have a vested interest in Hong Kong's stability and prosperity, the foundations of which are Hong Kong's relative autonomy and basic freedoms."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 124,
+                            "sent_index": 2,
+                            "speaker": "Hon. Mary Ng",
+                            "content": "Canada will always support and promote freedom of speech, freedom of expression and freedoms of the press around the world."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the meeting discuss about the measures taken for the Canada summer jobs program?",
+                "tokenized_answer": [
+                    "Hon. Carla Qualtrough (Minister of Employment, Workforce Development and Disability Inclusion) said that it could be confirmed that the government would increase the wage subsidies for Canada student jobs.",
+                    "The program had added flexibilities, including the ability to have part-time work and the ability to have the jobs extended until February of next year.",
+                    "That said, the budget was not changed.",
+                    "It remains at 70,000 job placements for 70,000 students, with 100% of them being subsidized at 100%."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 132,
+                            "sent_index": 9,
+                            "speaker": "Hon. Steven Blaney (BellechasseLes EtcheminsLvis, CPC)",
+                            "content": "We thought it was to improve the program, but can the minister confirm that the budget remained the same between April7 and9?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 1,
+                            "speaker": "Hon. Carla Qualtrough (Minister of Employment, Workforce Development and Disability Inclusion)",
+                            "content": "Chair, I can confirm that we have increased the wage subsidies for Canada student jobs."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 2,
+                            "speaker": "Hon. Carla Qualtrough (Minister of Employment, Workforce Development and Disability Inclusion)",
+                            "content": "We have added flexibilities, including the ability to have part-time work and the ability to have the jobs extended until February of next year."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 3,
+                            "speaker": "Hon. Carla Qualtrough (Minister of Employment, Workforce Development and Disability Inclusion)",
+                            "content": "That said, the budget was not changed."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 4,
+                            "speaker": "Hon. Carla Qualtrough (Minister of Employment, Workforce Development and Disability Inclusion)",
+                            "content": "It remains at 70,000 job placements for 70,000 students, with 100% of them being subsidized at 100%."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Would the government enhance the Canada summer jobs program?",
+                "tokenized_answer": [
+                    "Hon. Steven Blaney questioned that the Canada emergency student benefit did not encourage young people to go to work, and employers had difficulty hiring them.",
+                    "Yet they had applied for the Canadasummer jobs program.",
+                    "Hon. Carla Qualtrough ensured the committee that the member opposite was not implying that offering young people income support that they took out of necessity would make them not want to work.",
+                    "The reason why the government was creating these additional jobs beyond the Canada summer jobs program was the young people wanted to serve the community."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 143,
+                            "sent_index": 0,
+                            "speaker": "Hon. Steven Blaney",
+                            "content": "The Canada emergency student benefit does not encourage young people to go to work, and employers have difficulty hiring them."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 143,
+                            "sent_index": 1,
+                            "speaker": "Hon. Steven Blaney",
+                            "content": "Yet they had applied for the Canada summer jobs program."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 1,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "Chair, I'm sure the member opposite is not implying that offering young people income support that they take out of necessity will make them not want to work."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 143,
+                            "sent_index": 2,
+                            "speaker": "Hon. Steven Blaney",
+                            "content": "Why not enhance the Canada summer jobs program?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 144,
+                            "sent_index": 1,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "Chair, I'm sure the member opposite is not implying that offering young people income support that they take out of necessity will make them not want to work."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 3,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "They want to serve in their communities."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 144,
+                            "sent_index": 4,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "That's why we're creating these additional jobs beyond the Canada summer jobs program."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "How did the infrastructure minister explain to give $1 million in bonuses to the CEO of the Canada Infrastructure Bank rather than to invest in roads, schools, hospitals and long-term care homes?",
+                "tokenized_answer": [
+                    "Hon. Catherine McKenna started by introducing the $33 billion infrastructure program in which the government was working directly with the Government of Quebec to build infrastructure that was making a huge difference, including projects in the member's riding.",
+                    "Moreover, the change of management at the Canada Infrastructure Bank marked a new phase in the development of the bank.",
+                    "The government was working to build a modern, public infrastructure, to create jobs, and to make Canada more competitive internationally."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 254,
+                            "sent_index": 1,
+                            "speaker": "Mr. Luc Berthold",
+                            "content": "Chair, could the infrastructure minister explain to Canadians how it is better to give $1 million in bonuses to the CEO of the Canada Infrastructure Bank than to invest in roads, schools, hospitals and long-term care homes?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 255,
+                            "sent_index": 2,
+                            "speaker": "Hon. Catherine McKenna",
+                            "content": "Perhaps he isn't aware of our $33 billion infrastructure program in which we are working directly with the Government of Quebec to build infrastructure that's making a huge difference, including projects in the member's riding."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 255,
+                            "sent_index": 3,
+                            "speaker": "Hon. Catherine McKenna",
+                            "content": "We are going to continue doing that."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 0,
+                            "speaker": "Hon. Catherine McKenna",
+                            "content": "Mr.Chair, the change of management at the Canada Infrastructure Bank marks a new phase in the development of the bank."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 257,
+                            "sent_index": 1,
+                            "speaker": "Hon. Catherine McKenna",
+                            "content": "We are working to build a modern, public infrastructure, to create jobs, and to make Canada more competitive internationally."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Would the government commit to immediately examine all the trade barriers that could affect interprovincial trade of essential goods due to COVID-19?",
+                "tokenized_answer": [
+                    "Hon. Chrystia Freeland introduced that the government was very committed to removing barriers to interprovincial trade.",
+                    "It was something that we have been working on with the premiers.",
+                    "Obviously the coronavirus has taken precedence in recent weeks, but it's a priority.",
+                    "It was the right thing to do.",
+                    "The government had been meeting every week for more than two months, to be focusing on the urgent threat posed by the coronavirus to ensure that there would be no delay."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 271,
+                            "sent_index": 3,
+                            "speaker": "Mrs. Tracy Gray (KelownaLake Country, CPC)",
+                            "content": "Will the government commit to immediately examine all our trade barriers that can affect interprovincial trade of essential goods due to COVID-19?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Our government is very committed to removing barriers to interprovincial trade."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 2,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "It's something that we have been working on with the premiers."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 3,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Obviously the coronavirus has taken precedence in recent weeks, but it's a priority."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 4,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "It's the right thing to do."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 274,
+                            "sent_index": 3,
+                            "speaker": "Mrs. Tracy Gray",
+                            "content": "What is the government doing to ensure there won't be delays on these items?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 275,
+                            "sent_index": 1,
+                            "speaker": "Hon. Chrystia Freeland",
+                            "content": "Chair, it is absolutely right and appropriate for first ministers, who have been meeting every week for more than two months, to be focusing on the urgent threat posed by the coronavirus."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What guidance would the federal government have for the employment with concerns?",
+                "tokenized_answer": [
+                    "Mr. Daniel Blaikie asked about the government's guidance towards people who felt that their workplace was not safe at this time and that their employer had not done its due diligence, and were concerned about losing access to the CERB.",
+                    "Hon.Carla Qualtrough suggested that the government were working very closely with the provinces on occupational health and safety guidelines and taking an all-of-government approach to ensure that workers were safe and that the government could support them in these efforts."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 325,
+                            "sent_index": 6,
+                            "speaker": "Mr. Daniel Blaikie (ElmwoodTranscona, NDP)",
+                            "content": "I am wondering what guidance the federal government has for people who feel that their workplace is not safe at this time and that their employer hasn't done its due diligence, and are concerned about losing access to the CERB."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 326,
+                            "sent_index": 6,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "We are taking an all-of-government approach to ensure that workers are safe, that they don't have to put their lives or the health of their families in jeopardy and that we can support them in these efforts."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 326,
+                            "sent_index": 3,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "We are working very closely with the provinces."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 326,
+                            "sent_index": 4,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "The Minister of Health is working on occupational health and safety guidelines."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 326,
+                            "sent_index": 6,
+                            "speaker": "Hon. Carla Qualtrough",
+                            "content": "We are taking an all-of-government approach to ensure that workers are safe, that they don't have to put their lives or the health of their families in jeopardy and that we can support them in these efforts."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

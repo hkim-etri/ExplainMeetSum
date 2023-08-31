@@ -1,0 +1,318 @@
+{
+    "transcripts_id": "Bro007",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 23,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "That 's it ."
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh not yet ."
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So there are some results here"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                },
+                {
+                    "turn_index": 146,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So these {disfmarker} these are word error rates"
+                },
+                {
+                    "turn_index": 157,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "what was that ?"
+                },
+                {
+                    "turn_index": 213,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But we could"
+                },
+                {
+                    "turn_index": 246,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So recognition performance is just the top part , actually ."
+                },
+                {
+                    "turn_index": 290,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Not five PM , three PM ."
+                },
+                {
+                    "turn_index": 313,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "so there 'll be no new training , there 'll just be new HTK runs ,"
+                },
+                {
+                    "turn_index": 313,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and {disfmarker} and uh maybe next meeting we can start talking a little bit about where we want to go from here uh in terms of uh the research ."
+                },
+                {
+                    "turn_index": 324,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But they 're ideas ."
+                },
+                {
+                    "turn_index": 324,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Oh , that was good ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on looking at feature streams",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Um those features go through a contextualized KLT ."
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh not yet ."
+                },
+                {
+                    "turn_index": 60,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "An"
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "but"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So there are some results here"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Too bad ."
+                },
+                {
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Except I don't know because they {disfmarker} I think they are still working well ."
+                },
+                {
+                    "turn_index": 100,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "yeah and it 's actually {vocalsound} does {disfmarker} does significantly better on the uh uh highly mismatched Italian ,"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD C think about silence detection?",
+            "oracle_info": [
+                {
+                    "turn_index": 74,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "Uh but uh actually apparently there are {disfmarker} there 's no room left for any silence detector at the server side because of the delay ."
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Too bad ."
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh t two days ago they were still working on this trying to reduce the delay of the silence detector"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "so but"
+                },
+                {
+                    "turn_index": 85,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "if we had time perhaps we could try to find uh some kind of compromise between the delay that 's on the handset and on the server side ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about the silence detection problem?",
+            "oracle_info": [
+                {
+                    "turn_index": 90,
+                    "sent_index": 9,
+                    "speaker": "Professor B",
+                    "content": "Those look pretty good ."
+                },
+                {
+                    "turn_index": 90,
+                    "sent_index": 12,
+                    "speaker": "Professor B",
+                    "content": "That 's just uh"
+                },
+                {
+                    "turn_index": 95,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "We just have the features as they are ."
+                },
+                {
+                    "turn_index": 98,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah so when we do this weighted measure we should compare the two cuz it might even come out better ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on fixing the system",
+            "oracle_info": [
+                {
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But the question is when {disfmarker} when do we fix the system ,"
+                },
+                {
+                    "turn_index": 215,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "it d"
+                },
+                {
+                    "turn_index": 235,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh not really ."
+                },
+                {
+                    "turn_index": 263,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "do we have the features ?"
+                },
+                {
+                    "turn_index": 278,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Tuesday ."
+                },
+                {
+                    "turn_index": 287,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "I didn't think it was midnight ."
+                },
+                {
+                    "turn_index": 287,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I thought they said they wanted everything by"
+                },
+                {
+                    "turn_index": 324,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But they 're ideas ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about a single KLT?",
+            "oracle_info": [
+                {
+                    "turn_index": 328,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "But"
+                },
+                {
+                    "turn_index": 338,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "removing all these KLT 's and putting one single KLT at the end ."
+                },
+                {
+                    "turn_index": 339,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , I mean that would be pretty low maintenance to try it ."
+                },
+                {
+                    "turn_index": 341,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh if you can fit it in ."
+                }
+            ]
+        },
+        {
+            "query": "What were the professor's concluding comments?",
+            "oracle_info": [
+                {
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but {vocalsound} uh {vocalsound} um Cuz our best improvements over the years that we 've gotten from finding bugs ,"
+                },
+                {
+                    "turn_index": 343,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh I don't know if we 're gonna need it uh but uh Jeff up at the uh University of Washington has uh gotten a hold of a uh uh some kind of server farm of uh of ten uh uh multiprocessor uh IBM machines RS six thousands"
+                },
+                {
+                    "turn_index": 345,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "but if we have some big jobs and we wanna {disfmarker} wanna {disfmarker} wanna run them he 's {disfmarker} he 's offering it ."
+                },
+                {
+                    "turn_index": 349,
+                    "sent_index": 11,
+                    "speaker": "Professor B",
+                    "content": "uh Dave and I were just talking about that a little while ago"
+                }
+            ]
+        }
+    ]
+}

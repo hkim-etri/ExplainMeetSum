@@ -1,0 +1,360 @@
+{
+    "transcripts_id": "Bmr026",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 39,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "The {disfmarker} Again , we {disfmarker} we have a similar uh logistic set - up where we are supposed to send the data to Munich"
+                },
+                {
+                    "turn_index": 65,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've been trying to keep a web page uh up to date f showing what the current status is of the trans of all the things we 've collected"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "That 's the thing that I sent out just to foo people saying can you update these pages"
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "I 'm gonna send out to the participants , uh , with links to web pages which contain the transcripts and allow them to {pause} suggest edits ."
+                },
+                {
+                    "turn_index": 92,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Um , DARPA demo status , not much to say ."
+                },
+                {
+                    "turn_index": 96,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "It may not be as {disfmarker} As pretty as we might like , but we 'll have something ."
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "They came in but they 're not set up yet ."
+                },
+                {
+                    "turn_index": 236,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                },
+                {
+                    "turn_index": 469,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I {disfmarker} I {disfmarker} Personally I 'd {disfmarker} I 'm not in favor of more meetings ."
+                },
+                {
+                    "turn_index": 496,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "and there 's lots of things , you know , details and stuff that would I think people 'd be interested in"
+                },
+                {
+                    "turn_index": 567,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "You know the error rate is half of what you do if you train only on ti uh TIMIT {disfmarker} {comment} uh not TIMIT uh TI - digits ,"
+                },
+                {
+                    "turn_index": 572,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "And you can leave out all the conversational data with no performance penalty ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on storage disks and computer connections",
+            "oracle_info": [
+                {
+                    "turn_index": 205,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Did they come in ?"
+                },
+                {
+                    "turn_index": 208,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "They came in the other day ."
+                },
+                {
+                    "turn_index": 219,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But you still need to store the disks somehow ."
+                },
+                {
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                },
+                {
+                    "turn_index": 256,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are {disfmarker} new transcriptions coming in I really can't do anything ."
+                },
+                {
+                    "turn_index": 317,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Right , yeah so if you uncompressed everything it 's even more ."
+                },
+                {
+                    "turn_index": 318,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "One point five or something ."
+                },
+                {
+                    "turn_index": 319,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "U Uh compressed how much are they ?"
+                },
+                {
+                    "turn_index": 320,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Half a gig ."
+                },
+                {
+                    "turn_index": 368,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Maybe we can put some disks in the {disfmarker} in that back room there ."
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I think Dave {disfmarker} Dave knows all these things , of course ."
+                },
+                {
+                    "turn_index": 367,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "Uh , but the question is where they go ,"
+                },
+                {
+                    "turn_index": 367,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "you just have to ask him ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad E contribute to the discussion on storage disks?",
+            "oracle_info": [
+                {
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                },
+                {
+                    "turn_index": 252,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "Well it 's about {disfmarker} I think there 's about twelve gig left ."
+                },
+                {
+                    "turn_index": 256,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are {disfmarker} new transcriptions coming in I really can't do anything ."
+                }
+            ]
+        },
+        {
+            "query": "What did the group think about Dave leaving?",
+            "oracle_info": [
+                {
+                    "turn_index": 204,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Um {disfmarker} And Jane was gonna talk to , uh , Dave Johnson about it ."
+                },
+                {
+                    "turn_index": 204,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "One of the things I was thinking is we {disfmarker} we just got these hundred {disfmarker}"
+                },
+                {
+                    "turn_index": 206,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "SUN - Blades ."
+                },
+                {
+                    "turn_index": 209,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "They came in but they 're not set up yet ."
+                },
+                {
+                    "turn_index": 220,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Well , but the SUN - Blades have spare drive bays ."
+                },
+                {
+                    "turn_index": 236,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                },
+                {
+                    "turn_index": 341,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "But he 's probably too busy given that he 's leaving ."
+                },
+                {
+                    "turn_index": 392,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "If there was a person dedicated to doing it they would happen pretty easily but it 's {disfmarker} it 's {disfmarker} jus every ever everybody {disfmarker} everybody has a {disfmarker} has {disfmarker}"
+                },
+                {
+                    "turn_index": 393,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But Dave has to do all of them ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion about scheduling meetings going forward",
+            "oracle_info": [
+                {
+                    "turn_index": 420,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So . Um . And I wondered whether we should maybe have um a separate meeting"
+                },
+                {
+                    "turn_index": 459,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And we don't have to do it every week ."
+                },
+                {
+                    "turn_index": 462,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Why don't we alternate this meeting every other week ?"
+                },
+                {
+                    "turn_index": 436,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK , so we 're gonna have a guy 's meeting ."
+                },
+                {
+                    "turn_index": 441,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , real {disfmarker} real {disfmarker} real men {vocalsound} \" Real men do decoding \" or something like that ."
+                },
+                {
+                    "turn_index": 481,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "We feel {disfmarker} We feel obligated to collect more data ."
+                },
+                {
+                    "turn_index": 490,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And then if we find , you know we 're just not getting enough done , there 's all these topics not coming up , then we can expand into another meeting ."
+                },
+                {
+                    "turn_index": 497,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , and you 're {disfmarker} you 're attending {pause} the uh {disfmarker} the front - end meeting as well as the others so you have {disfmarker} you have probably one of the best {disfmarker}"
+                },
+                {
+                    "turn_index": 505,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So {disfmarker} so we could talk a little bit about that now if {disfmarker} if there 's some time ."
+                }
+            ]
+        },
+        {
+            "query": "What did the professor think about scheduling meetings going forward?",
+            "oracle_info": [
+                {
+                    "turn_index": 424,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , OK , so how many {disfmarker} how many people here would not be interested in uh {disfmarker} in a meeting about recognition ?"
+                },
+                {
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh . So uh . Um . Let 's chat about it with Liz and Jane {pause} when we get a chance , see what they think and {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What was the team joking about when it came to scheduling meetings?",
+            "oracle_info": [
+                {
+                    "turn_index": 429,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Well you mean in a separate meeting or ha ha talking about it in this {disfmarker}"
+                },
+                {
+                    "turn_index": 435,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Liz and Jane probably ."
+                },
+                {
+                    "turn_index": 436,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK , so we 're gonna have a guy 's meeting ."
+                },
+                {
+                    "turn_index": 449,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It 's cuz {pause} y you have a {disfmarker}"
+                },
+                {
+                    "turn_index": 451,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There 's probably gonna be a lot of \" bleeps \" in this meeting ."
+                }
+            ]
+        }
+    ]
+}

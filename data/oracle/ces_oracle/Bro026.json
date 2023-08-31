@@ -1,0 +1,276 @@
+{
+    "transcripts_id": "Bro026",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 25,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "So right now nobody 's working on Aurora there ."
+                },
+                {
+                    "turn_index": 83,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But I guess maybe the thing {disfmarker} since you weren't {disfmarker} yo you guys weren't at that {disfmarker} that meeting , might be just {disfmarker} just to , um , sort of recap , uh , the {disfmarker} the conclusions of the meeting ."
+                },
+                {
+                    "turn_index": 166,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Put them together ."
+                },
+                {
+                    "turn_index": 169,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So if you took the system the way it is now , the way it 's fro you 're gonna freeze it , and it ran it on the last evaluation , where it would it be ?"
+                },
+                {
+                    "turn_index": 94,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and then within that , I guess the idea was to freeze a certain set of options for now , to run it , uh , a particular way , and decide on what things are gonna be experimented with , as opposed to just experimenting with everything ."
+                },
+                {
+                    "turn_index": 94,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So keep a certain set of things constant ."
+                },
+                {
+                    "turn_index": 153,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "Then finally , we compute delta and we put the neural network also ."
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Oh , we were also esp essentially second , although there were {disfmarker} there were {disfmarker} I mean , we had a couple systems and they had a couple systems ."
+                },
+                {
+                    "turn_index": 206,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "But everything is {pause} within the range of one {disfmarker} one percent ."
+                },
+                {
+                    "turn_index": 207,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "Yeah , one percent ."
+                },
+                {
+                    "turn_index": 195,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , so institutionally we were {disfmarker} {vocalsound} we were second , with , uh , the third {disfmarker} third system ."
+                },
+                {
+                    "turn_index": 208,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , so {disfmarker} so basically they 're all {disfmarker} they 're all pretty close ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on project logistics",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "D did {disfmarker} did you guys get your code pushed together ?"
+                },
+                {
+                    "turn_index": 16,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Is the , um {disfmarker} the CVS mechanism working {pause} well ?"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Actually I {disfmarker} I tried wh while {disfmarker} when I installed the {pause} repository , I tried from Belgium ."
+                },
+                {
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "But what 'll happen is {disfmarker} is he 'll go back up there and , uh , Pratibha will come back from {disfmarker} from , uh , the east coast ."
+                },
+                {
+                    "turn_index": 33,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , uh {disfmarker} and {disfmarker} and I guess actually , uh , after Eurospeech for a little bit , uh , he 'll go up there too ."
+                },
+                {
+                    "turn_index": 33,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So , actually everybody {vocalsound} who 's working on it {comment} will be up there for at least a little while ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about CVS security?",
+            "oracle_info": [
+                {
+                    "turn_index": 33,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So they 'll remotely access it {vocalsound} from there ."
+                },
+                {
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "But it 's {disfmarker} So , right now it 's the mechanism with SSH ."
+                },
+                {
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "I don't {pause} s I didn't set up {disfmarker} You can also set up a CVS server {pause} on a new port ."
+                },
+                {
+                    "turn_index": 53,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "Then that 's using the CVS password mechanism and all that ,"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "Because a lot of the open source stuff works with anonymous CVS"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "and I 'm just wondering {disfmarker} Uh , I mean , for our transcripts we may want to do that ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about OGI and CVS?",
+            "oracle_info": [
+                {
+                    "turn_index": 18,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Are {disfmarker} are people , uh , up at OGI grabbing code uh , via that ?"
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Uh , I don't think {disfmarker} I don't think {disfmarker}"
+                },
+                {
+                    "turn_index": 25,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "So right now nobody 's working on Aurora there ."
+                },
+                {
+                    "turn_index": 24,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "I think it more likely that what it means is that when Sunil is up there {vocalsound} he will grab it ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about evaluation?",
+            "oracle_info": [
+                {
+                    "turn_index": 369,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Yeah , the other thing is that even though it 's months away , uh , it 's starting to seem to me now like November fifteenth is right around the corner ."
+                },
+                {
+                    "turn_index": 371,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "That 's when the evaluation is ."
+                },
+                {
+                    "turn_index": 369,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "And , um , if they haven't decided things like this , like what the parameters are gonna be for this , uh , when \" deciding \" is not just somebody deciding . I mean , in fact there should be some understanding behind the , uh , {vocalsound} deciding , which means some experiments and {disfmarker} and so forth . It {disfmarker} it {disfmarker} it seems pretty tight to me ."
+                },
+                {
+                    "turn_index": 376,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Is {disfmarker} is this part of the evaluation just a small part ,"
+                },
+                {
+                    "turn_index": 376,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "or ho how important is this to the overall {disfmarker} ?"
+                },
+                {
+                    "turn_index": 384,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So they 'll probably assign it some sort of low weight ."
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "after {disfmarker} But , you know , they may even decide in the end to push it off ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about insertion penalties?",
+            "oracle_info": [
+                {
+                    "turn_index": 348,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So they 're like , d they 're varying different parameters like the insertion penalty and other stuff , and then seeing what 's the performance ."
+                },
+                {
+                    "turn_index": 357,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , so I th th certainly the thing that I would want to know about is whether we get really hurt , uh , on in insertion penalty , language model , scaling , sorts of things ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about the Wall Street Journal data?",
+            "oracle_info": [
+                {
+                    "turn_index": 394,
+                    "sent_index": 2,
+                    "speaker": "PhD E",
+                    "content": "Uh , Guenter was putting a bunch of Wall Street Journal data on our disks ."
+                },
+                {
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So this test may take quite a while to run , then . May - judging by the amount of data that he was putting on ."
+                }
+            ]
+        }
+    ]
+}

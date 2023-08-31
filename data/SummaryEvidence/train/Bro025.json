@@ -1,0 +1,1003 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "ICSI's Meeting Recorder Group have returned from a meeting with some important decisions to make.",
+            "They have developed a piece of software which allows them to implement their two main approaches to dealing with noise.",
+            "The base rate is currently set at the second best rate as of the last project evaluation, and it does not yet include everything the group have been working on.",
+            "With this in mind, they have decided to set most things, and concentrate on studying only a few key aspects, the neural network, the voice activity detector, and the noise estimation.",
+            "By the time a senior member of their research partners OGI returns, they want to have a firm plan of what they will be doing.",
+            "System latency is still an issue, but limits have still not been set by the project heads.",
+            "The group have encountered problems with frame-dropping, and will need to bear that in mind since their neural network would come after that stage.",
+            "While deciding which of two approaches to finally adopt, the group put together one piece of software for all to use that implements both spectral subtraction and wiener filtering.",
+            "Speaker me026 has done his quals, and is looking at some of the feedback he received."
+        ],
+        "answer_sentence_index": [
+            "Bro025.s.1",
+            "Bro025.s.2",
+            "Bro025.s.3",
+            "Bro025.s.4",
+            "Bro025.s.5",
+            "Bro025.s.6",
+            "Bro025.s.7",
+            "Bro025.s.8",
+            "Bro025.s.9"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "anyway we {disfmarker} {vocalsound} after coming back from QualComm we had , you know , very strong feedback"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 382,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "So it 's , like , it takes a long time to get a decision out of it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "so instead they went to Yosemite and bonded , and {disfmarker} and they came out with a single {disfmarker} single piece of software ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 70,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Well , the piece of software has , like , plenty of options ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So depending on that , it {disfmarker} it becomes either spectral subtraction or Wiener filtering ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "I need to allow it to do everything and even more {disfmarker} more than this ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "we didn't explicitly have anything to deal with stationary noise ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 110,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And now we do ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 87,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "But , still {disfmarker} so , there will be a piece of software with , {vocalsound} {vocalsound} uh , will give this system , the fifty - three point sixty - six , by default"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 94,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "It 's between {disfmarker} i we are second actually if we take this system ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 99,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Compared to the last evaluation numbers ? Yeah ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So it {disfmarker} so , um , it 's {disfmarker} it it 's not using our full bal bag of tricks , if you will ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 112,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "But {disfmarker} and then {disfmarker} but , um , {vocalsound} arguably what we should do is , even though the software can do many things , we should for now pick a set of things ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And then focus on {pause} everything that 's left ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So there 's the neural net issue ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 136,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "There 's the VAD issue ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 301,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "Like , should we do something f more for the noise estimation ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 302,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah . I was wondering about that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And I think , you know , that our goal should be by next week , when Hynek comes back , {vocalsound} uh , to {disfmarker} uh , really just to have a firm path , uh , for the {disfmarker} you know , for the time he 's gone ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "of {disfmarker} of , uh , what things will be attacked ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 121,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "We do still , however , have to consider its latency ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "We can't have unlimited amounts of latency ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 134,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "Uh , y you know , that 's still being debated by the {disfmarker} by people in Europe"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 260,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Uh , y you had something on it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Just the frame - dropping problem ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 266,
+                    "sent_index": 3,
+                    "speaker": "PhD E",
+                    "content": "And then we have to be careful with that also {disfmarker} with the neural net"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 268,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "because in {comment} the proposal the neural net was also , uh , working on {disfmarker} after frame - dropping ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 29,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Are you looking at one in {disfmarker} in particular of these two ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 42,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "So now we are , yeah , setting up the software ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 72,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "So depending on that , it {disfmarker} it becomes either spectral subtraction or Wiener filtering ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 76,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but the thing is {disfmarker} the important thing is that there is a piece of software that you {disfmarker} that we all will be using now ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 414,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Good . {vocalsound} {vocalsound} Uh , Barry , you just got through your {vocalsound} quals , so I don't know if you {vocalsound} have much to say ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "No , just , uh , looking into some {disfmarker} some of the things that , um , {vocalsound} uh , John Ohala and Hynek , um , gave as feedback ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 415,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "In {disfmarker} in my proposal , I {disfmarker} I was thinking about starting from a set of , uh , phonological features , {vocalsound} or a subset of them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "Um , but that might not be necessarily a good idea according to , um , John ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The group discussed the current state of their work, which was coming close to a conclusion.",
+                    "They were putting together their final model, including the various techniques they had explored.",
+                    "Their performance on the Aurora tasks was second and very close to those in first place.",
+                    "The professor thought that further tweaking and incorporation of a neural network would improve their scores.",
+                    "The team discussed which method to use for noise suppression, which had not been decided yet.",
+                    "They also delved into a more detailed discussion of the VAD and latency.",
+                    "Their method for noise estimation would add a notable delay to the model.",
+                    "Finally, the team delved further into how to finish up the model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Uh . Yeah , we formed a coalition actually ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We already made it into one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , we had a long discussion about how they were the same and how they were d uh , completely different ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 49,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Oh , OK . So {disfmarker} Yeah , let 's summarize ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 53,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Um , so it sort of came down to spectral subtraction versus Wiener filtering ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 63,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "So that 's {disfmarker} that was {disfmarker} that was last week ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Uh . Yeah , we formed a coalition actually ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We already made it into one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "There 're so many other choices to make that are {disfmarker} are almost {disfmarker} well , if not independent , certainly in addition to {pause} the choice of whether you , uh , do spectral subtraction or Wiener filtering ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "uh , but it is , uh , worse on the , uh , Aurora {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "It 's between {disfmarker} i we are second actually if we take this system ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And , uh , and it {disfmarker} it is , uh , very close in performance to the best thing that was there before ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 103,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "And the thing is , this doesn't have neural net in yet for instance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 123,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Um , what we 've done in uh {disfmarker} in the past is to use the neural net , uh , to transform , {vocalsound} um , all of the features that we use ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 233,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "I mean , {vocalsound} I think the neural net will probably do better if it looks at a little bit of the future ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But I think , you know , at this point our major concern is making the performance better"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 51,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "and , uh , I think it was {vocalsound} Hynek and Guenter 's and my opinion also that , um , you know , we sort of spread out to look at a number of different ways of doing noise suppression ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , we had a long discussion about how they were the same and how they were d uh , completely different ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "And {disfmarker} {vocalsound} and , uh , we said , uh , take a week , go arm wrestle ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 121,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "We do still , however , have to consider its latency ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 134,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "We can't have unlimited amounts of latency ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 154,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Just using either their VAD or our current VAD ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 166,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "How {disfmarker} how much latency does the , uh {disfmarker} does our VAD add ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 167,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "If {disfmarker} if we can have a good VAD , well , it would be great ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "What amount of latency are you thinking about when you say that ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "and {disfmarker} and , um , {vocalsound} if , uh , something has to take a little longer in latency in order to do it that 's {pause} you know , a secondary issue ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "Like , should we do something f more for the noise estimation ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "I tried just plugging the , um , {vocalsound} uh , Guenter noise estimation on this system ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 3,
+                            "speaker": "PhD E",
+                            "content": "and it {disfmarker} uh , it got worse ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 328,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So that 's something you could do with , um , this final system ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about the state of the final model",
+                "tokenized_answer": [
+                    "The team had started putting together the various techniques they had developed into a single software.",
+                    "Their score was 53.6 and it was working on spectral subtraction and noise addition after cleaning up mel bins.",
+                    "The professor did not think much had changed."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Uh . Yeah , we formed a coalition actually ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We already made it into one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So it 's {disfmarker} well , it 's {pause} spectral subtraction or Wiener filtering ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So now we are , yeah , setting up the software ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 30,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Yeah . So the sh it 's the sheet that gives fifty - f three point sixty - six ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "It 's the same , um , idea but it 's working on mel bands , {vocalsound} and it 's a spectral subtraction instead of Wiener filter ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "and there is also a noise addition after , uh , cleaning up the mel bins ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 33,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah . I mean , {vocalsound} it 's {disfmarker} {comment} it 's actually , uh , very similar ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD E say about the best result?",
+                "tokenized_answer": [
+                    "PhD E explained that the best result was when FFT bins were applied with a Wiener filter and no noise was added.",
+                    "The results with noise addition were very close, but not as good."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 23,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And , um , {vocalsound} the best result is {vocalsound} when we apply this procedure on FFT bins , uh , with a Wiener filter ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And there is no noise addition after {disfmarker} after that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And there is no noise addition after {disfmarker} after that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 27,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So it 's good"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 4,
+                            "speaker": "PhD E",
+                            "content": "Well , the results are similar ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor say about the final model?",
+                "tokenized_answer": [
+                    "The professor was happy to hear that the team had already started putting together a final software.",
+                    "The professor also noted that Finnish and Spanish had the smallest overall number compared to Aurora."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "We already made it into one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But , um , when you say u uh , unified do you mean , uh , it 's one piece of software now ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 42,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "So now we are , yeah , setting up the software ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "the , uh , one that has the smallest {disfmarker} smaller overall number is actually better on the Finnish and Spanish ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "uh , but it is , uh , worse on the , uh , Aurora {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on frame dropping and noise estimation",
+                "tokenized_answer": [
+                    "The team thought that the differences in performance between well-matched and high mismatch may have to do with the frame dropping problem.",
+                    "Tinkering around and changing a few small things was suggested as a way of improving performance.",
+                    "The team though it would also be nice to have the net on the server side where it would use less bandwidth.",
+                    "The team also discussed if averaging over the entire spectrum was a good idea."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "But I think , you know , at this point our major concern is making the performance better"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 253,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "So the frame - dropping is the last thing that we do ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 258,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "It seems to be helping on the well - matched condition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 258,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "So . And it actually r reduced a little bit on the high mismatch ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 259,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Did you happen to notice how much , {vocalsound} uh , the change was due to just this frame - dropping problem ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Just the frame - dropping problem ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 265,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 277,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Yeah . I mean , it {disfmarker} it always seemed to us that it would be kind of nice to {disfmarker} in addition to , uh , reducing insertions , actually use up less bandwidth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 282,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "If the net 's on the server side then it could use all of the {pause} frames ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 337,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "So , th the Guenter was arguing that , I mean , even if you have a very good VAD , averaging it , like , over the whole thing is not a good idea ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 340,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Not using these methods anyway . Yeah ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD E think about improving the model?",
+                "tokenized_answer": [
+                    "PhD E thought that changing a few things could result in an improvement, but they had to be careful with the neural net.",
+                    "PhD also played around with noise estimation to improve the model but did not play around with it much."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 265,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 266,
+                            "sent_index": 3,
+                            "speaker": "PhD E",
+                            "content": "And then we have to be careful with that also {disfmarker} with the neural net"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "Like , should we do something f more for the noise estimation ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 5,
+                            "speaker": "PhD E",
+                            "content": "but of course I didn't play {pause} with it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 310,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "Uh , I didn't {pause} do much more {pause} for noise estimation . I just tried this ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about improving the model?",
+                "tokenized_answer": [
+                    "The professor wanted to know how much the model improved due to frame dropping.",
+                    "He thought four or five changes would result in good improvements.",
+                    "The professor highlighted that improvements should not come at a higher bandwidth."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 259,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Did you happen to notice how much , {vocalsound} uh , the change was due to just this frame - dropping problem ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 265,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well . {vocalsound} But like we 're saying , if there 's four or five things like that then {vocalsound} pretty sho soon you 're talking real improvement ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 277,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Yeah . I mean , it {disfmarker} it always seemed to us that it would be kind of nice to {disfmarker} in addition to , uh , reducing insertions , actually use up less bandwidth ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

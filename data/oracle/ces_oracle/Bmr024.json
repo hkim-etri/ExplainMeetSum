@@ -1,0 +1,378 @@
+{
+    "transcripts_id": "Bmr024",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "We have a little more to discuss ."
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And my {disfmarker} my tendency right now is , well , if IBM comes back with this meeting and the transcript is good , just let them do it ."
+                },
+                {
+                    "turn_index": 293,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "Should this be part of the corpus or not ?"
+                },
+                {
+                    "turn_index": 347,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "This is to get acoustic and language model training data for SmartKom. OK ."
+                },
+                {
+                    "turn_index": 425,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "It 's just that it 's , you know , different directory , it 's called something different , it 's {disfmarker}"
+                },
+                {
+                    "turn_index": 487,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Disk might eventually be an issue so we might {disfmarker} we {disfmarker} we might need to , uh , {vocalsound} get some more disk pretty soon ."
+                },
+                {
+                    "turn_index": 375,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I {disfmarker} L look , it seems to me that if we 're doing it anyway and we 're doing it for these {disfmarker} these purposes that we have , {vocalsound} and we have these distant mikes , we definitely should re should save it all as long as we 've got disk space ,"
+                },
+                {
+                    "turn_index": 491,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "We 're about {disfmarker} we 're about half {disfmarker} halfway through our disk right now ."
+                },
+                {
+                    "turn_index": 504,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "I 'm much more concerned about the backed - up ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Well , maybe uh , since that {disfmarker} that was a pretty short one , maybe we should talk about the IBM transcription status ."
+                },
+                {
+                    "turn_index": 68,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "And , uh , we 'll just hafta see what we get back from them ."
+                },
+                {
+                    "turn_index": 656,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And we can take care of that by putting it on non - back {pause} up drives and just backing it up once onto this tape ."
+                },
+                {
+                    "turn_index": 796,
+                    "sent_index": 1,
+                    "speaker": "PhD I",
+                    "content": "and I 'm currently retraining another set of models where it 's both in the training and the test ,"
+                },
+                {
+                    "turn_index": 981,
+                    "sent_index": 4,
+                    "speaker": "Professor D",
+                    "content": "But I think maybe we should have a {disfmarker} a sub - meeting ,"
+                },
+                {
+                    "turn_index": 981,
+                    "sent_index": 5,
+                    "speaker": "Professor D",
+                    "content": "I think , uh , probably , uh , Adam and {disfmarker} and , uh , Chuck and me should talk about {disfmarker} should get together and talk about that sometime soon ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize discussion on what to include in the meeting corpus and how to structure it",
+            "oracle_info": [
+                {
+                    "turn_index": 223,
+                    "sent_index": 0,
+                    "speaker": "PhD I",
+                    "content": "Um , so , {nonvocalsound} uh , we had a discussion {disfmarker} Don and Liz and I had discussion last week about how to proceed with , uh , you know , with Don 's work ,"
+                },
+                {
+                    "turn_index": 293,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "Should this be part of the corpus or not ?"
+                },
+                {
+                    "turn_index": 276,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "If you find that you can {vocalsound} lower the false alarms that you get where there 's no speech , that would be useful {pause} for us to know ."
+                },
+                {
+                    "turn_index": 278,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "So , {vocalsound} r right now you get f fal you know , false {disfmarker} false , uh , speech regions when it 's just like , um , {vocalsound} breath or something like that ,"
+                },
+                {
+                    "turn_index": 387,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "So if , at UW they start recording two - person hallway conversations is that part of the meeting corpus ?"
+                },
+                {
+                    "turn_index": 419,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "but I don't think i it {disfmarker} it doesn't match anything that we 've described about meetings ."
+                },
+                {
+                    "turn_index": 425,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "It 's just that it 's , you know , different directory , it 's called something different , it 's {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "Summarize discussion on issues with data storage",
+            "oracle_info": [
+                {
+                    "turn_index": 495,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "So , once everything gets converted over to the disks we 're supposed to be using we 'll be probably , uh , seventy - five percent ."
+                },
+                {
+                    "turn_index": 504,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "I 'm much more concerned about the backed - up ."
+                },
+                {
+                    "turn_index": 526,
+                    "sent_index": 1,
+                    "speaker": "PhD I",
+                    "content": "It 's the back it 's the back - up capaci"
+                },
+                {
+                    "turn_index": 363,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "or , is {disfmarker} is that our data which we are collecting here ,"
+                },
+                {
+                    "turn_index": 656,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And we can take care of that by putting it on non - back {pause} up drives and just backing it up once onto this tape ."
+                },
+                {
+                    "turn_index": 611,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "ICSI already has a perfectly good tape system and it 's more reliable ."
+                },
+                {
+                    "turn_index": 506,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "If it 's not backed - up the sysadmins don't care too much ."
+                },
+                {
+                    "turn_index": 664,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "Well , I 'll talk to Dave , and {disfmarker} and see what th how {disfmarker} {nonvocalsound} what the best way of doing that is ."
+                }
+            ]
+        },
+        {
+            "query": "What did the participants think about what constitutes a meeting?",
+            "oracle_info": [
+                {
+                    "turn_index": 387,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "So if , at UW they start recording two - person hallway conversations is that part of the meeting corpus ?"
+                },
+                {
+                    "turn_index": 409,
+                    "sent_index": 0,
+                    "speaker": "PhD I",
+                    "content": "But as far as distributing it , we shouldn't label it as part of this meeting corpus ."
+                },
+                {
+                    "turn_index": 385,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "and if somebody doing experiment wants to train up including that then they can ."
+                },
+                {
+                    "turn_index": 425,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "It 's just that it 's , you know , different directory , it 's called something different , it 's {disfmarker}"
+                },
+                {
+                    "turn_index": 460,
+                    "sent_index": 0,
+                    "speaker": "PhD I",
+                    "content": "That 's a {disfmarker} that 's another argument to keep it separate ,"
+                },
+                {
+                    "turn_index": 419,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "but I don't think i it {disfmarker} it doesn't match anything that we 've described about meetings ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD I think about segmentation?",
+            "oracle_info": [
+                {
+                    "turn_index": 225,
+                    "sent_index": 0,
+                    "speaker": "PhD I",
+                    "content": "and {disfmarker} {vocalsound} and {disfmarker} and , uh , one of the obvious things that occur to us was that we 're {disfmarker} since we now have Thilo 's segmenter and it works , you know , amazingly well , {vocalsound} um , we should actually basically re - evaluate the recognition , um , results using {disfmarker} you know , without cheating on the segmentations ."
+                },
+                {
+                    "turn_index": 242,
+                    "sent_index": 1,
+                    "speaker": "PhD I",
+                    "content": "Um . So what we 've been using so far was sort of a {pause} simplified version of the scoring ."
+                },
+                {
+                    "turn_index": 254,
+                    "sent_index": 8,
+                    "speaker": "PhD I",
+                    "content": "That Thilo wanted to use {pause} the recognizer alignments to train up his , um , speech detector ."
+                },
+                {
+                    "turn_index": 256,
+                    "sent_index": 0,
+                    "speaker": "PhD I",
+                    "content": "Um , so that we could use , uh {disfmarker} you know there wouldn't be so much hand {vocalsound} labelling needed to , uh {disfmarker} to generate training data for {disfmarker} for the speech detector ."
+                }
+            ]
+        },
+        {
+            "query": "What did the Professor think about storing data?",
+            "oracle_info": [
+                {
+                    "turn_index": 507,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "So , I mean , pretty much anytime we need a disk , we can get it at the rate that we 're {disfmarker}"
+                },
+                {
+                    "turn_index": 508,
+                    "sent_index": 1,
+                    "speaker": "PhD I",
+                    "content": "I shouldn't be saying this , but , you can just {disfmarker} you know , since the back - ups are every night , you can recycle the backed - up diskspace ."
+                },
+                {
+                    "turn_index": 510,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Yeah . You really shouldn't be saying {disfmarker}"
+                },
+                {
+                    "turn_index": 534,
+                    "sent_index": 2,
+                    "speaker": "PhD I",
+                    "content": "What about putting the stuff on , like , C - CD - ROM or DVD or something ?"
+                },
+                {
+                    "turn_index": 535,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "The - they {disfmarker} they wear out ."
+                },
+                {
+                    "turn_index": 546,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Year or two ."
+                },
+                {
+                    "turn_index": 550,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Wow ."
+                },
+                {
+                    "turn_index": 656,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "And we can take care of that by putting it on non - back {pause} up drives and just backing it up once onto this tape ."
+                },
+                {
+                    "turn_index": 662,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "It 's good ."
+                }
+            ]
+        },
+        {
+            "query": "What did the participants think about using CD's for backup?",
+            "oracle_info": [
+                {
+                    "turn_index": 534,
+                    "sent_index": 2,
+                    "speaker": "PhD I",
+                    "content": "What about putting the stuff on , like , C - CD - ROM or DVD or something ?"
+                },
+                {
+                    "turn_index": 535,
+                    "sent_index": 3,
+                    "speaker": "Grad F",
+                    "content": "The - they {disfmarker} they wear out ."
+                },
+                {
+                    "turn_index": 582,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "On the average , it 'll probably be three or four years ."
+                },
+                {
+                    "turn_index": 582,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "But , uh {disfmarker} I {disfmarker} I {disfmarker} you don't want to per p have your only copy on a media that fails ."
+                },
+                {
+                    "turn_index": 584,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "Um , if you have them professionally pressed , y you know , they 're good for decades ."
+                },
+                {
+                    "turn_index": 600,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "What 'd be nice is a system that re - burned the C Ds every {vocalsound} year ."
+                },
+                {
+                    "turn_index": 613,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "So for archiving , we 'll just use tape ."
+                }
+            ]
+        }
+    ]
+}

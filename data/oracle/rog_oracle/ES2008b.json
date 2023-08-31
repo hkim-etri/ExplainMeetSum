@@ -1,0 +1,366 @@
+{
+    "transcripts_id": "ES2008b",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "This is our functional design meeting ."
+                },
+                {
+                    "turn_index": 4,
+                    "sent_index": 10,
+                    "speaker": "Project Manager",
+                    "content": "three presentations ,"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 20,
+                    "speaker": "Marketing",
+                    "content": "that it has a fancy appeal"
+                },
+                {
+                    "turn_index": 71,
+                    "sent_index": 15,
+                    "speaker": "User Interface",
+                    "content": "things like voice recognition would would add to the price"
+                },
+                {
+                    "turn_index": 86,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "A fashion fashion remote ."
+                },
+                {
+                    "turn_index": 173,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "so like you type a hundred on your remote control and"
+                },
+                {
+                    "turn_index": 229,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "because it's gonna add too much to the price ."
+                },
+                {
+                    "turn_index": 229,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "Especially if we are marketing it as a separate product , people are gonna be paying"
+                },
+                {
+                    "turn_index": 243,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "but why are we why are we aiming for a technological advancement ?"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Simplicity and fashion ."
+                },
+                {
+                    "turn_index": 308,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "So 's just the quality of the chip ."
+                },
+                {
+                    "turn_index": 363,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Yeah . Yeah aim for a {disfmarker} an income group ."
+                },
+                {
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But we might as well ."
+                },
+                {
+                    "turn_index": 410,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I suspect the remote control does need a battery ,"
+                },
+                {
+                    "turn_index": 434,
+                    "sent_index": 9,
+                    "speaker": "Project Manager",
+                    "content": "market trend wa watching ."
+                },
+                {
+                    "turn_index": 458,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Technical ."
+                },
+                {
+                    "turn_index": 460,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "in there we have technical functions presentation , working design presentation and the functional requirements ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize presentations on working design, technical functions and functional requirements.",
+            "oracle_info": [
+                {
+                    "turn_index": 38,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "we're just gonna talk a little bit about the functional requirements that people specified when they were asked ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "People do not like that ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 20,
+                    "speaker": "Marketing",
+                    "content": "that it has a fancy appeal"
+                },
+                {
+                    "turn_index": 59,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "User interface ,"
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "I'm gonna talk about the technical technical functions design of the remote control um ."
+                },
+                {
+                    "turn_index": 77,
+                    "sent_index": 26,
+                    "speaker": "User Interface",
+                    "content": "that's ergonomically designed ."
+                },
+                {
+                    "turn_index": 109,
+                    "sent_index": 7,
+                    "speaker": "Industrial Designer",
+                    "content": "Though th the thing about working design is the {disfmarker}"
+                },
+                {
+                    "turn_index": 115,
+                    "sent_index": 12,
+                    "speaker": "Industrial Designer",
+                    "content": "the components that we find here are the energy source , you know the battery or whatever that's gonna m make it work , then the chip , which converts the data , the user that's controlling the chip , and the infra-red bulb that's gonna let us move the data to the receiver ."
+                },
+                {
+                    "turn_index": 210,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "but younger people did ."
+                }
+            ]
+        },
+        {
+            "query": "What did Marketing think of repetitive strain injury when discussing functional requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 44,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "it just needs to be easy to use ."
+                },
+                {
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Repetitive strain injury ."
+                },
+                {
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "What ?"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "Um looking at the needs people specified , the problem right now is that people's remotes are not matching their operating behaviour ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 18,
+                    "speaker": "Marketing",
+                    "content": "make sure that , you know , something like an audio setting isn't given as much importance and visibility on the remote as something like channel changing that's used a lot more often ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 20,
+                    "speaker": "Marketing",
+                    "content": "that it has a fancy appeal"
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 21,
+                    "speaker": "Marketing",
+                    "content": "and that it's not ugly {vocalsound}"
+                }
+            ]
+        },
+        {
+            "query": "Why did Industrial Designer think of it could be their selling point when discussing technical functions design?",
+            "oracle_info": [
+                {
+                    "turn_index": 77,
+                    "sent_index": 14,
+                    "speaker": "User Interface",
+                    "content": "Uh there's a lot of features that are missing from that remote control ."
+                },
+                {
+                    "turn_index": 77,
+                    "sent_index": 16,
+                    "speaker": "User Interface",
+                    "content": "Um as I said before , remote controls are subjective ,"
+                },
+                {
+                    "turn_index": 80,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "And neither of them were very pretty , you know ?"
+                },
+                {
+                    "turn_index": 84,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "I think that could be our selling point ."
+                },
+                {
+                    "turn_index": 88,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "I think there's there's certainly a market for technology that looks cool ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the group discussion about the general specification.",
+            "oracle_info": [
+                {
+                    "turn_index": 266,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "Like some T_V_s they have a sort of uh a sliding screen on the remote control of it"
+                },
+                {
+                    "turn_index": 280,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "one that has the easy ones and one that has"
+                },
+                {
+                    "turn_index": 303,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "like why would it not be ?"
+                },
+                {
+                    "turn_index": 314,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So our target group , we're saying , fifteen to thirty five ?"
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "S voice recognition ,"
+                },
+                {
+                    "turn_index": 405,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Battery battery use ."
+                },
+                {
+                    "turn_index": 413,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "but"
+                }
+            ]
+        },
+        {
+            "query": "What did the group think of the infra-red functionality when discussing general requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 303,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "What can you do to like make the infra-red more functional ,"
+                },
+                {
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "The battery and that {disfmarker} I think that the chip takes the data and presents it well , without sort of scattering ."
+                },
+                {
+                    "turn_index": 311,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "The quality {vocalsound} uh quality of all the components really ,"
+                },
+                {
+                    "turn_index": 314,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So our target group , we're saying , fifteen to thirty five ?"
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "which I kind of I kind of feel like voice recognition is not necessary in a remote control ,"
+                },
+                {
+                    "turn_index": 319,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "It's , yeah , it's pretty it's pretty high-tech ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "and it might be too expensive ."
+                }
+            ]
+        },
+        {
+            "query": "What did Industrial Designer think of the battery when discussing general requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "But we might as well ."
+                },
+                {
+                    "turn_index": 425,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "that might contribute to less people losing it too if it {vocalsound} it stays in one place ."
+                }
+            ]
+        }
+    ]
+}

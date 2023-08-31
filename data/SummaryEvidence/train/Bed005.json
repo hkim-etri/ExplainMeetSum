@@ -1,0 +1,1450 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The data collection running in parallel with the project can start shortly with recruiting subjects.",
+            "Meanwhile, the german parser now works with english sentences.",
+            "The parser's output modifies the XML used by the system to initiate actions and generate responses.",
+            "The XML for Map requests also comprise a route, route elements and points of interest along the way.",
+            "It is at this level that Enter/Vista/Approach tags will be added as action modes.",
+            "As the project evolves, further enrichment of the ontology (actions, linguistic features) will be necessary.",
+            "Similarly, object representations will include an EVA vector.",
+            "This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type.",
+            "These elements will constitute only a small part of the inputs of the Bayes-net that determines the action mode.",
+            "The actual number of the inputs can create a combinatorial explosion when setting the probabilities.",
+            "Noisy-OR's can help avoid this by simplifying the probability tables and applying a deterministic function to produce their complete version.",
+            "In any case, further to fulfilling the basic requirements (translating the parser and the generator into english), the project is entirely open-ended in terms of focus of research.",
+            "As the data collection is about to begin, there are some minor changes to be done in the design of the experiment, the script and the permission forms.",
+            "Subjects can be recruited either from within the university or through other social circles.",
+            "As to the system design, the next step is the translation of the generator into english.",
+            "Moreover, it is important to test the system and its internal workings by adding new sentence types and modifying the parser.",
+            "All further research will use the existing domain (\"tourists in Heidelberg\"), as this provides enough diversity for the purposes of the project.",
+            "The german partners for the project will realise all the necessary changes in the ontology.",
+            "It is therefore preferable for the group to exercise foresight and agree on the set of new tags they will need in the long run, so that they limit the number of change requests.",
+            "Finally, on a more technical note, Noisy-OR's were discussed and considered a sensible approach to deal with the potential problems with the setting the conditional probabilities of the Bayes-nets.",
+            "Although the parser has been modified to work with english, the details of its internal workings (calling functions, setting discourse variables, generating actions) are not yet clear.",
+            "Understanding the parsed data is helped by the database of objects, people and events accompanying the system, but the mapping of referring expressions to database objects can still be a hurdle.",
+            "On a different level, the Bayes-net used to generate the different action modes can easily become unmanageable as the number of features to be taken into account increases.",
+            "This can be tackled with the use of the Noisy-OR technique.",
+            "The deterministic functions this requires cannot be introduced directly into JavaBayes, although some runaround ways can be implemented.",
+            "A final, high-level issue, that has not been dealt with yet, is the definition of the constructions and the construction grammar framework analysis behind the whole enterprise.",
+            "The preparation for the data collection is almost finished and expected to start experiments within a couple of weeks.",
+            "There is some additional TV and cinema data currently being translated from german.",
+            "The german parser has been translated and it can now be used for a range of sentence types in english.",
+            "On the other hand, the translation of some parts of the relational database accompanying the system has also been commissioned.",
+            "EML have provided the structure for Map requests, the basic representation of the navigational goals upon which further action modes are going to be built.",
+            "The same people are also creating a general, top-level XML object ontology that will include all types of buildings."
+        ],
+        "answer_sentence_index": [
+            "Bed005.s.1",
+            "Bed005.s.2",
+            "Bed005.s.3",
+            "Bed005.s.4",
+            "Bed005.s.5",
+            "Bed005.s.6",
+            "Bed005.s.7",
+            "Bed005.s.8",
+            "Bed005.s.9",
+            "Bed005.s.10",
+            "Bed005.s.11",
+            "Bed005.s.12",
+            "Bed005.s.13",
+            "Bed005.s.14",
+            "Bed005.s.15",
+            "Bed005.s.16",
+            "Bed005.s.17",
+            "Bed005.s.18",
+            "Bed005.s.19",
+            "Bed005.s.20",
+            "Bed005.s.21",
+            "Bed005.s.22",
+            "Bed005.s.23",
+            "Bed005.s.24",
+            "Bed005.s.25",
+            "Bed005.s.26",
+            "Bed005.s.27",
+            "Bed005.s.28",
+            "Bed005.s.29",
+            "Bed005.s.30",
+            "Bed005.s.31",
+            "Bed005.s.32"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 6,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Anyway . So , uh , before we get started with the , uh , technical part , I just want to review what I think is happening with the {disfmarker} our data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "What we think is gonna happen is that , uh , in parallel starting about now {vocalsound} we 're gonna get Fey {vocalsound} to , where you 're working with me and Robert , draft a note that we 're gonna send out to various CogSci c and other classes saying , \" here 's an opportunity to be a subject ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "But what I 'd like to do , if it 's O K , {vocalsound} is to s to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And , um {disfmarker} and now it 's {disfmarker} We have a complete English parser that does everything the German parser does ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 209,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So , whenever it {disfmarker} it encounters \" Goodbye \" ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 210,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "That function automatically generates an initialized XML structure ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "I think each of those functions act on the current XML structure , and change it in some way , for example , by adding a {disfmarker} a l a field to it , or something ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 215,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "there were other actions uh , that {disfmarker} that s seemed to step {disfmarker} state variables somewhere ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 280,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "So , this is the XML and this is sort of what it will look like later on ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 280,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And this is what it {disfmarker} sort of is the {disfmarker} the structure of Map requests ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "Uh {disfmarker} You {disfmarker} you have a route ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "And every {disfmarker} every element of that e r r f of that {disfmarker} Every segment we call a \" route element \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 9,
+                    "speaker": "Grad C",
+                    "content": "where y where {pause} you sort of end , and some points of interest along the way ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 290,
+                    "sent_index": 13,
+                    "speaker": "Grad C",
+                    "content": "And I {vocalsound} suggested that they should n be {disfmarker} k uh , kind enough to do s two things for us ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 14,
+                    "speaker": "Grad C",
+                    "content": "is one , um , {vocalsound} {vocalsound} Also allocating , uh , some tags for our Action Schema Enter - Vista - Approach ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 319,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , this {disfmarker} and this , of course , was just the {vocalsound} {vocalsound} action end ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 319,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh , at some point we 're going to have to worry about the language end ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 600,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Eh {disfmarker} so , you {disfmarker} you {disfmarker} you may or {disfmarker} So , then you 'd have this little vector of , um , you know , Approach Mode or EVA Mode ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 604,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "It 's part of what you know about {disfmarker} a {disfmarker} an object , {vocalsound} is its EVA vector ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 600,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "If you know it for a specific landmark you put it there ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 600,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "If you don't , you just go up the hierarchy to the first place you find one ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 601,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "So , is the idea to put it in the ontology ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 602,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Absolutely ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 488,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "So , um {disfmarker} {vocalsound} Recall that , uh , we want to have this kind of structure in our Bayes - nets ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 488,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Namely , that , um {disfmarker} {vocalsound} {vocalsound} You have these nodes that have several bands , right ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 488,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "the typical example is that , um , these are all a bunch of cues for something ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 488,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "and this is a certain effect that we 'd like to conclude ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 511,
+                    "sent_index": 14,
+                    "speaker": "Grad D",
+                    "content": "For example , they could be \" time of day \" ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 511,
+                    "sent_index": 15,
+                    "speaker": "Grad D",
+                    "content": "in which case we could , uh , say , you know , \" Morning , afternoon , evening , night \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 18,
+                    "speaker": "Grad D",
+                    "content": "And , that 's a lot of probabilities to put here , which is kind of a pain ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 19,
+                    "speaker": "Grad D",
+                    "content": "So {pause} Noisy - ORs are a way to , uh , {vocalsound} sort of deal with this ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 519,
+                    "sent_index": 12,
+                    "speaker": "Grad D",
+                    "content": "So we come up with these l little tables for each of those"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 519,
+                    "sent_index": 14,
+                    "speaker": "Grad D",
+                    "content": "And the final thing is that , um {disfmarker} {vocalsound} {vocalsound} this is a deterministic function of these ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 520,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Th - c the full conditional probability table {disfmarker} with some function ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 315,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "tu uh , tur change the description to , uh , English"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 425,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "We can do anything we want with it ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 425,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "I mean , once we have fulfilled these requirements ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So once that 's done , then all the rest of it is , uh , sort of , you know , what we want to do for the research ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And we can {disfmarker} w we can do all sorts of things that don't fit into their framework at all ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Anyway . So , uh , before we get started with the , uh , technical part , I just want to review what I think is happening with the {disfmarker} our data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "In parallel with that , we 're gonna need to actually do the script ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 10,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "And , so , I guess there 's a plan to have a meeting Friday afternoon Uh , with {disfmarker} uh , Jane , and maybe Liz and whoever , on actually getting the script worked out ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 24,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "This {disfmarker} The permission form ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "What we think is gonna happen is that , uh , in parallel starting about now {vocalsound} we 're gonna get Fey {vocalsound} to , where you 're working with me and Robert , draft a note that we 're gonna send out to various CogSci c and other classes saying , \" here 's an opportunity to be a subject ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 10,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "not necessarily by any means all students"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 10,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "But what I 'd like to do , if it 's O K , {vocalsound} is to s to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 17,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "which is we gonna check out our social infrastructures for possible subjects ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 452,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And then there 's a language generator ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 452,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "and then after that a s a synthesizer that goes from an XML structure to , uh , language generation , to actual specifications for a synthesizer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 452,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "Eh , but again , there 's one module in which there 's one piece {vocalsound} that we have to convert to English ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And the next thing I would like to be able to do , and it seems like this would not be too difficult either , is {vocalsound} to say , \" OK let 's now pretend we actually wanted to not only change the {disfmarker} {vocalsound} the mapping of {disfmarker} of , uh , words to the M - three - L but we also wanted to change {disfmarker} add a new sentence type"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "It would be a good exercise to just see {vocalsound} whether one can get that to run ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 273,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "So , yeah . I definitely think it 's {disfmarker} {vocalsound} It 's worth the exercise of trying to actually add something that isn't there ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It seems to me we can get {vocalsound} all the complexity we want in actions and in language without going outside of tourists in Heidelberg ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 335,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "But you know , i depending on what people are interested in , one could have , {vocalsound} uh , tours ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 337,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So , at least {disfmarker} unless somebody else wants t to suggest otherwise I think {vocalsound} the general domain we don't have t to uh , broaden ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 337,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "That is , tourists in Heidelberg ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 337,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "I mean if {disfmarker} if you want to {pause} uh , push us into reference problems , that would be great ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 339,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK , so this is {disfmarker} his specialty is {disfmarker} reference ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 341,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Not only {vocalsound} anaphora ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 341,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "but , uh , more generally the , uh {disfmarker} this whole issue of , uh , referring expressions ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 343,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And , again , this is li in the databa this is also pretty well formed"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 343,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "because there is an ontology ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 293,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "But it seems to me it 's probably a good idea to li uh {disfmarker} minimize the number of uh , change requests we make of them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 293,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "So it seemed to me , what we ought to do is get our story together ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 303,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "OK . What are the thl class of things we think we might try to do in a year or two ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 321,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "This is {disfmarker} this is everything that {disfmarker} that , um , {pause} {vocalsound} you know , um {pause} we might want to do in the next couple years ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 19,
+                    "speaker": "Grad D",
+                    "content": "So {pause} Noisy - ORs are a way to , uh , {vocalsound} sort of deal with this ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 513,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "Yeah , yeah ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 556,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "The f the {disfmarker} the {disfmarker} the Bayes - nets in general are quite good at saying , \" if you have no current information about this variable just take the prior for that . \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 556,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "eh , basically whatever w it 's {disfmarker} Probabilistically , whatever it would be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 583,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh , like the Noisy - OR function , really is one that 's essentially says , uh , take the max ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And , um {disfmarker} and now it 's {disfmarker} We have a complete English parser that does everything the German parser does ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 212,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "I think each of those functions act on the current XML structure , and change it in some way , for example , by adding a {disfmarker} a l a field to it , or something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 215,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "there were other actions uh , that {disfmarker} that s seemed to step {disfmarker} state variables somewhere ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 217,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "OK . So that 's going to be a call on the discourse"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 254,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "It 's mystery functions ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 257,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , each is {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 257,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "S so that 's funny ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 345,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Although th the {vocalsound} To get at them from a language may not be trivial ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 359,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Now , we hav the {disfmarker} the whole {disfmarker} Unfortunately , the whole database is , uh , {vocalsound} in German ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 359,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "We have just commissioned someone to translate some bits of it ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 359,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "So , it 's a relational database with persons , events , {vocalsound} and , um , objects ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 511,
+                    "sent_index": 7,
+                    "speaker": "Grad D",
+                    "content": "if it 's closed or not , at the moment ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 511,
+                    "sent_index": 8,
+                    "speaker": "Grad D",
+                    "content": "Alright , so you have nodes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 10,
+                    "speaker": "Grad D",
+                    "content": "And the , uh , problem that we were having was that , you know , given N - nodes , there 's \" two to the N \""
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 11,
+                    "speaker": "Grad D",
+                    "content": "Given N - nodes , and furthermore , the fact that there 's three things here , we need to specify \" three times \" , uh , \" two to the N \" probabilities ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 13,
+                    "speaker": "Grad D",
+                    "content": "That 's assuming these are all binary , which f they may not be ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 18,
+                    "speaker": "Grad D",
+                    "content": "And , that 's a lot of probabilities to put here , which is kind of a pain ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 19,
+                    "speaker": "Grad D",
+                    "content": "So {pause} Noisy - ORs are a way to , uh , {vocalsound} sort of deal with this ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 539,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "One thing you could do , which is kind of s in a way , stupid , is take this deterministic function , and use it to build the CPT ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 539,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "So , if Ba - JavaBayes won't do it for you ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 658,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "And then {disfmarker} But , the combination functions , and whether we can put those in Java Bayes , and all that sort of stuff , is , uh {disfmarker} is the bigger deal ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "let 's say that by the end of spring break , I 'll try to come up with some {vocalsound} general story about , um , construction grammar ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and what constructions we 'd use"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 383,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "and how all this might fit together ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 383,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "There 's this whole framework problem that I 'm feeling really uncomfortable about ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 6,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Anyway . So , uh , before we get started with the , uh , technical part , I just want to review what I think is happening with the {disfmarker} our data collection ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "But what I 'd like to do , if it 's O K , {vocalsound} is to s to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "They 're also gonna translate the , uh , German data from the TV and cinema stuff for Andreas ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "And , um {disfmarker} and now it 's {disfmarker} We have a complete English parser that does everything the German parser does ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 45,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Which is {vocalsound} not a lot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 122,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "Um . These are the {disfmarker} sort of the ten different sentence types that the uh {disfmarker} {vocalsound} the parser was able to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 122,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "And it still is , now in English ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 351,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "You have proper names , and descriptions ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 357,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "and {pause} all those things ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 359,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Now , we hav the {disfmarker} the whole {disfmarker} Unfortunately , the whole database is , uh , {vocalsound} in German ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 359,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "We have just commissioned someone to translate some bits of it ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 278,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "I got the , uh , M - three - L for the routes today ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 278,
+                    "sent_index": 10,
+                    "speaker": "Grad C",
+                    "content": "So , this is {disfmarker} um , what I got today is {vocalsound} the {disfmarker} the new {vocalsound} um {vocalsound} M - three - L for um , {vocalsound} {vocalsound} the Maps ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 280,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "And this is what it {disfmarker} sort of is the {disfmarker} the structure of Map requests ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 280,
+                    "sent_index": 6,
+                    "speaker": "Grad C",
+                    "content": "and here is the more interesting stuff for us , is the routes ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 625,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "in the sense that {disfmarker} I mean , m the guy who was doing the ontology {disfmarker} eh , eh , s ap apologized that i it will take him another through {disfmarker} two to three days"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 625,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "because they 're having really trouble getting the upper level straight ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 625,
+                    "sent_index": 7,
+                    "speaker": "Grad C",
+                    "content": "The reason is , {vocalsound} given the craw bet uh , the {disfmarker} the {disfmarker} the projects that all carry their own taxonomy and , on all history , {vocalsound} they 're really trying to build one top level ontology ft that covers all the EML projects ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting.",
+                "tokenized_answer": [
+                    "The meeting discussed various topics such as data collection and updates on the German parser.",
+                    "They discussed XML modifications and future thoughts on the ontology.",
+                    "Additionally, object representations will include an EVA vector.",
+                    "This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type.",
+                    "The actual number of the inputs can create a combinatorial explosion when setting the probabilities.",
+                    "In any case, further to fulfilling the basic requirements (translating the parser and the generator into english), the project is entirely open-ended in terms of focus of research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Anyway . So , uh , before we get started with the , uh , technical part , I just want to review what I think is happening with the {disfmarker} our data collection ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "OK . So , we 're looking for a total of fifty people ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 10,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "In parallel with that , we 're gonna need to actually do the script ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 10,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "But what I 'd like to do , if it 's O K , {vocalsound} is to s to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 43,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And , um {disfmarker} and now it 's {disfmarker} We have a complete English parser that does everything the German parser does ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 201,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "This is what you would need to {disfmarker} to change {disfmarker} to get the , uh , XML changed ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 212,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "I think each of those functions act on the current XML structure , and change it in some way , for example , by adding a {disfmarker} a l a field to it , or something ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 319,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Uh , at some point we 're going to have to worry about the language end ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 321,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "This is {disfmarker} this is everything that {disfmarker} that , um , {pause} {vocalsound} you know , um {pause} we might want to do in the next couple years ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 335,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "It seems to me we can get {vocalsound} all the complexity we want in actions and in language without going outside of tourists in Heidelberg ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 337,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So , at least {disfmarker} unless somebody else wants t to suggest otherwise I think {vocalsound} the general domain we don't have t to uh , broaden ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 343,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "because there is an ontology ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Let 's {disfmarker} OK , so we have {vocalsound} the EVA vector for {disfmarker} for various kinds of landmarks ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 600,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "If you know it for a specific landmark you put it there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "It 's part of what you know about {disfmarker} a {disfmarker} an object , {vocalsound} is its EVA vector ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "If you know it for a specific landmark you put it there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 600,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "If you don't , you just go up the hierarchy to the first place you find one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 601,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "So , is the idea to put it in the ontology ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 602,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Absolutely ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 511,
+                            "sent_index": 14,
+                            "speaker": "Grad D",
+                            "content": "For example , they could be \" time of day \" ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 511,
+                            "sent_index": 15,
+                            "speaker": "Grad D",
+                            "content": "in which case we could , uh , say , you know , \" Morning , afternoon , evening , night \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 511,
+                            "sent_index": 18,
+                            "speaker": "Grad D",
+                            "content": "And , that 's a lot of probabilities to put here , which is kind of a pain ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 315,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "tu uh , tur change the description to , uh , English"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 425,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "I mean , once we have fulfilled these requirements ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So once that 's done , then all the rest of it is , uh , sort of , you know , what we want to do for the research ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "And we can {disfmarker} w we can do all sorts of things that don't fit into their framework at all ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "What was the advantage of using Noisy-ORs?",
+                "tokenized_answer": [
+                    "The actual number of the inputs in the Bayes-net can create a combinatorial explosion when setting the probabilities.",
+                    "Noisy-OR's can help avoid this by simplifying the probability tables and applying a deterministic function to produce their complete version."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 488,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "So , um {disfmarker} {vocalsound} Recall that , uh , we want to have this kind of structure in our Bayes - nets ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 488,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "Namely , that , um {disfmarker} {vocalsound} {vocalsound} You have these nodes that have several bands , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 511,
+                            "sent_index": 14,
+                            "speaker": "Grad D",
+                            "content": "For example , they could be \" time of day \" ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 511,
+                            "sent_index": 15,
+                            "speaker": "Grad D",
+                            "content": "in which case we could , uh , say , you know , \" Morning , afternoon , evening , night \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 511,
+                            "sent_index": 18,
+                            "speaker": "Grad D",
+                            "content": "And , that 's a lot of probabilities to put here , which is kind of a pain ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 511,
+                            "sent_index": 19,
+                            "speaker": "Grad D",
+                            "content": "So {pause} Noisy - ORs are a way to , uh , {vocalsound} sort of deal with this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 519,
+                            "sent_index": 14,
+                            "speaker": "Grad D",
+                            "content": "And the final thing is that , um {disfmarker} {vocalsound} {vocalsound} this is a deterministic function of these ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was suggested to incorporate the EVA into the Bayes-net?",
+                "tokenized_answer": [
+                    "Object representations will include an EVA vector.",
+                    "This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type.",
+                    "As the project evolves, further enrichment of the ontology (actions, linguistic features) will be necessary."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Let 's {disfmarker} OK , so we have {vocalsound} the EVA vector for {disfmarker} for various kinds of landmarks ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 604,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "It 's part of what you know about {disfmarker} a {disfmarker} an object , {vocalsound} is its EVA vector ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "If you know it for a specific landmark you put it there ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 600,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "If you don't , you just go up the hierarchy to the first place you find one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 601,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "So , is the idea to put it in the ontology ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 602,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Absolutely ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 319,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , this {disfmarker} and this , of course , was just the {vocalsound} {vocalsound} action end ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 319,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Uh , at some point we 're going to have to worry about the language end ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said about data collection?",
+                "tokenized_answer": [
+                    "As the data collection is about to begin, there are some minor changes to be done in the design of the experiment, the script and the permission forms.",
+                    "Subjects can be recruited either from within the university or through other social circles."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Th - this {disfmarker} this is s should be im it isn't {disfmarker} There 's another thing going on of gathering data ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "In parallel with that , we 're gonna need to actually do the script ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "which is we gonna check out our social infrastructures for possible subjects ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 24,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Uh , th I think they 're necessary ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 24,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "This {disfmarker} The permission form ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "But what I 'd like to do , if it 's O K , {vocalsound} is to s to , as I say , start the recruiting in parallel and possibly start running subjects next week ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "and maybe we 'll look for them {disfmarker} some subjects next door"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "So , if you happen to be sort of in a non - student social setting ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team say about interaction of data participants with their data?",
+                "tokenized_answer": [
+                    "The team wanted the data participants to minimize their contact with their data.",
+                    "They wanted them to sign a waiver first not to view the transcript by default only allowing them to view it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 30,
+                            "sent_index": 5,
+                            "speaker": "Professor B",
+                            "content": "I The last paragraph {comment} \" if you agree to participate you have the opportunity to have anything excised which you would prefer not to have included in the data set . \""
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 32,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Um , so what I 'd like to do is also have our subjects sign a waiver saying \" I don't want to see the final transcript \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And if they don't {disfmarker} If they say \" no , I 'm not willing to sign that \" , then we 'll show them the final transcript ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

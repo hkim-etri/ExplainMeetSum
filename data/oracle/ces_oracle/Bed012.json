@@ -1,0 +1,249 @@
+{
+    "transcripts_id": "Bed012",
+    "general_query_list": [
+        {
+            "query": "What\u2019s the summary of the meeting?",
+            "oracle_info": [
+                {
+                    "turn_index": 8,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "and {disfmarker} for each of the situation nodes that we observed in the Bayes - net ?"
+                },
+                {
+                    "turn_index": 15,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well , yeah . I just don't know if this is th l what the {disfmarker} Does {disfmarker} This is what Java Bayes takes ? as a Bayes - net spec ?"
+                },
+                {
+                    "turn_index": 20,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "which we view as input into the Bayes - net ."
+                },
+                {
+                    "turn_index": 21,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "That put it into the format that the Bayes n or Java Bayes or whatever wants ?"
+                },
+                {
+                    "turn_index": 349,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "OK , then . Let 's meet {disfmarker} meet again next Tuesday ."
+                },
+                {
+                    "turn_index": 349,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "And , um , finish up this Bayes - net ."
+                },
+                {
+                    "turn_index": 356,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "And we present our results ,"
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "OK . Because then , once we have it sort of up and running , then we can start you know , defining the interfaces"
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 4,
+                    "speaker": "Grad B",
+                    "content": "and then hook it up to some fake construction parser"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "What was the structure of the Bayes-net discussed.",
+            "oracle_info": [
+                {
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's"
+                },
+                {
+                    "turn_index": 189,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "And some {disfmarker} some things will always be sort of too {disfmarker} not significant enough ."
+                },
+                {
+                    "turn_index": 234,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                },
+                {
+                    "turn_index": 236,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes ,"
+                }
+            ]
+        },
+        {
+            "query": "What was discussed about contextualizing output?",
+            "oracle_info": [
+                {
+                    "turn_index": 230,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "because some of the things aren't relevant in the Bayes - net for a specific question ."
+                },
+                {
+                    "turn_index": 234,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node ."
+                },
+                {
+                    "turn_index": 236,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes ,"
+                },
+                {
+                    "turn_index": 249,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "I mean , maybe it does make a difference in terms of performance , computational time ."
+                },
+                {
+                    "turn_index": 255,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "So basically , you 'd have a decision tree {pause} query , {pause} Go - there ."
+                },
+                {
+                    "turn_index": 255,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "And just basically do a binary search through the {disfmarker} ?"
+                },
+                {
+                    "turn_index": 223,
+                    "sent_index": 2,
+                    "speaker": "Grad B",
+                    "content": "pru {comment} Take the ones where we have a clear winner ."
+                },
+                {
+                    "turn_index": 223,
+                    "sent_index": 8,
+                    "speaker": "Grad B",
+                    "content": "And not care whether that 's consistent with anything ."
+                }
+            ]
+        },
+        {
+            "query": "How does the bayes-net deal with inputs?",
+            "oracle_info": [
+                {
+                    "turn_index": 177,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Based on the k what the question was , so what the discourse , the ontology , the situation and the user model gave us , we came up with these values for these decisions ."
+                },
+                {
+                    "turn_index": 178,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "that would take all of the inputs and weight them appropriately for that question ."
+                },
+                {
+                    "turn_index": 313,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "So , we have to come up with values for this , and this , this , this , and so forth ."
+                },
+                {
+                    "turn_index": 74,
+                    "sent_index": 7,
+                    "speaker": "Grad B",
+                    "content": "So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output ."
+                },
+                {
+                    "turn_index": 175,
+                    "sent_index": 1,
+                    "speaker": "Grad B",
+                    "content": "What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities ."
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , the Go - there , the Info - on , and the Location ?"
+                },
+                {
+                    "turn_index": 175,
+                    "sent_index": 5,
+                    "speaker": "Grad B",
+                    "content": "\" Uh , go there , Timing , now . \""
+                },
+                {
+                    "turn_index": 189,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach ."
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "I guess they are evenly weighted ."
+                },
+                {
+                    "turn_index": 151,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "The different decision nodes , you mean ?"
+                },
+                {
+                    "turn_index": 158,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "If we trusted the Go - there node more th much more than we trusted the other ones , then we would conclude , even in this situation , that he wanted to go there ."
+                },
+                {
+                    "turn_index": 11,
+                    "sent_index": 1,
+                    "speaker": "Grad C",
+                    "content": "y Why are you specifying it in XML ?"
+                },
+                {
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "And , also , I mean , this is a {disfmarker} what the input is going to be ."
+                },
+                {
+                    "turn_index": 48,
+                    "sent_index": 0,
+                    "speaker": "Grad B",
+                    "content": "Look at that Struct in the {disfmarker} the output ,"
+                },
+                {
+                    "turn_index": 49,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Well i well , it 's an XML Structure that 's being res returned ,"
+                }
+            ]
+        }
+    ]
+}

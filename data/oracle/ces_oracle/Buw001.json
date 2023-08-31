@@ -1,0 +1,354 @@
+{
+    "transcripts_id": "Buw001",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 26,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "So we said {disfmarker} we said data collection , which we 're doing ."
+                },
+                {
+                    "turn_index": 70,
+                    "sent_index": 2,
+                    "speaker": "Professor A",
+                    "content": "getting people to do summaries afterwards ."
+                },
+                {
+                    "turn_index": 99,
+                    "sent_index": 0,
+                    "speaker": "Professor A",
+                    "content": "But anyway , shall we do the roll call ?"
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "which is , um , we certainly do want to branch out beyond , uh , uh , recording meetings about Meeting Recorder ."
+                },
+                {
+                    "turn_index": 327,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "but in most meetings that I attend , there 's somebody t explicitly taking notes , frequently on a laptop {disfmarker}"
+                },
+                {
+                    "turn_index": 442,
+                    "sent_index": 2,
+                    "speaker": "Professor D",
+                    "content": "They {disfmarker} they {disfmarker} they {disfmarker} they h must have had some discussion about video and the visual aspect , and all that ."
+                },
+                {
+                    "turn_index": 583,
+                    "sent_index": 3,
+                    "speaker": "Professor D",
+                    "content": "And then the next thing we talked about was the {disfmarker} was the summaries"
+                },
+                {
+                    "turn_index": 641,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "People in the meeting ."
+                },
+                {
+                    "turn_index": 643,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "You know , just at {disfmarker} at the end of the meeting , before you go ,"
+                },
+                {
+                    "turn_index": 949,
+                    "sent_index": 3,
+                    "speaker": "Professor A",
+                    "content": "Uh , and then going around the room at the end to just say {disfmarker} qu ask people to mention something interesting that they learned ."
+                },
+                {
+                    "turn_index": 591,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I guess the point was to try {disfmarker} again , to try to collect more information that could be useful later for {disfmarker} for the UI stuff ."
+                },
+                {
+                    "turn_index": 612,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I guess a lot of the stuff we 're doing now really is pilot"
+                },
+                {
+                    "turn_index": 920,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "does building queries based on what 's important now introduce an irreversible bias on being able to do what Morgan wants to do later ?"
+                },
+                {
+                    "turn_index": 924,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "I {disfmarker} I {disfmarker} I mean , I guess what I what I {disfmarker} I keep coming back to in my own mind is that , um , the soonest we can do it , we need to get up some kind of system"
+                },
+                {
+                    "turn_index": 934,
+                    "sent_index": 3,
+                    "speaker": "Postdoc H",
+                    "content": "But , um , I {disfmarker} I {disfmarker} I feel like the summary gets {pause} at a different type of information ."
+                },
+                {
+                    "turn_index": 935,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I think \" important \" can often be uninteresting ."
+                },
+                {
+                    "turn_index": 947,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "uh , and also moving on to action items and other things ,"
+                },
+                {
+                    "turn_index": 947,
+                    "sent_index": 7,
+                    "speaker": "Professor A",
+                    "content": "And if they are , then we 'll try to get m do it more ."
+                },
+                {
+                    "turn_index": 1071,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "What I have down for action items is we 're supposed to find out about our human subject , um , {vocalsound} requirements ."
+                },
+                {
+                    "turn_index": 1164,
+                    "sent_index": 2,
+                    "speaker": "Postdoc H",
+                    "content": "um , the on - line , uh , data that Adam set up ,"
+                },
+                {
+                    "turn_index": 1175,
+                    "sent_index": 1,
+                    "speaker": "Grad G",
+                    "content": "different level , prosody and all that sort of stuff ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about generating queries",
+            "oracle_info": [
+                {
+                    "turn_index": 742,
+                    "sent_index": 0,
+                    "speaker": "Grad G",
+                    "content": "We {disfmarker} we 've just been talking , how do we generate queries ?"
+                },
+                {
+                    "turn_index": 745,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "so , the question I had is is have we given any thought to how we would generate queries automatically given a summary ?"
+                },
+                {
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "so that it may not be a feasible thing ."
+                },
+                {
+                    "turn_index": 820,
+                    "sent_index": 1,
+                    "speaker": "Postdoc H",
+                    "content": "which would be \" what was the most interesting thing you got out of this meeting ? \""
+                },
+                {
+                    "turn_index": 821,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "That 's a good one ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD F think about generating queries?",
+            "oracle_info": [
+                {
+                    "turn_index": 745,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "so , the question I had is is have we given any thought to how we would generate queries automatically given a summary ?"
+                },
+                {
+                    "turn_index": 745,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "I mean , I think that 's a whole research topic un unto itself ,"
+                },
+                {
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "so that it may not be a feasible thing ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD B think about automatically generating queries?",
+            "oracle_info": [
+                {
+                    "turn_index": 750,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Shouldn't Landay and his group be in charge of figuring out how to do this ?"
+                },
+                {
+                    "turn_index": 752,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "I mean , this is an issue that goes a little bit beyond where {pause} we are right now ."
+                },
+                {
+                    "turn_index": 799,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "But the people will just look at the summaries or the minutes and re and sort of back - generate the queries ."
+                },
+                {
+                    "turn_index": 799,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "That 's what I 'm worried about ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on diversity in speech data",
+            "oracle_info": [
+                {
+                    "turn_index": 1335,
+                    "sent_index": 1,
+                    "speaker": "Professor A",
+                    "content": "So , I think that {disfmarker} that there 's a good chance we could get more variety ."
+                },
+                {
+                    "turn_index": 1336,
+                    "sent_index": 1,
+                    "speaker": "Postdoc H",
+                    "content": "Just want to be sure there 's enough data to {disfmarker}"
+                },
+                {
+                    "turn_index": 1338,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "They 're still gonna overlap ,"
+                },
+                {
+                    "turn_index": 1346,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So it also depends on the style of the group of people ."
+                },
+                {
+                    "turn_index": 1359,
+                    "sent_index": 0,
+                    "speaker": "Postdoc H",
+                    "content": "Fine . And I {disfmarker} you know , I {disfmarker} I know that the near f near - field mikes will take care of also the problems to s to a certain degree ."
+                },
+                {
+                    "turn_index": 1348,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "Like the , um , dominance relations of the people in the meeting ."
+                },
+                {
+                    "turn_index": 1351,
+                    "sent_index": 0,
+                    "speaker": "Postdoc H",
+                    "content": "It 's just {disfmarker}"
+                },
+                {
+                    "turn_index": 1445,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "But what he means is that {disfmarker} You know , Mark was really a fan of getting as much data as possible from {disfmarker} you know , reams and reams of stuff , of broadcast stuff ,"
+                },
+                {
+                    "turn_index": 1449,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "TV stuff ,"
+                },
+                {
+                    "turn_index": 1449,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "radio stuff ."
+                }
+            ]
+        },
+        {
+            "query": "What did PhD B think about meeting diversity?",
+            "oracle_info": [
+                {
+                    "turn_index": 1340,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "but {disfmarker} Mark and others have said that there 's quite a lot of found data {comment} from the discourse community that has this characteristic"
+                },
+                {
+                    "turn_index": 1377,
+                    "sent_index": 9,
+                    "speaker": "PhD B",
+                    "content": "And , I guess we just left it as {disfmarker} @ @ {comment} that {pause} if there 's found data that can be transformed for use in speech recognition easily , then of course we would do it ,"
+                },
+                {
+                    "turn_index": 1379,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "but newly collected data would {disfmarker} would be natural meetings ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about politics around collected data?",
+            "oracle_info": [
+                {
+                    "turn_index": 1380,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "Actually , th @ @ {comment} the CMU folk have collected a lot of data ."
+                },
+                {
+                    "turn_index": 1380,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "Is that {disfmarker} is that going to be publicly available ,"
+                },
+                {
+                    "turn_index": 1381,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "As far as I know , they h have not ."
+                },
+                {
+                    "turn_index": 1386,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "but I {disfmarker} I got the feeling there was some politics involved ."
+                },
+                {
+                    "turn_index": 1402,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "But as far as I know they didn't offer that data to the community at this meeting ."
+                },
+                {
+                    "turn_index": 1404,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "We should keep in touch with him ."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1477 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group discussed digits data, recent ASR results, the status of transcriptions, and disk space and storage format issues.",
+            "Approximately two hours of digits have been recorded, half of which have been extracted.",
+            "Researchers doing ASR are looking into methods for generating a better channel-based segmentation to improve recognition results for close-talking microphone data.",
+            "Transcription checking procedures were reviewed, and efforts to coordinate the channelization and presegmention of data with the tightening of time bins were discussed.",
+            "The group also talked about downsampling and strategies for coping with low disk space.",
+            "Digits forms will instruct speakers to read digits separately and not as connected numbers.",
+            "A tentative decision was made to collect overlapping digits from speakers.",
+            "Transcribers will be given channelized data that has been segmented for speech/non-speech boundaries to determine whether such pre-processing facilitates the transcription process.",
+            "Participants have been slow in returning the relevant forms necessary for matching digits data with speaker IDs. Forms containing digits that were written out in English were unsuccessful for obtaining desired prosodic groupings.",
+            "Acoustic adaptation is problematic for speakers who seldom talk during meetings.",
+            "Speaker overlap causes recognition errors.",
+            "The lapel microphone is problematic as it picks up overlapping background speech.",
+            "More disk space is needed.",
+            "Loading long waveforms in X Waves is very time consuming.",
+            "The dictionary must be updated with forms introduced as part of speaker fe008's set of transcription conventions.",
+            "The ongoing tightening of boundaries on time bins causes segment boundaries to change, indicating potential problems for other ongoing processing tasks.",
+            "A test set of digits data totalling two hours is nearly complete.",
+            "Digit extraction has been performed on roughly half of this data.",
+            "Future work may involve experimenting with the reading of digits in different prosodic groupings.",
+            "Preliminary ASR results were discussed.",
+            "Subsequent efforts will involve generating a better channel-based segmentation, and possibly doing echo cancellation, to improve recognition on the close-talking microphone data.",
+            "Filename conventions are being standardized.",
+            "Transcription checking procedures have been formalized, including a spell check, producing an exhaustive list of forms identified in the data, attributing every utterance to the appropriate speaker ID, glossing spoken forms with their full orthographic counterparts, e.g. 'cuz' and 'because', transcribing acronyms, and encoding comments, i.e. glosses, vocalic and non-vocalic non-speech events, pragmatic cues, and the standardization of spoken forms, e.g. 'mm-hmm'.",
+            "Scripts will be used to convert a channelized master copy into forms that are appropriate for doing both recognition and linguistic analysis.",
+            "Coordinated efforts are in progress between the transcriber pool and speaker mn014 to fine-tune presegmented output to handle data from a variety of speakers and regions of speaker overlap."
+        ],
+        "answer_sentence_index": [
+            "Bmr016.s.1",
+            "Bmr016.s.2",
+            "Bmr016.s.3",
+            "Bmr016.s.4",
+            "Bmr016.s.5",
+            "Bmr016.s.6",
+            "Bmr016.s.7",
+            "Bmr016.s.8",
+            "Bmr016.s.9",
+            "Bmr016.s.10",
+            "Bmr016.s.11",
+            "Bmr016.s.12",
+            "Bmr016.s.13",
+            "Bmr016.s.14",
+            "Bmr016.s.15",
+            "Bmr016.s.16",
+            "Bmr016.s.17",
+            "Bmr016.s.18",
+            "Bmr016.s.19",
+            "Bmr016.s.20",
+            "Bmr016.s.21",
+            "Bmr016.s.22",
+            "Bmr016.s.23",
+            "Bmr016.s.24",
+            "Bmr016.s.25"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So the other topic with digits is uh ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 26,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Liz would like to elicit different prosodics ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 26,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "And it just didn't work at all"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 341,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So if somebody wanted to do that , if they wanted to look at the {disfmarker} the {disfmarker} the difference of the uh phones in the digits in the context of a word versus uh the digits {disfmarker} a {disfmarker} a non - digit word versus in digit word , uh that would be a good thing to do ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 347,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "We have ASR results from Liz ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 347,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "transcript status from Jane ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 347,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "and disk space and storage formats from Don ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "We have about two hours worth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "I extracted out about an hour 's worth"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 14,
+                    "speaker": "Grad D",
+                    "content": "So what that means is we have about an hour of transcribed digits that we can play with ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 347,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "We have ASR results from Liz ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 12,
+                    "speaker": "PhD G",
+                    "content": "um , leads us to believe that doing a better segmentation , like your channel - based segmentation , or some kind of uh , echo cancellation to get basically back down to the individual speaker utterances would be probably all that we would need to be able to do good recognition on the {disfmarker} on the close - talking mikes ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 707,
+                    "sent_index": 5,
+                    "speaker": "Postdoc E",
+                    "content": "Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 707,
+                    "sent_index": 9,
+                    "speaker": "Postdoc E",
+                    "content": "which means s self - repairs and all these other factors , that there 're lots of things to be , um , s standardized and streamlined and checked on ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1371,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "Well I wanted to say also regarding the channelized data ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1374,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "that , um , Thilo requested , um , that we ge get some segments done by hand to e e s reduce the size of the time bins"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1390,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "So I {disfmarker} I thought we {disfmarker} we sh we sh perhaps we should try to {disfmarker} to start with those channelized versions"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1393,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "As it stands we 're still in the phase of sort of , um , cleaning up the existing data"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1393,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "getting things , uh , in i m more tight tightly time {disfmarker} uh , aligned ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 555,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "but all the waveform {disfmarker} {comment} Sound files should not be backed up ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 563,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "We can downsample them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 569,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "I mean the r the front - end on the SRI recognizer just downsamples them on the fly ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 570,
+                    "sent_index": 0,
+                    "speaker": "Grad C",
+                    "content": "Yeah , I guess the only argument against downsampling is to preserve just the original files in case we want to experiment with different filtering techniques ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 586,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "and compress it however you 're e the SRI recognizer wants to take it in ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 589,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "So we can't shorten them ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 598,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "That {disfmarker} that 's why we need more disk space"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 612,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Um , it 's better if they 're chopped out ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 680,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "I {disfmarker} I think overall you could get everything to work by accessing the same waveform and trying to find two {disfmarker} you know , the begin and end times ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 680,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "but I think it 's more efficient , if we have the storage space , to have the small ones ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "OK so {disfmarker} so I can just add to the instructions to read it as digits"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "not as connected numbers ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 215,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "The {disfmarker} the problem I see with trying to do overlapping digits is the cognitive load ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 236,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "all the acoustic stuff that like Dan Ellis and {disfmarker} and company want to do ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 290,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "I don't think we 're gonna collect vast amounts of data that way ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 293,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "but I think having a little bit might at least be fun for somebody like Dan to play around with ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 303,
+                    "sent_index": 1,
+                    "speaker": "Professor F",
+                    "content": "Spend the whole time reading digits with different qu quantities ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1390,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "Give it {disfmarker} Give one tr transcriber the {disfmarker} the channelized version of {disfmarker} of my speech - nonspeech detection"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1390,
+                    "sent_index": 3,
+                    "speaker": "PhD A",
+                    "content": "and look if {disfmarker} if that 's helpful for them ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 18,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "and then waiting for more people to turn in their speaker forms ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "and they 're slowly s trickling in ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So the relevance of the speaker form here , s"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "It 's for labeling the extracted audio files ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "By speaker ID and microphone type ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Liz would like to elicit different prosodics ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "and so we tried last week with them written out in English ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "And it just didn't work at all"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 6,
+                    "speaker": "Grad D",
+                    "content": "because no one grouped them together ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 181,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "Especially for speakers that don't talk a lot ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 187,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "so we have a problem with acoustic adaptation ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 350,
+                    "sent_index": 7,
+                    "speaker": "PhD G",
+                    "content": "like it 's not the speaking style that differs ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 8,
+                    "speaker": "PhD G",
+                    "content": "it 's the fact that there 's overlap that causes recognition errors ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 403,
+                    "sent_index": 6,
+                    "speaker": "PhD G",
+                    "content": "so with a one - word utterance and ten insertions you know you got huge error rate ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 365,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "I guess the other neat thing is it shows for sure w that the lapel , you know within speaker is bad ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 367,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And it 's bad because it picks up the overlapping speech ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 598,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "That {disfmarker} that 's why we need more disk space"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 600,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "cuz we 're basically duplicating the originals , um {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 641,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "You can't load an hour of speech into X Waves ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 646,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Yeah , if you try to load s really long waveform into X Waves , you 'll be waiting there for {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 823,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "And so then we 'll have everything following these conventions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 823,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "But you notice it 's really rather a small set of these kinds of things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1181,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "but if there 's things that um , we change later , then we always have to keep our {disfmarker} the dictionary up to date ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1414,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "Well , you know the problem {disfmarker} the problem is that some {disfmarker} some of the adjustments that they 're making are to bring {disfmarker} are to combine bins that were {disfmarker} time bins which were previously separate ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1444,
+                    "sent_index": 0,
+                    "speaker": "PhD B",
+                    "content": "But the {disfmarker} I guess the ef the effect for you guys , because you 're pulling out the little wave forms into separate ones , that would mean these boundaries are constantly changing"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1454,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "but if you split inside something , you don't where the word {disfmarker} which words moved ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 1456,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "And that 's wh that 's where it becomes a little bit {disfmarker} uh , having to rerun the processing ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 8,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "Um , so we 're pretty much out of digits ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "We 've gone once through the set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 4,
+                    "speaker": "Grad D",
+                    "content": "We have about two hours worth ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 120,
+                    "sent_index": 2,
+                    "speaker": "Professor F",
+                    "content": "And you 're saying two hours , uh , is digits ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 5,
+                    "speaker": "Grad D",
+                    "content": "I extracted out about an hour 's worth"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 12,
+                    "sent_index": 14,
+                    "speaker": "Grad D",
+                    "content": "So what that means is we have about an hour of transcribed digits that we can play with ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "speaker": "Professor F",
+                    "content": "So you think two {disfmarker} you think two hours is the {disfmarker} is the total that we have ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 14,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "Grad D",
+                    "content": "you 'll always read the string correctly ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 2,
+                    "speaker": "Grad D",
+                    "content": "So the other topic with digits is uh ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 3,
+                    "speaker": "Grad D",
+                    "content": "Liz would like to elicit different prosodics ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 347,
+                    "sent_index": 1,
+                    "speaker": "Grad D",
+                    "content": "We have ASR results from Liz ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "um , it 's pretty preliminary in terms of ASR results"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 350,
+                    "sent_index": 12,
+                    "speaker": "PhD G",
+                    "content": "um , leads us to believe that doing a better segmentation , like your channel - based segmentation , or some kind of uh , echo cancellation to get basically back down to the individual speaker utterances would be probably all that we would need to be able to do good recognition on the {disfmarker} on the close - talking mikes ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 458,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "that 's really the next step"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 493,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "So at this point we can sort of finalize the naming , and so forth ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 496,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "and \" M O - two \" in another meeting and it 's {disfmarker} we just need to standardize the"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 707,
+                    "sent_index": 5,
+                    "speaker": "Postdoc E",
+                    "content": "Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 707,
+                    "sent_index": 6,
+                    "speaker": "Postdoc E",
+                    "content": "and {disfmarker} {vocalsound} and I can {vocalsound} tell you first , uh , to go through the steps"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 707,
+                    "sent_index": 12,
+                    "speaker": "Postdoc E",
+                    "content": "and the first thing I did was obviously a spell - check ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 707,
+                    "sent_index": 16,
+                    "speaker": "Postdoc E",
+                    "content": "And then , in addition to that , I did an exhaustive listing of the forms in the data file ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 4,
+                    "speaker": "Postdoc E",
+                    "content": "And th and then another check involves , uh , being sure that every utterance has an identifiable speaker ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 6,
+                    "speaker": "Postdoc E",
+                    "content": "Then there 's this issue of glossing s w so - called \" spoken - forms \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 18,
+                    "speaker": "Postdoc E",
+                    "content": "so that it 's possible with the script to plug in the full orthographic form for that one ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 727,
+                    "sent_index": 24,
+                    "speaker": "Postdoc E",
+                    "content": "And Chuck , you in you indicated that \" cuz \" is {disfmarker} is one of those that 's handled in a different way also , didn't you ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 739,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "And the way I tag ac pronounced acronyms is that I have underscores between the components ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 779,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "the things in curly brackets are viewed as comments ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 781,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "One of them is , um , the gloss type we just mentioned ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 787,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "Uh , then you have if it 's {disfmarker} uh , there 're a couple different types of elements that can happen that aren't really properly words ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 795,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "And then the third type right now , {vocalsound} uh , is {pause} m things that fall in the category of comments about what 's happening ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 810,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "and so to have \" while laughing \" , you know that it happened somewhere in there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 810,
+                    "sent_index": 4,
+                    "speaker": "Postdoc E",
+                    "content": "which could well mean that it occurred separately and following ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 810,
+                    "sent_index": 12,
+                    "speaker": "Postdoc E",
+                    "content": "which has to do with the spoken forms like \" mm - hmm \" and \" mm - hmm \" and \" ha \" and \" uh - uh \" and all these different types ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 810,
+                    "sent_index": 17,
+                    "speaker": "Postdoc E",
+                    "content": "So , right now I 've standardized across all the existing data with these spoken forms ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1308,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "where we 're gonna have a master file of the channelized data ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1308,
+                    "sent_index": 1,
+                    "speaker": "Postdoc E",
+                    "content": "Um , there will be scripts that are written to convert it into these t these main two uses"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1308,
+                    "sent_index": 2,
+                    "speaker": "Postdoc E",
+                    "content": "and th some scripts will take it down th e into a f a for ta take it to a format that 's usable for the recognizer"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1308,
+                    "sent_index": 3,
+                    "speaker": "Postdoc E",
+                    "content": "an uh , other scripts will take it to a form that 's usable for the {disfmarker} for linguistics an and discourse analysis ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1374,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "that , um , Thilo requested , um , that we ge get some segments done by hand to e e s reduce the size of the time bins"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1381,
+                    "sent_index": 0,
+                    "speaker": "Postdoc E",
+                    "content": "And he requested that there be , uh , similar , uh , samples done for five minute stretches c involving a variety of speakers and overlapping secti sections ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize what was said about digits form",
+                "tokenized_answer": [
+                    "The group discussed digits data, recent ASR results, the status of transcriptions, and disk space and storage format issues.",
+                    "Approximately two hours of digits have been recorded, half of which have been extracted.",
+                    "Researchers doing ASR are looking into methods for generating a better channel-based segmentation to improve recognition results for close-talking microphone data.",
+                    "Transcription checking procedures were reviewed, and efforts to coordinate the channelization and presegmention of data with the tightening of time bins were discussed.",
+                    "The group also talked about downsampling and strategies for coping with low disk space."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "So the other topic with digits is uh ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 26,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "Liz would like to elicit different prosodics ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 26,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "And it just didn't work at all"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 341,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "So if somebody wanted to do that , if they wanted to look at the {disfmarker} the {disfmarker} the difference of the uh phones in the digits in the context of a word versus uh the digits {disfmarker} a {disfmarker} a non - digit word versus in digit word , uh that would be a good thing to do ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 347,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "We have ASR results from Liz ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 347,
+                            "sent_index": 2,
+                            "speaker": "Grad D",
+                            "content": "transcript status from Jane ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 347,
+                            "sent_index": 3,
+                            "speaker": "Grad D",
+                            "content": "and disk space and storage formats from Don ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "We have about two hours worth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "I extracted out about an hour 's worth"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 14,
+                            "speaker": "Grad D",
+                            "content": "So what that means is we have about an hour of transcribed digits that we can play with ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 350,
+                            "sent_index": 3,
+                            "speaker": "PhD G",
+                            "content": "um , it 's pretty preliminary in terms of ASR results"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 350,
+                            "sent_index": 12,
+                            "speaker": "PhD G",
+                            "content": "um , leads us to believe that doing a better segmentation , like your channel - based segmentation , or some kind of uh , echo cancellation to get basically back down to the individual speaker utterances would be probably all that we would need to be able to do good recognition on the {disfmarker} on the close - talking mikes ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 5,
+                            "speaker": "Postdoc E",
+                            "content": "Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 707,
+                            "sent_index": 9,
+                            "speaker": "Postdoc E",
+                            "content": "which means s self - repairs and all these other factors , that there 're lots of things to be , um , s standardized and streamlined and checked on ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1371,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Well I wanted to say also regarding the channelized data ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1374,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "that , um , Thilo requested , um , that we ge get some segments done by hand to e e s reduce the size of the time bins"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1390,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So I {disfmarker} I thought we {disfmarker} we sh we sh perhaps we should try to {disfmarker} to start with those channelized versions"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1393,
+                            "sent_index": 2,
+                            "speaker": "Postdoc E",
+                            "content": "As it stands we 're still in the phase of sort of , um , cleaning up the existing data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1393,
+                            "sent_index": 3,
+                            "speaker": "Postdoc E",
+                            "content": "getting things , uh , in i m more tight tightly time {disfmarker} uh , aligned ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 555,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "but all the waveform {disfmarker} {comment} Sound files should not be backed up ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 563,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "We can downsample them ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 569,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I mean the r the front - end on the SRI recognizer just downsamples them on the fly ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 570,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "Yeah , I guess the only argument against downsampling is to preserve just the original files in case we want to experiment with different filtering techniques ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 589,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "So we can't shorten them ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 598,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "That {disfmarker} that 's why we need more disk space"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 680,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "I {disfmarker} I think overall you could get everything to work by accessing the same waveform and trying to find two {disfmarker} you know , the begin and end times ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 680,
+                            "sent_index": 3,
+                            "speaker": "PhD G",
+                            "content": "but I think it 's more efficient , if we have the storage space , to have the small ones ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize what was said about digits form",
+                "tokenized_answer": [
+                    "Digits forms will instruct speakers to read digits separately and not as connected numbers.",
+                    "A tentative decision was made to collect overlapping digits from speakers."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "OK so {disfmarker} so I can just add to the instructions to read it as digits"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 85,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "not as connected numbers ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 215,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "The {disfmarker} the problem I see with trying to do overlapping digits is the cognitive load ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 236,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "all the acoustic stuff that like Dan Ellis and {disfmarker} and company want to do ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 290,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "I don't think we 're gonna collect vast amounts of data that way ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 293,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "but I think having a little bit might at least be fun for somebody like Dan to play around with ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 303,
+                            "sent_index": 1,
+                            "speaker": "Professor F",
+                            "content": "Spend the whole time reading digits with different qu quantities ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What\u2019s the status of digits data?",
+                "tokenized_answer": [
+                    "A test set of digits data totalling two hours is nearly complete.",
+                    "Digit extraction has been performed on roughly half of this data"
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Um , so we 're pretty much out of digits ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "We 've gone once through the set ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 4,
+                            "speaker": "Grad D",
+                            "content": "We have about two hours worth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "And you 're saying two hours , uh , is digits ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 5,
+                            "speaker": "Grad D",
+                            "content": "I extracted out about an hour 's worth"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 12,
+                            "sent_index": 14,
+                            "speaker": "Grad D",
+                            "content": "So what that means is we have about an hour of transcribed digits that we can play with ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 13,
+                            "sent_index": 0,
+                            "speaker": "Professor F",
+                            "content": "So you think two {disfmarker} you think two hours is the {disfmarker} is the total that we have ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 14,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "yeah ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What additional assignments were proposed about the digits?",
+                "tokenized_answer": [
+                    "Future work may involve experimenting with the reading of digits in different prosodic groupings."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 337,
+                            "sent_index": 2,
+                            "speaker": "Professor F",
+                            "content": "so I mean , I presume that the reason that you wanted to have these digits this way is because you wanted to actually do some research looking at the prosodic form here ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was said on the status of transcription?",
+                "tokenized_answer": [
+                    "Transcription checking procedures were reviewed, and efforts to coordinate the channelization and presegmention of data with the tightening of time bins were discussed."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 5,
+                            "speaker": "Postdoc E",
+                            "content": "Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 707,
+                            "sent_index": 9,
+                            "speaker": "Postdoc E",
+                            "content": "which means s self - repairs and all these other factors , that there 're lots of things to be , um , s standardized and streamlined and checked on ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1371,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "Well I wanted to say also regarding the channelized data ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1374,
+                            "sent_index": 0,
+                            "speaker": "Postdoc E",
+                            "content": "that , um , Thilo requested , um , that we ge get some segments done by hand to e e s reduce the size of the time bins"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1390,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "So I {disfmarker} I thought we {disfmarker} we sh we sh perhaps we should try to {disfmarker} to start with those channelized versions"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1393,
+                            "sent_index": 2,
+                            "speaker": "Postdoc E",
+                            "content": "As it stands we 're still in the phase of sort of , um , cleaning up the existing data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1393,
+                            "sent_index": 3,
+                            "speaker": "Postdoc E",
+                            "content": "getting things , uh , in i m more tight tightly time {disfmarker} uh , aligned ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What solution was proposed for the transcribers?",
+                "tokenized_answer": [
+                    "Transcribers will be given channelized data that has been segmented for speech/non-speech boundaries to determine whether such pre-processing facilitates the transcription process."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1390,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "Give it {disfmarker} Give one tr transcriber the {disfmarker} the channelized version of {disfmarker} of my speech - nonspeech detection"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1390,
+                            "sent_index": 3,
+                            "speaker": "PhD A",
+                            "content": "and look if {disfmarker} if that 's helpful for them ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was included in the transcription formalization?",
+                "tokenized_answer": [
+                    "Transcription checking procedures have been formalized, including a spell check, producing an exhaustive list of forms identified in the data, attributing every utterance to the appropriate speaker ID, glossing spoken forms with their full orthographic counterparts, e.g. 'cuz' and 'because', transcribing acronyms, and encoding comments, i.e. glosses, vocalic and non-vocalic non-speech events, pragmatic cues, and the standardization of spoken forms, e.g. 'mm-hmm'."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 5,
+                            "speaker": "Postdoc E",
+                            "content": "Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 6,
+                            "speaker": "Postdoc E",
+                            "content": "and {disfmarker} {vocalsound} and I can {vocalsound} tell you first , uh , to go through the steps"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 12,
+                            "speaker": "Postdoc E",
+                            "content": "and the first thing I did was obviously a spell - check ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 707,
+                            "sent_index": 16,
+                            "speaker": "Postdoc E",
+                            "content": "And then , in addition to that , I did an exhaustive listing of the forms in the data file ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 4,
+                            "speaker": "Postdoc E",
+                            "content": "And th and then another check involves , uh , being sure that every utterance has an identifiable speaker ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 6,
+                            "speaker": "Postdoc E",
+                            "content": "Then there 's this issue of glossing s w so - called \" spoken - forms \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 18,
+                            "speaker": "Postdoc E",
+                            "content": "so that it 's possible with the script to plug in the full orthographic form for that one ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 727,
+                            "sent_index": 24,
+                            "speaker": "Postdoc E",
+                            "content": "And Chuck , you in you indicated that \" cuz \" is {disfmarker} is one of those that 's handled in a different way also , didn't you ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 739,
+                            "sent_index": 3,
+                            "speaker": "Postdoc E",
+                            "content": "And the way I tag ac pronounced acronyms is that I have underscores between the components ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 779,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "the things in curly brackets are viewed as comments ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 781,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "One of them is , um , the gloss type we just mentioned ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 787,
+                            "sent_index": 1,
+                            "speaker": "Postdoc E",
+                            "content": "Uh , then you have if it 's {disfmarker} uh , there 're a couple different types of elements that can happen that aren't really properly words ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 795,
+                            "sent_index": 3,
+                            "speaker": "Postdoc E",
+                            "content": "And then the third type right now , {vocalsound} uh , is {pause} m things that fall in the category of comments about what 's happening ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 810,
+                            "sent_index": 3,
+                            "speaker": "Postdoc E",
+                            "content": "and so to have \" while laughing \" , you know that it happened somewhere in there"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 810,
+                            "sent_index": 4,
+                            "speaker": "Postdoc E",
+                            "content": "which could well mean that it occurred separately and following ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 810,
+                            "sent_index": 12,
+                            "speaker": "Postdoc E",
+                            "content": "which has to do with the spoken forms like \" mm - hmm \" and \" mm - hmm \" and \" ha \" and \" uh - uh \" and all these different types ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 810,
+                            "sent_index": 17,
+                            "speaker": "Postdoc E",
+                            "content": "So , right now I 've standardized across all the existing data with these spoken forms ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

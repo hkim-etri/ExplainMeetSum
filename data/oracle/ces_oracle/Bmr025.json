@@ -1,0 +1,408 @@
+{
+    "transcripts_id": "Bmr025",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 1,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "Agenda is {disfmarker} according to this , is transcription status , DARPA demos XML tools , disks , backups , et cetera and"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been working on using the THISL tools to do information retrieval on meeting data"
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "And so I 've written some tools to convert everything into the right for file formats ."
+                },
+                {
+                    "turn_index": 259,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "I don't think anyone has done this on meeting data"
+                },
+                {
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                },
+                {
+                    "turn_index": 3,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Transcription status ?"
+                },
+                {
+                    "turn_index": 4,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "They 're making great progress ."
+                },
+                {
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "as a somewhat segue into the next topic , um could I get a hold of uh the data even if it 's not really corrected yet"
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Um and then just {disfmarker} we 'll have to remember to delete them once the corrections are made ."
+                },
+                {
+                    "turn_index": 114,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "So if we wanna just do a video - based one I think that 'll be easy ."
+                },
+                {
+                    "turn_index": 251,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "visualizing what these features are doing"
+                },
+                {
+                    "turn_index": 254,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah . Well , this is to an audience of researchers"
+                },
+                {
+                    "turn_index": 256,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "to let s the goal is to let them know what it is we 're doing ."
+                },
+                {
+                    "turn_index": 375,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                },
+                {
+                    "turn_index": 377,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "and then you 'll be able to see graphically if your mike is dropping in or out ."
+                },
+                {
+                    "turn_index": 114,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "and then we 'd wanna add things like query by speaker and by meeting and all that sort of stuff ."
+                },
+                {
+                    "turn_index": 474,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "have somebody uh take good notes and then that 's part of the record of the meeting ."
+                },
+                {
+                    "turn_index": 611,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Breath and lau"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on XML tools and meeting data quality",
+            "oracle_info": [
+                {
+                    "turn_index": 261,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "where you {disfmarker} we 're sort of moving to XML as the general format for everything"
+                },
+                {
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "because with the plain text it 's very easy to skip those things ."
+                },
+                {
+                    "turn_index": 349,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah , and so if you don't fill it in , you 're not gonna get it in the meetings ."
+                },
+                {
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?"
+                },
+                {
+                    "turn_index": 261,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been doing a bunch of XML tools"
+                },
+                {
+                    "turn_index": 375,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                },
+                {
+                    "turn_index": 377,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "and then you 'll be able to see graphically if your mike is dropping in or out ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on backups and collecting notes with meetings",
+            "oracle_info": [
+                {
+                    "turn_index": 398,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "and if then a mistake is made and we lose the archive we should have the backup ."
+                },
+                {
+                    "turn_index": 415,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "And I {disfmarker} I think I agree with him ."
+                },
+                {
+                    "turn_index": 405,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "And uh , so the only issue here is the timing between getting more disks and uh recording meetings ."
+                },
+                {
+                    "turn_index": 422,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "And second of all the {disfmarker} the write - once burners as opposed to a professional press don't last ."
+                },
+                {
+                    "turn_index": 424,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "but burning them for backup is not a good idea ."
+                },
+                {
+                    "turn_index": 426,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Cuz th they {disfmarker} they fail after a couple years ."
+                },
+                {
+                    "turn_index": 461,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "so that you can {disfmarker} you have a record of whatever it is you 've written ."
+                },
+                {
+                    "turn_index": 474,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "And so the {disfmarker} it seemed like a neat idea ."
+                },
+                {
+                    "turn_index": 474,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "have somebody uh take good notes and then that 's part of the record of the meeting ."
+                },
+                {
+                    "turn_index": 517,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "I mean , it 's still , there 's uh {disfmarker} you know , your point stands about there be {disfmarker} needing to be an infrastructure ,"
+                }
+            ]
+        },
+        {
+            "query": "What did Grad H think about using XML tools?",
+            "oracle_info": [
+                {
+                    "turn_index": 261,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "where you {disfmarker} we 're sort of moving to XML as the general format for everything"
+                },
+                {
+                    "turn_index": 261,
+                    "sent_index": 7,
+                    "speaker": "Grad H",
+                    "content": "because I 'm not particularly happy with what we have now ."
+                },
+                {
+                    "turn_index": 270,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "Um , but I 've installed XML tools of various sorts in various languages"
+                },
+                {
+                    "turn_index": 270,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "and so if people are interested in doing {disfmarker} extracting any information from any of these files ,"
+                },
+                {
+                    "turn_index": 273,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "it 's mostly Java and Perl"
+                }
+            ]
+        },
+        {
+            "query": "What did Grad G think about meeting data quality?",
+            "oracle_info": [
+                {
+                    "turn_index": 274,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Oh , quick question on that . Is {disfmarker} do we have the {disfmarker} {vocalsound} the seat information ?"
+                },
+                {
+                    "turn_index": 274,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "In {disfmarker} in the Key files now ?"
+                },
+                {
+                    "turn_index": 284,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Where {disfmarker} where you 're sitting ."
+                },
+                {
+                    "turn_index": 299,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?"
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Maybe we should bleep that out ."
+                }
+            ]
+        },
+        {
+            "query": "What did grad G think about collecting notes and related data with meetings?",
+            "oracle_info": [
+                {
+                    "turn_index": 493,
+                    "sent_index": 6,
+                    "speaker": "PhD G",
+                    "content": "but suppose you have a group in here and you wanna let them note whenever they think there might be something later that they might not wanna distribute in terms of content ,"
+                },
+                {
+                    "turn_index": 493,
+                    "sent_index": 7,
+                    "speaker": "PhD G",
+                    "content": "they could just sort of make an X near that point"
+                },
+                {
+                    "turn_index": 493,
+                    "sent_index": 12,
+                    "speaker": "PhD G",
+                    "content": "but I w I can imagine it being useful just for sort of marking time periods"
+                },
+                {
+                    "turn_index": 502,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "How do you synchronize the time in the CrossPad and the time of the recording ?"
+                },
+                {
+                    "turn_index": 504,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "and that that 's w part of the difficulty is that we need an infrastructure for using the time {disfmarker} the CrossPads"
+                },
+                {
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "so you have to synchronize at the beginning of each meeting all the pads that are being used ,"
+                },
+                {
+                    "turn_index": 515,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "There is an alternative ."
+                },
+                {
+                    "turn_index": 539,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "And {disfmarker} and that way you can synchronize very easily with the {disfmarker} the {disfmarker} the meeting"
+                },
+                {
+                    "turn_index": 517,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "I mean , it 's still , there 's uh {disfmarker} you know , your point stands about there be {disfmarker} needing to be an infrastructure ,"
+                }
+            ]
+        },
+        {
+            "query": "What did the Postdoc think about collecting notes with meetings?",
+            "oracle_info": [
+                {
+                    "turn_index": 455,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "And I have {disfmarker} uh so my {disfmarker} my feeling on it is that I think in principle it 's a really nice idea ,"
+                },
+                {
+                    "turn_index": 455,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "On the other hand , I {disfmarker} the down side for me was that I think the pen is really noisy ."
+                },
+                {
+                    "turn_index": 483,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "u but I guess the {disfmarker} the other thing I 'm thinking is if we wanted that kind of thing I wonder if we 'd lose that much by having someone be a scribe"
+                },
+                {
+                    "turn_index": 483,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "by listening to the tape , to the recording afterwards"
+                },
+                {
+                    "turn_index": 483,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "and taking notes in some other interface ."
+                },
+                {
+                    "turn_index": 485,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "Oh it 's la it 's useful ,"
+                },
+                {
+                    "turn_index": 486,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Because that 's summary ."
+                }
+            ]
+        }
+    ]
+}

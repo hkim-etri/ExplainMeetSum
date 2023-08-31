@@ -1,0 +1,1822 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "This meeting of the Berkley Meeting Recorder group charts the progress of their project and covers ongoing issues as well as some new ones.",
+            "The most pressing issue concerns the demos which the group are preparing for the DARPA meeting next month.",
+            "Here they discuss the querying and indexing tool which is progressing well albeit with a few front-end issues, and also the transcriber tool.",
+            "Transcription is progressing well, with new people hired, and double checking almost complete.",
+            "Work is also going on in parallel with IBM.",
+            "Additionally, the group have progressed further with data storage issues, with backing-up their data now regarded as a priority, and more disk space required.",
+            "Tools for accessing key file information have been developed which should ensure all meeting information is present.",
+            "The collection of CrossPad note-taking data will be pursued in future meetings.",
+            "Finally, other progress made includes getting the ChannelTrans interface working, ordering more wireless microphones, and analysing recognition runs.",
+            "DARPA demo illustrating prosody of meeting events will be completed by the end of the (next) month, so as to allow a week or so for transferring data across to laptops.",
+            "After consulting others, the group decide that not backing up their meeting data is a bad idea, since this cannot be recovered.",
+            "Therefore, meeting recorder data will be backed up, and also stored manually using the NW archive.",
+            "More disk space will be purchased, however for now, data which is easily re-creatable will not be backed up.",
+            "After evaluating the use of the CrossPads, the group decide to return one, and also keep one which will be left out in meetings to encourage its use.",
+            "Use of PDAs and buttons for note-taking will be investigated, along with using the data for a student research project.",
+            "Because of time constraints, the group decide to do simultaneous digits.",
+            "Improving the THISL front-end user interface may be difficult if it is to run on Windows as a web server Tcl-TK may need to be used instead.",
+            "More information on XML transcription formats is required for the creation of the tools.",
+            "Information for key files, such as Microphone type, seating, and participant information, is not being properly recorded, and in some cases the microphones aren't working properly.",
+            "However this should be rectified by the use of appropriate XML tools.",
+            "The CrossPads have not been used to their full potential, which is because of a number of problems regarding their use:",
+            "First, they need to be synchronised with the time of the meeting recording, and secondly, they use a non standard data format which needs converting.",
+            "Additionally, some people tend not to make notes in meetings.",
+            "Several transcribers have now been hired, and double-checking is almost finished.",
+            "Information retrieval will progress using uncorrected transcripts.",
+            "In parallel to the transcription, the first five EDU meetings are chunked and ready to go to IBM, once the IBM transcript is checked and satisfactory.",
+            "For the DARPA demo:",
+            "Tools have been written to convert everything into the correct file formats, an now the THISTL back-end querying and indexing tool is now working on the command line.",
+            "Work is also underway to improve the front-end THISTL interface.",
+            "The demo of Transcriber interface was discussed, and may include graphical illustration of prosodic features indicating sentence or turn boundaries.",
+            "Work is continuing to create tools for handling XML data, which extract data from the XML key files.",
+            "Tools will also be provided to ensure that appropriate meeting information is present, and that microphones and recording is working.",
+            "The ChannelTrans interface is now working on Windows machines.",
+            "More wireless microphones have been ordered, and the room is to be re-wired as suggested by Jane, using the wireless close-talking microphones first, and then the far-field microphones.",
+            "Analysis of the recognition runs to identify features and their characteristics is on-going."
+        ],
+        "answer_sentence_index": [
+            "Bmr025.s.1",
+            "Bmr025.s.2",
+            "Bmr025.s.3",
+            "Bmr025.s.4",
+            "Bmr025.s.5",
+            "Bmr025.s.6",
+            "Bmr025.s.7",
+            "Bmr025.s.8",
+            "Bmr025.s.9",
+            "Bmr025.s.10",
+            "Bmr025.s.11",
+            "Bmr025.s.12",
+            "Bmr025.s.13",
+            "Bmr025.s.14",
+            "Bmr025.s.15",
+            "Bmr025.s.16",
+            "Bmr025.s.17",
+            "Bmr025.s.18",
+            "Bmr025.s.19",
+            "Bmr025.s.20",
+            "Bmr025.s.21",
+            "Bmr025.s.22",
+            "Bmr025.s.23",
+            "Bmr025.s.24",
+            "Bmr025.s.25",
+            "Bmr025.s.26",
+            "Bmr025.s.27",
+            "Bmr025.s.28",
+            "Bmr025.s.29",
+            "Bmr025.s.30",
+            "Bmr025.s.31",
+            "Bmr025.s.32",
+            "Bmr025.s.33",
+            "Bmr025.s.34",
+            "Bmr025.s.35"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 1,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "If we can't , we can't . But uh we 're gonna try to make this an abbreviated meeting"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "Agenda is {disfmarker} according to this , is transcription status , DARPA demos XML tools , disks , backups , et cetera and"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "They 're making great progress ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 428,
+                    "sent_index": 0,
+                    "speaker": "Postdoc A",
+                    "content": "I do have uh uh {disfmarker} It 's a different topic . Can I add one top topic ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 554,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "and we have a lot of these things worked out at {disfmarker} in terms of the speech"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "DARPA demos ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Next month ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 50,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Anything else on transcription status ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "And so I 've written some tools to convert everything into the right for file formats ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 6,
+                    "speaker": "Grad H",
+                    "content": "And the command line version of the indexing and the querying is now working ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 87,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "And so the work to get the front - end to work would be porting it {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 3,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Transcription status ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "Um I hired several more transcribers ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "They 're making great progress ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "uh I 've been uh finishing up the uh double checking ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "They 're the IBM set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "We 're sort of doing things in parallel ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 396,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 398,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "and if then a mistake is made and we lose the archive we should have the backup ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 403,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "that we 're getting a new backup system"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 403,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and we 're far enough away from saturation on full backups that it 's w probably OK ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 413,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Uh but we do need more disk ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been doing a bunch of XML tools"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "I 'm converting the Key files to XML so that you can extract m uh various inf uh sorted information on individual meetings"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "because with the plain text it 's very easy to skip those things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "CrossPads ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 7,
+                    "speaker": "Postdoc A",
+                    "content": "I mean , I could be taking notes on these things"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 461,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "so that you can {disfmarker} you have a record of whatever it is you 've written ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 533,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well {disfmarker} one thing that we might try um is on some set of meetings , some collection of meetings , maybe EDU is the right one or maybe something else ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 428,
+                    "sent_index": 3,
+                    "speaker": "Postdoc A",
+                    "content": "I know that uh that Thilo you were , um , bringing the Channeltrans interface onto the Windows machine ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 429,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah it 's {disfmarker} it {disfmarker} Basically it 's done ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 620,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "W uh {disfmarker} {comment} We ordered uh more wireless ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 628,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Do we have anything else ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh um {disfmarker} recognition runs ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "but it 's {disfmarker} it 's all sort of in process ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "DARPA demos ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 225,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "Yeah we can probably find some examples of different type of prosodic events going on ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 227,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "S so when we here were having this demo meeting , what we 're sort of coming up with is that we wanna have all these pieces together , to first order , by the end of the month"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Next month ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 243,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh {disfmarker} that 'll {disfmarker} that 'll give us {disfmarker} that 'll give us a week or so to uh {disfmarker} to port things over to my laptop and make sure that works ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "but he thought it was a bad idea ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 8,
+                    "speaker": "Grad H",
+                    "content": "This data cannot be recovered ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 4,
+                    "speaker": "Grad H",
+                    "content": "In fact what he said is doing the manual one , {comment} doing uh NW archive to copy it {comment} is a good idea"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 396,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "and we should do that and have it backed up ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 406,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So I guess the idea is that we would be reserving the non - backed - up space for things that took less than twenty - four hours to recreate or something like that ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 407,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Things that are recreatable easily and also {disfmarker} Yeah , basically things that are recreatable ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 414,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So we can get more disk ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 567,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean I think the CrossPad idea is a good one ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 592,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but {disfmarker} uh by I {disfmarker} I would suggest you return one ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 592,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Because we {disfmarker} we you know , we {disfmarker} we haven't used it at all ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 596,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "We have some aspirations of using them"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 597,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "One would probably be fine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 601,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "I mean if we had them out and sitting on the table people might use them a little more"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 7,
+                    "speaker": "Postdoc A",
+                    "content": "I mean , I could be taking notes on these things"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 556,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , I do like the idea of having a couple buttons"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 590,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well it also {disfmarker} it 's maybe realistic cuz people are supposed to be bringing their P D As to the meeting eventually ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 599,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Maybe we could do like a student project ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 628,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Should we do digits ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 640,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Well , I 'm just thinking , are you gonna try to save the data before this next group comes in ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 643,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "Yeah , so we might wanna do it simultaneous ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 645,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well OK , so let 's do one of those simultaneous ones ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 54,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and the THISL tools are {disfmarker} there 're two sets , there 's a back - end and a front - end ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "so the front - end is the user interface"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "but my intention is to do a prettier user interface based either {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "but it does mean you need to be running a web server ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 71,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "Uh and it would be difficult to port to Windows"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 73,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Uh the other option is Dan did the Tcl - TK THISL GUI front - end for Broadcast News"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been doing a bunch of XML tools"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 6,
+                    "speaker": "Grad H",
+                    "content": "So yet again we should probably meet to talk about transcription formats in XML"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 7,
+                    "speaker": "Grad H",
+                    "content": "because I 'm not particularly happy with what we have now ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 276,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "The seat information is on the Key files for the ones which"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 355,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah and then the other thing also that Thilo noticed is , on the microphone ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 370,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "And then uh also in a couple of places instead of filling the participants under \" participants \" they were filled in under \" description \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 375,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 260,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "XML tools ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "because with the plain text it 's very easy to skip those things ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 441,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "CrossPads ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 443,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "So we 've never used them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "On the other hand , I {disfmarker} the down side for me was that I think the pen is really noisy ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 504,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean that was one of the issues we talked about originally"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 504,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "and that that 's w part of the difficulty is that we need an infrastructure for using the time {disfmarker} the CrossPads"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "so you have to synchronize at the beginning of each meeting all the pads that are being used ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "so that it 's synchronized with the time on that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 511,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "and then you have to figure out what the data formats are and convert it over if you wanna do anything with this information ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 491,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "and you don't wanna take notes"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 1,
+                    "speaker": "Postdoc A",
+                    "content": "Um I hired several more transcribers ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 2,
+                    "speaker": "Postdoc A",
+                    "content": "uh I 've been uh finishing up the uh double checking ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "as a somewhat segue into the next topic , um could I get a hold of uh the data even if it 's not really corrected yet"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 11,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and make sure the information retrieval stuff is working ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I also got anot a short remark to the transcription ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "I 've uh just processed the first five EDU meetings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "and they are chunked up"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 22,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "so they would {disfmarker} they probably can be sent to IBM"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "They 're the IBM set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And so as soon as we hear from Brian that this one is OK"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and we find out that hopefully there are no problems matching up the transcript with what we gave them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 47,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "We 're sort of doing things in parallel ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 53,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "DARPA demos ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 54,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and the THISL tools are {disfmarker} there 're two sets , there 's a back - end and a front - end ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 4,
+                    "speaker": "Grad H",
+                    "content": "and the back - end is the indexing tool and the querying tool ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "And so I 've written some tools to convert everything into the right for file formats ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 6,
+                    "speaker": "Grad H",
+                    "content": "And the command line version of the indexing and the querying is now working ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 54,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "and the THISL tools are {disfmarker} there 're two sets , there 's a back - end and a front - end ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 54,
+                    "sent_index": 3,
+                    "speaker": "Grad H",
+                    "content": "so the front - end is the user interface"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "but my intention is to do a prettier user interface based either {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 207,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So there was that demo , which was one of the main ones ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 207,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "which would basically be um showing off the {disfmarker} the Transcriber interface itself"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 214,
+                    "sent_index": 0,
+                    "speaker": "PhD G",
+                    "content": "So another idea I w t had just now actually for the demo was whether it might be of interest to sh to show some of the prosody uh {vocalsound} work that Don 's been doing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 1,
+                    "speaker": "PhD G",
+                    "content": "and then show for instance a task like finding sentence boundaries or finding turn boundaries ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 216,
+                    "sent_index": 3,
+                    "speaker": "PhD G",
+                    "content": "you know , you can show that graphically , sort of what the features are doing ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 217,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "at {disfmarker} at the very least we 're gonna want something illustrative with that"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been doing a bunch of XML tools"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "I 'm converting the Key files to XML so that you can extract m uh various inf uh sorted information on individual meetings"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 261,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "So I 've been doing a bunch of XML tools"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 270,
+                    "sent_index": 5,
+                    "speaker": "Grad H",
+                    "content": "I 'm converting the Key files to XML so that you can extract m uh various inf uh sorted information on individual meetings"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 335,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "because with the plain text it 's very easy to skip those things ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 355,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "Yeah and then the other thing also that Thilo noticed is , on the microphone ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 375,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 428,
+                    "sent_index": 3,
+                    "speaker": "Postdoc A",
+                    "content": "I know that uh that Thilo you were , um , bringing the Channeltrans interface onto the Windows machine ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 429,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Yeah it 's {disfmarker} it {disfmarker} Basically it 's done ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 620,
+                    "sent_index": 2,
+                    "speaker": "Grad H",
+                    "content": "W uh {disfmarker} {comment} We ordered uh more wireless ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 622,
+                    "sent_index": 0,
+                    "speaker": "Grad H",
+                    "content": "And then at the same time I 'll probably rewire the room as per Jane 's suggestion"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 622,
+                    "sent_index": 1,
+                    "speaker": "Grad H",
+                    "content": "so that uh the first N channels are wireless , eh are the m the close - talking and the next N are far - field ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "uh um {disfmarker} recognition runs ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "trying to figure things out about the features"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 631,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "but it 's {disfmarker} it 's all sort of in process ,"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting discussed the progress of the transcription, the DARPA demos, tools to ensure meeting data quality, data standardization, backup tools, and collecting tangential meeting information.",
+                    "The team was making good progress on the transcription but was still concerned with correcting some of the data.",
+                    "Besides that, they were working on adapting the THISL GUI for their project and figuring out visual tools for meeting participants to help them know when their recording equipment was failing.",
+                    "The team also discussed collecting additional information, like laughter and breath data as well as meeting notes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "If we can't , we can't . But uh we 're gonna try to make this an abbreviated meeting"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "Agenda is {disfmarker} according to this , is transcription status , DARPA demos XML tools , disks , backups , et cetera and"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So I 've been working on using the THISL tools to do information retrieval on meeting data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 5,
+                            "speaker": "Grad H",
+                            "content": "And so I 've written some tools to convert everything into the right for file formats ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 259,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I don't think anyone has done this on meeting data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 332,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 335,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "because with the plain text it 's very easy to skip those things ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 3,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Transcription status ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "They 're making great progress ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "as a somewhat segue into the next topic , um could I get a hold of uh the data even if it 's not really corrected yet"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Um and then just {disfmarker} we 'll have to remember to delete them once the corrections are made ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So I 've been working on using the THISL tools to do information retrieval on meeting data"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 5,
+                            "speaker": "Grad H",
+                            "content": "So if we wanna just do a video - based one I think that 'll be easy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 251,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "cuz we 're doing this anyway as part of our {disfmarker} you know , the research ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 251,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "visualizing what these features are doing"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 254,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah . Well , this is to an audience of researchers"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 256,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "to let s the goal is to let them know what it is we 're doing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 375,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 5,
+                            "speaker": "Grad H",
+                            "content": "and then you 'll be able to see graphically if your mike is dropping in or out ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "and then we 'd wanna add things like query by speaker and by meeting and all that sort of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 474,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "have somebody uh take good notes and then that 's part of the record of the meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 611,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Breath and lau"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on XML tools and meeting data quality",
+                "tokenized_answer": [
+                    "The team had started moving to XML as their general format to standardize their data.",
+                    "Though, there is still concern about the limitations of XML.",
+                    "The participants noted that sometimes the mic of one subject catches sound from another.",
+                    "They also discussed implementing tools to help participants know when the quality of their audio is bad."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 261,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So I 've been doing a bunch of XML tools"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "where you {disfmarker} we 're sort of moving to XML as the general format for everything"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 314,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Some of these are missing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 335,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "because with the plain text it 's very easy to skip those things ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 349,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Yeah , and so if you don't fill it in , you 're not gonna get it in the meetings ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 299,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So I 've been doing a bunch of XML tools"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 332,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "I mean this is why I wanna use a g a tool to do it rather than the plain text"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 375,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 377,
+                            "sent_index": 5,
+                            "speaker": "Grad H",
+                            "content": "and then you 'll be able to see graphically if your mike is dropping in or out ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on backups and collecting notes with meetings",
+                "tokenized_answer": [
+                    "The team agreed that it was important to keep good backups.",
+                    "Their main concern was the time difference between getting more disks and recording new meetings.",
+                    "They did not want to rely on burning CD's at all because of potential loss of data.",
+                    "They also started discussing whether it would be a good idea to collect meeting notes from the participants as well, but that would entail installing new infrastructure."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 6,
+                            "speaker": "Grad H",
+                            "content": "He w he 's a firm believer in {disfmarker} in lots of different modalities of backup ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 8,
+                            "speaker": "Grad H",
+                            "content": "This data cannot be recovered ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "and if then a mistake is made and we lose the archive we should have the backup ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 415,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "And I {disfmarker} I think I agree with him ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 405,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "And uh , so the only issue here is the timing between getting more disks and uh recording meetings ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 420,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Um unfortunately {disfmarker} we could burn C Ds but first of all it 's a pain ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 422,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "And second of all the {disfmarker} the write - once burners as opposed to a professional press don't last ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 424,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "but burning them for backup is not a good idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 426,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Cuz th they {disfmarker} they fail after a couple years ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 461,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "so that you can {disfmarker} you have a record of whatever it is you 've written ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 474,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "And so the {disfmarker} it seemed like a neat idea ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 474,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "have somebody uh take good notes and then that 's part of the record of the meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 517,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "I mean , it 's still , there 's uh {disfmarker} you know , your point stands about there be {disfmarker} needing to be an infrastructure ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad H think about using XML tools?",
+                "tokenized_answer": [
+                    "Grad H brought up that they were standardizing the data in XML, though Grad H was not satisfied with the current data format.",
+                    "Grad H was also building tools to extract information from XML's in various languages, mainly Java and Perl."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 261,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "So I 've been doing a bunch of XML tools"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "where you {disfmarker} we 're sort of moving to XML as the general format for everything"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 7,
+                            "speaker": "Grad H",
+                            "content": "because I 'm not particularly happy with what we have now ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 270,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "Um , but I 've installed XML tools of various sorts in various languages"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 270,
+                            "sent_index": 3,
+                            "speaker": "Grad H",
+                            "content": "and so if people are interested in doing {disfmarker} extracting any information from any of these files ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 2,
+                            "speaker": "Grad H",
+                            "content": "it 's mostly Java and Perl"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad G think about meeting data quality?",
+                "tokenized_answer": [
+                    "Grad G thought that it would be important to collect seat information in the key files to know where someone was sitting.",
+                    "This would be useful when people had to be bleeped out upon being heard in someone else's microphone.",
+                    "Grad G wanted to figure out what seating arrangements led to other participants' voices showing up in the microphone."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 274,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "Oh , quick question on that . Is {disfmarker} do we have the {disfmarker} {vocalsound} the seat information ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 274,
+                            "sent_index": 1,
+                            "speaker": "PhD G",
+                            "content": "In {disfmarker} in the Key files now ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 284,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Where {disfmarker} where you 're sitting ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 299,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 301,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Maybe we should bleep that out ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 299,
+                            "sent_index": 0,
+                            "speaker": "PhD G",
+                            "content": "I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did grad G think about collecting notes and related data with meetings?",
+                "tokenized_answer": [
+                    "Grad G thought that it would be helpful to let the participants conveniently bleep things out during the meeting.",
+                    "While synchronizing bleeps from during the meeting would require some infrastructure, a faster version could be set up.",
+                    "Though, G did think that the synchronization infrastructure would be a useful addition."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 493,
+                            "sent_index": 6,
+                            "speaker": "PhD G",
+                            "content": "but suppose you have a group in here and you wanna let them note whenever they think there might be something later that they might not wanna distribute in terms of content ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 493,
+                            "sent_index": 7,
+                            "speaker": "PhD G",
+                            "content": "they could just sort of make an X near that point"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 493,
+                            "sent_index": 12,
+                            "speaker": "PhD G",
+                            "content": "but I w I can imagine it being useful just for sort of marking time periods"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 502,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "How do you synchronize the time in the CrossPad and the time of the recording ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 504,
+                            "sent_index": 1,
+                            "speaker": "Grad H",
+                            "content": "and that that 's w part of the difficulty is that we need an infrastructure for using the time {disfmarker} the CrossPads"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 511,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "so you have to synchronize at the beginning of each meeting all the pads that are being used ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 515,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "There is an alternative ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 517,
+                            "sent_index": 3,
+                            "speaker": "Postdoc A",
+                            "content": "You c I mean , I {disfmarker} when I {disfmarker} when I did it I synchronized it by voice ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "And {disfmarker} and that way you can synchronize very easily with the {disfmarker} the {disfmarker} the meeting"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 517,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "I mean , it 's still , there 's uh {disfmarker} you know , your point stands about there be {disfmarker} needing to be an infrastructure ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "And {disfmarker} and that way you can synchronize very easily with the {disfmarker} the {disfmarker} the meeting"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Postdoc think about collecting notes with meetings?",
+                "tokenized_answer": [
+                    "The postdoc thought that it was a good idea to collect digital notes during the meeting in principle, but was concerned about the noise it would add to the mic.",
+                    "Postdoc thought that notes could even be taken after the meeting, by transcribers.",
+                    "All in all, he thought notes were useful for generating summaries."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 455,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "And I have {disfmarker} uh so my {disfmarker} my feeling on it is that I think in principle it 's a really nice idea ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 455,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "On the other hand , I {disfmarker} the down side for me was that I think the pen is really noisy ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 483,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "u but I guess the {disfmarker} the other thing I 'm thinking is if we wanted that kind of thing I wonder if we 'd lose that much by having someone be a scribe"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 483,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "by listening to the tape , to the recording afterwards"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 483,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "and taking notes in some other interface ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 484,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "why do we need notes ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 485,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Oh it 's la it 's useful ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 486,
+                            "sent_index": 0,
+                            "speaker": "Grad H",
+                            "content": "Because that 's summary ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

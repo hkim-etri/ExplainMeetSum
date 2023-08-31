@@ -1,0 +1,1946 @@
+{
+    "domain": "Product(ami)",
+    "ami": {
+        "tokenized_answer": [
+            "The project manager opens the meeting and presents the agenda using slides.",
+            "The marketing expert explains the research she read about, which is a study done on 100 people asking their remote usage habits and preferences.",
+            "The Industrial Designer presents, explaining the basic function of a remote control and how it works.",
+            "He says they should first agree on the technical functions before he creates working design and chooses the chips and infrared components to build it.",
+            "The Interface Designer gives his presentation, talking about the remote's technical function of sending a message to the TV set that is decoded by the TV.",
+            "Standard TV remotes have an on/off button, play, volume change, number keypad, and a 1 or 2 digit option.",
+            "He suggests that in aiming for the next generation they should have a remote for the TV and video integrated together.",
+            "The project manager recieves a message from account manager, which he shares with the group.",
+            "They discuss and determine the target group as well as the possibility of making a universal remote for stereo, VCR, and TV.",
+            "They close the meeting with the project manager telling each group member what they will do before the next meeting.",
+            "The industrial designer will try to find out which components are needed.",
+            "The interface designer will get more specific user interface content.",
+            "The marketing expert will look at what trends are in this type of market",
+            "They will target the 20-40 age group.",
+            "Teletext is a well known feature of televisions but is no longer in frequent use because of the internet, will not be used.",
+            "The remote should be trendy as possible but still have a reliable image so that it does not appear poorly-functional.",
+            "The group is interested in creating a universal remote, however they are unable to deterine what components are needed without looking at the standards and current trends in the market.",
+            "One group member brought up that it is not possible to make a universal high-performance remote with the given budget.",
+            "More research is necessary to determine this."
+        ],
+        "answer_sentence_index": [
+            "IS1000b.elana.s.1",
+            "IS1000b.elana.s.2",
+            "IS1000b.elana.s.3",
+            "IS1000b.elana.s.4",
+            "IS1000b.elana.s.5",
+            "IS1000b.elana.s.6",
+            "IS1000b.elana.s.7",
+            "IS1000b.elana.s.8",
+            "IS1000b.elana.s.9",
+            "IS1000b.elana.s.10",
+            "IS1000b.elana.s.11",
+            "IS1000b.elana.s.12",
+            "IS1000b.elana.s.13",
+            "IS1000b.elana.s.14",
+            "IS1000b.elana.s.15",
+            "IS1000b.elana.s.16",
+            "IS1000b.elana.s.17",
+            "IS1000b.elana.s.18",
+            "IS1000b.elana.s.19"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "And we can start meeting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 7,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "I will uh present here agenda with with with with slides to you ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 25,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Um then I will uh bring in some some some new requirements"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 25,
+                    "sent_index": 6,
+                    "speaker": "Project Manager",
+                    "content": "and we can have maybe have com some discussion about it . Uh Um about the functions"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 27,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "in this meeting we should really {vocalsound} try to reach a decision about the target group and the functionality of the {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 37,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "And then uh we will close this meeting uh"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 39,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "and after this meeting we'll uh we'll have a lunch ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "I've just been um presented with some research we've done in a small focus group"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 4,
+                    "speaker": "Marketing",
+                    "content": "a hundred people , just asked them about their remote control usage habits and what they want in a remote control . Um ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 46,
+                    "sent_index": 8,
+                    "speaker": "Marketing",
+                    "content": "Um basically it's saying that users generally dislike the look and feel of their remote controls ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 48,
+                    "sent_index": 5,
+                    "speaker": "Marketing",
+                    "content": "so they've got a remote control with a lot of functionality"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 48,
+                    "sent_index": 6,
+                    "speaker": "Marketing",
+                    "content": "but really most of the time they only use a small part of that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Um . Teletext is used um fourteen times in the hour ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 58,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "An interesting thing that this report has brought up"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 58,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "is that um fifty fifty percent of users report that the remote control gets lost a lot of the time in the room ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 61,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Thirty four percent said it takes too long to learn to use a remote control ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 110,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Um , one thing is interesting is talking about um speech recognition in a remote control ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 155,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "Ninety percent of the fifteen to twenty five year old market said that they would pay more ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "And uh in this presentation uh this group presentation um {vocalsound} is gonna focus on the working design of the the remote control ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 198,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "Um I'd like first to give a quick a very simple introduction , how does it work ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 200,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "the basic function of a remote control is to send uh messages to another system that is fixed ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 202,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "an energy source feeds an integrated circuit , the chip ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 209,
+                    "sent_index": 5,
+                    "speaker": "Industrial Designer",
+                    "content": "Uh we want an on off button ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 209,
+                    "sent_index": 8,
+                    "speaker": "Industrial Designer",
+                    "content": "but it's it's important , and also uh {gap} the to both channels as well as other buttons that come after ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 211,
+                    "sent_index": 8,
+                    "speaker": "Industrial Designer",
+                    "content": "my aim would be to uh design the and choose the chips and the infrared um components to build the remote control"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 209,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "we should agree on what are the technical functions uh for this remote control"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 209,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "and I show you the the working design ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 211,
+                    "sent_index": 8,
+                    "speaker": "Industrial Designer",
+                    "content": "my aim would be to uh design the and choose the chips and the infrared um components to build the remote control"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 297,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I'm going to talk a little bit about the technical function"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 299,
+                    "sent_index": 4,
+                    "speaker": "User Interface",
+                    "content": "basically the idea is to send a message to the T_V_ set ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 299,
+                    "sent_index": 6,
+                    "speaker": "User Interface",
+                    "content": "and it will be decoded by the T_V_"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 299,
+                    "sent_index": 7,
+                    "speaker": "User Interface",
+                    "content": "and usually we it is easier to have uh keys or buttons"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 306,
+                    "sent_index": 6,
+                    "speaker": "User Interface",
+                    "content": "you have a standard T_V_ remote"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 306,
+                    "sent_index": 7,
+                    "speaker": "User Interface",
+                    "content": "where you have just a on , off button and play , uh volume change and uh keys for the number and more than one digit option ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 306,
+                    "sent_index": 8,
+                    "speaker": "User Interface",
+                    "content": "And if you see for example righ right now uh uh even the one uh on more than one digit option is for two digit channel which is like ninety nine ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 306,
+                    "sent_index": 12,
+                    "speaker": "User Interface",
+                    "content": "this is the standard one with without any fancy thing"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 306,
+                    "sent_index": 14,
+                    "speaker": "User Interface",
+                    "content": "like i it doesn't have teletext option ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 7,
+                    "speaker": "User Interface",
+                    "content": "I would {disfmarker} uh basically think of having a kind of aim for the next generation thing"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 8,
+                    "speaker": "User Interface",
+                    "content": "where the {disfmarker} we could have both the uh the f a T_V_ and the remote {disfmarker} video remote control"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 308,
+                    "sent_index": 9,
+                    "speaker": "User Interface",
+                    "content": "because uh some of the keys in the video's remote control and the T_V_ they could be integrated together"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 384,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "I have uh received some some some some well points of of thinking over of my account manager"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 384,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "and uh I would like to share them with you . Um"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "first thing is uh teletext is a well known feature of televisions"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 389,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "but it's it's getting used less and less ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 398,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "further yes we must think , uh do we stay uh to to television only , the television as we as we all know it with with broadcasting signals and you can't go back"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 403,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Um , furthermore , uh , w we need really need to interest uh {vocalsound} y younger customers"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 403,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "and then with younger customers I mean people uh below the age of forty ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 471,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Uh we should now uh try to decide um on our target group ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 526,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "but w we're targeting I think on more on the on the twenty to forty group ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "People {disfmarker} yes . Who just have or already have a job and have the money but may not want to spend that much money on a on a universal universal control ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 532,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "uh when we think it over I thi I think we are trying to offer the a kind of universal control for for less money ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 546,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "then we we decide on on on going to this more universal kind of control ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 553,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "And if we want to get the market , we really need that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 554,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "I guess what I'd like from a universal remote is maybe choosing between three devices , being able to switch between them , there may be stereo , V_C_R_ and T_V_ ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 564,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "uh m {vocalsound} maybe it is good when you try to find out which components you therefore need"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 564,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "and y you will try to get more specific uh user interface content"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 568,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "and uh maybe you can look on on what trends are in this uh in this type of market ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 578,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "and we'll I'm sure we'll up something good"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 582,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "we uh we can have lunch now ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 587,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "after lunch you have uh we have uh thirty minutes of work"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 587,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "and then we have the next meeting ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 587,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "But you will be informed via the computer ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 564,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "uh m {vocalsound} maybe it is good when you try to find out which components you therefore need"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 564,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "and y you will try to get more specific uh user interface content"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 568,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "and uh maybe you can look on on what trends are in this uh in this type of market ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 403,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "and then with younger customers I mean people uh below the age of forty ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 526,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "but w we're targeting I think on more on the on the twenty to forty group ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 387,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "first thing is uh teletext is a well known feature of televisions"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 389,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "but it's it's getting used less and less ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 391,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "That's that's especially because of the internet of course ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 395,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Uh as uh a in any case it's it's not used , well very much ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 417,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "so that's w we should make our our our R_C_ as trendy as possible"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 417,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "but it should also be uh have a reliable image ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 417,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "so when it looks too too spacey or too fancy people will think well does it work at all ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 488,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Mm . But if people are buying a new remote control for functionality they'll buy a universal remote ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 491,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So your you think we should go for a more u universal high-performance {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "we can't , with the price range ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 501,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "If we're getting into universal remote territory , we're getting to L_C_D_ screens and things like that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 504,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "I don't know . I don't know whether that's necessary ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 546,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "then we we decide on on on going to this more universal kind of control ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 550,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "And uh basically you can look to the standards of other {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 553,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "And if we want to get the market , we really need that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 560,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "you can also browse through all the standards you know , where are the limit of standards for all of them and you can just browse through them ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 564,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "uh m {vocalsound} maybe it is good when you try to find out which components you therefore need"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 491,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "So your you think we should go for a more u universal high-performance {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "we can't , with the price range ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 494,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "we have yeah twelve point five Euros uh per uh per R_ s R_C_"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 560,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "you can also browse through all the standards you know , where are the limit of standards for all of them and you can just browse through them ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 578,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "and we'll I'm sure we'll up something good"
+                }
+            ]
+        ]
+    },
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The whole meeting was focused on the target group and the functionality of the new remote control product.",
+                    "After Project Manager briefly reaffirmed the meeting procedure, Marketing, Industrial Designer, and User Interface each gave a presentation about trend-watching, working design, technical function respectively.",
+                    "Then, Project Manager started a group discussion about the demand for teletext and video, for which thick key design was accepted as a feasible solution.",
+                    "Then, the group discussed the target group based on the predetermined budget, and accepted universality as an important feature."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 27,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "in this meeting we should really {vocalsound} try to reach a decision about the target group and the functionality of the {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 29,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "You mean the social target group who we wants to target ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 30,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Yes I mean well yes w who are we going to uh to well to sell this ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "there's a breakdown of how much they use the different functions on a rem remote control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um . Teletext is used um fourteen times in the hour ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "is that um fifty fifty percent of users report that the remote control gets lost a lot of the time in the room ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "so some way of some way of locating the remote control would be very useful to a lot of users . Um ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um . And thirty {disfmarker} twenty six percent said remote controls are bad for R_S_I_ ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 110,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um , one thing is interesting is talking about um speech recognition in a remote control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 125,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "it would it would be a solution for uh when your remote control is lost ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 155,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "This is now talking about um who would pay for speech recognition in a remote control , who would pay more for it , um ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 155,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "Ninety percent of the fifteen to twenty five year old market said that they would pay more ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 155,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "it goes down from there ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 162,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "it really depends where we're gonna be targeting this product , um ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 182,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Another thing it's talking about there is the L_C_D_ screen"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 182,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "but there's no figures apparently on that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 15,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "I've also made notes of the previous meeting"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 15,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "and um I was about to send them you"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 22,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Then I hope you all have uh worked out {vocalsound} some some uh {vocalsound} some some presentations about uh about well you the the task given to you in the previous meeting ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 25,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Um . W We will uh in a minute we will uh {vocalsound} start with them ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 25,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Um then I will uh bring in some some some new requirements"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 25,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "and we can have maybe have com some discussion about it . Uh Um about the functions"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I've just been um presented with some research we've done in a small focus group"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 48,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "Um . Current remote controls do not match well the operating behaviour of the user ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 48,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "Uh . Fifty percent of users say that they only use ten percent of the buttons ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 56,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um . Teletext is used um fourteen times in the hour ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 58,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "is that um fifty fifty percent of users report that the remote control gets lost a lot of the time in the room ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um . And thirty {disfmarker} twenty six percent said remote controls are bad for R_S_I_ ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 209,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "and I show you the the working design ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 209,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh we want an on off button ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 209,
+                            "sent_index": 8,
+                            "speaker": "Industrial Designer",
+                            "content": "but it's it's important , and also uh {gap} the to both channels as well as other buttons that come after ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 211,
+                            "sent_index": 4,
+                            "speaker": "Industrial Designer",
+                            "content": "in this part you have the remote control the the sender and on the other part the receiver"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 211,
+                            "sent_index": 8,
+                            "speaker": "Industrial Designer",
+                            "content": "my aim would be to uh design the and choose the chips and the infrared um components to build the remote control"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 215,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "of course we need energy sources and uh uh the receiver a a receiver ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 297,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "I'm going to talk a little bit about the technical function"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 306,
+                            "sent_index": 12,
+                            "speaker": "User Interface",
+                            "content": "this is the standard one with without any fancy thing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 306,
+                            "sent_index": 14,
+                            "speaker": "User Interface",
+                            "content": "like i it doesn't have teletext option ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 306,
+                            "sent_index": 18,
+                            "speaker": "User Interface",
+                            "content": "And then you have uh what's the v video remote file"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 313,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "so is it gonna be like a switch on the remote that says t use the T_V_ or use the V_C_R_ ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 316,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "you can have a key which could tell y it could go to the video thing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 344,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "and you and you you need basically the functionalities what you need in both uh uh video as well as in the standard T_V_ thing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 384,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I have uh received some some some some well points of of thinking over of my account manager"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "first thing is uh teletext is a well known feature of televisions"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 389,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "but it's it's getting used less and less ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "further yes we must think , uh do we stay uh to to television only , the television as we as we all know it with with broadcasting signals and you can't go back"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 398,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "or do we uh uh go further as Matthew indicated by supporting uh uh recording uh devices ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 420,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "you you can follow the ideas how you want to keep the keys ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 422,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "but suppose if you take the the present trend of mobile phones there are like big thick keys"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But I think taking the idea of getting inspiration from mobile phones is interesting , especially if we're going after a younger market ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 471,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Uh we should now uh try to decide um on our target group ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 475,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um , basically we're trying to get people to buy a remote control {vocalsound} {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 485,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "I think {vocalsound} many people said uh in your in in your research uh uh uh the appearance of the uh R_C_ is is important when they are buying one"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 488,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But if people are buying a new remote control for functionality they'll buy a universal remote ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 491,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So your you think we should go for a more u universal high-performance {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 492,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "we can't , with the price range ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 494,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "we have yeah twelve point five Euros uh per uh per R_ s R_C_"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 514,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "and offer a product which is not as expensive and not as complicated"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 521,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "because it has more uh it it is in some kind universal ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 525,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "But if we're going for the say fifteen to twenty five age group then not many of them would actually own T_V_s to use a remote control on ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 526,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "but w we're targeting I think on more on the on the twenty to forty group ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "People {disfmarker} yes . Who just have or already have a job and have the money but may not want to spend that much money on a on a universal universal control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 532,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "uh when we think it over I thi I think we are trying to offer the a kind of universal control for for less money ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the group discussion about video demand, teletext demand, and thick keys design.",
+                "tokenized_answer": [
+                    "First of all, Project Manager launched a discussion about video over-demand, during which User Interface and Industrial Designer mentioned some fancy functions like downloading and streamlining.",
+                    "Then, Project Manager announced that according to the account manager, teletext could be included in the discussion, though its obsolescence incurred doubts over its usability and necessity.",
+                    "After that, Project Manager offered a choice question between television and further recording devices represented by DVDs, VCRs, and hard disk recorders.",
+                    "Finally, to cater for the younger people, User Interface devised big thick keys for RC in imitation of mobile phones, which received positive feedback from other team members."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 337,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I mean the hard disk uh recorders uh I I've seen them in the shop ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 344,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "it's going to record your things"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 344,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "and you and you you need basically the functionalities what you need in both uh uh video as well as in the standard T_V_ thing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 362,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "for example uh the presently the video market actually uh this demand , video over-demand or what we call it as , it's presently {vocalsound} booming up actually"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 365,
+                            "sent_index": 5,
+                            "speaker": "User Interface",
+                            "content": "you want to watch a movie and uh your p your provider gives a list of movies , and then you select those list ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 369,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "it downloads the movie , it gives for you"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 375,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Or even you don't need to download it , it's streamed uh online uh yeah . Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 384,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I have uh received some some some some well points of of thinking over of my account manager"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "first thing is uh teletext is a well known feature of televisions"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 389,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "but it's it's getting used less and less ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 393,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Do we include it , and do we give it a prominent uh prominent uh place on on on the on well huh on the remote mot control itself ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "further yes we must think , uh do we stay uh to to television only , the television as we as we all know it with with broadcasting signals and you can't go back"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "or do we uh uh go further as Matthew indicated by supporting uh uh recording uh devices ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 400,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "D_V_D_s and V_C_R_s ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 401,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Uh indeed indeed ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 403,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And and and the hard disk recorders ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 417,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} younger people like trendy {disfmarker} trendy designs ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 417,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "so that's w we should make our our our R_C_ as trendy as possible"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 422,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "but suppose if you take the the present trend of mobile phones there are like big thick keys"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But I think taking the idea of getting inspiration from mobile phones is interesting , especially if we're going after a younger market ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 431,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 433,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "that's the the the mm the new and the funky things ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What attitudes did Project Manager hold towards teletext?",
+                "tokenized_answer": [
+                    "Project Manager first brought up teletext as a well-known feature of televisions, but then admitted that it was becoming obsolete due to the development of the internet, though it was still used.",
+                    "Under this circumstance, Project Manager put forward two options, one of which was to stop at the television phase, and the other was to go further to the phase of the recording device.",
+                    "Then he started to talk about target customers in the first place and laid teletext issues on the table."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "first thing is uh teletext is a well known feature of televisions"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 389,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "but it's it's getting used less and less ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 391,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "That's that's especially because of the internet of course ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 395,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "but it's it is still used . Um"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "further yes we must think , uh do we stay uh to to television only , the television as we as we all know it with with broadcasting signals and you can't go back"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 398,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "or do we uh uh go further as Matthew indicated by supporting uh uh recording uh devices ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 387,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "first thing is uh teletext is a well known feature of televisions"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 403,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Um , furthermore , uh , w we need really need to interest uh {vocalsound} y younger customers"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 403,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "and then with younger customers I mean people uh below the age of forty ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 405,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "and our our current customers are mainly forty plus"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 415,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "and you'll al {vocalsound} always need to have the the future with younger people ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the advantages of big thick keys proposed by User Interface?",
+                "tokenized_answer": [
+                    "User Interface gained the inspiration of big thick keys for remote control from mobile phones, which were already skillfully used by the younger generation and thus made thick keys familiar to youngsters.",
+                    "Also, according to Marketing, compared with ordinary keys for RC, thick keys fitted in with the trend, especially among youngsters.",
+                    "Moreover, every team member agreed that with thick design, keys would look less cluttered and more spacious."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 422,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "but suppose if you take the the present trend of mobile phones there are like big thick keys"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But I think taking the idea of getting inspiration from mobile phones is interesting , especially if we're going after a younger market ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Because they are already used to that , you know , product ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 442,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And and they are skilled uh by using it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But I think taking the idea of getting inspiration from mobile phones is interesting , especially if we're going after a younger market ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 433,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "that's the the the mm the new and the funky things ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 446,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "for example you have uh presently uh keys like one , two , three like this , actually , and uh uh four five six like that and uh you can have keys like this in form like uh keys like that"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 457,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "so we basically don't change the uh original order of them"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 459,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "but then the keys are more spacious ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 463,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "so the keys can be it looks you know not very much cluttered"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "I I think now that the idea's clear ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 469,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yep ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the group discussion about the target group and corresponding functionalities.",
+                "tokenized_answer": [
+                    "When Projected Manager announced that the group should decide on the target group, Marketing thought that with a tight budget, the functionality of the product would be greatly restricted.",
+                    "Hence, only a low market could be reached.",
+                    "However, after a brief discussion about LCR screen, Project Manager brought back the idea of universal remote control, and the group reached a consensus on the feasibility of designing a basic universal remote control at a low cost."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 471,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Uh we should now uh try to decide um on our target group ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 475,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um , basically we're trying to get people to buy a remote control {vocalsound} {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 477,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "wouldn't they already have a remote control with their television when they buy one ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 479,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So our our our remote control has to be better ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "But it's not going to have more functionality ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'cause it's only a low market , it's a cheap-end remote control ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "we can't beat modern functionality ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 482,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "we might {disfmarker} we'll be able to {vocalsound} beat them on th the look of it , th the design of it"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'cause it's only a low market , it's a cheap-end remote control ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 501,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "If we're getting into universal remote territory , we're getting to L_C_D_ screens and things like that"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 504,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I don't know . I don't know whether that's necessary ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 510,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "because uh universal remote controls uh tend to be uh quite expensive ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 532,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "uh when we think it over I thi I think we are trying to offer the a kind of universal control for for less money ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 537,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Well {disfmarker} Well I it's fine with me like the price as long as it is uh not too expensive ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 540,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "because we have to take into account that we are gonna b we are gonna sell uh four aro around four million"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 546,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "then we we decide on on on going to this more universal kind of control ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Who did Marketing think the remote control should target and why?",
+                "tokenized_answer": [
+                    "Marketing thought that remote control should be targeted at a low market.",
+                    "First, considering the tight budget, Marketing described the product as a cheap-end remote control, which would hardly gain the advantage over competitors in functionality.",
+                    "By saying that she implied that a high-end RC for a high market should be equipped with sophisticated functions, which were not possessed by a low-cost one anyway.",
+                    "Therefore, only a low market may want to buy it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 477,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "wouldn't they already have a remote control with their television when they buy one ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 479,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So our our our remote control has to be better ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 480,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "But it's not going to have more functionality ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'cause it's only a low market , it's a cheap-end remote control ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'cause it's only a low market , it's a cheap-end remote control ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "we can't beat modern functionality ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 490,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "In that case they wouldn't buy our product ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 490,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "because it doesn't give them what they need in terms of functionality ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 491,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So your you think we should go for a more u universal high-performance {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 492,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "we can't , with the price range ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 417,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Um therefore ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 479,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So our our our remote control has to be better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 482,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'cause it's only a low market , it's a cheap-end remote control ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What decision did the group make on universal remote?",
+                "tokenized_answer": [
+                    "When Marketing first touched on the idea of a universal remote, she quickly rebutted herself, arguing that a high-end product was not achievable with a tight budget.",
+                    "However, Project Manager said that the group could make an attempt to provide a basic version of universal control, which could switch between stereo, VC, and TV.",
+                    "Thus, the group agreed to give universal remote a try and see if they could design a cheap one within budget."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 488,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Mm . But if people are buying a new remote control for functionality they'll buy a universal remote ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 491,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So your you think we should go for a more u universal high-performance {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 492,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "we can't , with the price range ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 492,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "we're not building a high end product ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 546,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "then we we decide on on on going to this more universal kind of control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 550,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "And uh basically you can look to the standards of other {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 554,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I guess what I'd like from a universal remote is maybe choosing between three devices , being able to switch between them , there may be stereo , V_C_R_ and T_V_ ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 532,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "uh when we think it over I thi I think we are trying to offer the a kind of universal control for for less money ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 536,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "d Do you agree ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 537,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Well {disfmarker} Well I it's fine with me like the price as long as it is uh not too expensive ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

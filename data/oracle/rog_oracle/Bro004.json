@@ -1,0 +1,330 @@
+{
+    "transcripts_id": "Bro004",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 15,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "That 's me ."
+                },
+                {
+                    "turn_index": 76,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "If we use the same language ?"
+                },
+                {
+                    "turn_index": 105,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Twenty percent further ?"
+                },
+                {
+                    "turn_index": 166,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "It 's multilingual ."
+                },
+                {
+                    "turn_index": 235,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Yeah , that would be interesting ."
+                },
+                {
+                    "turn_index": 271,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So it 's {pause} HTK training testings {pause} with different kind of features"
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "You had some very limited results that {disfmarker} at that point"
+                },
+                {
+                    "turn_index": 493,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Begin to work in this ."
+                },
+                {
+                    "turn_index": 606,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Does {disfmarker} does anybody know how they 're using it ?"
+                },
+                {
+                    "turn_index": 736,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "But you could split up the sentences in a test set ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion about the effect of training on different languages",
+            "oracle_info": [
+                {
+                    "turn_index": 243,
+                    "sent_index": 0,
+                    "speaker": "PhD E",
+                    "content": "Not yet ."
+                },
+                {
+                    "turn_index": 245,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean , you haven't {disfmarker} you haven't done all your tests on multiple languages ."
+                },
+                {
+                    "turn_index": 277,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It - It was part of these results ."
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "which are for French , Spanish and English ."
+                },
+                {
+                    "turn_index": 322,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Is there any difference in {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What did PhD D explain about the multilingual model?",
+            "oracle_info": [
+                {
+                    "turn_index": 295,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "which are for French , Spanish and English ."
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 7,
+                    "speaker": "PhD D",
+                    "content": "uh but with {pause} increased frame numbers ."
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 10,
+                    "speaker": "PhD D",
+                    "content": "delta but it 's not {disfmarker} {pause} not that much ."
+                },
+                {
+                    "turn_index": 298,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So . Multi - French , Multi - Spanish , and Multi - English ."
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "I {disfmarker} I think that was all it was ."
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "You had some very limited results that {disfmarker} at that point"
+                },
+                {
+                    "turn_index": 303,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So that was cross language"
+                }
+            ]
+        },
+        {
+            "query": "What did the Professor think about the use of English?",
+            "oracle_info": [
+                {
+                    "turn_index": 218,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "because in the other case you don't get hurt any more ,"
+                },
+                {
+                    "turn_index": 232,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "because of com compounded results ."
+                },
+                {
+                    "turn_index": 232,
+                    "sent_index": 13,
+                    "speaker": "Professor B",
+                    "content": "Something like that ?"
+                },
+                {
+                    "turn_index": 235,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Yeah , that would be interesting ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on managing the complexity of the model",
+            "oracle_info": [
+                {
+                    "turn_index": 491,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Was this ?"
+                },
+                {
+                    "turn_index": 498,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "I think they have one output ."
+                },
+                {
+                    "turn_index": 501,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "It 's one net with {pause} um {pause} twenty - seven outputs"
+                },
+                {
+                    "turn_index": 536,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "But that 's interesting ."
+                },
+                {
+                    "turn_index": 579,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "The features ,"
+                },
+                {
+                    "turn_index": 622,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "that 's what I was just gonna ask ."
+                },
+                {
+                    "turn_index": 670,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "That 's right ."
+                },
+                {
+                    "turn_index": 687,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , just have a bigger hidden layer ."
+                },
+                {
+                    "turn_index": 728,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Uh , probably the neural net"
+                },
+                {
+                    "turn_index": 736,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "You would think that would fairly trivially {disfmarker}"
+                }
+            ]
+        },
+        {
+            "query": "What did the team discuss about IBM computers?",
+            "oracle_info": [
+                {
+                    "turn_index": 685,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "and think about it and {disfmarker} {pause} and talk with everybody uh , {pause} outside of this meeting ."
+                },
+                {
+                    "turn_index": 702,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Oh , that 's good ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "uh IBM was donating five ,"
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 5,
+                    "speaker": "Professor B",
+                    "content": "We had originally hoped we were getting eight hundred megahertz processors ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "They ended up being five fifty ."
+                },
+                {
+                    "turn_index": 712,
+                    "sent_index": 15,
+                    "speaker": "Professor B",
+                    "content": "I mean we will ultimately get eight processors in there ."
+                }
+            ]
+        },
+        {
+            "query": "What did the team think about delays?",
+            "oracle_info": [
+                {
+                    "turn_index": 647,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "It does introduce delays"
+                },
+                {
+                    "turn_index": 647,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "but they 're claiming that it 's {disfmarker} it 's within the {disfmarker} {pause} the boundaries of it ."
+                },
+                {
+                    "turn_index": 649,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "so that it doesn't introduce {pause} uh , any more delay ."
+                },
+                {
+                    "turn_index": 649,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "I it introduces two hundred milliseconds of delay"
+                },
+                {
+                    "turn_index": 649,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "but at the same {pause} time the LDA {pause} down here {disfmarker}"
+                },
+                {
+                    "turn_index": 653,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah , you would know that ."
+                }
+            ]
+        }
+    ]
+}

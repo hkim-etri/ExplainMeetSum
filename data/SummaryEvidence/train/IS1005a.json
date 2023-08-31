@@ -1,0 +1,958 @@
+{
+    "domain": "Product(ami)",
+    "ami": {
+        "tokenized_answer": [
+            "The project manager opened the meeting and had the team members introduce themselves by name and their role in the project.",
+            "The project manager introduced the upcoming project to the team and then had the team members participate in a tool training exercise in which each member drew his favorite animal on the white board and discussed what he liked about the animal.",
+            "The project manager also discussed selling prices and the project budget.",
+            "The team then discussed their experiences with remotes, focusing on various features they would like to see in the remote they will produce, as well as features they find unappealing in current remotes.",
+            "The interface designer will work on the technical functions of the remote.",
+            "The marketing expert will find the user requirements for the remote",
+            "The remote will sell for 25 Euro.",
+            "The remote will be sold internationally.",
+            "The production costs cannot exceed 12.50 Euro.",
+            "*NA*."
+        ],
+        "answer_sentence_index": [
+            "IS1005a.rdhillon.s.1",
+            "IS1005a.rdhillon.s.2",
+            "IS1005a.rdhillon.s.3",
+            "IS1005a.rdhillon.s.4",
+            "IS1005a.rdhillon.s.5",
+            "IS1005a.rdhillon.s.6",
+            "IS1005a.rdhillon.s.7",
+            "IS1005a.rdhillon.s.8",
+            "IS1005a.rdhillon.s.9",
+            "IS1005a.rdhillon.s.10"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "Uh , we are actually doing this meeting to start a new project which is about designing a remote control ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "So I'm going to be the project manager of this uh project ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 6,
+                    "speaker": "Project Manager",
+                    "content": "I'm Fabien Cardinaux"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 1,
+                    "sent_index": 7,
+                    "speaker": "Project Manager",
+                    "content": "and uh I I guess you can present yourself ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 3,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "so my name is Petre {gap} ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "Uh , in the project I'm supposed to be the technic ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "'Kay . So my name's Bob Morris ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 10,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "I'm the Marketing Expert for this project ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "My name is Hamed Getabdar ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 14,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "and uh I'm going to be Interface Designer in this project ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "We are talking about the project plan ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 16,
+                    "sent_index": 7,
+                    "speaker": "Project Manager",
+                    "content": "Um . So what is the goal of this project ? Is to design a new remote control ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 16,
+                    "sent_index": 17,
+                    "speaker": "Project Manager",
+                    "content": "So it's more like we are going to do inv individual work all in o in o our specialities"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 16,
+                    "sent_index": 18,
+                    "speaker": "Project Manager",
+                    "content": "and we are going to meet each other quite often to discuss and to find a good way ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 16,
+                    "sent_index": 21,
+                    "speaker": "Project Manager",
+                    "content": "Um so now we are going to to get used t to to the tools we are going to use all {disfmarker} during all this project ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 18,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "For example we can try to write what is our our favourite animal and write the f our favourite characteristics about it ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 22,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Yeah , yeah , you can draw the picture , of course {vocalsound} ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 34,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Um I probably like cats the most because they're cuddly and furry and uh playful ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "Okay , I think like horses uh because they are strong and beautiful ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Uh we are going to to sell {disfmarker} we want to sell uh this remote control for twenty five Euro Euro ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "And uh our expected profit will be around fifty million Euro ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 9,
+                    "speaker": "Project Manager",
+                    "content": "We expect a production cost of maximum uh twelve point fifty Euro ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Well , from experience , um I've had remote controls in the past that have had very {disfmarker} they've had lots and lots of buttons and they've been very small ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 114,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "and it's been very hard to to to use , because there's so many buttons ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 114,
+                    "sent_index": 5,
+                    "speaker": "Marketing",
+                    "content": "you know , on a T_V_ remote you only ever use , mostly , you know , f four or f six buttons . Um ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "Uh first would be that in current remote controls there is no back light {vocalsound} ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 118,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "so if you are if you are uh playing with this in the dark room it's it's probably worth to to have something like uh back light ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 120,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "And the second thing , f second point from me would be that in a normal remote control there is uh {disfmarker} there are two buttons for volume control ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 122,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "But I prefer like a potential-meter or something like ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 146,
+                    "sent_index": 1,
+                    "speaker": "User Interface",
+                    "content": "I uh I prefer um remote control working with radio waves ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 157,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Uh the the interface interface developer will work on the on the design of the remote control ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 185,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "And for the Marketing uh Manager , I dunno , okay , which is Bob , uh"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 185,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "you are going to try to to find the user requirements f uh for the remote control ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Uh we are going to to sell {disfmarker} we want to sell uh this remote control for twenty five Euro Euro ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "And uh we are trying to to have a market all around the world ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 108,
+                    "sent_index": 9,
+                    "speaker": "Project Manager",
+                    "content": "We expect a production cost of maximum uh twelve point fifty Euro ."
+                }
+            ],
+            []
+        ]
+    },
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "Project manager asked team members to present themselves.",
+                    "After that, project manager announced that the goal of the project was to design a new, trendy and user-friendly remote control, which would be sold all over the world.",
+                    "Project manager wanted to sell this remote control for twenty five Euro and expected profit would be around fifty million Euro.",
+                    "Then team members were asked to get used to the whiteboard by writing down their favourite animals.",
+                    "Besides, they were also asked to share their ideas and good or bad experiences about remote controls.",
+                    "From their point of view, remote controls with too many buttons or without backlight are hard to use.",
+                    "A potential-meter for volume control was also necessary.",
+                    "Remote control working with radio waves was better than that working with infra-red rays.",
+                    "At the end of the meeting, project manager had assigned tasks to team members."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "So I'm going to be the project manager of this uh project ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "I'm Fabien Cardinaux"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1,
+                            "sent_index": 7,
+                            "speaker": "Project Manager",
+                            "content": "and uh I I guess you can present yourself ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 3,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "so my name is Petre {gap} ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh , in the project I'm supposed to be the technic ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'Kay . So my name's Bob Morris ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "I'm the Marketing Expert for this project ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 14,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "My name is Hamed Getabdar ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 14,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "and uh I'm going to be Interface Designer in this project ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 7,
+                            "speaker": "Project Manager",
+                            "content": "Um . So what is the goal of this project ? Is to design a new remote control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 9,
+                            "speaker": "Project Manager",
+                            "content": "and um it should be trendy , and user friendly ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "And uh we are trying to to have a market all around the world ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Uh we are going to to sell {disfmarker} we want to sell uh this remote control for twenty five Euro Euro ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "And uh our expected profit will be around fifty million Euro ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 18,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "For example we can try to write what is our our favourite animal and write the f our favourite characteristics about it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 18,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "So I will ask you all to do the same ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Just to get used to the whiteboard ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So , if you have some experience , good or bad , with remote controls you can share it and say what you f what is your idea ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well , from experience , um I've had remote controls in the past that have had very {disfmarker} they've had lots and lots of buttons and they've been very small ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "and it's been very hard to to to use , because there's so many buttons ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh first would be that in current remote controls there is no back light {vocalsound} ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 120,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "And the second thing , f second point from me would be that in a normal remote control there is uh {disfmarker} there are two buttons for volume control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But I prefer like a potential-meter or something like ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 146,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "I uh I prefer um remote control working with radio waves ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 146,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "because remote control working with infra-red rays you should you should you should keep it in a specific direction and then try it hard to tune {gap} ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Um . So we will close uh this meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Uh . The {disfmarker} So I will ask you to do some work ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Uh the the interface interface developer will work on the on the design of the remote control ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 180,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "For the User Interface Designer , which is Hamed um ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 182,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "uh , you are going to work on the technical functions of the remote control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 185,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And for the Marketing uh Manager , I dunno , okay , which is Bob , uh"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "you are going to try to to find the user requirements f uh for the remote control ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize industrial designer's bad experience of remote control.",
+                "tokenized_answer": [
+                    "Firstly, remote control without backlight was inconvenient to use in the dark room.",
+                    "Secondly, the industrial designer preferred a potential-meter for volume control instead of two buttons."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 118,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh first would be that in current remote controls there is no back light {vocalsound} ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "so if you are if you are uh playing with this in the dark room it's it's probably worth to to have something like uh back light ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "And the second thing , f second point from me would be that in a normal remote control there is uh {disfmarker} there are two buttons for volume control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But I prefer like a potential-meter or something like ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the task allocation for team members.",
+                "tokenized_answer": [
+                    "Interface developer was asked to work on the design of the remote control.",
+                    "User interface designer was asked to work on the technical functions of the remote control while marketing was responsible for finding the user requirements for the remote control."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 157,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Uh the the interface interface developer will work on the on the design of the remote control ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 180,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "For the User Interface Designer , which is Hamed um ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 182,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "uh , you are going to work on the technical functions of the remote control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 185,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And for the Marketing uh Manager , I dunno , okay , which is Bob , uh"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "you are going to try to to find the user requirements f uh for the remote control ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why does the industrial designer prefer a potential-meter for volume control?",
+                "tokenized_answer": [
+                    "Users can't change the volume rapidly by using two discrete buttons for volume.",
+                    "While by using a potential-meter or a slider, the user can mute it down or make a high volume in one second."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 126,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Not just two discrete buttons for volume ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "{gap} Are you not afraid that if you take your remote control you can move the slide and it could {gap} {disfmarker} the the volume can go up very quickly"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But I prefer like a potential-meter or something like ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 124,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "You know , some slider or {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 132,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yeah , but I can reach {disfmarker} In uh one second I can mute it down , or or make a high volume ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What is project manager's opinion towards the goal of the new remote control project?",
+                "tokenized_answer": [
+                    "The project manager considered that the goal of the new remote control project was to design a new and original remote control which is trendy and user-friendly.",
+                    "He wanted its price to be 25 Euro and it would be sold all over the world."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 7,
+                            "speaker": "Project Manager",
+                            "content": "Um . So what is the goal of this project ? Is to design a new remote control ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 8,
+                            "speaker": "Project Manager",
+                            "content": "So it should be , of course , new and original ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 9,
+                            "speaker": "Project Manager",
+                            "content": "and um it should be trendy , and user friendly ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Uh we are going to to sell {disfmarker} we want to sell uh this remote control for twenty five Euro Euro ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 108,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "And uh we are trying to to have a market all around the world ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the features of remote control which left users with a bad experience.",
+                "tokenized_answer": [
+                    "When there are many buttons on the remote control, it's hard to see each buttons' function and it's hard to press small buttons.",
+                    "Remote control without backlight was inconvenient to use in a dark room.",
+                    "Remote control without a potential-meter for volume control couldn't be used to mute the TV down or make a high volume in a second.",
+                    "When using remote control working with infra-red rays, users should keep it in a specific direction and it's hard to tune."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well , from experience , um I've had remote controls in the past that have had very {disfmarker} they've had lots and lots of buttons and they've been very small ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "and you know it's very hard to see which buttons do what ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "and the buttons are very small and very hard to press ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 118,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh first would be that in current remote controls there is no back light {vocalsound} ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "so if you are if you are uh playing with this in the dark room it's it's probably worth to to have something like uh back light ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "And the second thing , f second point from me would be that in a normal remote control there is uh {disfmarker} there are two buttons for volume control ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 122,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But I prefer like a potential-meter or something like ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 126,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Not just two discrete buttons for volume ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 132,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yeah , but I can reach {disfmarker} In uh one second I can mute it down , or or make a high volume ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 146,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "because remote control working with infra-red rays you should you should you should keep it in a specific direction and then try it hard to tune {gap} ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why did remote control with too many buttons frustrated marketing in the past?",
+                "tokenized_answer": [
+                    "Because it was hard to see which button did what when there were many buttons on the remote control.",
+                    "And the buttons were too small to press."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Well , from experience , um I've had remote controls in the past that have had very {disfmarker} they've had lots and lots of buttons and they've been very small ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "and you know it's very hard to see which buttons do what ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "and the buttons are very small and very hard to press ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

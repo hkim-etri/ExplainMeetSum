@@ -1,0 +1,1491 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "The Berkeley Meeting Recorder group discussed recognition results generated for 20 minutes of close-talking microphone data.",
+            "Recognition performance was very good, indicating promising results for forced alignment procedures and the ability to analyze other important signal information, e.g. prosody and overlapping speech.",
+            "It was decided that close-talking data should be downsampled and fed to the SRI recognizer to compare recognition performance, and that data from the far-field microphones should be tested on the recognizer as soon as possible.",
+            "The group also discussed recording setup and equipment issues.",
+            "A decision was made to purchase an additional head-mounted crown microphone.",
+            "A tentative decision was also made to integrate the use of a hand-held wireless microphone to help compensate for the lack of available close-talking microphones.",
+            "The collection of Meeting Recorder data is ongoing, and will include meetings by the Berkeley Even Deeper Understanding research group and, possibly, an organized discussion by members of the transcriber pool.",
+            "Following close-talking microphone recognition procedures, it was decided that data from the far-field microphones (or PZMs) should be tested on the recognizer as soon as possible.",
+            "Speaker mn017 will compare close-talking microphone recognition results with those obtained for downsampled data.",
+            "The SRI recognizer will be set up at ICSI to enable researchers to run their own variants.",
+            "The group decided to purchase one additional head-mounted crown microphone.",
+            "A tentative decision was also made to acquire a hand-held wireless microphone to pass around to additional meeting participants should the installation of more close-talking microphones prove too difficult.",
+            "The suggestion of incorporating the use of cross pads during meeting recordings received favorable comments from participants.",
+            "It was also tentatively decided to elicit meeting data from members of the transcriber pool discussing the Meeting Recorder corpus.",
+            "During recognition procedures, a fixable acoustic glitch was discovered that causes speech channels to become slightly asynchronized.",
+            "Poorer recognition performance was yielded for speech recorded via the use of lapel microphones.",
+            "Recognition errors were largely due to misrecogniton of the plural -s and out-of-vocabulary items.",
+            "The current recording setup is limited in that not all BMR meeting participants have their own close-talking microphone.",
+            "A 'no-frills' recognizer, trained on Switchboard acoustic models and both Switchboard and Broadcast News language models, was used to test data for one transcribed meeting.",
+            "Despite a glitch affecting the synchronized output of remaining data, recognition results for the first 20 minutes were very positive.",
+            "The recognizer was successful in making accurate gender distinctions among speakers.",
+            "It is anticipated that subsequent forced alignment procedures will also generate good results, enabling the group to analyze other types of signal information, such as prosody and overlapping speech segments.",
+            "Future work will involve getting assessments of forced aligned data from linguists on the accuracy of time marks.",
+            "The collection of Meeting Recorder data is ongoing, and will include meetings by the Berkeley Even Deeper Understanding research group.",
+            "Transcriptions are also ongoing, with nearly 10 hours of Meeting Recorder data transcribed so far.",
+            "Future work will involve working out a system for getting subjects to approve transcriptions so that confidentiality agreements are upheld and data may be shared with other research groups.",
+            "A visiting student from Norway is working with a member of ICSI to conduct a related project on echo cancellation for handling segments of overlapping speech.",
+            "Finally, the group is expecting a visit from a representative of NIST."
+        ],
+        "answer_sentence_index": [
+            "Bmr012.s.1",
+            "Bmr012.s.2",
+            "Bmr012.s.3",
+            "Bmr012.s.4",
+            "Bmr012.s.5",
+            "Bmr012.s.6",
+            "Bmr012.s.7",
+            "Bmr012.s.8",
+            "Bmr012.s.9",
+            "Bmr012.s.10",
+            "Bmr012.s.11",
+            "Bmr012.s.12",
+            "Bmr012.s.13",
+            "Bmr012.s.14",
+            "Bmr012.s.15",
+            "Bmr012.s.16",
+            "Bmr012.s.17",
+            "Bmr012.s.18",
+            "Bmr012.s.19",
+            "Bmr012.s.20",
+            "Bmr012.s.21",
+            "Bmr012.s.22",
+            "Bmr012.s.23",
+            "Bmr012.s.24",
+            "Bmr012.s.25",
+            "Bmr012.s.26",
+            "Bmr012.s.27",
+            "Bmr012.s.28"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 20,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Adam 's just trying to generate good uh data for the recognizer there ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 26,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and about a uh a thumb to a thumb and a half distance away from your mouth ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 129,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And I 'm sure Liz and Andreas wanna talk about recognition results ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 139,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "Anyway so it 's twenty minutes and I actually"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "but in general it was really good"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 429,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "and this is {disfmarker} this is good news"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 6,
+                    "speaker": "PhD C",
+                    "content": "because that means the force alignments should be good"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 9,
+                    "speaker": "PhD C",
+                    "content": "but if the force alignments are good we can get all kinds of information ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 10,
+                    "speaker": "PhD C",
+                    "content": "For example about , you know prosodic information"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 11,
+                    "speaker": "PhD C",
+                    "content": "and speaker overlaps and so forth directly from the aligned times ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 425,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And I have to try it on the far field mike"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "yeah certainly I 'd like to see as soon as we could ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "but soon as we could how well it does with say with the P Z Ms or maybe even one of the"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Some of the vowels ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 532,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And a few of the consonants ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 534,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah we could {disfmarker} we could try that and {disfmarker} and compare"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 535,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And {disfmarker} and feed them to {disfmarker} feed them to the SRI recognizer and see if {disfmarker} if the SRI front - end does something ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 539,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "I {disfmarker} I only downsampled them first cuz I was"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 127,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Uh well I have {disfmarker} I wanna talk about new microphones and wireless stuff ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 467,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "so Andreas set up this recognizer and {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 467,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "by the way the recognizer all the files I 'm moving to SRI and running everything there"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 699,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "you know already we have a {disfmarker} a {disfmarker} a group of people in this room that cannot all be miked"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 717,
+                    "sent_index": 2,
+                    "speaker": "Grad E",
+                    "content": "So the oth topic is uh getting more mikes and different mikes ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 742,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So {disfmarker} so my question is should we go ahead and get na nine identical head - mounted crown mikes ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Not before having one come here and have some people try it out ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 746,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So why don't we get one of these with the crown with a different headset ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 753,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Cuz I mean I think the microphones are OK"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 754,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "it 's just they 're not comfortable to wear ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 775,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Is {disfmarker} {vocalsound} is there any way we can have you know like a {disfmarker} a wireless microphone that you pass around to the people who you know the extra people for the times they wanna talk that {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 802,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "A hand - held ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 822,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "but hand {disfmarker} many hand - helds are built wi with sort of uh anti - shock sort of things so that it {disfmarker} it is less uh susceptible to hand noises ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 822,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "If you hold the lapel mike i you just get all k sorts of junk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 835,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah just these ones that they pass around with no you know wireless"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 845,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "so yeah you have these {disfmarker} these mikes with a little antenna on the end"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 676,
+                    "sent_index": 7,
+                    "speaker": "PhD C",
+                    "content": "well Chuck Fillmore agreed to record meetings but he had too many people in his meetings"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "and it 's a meeting on even deeper understanding , EDU ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 876,
+                    "sent_index": 1,
+                    "speaker": "Postdoc G",
+                    "content": "And then um also an idea for another meeting , which would be to have the transcribers talk about the data"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 425,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And I have to try it on the far field mike"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 457,
+                    "sent_index": 3,
+                    "speaker": "Professor B",
+                    "content": "it 's a meeting ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 4,
+                    "speaker": "Professor B",
+                    "content": "it 's a different thing and there 's lots of stuff to learn with the close talking mikes"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "yeah certainly I 'd like to see as soon as we could ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 8,
+                    "speaker": "Professor B",
+                    "content": "but soon as we could how well it does with say with the P Z Ms or maybe even one of the"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 528,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Some of the vowels ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 532,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And a few of the consonants ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 534,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah we could {disfmarker} we could try that and {disfmarker} and compare"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 539,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "I {disfmarker} I only downsampled them first cuz I was"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "We {disfmarker} we talked about setting up the SRI recognizer here ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 468,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "plus people can {disfmarker} could run their own uh you know variants of {disfmarker} of {disfmarker} of the recognition {pause} runs"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 742,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So {disfmarker} so my question is should we go ahead and get na nine identical head - mounted crown mikes ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 743,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Not before having one come here and have some people try it out ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 746,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So why don't we get one of these with the crown with a different headset ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 747,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 731,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So if we wanna use a different set {disfmarker} headset the solution that the guy suggested and they {disfmarker} apparently lots of people have done is Sony will sell you the jack with just wires coming out the end"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 731,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and then you can buy a headset that has pigtail and solder it yourself ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 732,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There isn't this some sort of thing that plugs in ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 775,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Is {disfmarker} {vocalsound} is there any way we can have you know like a {disfmarker} a wireless microphone that you pass around to the people who you know the extra people for the times they wanna talk that {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 802,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "A hand - held ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 835,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "Yeah just these ones that they pass around with no you know wireless"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 845,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "so yeah you have these {disfmarker} these mikes with a little antenna on the end"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 681,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Weren't we gonna do something with a pad at one point ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 683,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Yeah , we could do it with the cross pads ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 687,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well what I was just suggesting is {disfmarker} is we have these {disfmarker} this cross pad just for this purpose"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 688,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Yeah , and use that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 692,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "That would be great ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 876,
+                    "sent_index": 1,
+                    "speaker": "Postdoc G",
+                    "content": "And then um also an idea for another meeting , which would be to have the transcribers talk about the data"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 877,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "That 's a great idea ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 882,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I 'd love to hear what they have to say ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 895,
+                    "sent_index": 1,
+                    "speaker": "Postdoc G",
+                    "content": "Have them talk about the data and they {disfmarker} and they 've made observations to me"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 155,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "but I was able to can transcribe"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 156,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "and then we noticed that the reference was always one off with the {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 165,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "yeah i it was a complicated bug"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 165,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "because they were sometimes one off and then sometimes totally random"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "There {disfmarker} there {disfmarker} there 's an acoustic glitch that occurs where um the channels get slightly asynchronized"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 392,
+                    "sent_index": 3,
+                    "speaker": "PhD C",
+                    "content": "and I {disfmarker} I 'm pretty sure from listening to Eric that , you know given the words he was saying and given his pronunciation that the reason that he 's so much worse is the lapel ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 396,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So it 's nice now if we can just sort of eliminate the lapel one when {disfmarker} when we get new microphones"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 822,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "If you hold the lapel mike i you just get all k sorts of junk ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "There are a fair number of errors that are , you know where {disfmarker} got the plural S wrong or the inflection on the verb wrong ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 288,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "a lot of the errors I think are out of vocabulary ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 699,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "you know already we have a {disfmarker} a {disfmarker} a group of people in this room that cannot all be miked"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "um with Andreas ' help um Andreas put together a sort of no frills recognizer"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 137,
+                    "sent_index": 5,
+                    "speaker": "PhD C",
+                    "content": "and that 's trained on Switchboard which is telephone conversations ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 334,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "the acoustic models were also from Switchboard or {disfmarker} or"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 342,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "And actually {disfmarker} we actually um used Switchboard telephone bandwidth models"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 348,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "so that 's the on that 's the only acoustic training data that we have a lot of"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 370,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "I mean there 's uh actually more data is from Broadcast News"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 156,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "and then we noticed that the reference was always one off with the {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 165,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "yeah i it was a complicated bug"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 165,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "because they were sometimes one off and then sometimes totally random"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 192,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "There {disfmarker} there {disfmarker} there 's an acoustic glitch that occurs where um the channels get slightly asynchronized"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 265,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "this is really encouraging cuz this is free recognition ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 415,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "So this is only twenty minutes of one meeting with no {disfmarker} no tailoring at all ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 380,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "I mean our complete system starts by doing ge a gender detection"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 384,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "um and it might be reassuring for everybody to know that it got all the genders right ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 4,
+                    "speaker": "PhD C",
+                    "content": "and I 'm hoping {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 6,
+                    "speaker": "PhD C",
+                    "content": "because that means the force alignments should be good"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 9,
+                    "speaker": "PhD C",
+                    "content": "but if the force alignments are good we can get all kinds of information ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 10,
+                    "speaker": "PhD C",
+                    "content": "For example about , you know prosodic information"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 11,
+                    "speaker": "PhD C",
+                    "content": "and speaker overlaps and so forth directly from the aligned times ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 12,
+                    "speaker": "PhD C",
+                    "content": "Um so that 'll be something that"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 13,
+                    "speaker": "PhD C",
+                    "content": "actually in order to assess the forced alignment um we need s some linguists or some people to look at it and say are these boundaries in about the right place ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 429,
+                    "sent_index": 14,
+                    "speaker": "PhD C",
+                    "content": "Because it 's just gonna give us time marks"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 676,
+                    "sent_index": 7,
+                    "speaker": "PhD C",
+                    "content": "well Chuck Fillmore agreed to record meetings but he had too many people in his meetings"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 676,
+                    "sent_index": 9,
+                    "speaker": "PhD C",
+                    "content": "and but uh Jerry also agreed so uh we 're starting on {disfmarker} on"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 678,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "and it 's a meeting on even deeper understanding , EDU ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 863,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "One of them is to give you a status in terms of the transcriptions so far ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 863,
+                    "sent_index": 1,
+                    "speaker": "Postdoc G",
+                    "content": "So um as of last night um I 'd assigned twelve hours and they 'd finished nine"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 865,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "and my goal was to have eleven done by the end of the month ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 865,
+                    "sent_index": 1,
+                    "speaker": "Postdoc G",
+                    "content": "I think that by tomorrow we 'll have ten ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 474,
+                    "sent_index": 4,
+                    "speaker": "Postdoc G",
+                    "content": "you 're maintaining it in {disfmarker} in a place that wouldn't be publicly readable that {disfmarker} that kind of stuff ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 482,
+                    "sent_index": 1,
+                    "speaker": "PhD C",
+                    "content": "we have n no names ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Yeah so we just have to go through this process of having people approve the transcriptions ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 504,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "we need to work at a system for doing that approval so that we can send people the transcripts"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 955,
+                    "sent_index": 1,
+                    "speaker": "Grad J",
+                    "content": "I 'm a Norwegian ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 955,
+                    "sent_index": 7,
+                    "speaker": "Grad J",
+                    "content": "So with the help of uh Dan Ellis I 'm gonna do small project associated to this ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 955,
+                    "sent_index": 8,
+                    "speaker": "Grad J",
+                    "content": "What I 'm gonna try to do is uh use {disfmarker} use ech echo cancellation to uh to handle the periods where you have overlapping talk ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 923,
+                    "sent_index": 0,
+                    "speaker": "Postdoc G",
+                    "content": "And then I wanted to also um say something about the Fiscus uh uh John {disfmarker} John Fiscus visit tomorrow ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 923,
+                    "sent_index": 6,
+                    "speaker": "Postdoc G",
+                    "content": "and he 'll be also presenting what NIST is doing"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "What was the general discussion?",
+                "tokenized_answer": [
+                    "The group discussed recognition results generated for 20 minutes of close-talking microphone data.",
+                    "Recognition performance was very good, indicating promising results for forced alignment procedures and the ability to analyze other important signal information, e.g. prosody and overlapping speech.",
+                    "It was decided that close-talking data should be downsampled and fed to the SRI recognizer to compare recognition performance, and that data from the far-field microphones should be tested on the recognizer as soon as possible.",
+                    "The group also discussed recording setup and equipment issues."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Adam 's just trying to generate good uh data for the recognizer there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "and about a uh a thumb to a thumb and a half distance away from your mouth ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 129,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And I 'm sure Liz and Andreas wanna talk about recognition results ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 139,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "Anyway so it 's twenty minutes and I actually"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "but in general it was really good"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 429,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "and this is {disfmarker} this is good news"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 6,
+                            "speaker": "PhD C",
+                            "content": "because that means the force alignments should be good"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 9,
+                            "speaker": "PhD C",
+                            "content": "but if the force alignments are good we can get all kinds of information ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 10,
+                            "speaker": "PhD C",
+                            "content": "For example about , you know prosodic information"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 11,
+                            "speaker": "PhD C",
+                            "content": "and speaker overlaps and so forth directly from the aligned times ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 425,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And I have to try it on the far field mike"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "yeah certainly I 'd like to see as soon as we could ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "but soon as we could how well it does with say with the P Z Ms or maybe even one of the"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Some of the vowels ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 532,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And a few of the consonants ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 534,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah we could {disfmarker} we could try that and {disfmarker} and compare"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 535,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And {disfmarker} and feed them to {disfmarker} feed them to the SRI recognizer and see if {disfmarker} if the SRI front - end does something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "I {disfmarker} I only downsampled them first cuz I was"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 127,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "Uh well I have {disfmarker} I wanna talk about new microphones and wireless stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 467,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "so Andreas set up this recognizer and {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 699,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "you know already we have a {disfmarker} a {disfmarker} a group of people in this room that cannot all be miked"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 717,
+                            "sent_index": 2,
+                            "speaker": "Grad E",
+                            "content": "So the oth topic is uh getting more mikes and different mikes ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize what was said about the microphone data",
+                "tokenized_answer": [
+                    "The group discussed recognition results generated for 20 minutes of close-talking microphone data.",
+                    "Recognition performance was very good, indicating promising results for forced alignment procedures and the ability to analyze other important signal information, e.g. prosody and overlapping speech.",
+                    "It was decided that close-talking data should be downsampled and fed to the SRI recognizer to compare recognition performance, and that data from the far-field microphones should be tested on the recognizer as soon as possible."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 20,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Adam 's just trying to generate good uh data for the recognizer there ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "and about a uh a thumb to a thumb and a half distance away from your mouth ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 129,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And I 'm sure Liz and Andreas wanna talk about recognition results ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 139,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "Anyway so it 's twenty minutes and I actually"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "but in general it was really good"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 429,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "and this is {disfmarker} this is good news"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 6,
+                            "speaker": "PhD C",
+                            "content": "because that means the force alignments should be good"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 9,
+                            "speaker": "PhD C",
+                            "content": "but if the force alignments are good we can get all kinds of information ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 10,
+                            "speaker": "PhD C",
+                            "content": "For example about , you know prosodic information"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 11,
+                            "speaker": "PhD C",
+                            "content": "and speaker overlaps and so forth directly from the aligned times ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 425,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And I have to try it on the far field mike"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "yeah certainly I 'd like to see as soon as we could ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "but soon as we could how well it does with say with the P Z Ms or maybe even one of the"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Some of the vowels ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 532,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And a few of the consonants ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 534,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah we could {disfmarker} we could try that and {disfmarker} and compare"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 535,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "And {disfmarker} and feed them to {disfmarker} feed them to the SRI recognizer and see if {disfmarker} if the SRI front - end does something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "I {disfmarker} I only downsampled them first cuz I was"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was decided on the microphone procedures?",
+                "tokenized_answer": [
+                    "Following close-talking microphone recognition procedures, it was decided that data from the far-field microphones (or PZMs) should be tested on the recognizer as soon as possible.",
+                    "Speaker mn017 will compare close-talking microphone recognition results with those obtained for downsampled data.",
+                    "The SRI recognizer will be set up at ICSI to enable researchers to run their own variants."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 425,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And I have to try it on the far field mike"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 457,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "it 's a meeting ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 4,
+                            "speaker": "Professor B",
+                            "content": "it 's a different thing and there 's lots of stuff to learn with the close talking mikes"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "yeah certainly I 'd like to see as soon as we could ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 457,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "but soon as we could how well it does with say with the P Z Ms or maybe even one of the"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Some of the vowels ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 532,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "And a few of the consonants ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 534,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah we could {disfmarker} we could try that and {disfmarker} and compare"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 539,
+                            "sent_index": 1,
+                            "speaker": "PhD C",
+                            "content": "I {disfmarker} I only downsampled them first cuz I was"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 0,
+                            "speaker": "PhD A",
+                            "content": "We {disfmarker} we talked about setting up the SRI recognizer here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 468,
+                            "sent_index": 2,
+                            "speaker": "PhD A",
+                            "content": "plus people can {disfmarker} could run their own uh you know variants of {disfmarker} of {disfmarker} of the recognition {pause} runs"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What were the changes decided on the equipment?",
+                "tokenized_answer": [
+                    "The group decided to purchase one additional head-mounted crown microphone.",
+                    "A tentative decision was also made to acquire a hand-held wireless microphone to pass around to additional meeting participants should the installation of more close-talking microphones prove too difficult."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 742,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So {disfmarker} so my question is should we go ahead and get na nine identical head - mounted crown mikes ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 743,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Not before having one come here and have some people try it out ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 746,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "So why don't we get one of these with the crown with a different headset ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 747,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 731,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "and then you can buy a headset that has pigtail and solder it yourself ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 732,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "There isn't this some sort of thing that plugs in ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 775,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Is {disfmarker} {vocalsound} is there any way we can have you know like a {disfmarker} a wireless microphone that you pass around to the people who you know the extra people for the times they wanna talk that {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 802,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "A hand - held ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 835,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah just these ones that they pass around with no you know wireless"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 845,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "so yeah you have these {disfmarker} these mikes with a little antenna on the end"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

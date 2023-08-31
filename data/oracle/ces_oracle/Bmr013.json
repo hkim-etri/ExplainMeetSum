@@ -1,0 +1,326 @@
+{
+    "transcripts_id": "Bmr013",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Um , so I wanted to discuss digits briefly , but that won't take too long ."
+                },
+                {
+                    "turn_index": 18,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "OK well , the , w uh as you can see from the numbers on the digits we 're almost done ."
+                },
+                {
+                    "turn_index": 18,
+                    "sent_index": 7,
+                    "speaker": "Grad F",
+                    "content": "And so , once we 're {disfmarker} it 's done it would be very nice to train up a recognizer and actually start working with this data ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So we 'll have a corpus that 's the size of TI - digits ?"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Yeah just by way of uh , uh , a uh , order of magnitude , uh , um , we 've been working with this Aurora , uh data set ."
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "And , uh , the best score , on the , nicest part of the data , that is , where you 've got training and test set that are basically the same kinds of noise and so forth , uh , is about ,"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "I think the best score was something like five percent , uh , error , per digit ."
+                },
+                {
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "On some subset ."
+                },
+                {
+                    "turn_index": 120,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "One thought might be to do this uh , on {disfmarker} on the digits , or some piece of the digits ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So , I mean another way to look at this is to , is to , uh , do some stuff on Switchboard which has all this other , stuff to it ."
+                },
+                {
+                    "turn_index": 331,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "They 'd be able to do phonetic - level coding , or articulatory ."
+                },
+                {
+                    "turn_index": 360,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Uh , oh yeah , um , {vocalsound} I worked a little bit on the {disfmarker} on the presegmentation to {disfmarker} to get another version which does channel - specific , uh , speech - nonspeech detection ."
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And , and , therefore to be able to , uh , somewhat distinguish between foreground and background speech in {disfmarker} in the different {disfmarker} in {disfmarker} each channel ."
+                },
+                {
+                    "turn_index": 539,
+                    "sent_index": 1,
+                    "speaker": "Postdoc B",
+                    "content": "it drifted into the afternoon , {comment} {vocalsound} uh , concerning this issue of , um , the , well there 's basically the issue of the interplay between the transcript format and the processing that , they need to do for , the SRI recognizer ."
+                },
+                {
+                    "turn_index": 543,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "also we discussed some adaptational things ,"
+                },
+                {
+                    "turn_index": 547,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "uh {disfmarker} You know I hadn't , uh , incorporated , a convention explicitly to handle acronyms , for example ,"
+                },
+                {
+                    "turn_index": 549,
+                    "sent_index": 6,
+                    "speaker": "Postdoc B",
+                    "content": "And then , a similar conv uh , convention for numbers ."
+                },
+                {
+                    "turn_index": 558,
+                    "sent_index": 2,
+                    "speaker": "PhD G",
+                    "content": "So if they hear a breath and they don't know who breath it is it 's better to put it in that channel than to put it in the speaker 's channel"
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize what was said about the digits recordings",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "speaker": "Grad F",
+                    "content": "Um , so I wanted to discuss digits briefly , but that won't take too long ."
+                },
+                {
+                    "turn_index": 18,
+                    "sent_index": 1,
+                    "speaker": "Grad F",
+                    "content": "OK well , the , w uh as you can see from the numbers on the digits we 're almost done ."
+                },
+                {
+                    "turn_index": 18,
+                    "sent_index": 7,
+                    "speaker": "Grad F",
+                    "content": "And so , once we 're {disfmarker} it 's done it would be very nice to train up a recognizer and actually start working with this data ."
+                },
+                {
+                    "turn_index": 19,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So we 'll have a corpus that 's the size of TI - digits ?"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "Yeah just by way of uh , uh , a uh , order of magnitude , uh , um , we 've been working with this Aurora , uh data set ."
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "And , uh , the best score , on the , nicest part of the data , that is , where you 've got training and test set that are basically the same kinds of noise and so forth , uh , is about ,"
+                },
+                {
+                    "turn_index": 57,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "I think the best score was something like five percent , uh , error , per digit ."
+                }
+            ]
+        },
+        {
+            "query": "What was said about the transcriber pool?",
+            "oracle_info": [
+                {
+                    "turn_index": 135,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "So , may maybe the thing will be do {disfmarker} to take some very small subset , I mean not have a big , program , but take a small set , uh , subset of the conversational speech and a small subset of the digits ,"
+                },
+                {
+                    "turn_index": 142,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Hafta think about , the particular acoustic features to mark , too , because , I mean , some things , they wouldn't be able to mark , like , uh , you know , uh , tense lax ."
+                },
+                {
+                    "turn_index": 222,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "So it would be {disfmarker} it would be great if we had , either these kind of , labelings on , the same portion of Switchboard that Steve marked , or , Steve 's type markings on this data , with these ."
+                },
+                {
+                    "turn_index": 271,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Well , you know , um {disfmarker} I mean if we 're talking about , having the , annotators annotate these kinds of features , it seems like ,"
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So , I mean another way to look at this is to , is to , uh , do some stuff on Switchboard which has all this other , stuff to it ."
+                },
+                {
+                    "turn_index": 539,
+                    "sent_index": 11,
+                    "speaker": "Postdoc B",
+                    "content": "So , as a first pass through , a first chance without having to do a lot of hand - editing , what we 're gonna do , is , I 'll run it through channelize , give them those data after I 've done the editing process and be sure it 's clean ."
+                },
+                {
+                    "turn_index": 541,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "And then we 'll see if the units that we 're getting , uh , with the {disfmarker} at that level , are sufficient ."
+                }
+            ]
+        },
+        {
+            "query": "What did the group say about acoustic-phonetic analyses?",
+            "oracle_info": [
+                {
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "On some subset ."
+                },
+                {
+                    "turn_index": 120,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "One thought might be to do this uh , on {disfmarker} on the digits , or some piece of the digits ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So , I mean another way to look at this is to , is to , uh , do some stuff on Switchboard which has all this other , stuff to it ."
+                },
+                {
+                    "turn_index": 331,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "They 'd be able to do phonetic - level coding , or articulatory ."
+                },
+                {
+                    "turn_index": 360,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Uh , oh yeah , um , {vocalsound} I worked a little bit on the {disfmarker} on the presegmentation to {disfmarker} to get another version which does channel - specific , uh , speech - nonspeech detection ."
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "And , and , therefore to be able to , uh , somewhat distinguish between foreground and background speech in {disfmarker} in the different {disfmarker} in {disfmarker} each channel ."
+                }
+            ]
+        },
+        {
+            "query": "What approaches were considered for the analysis?",
+            "oracle_info": [
+                {
+                    "turn_index": 120,
+                    "sent_index": 1,
+                    "speaker": "Professor C",
+                    "content": "On some subset ."
+                },
+                {
+                    "turn_index": 120,
+                    "sent_index": 2,
+                    "speaker": "Professor C",
+                    "content": "One thought might be to do this uh , on {disfmarker} on the digits , or some piece of the digits ."
+                },
+                {
+                    "turn_index": 323,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So , I mean another way to look at this is to , is to , uh , do some stuff on Switchboard which has all this other , stuff to it ."
+                },
+                {
+                    "turn_index": 331,
+                    "sent_index": 0,
+                    "speaker": "Postdoc B",
+                    "content": "They 'd be able to do phonetic - level coding , or articulatory ."
+                },
+                {
+                    "turn_index": 281,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Well cuz the yeah , and then also , if you did it on Switchboard , you would have , the full continuum of transcriptions ."
+                },
+                {
+                    "turn_index": 294,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But it {disfmarker} it might be good to do what Jane was saying uh , you know , seed it , with , guesses about what we think the features are , based on , you know , the phone or Steve 's transcriptions or something . to make it quicker ."
+                },
+                {
+                    "turn_index": 301,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "So I mean that 's probably the right way to go anyway , is to {disfmarker} is to start off with an automatic system with a pretty rich pronunciation dictionary that , that , um , you know , tries , to label it all ."
+                },
+                {
+                    "turn_index": 302,
+                    "sent_index": 2,
+                    "speaker": "Postdoc B",
+                    "content": "Or {pause} would we {disfmarker}"
+                },
+                {
+                    "turn_index": 4,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "New version of the presegmentation ."
+                },
+                {
+                    "turn_index": 360,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Uh , oh yeah , um , {vocalsound} I worked a little bit on the {disfmarker} on the presegmentation to {disfmarker} to get another version which does channel - specific , uh , speech - nonspeech detection ."
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 1,
+                    "speaker": "PhD A",
+                    "content": "And , eh , I tested it on {disfmarker} on three or four meetings and it seems to work , well yeah , fairly well , I {disfmarker} I would say ."
+                }
+            ]
+        }
+    ]
+}

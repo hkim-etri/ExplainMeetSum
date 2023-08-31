@@ -1,0 +1,360 @@
+{
+    "transcripts_id": "ES2006b",
+    "general_query_list": [
+        {
+            "query": "Summarize the whole meeting.",
+            "oracle_info": [
+                {
+                    "turn_index": 0,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "now we are here at the functional design meeting ."
+                },
+                {
+                    "turn_index": 18,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "You said uh targ target groups ,"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "and how how they work together with each other ."
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 6,
+                    "speaker": "Industrial Designer",
+                    "content": "Um the identification of the components ,"
+                },
+                {
+                    "turn_index": 44,
+                    "sent_index": 40,
+                    "speaker": "Industrial Designer",
+                    "content": "so a all the functionality of the remote control ,"
+                },
+                {
+                    "turn_index": 103,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Should {disfmarker}"
+                },
+                {
+                    "turn_index": 106,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "So I'm going to speak about technical functions design"
+                },
+                {
+                    "turn_index": 159,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "functional requirements ."
+                },
+                {
+                    "turn_index": 172,
+                    "sent_index": 7,
+                    "speaker": "Marketing",
+                    "content": "but anyway ."
+                },
+                {
+                    "turn_index": 191,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "'cause I thought they'd be more exciting ."
+                },
+                {
+                    "turn_index": 302,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "but I mean it has been proven that that people of that age group have a higher disposable income"
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "I mean like it is an age group to target , really , I think ."
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "but voice recognition itself I'm not very sure about ,"
+                },
+                {
+                    "turn_index": 381,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "tha that should be relatively simple ."
+                },
+                {
+                    "turn_index": 400,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Um , so if we go for the the fifteen to thirty five age group"
+                },
+                {
+                    "turn_index": 440,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Yeah , you know , so you have to have the remote control ."
+                },
+                {
+                    "turn_index": 509,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Technical requirements and something something , yeah ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the presentations on working design, technical functions, functional requirements.",
+            "oracle_info": [
+                {
+                    "turn_index": 42,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "{vocalsound} So n uh with uh with regard to the {vocalsound} uh working design of this uh uh remote control uh I've identified um {vocalsound} a few basic uh components of the remote"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "and uh {vocalsound} se uh from the design , functional design perspective um w I c we can now uh know wha what exactly the components are"
+                },
+                {
+                    "turn_index": 42,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "and how how they work together with each other ."
+                },
+                {
+                    "turn_index": 44,
+                    "sent_index": 29,
+                    "speaker": "Industrial Designer",
+                    "content": "There is a user interface here ."
+                },
+                {
+                    "turn_index": 106,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "So I'm going to speak about technical functions design"
+                },
+                {
+                    "turn_index": 159,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "functional requirements ."
+                }
+            ]
+        },
+        {
+            "query": "Why did Project Manager think of the advanced technology design when presenting the technical functions?",
+            "oracle_info": [
+                {
+                    "turn_index": 46,
+                    "sent_index": 2,
+                    "speaker": "Industrial Designer",
+                    "content": "i in my personal preferences um {vocalsound} I'm hoping that we can ke keep the design as simple and clear as possible ."
+                },
+                {
+                    "turn_index": 46,
+                    "sent_index": 3,
+                    "speaker": "Industrial Designer",
+                    "content": "This would uh help us uh to upgrade our technology at a future point of time ."
+                },
+                {
+                    "turn_index": 50,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "{vocalsound} No , I don't have any idea about what each component costs ."
+                },
+                {
+                    "turn_index": 53,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "if we're if we're using more advanced technology , it might increase the price ."
+                }
+            ]
+        },
+        {
+            "query": "Why did the group think of the locator when presenting the functional requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 232,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "Um okay , then a long battery life , like you were talking about earlier"
+                },
+                {
+                    "turn_index": 242,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "I know , it's weird ."
+                },
+                {
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "'cause you don't want your remote control beeping every five minutes ,"
+                },
+                {
+                    "turn_index": 254,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "That's you , excellent ."
+                },
+                {
+                    "turn_index": 258,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "very interesting ."
+                }
+            ]
+        },
+        {
+            "query": "Summarize the group discussion about general requirements.",
+            "oracle_info": [
+                {
+                    "turn_index": 316,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "I mean like it is an age group to target , really , I think ."
+                },
+                {
+                    "turn_index": 373,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "An"
+                },
+                {
+                    "turn_index": 381,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "tha that should be relatively simple ."
+                },
+                {
+                    "turn_index": 476,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "But if we go away with that that kind of general um {vocalsound} specification in mind that we're looking at fifteen to thirty five year olds , we want it to look simple , but still have the buttons so it's easy to use , but only those key buttons , the major buttons and then one sort of menu one , and then voice recognition included as an option"
+                },
+                {
+                    "turn_index": 482,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "and some sort of summarisation ,"
+                },
+                {
+                    "turn_index": 500,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "that would be great ."
+                },
+                {
+                    "turn_index": 515,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "as to where we're going from here , you're going to look at the components concept ."
+                }
+            ]
+        },
+        {
+            "query": "What did the group think of disposable income when discussing general requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 291,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "That's alright ,"
+                },
+                {
+                    "turn_index": 291,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "if you can just look it up on your computer ,"
+                },
+                {
+                    "turn_index": 295,
+                    "sent_index": 0,
+                    "speaker": "Industrial Designer",
+                    "content": "so it was sti still still quite popular amongst them ."
+                },
+                {
+                    "turn_index": 302,
+                    "sent_index": 0,
+                    "speaker": "Marketing",
+                    "content": "but I mean it has been proven that that people of that age group have a higher disposable income"
+                },
+                {
+                    "turn_index": 316,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "I mean like it is an age group to target , really , I think ."
+                },
+                {
+                    "turn_index": 325,
+                    "sent_index": 2,
+                    "speaker": "Marketing",
+                    "content": "We didn't have a T_V_ last year ,"
+                },
+                {
+                    "turn_index": 332,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "yeah , and the remote control might not"
+                },
+                {
+                    "turn_index": 334,
+                    "sent_index": 0,
+                    "speaker": "User Interface",
+                    "content": "it might not even function with the old T_V_ ."
+                }
+            ]
+        },
+        {
+            "query": "Why did Project Manager think that they should try to incorporate voice recognition when discussing general requirements?",
+            "oracle_info": [
+                {
+                    "turn_index": 358,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "but that then does imply that we should try and incorporate voice recognition ."
+                },
+                {
+                    "turn_index": 361,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "Is that gonna have a {disfmarker} an implication for the technical specs ?"
+                },
+                {
+                    "turn_index": 362,
+                    "sent_index": 1,
+                    "speaker": "Industrial Designer",
+                    "content": "but voice recognition itself I'm not very sure about ,"
+                },
+                {
+                    "turn_index": 405,
+                    "sent_index": 2,
+                    "speaker": "User Interface",
+                    "content": "but I think this is not really the right moment yet ,"
+                },
+                {
+                    "turn_index": 405,
+                    "sent_index": 3,
+                    "speaker": "User Interface",
+                    "content": "because people are just so used to buttons"
+                },
+                {
+                    "turn_index": 409,
+                    "sent_index": 0,
+                    "speaker": "Project Manager",
+                    "content": "I think we need both ."
+                }
+            ]
+        }
+    ]
+}

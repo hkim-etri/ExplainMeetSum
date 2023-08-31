@@ -1,0 +1,306 @@
+{
+    "transcripts_id": "Bro023",
+    "general_query_list": [
+        {
+            "query": "Summarize the meeting",
+            "oracle_info": [
+                {
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "And uh Hans - uh , Hans - Guenter will be here , um , I think by next {disfmarker} next Tuesday or so ."
+                },
+                {
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "So he 's {disfmarker} he 's going to be here for about three weeks ,"
+                },
+                {
+                    "turn_index": 7,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Just for a visit ?"
+                },
+                {
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So , um , since we 're looking at putting this , um {disfmarker} mean log m magnitude spectral subtraction , um , into the SmartKom system , I I did a test seeing if , um , it would work using past only {comment} and plus the present to calculate the mean ."
+                },
+                {
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But it {disfmarker} but looking at it the other way , isn't it {disfmarker} what you 're saying that it didn't help you to have the longer time for training ,"
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "It actually improves over the baseline of not having a Wiener filter in the whole system ."
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "Like I have an LDA f LDA plus on - line normalization ,"
+                },
+                {
+                    "turn_index": 150,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "and then I plug in the Wiener filter in that ,"
+                },
+                {
+                    "turn_index": 152,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "So it improves"
+                },
+                {
+                    "turn_index": 193,
+                    "sent_index": 8,
+                    "speaker": "PhD B",
+                    "content": "That was with on - line normalization and LDA ."
+                },
+                {
+                    "turn_index": 300,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "but it works reasonably well ."
+                },
+                {
+                    "turn_index": 395,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So , {vocalsound} I 've been , uh , working still on the spectral subtraction ."
+                },
+                {
+                    "turn_index": 395,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "So to r to remind you {vocalsound} {vocalsound} a little bit of {disfmarker} of what I did before , is just {vocalsound} to apply some spectral subtraction with an overestimation factor"
+                },
+                {
+                    "turn_index": 654,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "Yeah , another thing that I {disfmarker} it 's important to mention is , um , that this has a this has some additional latency ."
+                },
+                {
+                    "turn_index": 654,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "Because when I do the smoothing , uh , it 's a recursion that estimated the means , so {disfmarker} of the g of the gain curve ."
+                }
+            ]
+        }
+    ],
+    "specific_query_list": [
+        {
+            "query": "Summarize the discussion on the mean log magnitude spectral subtraction",
+            "oracle_info": [
+                {
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So , um , since we 're looking at putting this , um {disfmarker} mean log m magnitude spectral subtraction , um , into the SmartKom system , I I did a test seeing if , um , it would work using past only {comment} and plus the present to calculate the mean ."
+                },
+                {
+                    "turn_index": 40,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "So , I did a test , um , {vocalsound} where I used twelve seconds from the past and the present frame to , um , calculate the mean ."
+                },
+                {
+                    "turn_index": 54,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "I mean , why would you do it , if you knew that you were going to have short windows in testing ."
+                },
+                {
+                    "turn_index": 56,
+                    "sent_index": 0,
+                    "speaker": "PhD A",
+                    "content": "Yeah , it seems like for your {disfmarker} I mean , in normal situations you would never get twelve seconds of speech ,"
+                },
+                {
+                    "turn_index": 82,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Most of the silence has been cut out ."
+                },
+                {
+                    "turn_index": 90,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "Well , if I only use six seconds , it still works pretty well ."
+                },
+                {
+                    "turn_index": 67,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "So that if you have very long utterances you have the best ,"
+                },
+                {
+                    "turn_index": 69,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "but if you have shorter utterances you use what you can ."
+                }
+            ]
+        },
+        {
+            "query": "What was the professor's take on the 12 second mean?",
+            "oracle_info": [
+                {
+                    "turn_index": 99,
+                    "sent_index": 3,
+                    "speaker": "Professor C",
+                    "content": "But , uh , if you do that , then , um , in practice somebody using the SmartKom system , one would think {comment} {disfmarker} if they 're using it for a while , it means that their first utterance , instead of , you know , getting , uh , a forty percent error rate reduction , they 'll get a {disfmarker} uh , over what , uh , you 'd get without this , uh , um , policy , uh , you get thirty percent ."
+                },
+                {
+                    "turn_index": 99,
+                    "sent_index": 4,
+                    "speaker": "Professor C",
+                    "content": "And then the second utterance that you give , they get the full {disfmarker} you know , uh , full benefit of it if it 's this ongoing thing ."
+                },
+                {
+                    "turn_index": 110,
+                    "sent_index": 5,
+                    "speaker": "Professor C",
+                    "content": "And so , uh , there 's a higher probability of it making an error , uh , in the first utterance ."
+                },
+                {
+                    "turn_index": 118,
+                    "sent_index": 7,
+                    "speaker": "Professor C",
+                    "content": "and then , um , once you , uh , actually had the whole utterance in , if you did , um , the , uh , uh , longer time version then , based on everything that you had , um , and then at that point only used it to distinguish between , you know , top N , um , possible utterances or something , you {disfmarker} you might {disfmarker} it might not take very much time ."
+                },
+                {
+                    "turn_index": 118,
+                    "sent_index": 13,
+                    "speaker": "Professor C",
+                    "content": "but our second responses are {disfmarker} second , uh , passes and third passes are really , really fast \" ."
+                }
+            ]
+        },
+        {
+            "query": "What did Grad E think about the goal of his experiment?",
+            "oracle_info": [
+                {
+                    "turn_index": 40,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So , um , since we 're looking at putting this , um {disfmarker} mean log m magnitude spectral subtraction , um , into the SmartKom system , I I did a test seeing if , um , it would work using past only {comment} and plus the present to calculate the mean ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 9,
+                    "speaker": "Grad E",
+                    "content": "In those I trained the models using mean subtraction with the means calculated over two seconds , or four seconds , or six seconds ."
+                },
+                {
+                    "turn_index": 51,
+                    "sent_index": 23,
+                    "speaker": "Grad E",
+                    "content": "although I think I did see one where it was a point eight percent or so rise in word error rate ."
+                },
+                {
+                    "turn_index": 52,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "But it {disfmarker} but looking at it the other way , isn't it {disfmarker} what you 're saying that it didn't help you to have the longer time for training ,"
+                }
+            ]
+        },
+        {
+            "query": "Summarize the discussion on latency in the system",
+            "oracle_info": [
+                {
+                    "turn_index": 654,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "Yeah , another thing that I {disfmarker} it 's important to mention is , um , that this has a this has some additional latency ."
+                },
+                {
+                    "turn_index": 695,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Because if we completely ignore latency , and then we discover that we really have to do something about it , we 're going to be {disfmarker} find ourselves in a bind ."
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "I , um , also implemented a sp um {disfmarker} spectral whitening idea"
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 5,
+                    "speaker": "PhD D",
+                    "content": "Uh , the idea is just to {vocalsound} um , flatten the log , uh , spectrum , um , and to flatten it more if the {disfmarker} the probability of silence is higher ."
+                },
+                {
+                    "turn_index": 825,
+                    "sent_index": 6,
+                    "speaker": "PhD D",
+                    "content": "So in this way , you can also reduce {disfmarker} somewhat reduce the musical noise"
+                }
+            ]
+        },
+        {
+            "query": "Why did the professor not like latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 695,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Because if we completely ignore latency , and then we discover that we really have to do something about it , we 're going to be {disfmarker} find ourselves in a bind ."
+                },
+                {
+                    "turn_index": 701,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "because we may end up with this crunch where all of a sudden we have to cut the latency in half or something ."
+                },
+                {
+                    "turn_index": 699,
+                    "sent_index": 0,
+                    "speaker": "Professor C",
+                    "content": "Yeah , just , you know , just be {disfmarker} be a little conservative"
+                }
+            ]
+        },
+        {
+            "query": "How long was the latency?",
+            "oracle_info": [
+                {
+                    "turn_index": 662,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "and the latency of this recursion is around fifty milliseconds ."
+                },
+                {
+                    "turn_index": 707,
+                    "sent_index": 2,
+                    "speaker": "PhD A",
+                    "content": "If {disfmarker} if there 's another part of the system that causes a latency of a hundred milliseconds , is this an additive thing ?"
+                },
+                {
+                    "turn_index": 710,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "it 's {disfmarker} it 's added ."
+                },
+                {
+                    "turn_index": 713,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "We can do something in parallel also , in some like {disfmarker} some cases like , if you wanted to do voice activity detection ."
+                }
+            ]
+        }
+    ]
+}

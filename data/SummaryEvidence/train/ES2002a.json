@@ -1,0 +1,980 @@
+{
+    "domain": "Product(ami)",
+    "ami": {
+        "tokenized_answer": [
+            "The project manager introduced the upcoming project to the team members and then the team members participated in an exercise in which they drew their favorite animal and discussed what they liked about the animal.",
+            "The project manager talked about the project finances and selling prices.",
+            "The team then discussed various features to consider in making the remote.",
+            "The industrial designer will work on the working design of the remote.",
+            "The user interface designer will work on the technical functions of the remote.",
+            "The marketing executive will work on what requirements the remote has to fulfill",
+            "The remote will sell for 25 Euro.",
+            "The remote will be sold on an international scale.",
+            "The production costs cannot exceed 12.50 Euro.",
+            "Whether the remote will be used exclusively for televisions."
+        ],
+        "answer_sentence_index": [
+            "ES2002a.rdhillon.s.1",
+            "ES2002a.rdhillon.s.2",
+            "ES2002a.rdhillon.s.3",
+            "ES2002a.rdhillon.s.4",
+            "ES2002a.rdhillon.s.5",
+            "ES2002a.rdhillon.s.6",
+            "ES2002a.rdhillon.s.7",
+            "ES2002a.rdhillon.s.8",
+            "ES2002a.rdhillon.s.9",
+            "ES2002a.rdhillon.s.10"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 9,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "so we're designing a new remote control and um {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 21,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "{vocalsound} So uh you get to draw your favourite animal and sum up your favourite characteristics of it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 2,
+                    "speaker": "Project Manager",
+                    "content": "Okay , uh we now need to discuss the project finance ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "Um so according to the brief um we're gonna be selling this remote control for twenty five Euro ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 6,
+                    "speaker": "Project Manager",
+                    "content": "And uh we don't want it to cost any more than uh twelve fifty Euros , so fifty percent of the selling price ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 169,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "Um well d Does anybody have anything to add to uh to the finance issue at all ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 196,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "So , like , I wonder if we might add something new to the to the remote control market ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 201,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "So extra functionalities ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 250,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "Um so inbetween now and then , um as the industrial designer , you're gonna be working on you know the actual working design of it"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 252,
+                    "sent_index": 1,
+                    "speaker": "Project Manager",
+                    "content": "Um for user interface , technical functions ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 252,
+                    "sent_index": 4,
+                    "speaker": "Project Manager",
+                    "content": "Um and uh marketing executive ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 252,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "you'll be just thinking about what it actually {disfmarker} what , you know , what requirements it has to has to fulfil"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 3,
+                    "speaker": "Project Manager",
+                    "content": "Um so according to the brief um we're gonna be selling this remote control for twenty five Euro ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 5,
+                    "speaker": "Project Manager",
+                    "content": "Um so we're gonna be selling this on an international scale ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 109,
+                    "sent_index": 6,
+                    "speaker": "Project Manager",
+                    "content": "And uh we don't want it to cost any more than uh twelve fifty Euros , so fifty percent of the selling price ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Marketing",
+                    "content": "I I mean one one way of looking at it would be , well the people producing television sets , maybe they have to buy remote controls ."
+                }
+            ]
+        ]
+    },
+    "icsi": {},
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "This was the kick-off meeting for the project.",
+                    "First of all, Project Manager led each group member to know each other and introduced the project which was aiming to design remote control.",
+                    "Next, they discussed their favourite animal characteristics.",
+                    "Lastly, Project Manager mentioned how they worked on each part individually."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Um well this is the kick-off meeting for our our project ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "Um so first of all , just to kind of make sure that we all know each other ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'm Laura and I'm the project manager ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Do you want to introduce yourself again ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 4,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Hi , I'm David and I'm supposed to be an industrial designer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I'm Andrew and I'm uh our marketing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um I'm Craig and I'm User Interface ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "so we're designing a new remote control and um {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} So uh you get to draw your favourite animal and sum up your favourite characteristics of it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "My favourite animal is like {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 5,
+                            "speaker": "Marketing",
+                            "content": "A beagle ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "charac favourite characteristics of it ? Is that right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 30,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Uh , right , well basically um high priority for any animal for me is that they be willing to take a lot of physical affection from their family ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 36,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Well , my favourite animal would be a monkey ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 39,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Then they're small cute and furry ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "and I kind of like whales ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 66,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "They come in and go {vocalsound} eat everything in sight . {vocalsound}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 78,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "M my favourite animal is my own dog at home ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Um he's very friendly and cheery and always pleased to see you ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So we're gonna have like individual work and then a meeting about it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 250,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "the next meeting's gonna be in thirty minutes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 250,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "Um so inbetween now and then , um as the industrial designer , you're gonna be working on you know the actual working design of it"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Um for user interface , technical functions ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "Um and uh marketing executive ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "you'll be just thinking about what it actually {disfmarker} what , you know , what requirements it has to has to fulfil"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the groupmates' self-introduction and the project introduction.",
+                "tokenized_answer": [
+                    "There were four people in the project team and each one introduced to each other on the team role.",
+                    "Project Manager introduced the project was about designing a remote control.",
+                    "After that, Project Manager explained the work division for each person and how they would present in the coming meetings."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "Um so first of all , just to kind of make sure that we all know each other ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'm Laura and I'm the project manager ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Do you want to introduce yourself again ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 4,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Hi , I'm David and I'm supposed to be an industrial designer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I'm Andrew and I'm uh our marketing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um I'm Craig and I'm User Interface ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "so we're designing a new remote control and um {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So we're gonna have like individual work and then a meeting about it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "And repeat that process three times ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the job role for each groupmate.",
+                "tokenized_answer": [
+                    "The group was greeting each other at the first meeting.",
+                    "Laura was the Project Manager.",
+                    "David was Industrial Designer and Andrew was Marketing expert.",
+                    "And User Interface was named Craig."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 0,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "Um so first of all , just to kind of make sure that we all know each other ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'm Laura and I'm the project manager ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Do you want to introduce yourself again ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 4,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Hi , I'm David and I'm supposed to be an industrial designer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I'm Andrew and I'm uh our marketing"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um I'm Craig and I'm User Interface ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'm Laura and I'm the project manager ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 4,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Hi , I'm David and I'm supposed to be an industrial designer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I'm Andrew and I'm uh our marketing"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "expert ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 7,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Um I'm Craig and I'm User Interface ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the group discuss about the email they received on the project announcement?",
+                "tokenized_answer": [
+                    "Group mates all should have received an email introducing what was this project about and there would be three different stages to the design.",
+                    "The project was about designing a new remote control, which was supposed to be original, trendy, and user friendly."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 9,
+                            "speaker": "Project Manager",
+                            "content": "Um and so there are three different stages to the design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 10,
+                            "speaker": "Project Manager",
+                            "content": "Um I'm not really sure what what you guys have already received um in your emails ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 9,
+                            "sent_index": 11,
+                            "speaker": "Project Manager",
+                            "content": "What did you get ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 10,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Um , I just got the project announcement about what the project is {vocalsound} ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "so we're designing a new remote control and um {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 9,
+                            "sent_index": 7,
+                            "speaker": "Project Manager",
+                            "content": "Um , as you can see it's supposed to be original , trendy and user friendly ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about the favourite animal characteristics and the workflow.",
+                "tokenized_answer": [
+                    "Industrial Designer drew a whale because whales came in and went to eat everything in sight, and they were harmless, interesting, and mild.",
+                    "Project Manager drew a dog because the dogs were friendly and cheery.",
+                    "Next, about the finance and the workflow.",
+                    "The target revenue was fifty million Euros and the target was on an international scale.",
+                    "The cost was 25 Euros.",
+                    "Group mates would receive requirement emails and work on them individually."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "and I kind of like whales ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "They come in and go {vocalsound} eat everything in sight . {vocalsound}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 69,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "And they're quite harmless and mild and interesting ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 74,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I was gonna choose a dog as well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "But I'll just draw a different kind of dog ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 78,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "M my favourite animal is my own dog at home ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Um he's very friendly and cheery and always pleased to see you ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 109,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Um what are we doing next ? Uh um ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Okay , uh we now need to discuss the project finance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Um so according to the brief um we're gonna be selling this remote control for twenty five Euro ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "um and we're aiming to make fifty million Euro ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "And uh we don't want it to cost any more than uh twelve fifty Euros , so fifty percent of the selling price ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 169,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Um well d Does anybody have anything to add to uh to the finance issue at all ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 171,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "No , actually ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "um and we're aiming to make fifty million Euro ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "Um so we're gonna be selling this on an international scale ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 109,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Um so according to the brief um we're gonna be selling this remote control for twenty five Euro ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "So we're gonna have like individual work and then a meeting about it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 250,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "the next meeting's gonna be in thirty minutes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 250,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "Um so inbetween now and then , um as the industrial designer , you're gonna be working on you know the actual working design of it"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Um for user interface , technical functions ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 4,
+                            "speaker": "Project Manager",
+                            "content": "Um and uh marketing executive ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 5,
+                            "speaker": "Project Manager",
+                            "content": "you'll be just thinking about what it actually {disfmarker} what , you know , what requirements it has to has to fulfil"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "and you'll all get instructions emailed to you , I guess ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Project Manager recommend to do when discussing competitor information?",
+                "tokenized_answer": [
+                    "Project manager mentioned that they had no background information on the competitor, however, they could analyze based on the product price.",
+                    "And Marketing supplemented that the remote control was something that people would not consciously assess in their purchasing habits."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Do we have any other background information on like how that compares to other"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 171,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "No , actually ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "Yeah , interesting thing about discussing um production of a remote control for me is that l"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 177,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "I just don't think of remote controls as somethin something people consciously assess in their purchasing habits ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the group think of the importance of technology reasonable on the working design?",
+                "tokenized_answer": [
+                    "The group had a discussion about the first remote control with cable and huge buttons on it.",
+                    "So they would like to try new technology like a touch screen and nicer materials for the remote, which was important for technology improvement."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 228,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "I remember when the first remote control my my family had was on a cable ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 228,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "Actually had a cable between it and the T_V_"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 230,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "and big like buttons that sort of like , like on a blender or something ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 234,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Maybe we could think about how , could be more , you know , streamlined . S"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 235,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Maybe like a touch screen or something ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 238,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Or whatever would be technologically reasonable ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 244,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Um , nicer materials"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 248,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "be worth exploring anyway ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

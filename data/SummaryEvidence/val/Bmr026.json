@@ -1,0 +1,2127 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "This is a relatively short meeting of the Meeting Recorder group, with only a few agenda items.",
+            "Transcription was discussed briefly because Jane was not present, however this appears to be progressing well in parallel with IBM.",
+            "Web pages have been set up to show transcription status and to allow participants to approve transcripts.",
+            "DARPA demos are progressing well with the back-end indexed to allow front-end filtering, and a potential demo ideas investigated which would use X Waves.",
+            "Transcriber is now working for Windows, however live pitch contours may not work in the time available.",
+            "Backed-up disk space is now fine, however temporary space is running out fast.",
+            "Interim measures are discussed while sysadmin are away.",
+            "Improvement has been made in the final version of the PLP, which shows better female performance, and combined with Mel Ceptra offers 1.5% improvement.",
+            "Digit performance also improved thanks to training using scripted speech data.",
+            "Progress has also been made in SRI alignment for tandem system.",
+            "The group note that the annual report needs to be worked on for next week, and it is also suggested to hold recognition meetings separately, however these issues will be discussed in more detail at the next meeting.",
+            "Jane will be contacted to see whether transcribers could work on a small amount of SmartKom data, in order to get the project moving.",
+            "Details of the transcription status web page will be sent to the group.",
+            "Participants will be contacted to approve transcripts or suggest edits, however this depends upon decisions regarding disk space and (un)compression of audio files.",
+            "There are disk space problems regarding scratch space, although the group decide that a solution about adding extra drives cannot be resolved without talking to sysadmin.",
+            "Until they can be contacted, the group will use the hard drives on each other's machines.",
+            "Displaying pitch contours live in Transcriber would be desirable for the demo, however, if the group run out of time, the group note that they could generate this statically using Powerpoint.",
+            "The group decide that it may be more beneficial to have separate meetings to discuss recognition, since Jane and Liz are less likely to be interested in this.",
+            "They will discuss this with them before going ahead.",
+            "Scratch disk space used to store the uncompressed meetings when they are being processed is getting short - the group are using 98%.",
+            "Various options are suggested about adding extra drives, externally to their machines, or to the server, but these cannot be resolved until after the relevant sysadmin person returns from a break in 10 days time.",
+            "Time is getting tight for some of the demo development, especially a lack of Tcl-TK skills slowing up back-end progress.",
+            "Additionally, time constraints may impinge upon the \"live-ness\" of the Transcriber pitch contour demo.",
+            "Annual report is due next week, so this will need to be discussed at the next meeting.",
+            "The group are still waiting for IBM to return transcripts next week.",
+            "This is not holding the group up, since parallel transcription is being used, and new transcribers have been recruited.",
+            "The web page detailing transcription status is working and being updated when possible.",
+            "Backed-up disk space has been seen as a priority by sysadmin, and the group are now only using 30% of this.",
+            "DARPA demos are progressing, with indexing added to the back-end, which will allow the front end to do filtering.",
+            "Transcriber has been developed to run on a Windows machine, with further development being undertaken to add a pitch contour display.",
+            "There is also the potential for a demo to be developed from X Waves.",
+            "The final version of PLP has been tested which shows similar performance as the system with the Mel Ceptra front-end (although performance for males is slightly, but non-significantly better).",
+            "Combining the two systems gives a 1.5% improvement in performance.",
+            "There has also been some improvement with digits, by training the system on read speech data, rather than training solely on TI digits or TIMIT data.",
+            "Progress is being made with SRI system alignment, with label files converted to train the net."
+        ],
+        "answer_sentence_index": [
+            "Bmr026.s.1",
+            "Bmr026.s.2",
+            "Bmr026.s.3",
+            "Bmr026.s.4",
+            "Bmr026.s.5",
+            "Bmr026.s.6",
+            "Bmr026.s.7",
+            "Bmr026.s.8",
+            "Bmr026.s.9",
+            "Bmr026.s.10",
+            "Bmr026.s.11",
+            "Bmr026.s.12",
+            "Bmr026.s.13",
+            "Bmr026.s.14",
+            "Bmr026.s.15",
+            "Bmr026.s.16",
+            "Bmr026.s.17",
+            "Bmr026.s.18",
+            "Bmr026.s.19",
+            "Bmr026.s.20",
+            "Bmr026.s.21",
+            "Bmr026.s.22",
+            "Bmr026.s.23",
+            "Bmr026.s.24",
+            "Bmr026.s.25",
+            "Bmr026.s.26",
+            "Bmr026.s.27",
+            "Bmr026.s.28",
+            "Bmr026.s.29",
+            "Bmr026.s.30",
+            "Bmr026.s.31",
+            "Bmr026.s.32",
+            "Bmr026.s.33",
+            "Bmr026.s.34",
+            "Bmr026.s.35"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 0,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "OK , we 're on ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 2,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So , I think this is gonna be a pretty short meeting because I have four agenda items ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 2,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "three of them were requested by Jane who is not gonna be at the meeting today ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Um {disfmarker} Well first of all with IBM I got a note from Brian yesterday saying that they finally made the tape for the thing that we sent them a {pause} week or week and a half ago"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 8,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and hopefully next week we 'll have the transcription back from that ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So we 're doing some in parallel ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've been trying to keep a web page uh up to date f showing what the current status is of the trans of all the things we 've collected"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 67,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "That 's the thing that I sent out just to foo people saying can you update these pages"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 72,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So Jane also wanted to talk about participant approval , but I don't really think there 's much to talk about ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "I 'm gonna send out to the participants , uh , with links to web pages which contain the transcripts and allow them to {pause} suggest edits ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So but it 's just transcripts , not the {disfmarker} not the audio ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Nope , they 'll have access to the audio also ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 80,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "Because the transcripts might not be right ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 92,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Um , DARPA demo status , not much to say ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "The back - end stuff is working out fine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "So that the front - end can then do filtering based on that as well ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 103,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And , also um , I was just showing Andreas , I got um an X Waves kind of display ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and I don't know how much more we can do with it {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "and I 'm sure it {disfmarker} think it has potential for a little something ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "For a demo ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "yeah , for a demo ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I 've been putting together uh Transcriber things for Windows"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 147,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But {disfmarker} But it would be cool if the Transcriber interface had like another window for the {disfmarker} you know , maybe above the waveform where it would show some arbitrary valued function that is {disfmarker} that is you know time synchron ti ti time synchronous with the wavform ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and see the pitch contours also ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 182,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Just record the audio clip and show an image and I think that 's {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "and , {vocalsound} the more live , the better , but uh , given the crunch of time , we may have to retreat from it to some extent ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 186,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So I think {disfmarker} {pause} For a lot of reasons , I think it would be very nice to have this Transcriber interface be able to show some other interesting signal along with it"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And the last i item on the agenda is disk issues yet again ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So , we 're doing OK on backed up ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "We 're {disfmarker} We 're only about thirty percent on the second disk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "but we are like ninety five percent , ninety eight percent on the scratch disks for the expanded meetings ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 328,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Well we {disfmarker} We haven't uncompressed all the meetings ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean it 's just a question of figuring out where they should be and hanging them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So this is a question that 's pretty hard to solve without talking to Dave ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 394,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But at any rate I think that there 's a {disfmarker} there 's a longer term thing and there 's immediate need"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 507,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "um yot I tested the uh {disfmarker} the sort of final version of the PLP configuration um on development test data for {disfmarker} for this year 's Hub - five test set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 509,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And the recognition performance was exactly , and I mean exactly up to the {disfmarker} you know , the first decimal , same as with the uh Mel Cepstra front - end ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "They {disfmarker} They were {disfmarker} The males I think were slightly better and the females were slightly worse but nothing really ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 519,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And then the really nice thing was that if {disfmarker} if we combine the two systems we get a one and a half percent improvement ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 548,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And then we had some results on {pause} digits , uh , with um {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 550,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "But as a result , um , you know , we were sort of wondering why is the Hub - five system doing so well on the digits ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 552,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And the reason is basically there 's a whole bunch of read speech data in the Hub - five training set ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 603,
+                    "sent_index": 3,
+                    "speaker": "PhD D",
+                    "content": "And then I th guess Chuck and I had some discussions about how to proceed with the tandem uh system"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 603,
+                    "sent_index": 4,
+                    "speaker": "PhD D",
+                    "content": "and {disfmarker} You wanna {disfmarker} {vocalsound} You wanna see where that stands ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 606,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah , so Andreas uh brought over the uh alignments that the SRI system uses ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 606,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And so I 'm in the process of um converting those alignments into uh label files that we can use to train uh a new net with ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "so something that we wanna do next meeting is {disfmarker} is uh to put together um , a kind of reasonable list for ourselves of what is it , um , that we 've done ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "I mean just sort of bulletize I mean o e do do I can {disfmarker} I can dream up text but {pause} this is basically gonna lead to the annual report ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 402,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So just a week from tomorrow ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 418,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Um {disfmarker} Uh {disfmarker} One thing {disfmarker} I mean {disfmarker} we {disfmarker} {vocalsound} {vocalsound} in past meetings we had um also a you know various {disfmarker} variously talked about the um work that w uh was happening sort of on the {disfmarker} on the recognition side"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 424,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , OK , so how many {disfmarker} how many people here would not be interested in uh {disfmarker} in a meeting about recognition ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 435,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Liz and Jane probably ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 462,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Why don't we alternate this meeting every other week ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 474,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "But I do I don't {disfmarker} I mean a lot of times lately it seems like we don't really have enough for a full meeting on Meeting Recorder ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh . So uh . Um . Let 's chat about it with Liz and Jane {pause} when we get a chance , see what they think and {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 35,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "Because I {disfmarker} I need to ask Jane whether it 's {disfmarker} it would be OK for her {disfmarker} um , s some of her people to transcribe uh some of the initial data we got from the SmartKom data collection , which is these short like five or seven minute sessions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 41,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "But to get going we would like some of the data transcribed right away so we can get started ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 43,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And so um I wanted to ask Jane if {disfmarker} if uh , you know , maybe one of their transcribers could {disfmarker} could do {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 43,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "I mean since these are very short , that should really be uh ,"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 65,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've been trying to keep a web page uh up to date f showing what the current status is of the trans of all the things we 've collected"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 69,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "I 'll send it out to the list telling people to look at it ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 74,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "I 'm gonna send out to the participants , uh , with links to web pages which contain the transcripts and allow them to {pause} suggest edits ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 77,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "So but it 's just transcripts , not the {disfmarker} not the audio ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 78,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Nope , they 'll have access to the audio also ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 85,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "So , um the audio that they 're gonna have access to , will that be the uncompressed version ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 85,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Or will you have scripts that like uncompress the various pieces and {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 86,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Yeah , it 's {disfmarker} it 's probably going to have to be the uncompressed versions because , uh , uh , it takes too long to do random access decompression ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 87,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Yeah , I was just wondering because we 're uh running out of the un - backed - up disk space on"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 306,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "There should {disfmarker} I d There should just be a b I should have a button ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 308,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Just press {disfmarker} Press each meeting saying \" we need more disk space \" {vocalsound} \" this week \" ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean it 's just a question of figuring out where they should be and hanging them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 344,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "The sysadmins would prefer to have one external drive per machine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So this is a question that 's pretty hard to solve without talking to Dave ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 255,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And you 're o you 're offering ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 256,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are {disfmarker} new transcriptions coming in I really can't do anything ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 259,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I {disfmarker} I jus I just gave Thilo some {disfmarker} about ten gigs , the last ten gigs of space that there was on {disfmarker} on uh Abbott ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So this is a question that 's pretty hard to solve without talking to Dave ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "yeah , for a demo ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 147,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But {disfmarker} But it would be cool if the Transcriber interface had like another window for the {disfmarker} you know , maybe above the waveform where it would show some arbitrary valued function that is {disfmarker} that is you know time synchron ti ti time synchronous with the wavform ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and see the pitch contours also ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 179,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Sure , but I don't think {disfmarker} I {disfmarker} You can do all that just statically in"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 181,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I think it would lose {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "and , {vocalsound} the more live , the better , but uh , given the crunch of time , we may have to retreat from it to some extent ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "So I think {disfmarker} {pause} For a lot of reasons , I think it would be very nice to have this Transcriber interface be able to show some other interesting signal along with it"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 420,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "So . Um . And I wondered whether we should maybe have um a separate meeting"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 424,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Well , OK , so how many {disfmarker} how many people here would not be interested in uh {disfmarker} in a meeting about recognition ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 435,
+                    "sent_index": 2,
+                    "speaker": "PhD D",
+                    "content": "Liz and Jane probably ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 462,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Why don't we alternate this meeting every other week ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 490,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "And then if we find , you know we 're just not getting enough done , there 's all these topics not coming up , then we can expand into another meeting ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh . So uh . Um . Let 's chat about it with Liz and Jane {pause} when we get a chance , see what they think and {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 492,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "Uh . So uh . Um . Let 's chat about it with Liz and Jane {pause} when we get a chance , see what they think and {disfmarker}"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 494,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah that would be good ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 4,
+                    "speaker": "Grad A",
+                    "content": "but we are like ninety five percent , ninety eight percent on the scratch disks for the expanded meetings ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 195,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "And , my original intention was like we would just delete them as we needed more space ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 213,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Because there 's no more room in the disk racks on Abbott ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 244,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "You {disfmarker} we need about a gig per meeting ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 311,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Well we 've collected so far something like uh sixty - five meetings ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 313,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "And it 's about a gig uncompressed ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 394,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But at any rate I think that there 's a {disfmarker} there 's a longer term thing and there 's immediate need"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 236,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 248,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 330,
+                    "sent_index": 2,
+                    "speaker": "Professor B",
+                    "content": "I mean it 's just a question of figuring out where they should be and hanging them ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 334,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Well I sent that message out to , I guess , you and Dave asking for {disfmarker} if we could get some disk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 344,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "The sysadmins would prefer to have one external drive per machine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 344,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "So they don't want to stack up external drives ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 352,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "So this is a question that 's pretty hard to solve without talking to Dave ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 354,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "I think part of the reason why Dave can't get the {disfmarker} the new machines up is because he doesn't have room in the machine room right now ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 394,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "But at any rate I think that there 's a {disfmarker} there 's a longer term thing and there 's immediate need"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 8,
+                    "speaker": "Grad A",
+                    "content": "Uh {disfmarker} The back - end is uh , going more slowly as I s I think I said before just cuz I 'm not much of a Tcl - TK programmer ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 147,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But {disfmarker} But it would be cool if the Transcriber interface had like another window for the {disfmarker} you know , maybe above the waveform where it would show some arbitrary valued function that is {disfmarker} that is you know time synchron ti ti time synchronous with the wavform ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and see the pitch contours also ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 182,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "Just record the audio clip and show an image and I think that 's {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 186,
+                    "sent_index": 1,
+                    "speaker": "Professor B",
+                    "content": "and , {vocalsound} the more live , the better , but uh , given the crunch of time , we may have to retreat from it to some extent ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 400,
+                    "sent_index": 6,
+                    "speaker": "Professor B",
+                    "content": "so something that we wanna do next meeting is {disfmarker} is uh to put together um , a kind of reasonable list for ourselves of what is it , um , that we 've done ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 400,
+                    "sent_index": 7,
+                    "speaker": "Professor B",
+                    "content": "I mean just sort of bulletize I mean o e do do I can {disfmarker} I can dream up text but {pause} this is basically gonna lead to the annual report ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 402,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So just a week from tomorrow ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 403,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "Um , that would"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 5,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Um {disfmarker} Well first of all with IBM I got a note from Brian yesterday saying that they finally made the tape for the thing that we sent them a {pause} week or week and a half ago"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 8,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "and hopefully next week we 'll have the transcription back from that ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 13,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah , so um , I guess she 's hired some new transcribers"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 23,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So we 're doing some in parallel ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 31,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "So . They ' r they 're doing the full transcription process ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 33,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "So they 're just doing their own thing until {disfmarker}"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 65,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "so I 've been trying to keep a web page uh up to date f showing what the current status is of the trans of all the things we 've collected"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 67,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "That 's the thing that I sent out just to foo people saying can you update these pages"
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "So , we 're doing OK on backed up ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "We 're {disfmarker} We 're only about thirty percent on the second disk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 364,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "But I {disfmarker} I know that {pause} generally their first priority has been for backed up disk ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 364,
+                    "sent_index": 1,
+                    "speaker": "Grad A",
+                    "content": "And so I think what he 's been concentrating on is uh the back {disfmarker} the {pause} back up system , rather than on new disk ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Um , DARPA demo status , not much to say ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 92,
+                    "sent_index": 3,
+                    "speaker": "Grad A",
+                    "content": "The back - end stuff is working out fine ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 5,
+                    "speaker": "Grad A",
+                    "content": "I 've added some stuff that uh indes indexes by the meeting type MR , EDU , et cetera"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 92,
+                    "sent_index": 7,
+                    "speaker": "Grad A",
+                    "content": "So that the front - end can then do filtering based on that as well ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 110,
+                    "sent_index": 0,
+                    "speaker": "Professor B",
+                    "content": "OK , so again , the issue is {disfmarker} For July , the issue 's gonna be what can we fit into a Windows machine , uh , and so on ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 116,
+                    "sent_index": 0,
+                    "speaker": "PhD C",
+                    "content": "I 've been putting together uh Transcriber things for Windows"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 125,
+                    "sent_index": 2,
+                    "speaker": "PhD C",
+                    "content": "but {disfmarker} But the problem is the version Transcriber works with , the Snack version , is one point six whatever"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 147,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But {disfmarker} But it would be cool if the Transcriber interface had like another window for the {disfmarker} you know , maybe above the waveform where it would show some arbitrary valued function that is {disfmarker} that is you know time synchron ti ti time synchronous with the wavform ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 178,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "and see the pitch contours also ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 103,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "And , also um , I was just showing Andreas , I got um an X Waves kind of display ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 103,
+                    "sent_index": 1,
+                    "speaker": "Grad E",
+                    "content": "and I don't know how much more we can do with it {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "so , right now it 's just an X Waves"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 105,
+                    "sent_index": 3,
+                    "speaker": "Grad E",
+                    "content": "and I 'm sure it {disfmarker} think it has potential for a little something ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 106,
+                    "sent_index": 0,
+                    "speaker": "Grad A",
+                    "content": "For a demo ?"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 107,
+                    "sent_index": 0,
+                    "speaker": "Grad E",
+                    "content": "yeah , for a demo ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 507,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "um yot I tested the uh {disfmarker} the sort of final version of the PLP configuration um on development test data for {disfmarker} for this year 's Hub - five test set ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 509,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And the recognition performance was exactly , and I mean exactly up to the {disfmarker} you know , the first decimal , same as with the uh Mel Cepstra front - end ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 511,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "For both females and males ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 514,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "They {disfmarker} They were {disfmarker} The males I think were slightly better and the females were slightly worse but nothing really ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 517,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "I mean definitely not significant ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 519,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And then the really nice thing was that if {disfmarker} if we combine the two systems we get a one and a half percent improvement ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 548,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And then we had some results on {pause} digits , uh , with um {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 550,
+                    "sent_index": 1,
+                    "speaker": "PhD D",
+                    "content": "But as a result , um , you know , we were sort of wondering why is the Hub - five system doing so well on the digits ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 552,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "And the reason is basically there 's a whole bunch of read speech data in the Hub - five training set ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 557,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "The rest is {disfmarker} is read {disfmarker} is read TIMIT data and uh ATIS data and Wall Street Journal and stuff like that ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 563,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "But it definitely helps to have the other read data in there"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 567,
+                    "sent_index": 0,
+                    "speaker": "PhD D",
+                    "content": "You know the error rate is half of what you do if you train only on ti uh TIMIT {disfmarker} {comment} uh not TIMIT uh TI - digits ,"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 606,
+                    "sent_index": 0,
+                    "speaker": "PhD F",
+                    "content": "Yeah , so Andreas uh brought over the uh alignments that the SRI system uses ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 606,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "And so I 'm in the process of um converting those alignments into uh label files that we can use to train uh a new net with ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 606,
+                    "sent_index": 2,
+                    "speaker": "PhD F",
+                    "content": "And uh so then I 'll train the net ."
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting concerned mostly status updates and logistical affairs.",
+                    "The participants learned that the transcription status was good.",
+                    "The progress on the DARPA demo was also good, except the interface did not look as pretty as they had wanted to.",
+                    "The storage disks, which they had been waiting for, had finally arrived, but the person responsible for installing them was going on break.",
+                    "The participants also decided to schedule less meetings, so they have updates to report when they do.",
+                    "The meeting ended with technical discussion about model performance."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 39,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "The {disfmarker} Again , we {disfmarker} we have a similar uh logistic set - up where we are supposed to send the data to Munich"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 41,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "and get it transcribed and get it back ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Oh , yeah , and also related to the transcription stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 65,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "so I 've been trying to keep a web page uh up to date f showing what the current status is of the trans of all the things we 've collected"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 65,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "and what stage each meeting is in , in terms of whether it 's {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 2,
+                            "speaker": "PhD F",
+                            "content": "That 's the thing that I sent out just to foo people saying can you update these pages"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 72,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "So Jane also wanted to talk about participant approval , but I don't really think there 's much to talk about ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 72,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "And uh , if anyone objects too much then they can do it instead ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "I 'm gonna send out to the participants , uh , with links to web pages which contain the transcripts and allow them to {pause} suggest edits ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 74,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "And then bleep them out ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "Um , DARPA demo status , not much to say ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "Uh {disfmarker} The back - end is uh , going more slowly as I s I think I said before just cuz I 'm not much of a Tcl - TK programmer ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 9,
+                            "speaker": "Grad A",
+                            "content": "And uh Dave Gelbart says he 's a little too busy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 10,
+                            "speaker": "Grad A",
+                            "content": "So I think Don and I are gonna work on that and {disfmarker} and you and I can just talk about it off - line more ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 96,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "It may not be as {disfmarker} As pretty as we might like , but we 'll have something ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 206,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "SUN - Blades ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 209,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "They came in but they 're not set up yet ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 236,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well , for the next meeting you might be out of luck with those ten ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 462,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Why don't we alternate this meeting every other week ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 469,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "I {disfmarker} I {disfmarker} Personally I 'd {disfmarker} I 'm not in favor of more meetings ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 481,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "We feel {disfmarker} We feel obligated to collect more data ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 490,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And then if we find , you know we 're just not getting enough done , there 's all these topics not coming up , then we can expand into another meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 496,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "and there 's lots of things , you know , details and stuff that would I think people 'd be interested in"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 567,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "You know the error rate is half of what you do if you train only on ti uh TIMIT {disfmarker} {comment} uh not TIMIT uh TI - digits ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 572,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "So . Uh , more read speech data definitely helps ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 572,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "And you can leave out all the conversational data with no performance penalty ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on storage disks and computer connections",
+                "tokenized_answer": [
+                    "The participants learned that the storage disks had eventually arrived.",
+                    "They were waiting on the disks to be installed.",
+                    "Grad E volunteered storage space on their own computer for the meantime.",
+                    "The meetings were around 1.5 gigs uncompressed and .5 gigs compressed.",
+                    "So, the group needed substantial space.",
+                    "The professor encouraged the team members to talk to Dave, the person responsible for managing the organization's storage systems, and figure things out."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 204,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "ten , uh SPARC - Blade SUN - Blades ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 205,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Did they come in ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 208,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "They came in the other day ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 213,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Because there 's no more room in the disk racks on Abbott ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 219,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "But you still need to store the disks somehow ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 248,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 256,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are {disfmarker} new transcriptions coming in I really can't do anything ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 312,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And {disfmarker} And how much does each meeting take ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 313,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "And it 's about a gig uncompressed ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 317,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Right , yeah so if you uncompressed everything it 's even more ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 318,
+                            "sent_index": 2,
+                            "speaker": "PhD C",
+                            "content": "One point five or something ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 319,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "U Uh compressed how much are they ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 320,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Half a gig ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 364,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "But I {disfmarker} I know that {pause} generally their first priority has been for backed up disk ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 367,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "Uh , but the question is where they go ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 368,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Maybe we can put some disks in the {disfmarker} in that back room there ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 362,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I think Dave {disfmarker} Dave knows all these things , of course ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 367,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "Basically , we can easily get {pause} one to four disks ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 367,
+                            "sent_index": 6,
+                            "speaker": "Professor B",
+                            "content": "Uh , but the question is where they go ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 367,
+                            "sent_index": 7,
+                            "speaker": "Professor B",
+                            "content": "and I don't think we can solve that here ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 367,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "you just have to ask him ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad E contribute to the discussion on storage disks?",
+                "tokenized_answer": [
+                    "Grad E volunteered his 18 Gigabyte drive to the group.",
+                    "The drive had 12 gigabytes of memory and he was not using it for anything."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 248,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I have um {disfmarker} I have an eighteen gig drive hanging off of my computer ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 251,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "You had an eighteen gigabyte drive ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 252,
+                            "sent_index": 1,
+                            "speaker": "Grad E",
+                            "content": "Well it 's about {disfmarker} I think there 's about twelve gig left ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 255,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "And you 're o you 're offering ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 256,
+                            "sent_index": 0,
+                            "speaker": "Grad E",
+                            "content": "I mean I 'm not doing anything on it right now until I get new meetings to transcri or that are {disfmarker} new transcriptions coming in I really can't do anything ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the group think about Dave leaving?",
+                "tokenized_answer": [
+                    "The group needed Dave Johnson to install the some one hundred SUN - Blades that had arrived and would help with storage.",
+                    "But Dave Johnson, the professor informed them, was leaving for ten days.",
+                    "The Professor informed the group that Dave was always busy and the group realized that there was no dedicated person who could help them."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 204,
+                            "sent_index": 1,
+                            "speaker": "Grad A",
+                            "content": "Um {disfmarker} And Jane was gonna talk to , uh , Dave Johnson about it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 204,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "One of the things I was thinking is we {disfmarker} we just got these hundred {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "SUN - Blades ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 209,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "They came in but they 're not set up yet ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 220,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "Well , but the SUN - Blades have spare drive bays ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "Uh , you know Dave Johnson is gone for , like , ten days ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 243,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I don't know what his schedule is ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 341,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "But he 's probably too busy given that he 's leaving ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 392,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "If there was a person dedicated to doing it they would happen pretty easily but it 's {disfmarker} it 's {disfmarker} jus every ever everybody {disfmarker} everybody has a {disfmarker} has {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 393,
+                            "sent_index": 0,
+                            "speaker": "Grad A",
+                            "content": "But Dave has to do all of them ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about scheduling meetings going forward",
+                "tokenized_answer": [
+                    "The team thought that they should not have everyone attend meetings on specific topics.",
+                    "For general catchup meetings like this, they thought it would make sense to alternate every two weeks.",
+                    "The team joked around about having a guys meeting, as one of the groups would not have any female members.",
+                    "They were mainly concerned with collecting more data through their own meeting recordings.",
+                    "Though, many of the meetings they were having for that purpose were shorter than they would have liked."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 420,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "um but isn't necessarily related to meetings uh specifically ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 420,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "So . Um . And I wondered whether we should maybe have um a separate meeting"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 420,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "and between you know , whoever 's interested in that"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 420,
+                            "sent_index": 3,
+                            "speaker": "PhD D",
+                            "content": "because I feel that uh there 's plenty of stuff to talk about"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 459,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "And we don't have to do it every week ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 462,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "Why don't we alternate this meeting every other week ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 464,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Tha - That 's what I mean ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 436,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "OK , so we 're gonna have a guy 's meeting ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 438,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Good thing Liz isn't here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 441,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , real {disfmarker} real {disfmarker} real men {vocalsound} \" Real men do decoding \" or something like that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 481,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "We feel {disfmarker} We feel obligated to collect more data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 490,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "And then if we find , you know we 're just not getting enough done , there 's all these topics not coming up , then we can expand into another meeting ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 497,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , and you 're {disfmarker} you 're attending {pause} the uh {disfmarker} the front - end meeting as well as the others so you have {disfmarker} you have probably one of the best {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 505,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "So {disfmarker} so we could talk a little bit about that now if {disfmarker} if there 's some time ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about scheduling meetings going forward?",
+                "tokenized_answer": [
+                    "The professor polled the group on how many people would not be interested in meetings on recognition.",
+                    "He thought that they should at least try the smaller meetings and see what happens."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 424,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Well , OK , so how many {disfmarker} how many people here would not be interested in uh {disfmarker} in a meeting about recognition ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 426,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "Jane may not be ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 486,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "So if we could alternate the focus of the meeting {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 492,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "Uh . So uh . Um . Let 's chat about it with Liz and Jane {pause} when we get a chance , see what they think and {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What was the team joking about when it came to scheduling meetings?",
+                "tokenized_answer": [
+                    "The team was joking about one meeting being a \"guys\" meeting because both the female members of the group would be in the other meeting.",
+                    "They also seemed to be using foul language and joked at all the bleeping it would entail in the transcription."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "PhD D",
+                            "content": "Well I know {disfmarker} Well , Jane an"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 1,
+                            "speaker": "PhD D",
+                            "content": "Well you mean in a separate meeting or ha ha talking about it in this {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 435,
+                            "sent_index": 2,
+                            "speaker": "PhD D",
+                            "content": "Liz and Jane probably ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 436,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "OK , so we 're gonna have a guy 's meeting ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 441,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Yeah , real {disfmarker} real {disfmarker} real men {vocalsound} \" Real men do decoding \" or something like that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 449,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "It 's cuz {pause} y you have a {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 449,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So you need a better developed feminine side ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 451,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "There 's probably gonna be a lot of \" bleeps \" in this meeting ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

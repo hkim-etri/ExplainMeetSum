@@ -1,0 +1,1439 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": {},
+    "icsi": {
+        "tokenized_answer": [
+            "Another weekly meeting on ICSI's Meeting Recorder Group at Berkeley, though the members are joined by a visiting researcher.",
+            "The groups regulars reported progress on their work on mean subtraction, noise estimation, voice activity detection and the Vector Taylor Series.",
+            "While on these topics, related areas discussed included recognition window length, training versus test set sizes, artificial distortion and latency concerns.",
+            "Speaker fn002 is soon to be leaving the group, and so she will choose her best setup, run a complete set of experiments, and write up her work, procedure and results for next week.",
+            "New filters introduced to reduce latency by mn052 , performed slightly worse than those they replaced.",
+            "Whereas mn007 has added some latency to the process which he feels he can reduce.",
+            "Speaker me026 has been working on mean subtraction, his most recent results are suspiciously poor, and he is attempting to integrate the method into the SmartKom system.",
+            "Speaker mn052 has been looking at noise estimation, because he was getting better results with one data set than another.",
+            "Speaker mn007 has been looking at VAD performance, and getting some good results, though nothing that hasn't been produced before.",
+            "Speaker fn002 has been running VTS experiments, but her results aren't particularly impressive.",
+            "Speaker me006 has been working on the proposal for his thesis and outlined his idea."
+        ],
+        "answer_sentence_index": [
+            "Bro024.s.1",
+            "Bro024.s.2",
+            "Bro024.s.3",
+            "Bro024.s.4",
+            "Bro024.s.5",
+            "Bro024.s.6",
+            "Bro024.s.7",
+            "Bro024.s.8",
+            "Bro024.s.9",
+            "Bro024.s.10",
+            "Bro024.s.11"
+        ],
+        "evidence": [
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 4,
+                    "sent_index": 1,
+                    "speaker": "PhD F",
+                    "content": "Could you go ahead and turn on , uh , Stephane 's {disfmarker}"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 6,
+                    "sent_index": 0,
+                    "speaker": "Professor D",
+                    "content": "So that 's the virtual Stephane over there ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 12,
+                    "speaker": "PhD B",
+                    "content": "And I found that , the noise estimation is a reason for the TI - digits to perform worse than the baseline ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 554,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "yeah , there are two figures showing actually the , mmm , um , performance of the current VAD ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 911,
+                    "sent_index": 0,
+                    "speaker": "PhD H",
+                    "content": "Well , I only say that the {disfmarker} this is , a summary of the {disfmarker} of all the VTS experiments"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 64,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "And then there 's um , another thing I wanna start looking at , um , {vocalsound} wi is , um , the choice of the analysis window length ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 90,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "and , {vocalsound} do you know how they address this issue of , um , testing versus training ?"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 342,
+                    "sent_index": 7,
+                    "speaker": "Professor G",
+                    "content": "And every when we now start introducing some {disfmarker} some noise reduction technique we {disfmarker} we introduce also somehow artificial distortions ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 466,
+                    "sent_index": 1,
+                    "speaker": "Professor D",
+                    "content": "So {disfmarker} So , basically our {disfmarker} our position is {vocalsound} that , um , we shouldn't be unduly constraining the latency at this point"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 974,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "Maybe you {disfmarker} you are leaving in {disfmarker} in about two weeks Carmen ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 975,
+                    "sent_index": 0,
+                    "speaker": "PhD H",
+                    "content": "Yeah ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 978,
+                    "sent_index": 1,
+                    "speaker": "Professor G",
+                    "content": "what {disfmarker} what I would do is I {disfmarker} I {disfmarker} I would pick @ @ {comment} the best consolation , which you think ,"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 978,
+                    "sent_index": 2,
+                    "speaker": "Professor G",
+                    "content": "and {vocalsound} c create {disfmarker} create all the results for the whole database that you get to the final number as {disfmarker} as Sunil did it"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 980,
+                    "sent_index": 1,
+                    "speaker": "Professor G",
+                    "content": "and maybe also to {disfmarker} to write somehow a document where you describe your approach , and what you have done ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 981,
+                    "sent_index": 1,
+                    "speaker": "PhD H",
+                    "content": "I was thinking to do that next week ."
+                }
+            ],
+            [
+                {
+                    "type": "PES",
+                    "turn_index": 455,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "So the other thing is the {disfmarker} I 'm just looking at a little bit on the delay issue where the delay of the system is like a hundred and eighty millisecond ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 2,
+                    "speaker": "PhD B",
+                    "content": "So {vocalsound} I just {disfmarker} just tried another sk system {disfmarker} I mean , another filter which I 've like shown at the end ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 455,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "Which is very similar to the existing uh , filter ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 457,
+                    "sent_index": 1,
+                    "speaker": "PhD B",
+                    "content": "so {disfmarker} so this {disfmarker} this is like {disfmarker} So this makes the delay like zero for LDA"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 461,
+                    "sent_index": 3,
+                    "speaker": "PhD B",
+                    "content": "So it 's just like {disfmarker} it 's like a three percent relative degradation ,"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 462,
+                    "sent_index": 0,
+                    "speaker": "Professor G",
+                    "content": "But {disfmarker} but is there {disfmarker} is there a problem with the one hundred eighty milliseconds ?"
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 799,
+                    "sent_index": 4,
+                    "speaker": "PhD E",
+                    "content": "But unfortunately there is , like , this forty millisecond latency"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 799,
+                    "sent_index": 7,
+                    "speaker": "PhD E",
+                    "content": "Yeah , so I would try to somewhat reduce this @ @ ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 799,
+                    "sent_index": 8,
+                    "speaker": "PhD E",
+                    "content": "I already know that if I completely remove this latency , so . {vocalsound} um , {comment} it {disfmarker} um there is a three percent hit on Italian ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 2,
+                    "speaker": "Grad C",
+                    "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 4,
+                    "speaker": "Grad C",
+                    "content": "I ran some tests last night ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 15,
+                    "sent_index": 7,
+                    "speaker": "Grad C",
+                    "content": "the results are suspicious ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 15,
+                    "sent_index": 8,
+                    "speaker": "Grad C",
+                    "content": "Um , it 's , um , {vocalsound} cuz they 're {disfmarker} the baseline results are worse than , um , Andreas {disfmarker} than results Andreas got previously ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 3,
+                    "speaker": "Grad C",
+                    "content": "ap ap apart from that , I guess the {disfmarker} the main thing I have t ta I have to talk is , um , where I 'm planning to go over the next week ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 19,
+                    "sent_index": 5,
+                    "speaker": "Grad C",
+                    "content": "So I 've been working on integrating this mean subtraction approach into the SmartKom system ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 5,
+                    "speaker": "PhD B",
+                    "content": "so the last week , uh , I showed some results with only SpeechDat - Car"
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 6,
+                    "speaker": "PhD B",
+                    "content": "which was like some fifty - six percent ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 193,
+                    "sent_index": 9,
+                    "speaker": "PhD B",
+                    "content": "I mean , I wasn't getting that r results on the TI - digit ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 193,
+                    "sent_index": 12,
+                    "speaker": "PhD B",
+                    "content": "And I found that , the noise estimation is a reason for the TI - digits to perform worse than the baseline ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 554,
+                    "sent_index": 1,
+                    "speaker": "PhD E",
+                    "content": "yeah , there are two figures showing actually the , mmm , um , performance of the current VAD ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 911,
+                    "sent_index": 0,
+                    "speaker": "PhD H",
+                    "content": "Well , I only say that the {disfmarker} this is , a summary of the {disfmarker} of all the VTS experiments"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 911,
+                    "sent_index": 1,
+                    "speaker": "PhD H",
+                    "content": "and say that the result in the last {comment} um , for Italian {disfmarker} the last experiment for Italian , {vocalsound} are bad ."
+                },
+                {
+                    "type": "PES",
+                    "turn_index": 913,
+                    "sent_index": 4,
+                    "speaker": "PhD H",
+                    "content": "If we put everything , we improve a lot u the spectral use of the VTS"
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 913,
+                    "sent_index": 5,
+                    "speaker": "PhD H",
+                    "content": "but the final result {vocalsound} are not still mmm , good {vocalsound} like the Wiener filter for example ."
+                }
+            ],
+            [
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 2,
+                    "speaker": "Grad A",
+                    "content": "Um , so for the past , {vocalsound} uh , week an or two , I 've been just writing my , uh , formal thesis proposal ."
+                },
+                {
+                    "type": "CES",
+                    "turn_index": 170,
+                    "sent_index": 6,
+                    "speaker": "Grad A",
+                    "content": "And uh , should I {disfmarker} should I explain , uh , more about what {disfmarker} what I 'm proposing to do , and s and stuff ?"
+                }
+            ]
+        ]
+    },
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The team discussed SRI experiments, multi-band approaches, latency, VAD, and noise addition.",
+                    "The mean subtraction approach for SRI that relied on a twelve second interval resulted in a zero point three percent improvement over the six second model, not necessarily significant.",
+                    "The team thought that training the model on different speeds of speech would be helpful to add to this progress.",
+                    "Grad A introduced the team to her formal proposal for the qualifier exam.",
+                    "The work focused on intermediate classifiers and multi-band graphical models for speech recognition.",
+                    "The team then discussed noise removal as well The model PhD B was working on did not do well in non-stationary noise environments.",
+                    "In general, however, the model had improved.",
+                    "The VAD was labeling speech as silence segments, which could be attributed to alignment issues.",
+                    "The team thought that noise addition techniques might help the model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "so briefly , {vocalsound} I 'm proposing to do a n a new p approach to speech recognition using um , a combination of , uh , multi - band ideas and ideas , um , {vocalsound} {vocalsound} {comment} about the uh , acoustic phonec phonetic approach to speech recognition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 173,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "Um , so I will be using {vocalsound} these graphical models that {disfmarker} um , that implement the multi - band approach {vocalsound} to recognize a set of intermediate categories that might involve , uh , things like phonetic features {vocalsound} or other {disfmarker} other f feature things that are more closely related to the acoustic signal itself ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 466,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "So {disfmarker} So , basically our {disfmarker} our position is {vocalsound} that , um , we shouldn't be unduly constraining the latency at this point"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 466,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "Uh , there is a minority in that group who is a arguing {disfmarker} who are arguing for {vocalsound} um , uh , having a further constraining of the latency ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 466,
+                            "sent_index": 4,
+                            "speaker": "Professor D",
+                            "content": "So we 're s just continuing to keep aware of what the trade - offs are and , you know , what {disfmarker} what do we gain from having longer or shorter latencies ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 554,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "yeah , there are two figures showing actually the , mmm , um , performance of the current VAD ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 554,
+                            "sent_index": 10,
+                            "speaker": "PhD E",
+                            "content": "Well , in {disfmarker} in the system we want to add like speech frame before every word and a little bit of {disfmarker} of , uh , s a couple of frames after also ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 554,
+                            "sent_index": 11,
+                            "speaker": "PhD E",
+                            "content": "Uh , but to estimate the performance of the VAD , we don't want to do that ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 554,
+                            "sent_index": 12,
+                            "speaker": "PhD E",
+                            "content": "because it would artificially increase the um {disfmarker} the false alarm rate of speech detection ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 755,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And if you add too much noise it get worse also ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 755,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "And it seems that {vocalsound} right now this {disfmarker} this is c a constant that does not depend on {disfmarker} {comment} on anything that you can learn from the utterance ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 755,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "It 's just a constant noise addition ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 6,
+                            "speaker": "Grad C",
+                            "content": "And there 's this question of , well , so , um , in my tests before with HTK I found it worked {disfmarker} it worked the best with about twelve seconds of data used to estimate the mean ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 12,
+                            "speaker": "Grad C",
+                            "content": "If we think twelve seconds is ideal we could train the models using twelve seconds to calculate the mean , to mean subtract the training data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 14,
+                            "speaker": "Grad C",
+                            "content": "So {disfmarker} like I did an experiment where I , um , was using six seconds in test ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 18,
+                            "speaker": "Grad C",
+                            "content": "And six seconds in train {vocalsound} was about point three percent better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 19,
+                            "speaker": "Grad C",
+                            "content": "Um , and {disfmarker} {vocalsound} um , it 's not clear to me yet whether that 's {vocalsound} something significant ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 14,
+                            "speaker": "Grad C",
+                            "content": "So {disfmarker} like I did an experiment where I , um , was using six seconds in test ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 15,
+                            "speaker": "Grad C",
+                            "content": "um , but , for {disfmarker} I tried twelve seconds in train ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 16,
+                            "speaker": "Grad C",
+                            "content": "And I tried , um , um , the same in train {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 17,
+                            "speaker": "Grad C",
+                            "content": "I 'm a I tried six seconds in train ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 18,
+                            "speaker": "Grad C",
+                            "content": "And six seconds in train {vocalsound} was about point three percent better ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 19,
+                            "speaker": "Grad C",
+                            "content": "Um , and {disfmarker} {vocalsound} um , it 's not clear to me yet whether that 's {vocalsound} something significant ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "Um , so for the past , {vocalsound} uh , week an or two , I 've been just writing my , uh , formal thesis proposal ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "Um , so I 'm taking {vocalsound} this qualifier exam that 's coming up in two weeks ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 6,
+                            "speaker": "Grad A",
+                            "content": "And uh , should I {disfmarker} should I explain , uh , more about what {disfmarker} what I 'm proposing to do , and s and stuff ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 171,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Yes , briefly ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 2,
+                            "speaker": "Grad A",
+                            "content": "so briefly , {vocalsound} I 'm proposing to do a n a new p approach to speech recognition using um , a combination of , uh , multi - band ideas and ideas , um , {vocalsound} {vocalsound} {comment} about the uh , acoustic phonec phonetic approach to speech recognition ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "Um , so I will be using {vocalsound} these graphical models that {disfmarker} um , that implement the multi - band approach {vocalsound} to recognize a set of intermediate categories that might involve , uh , things like phonetic features {vocalsound} or other {disfmarker} other f feature things that are more closely related to the acoustic signal itself ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "Um , and the hope in all of this is that by going multi - band and by going into these , {vocalsound} um intermediate classifications , {vocalsound} that we can get a system that 's more robust to {disfmarker} to unseen noises , and situations like that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 173,
+                            "sent_index": 3,
+                            "speaker": "Grad A",
+                            "content": "Um , so I will be using {vocalsound} these graphical models that {disfmarker} um , that implement the multi - band approach {vocalsound} to recognize a set of intermediate categories that might involve , uh , things like phonetic features {vocalsound} or other {disfmarker} other f feature things that are more closely related to the acoustic signal itself ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 173,
+                            "sent_index": 4,
+                            "speaker": "Grad A",
+                            "content": "Um , and the hope in all of this is that by going multi - band and by going into these , {vocalsound} um intermediate classifications , {vocalsound} that we can get a system that 's more robust to {disfmarker} to unseen noises , and situations like that ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 7,
+                            "speaker": "Grad A",
+                            "content": "some of the research issues involved in this are , {vocalsound} um , {vocalsound} {comment} one , what kind of intermediate categories do we need to classify ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 173,
+                            "sent_index": 8,
+                            "speaker": "Grad A",
+                            "content": "Um , another one is {vocalsound} um , what {disfmarker} what other types of structures in these multi - band graphical models should we consider in order to um , combine evidence from {vocalsound} the sub - bands ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 12,
+                            "speaker": "PhD B",
+                            "content": "And I found that , the noise estimation is a reason for the TI - digits to perform worse than the baseline ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 193,
+                            "sent_index": 14,
+                            "speaker": "PhD B",
+                            "content": "I mean , the first thing I did was I just scaled the noise estimate by a factor which is less than one to see if that {disfmarker} because I found there are a lot of zeros in the spectrogram for the TI - digits when I used this approach ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 193,
+                            "sent_index": 18,
+                            "speaker": "PhD B",
+                            "content": "Well , the n the new technique is nothing but the noise estimate scaled by a factor of point five ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 193,
+                            "sent_index": 22,
+                            "speaker": "PhD B",
+                            "content": "Because I 've {disfmarker} the only {disfmarker} only {disfmarker} p very good result in the TI - digits is the noise {disfmarker} car noise condition for their test - A ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 24,
+                            "speaker": "PhD B",
+                            "content": "uh , for any non - stationary noise like \" Babble \" or \" Subway \" or any {disfmarker} \" Street \" , some \" Restaurant \" noise , it 's like {disfmarker} it 's not performing w very well ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 193,
+                            "sent_index": 26,
+                            "speaker": "PhD B",
+                            "content": "the {disfmarker} {vocalsound} So that {disfmarker} that 's the first thing I c uh , I could make out from this stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 194,
+                            "sent_index": 0,
+                            "speaker": "Professor G",
+                            "content": "Yeah , I think what is important to see is that there is a big difference between the training modes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 1,
+                            "speaker": "Professor G",
+                            "content": "If you have clean training , you get also a fifty percent improvement ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 554,
+                            "sent_index": 11,
+                            "speaker": "PhD E",
+                            "content": "Uh , but to estimate the performance of the VAD , we don't want to do that ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 562,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "it 's logical that {vocalsound} it performs worse ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 562,
+                            "sent_index": 4,
+                            "speaker": "PhD E",
+                            "content": "uh , which means that we tend to label speech as {disfmarker} as a silence ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 562,
+                            "sent_index": 7,
+                            "speaker": "PhD E",
+                            "content": "but {vocalsound} I think it 's {disfmarker} it may be due to the fricative sounds"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 562,
+                            "sent_index": 8,
+                            "speaker": "PhD E",
+                            "content": "which may be {disfmarker} in noisy condition maybe label {disfmarker} labelled as silence ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 562,
+                            "sent_index": 9,
+                            "speaker": "PhD E",
+                            "content": "And it may also be due to the alignment"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 562,
+                            "sent_index": 11,
+                            "speaker": "PhD E",
+                            "content": "well , the reference alignment ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 755,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "It 's just a constant noise addition ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 758,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "but I thought you were adding an amount that was twenty - five DB down from the signal energy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 762,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Oh , it 's just a constant amount over all ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 765,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "wha what I observed is that for Italian and Spanish , {comment} when you go to thirty and twenty - five DB , {comment} uh it {disfmarker} it 's good ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 767,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "well , the performance of the {disfmarker} this algorithm is quite good ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion on SRI experiments and mean subtraction",
+                "tokenized_answer": [
+                    "The SRI system was doing worse on the hub-five training set for mean subtraction.",
+                    "The model performed better on six seconds of training data rather than twelve seconds, but the improvement was only point three percent.",
+                    "The professor thought small differences were important for research but not as important in industry.",
+                    "One suggestion for further work was changing speech rate using the algorithm, though it came at the risk of degrading the data."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "so , yeah , the {disfmarker} this past week I 've been main mainly occupied with , um , getting some results , u from the SRI system trained on this short Hub - five training set for the mean subtraction method ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 15,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "I ran some tests last night ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 7,
+                            "speaker": "Grad C",
+                            "content": "the results are suspicious ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 15,
+                            "sent_index": 8,
+                            "speaker": "Grad C",
+                            "content": "Um , it 's , um , {vocalsound} cuz they 're {disfmarker} the baseline results are worse than , um , Andreas {disfmarker} than results Andreas got previously ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 19,
+                            "sent_index": 11,
+                            "speaker": "Grad C",
+                            "content": "But , {vocalsound} um , {vocalsound} there 's a question of how to set up the models . So um , we could train the models ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 15,
+                            "speaker": "Grad C",
+                            "content": "um , but , for {disfmarker} I tried twelve seconds in train ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 17,
+                            "speaker": "Grad C",
+                            "content": "I 'm a I tried six seconds in train ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 18,
+                            "speaker": "Grad C",
+                            "content": "And six seconds in train {vocalsound} was about point three percent better ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 19,
+                            "sent_index": 19,
+                            "speaker": "Grad C",
+                            "content": "Um , and {disfmarker} {vocalsound} um , it 's not clear to me yet whether that 's {vocalsound} something significant ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 6,
+                            "speaker": "Professor D",
+                            "content": "Um , I mean , on the one hand in a practical system if something is , uh , four point four percent error , four point one percent error , people won't really tell {disfmarker} be able to tell the difference ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 61,
+                            "sent_index": 7,
+                            "speaker": "Professor D",
+                            "content": "On the other hand , when you 're doing , uh , research , you may , eh {disfmarker} you might find that the way that you build up a change from a ninety - five percent accurate system to a ninety - eight percent accurate system is through ten or twelve little things that you do that each are point three percent ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "But what do you {disfmarker} What about if I w I fed it through some kind of , um , speech processing algorithm that changed the speech rate ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Yeah , but then you 'll have the degradation of {disfmarker} of , uh , whatever you do uh , added onto that ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the professor think about speech rate algorithms?",
+                "tokenized_answer": [
+                    "The professor thought it mattered how fast someone was speaking since the model was getting a spectrum over different kinds of speech sounds.",
+                    "He was skeptical that changing speech rate was the solution, though he thought it was worth looking into.",
+                    "His solution was collecting more samplings of different phones for when people speak slower."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 65,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "I guess one thing that might also be an issue , uh , cuz part of what you 're doing is you 're getting a {disfmarker} a spectrum over a bunch of different kinds of speech sounds ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 65,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "and so it might matter how fast someone was talking for instance ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 72,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "But what do you {disfmarker} What about if I w I fed it through some kind of , um , speech processing algorithm that changed the speech rate ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Yeah , but then you 'll have the degradation of {disfmarker} of , uh , whatever you do uh , added onto that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 74,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "Well , uh , just if you think it 's worth looking into ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "You know , if you {disfmarker} if {disfmarker} if {disfmarker} if there 's a lot of phones in one second maybe you 'll get a {disfmarker} a really good sampling of all these different things ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 67,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "and {disfmarker} {vocalsound} and , uh , on the other hand if someone 's talking slowly maybe you 'd need more ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team discuss about LDA filters?",
+                "tokenized_answer": [
+                    "Grad C thought that one way to improve performance might be training LDA filters in different conditions.",
+                    "The professor D agreed that the LDA filter was interesting.",
+                    "He thought hamming would work too.",
+                    "Professor G said that most people just do on-line filtering, which entailed subtracting the mean, not LDA."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 80,
+                            "sent_index": 0,
+                            "speaker": "Grad C",
+                            "content": "And {disfmarker} and th the third thing , um , uh , is , um , Barry explained LDA filtering to me yesterday ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And so , um , Mike Shire in his thesis um , {vocalsound} did a {disfmarker} a series of experiments , um , training LDA filters in d on different conditions ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 80,
+                            "sent_index": 3,
+                            "speaker": "Grad C",
+                            "content": "for this mean subtraction approach ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 5,
+                            "speaker": "Grad C",
+                            "content": "Or for these long analysis windows , I guess , is the right way to put it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 1,
+                            "speaker": "Grad C",
+                            "content": "And so , um , Mike Shire in his thesis um , {vocalsound} did a {disfmarker} a series of experiments , um , training LDA filters in d on different conditions ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 2,
+                            "speaker": "Grad C",
+                            "content": "And you were interested in having me repeat this for {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 80,
+                            "sent_index": 4,
+                            "speaker": "Grad C",
+                            "content": "Is {disfmarker} is that right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 81,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I guess , the {disfmarker} the {disfmarker} the issue I was {disfmarker} the general issue I was bringing up was that if you 're {disfmarker} have a moving {disfmarker} {vocalsound} moving window , uh , a wa a {disfmarker} a set of weights times things that , uh , move along , shift along in time , that you have in fact a linear time invariant filter ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 81,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "And so the issue is what are some other filters that you could use , uh , in that sense of \" filter \" ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 83,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "as I was saying , I think the simplest thing to do is not to train anything , but just to do some sort of , uh , uh , hamming or Hanning , uh , kind of window , kind of thing ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 85,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "But then , yeah , the LDA i uh , is interesting because it would sort of say well , suppose you actually trained this up to do the best you could by some criterion ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 0,
+                            "speaker": "Professor G",
+                            "content": "I think what they do is they do it always on - line ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 92,
+                            "sent_index": 1,
+                            "speaker": "Professor G",
+                            "content": "I mean , that you just take what you have from the past ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 92,
+                            "sent_index": 2,
+                            "speaker": "Professor G",
+                            "content": "that you calculate the mean of this and subtract the mean ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on noise addition",
+                "tokenized_answer": [
+                    "Too much noise was causing the model to perform worse, so the noise addition was constant and not too high.",
+                    "The overall improvement was good.",
+                    "The smoothing for the average for noise addition was only done on low gains.",
+                    "The model performed better on high mismatch."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 755,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And if you add too much noise it get worse also ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 755,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "It 's just a constant noise addition ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 769,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "the {disfmarker} the a the noise addition should be lower"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 767,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "well , the performance of the {disfmarker} this algorithm is quite good ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 820,
+                            "sent_index": 2,
+                            "speaker": "Professor G",
+                            "content": "As far as I remember you {disfmarker} you smooth somehow the envelope ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 820,
+                            "sent_index": 3,
+                            "speaker": "Professor G",
+                            "content": "you smooth somehow the noise estimate ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 834,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "But the way it 's done is that um , for low gain , there is this non nonlinear smoothing actually ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 834,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "For low gains um , I use the smoothed sm uh , smoothed version"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 834,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "but {disfmarker} for high gain @ @ {comment} it 's {disfmarker} I don't smooth ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 885,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "if you don't weigh differently the different condition , you can see that your {disfmarker} well , the win the two - stage Wiener filtering is maybe better"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 887,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "It 's better for high mismatch , right ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 888,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Yeah ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 888,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "it 's better for high mismatch ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team discuss about high mismatch?",
+                "tokenized_answer": [
+                    "The model that PhD B was working on performed better on high mismatch than on the well matched case.",
+                    "The professor thought that this reflected the team's priority, which had always focused more so on the high mismatched case.",
+                    "PhD H was concerned that their model did worse on medium and high mismatch.",
+                    "Adding noise hurt their model."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 888,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "it 's better for high mismatch ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 889,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "But a little bit worse for well matched ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 888,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "it 's better for high mismatch ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 901,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , our tradition here has always been to focus on the mismatched ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 913,
+                            "sent_index": 4,
+                            "speaker": "PhD H",
+                            "content": "If we put everything , we improve a lot u the spectral use of the VTS"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 913,
+                            "sent_index": 5,
+                            "speaker": "PhD H",
+                            "content": "but the final result {vocalsound} are not still mmm , good {vocalsound} like the Wiener filter for example ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 915,
+                            "sent_index": 0,
+                            "speaker": "PhD H",
+                            "content": "I don't know exactly ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 915,
+                            "sent_index": 2,
+                            "speaker": "PhD H",
+                            "content": "Because I have , {vocalsound} mmm , {comment} worse result in medium mismatch and high mismatch ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 755,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And if you add too much noise it get worse also ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 769,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "the {disfmarker} the a the noise addition should be lower"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did professor G say about smoothing?",
+                "tokenized_answer": [
+                    "Professor G was trying to understand where the smoothing took place in PhD B's model.",
+                    "Professor G suggested that the smoothing was best done as early as possible."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 820,
+                            "sent_index": 0,
+                            "speaker": "Professor G",
+                            "content": "I mean , you {disfmarker} you have now several stages of smoothing , so to say ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 820,
+                            "sent_index": 2,
+                            "speaker": "Professor G",
+                            "content": "As far as I remember you {disfmarker} you smooth somehow the envelope ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 820,
+                            "sent_index": 3,
+                            "speaker": "Professor G",
+                            "content": "you smooth somehow the noise estimate ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 824,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Uh , actually I d I do all the smoothing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 826,
+                            "sent_index": 1,
+                            "speaker": "Professor G",
+                            "content": "Oh , it w it was you ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 827,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Yeah , yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 835,
+                            "sent_index": 4,
+                            "speaker": "Professor G",
+                            "content": "The best is to do the smoo smoothing as early as possible ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
