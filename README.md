@@ -94,6 +94,7 @@ So, you need acl2018_abssumm/ for dialogue act files.
 extractor based on **human-aligned extractive oracles**.
 
 ![](img/model_structure.png)
+
 An overall architecture of the proposed Multi-DYLE for the case of $M$ = 2
 
 ### Dependency
