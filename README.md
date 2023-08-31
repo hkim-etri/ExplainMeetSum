@@ -139,14 +139,22 @@ Dataset named ExplainMeetSum is extended-version of QMSum([https://github.com/Ya
 Model named Multi-DYLE is extended-version of DYLE([https://github.com/Yale-LILY/DYLE](https://github.com/Yale-LILY/DYLE)) for "[DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization](https://arxiv.org/pdf/2110.08168.pdf)", which distributed under MIT License Copyright (c) 2021 Yale-LILY.
 
 ## Citation
-If you extend or use our work, pleas cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf)
+If you extend or use our work, please cite the [paper](https://aclanthology.org/2023.acl-long.731.pdf)
 
 ```bibtex
-@inproceedings{kim2023explainmeetsum,
-  title={ExplainMeetSum: A Dataset for Explainable Meeting Summarization Aligned with Human Intent},
-  author={Kim, Hyun and Cho, Minsoo and Na, Seung-Hoon},
-  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  pages={13079--13098},
-  year={2023}
+@inproceedings{kim-etal-2023-explainmeetsum,
+    title = "{E}xplain{M}eet{S}um: A Dataset for Explainable Meeting Summarization Aligned with Human Intent",
+    author = "Kim, Hyun  and
+      Cho, Minsoo  and
+      Na, Seung-Hoon",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.731",
+    doi = "10.18653/v1/2023.acl-long.731",
+    pages = "13079--13098",
 }
+
 ```
