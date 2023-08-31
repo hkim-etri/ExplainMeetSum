@@ -95,7 +95,7 @@ extractor based on **human-aligned extractive oracles**.
 
 ![](img/model_structure.png)
 
-The figure shows an overall architecture of the proposed Multi-DYLE for the case of $M$ = 2.
+The figure shows the overall architecture of the Multi-DYLE for the case of $M$ = 2.
 
 ### Dependency
 Install dependencies via:
