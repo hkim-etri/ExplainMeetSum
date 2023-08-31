@@ -131,7 +131,7 @@ You can see other results by editing `config.py`.
 |-|-|-|-|-|
 |$\text{Multi-DYLE}(\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o})$||**37.55**|**12.43**|**32.76**|
 
-* $\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o}$ : Train with sentence-level ROUGE-based extractive oracle($\mathsf{X^{ROG}_o}) and CES-based extractive oracle($\mathsf{X^{CES}_o}).
+* ($\mathsf{X^{ROG}_o}, \mathsf{X^{CES}_o}$) : Train with sentence-level ROUGE-based extractive oracle($\mathsf{X^{ROG}_o}$) and CES-based extractive oracle($\mathsf{X^{CES}_o}$).
 
 ## Acknowledgements
 Dataset named ExplainMeetSum is extended-version of QMSum([https://github.com/Yale-LILY/QMSum](https://github.com/Yale-LILY/QMSum)) for "[QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization](https://arxiv.org/pdf/2104.05938v1.pdf)", which distributed under MIT License Copyright (c) 2021 Yale-LILY.
