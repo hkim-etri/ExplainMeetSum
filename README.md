@@ -90,7 +90,7 @@ We splited `meeting_transcripts` of ICSI and Ami dataset in QMSum by using dialo
 So, you need acl2018_abssumm/ for dialogue act files.
 
 ## Model (Multi-DYLE)
-**Multy-DYLE** model extensively generalizes DYLE to enable using a supervised
+**Multi-DYLE** model extensively generalizes DYLE to enable using a supervised
 extractor based on **human-aligned extractive oracles**.
 
 ![](img/model_structure.png)
